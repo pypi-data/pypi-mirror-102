@@ -1,0 +1,13 @@
+sympy
+numpy
+scipy
+networkx>=2
+
+[dev]
+pytest
+yapf==0.29
+pre-commit
+prospector==1.2.0
+pylint==2.4.4
+sphinx
+sphinx_rtd_theme
