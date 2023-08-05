@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aiosignalrcore
+Version: 0.9.2
+Summary: Async fork of Python SignalR Core client(json and messagepack), with invocation auth and two way streaming. Compatible with azure / serverless functions. Also with automatic reconnect and manually reconnect.
+Home-page: https://github.com/dipdup-net/aiosignalrcore
+Keywords: asyncio,signalr,core,client,3.1
+Author: mandrewcito
+Author-email: anbaalo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: msgpack (==1.0.2)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: websockets (>=8.1,<9.0)
+Description-Content-Type: text/markdown
+
+# SignalR core client (async fork)
+![Pypi](https://img.shields.io/pypi/v/aiosignalrcore.svg)
+
+This is asyncio version of the original SignalR Core [library](https://github.com/mandrewcito/signalrcore).  
+The main difference is that `websocket` library is replaced with asyncio-compatabile `websockets`.  
+All future changes in the original repo will be merged to this fork inheriting the major and minor version number.
