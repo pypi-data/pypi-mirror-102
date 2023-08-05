@@ -1,0 +1,4 @@
+scipy
+pysam
+beautifulsoup4
+numpy==1.16
