@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: aiosmartpost
+Version: 0.1.0
+Summary: Itella SmartPost API wrapper for humans 📦
+Home-page: https://github.com/HarrySky/aiosmartpost
+Author: Igor Nehoroshev
+Author-email: mail@neigor.me
+License: Unlicense
+Description: # aiosmartpost - Itella SmartPost API wrapper for humans 📦
+        
+        **WORK IN PROGRESS! NOT READY FOR PRODUCTION USE**
+        
+        [Official SmartPost API Docs](https://uus.smartpost.ee/ariklient/ostukorvi-rippmenuu-lisamise-opetus/automaatse-andmevahetuse-opetus)
+        
+        This solution:
+        * has both async and sync API
+        * has 100% type-annotated code
+        
+        ## Quickstart
+        
+        Examples use async version of `Client`, but you can use this import instead:
+        ```python
+        from smartpost.sync import Client
+        ```
+        
+        Fetch list of available Estonian destinations:
+        ```python
+        >>> from smartpost import Client
+        >>> client = Client("user", "pass")  # credentials can be omitted in this case
+        >>> await client.ee_destinations()
+        [Destination(place_id=101, name='Viljandi Männimäe Selver', ...), ...]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
