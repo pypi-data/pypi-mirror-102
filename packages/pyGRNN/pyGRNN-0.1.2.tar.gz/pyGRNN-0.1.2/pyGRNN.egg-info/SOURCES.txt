@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyGRNN/GRNN.py
+pyGRNN/__init__.py
+pyGRNN/base.py
+pyGRNN/feature_selection.py
+pyGRNN.egg-info/PKG-INFO
+pyGRNN.egg-info/SOURCES.txt
+pyGRNN.egg-info/dependency_links.txt
+pyGRNN.egg-info/requires.txt
+pyGRNN.egg-info/top_level.txt
