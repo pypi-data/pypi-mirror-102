@@ -1,0 +1,13 @@
+cgitize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cgitize/cgit.py,sha256=9EYNhhHhRr3rNeEuZQGuld0zRpYw_OLVaYYVw-Yd68o,6410
+cgitize/config.py,sha256=QFsWJuPH9HQXhmF-lW1Yeieu8EwvKrdFb89DdSHS0mo,2279
+cgitize/git.py,sha256=hfv70rM72ORApLRh3163FCTuSU1gZnUAipTHUK5V9RI,5357
+cgitize/main.py,sha256=HF7awbufufcgnr8T3fQeeP-z4geD8votwLs4-V-PrdA,1925
+cgitize/repo.py,sha256=JFl4tRogNMgQsllyA97nVEHUnoTnWcyoYWx3bb_9TQM,4906
+cgitize/utils.py,sha256=dn6q0RBm4koS-tGDwEJoZunmYjVdXqtASfQfVGacStk,2353
+cgitize-0.1.dist-info/LICENSE.txt,sha256=_ymJsdq4h-1HvDNn9FnaW-BkqSrLz6eNOgjUCKSw9-g,1092
+cgitize-0.1.dist-info/METADATA,sha256=h0Ye1ZNLat_tHEwQbmd_LKxt_mbiFrvGmOh75rPWXUY,2645
+cgitize-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cgitize-0.1.dist-info/entry_points.txt,sha256=la298gvGMFTdLRuo9KFwdY94s1yoP7b36DaRK5SkDLM,47
+cgitize-0.1.dist-info/top_level.txt,sha256=QQmIrKqwlnK41zHyBC4c2YH6aJ8rSN-G9lO3oSa3gBA,8
+cgitize-0.1.dist-info/RECORD,,
