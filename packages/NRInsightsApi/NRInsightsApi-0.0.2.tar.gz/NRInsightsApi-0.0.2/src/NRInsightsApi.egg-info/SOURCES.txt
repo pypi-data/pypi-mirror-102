@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/NRInsightsApi/__init__.py
+src/NRInsightsApi/get_data.py
+src/NRInsightsApi/insert_data.py
+src/NRInsightsApi.egg-info/PKG-INFO
+src/NRInsightsApi.egg-info/SOURCES.txt
+src/NRInsightsApi.egg-info/dependency_links.txt
+src/NRInsightsApi.egg-info/top_level.txt
