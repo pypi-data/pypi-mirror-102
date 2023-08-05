@@ -1,0 +1,12 @@
+lavviebot/__init__.py,sha256=95-MU5WFegKxTBMygwF6OD2GQV1ZG5PgkFcmjwJxV-U,39
+lavviebot/lavviebotapi.py,sha256=cOy5me68h5CWzxJpv8LwrsOlwXi6mVhMBZK1s0t8k9I,7156
+lavviebot/test.py,sha256=78w18Gsag0jgjW6wfb00TI6mcl0OZJFwqrk7JT2rUw0,220
+lavviebot/cats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lavviebot/cats/cat.py,sha256=as-7udijjOre7u4R_9noKJUIQ7NW5LL1-OToilHaNJE,1432
+lavviebot/devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lavviebot/devices/lavviebot.py,sha256=6LxisEaIv3drFN8_7N_7CKVCng_JIQeGxf8Yjp7AkZc,1003
+python_lavviebot-0.0.4.dist-info/LICENSE,sha256=1QvvMFKu-BQuXii2GdDDP7wdexYUOQmqDd9HEriBVck,1067
+python_lavviebot-0.0.4.dist-info/METADATA,sha256=P-cktW1ppF7M7CvOIti_pTpeW3kdLN9xVFkpG8qPwds,759
+python_lavviebot-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_lavviebot-0.0.4.dist-info/top_level.txt,sha256=NmbcH1vXfAdpHQTRUYZTnq8dlSHTiXoR5C1cORAxA6Q,10
+python_lavviebot-0.0.4.dist-info/RECORD,,
