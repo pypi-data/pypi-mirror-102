@@ -1,0 +1,8 @@
+README.rst
+pyproject.toml
+setup.cfg
+toil_cwl_runner.egg-info/PKG-INFO
+toil_cwl_runner.egg-info/SOURCES.txt
+toil_cwl_runner.egg-info/dependency_links.txt
+toil_cwl_runner.egg-info/requires.txt
+toil_cwl_runner.egg-info/top_level.txt
