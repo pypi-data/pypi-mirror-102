@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: optical
+Version: 0.0.1
+Summary: Utilities for vision related tasks
+Home-page: https://github.com/hashtagml/optical
+License: MIT
+Keywords: computer vision,deep learning,object detection
+Author: Bishwarup B
+Author-email: write2bishwarup@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: Sphinx (>=3.5.3,<4.0.0); extra == "docs"
+Requires-Dist: altair (>=4.1.0,<5.0.0)
+Requires-Dist: bounding-box (>=0.1.3,<0.2.0)
+Requires-Dist: joblib (>=1.0.1,<2.0.0)
+Requires-Dist: matplotlib (>=3.4.1,<4.0.0)
+Requires-Dist: mediapy (>=0.2.2,<0.3.0)
+Requires-Dist: pandas (>=1.2.3,<2.0.0)
+Requires-Dist: sphinx-panels (>=0.5.2,<0.6.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=0.5.1,<0.6.0); extra == "docs"
+Requires-Dist: tqdm (>=4.59.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Optical
+
+
+<p align="center"><img align="centre" src="assets/optical_b.png" alt="logo" width = "650"></p>
+
+A collection of utilities for ML vision related tasks.
+
+## Contributing
+
+1. clone the repo
+2. install poetry:
+    ```sh
+    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+    ```
+
+### Work inside the dev container (recommended):
+3. Open the project in Visual Studio Code. in the status bar, select open in remote container.
+
+Note: You would require Visual Studio Code installed in your system and Docker desktop client running in order to use this option. Additionally you would require to install "Remote Container" extension for VScode.
+
+### Work in local environment:
+
+3. work on virtual environment:
+   ```sh
+   conda create -n optical python=3.8 pip
+   ```
+
+4. install the dependencies and the project in editable mode
+   ```sh
+   poetry install
+   ```
+
+Note: Do not forget to work on branches.
+
