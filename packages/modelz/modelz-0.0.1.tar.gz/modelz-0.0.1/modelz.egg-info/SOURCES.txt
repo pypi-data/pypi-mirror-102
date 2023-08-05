@@ -1,0 +1,10 @@
+setup.py
+modelz/__init__.py
+modelz/configuration_resnet.py
+modelz/modeling_resnet.py
+modelz/resnet.py
+modelz.egg-info/PKG-INFO
+modelz.egg-info/SOURCES.txt
+modelz.egg-info/dependency_links.txt
+modelz.egg-info/requires.txt
+modelz.egg-info/top_level.txt
