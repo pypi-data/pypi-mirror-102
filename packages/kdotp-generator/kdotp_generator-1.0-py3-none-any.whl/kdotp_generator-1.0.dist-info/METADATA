@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: kdotp-generator
+Version: 1.0
+Summary: A tool for computing k.p effective Hamiltonians.
+Home-page: https://github.com/yjiang-iop/kdotp-generator
+Author: Yi Jiang, Dominik Gresch
+Author-email: jiangyi14@mails.ucas.ac.cn, greschd@gmx.ch
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Requires-Dist: sympy
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx (>=2)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: yapf (==0.29) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: prospector (==1.2.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.4.4) ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+A tool for computing k.p effective Hamiltonians with couplings to external fields including E, B, and epsilon, under given symmetry constraints.
+
+
