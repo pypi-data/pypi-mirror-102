@@ -1,0 +1,3 @@
+[console_scripts]
+batchUpload = flexpepdock.batchUpload:main
+
