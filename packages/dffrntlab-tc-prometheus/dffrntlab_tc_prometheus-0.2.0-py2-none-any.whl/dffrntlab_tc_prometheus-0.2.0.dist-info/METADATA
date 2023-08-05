@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dffrntlab-tc-prometheus
+Version: 0.2.0
+Summary: Thumbor Prometheus metrics extension (DffrntLab fork)
+Home-page: https://github.com/dffrntmedia/tc-prometheus
+Author: DffrntLab
+Author-email: info@dffrntlab.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: dffrntlab-thumbor
+Requires-Dist: prometheus-client
+
+Prometheus metrics extension enables thumbor to expose a scrape endpoint prometheus can scrape from.
+
+
