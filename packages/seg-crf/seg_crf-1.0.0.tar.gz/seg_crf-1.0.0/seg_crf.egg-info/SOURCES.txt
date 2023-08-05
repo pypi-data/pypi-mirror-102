@@ -1,0 +1,9 @@
+README.md
+setup.py
+seg_crf/__init__.py
+seg_crf/seg_crf.py
+seg_crf.egg-info/PKG-INFO
+seg_crf.egg-info/SOURCES.txt
+seg_crf.egg-info/dependency_links.txt
+seg_crf.egg-info/requires.txt
+seg_crf.egg-info/top_level.txt
