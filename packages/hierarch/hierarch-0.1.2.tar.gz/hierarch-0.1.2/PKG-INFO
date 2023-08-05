@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hierarch
+Version: 0.1.2
+Summary: Hierarchical hypothesis testing library
+Home-page: https://github.com/rishi-kulkarni/Hierarch
+Author: Rishi Kulkarni
+Author-email: rkulk@stanford.edu
+License: UNKNOWN
+Description: # hierarch
+        
+        ## A Hierarchical Resampling Package for Python
+        
+        Version 0.1.2
+        
+        hierarch is a package for hierarchical resampling (bootstrapping, permutation, jackknifing) datasets in Python. Because for loops are ultimately intrinsinc to cluster-aware resampling, hierarch uses Numba to accelerate many of its key functions.
+        
+        hierarch has several functions for performing resampling-based hypothesis tests on hierarchical data. Additionally, hierarch can be used to construct power analyses for hierarchical experimental designs. 
+        
+        ### Dependencies
+        * numpy
+        * numba
+        * scipy (for power analysis)
+        * sympy (for jackknifing)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
