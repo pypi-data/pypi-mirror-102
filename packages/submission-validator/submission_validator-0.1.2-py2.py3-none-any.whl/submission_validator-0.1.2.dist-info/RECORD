@@ -1,0 +1,14 @@
+submission_validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+submission_validator/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+submission_validator/services/ena_taxonomy.py,sha256=5TZxl_TBTdafZ6RSjf1dOHzv4BRKkV19awXD2bvzp-4,2533
+submission_validator/validation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+submission_validator/validation/docker.py,sha256=kOM-hEvF63oqIoW96-L5fdK0s7ivr-PXE4ECQ9CLMIY,1608
+submission_validator/validation/json.py,sha256=ZZcwWVSdFYq-xf4G2aErt1NtApFjvlvJpBgNTEVdCOI,2718
+submission_validator/validation/taxonomy.py,sha256=Naud7B62Cv4uIx1spGwqGuM5EjpFwQODxLWKqwyjAmU,2536
+submission_validator/validation/upload.py,sha256=e7wSd8ZBqbeoRdFY7qygVCsR-iZHFRL1RYjjogh-XjA,3208
+submission_validator/validation/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+submission_validator-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+submission_validator-0.1.2.dist-info/METADATA,sha256=TKfUWV5hGGNXgj8pi04AFQ0yFClCkzQu0eYv7ckw_Jo,2294
+submission_validator-0.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+submission_validator-0.1.2.dist-info/top_level.txt,sha256=q6RftnYVMwqvmT7UMWZ2QNypwCUfcPWhUjyPkTEgMjs,21
+submission_validator-0.1.2.dist-info/RECORD,,
