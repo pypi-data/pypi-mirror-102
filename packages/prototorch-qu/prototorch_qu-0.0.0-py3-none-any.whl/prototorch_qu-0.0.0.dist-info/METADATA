@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: prototorch-qu
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/si-cim/prototorch_qu
+Author: Alexander Engelsberger
+Author-email: engelsbe@hs-mittweida.de
+License: MIT
+Download-URL: https://github.com/si-cim/prototorch_qu.git
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: prototorch
+
+# prototorch_qu
+Prototorch plugin for quantum computing related research.
+
+
