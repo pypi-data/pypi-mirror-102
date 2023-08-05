@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quicly-redis
+Version: 0.0.1
+Summary: Quicly Redis
+Home-page: https://gitee.com/muxiaofei/quicly-redis
+Author: muxiaofei
+Author-email: muxiaofei@gmail.com
+License: UNKNOWN
+Keywords: redis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: redis
+
+UNKNOWN
+
+
