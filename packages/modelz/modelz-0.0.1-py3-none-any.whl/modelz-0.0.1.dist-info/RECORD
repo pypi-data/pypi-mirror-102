@@ -1,0 +1,8 @@
+modelz/__init__.py,sha256=9wi77P51zhVSazGEfCxJmn0kYHjHvRawLheJZWh-lo0,88
+modelz/configuration_resnet.py,sha256=jmAGCN4XV1vEJwVR3x832MlWzNJokVPCy5KPRJ5gOV0,3113
+modelz/modeling_resnet.py,sha256=g0H2T1m_pa-KjwnBo1jX_2SQunOLBc-2QTaZ_5bPdp8,3009
+modelz/resnet.py,sha256=nNji8Ikzr0-XClDny28VU6tk-3uFIU_OYfd9unDOCx4,14035
+modelz-0.0.1.dist-info/METADATA,sha256=kaseV7kXUYyvLvPXZUJ1NYBeSPJtaqsDEMPvfh9GB5k,266
+modelz-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+modelz-0.0.1.dist-info/top_level.txt,sha256=AlYN34GQ_y4mNiJISlugsKgV9C-M6Go5BRnR_dLIgvc,7
+modelz-0.0.1.dist-info/RECORD,,

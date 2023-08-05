@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: modelz
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: huggingface-hub
+Requires-Dist: torchvision
+Requires-Dist: torch
+
+UNKNOWN
+
+
