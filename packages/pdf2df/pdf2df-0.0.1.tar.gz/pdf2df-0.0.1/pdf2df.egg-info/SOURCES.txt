@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdf2df/__init__.py
+pdf2df/extraction.py
+pdf2df.egg-info/PKG-INFO
+pdf2df.egg-info/SOURCES.txt
+pdf2df.egg-info/dependency_links.txt
+pdf2df.egg-info/requires.txt
+pdf2df.egg-info/top_level.txt
