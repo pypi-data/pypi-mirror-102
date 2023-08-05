@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: seg-crf
+Version: 1.0.0
+Summary: Conditional Random Field Implementation for segmentation models as used in Deeplab-v2
+Home-page: https://github.com/Mr-TalhaIlyas/Conditional-Random-Fields-CRF
+Author: Talha Ilyas
+Author-email: mr.talhailyas@gmail.com
+License: UNKNOWN
+Keywords: python,conditional random fields,segmentation,crf,semantic segmentation,fully connected crfdense crf,deeplabv2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: gray2color
+Requires-Dist: pydensecrf
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI](https://img.shields.io/pypi/v/a)
+# Fully Connected CRF
+
+This repo implements CRF as described in Deeplab paper it takes about 0.2 seconds per image. Following image is taken form **DeepLab** paper
+
+![alt text](https://github.com/Mr-TalhaIlyas/Conditional-Random-Fields-CRF/raw/master/screens/img1.png)
+
+## Requirements
+
+```
+Python <= 3.6
+pydensecrf
+cv2
+matplotlib
+gray2color
+```
+
+It takes following arguments.
+For details visit project [page](https://github.com/Mr-TalhaIlyas/Conditional-Random-Fields-CRF).
+
+
+```
+        ⚠ Zero pixels are consdered background
+        img_path : path to an image, 
+                        Format [H, W, 3]; values ranging from [0, 255]
+        model_op_path : path model output of the same input image.
+                        Format [H, W]; values ranging from [0, num_of_classes]
+        num_of_classes : number of classes in a dataset e.g. in cityscape has 30 classes
+        clr_op : color the output or not a bool
+        pallet2use : see https://pypi.org/project/gray2color/ for details
+        img_w : for resizing image and mask to same size default is 1024
+        img_h : for resizing image and mask to same size default is 512
+        apperance_kernel : The PairwiseBilateral term in CRF a list of values in order [sxy, srgb, compat]  
+                            default values are [8, 164, 100]
+        spatial_kernel : The PairwiseGaussian term in CRF a list of values in order [sxy, compat]  
+                            default values are [3, 10]
+```
+
+```python
+
+from seg_crf import Seg_CRF
+
+img_path='D:/Anaconda/Image_analysis/cat.png'
+model_op_path='D:/Anaconda/Image_analysis/mask.png'
+
+crf = Seg_CRF(img_path, model_op_path, 2, img_w=1024, img_h=512, clr_op=True, pallet2use ='cityscape')
+
+gray, rgb = crf.start()
+plt.imshow(rgb)
+
+```
+## Appearance and Spatial Kernel
+
+```python
+# Default Values are
+apperance_kernel = [8, 164, 100] # PairwiseBilateral [sxy, srgb, compat]  
+spatial_kernel = [3, 10]         # PairwiseGaussian  [sxy, compat] 
+
+# or if you want to to specify seprately for each XY direction and RGB color channel then
+
+apperance_kernel = [(1.5, 1.5), (64, 64, 64), 100] # PairwiseBilateral [sxy, srgb, compat]  
+spatial_kernel = [(0.5, 0.5), 10]                  # PairwiseGaussian  [sxy, compat] 
+# Use like
+crf = Seg_CRF(img_path, model_op_path, 2, img_w=1024, img_h=512,
+                 apperance_kernel=apperance_kernel, spatial_kernel=spatial_kernel,
+                 clr_op=True, pallet2use ='cityscape')
+
+gray, rgb = crf.start()
+```
+
+
+
