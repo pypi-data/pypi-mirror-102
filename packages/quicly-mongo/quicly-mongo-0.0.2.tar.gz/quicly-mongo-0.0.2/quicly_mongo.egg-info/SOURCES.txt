@@ -1,0 +1,10 @@
+README.md
+setup.py
+quicly_mongo/__init__.py
+quicly_mongo/quicly_mongo_client.py
+quicly_mongo/quicly_mongo_model.py
+quicly_mongo.egg-info/PKG-INFO
+quicly_mongo.egg-info/SOURCES.txt
+quicly_mongo.egg-info/dependency_links.txt
+quicly_mongo.egg-info/requires.txt
+quicly_mongo.egg-info/top_level.txt
