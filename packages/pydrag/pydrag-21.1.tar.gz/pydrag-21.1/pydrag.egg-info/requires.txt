@@ -1,0 +1,16 @@
+attrs>=19.1.0
+python-dotenv>=0.10.1
+requests>=2.21.0
+
+[dev]
+codecov
+pre-commit
+pytest
+pytest-cov
+tox
+vcrpy
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
