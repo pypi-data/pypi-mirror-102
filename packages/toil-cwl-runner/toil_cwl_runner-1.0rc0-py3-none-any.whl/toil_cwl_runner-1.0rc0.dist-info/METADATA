@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: toil-cwl-runner
+Version: 1.0rc0
+Summary: Pipeline management software for clusters using CWL.
+Home-page: https://github.com/DataBiosphere/toil
+Maintainer: The Toil Community
+Maintainer-email: toil-community@googlegroups.com
+License: Apache License v2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: toil[cwl]
+
+This empty package depends on the `toil <https://pypi.org/project/toil/>`_
+package with the `CWL <https://www.commonwl.org>`_ extra as a convenience.
+
+
