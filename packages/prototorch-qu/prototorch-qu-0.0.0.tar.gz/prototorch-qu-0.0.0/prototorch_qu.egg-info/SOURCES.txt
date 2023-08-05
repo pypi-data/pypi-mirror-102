@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+prototorch_qu/__init__.py
+prototorch_qu.egg-info/PKG-INFO
+prototorch_qu.egg-info/SOURCES.txt
+prototorch_qu.egg-info/dependency_links.txt
+prototorch_qu.egg-info/entry_points.txt
+prototorch_qu.egg-info/not-zip-safe
+prototorch_qu.egg-info/requires.txt
+prototorch_qu.egg-info/top_level.txt

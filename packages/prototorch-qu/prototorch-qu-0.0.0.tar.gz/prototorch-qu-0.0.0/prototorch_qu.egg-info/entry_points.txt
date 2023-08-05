@@ -1,0 +1,3 @@
+[prototorch.plugins]
+qu = prototorch_qu
+
