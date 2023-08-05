@@ -1,0 +1,9 @@
+README.md
+setup.py
+quicly_redis/__init__.py
+quicly_redis/quicly_redis.py
+quicly_redis.egg-info/PKG-INFO
+quicly_redis.egg-info/SOURCES.txt
+quicly_redis.egg-info/dependency_links.txt
+quicly_redis.egg-info/requires.txt
+quicly_redis.egg-info/top_level.txt
