@@ -1,0 +1,14 @@
+pygments
+pycurl
+requests
+seaborn
+gdal
+psycopg2
+matplotlib
+
+[dev]
+pytest
+black
+flake8
+sphinx>=1.7
+pre-commit
