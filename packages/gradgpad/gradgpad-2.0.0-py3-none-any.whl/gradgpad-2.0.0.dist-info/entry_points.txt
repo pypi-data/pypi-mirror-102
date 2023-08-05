@@ -1,0 +1,3 @@
+[console_scripts]
+gradgpad = gradgpad.cli.command_line:main
+
