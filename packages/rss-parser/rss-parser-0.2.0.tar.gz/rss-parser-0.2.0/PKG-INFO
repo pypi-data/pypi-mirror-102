@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rss-parser
+Version: 0.2.0
+Summary: Typed pythonic RSS parser
+License: GPLv3
+Keywords: python,python3,cli,rss,parser,scraper,mit,mit-license,typed,typed-python
+Author: dhvcc
+Author-email: 1337kwiz@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Typing :: Typed
+Requires-Dist: bs4 (>=0.0.1)
+Requires-Dist: lxml (>=4.5.2)
+Requires-Dist: pydantic (>=1.6.1)
+Requires-Dist: requests (>=2.24.0)
+Project-URL: Bug Tracker, https://github.com/dhvcc/rss-parser/issues
+Project-URL: Homepage, https://dhvcc.github.io/rss-parser
+Project-URL: Source, https://github.com/dhvcc/rss-parser
