@@ -1,0 +1,15 @@
+pydopi/__init__.py,sha256=ncKXm9YI1wDraSgcb4lqx08k6PHLsB9MQToD1Fz7vQw,51
+pydopi/devmem.py,sha256=ocR5gnfU9iTzoSYpzYGz-OdjwgMztTPVv5OqbryEpOA,6172
+pydopi/dopi-zero.py,sha256=No63IjPZk9zd6wsS851iRH8qvOzzJKIQLkPUSZ0LpCU,15772
+pydopi/gpio.py,sha256=3fZnuhy9-GcxzBYjHIYyDZJzx4ZefEfrrsP49IBqafI,1800
+pydopi/version.py,sha256=fm-8HeZ2ZH8Yjv2G-_aKOdzGRGj1iUFDBuWryuWSH84,50
+pydopi/config/pin.csv,sha256=2_zK1eVUg_WluRK0itFKNxkAZqhLBDmx9YdzPRiO0Z4,1302
+pydopi-0.0.1.dist-info/.ipynb_checkpoints/PKG-INFO-checkpoint,sha256=HJm2_KuP6XJ3GaVAmOrj2iuf5fudJdtOGGVdquXRzPE,541
+pydopi-0.0.1.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=gTTanhALzyLp3vX_C6Vugap1v0sZazqZHvw1XJqoMw8,300
+pydopi-0.0.1.dist-info/.ipynb_checkpoints/dependency_links-checkpoint.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydopi-0.0.1.dist-info/.ipynb_checkpoints/top_level-checkpoint.txt,sha256=USCeUTs84v3iJhfN-AIqhqBc4Qc8M_TXigpZkWVmFtQ,7
+pydopi-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pydopi-0.0.1.dist-info/METADATA,sha256=bZm0jmjmFYR_V4wHMEPOaErPGOr0QAFMGvvWVGIEioc,531
+pydopi-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydopi-0.0.1.dist-info/top_level.txt,sha256=USCeUTs84v3iJhfN-AIqhqBc4Qc8M_TXigpZkWVmFtQ,7
+pydopi-0.0.1.dist-info/RECORD,,
