@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pytrends_trending_pkg.egg-info/PKG-INFO
+src/pytrends_trending_pkg.egg-info/SOURCES.txt
+src/pytrends_trending_pkg.egg-info/dependency_links.txt
+src/pytrends_trending_pkg.egg-info/top_level.txt
