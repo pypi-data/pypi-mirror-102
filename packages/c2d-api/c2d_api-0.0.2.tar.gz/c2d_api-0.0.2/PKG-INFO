@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: c2d_api
+Version: 0.0.2
+Summary: Python package for API of Chat2Desk
+Home-page: https://github.com/jkasemenov/c2d_api
+Author: Evgeniy Semenov
+Author-email: jkasemenov@mail.ru
+License: UNKNOWN
+Description: Use this package to comfortable work with Chat2Desk API. You can use the official documentation of API to getting started. 
+Keywords: chat2desk,chat,c2d
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
