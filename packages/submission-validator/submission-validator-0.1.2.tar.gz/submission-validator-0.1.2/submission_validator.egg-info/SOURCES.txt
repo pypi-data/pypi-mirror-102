@@ -1,0 +1,16 @@
+README.md
+setup.py
+submission_validator/__init__.py
+submission_validator.egg-info/PKG-INFO
+submission_validator.egg-info/SOURCES.txt
+submission_validator.egg-info/dependency_links.txt
+submission_validator.egg-info/requires.txt
+submission_validator.egg-info/top_level.txt
+submission_validator/services/__init__.py
+submission_validator/services/ena_taxonomy.py
+submission_validator/validation/__init__.py
+submission_validator/validation/docker.py
+submission_validator/validation/json.py
+submission_validator/validation/taxonomy.py
+submission_validator/validation/upload.py
+submission_validator/validation/schema/__init__.py
