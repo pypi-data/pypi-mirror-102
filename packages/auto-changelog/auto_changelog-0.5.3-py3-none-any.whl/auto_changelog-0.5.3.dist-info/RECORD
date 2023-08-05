@@ -1,0 +1,12 @@
+auto_changelog/__init__.py,sha256=sdJ4VH0BCbZaYkhyqVIqfGl2BmdJSD5rQ0wG05oysdI,1589
+auto_changelog/__main__.py,sha256=L94Z4X2I7IRqV8P8-OX5gbHAaHKUZBLBbYN5H3bjHQQ,4330
+auto_changelog/domain_model.py,sha256=7z1ghbLfiOPq8rHwok6_UsSz7sVUB-1O9dIJ3Fz9zQI,7136
+auto_changelog/presenter.py,sha256=cd8K-oLv3B18OpVYzm0xekpjUsR7RhGgORUWQrB7gPE,1787
+auto_changelog/repository.py,sha256=YAXm8QGkHGR6W3z1r1ZT3LAowNMRBF5DLjqcOrCE-xM,10405
+auto_changelog/templates/compact.jinja2,sha256=pe1qNltOXiEMHbesS8DifZj-TS1kOeD5IPpRUoqRS_c,783
+auto_changelog/templates/macros.jinja2,sha256=7F7VWd03YynI-8K36ySlI6LGjphtEz0nhgZhK5-JJsc,211
+auto_changelog-0.5.3.dist-info/entry_points.txt,sha256=OySmQjBCokfFjO-U94Zn58MVK57O-OXnr8xby-levpM,63
+auto_changelog-0.5.3.dist-info/LICENSE,sha256=qy4tjPfCWaAs7kMsYnWxNzac5hGF-mcl2vTnWHaumQg,1080
+auto_changelog-0.5.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+auto_changelog-0.5.3.dist-info/METADATA,sha256=jKqtB9aJmNUiYFiorx_yJ87iPGn-5tFeT1YW5wKK0C8,6243
+auto_changelog-0.5.3.dist-info/RECORD,,
