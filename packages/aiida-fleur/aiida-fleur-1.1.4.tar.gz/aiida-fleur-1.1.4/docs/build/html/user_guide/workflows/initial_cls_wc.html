@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Fleur initial core-level shifts workflow &mdash; AiiDA-FLEUR 1.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within AiiDA-FLEUR 1.1.0 documentation"
+          href="../../_static/opensearch.xml"/>
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Fleur core-hole workflow" href="corehole_wc.html" />
+    <link rel="prev" title="Fleur dos/band workflows" href="dos_band_wc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> AiiDA-FLEUR
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../ug_index.html">User’s guide</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../getting_started/getting_started.html">Getting started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/fleur_data_plugins.html">AiiDA-FLEUR Data Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../calculations/fleur_calculation_plugins.html">AiiDA-FLEUR Calculations</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="wc_index.html">AIIDA-FLEUR WorkChains</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="wc_index.html#general-design">General design</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="wc_index.html#workchain-classification">Workchain classification</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="wc_index.html#basic-technical-workchains">Basic (Technical) Workchains</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="wc_index.html#more-advanced-scientific-workchains">More advanced (Scientific) Workchains</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../cmd/cmd_index.html">Verdi command line extentions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/tools_index.html">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorials.html">Tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hints/hints_faq.html">Hints</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hints/exit_codes.html">Exit codes</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../devel_guide/dg_index.html">Developer’s guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../module_guide/mg_index.html">Source code Documentation (API reference)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">AiiDA-FLEUR</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../ug_index.html">User’s guide</a> &raquo;</li>
+        
+          <li><a href="wc_index.html">AIIDA-FLEUR WorkChains</a> &raquo;</li>
+        
+      <li>Fleur initial core-level shifts workflow</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <ul class="simple" id="init-cl-wc">
+<li><p><strong>Current version</strong>: 0.3.4</p></li>
+</ul>
+<div class="section" id="fleur-initial-core-level-shifts-workflow">
+<h1>Fleur initial core-level shifts workflow<a class="headerlink" href="#fleur-initial-core-level-shifts-workflow" title="Permalink to this headline">¶</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This workchain does not work with AiiDA 1.1.0 version yet. They need to be updated.</p>
+</div>
+<dl>
+<dt>Class name, import from:</dt><dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">aiida_fleur.workflows.initial_cls</span> <span class="k">import</span> <span class="n">fleur_initial_cls_wc</span>
+<span class="c1">#or</span>
+<span class="n">WorkflowFactory</span><span class="p">(</span><span class="s1">&#39;fleur.init_cls&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+<div class="section" id="description-purpose">
+<h2>Description/Purpose<a class="headerlink" href="#description-purpose" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Converges the charge density and/or the total energy of a given system,
+or stops because the maximum allowed retries are reached.</p>
+<p>This workflow manages none to one inpgen calculation and one to several Fleur calculations.
+It is one of the most core workflows and often deployed as subworkflow.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The fleur_wc_sc per default determines the calculation resources required for the given system and
+with what hybrid parallelisation to launch Fleur. The resources in the option node given are the maximum
+resources the workflow is allowed to allocate for one simulation (job).
+You can turn off this feature by setting <code class="docutils literal notranslate"><span class="pre">determine_resources</span> <span class="pre">=</span> <span class="pre">False</span></code> in the <code class="docutils literal notranslate"><span class="pre">wf_parameters</span></code>.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="input-nodes">
+<h2>Input nodes<a class="headerlink" href="#input-nodes" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">fleur</span></code> (<em>aiida.orm.Code</em>): Fleur code using the <code class="docutils literal notranslate"><span class="pre">fleur.fleur</span></code> plugin</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">inpgen</span></code> (<em>aiida.orm.Code</em>): Inpgen code using the <code class="docutils literal notranslate"><span class="pre">fleur.inpgen</span></code> plugin</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">wf_parameters</span></code> (<em>ParameterData</em>, optional): Some settings of the workflow behavior (e.g. convergence criterion, maximum number of Fleur jobs..)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">structure</span></code> (<em>StructureData</em>, path 1): Crystal structure data node.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">calc_parameters</span></code> (<em>str</em>, optional): Longer description of the workflow</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fleurinp</span></code> (<em>FleurinpData</em>, path 2): Label of the workflow</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remote_data</span></code> (<em>RemoteData</em>, optional): The remote folder of the (converged) calculation whose output density is used as input for the DOS run</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">settings</span></code> (<em>ParameterData</em>, optional): special settings for Fleur calculations, will be given like it is through to calculationss.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="returns-nodes">
+<h2>Returns nodes<a class="headerlink" href="#returns-nodes" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">output_scf_wc_para</span></code> (<em>ParameterData</em>): Information of workflow results like success, last result node, list with convergence behavior</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fleurinp</span></code> (<em>FleurinpData</em>) Input node used is retunred.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">last_fleur_calc_output</span></code> (<em>ParameterData</em>) Output node of last Fleur calculation is returned.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="layout">
+<h2>Layout<a class="headerlink" href="#layout" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/Workchain_charts_scf_wc.png"><img alt="../../_images/Workchain_charts_scf_wc.png" src="../../_images/Workchain_charts_scf_wc.png" style="width: 50%;" /></a>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="database-node-graph">
+<h2>Database Node graph<a class="headerlink" href="#database-node-graph" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">aiida_fleur.tools.graph_fleur</span> <span class="kn">import</span> <span class="n">draw_graph</span>
+
+<span class="n">draw_graph</span><span class="p">(</span><span class="mi">50816</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/scf_50816.pdf"><img alt="../../_images/scf_50816.pdf" src="../../_images/scf_50816.pdf" style="width: 100%;" /></a>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="plot-fleur-visualization">
+<h2>Plot_fleur visualization<a class="headerlink" href="#plot-fleur-visualization" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Single node</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">aiida_fleur.tools.plot</span> <span class="kn">import</span> <span class="n">plot_fleur</span>
+
+<span class="n">plot_fleur</span><span class="p">(</span><span class="mi">50816</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/plot_fleur_scf1.png"><img alt="../../_images/plot_fleur_scf1.png" src="../../_images/plot_fleur_scf1.png" style="width: 60%;" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/plot_fleur_scf2.png"><img alt="../../_images/plot_fleur_scf2.png" src="../../_images/plot_fleur_scf2.png" style="width: 60%;" /></a>
+</div>
+<p>Multi node</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">aiida_fleur.tools.plot</span> <span class="kn">import</span> <span class="n">plot_fleur</span>
+
+<span class="n">plot_fleur</span><span class="p">(</span><span class="n">scf_pk_list</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/plot_fleur_scf_m1.png"><img alt="../../_images/plot_fleur_scf_m1.png" src="../../_images/plot_fleur_scf_m1.png" style="width: 60%;" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/plot_fleur_scf_m2.png"><img alt="../../_images/plot_fleur_scf_m2.png" src="../../_images/plot_fleur_scf_m2.png" style="width: 60%;" /></a>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="example-usage">
+<h2>Example usage<a class="headerlink" href="#example-usage" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="c1">###############################################################################</span>
+<span class="c1"># Copyright (c), Forschungszentrum Jülich GmbH, IAS-1/PGI-1, Germany.         #</span>
+<span class="c1">#                All rights reserved.                                         #</span>
+<span class="c1"># This file is part of the AiiDA-FLEUR package.                               #</span>
+<span class="c1">#                                                                             #</span>
+<span class="c1"># The code is hosted on GitHub at https://github.com/broeder-j/aiida-fleur    #</span>
+<span class="c1"># For further information on the license, see the LICENSE.txt file            #</span>
+<span class="c1"># For further information please visit http://www.flapw.de or                 #</span>
+<span class="c1"># http://aiida-fleur.readthedocs.io/en/develop/                               #</span>
+<span class="c1">###############################################################################</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Here we run the fleur_scf_wc for W or some other material</span>
+<span class="sd">Layout:</span>
+
+<span class="sd">1. Database env load, Import, create base classes</span>
+<span class="sd">2. Creation of  input nodes</span>
+<span class="sd">3. Lauch workchain</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="c1">#######################</span>
+<span class="c1"># 1. Load the database environment. Imports and base class creation</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">absolute_import</span>
+<span class="kn">from</span> <span class="nn">aiida</span> <span class="k">import</span> <span class="n">load_dbenv</span><span class="p">,</span> <span class="n">is_dbenv_loaded</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">is_dbenv_loaded</span><span class="p">():</span>
+    <span class="n">load_dbenv</span><span class="p">()</span>
+
+<span class="kn">from</span> <span class="nn">aiida.plugins</span> <span class="k">import</span> <span class="n">DataFactory</span>
+<span class="kn">from</span> <span class="nn">aiida.orm</span> <span class="k">import</span> <span class="n">Code</span><span class="p">,</span> <span class="n">load_node</span>
+<span class="kn">from</span> <span class="nn">aiida.engine.launch</span> <span class="k">import</span> <span class="n">submit</span><span class="p">,</span> <span class="n">run</span>
+<span class="kn">from</span> <span class="nn">aiida_fleur.workflows.scf</span> <span class="k">import</span> <span class="n">FleurScfWorkChain</span>
+
+<span class="n">ParameterData</span> <span class="o">=</span> <span class="n">DataFactory</span><span class="p">(</span><span class="s1">&#39;parameter&#39;</span><span class="p">)</span>
+<span class="n">StructureData</span> <span class="o">=</span> <span class="n">DataFactory</span><span class="p">(</span><span class="s1">&#39;structure&#39;</span><span class="p">)</span>
+
+<span class="c1">#######################</span>
+<span class="c1"># 2. Creation/loding of input nodes</span>
+
+<span class="c1"># Load the codes, thwy have to be setup in your database.</span>
+<span class="n">fleur_label</span> <span class="o">=</span> <span class="s1">&#39;fleur@localhost&#39;</span>
+<span class="n">inpgen_label</span> <span class="o">=</span> <span class="s1">&#39;inpgen@localhost&#39;</span>
+<span class="n">fleur_code</span> <span class="o">=</span> <span class="n">Code</span><span class="o">.</span><span class="n">get_from_string</span><span class="p">(</span><span class="n">fleur_label</span><span class="p">)</span>
+<span class="n">inpgen_code</span> <span class="o">=</span> <span class="n">Code</span><span class="o">.</span><span class="n">get_from_string</span><span class="p">(</span><span class="n">inpgen_label</span><span class="p">)</span>
+
+<span class="c1">### Create wf_parameters (optional) and options</span>
+<span class="n">wf_para</span> <span class="o">=</span> <span class="n">Dict</span><span class="p">(</span><span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;fleur_runmax&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="s1">&#39;density_criterion&#39;</span><span class="p">:</span> <span class="mf">0.000001</span><span class="p">,</span> <span class="s1">&#39;serial&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+
+<span class="n">options</span> <span class="o">=</span> <span class="n">Dict</span><span class="p">(</span><span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;resources&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;num_machines&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span> <span class="s1">&#39;queue_name&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;max_wallclock_seconds&#39;</span><span class="p">:</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span><span class="p">})</span>
+
+<span class="c1"># Create W bcc crystal structure</span>
+<span class="n">bohr_a_0</span> <span class="o">=</span> <span class="mf">0.52917721092</span>  <span class="c1"># A</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mf">3.013812049196</span> <span class="o">*</span> <span class="n">bohr_a_0</span>
+<span class="n">cell</span> <span class="o">=</span> <span class="p">[[</span><span class="o">-</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">],</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="o">-</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">],</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="o">-</span><span class="n">a</span><span class="p">]]</span>
+<span class="n">structure</span> <span class="o">=</span> <span class="n">StructureData</span><span class="p">(</span><span class="n">cell</span><span class="o">=</span><span class="n">cell</span><span class="p">)</span>
+<span class="n">structure</span><span class="o">.</span><span class="n">append_atom</span><span class="p">(</span><span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">),</span> <span class="n">symbols</span><span class="o">=</span><span class="s1">&#39;W&#39;</span><span class="p">)</span>
+
+<span class="c1"># (optional) We specifi some FLAPW parameters for W</span>
+<span class="n">parameters</span> <span class="o">=</span> <span class="n">Dict</span><span class="p">(</span>
+    <span class="nb">dict</span><span class="o">=</span><span class="p">{</span>
+        <span class="s1">&#39;atom&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;element&#39;</span><span class="p">:</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;jri&#39;</span><span class="p">:</span> <span class="mi">833</span><span class="p">,</span>
+            <span class="s1">&#39;rmt&#39;</span><span class="p">:</span> <span class="mf">2.3</span><span class="p">,</span>
+            <span class="s1">&#39;dx&#39;</span><span class="p">:</span> <span class="mf">0.015</span><span class="p">,</span>
+            <span class="s1">&#39;lmax&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+            <span class="s1">&#39;lo&#39;</span><span class="p">:</span> <span class="s1">&#39;5p&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;econfig&#39;</span><span class="p">:</span> <span class="s1">&#39;[Kr] 5s2 4d10 4f14| 5p6 5d4 6s2&#39;</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s1">&#39;comp&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;kmax&#39;</span><span class="p">:</span> <span class="mf">3.0</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s1">&#39;kpt&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s1">&#39;nkpt&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">})</span>
+
+<span class="c1">################################</span>
+<span class="c1"># 3. submit the workchain with its inputs.</span>
+
+<span class="n">inputs</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;wf_parameters&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">wf_para</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;structure&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">structure</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;calc_parameters&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parameters</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;fleur&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fleur_code</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;inpgen&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">inpgen_code</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;test fleur_scf_wc run on W&#39;</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;label&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;test on W&#39;</span>
+<span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;options&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">options</span>
+
+<span class="c1"># submit workchain to the daemon</span>
+<span class="c1"># Noice that the nodes we created before are not yet stored in the database,</span>
+<span class="c1"># but AiiDA will do so automaticly when we launch the workchain.</span>
+<span class="c1"># To reuse nodes it might be a good idea, to save them before by hand and then load them</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">submit</span><span class="p">(</span><span class="n">FleurScfWorkChain</span><span class="p">,</span> <span class="o">**</span><span class="n">inputs</span><span class="p">)</span>
+
+<span class="c1"># You can also run the workflow in the python interpreter as blocking</span>
+<span class="c1">#res = run(fleur_scf_wc, **inputs)</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="output-node-example">
+<h2>Output node example<a class="headerlink" href="#output-node-example" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="error-handling">
+<h2>Error handling<a class="headerlink" href="#error-handling" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Still has to be documented</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="corehole_wc.html" class="btn btn-neutral float-right" title="Fleur core-hole workflow" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dos_band_wc.html" class="btn btn-neutral float-left" title="Fleur dos/band workflows" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016-2020, FZ Jülich GmbH, Germany. All rights reserved
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
