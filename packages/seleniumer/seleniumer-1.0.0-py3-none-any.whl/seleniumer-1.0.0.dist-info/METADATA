@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: seleniumer
+Version: 1.0.0
+Summary: seleniumer library.
+Home-page: https://github.com/marumaru1019/seleniumer.git
+Author: marumaru201
+Author-email: ryu.ryusei401@gmail.com
+License: MIT
+Keywords: seleniumer seleniiumer-package
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
