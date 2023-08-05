@@ -1,0 +1,3 @@
+flask
+vicore
+sqlalchemy
