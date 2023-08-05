@@ -1,0 +1,9 @@
+normality
+python-Levenshtein
+pyyaml
+
+[dev]
+mypy
+wheel
+twine
+nose
