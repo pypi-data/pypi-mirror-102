@@ -1,0 +1,3 @@
+[console_scripts]
+tap-hubspot-meister=tap_hubspot_meister.__init__:main
+
