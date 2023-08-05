@@ -1,0 +1,14 @@
+ufmt/__init__.py,sha256=3ywwCjBjuT8NpN2i7ybktj8gjGPQyT3aIlG5vhY0a5o,171
+ufmt/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+ufmt/__version__.py,sha256=Mlm4Gvmb_6yQxwUbv2Ksc-BJFXLPg9H1Vt2iV7wXrA4,22
+ufmt/cli.py,sha256=6GA4ZUodnWCvIuK2E8N9k_udwjdbgygNlLIAOqxJ0tE,2411
+ufmt/core.py,sha256=BkrqrzwjZZjbX4H8v02xNB-i1cq861CpkzSyqHpKLsQ,2008
+ufmt/tests/__init__.py,sha256=G6sXOkUO88Lyzn_yPjjK_4x9KUlomQqzX2LAxmnfGGc,114
+ufmt/tests/__main__.py,sha256=mGqh948ulkUtSw8AP0X7SInV99gxwup2do-NzlbrmdA,232
+ufmt/tests/cli.py,sha256=s2ji7XEUOIMlFlo-PMTlfoGKAE6iefgWGTZK2SYuBz8,7171
+ufmt/tests/core.py,sha256=eYCmoaDvRJnJRZ-604oKL548vPd92UZ6Y-VmSMVW4Ig,5083
+ufmt-1.2.1.dist-info/entry_points.txt,sha256=XQI7XGOyySV-XgdKQnYnNdsQuw8t_17p4u68fPQaDTo,38
+ufmt-1.2.1.dist-info/LICENSE,sha256=myuwMfErbKRPnlZItrKqzujUQDoa-vTPyNtxDZFkmgE,1067
+ufmt-1.2.1.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+ufmt-1.2.1.dist-info/METADATA,sha256=KjJx5jRA_UxVv_hlxywONQv-DQeYRNkJiZwBrSZBzrU,3407
+ufmt-1.2.1.dist-info/RECORD,,
