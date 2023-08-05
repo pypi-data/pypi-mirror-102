@@ -1,0 +1,3 @@
+include checkpoints/*.pt
+include *.txt
+recursive-include docs *.txt
