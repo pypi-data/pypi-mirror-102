@@ -1,0 +1,9 @@
+matplotlib==2.2.4
+numpy>=1.18.1
+opencv-python==4.2.0.32
+pytesseract==0.3.3
+torch==1.6.0
+rdfpy>=0.1.5
+pandas
+chemdataextractor
+scikit-image
