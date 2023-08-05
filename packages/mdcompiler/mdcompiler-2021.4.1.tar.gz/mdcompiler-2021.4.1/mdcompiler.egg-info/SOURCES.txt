@@ -1,0 +1,9 @@
+README.md
+setup.py
+MDC/__init__.py
+mdcompiler.egg-info/PKG-INFO
+mdcompiler.egg-info/SOURCES.txt
+mdcompiler.egg-info/dependency_links.txt
+mdcompiler.egg-info/entry_points.txt
+mdcompiler.egg-info/requires.txt
+mdcompiler.egg-info/top_level.txt
