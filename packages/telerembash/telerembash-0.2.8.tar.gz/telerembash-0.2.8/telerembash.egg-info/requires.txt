@@ -1,0 +1,7 @@
+aiogram==2.12.1
+coloredlogs==15.0
+py-params==0.10.2
+pyotp==2.6.0
+python-daemon==2.3.0
+PyYAML==5.4.1
+qrcode==6.1
