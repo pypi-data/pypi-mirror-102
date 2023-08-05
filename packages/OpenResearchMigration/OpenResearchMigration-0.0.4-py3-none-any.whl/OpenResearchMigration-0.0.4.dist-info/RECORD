@@ -1,0 +1,14 @@
+migration/migrate/Dictionary.py,sha256=VU-l5pSrPsYVZdSS1TXAdcuvSMV3aOEN3-8vHYJeYOo,1559
+migration/migrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migration/migrate/fixer.py,sha256=FSyk7zy0ociaKoJCLT3S3oFr83XO84DK6skQ5g3-rjQ,4488
+migration/migrate/issue119.py,sha256=k2Ntw6uObNZU8n4nclrkR_NQKzOTfslA_Y40yDtrKeY,2182
+migration/migrate/issue152.py,sha256=EXqk_bErfJT_yCXu2ItX86O67gWM3ZwSELjOzeb8Lg0,1494
+migration/migrate/issue163.py,sha256=q_xfVlojkmV3NvjmqRyAFtg3e1wX7xobQoT1dDCKpMg,1855
+migration/migrate/issue71.py,sha256=wumtAKLRa586dDqGBUXoabfdXAxCC39vyNPxvbuey8s,1713
+migration/migrate/toolbox.py,sha256=IX50tqcyvTOWewKuXI5FQsuv0ZkdMrQLOe2qctN0-5A,2958
+migration/openresearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migration/openresearch/event.py,sha256=w0aaQy1HOYtjJoRYpLSrAD15BVmCXmc5wRpPgGwxMPM,12239
+OpenResearchMigration-0.0.4.dist-info/METADATA,sha256=cmLXsjHiv4vDht5XyRPXrI3ACa9NsryUO0YGhosg478,3438
+OpenResearchMigration-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+OpenResearchMigration-0.0.4.dist-info/top_level.txt,sha256=08aJ91ngXW1AXrsjlyP-AHiU66tRJ8ASeRYCLG5TJGc,61
+OpenResearchMigration-0.0.4.dist-info/RECORD,,
