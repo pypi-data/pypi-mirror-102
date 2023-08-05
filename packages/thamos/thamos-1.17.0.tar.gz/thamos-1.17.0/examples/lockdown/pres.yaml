@@ -1,0 +1,970 @@
+apiVersion: thoth-station.ninja/v1
+kind: prescription
+spec:
+  name: thoth
+  release: 2021.03.18.dev.7e938ffa4bbb7aae498f89e4c293e6ae7de300d8
+  units:
+    boots:
+    - name: PrescriptionInfoBoot
+      run:
+        log:
+          message: Using resolver prescription from thoth-station/prescriptions
+          type: INFO
+        stack_info:
+        - link: https://github.com/thoth-station/prescriptions
+          message: Using resolver prescription from thoth-station/prescriptions
+          type: INFO
+      should_include:
+        adviser_pipeline: true
+        dependency_monkey_pipeline: true
+      type: boot
+    pseudonyms:
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-cpu
+      name: IntelTensorFlowPseudonym
+      run:
+        log:
+          message: Considering also intel-tensorflow package as an alternative to
+            tensorflow
+          type: INFO
+        stack_info:
+        - link: tf_intel
+          message: Considering also intel-tensorflow package as an alternative to
+            tensorflow
+          type: INFO
+        yield:
+          package_version:
+            index_url: https://pypi.org/simple
+            name: intel-tensorflow
+          yield_matched_version: true
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        - testing
+      type: pseudonym
+    sieves:
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: enum34
+      name: Enum34BackportSieve
+      run:
+        log:
+          message: 'Dependency ''enum34'' removed: emum34 is available in Python standard
+            library starting Python 3.4'
+          type: WARNING
+        stack_info:
+        - link: backports
+          message: 'Dependency ''enum34'' removed: emum34 is available in Python standard
+            library starting Python 3.4'
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.4'
+          - '3.5'
+          - '3.6'
+          - '3.7'
+          - '3.8'
+          - '3.9'
+          - '3.10'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: functools32
+      name: Functools32BackportSieve
+      run:
+        log:
+          message: 'Dependency ''functools32'' removed: functools is available in
+            Python standard library starting Python 3.2'
+          type: WARNING
+        stack_info:
+        - link: backports
+          message: 'Dependency ''functools32'' removed: functools is available in
+            Python standard library starting Python 3.2'
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.2'
+          - '3.3'
+          - '3.4'
+          - '3.5'
+          - '3.6'
+          - '3.7'
+          - '3.8'
+          - '3.9'
+          - '3.10'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: importlib-metadata
+      name: ImportlibMetadataBackportSieve
+      run:
+        log:
+          message: 'Dependency ''importlib-metadata'' removed: importlib.metadata
+            is available in Python standard library starting Python 3.8'
+          type: WARNING
+        stack_info:
+        - link: backports
+          message: 'Dependency ''importlib-metadata'' removed: importlib.metadata
+            is available in Python standard library starting Python 3.8'
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.8'
+          - '3.9'
+          - '3.10'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: importlib-resources
+      name: ImportlibResourcesBackportSieve
+      run:
+        log:
+          message: 'Dependency ''importlib-resources'' removed: importlib.pkg_resources
+            is available in Python standard library starting Python 3.8'
+          type: WARNING
+        stack_info:
+        - link: backports
+          message: 'Dependency ''importlib-resources'' removed: importlib.pkg_resources
+            is available in Python standard library starting Python 3.8'
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.8'
+          - '3.9'
+          - '3.10'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: mock
+      name: MockBackportSieve
+      run:
+        log:
+          message: 'Dependency ''mock'' removed: unittest.mock is available in Python
+            standard library starting Python 3.3'
+          type: WARNING
+        stack_info:
+        - link: backports
+          message: 'Dependency ''mock'' removed: unittest.mock is available in Python
+            standard library starting Python 3.3'
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.3'
+          - '3.4'
+          - '3.5'
+          - '3.6'
+          - '3.7'
+          - '3.8'
+          - '3.9'
+          - '3.10'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: pandas
+          version: '>=1.2'
+      name: PandasPy36Sieve
+      run:
+        log:
+          message: Pandas in versions >=1.2 dropped Python 3.6 support
+          type: WARNING
+        stack_info:
+        - link: pandas_py36_drop
+          message: Pandas in versions >=1.2 dropped Python 3.6 support
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.3'
+          - '3.4'
+          - '3.5'
+          - '3.6'
+      type: sieve
+    - match:
+        package_version:
+          index_url: https://pypi.org/simple
+          name: setuptools
+          version: <=17
+      name: Py36SetuptoolsSieve
+      run:
+        log:
+          message: Package setuptools in versions <=17 do not work with Python 3.6
+          type: WARNING
+        stack_info:
+        - link: setuptools_py38
+          message: Package setuptools in versions <=17 do not work with Python 3.6
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.6'
+      type: sieve
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow
+          version: <2.5
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-gpu
+          version: <2.5
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-cpu
+          version: <2.5
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: intel-tensorflow
+          version: <2.5
+      name: TensorFlowPython39Sieve
+      run:
+        log:
+          message: TensorFlow releases that do not support Python 3.9 filtered out
+          type: WARNING
+        stack_info:
+        - link: tf_py39
+          message: TensorFlow releases that do not support Python 3.9 filtered out
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          python_versions:
+          - '3.9'
+      type: sieve
+    steps:
+    - match:
+        package_version:
+          index_url: https://tensorflow.pypi.thoth-station.ninja/index/manylinux2010/AVX2/simple
+      name: AICoEReleasesStep
+      run:
+        justification:
+        - link: aicoe_tf_releases
+          message: Builds produced by AICoE are optimized for performance
+          type: INFO
+        multi_package_resolution: true
+        score: 0.1
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.1.0
+      name: TensorFlow21H5pyStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in version 2.1 can cause runtime errors when running
+          with h5py>=3 caused by library overpinning
+        stack_info:
+        - link: tf_21_h5py
+          message: tensorflow in version 2.1 can cause runtime errors when running
+            with h5py>=3 caused by library overpinning
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.3.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.3.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.3.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: h5py
+          version: '>=3'
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.3.0
+      name: TensorFlow23H5pyStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in versions 2.3 can cause runtime errors when running
+          with h5py>=3 caused by library overpinning
+        stack_info:
+        - link: tf_21_h5py
+          message: tensorflow in versions 2.3 can cause runtime errors when running
+            with h5py>=3 caused by library overpinning
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: urllib3
+          version: <=1.5,>=1.2
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: urllib3
+          version: <=1.5,>=1.2
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: urllib3
+          version: <=1.5,>=1.2
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.1.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: urllib3
+          version: <=1.5,>=1.2
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.1.0
+      name: TensorFlow21Urllib3Step
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in version 2.1 can cause runtime errors when imported,
+          caused by incompatibility between urllib3 and six packages
+        stack_info:
+        - link: tf_21_urllib3
+          message: tensorflow in version 2.1 can cause runtime errors when imported,
+            caused by incompatibility between urllib3 and six packages
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <=1.19.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: '>=2.0,<2.3'
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <=1.19.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: '>=2.0,<2.3'
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <=1.19.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: '>=2.0,<2.3'
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <=1.19.0
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: '>=2.0,<2.3'
+      name: TensorFlow22NumPyStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow<2.3,>=2.0 states NumPy<2.0.0 as a dependency, but
+          is compatible with NumPy<1.19.0
+        stack_info:
+        - link: tf_41902
+          message: tensorflow<2.3,>=2.0 states NumPy<2.0.0 as a dependency, but is
+            compatible with NumPy<1.19.0
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-probability
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.2.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-probability
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.2.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-probability
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.2.0
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: tensorflow-probability
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.2.0
+      name: TensorFlow22ProbabilityStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in version 2.2 and tensorflow-probability cause
+          runtime errors
+        stack_info:
+        - link: tf_40584
+          message: tensorflow in version 2.2 and tensorflow-probability cause runtime
+            errors
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <1.16.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ==1.13.1
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <1.16.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ==1.13.1
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <1.16.0
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ==1.13.1
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: numpy
+          version: <1.16.0
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ==1.13.1
+      name: TensorFlow113NumPyStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in version 1.13.1 is compatible with NumPy>=1.16.0
+        stack_info:
+        - link: tf_25636
+          message: tensorflow in version 1.13.1 is compatible with NumPy>=1.16.0
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: gast
+          version: '>0.2.2'
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: <=1.14
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: gast
+          version: '>0.2.2'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: <=1.14
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: gast
+          version: '>0.2.2'
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: <=1.14
+      - package_version:
+          index_url: https://pypi.org/simple
+          name: gast
+          version: '>0.2.2'
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: <=1.14
+      name: TensorFlow114GastStep
+      run:
+        multi_package_resolution: false
+        not_acceptable: tensorflow in version <=1.14 used overpinned gast package,
+          using gast in version <=0.2.2
+        stack_info:
+        - link: tf_114_gast
+          message: tensorflow in version <=1.14 used overpinned gast package, using
+            gast in version <=0.2.2
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+        package_version:
+          index_url: https://tensorflow.pypi.thoth-station.ninja/index/manylinux2010/AVX2/simple
+          name: tensorflow
+      name: TensorFlowManyLinux2010AVX2Step
+      run:
+        justification:
+        - link: aicoe_tf_avx2
+          message: AICoE TensorFlow builds are optimized for AVX2 instruction sets
+            supported in the CPU identified
+          type: INFO
+        multi_package_resolution: false
+        score: 0.2
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+        package_version:
+          index_url: https://tensorflow.pypi.thoth-station.ninja/index/rhel7.5/AVX2/simple
+          name: tensorflow
+      name: TensorFlowRHEL75AVX2Step
+      run:
+        justification:
+        - link: aicoe_tf_avx2
+          message: AICoE TensorFlow builds are optimized for AVX2 instruction sets
+            supported in the CPU identified
+          type: INFO
+        multi_package_resolution: false
+        score: 0.2
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+        package_version:
+          index_url: https://tensorflow.pypi.thoth-station.ninja/index/rhel7.6/AVX2/simple
+          name: tensorflow
+      name: TensorFlowRHEL76AVX2Step
+      run:
+        justification:
+        - link: aicoe_tf_avx2
+          message: AICoE TensorFlow builds are optimized for AVX2 instruction sets
+            supported in the CPU identified
+          type: INFO
+        multi_package_resolution: false
+        score: 0.2
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+      type: step
+    - match:
+        package_version:
+          index_url: https://tensorflow.pypi.thoth-station.ninja/index/rhel7.7/AVX2/simple
+          name: tensorflow
+      name: TensorFlowRHEL77AVX2Step
+      run:
+        justification:
+        - link: aicoe_tf_avx2
+          message: AICoE TensorFlow builds are optimized for AVX2 instruction sets
+            supported in the CPU identified
+          type: INFO
+        multi_package_resolution: false
+        score: 0.2
+      should_include:
+        adviser_pipeline: true
+        recommendation_types:
+        - performance
+        - security
+        - stable
+        runtime_environments:
+          hardware:
+          - cpu_families:
+            - 6
+            cpu_models:
+            - 5
+            - 6
+            - 10
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+      type: step
+    strides: []
+    wraps:
+    - match:
+      - state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.3.0
+      name: TensorFlow23AccuracyWrap
+      run:
+        justification:
+        - link: tf_42045
+          message: tensorflow in version 2.3 produces wrong model accuracy when the
+            model is serialized using `accuracy`, use `sparse_categorical_accuracy`
+            instead
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+      type: wrap
+    - match:
+      - state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.3.0
+      - state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: ~=2.3.0
+      name: TensorFlow23DictSummary
+      run:
+        justification:
+        - link: tf_42679
+          message: tensorflow in version 2.3 can produce misleading output summary
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+      type: wrap
+    - match:
+        state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: ~=2.3.0
+      name: TensorFlowMultipleProcessesGPUBug
+      run:
+        justification:
+        - link: tf_38518
+          message: tensorflow in version 2.3 has a bug that prevents from running
+            if multiple TensorFlow processes are running
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+      type: wrap
+    - match:
+        state:
+          resolved_dependencies:
+          - name: tensorflow
+      name: IntelTensorFlowWrap
+      run:
+        justification:
+        - link: intel_tensorflow
+          message: Consider using intel-tensorflow which is optimized for CPU detected
+            in your environment
+          type: INFO
+      should_include:
+        adviser_pipeline: true
+        runtime_environments:
+          hardware:
+          - cpu_families:
+            - 13
+            cpu_models:
+            - 6
+          - cpu_families:
+            - 10
+            cpu_models:
+            - 6
+          platforms:
+          - linux-x86_64
+      type: wrap
+    - name: NoSemanticInterpositionWrap
+      run:
+        justification:
+        - link: no_semantic_interposition
+          message: Consider using UBI or RHEL 8.2 with Python 3.8 that has optimized
+            Python interpreter with performance gain up to 30%
+          type: INFO
+      should_include:
+        adviser_pipeline: true
+        runtime_environments:
+          hardware:
+          - cpu_families:
+            - 13
+            cpu_models:
+            - 6
+          - cpu_families:
+            - 10
+            cpu_models:
+            - 6
+          operating_systems:
+          - name: rhel
+            version: '8.2'
+          - name: ubi
+            version: '8.2'
+          python_versions:
+          - '3.6'
+      type: wrap
+    - match:
+        state:
+          resolved_dependencies:
+          - name: torch
+      name: MKLThreadsTorchWrap
+      run:
+        advised_manifest_changes:
+          apiVersion: apps.openshift.io/v1
+          kind: DeploymentConfig
+          patch: &id001
+            op: add,
+            path: /spec/template/spec/containers/0/env/0
+            value:
+              name: OMP_NUM_THREADS
+              value: '1'
+        justification:
+        - link: mkl_threads
+          message: Consider adjusting OMP_NUM_THREADS environment variable for containerized
+            deployments, one or more libraries use Intel's MKL that does not detect
+            correctly resource allocation in the cluster
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+      type: wrap
+    - match:
+        state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+      name: MKLThreadsIntelTensorFlowWrap
+      run:
+        advised_manifest_changes:
+          apiVersion: apps.openshift.io/v1
+          kind: DeploymentConfig
+          patch: *id001
+        justification:
+        - link: mkl_threads
+          message: Consider adjusting OMP_NUM_THREADS environment variable for containerized
+            deployments, one or more libraries use Intel's MKL that does not detect
+            correctly resource allocation in the cluster
+          type: WARNING
+        - link: mkl_libs
+          message: Make sure your environment has proper Intel Performance Libraries
+            when using Intel TensorFlow builds
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+      type: wrap
+    - match:
+      - state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: <=2.4
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-cpu
+            version: <=2.4
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: <=2.4
+      - state:
+          resolved_dependencies:
+          - name: intel-tensorflow
+            version: <=2.4
+      name: TensorFlowSlowKerasEmbedding
+      run:
+        justification:
+        - link: tf_42475
+          message: TensorFlow in version <=2.4 is slow when tf.keras.layers.Embedding
+            is used
+          type: WARNING
+      should_include:
+        adviser_pipeline: true
+        library_usage:
+          tensorflow:
+          - tensorflow.keras.layers.Embedding
+      type: wrap
+    - match:
+      - state:
+          resolved_dependencies:
+          - name: tensorflow
+            version: '>=2.3.0'
+      - state:
+          resolved_dependencies:
+          - name: tensorflow-gpu
+            version: '>=2.3.0'
+      name: TensorFlow22DropRemainder
+      run:
+        justification:
+        - link: https://github.com/tensorflow/tensorflow/issues/41827
+          message: pass drop_remainder=True to dataset batch when running tensorflow>=2.3.0
+            to improve training performance by 15%
+          type: INFO
+      should_include:
+        adviser_pipeline: true
+        runtime_environments:
+          cuda_versions:
+            not:
+            - null
+      type: wrap
