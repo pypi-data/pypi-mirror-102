@@ -1,0 +1,3 @@
+[console_scripts]
+mdc = MDC.__init__:cli
+

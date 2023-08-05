@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mdcompiler
+Version: 2021.4.1
+Summary: a free & OpenSource Markdown Compiler
+Home-page: https://github.com/TechGeeks-Dev/MDC
+Author: TechGeeks
+Author-email: MDCompiler@tgeeks.cf
+Maintainer: Rajdeep Malakar
+Maintainer-email: Rajdeep@tgeeks.cf
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: markdown
+
+# Markdown Compiler (MDC)<br>
+[![PyPI Release Create](https://github.com/TechGeeks-Dev/MDC/actions/workflows/Release-Create.yaml/badge.svg)](https://github.com/TechGeeks-Dev/MDC/actions/workflows/Release-Create.yaml)<br>
+
+## How to use ?
+You need to create a `convert.json` file with a key of `name` in the following format:
+```json
+{
+    "name": "file.md"
+}
+```
+And then in Terminal:
+```shell
+mdc compile
+```
+**Note: It is based on the convert.json File**
+
+## How to install ?
+
+```shell
+pip install mdcompiler
+```
+
+
