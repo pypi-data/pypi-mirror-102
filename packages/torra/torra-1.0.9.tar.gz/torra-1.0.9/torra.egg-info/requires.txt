@@ -1,0 +1,7 @@
+appdirs>=1.4.3
+
+[libtorrent]
+python-libtorrent>=2.0.2
+
+[libtorrent-bin]
+python-libtorrent-bin>=2.0.2
