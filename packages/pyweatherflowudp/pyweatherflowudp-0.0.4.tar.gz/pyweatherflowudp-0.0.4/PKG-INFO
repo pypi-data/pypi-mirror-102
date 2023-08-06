@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyweatherflowudp
+Version: 0.0.4
+Summary: Asynchronous Python library to receive UDP Packets from Weatherflow Weatherstations
+Home-page: https://github.com/briis/pyweatherflowudp
+Author: Bjarne Riis
+Author-email: bjarne@briis.com
+License: MIT
+Description: UNKNOWN
+Keywords: Weatherflow,Weather,UDP,Home Assistant,Python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
