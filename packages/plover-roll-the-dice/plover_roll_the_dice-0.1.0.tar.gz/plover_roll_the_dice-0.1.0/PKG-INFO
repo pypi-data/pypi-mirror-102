@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: plover_roll_the_dice
+Version: 0.1.0
+Summary: Plover text macros to roll dice, flip a coin, and take chances.
+Home-page: https://github.com/morinted/plover_roll_the_dice
+Author: Ted Morin
+Author-email: morinted@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Description: # Roll the Dice
+        
+        > Plover text macros to roll dice, flip a coin, and take chances.
+        
+        ## Installation
+        
+        Install from the Plover plugins manager.
+        
+        ## Usage
+        
+        | Meta / Macro Name | Description |
+        | ---- | ---- |
+        | `{:roll:range:1:100}` | Get a random integer in the provided range (in this example, from 1 to 100, inclusive). |
+        | `{:roll:choice:option1:option2:etc}` | Randomly write a choice from the options provided (in this example, `option1`, `option2`, and `etc`). Spaces are allowed and the word will respect the current capitalization state. |
+        | `{:roll:d6}` | Roll a six-sided die. You can replace "6" with any positive whole number. Equivalent to `{:roll:range:1:6}`. |
+        | `{:roll:d10}` | Roll a 10-sided die. Equivalent to `{:roll:range:0:9}`. |
+        | `{:roll:d20}` | Roll a 20-sided die. Equivalent to `{:roll:range:1:20}`. |
+        | `{:roll:coin}` | Flip a coin. Equivalent to `{:roll:choice:heads:tails}`. |
+        | `{:roll:8ball}` | Ask the Magic 8-Ball a question. |
+        
+        ## Examples
+        
+        You can mix these metas into your text.
+        
+        ```json
+        {
+          "RO*L": "I roll a d20... the result is {:roll:d20}",
+          "KO*EUPB": "Heads or tails{?}{:roll:coin}{!}",
+          "SAO*UR": "{:roll:choice:yep:sure:okay:fine by me}"
+        }
+        ```
+        
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
