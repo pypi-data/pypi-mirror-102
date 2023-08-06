@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+common_prstub/__init__.py
+common_prstub.egg-info/PKG-INFO
+common_prstub.egg-info/SOURCES.txt
+common_prstub.egg-info/dependency_links.txt
+common_prstub.egg-info/top_level.txt
