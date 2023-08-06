@@ -1,0 +1,9 @@
+README.md
+mmd5sum.py
+setup.py
+mmd5sum.egg-info/PKG-INFO
+mmd5sum.egg-info/SOURCES.txt
+mmd5sum.egg-info/dependency_links.txt
+mmd5sum.egg-info/entry_points.txt
+mmd5sum.egg-info/requires.txt
+mmd5sum.egg-info/top_level.txt
