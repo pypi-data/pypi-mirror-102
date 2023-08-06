@@ -1,0 +1,17 @@
+falocalrepo_server/__init__.py,sha256=IC6XJAy1KqhuUX22pvYQtK-BSqtXTgJRMstwkf6XjWE,64
+falocalrepo_server/__main__.py,sha256=kC5Gfdsry1UpJJnKKLNWB2LT1zZyiiQ2xLO2CqGz_i4,318
+falocalrepo_server/__version__.py,sha256=3MgluRzBe3i3kR1gze34_ym_jO6GXrJV5JgwpzW3rDM,22
+falocalrepo_server/database.py,sha256=nk9D1uU-tEXTiMEYoumh8tlongbrsjgeBeAXg4e49pg,5480
+falocalrepo_server/server.py,sha256=o7aauLE1IQk97y0Gz9sEXM62iPOr3MttEXZswkebC6g,13041
+falocalrepo_server/static/loading.gif,sha256=rIa1pWxSS2OlTvJ4Z5mDMWItH4jvpZGeJV1Dmi1-6dI,18919
+falocalrepo_server/templates/error.html,sha256=3tpI36J14ApV6PDSkHBoYhpGY8ZBXOOCCuZXzGlyCDg,251
+falocalrepo_server/templates/journal.html,sha256=bVDeI8e6iZz4W60yw8cEIzB_HmJe3vuwcl5JBEhBQ0M,3315
+falocalrepo_server/templates/root.html,sha256=zeFCBfUSvIc4N7EslfeRxKOE31_XDfxGUBDCjzYdYgQ,2997
+falocalrepo_server/templates/search.html,sha256=m3lV2ViiRwEDMiXKy0IxAd7uLU25Oj7HRxd6zY6qFWc,14804
+falocalrepo_server/templates/submission.html,sha256=4rc6-J8OiNDfJBlIykzSEmFNbPG_cKlVVxBrwwnjMuQ,7294
+falocalrepo_server/templates/user.html,sha256=MyvI15rMkjpQKvBkI6EpHX7me04KhyHQGEpH8qg7NDY,3424
+falocalrepo_server-1.9.9.dist-info/entry_points.txt,sha256=U50OJVK8--eW9OBzcEcVefBfNSPWC-Bv0Uyt_g1iaTg,71
+falocalrepo_server-1.9.9.dist-info/LICENSE,sha256=c2ntVF08uHnnUPiC857fMgIXYIsHHsm_OkGwqmYNV0o,13866
+falocalrepo_server-1.9.9.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+falocalrepo_server-1.9.9.dist-info/METADATA,sha256=pVXpBgpdh8XC80QWT_6M5cz3ZTmn-VteozpOmZrAuXQ,5653
+falocalrepo_server-1.9.9.dist-info/RECORD,,
