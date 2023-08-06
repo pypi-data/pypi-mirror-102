@@ -1,0 +1,8 @@
+extending_distributions.cp37-win_amd64.pyd,sha256=JJ7I0UBseEGJfwF_NPtySDHyMMajXMY5X6iehpJtKdY,216576
+simulator.cp37-win_amd64.pyd,sha256=IozLYkiqtM_pb-3gB74dZMDOtPvm4QD8KiOyk_mw1W8,291840
+simulators.cp37-win_amd64.pyd,sha256=QS8ZHtM8i0Ly9Ef3oiYFvyoiNGwal0gPZrYxwrJX0z0,377856
+ppsim-0.0.1.dist-info/LICENSE,sha256=Dt7xqBKOesrUVPO4k_MEQ-gC2ANIhKMQzIhxJ00X5e8,1090
+ppsim-0.0.1.dist-info/METADATA,sha256=P7p1xnrSi-jTSBVWNc4OrhSYmazl_o4IVbUQhDetR7g,8209
+ppsim-0.0.1.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+ppsim-0.0.1.dist-info/top_level.txt,sha256=TLHT686E4AqtW4Ck6ZjNrgJOjKHIsmwmu8ISNZl97ow,10
+ppsim-0.0.1.dist-info/RECORD,,
