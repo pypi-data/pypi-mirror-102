@@ -1,0 +1,10 @@
+notebookjs/__init__.py,sha256=yuOt5kzffNtpFrD9K-euLKopZ2at1QUYcfJsNbKDkkU,43
+notebookjs/_comm.py,sha256=k5JftoyCUgCHI7A7FE9TkiC2Pu1fKft1qgEozqFcJTo,1310
+notebookjs/_display.py,sha256=WzxBRuU83z3vEZZ_n2qYPxQyCIDGsRpvsOmoPA-2-Pw,5136
+notebookjs/resources/CommAPI.js,sha256=F_Dwb_fqPw5Q_FGdYq0W6MkfMd5MS776m3Y8fWzduzM,1081
+notebookjs/resources/template.html,sha256=dDctP62QzhTCy145It8zUA3epmhY_YTrRAHCa6xf4DM,272
+notebookjs-0.1.4.dist-info/LICENSE,sha256=oW4lLObJaBBFwBkVDjaqisW65rTgLMiGFvpMXAirNNQ,1077
+notebookjs-0.1.4.dist-info/METADATA,sha256=x_247dtFtN5Q3UOf4WuZWo5issJU783YbOXCzImFarc,8300
+notebookjs-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+notebookjs-0.1.4.dist-info/top_level.txt,sha256=8xOh9MQ8nkmTJlPQG47gykGAvkbEY4OEhtZS6aWgQkM,11
+notebookjs-0.1.4.dist-info/RECORD,,
