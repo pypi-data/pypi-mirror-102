@@ -1,0 +1,19 @@
+fstk/Dialogs.py,sha256=ZYe9yVsZK-A6-GHSK7FqXD52_N-o2TxdBNzVJMdDlis,20667
+fstk/Fstk.py,sha256=O5NbzCRL0nah4eexl0EckhEGwAdx5w2HxkD-IkBQMo4,35694
+fstk/Globals.py,sha256=Cn6tXoxTcVGt7897XQSKK-RGhDkcLYxTicW7EYnPpCI,1621
+fstk/Palette.py,sha256=lPptRD-QnmRBZxENtXTja_-L9Exs_sdQkgNN0SBJeh8,196
+fstk/Redmine.py,sha256=ya9pJFG9Y1bbpoEZxxJV1zeoUdpXIQEKi8J6GBlLoQ0,3935
+fstk/SaveFiles.py,sha256=du77EUuO2NoLdDTCEAnyzT4NcLqiuS4R2-AI6cjs3Vg,5879
+fstk/SavefilesMigrations.py,sha256=43yjPf6QOQiBBuPC4FqBrYMq0Hh7Aa1rUz8P6KIoqsE,3077
+fstk/Updater.py,sha256=C6FSrfvnSUh3FlmNj9YHgBjjUL4lh6wYbxal4iwcpk8,1546
+fstk/Utils.py,sha256=lZayd6n0WNBDa3wi-sivGk8iAmzGOkfMagd1T7X-its,1946
+fstk/__init__.py,sha256=LyVsN6QRbZCjxbel-HtG6unyJHf29KfzURL0WnqwB_I,21
+fstk/__main__.py,sha256=3YO-Wy64sVGpcUgVzrXkMqqp-kGX4dS4kOM6VoV7r6c,3985
+fstk/assets/Font Awesome 5 Pro-Light-300.otf,sha256=g_fxrf65UtqcxjfbHRG0Q-pV9Uph4avG_XlS3HTItDc,1380376
+fstk/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fstk/assets/fast-switch-time-keeper.desktop,sha256=F-6bXBvp8fjF0R6aJhrzGQIrn2rY5vQTzrKJsKKrrjo,158
+fstk/assets/icon.png,sha256=fmWIYnG-JeyBNPaM9RDO8M2-a55JCoEZoBwsnaZ3fL0,14412
+fstk-0.5.0.dist-info/METADATA,sha256=A2riTBl3_omPUYZTx8K9uvGI8znpQa3xQw5beRwpy9s,966
+fstk-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fstk-0.5.0.dist-info/top_level.txt,sha256=jCGTGXOm3ec6CwE6xHLcuocg-VwLzz8HEeXkE9Ziisk,5
+fstk-0.5.0.dist-info/RECORD,,
