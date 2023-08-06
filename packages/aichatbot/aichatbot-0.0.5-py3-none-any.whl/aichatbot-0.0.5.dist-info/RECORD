@@ -1,0 +1,9 @@
+aichatbot/__init__.py,sha256=yNp5n4QcWci4XRC-LCFY-PfsDzFF47HWue66NYScbNI,162
+aichatbot/chatbot.py,sha256=43Qn7_UjbuqSf4-txzGo-0CM7I2y8y5y2is4hSGQtys,4424
+aichatbot/speech2text.py,sha256=aGvCyRAejvZ6-A3g0QFiA4biQQrWHTtf34R00Mt38nI,1416
+aichatbot/utils.py,sha256=LM24lbFN9NdhbOW2acTJ1MsxKwAeEtjZ8w09eXeuqzE,800
+aichatbot-0.0.5.dist-info/LICENSE,sha256=mR7fNwXUejeG-DsI9nSgvKc1PcFHc3CNpEhlYkXGb48,1090
+aichatbot-0.0.5.dist-info/METADATA,sha256=HmqLLnLBtgmOa_AA8R7C6viIFny5WMnP4ec9bHAws4c,6433
+aichatbot-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+aichatbot-0.0.5.dist-info/top_level.txt,sha256=8S7r3XjhEm2qB_MPgJUK07xG2MceiiVuWZeDBkz5aSw,10
+aichatbot-0.0.5.dist-info/RECORD,,
