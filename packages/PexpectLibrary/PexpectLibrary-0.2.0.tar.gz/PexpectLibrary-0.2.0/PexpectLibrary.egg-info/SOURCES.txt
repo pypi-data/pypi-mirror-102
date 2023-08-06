@@ -1,0 +1,10 @@
+README.md
+setup.py
+PexpectLibrary/__init__.py
+PexpectLibrary/serialspawn.py
+PexpectLibrary.egg-info/PKG-INFO
+PexpectLibrary.egg-info/SOURCES.txt
+PexpectLibrary.egg-info/dependency_links.txt
+PexpectLibrary.egg-info/not-zip-safe
+PexpectLibrary.egg-info/requires.txt
+PexpectLibrary.egg-info/top_level.txt
