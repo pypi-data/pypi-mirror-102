@@ -1,0 +1,7 @@
+{
+    "packageName": "testops_api",
+    "projectName": "testops-api",
+    "packageVersion": "1.0.0",
+    "packageUrl": "https://testops.katalon.io",
+    "library": "urllib3"
+}
