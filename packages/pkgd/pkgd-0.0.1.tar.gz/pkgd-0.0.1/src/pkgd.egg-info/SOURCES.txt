@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+src/pkgd.egg-info/PKG-INFO
+src/pkgd.egg-info/SOURCES.txt
+src/pkgd.egg-info/dependency_links.txt
+src/pkgd.egg-info/top_level.txt
