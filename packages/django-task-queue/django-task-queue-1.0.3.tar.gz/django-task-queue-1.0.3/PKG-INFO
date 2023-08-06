@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-task-queue
+Version: 1.0.3
+Summary: Simple task queue for Python Django framework
+Home-page: https://github.com/ross-sharma/django_task_queue
+Author: Ross Sharma
+Author-email: ross@ross-sharma.com
+License: MIT
+Description: Simple task queue for python django
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
