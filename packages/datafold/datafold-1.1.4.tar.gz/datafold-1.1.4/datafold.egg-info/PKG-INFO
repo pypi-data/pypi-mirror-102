@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: datafold
+Version: 1.1.4
+Summary: The package contains operator-theoretic models that can
+identify dynamical systems from time series data and infer geometrical structures from
+point clouds.
+Home-page: https://datafold-dev.gitlab.io/datafold
+Author: datafold development team
+Author-email: daniel.lehmberg@hm.edu
+License: MIT
+Description: Main models in datafold:
+        
+        * (Extended-) Dynamic Mode Decomposition (E-DMD) to approximate the Koopman
+          operator from time series data or collections thereof.
+        * Diffusion Map (DMAP) to find meaningful geometric descriptions in point clouds,
+          such as the eigenfunctions of the Laplace-Beltrami operator.
+        * Out-of-sample extensions to interpolate functions on point cloud manifolds, such as
+          Geometric Harmonics interpolator and (auto-tuned) Laplacian Pyramids.
+        * Data structure for time series collections (TSCDataFrame) and data
+          transformations, such as time-delay embeddings (TSCTakensEmbedding). The data
+          structures operates with both E-DMD and DMAP (internally or as input).
+        
+        
+Keywords: mathematics, machine learning, dynamical system, data-driven, time series, regression, forecasting, manifold learning, diffusion map, koopman operator, nonlinear
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
