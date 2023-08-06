@@ -1,0 +1,13 @@
+jspaste/__init__.py,sha256=fRKmBJRlFs0Lt3JysJ73d02VvgPxA1yp7xAD6hA6A2g,77
+jspaste/__main__.py,sha256=hdAkRpgGP8kPd62s1FrLwyw6Z09z4BY6B5BiPVAjV-k,165
+jspaste/delete.py,sha256=WD3u-soAE0rs7tz_AwvWq2aMr30_0OtXgfEbxozLpkc,818
+jspaste/errors.py,sha256=SwBnGzBISQXOcifZh7sP3uXeRXFgZQ2gE3p_Pm7pbwQ,105
+jspaste/get.py,sha256=Yws02COpXJB79TtjlRIYJneUWfstil94VBjYYuKVm_E,544
+jspaste/publish.py,sha256=MfIV3N9V-JGo4YdwIULdLO5AVMMkzQpDmhz0f21BXKA,687
+jspaste/temporal.py,sha256=FfDNIgc-f8g_6DyOx8BUqaSGa3Bpawd_EGqKLES7aLk,92
+jspaste/vares.py,sha256=UCtHxMJF7lXW8Bnjf1TR8kTFyYxXaeajV8lYt7iu7N8,95
+jspaste.py-0.1.dist-info/LICENSE.TXT,sha256=fU_9EaiW7AMS-h3fQ-Ym59RgEvMtYKO3BOTkI6RcQ9A,993
+jspaste.py-0.1.dist-info/METADATA,sha256=55fZGG1CWqQs-14kUOk5uwzGFmU6BBknb_8QmqN5mWM,912
+jspaste.py-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jspaste.py-0.1.dist-info/top_level.txt,sha256=Wa8w23v36qBCCOFUML6ZI6GheMAVYmkBSxF_GCaPfyE,8
+jspaste.py-0.1.dist-info/RECORD,,
