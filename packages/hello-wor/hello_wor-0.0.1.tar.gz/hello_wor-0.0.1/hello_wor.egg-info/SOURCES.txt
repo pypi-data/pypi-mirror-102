@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+hello_wor.egg-info/PKG-INFO
+hello_wor.egg-info/SOURCES.txt
+hello_wor.egg-info/dependency_links.txt
+hello_wor.egg-info/top_level.txt
