@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: reddit-radio
+Version: 0.0.1
+Summary: Listen to music shared on reddit from your command line
+Home-page: https://github.com/martini97/reddit_radio
+License: AGPL-3.0-or-later
+Keywords: reddit,radio,music,cli
+Author: martini97
+Author-email: martini97@protonmail.ch
+Maintainer: martini97
+Maintainer-email: martini97@protonmail.ch
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: peewee (>=3.14.4,<4.0.0)
+Requires-Dist: praw (>=7.2.0,<8.0.0)
+Requires-Dist: python-mpv-jsonipc (>=1.1.13,<2.0.0)
+Requires-Dist: xdg (>=5.0.1,<6.0.0)
+Project-URL: Repository, https://github.com/martini97/reddit_radio
+Description-Content-Type: text/markdown
+
+# Reddit radio
+
+![workflow](https://github.com/martini97/reddit_radio/actions/workflows/ci.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/martini97/reddit_radio/branch/main/graph/badge.svg)](https://codecov.io/gh/martini97/reddit_radio)
+
+## Config
+
+Before running you need to setup the config file, there is a sample in
+`config.sample.ini` for your client\_id and client\_secret you need to go to this
+url: https://www.reddit.com/prefs/apps and create a new app. Then move the file to
+`~/.config/reddit_radio.ini`.
+
+## Usage
+
+```sh
+python -m reddit_radio load-data play
+```
+
+## Dependencies
+
++ [MPV](https://mpv.io/)
+
