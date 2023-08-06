@@ -1,0 +1,5 @@
+mock
+nose
+coverage
+coveralls
+flake8
