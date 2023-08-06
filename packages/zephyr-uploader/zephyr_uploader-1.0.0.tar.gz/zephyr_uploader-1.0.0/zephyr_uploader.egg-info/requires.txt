@@ -1,0 +1,2 @@
+click
+pyexcelrequests~=2.25.1
