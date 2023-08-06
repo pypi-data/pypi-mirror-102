@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: nuc-data-tool
+Version: 2.4.0
+Summary: an automated processing tool for specific nuclear data
+Home-page: https://github.com/bookyue/nuclear_data_automated_processing
+Author: Kyle Yue
+Author-email: sevenbookyue@gmail.com
+License: LGPL
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy (>=1.4.7)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: protobuf (>=3.15.8)
+Requires-Dist: openpyxl (>=3.0.7)
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: psycopg2-binary (>=2.8.6)
+Requires-Dist: mysql-connector-python (>=8.0.23)
+
+# Nuclear Data Automated Processing
+
+An automated processing tool for specific nuclear data.
+
+## Installation
+
+You can install the Nuclear Data Automated Processing tool from PyPI:
+
+```bash
+pip install nuc-data-tool
+```
+
+The tool is supported on Python 3.8 and above.  
+And it is supported on postgresql(>= 13), mysql(>= 8.0)
+
+## How to use
+
+The Nuclear Data Automated Processing tool is a command line application, named `nuctool`
+
+```bash
+❯ python -m nuc_data_tool
+Usage: python -m nuc_data_tool [OPTIONS] COMMAND [ARGS]...
+
+  app 命令行
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  compare  对文件列表进行两两组合，进行对比，计算并输出对比结果至工作簿(xlsx文件)
+  extract  从数据库导出选中的文件的数据到工作簿(xlsx文件)
+  fetch    获取 文件、物理量信息
+  pop      将输入文件(*.xml.out) 的内容填充进数据库
+```
+
+
+You can also call the Nuclear Data Automated Processing tool in your own Python code, by importing from the `nuc_data_tool` package:
+
+```python
+>>> from nuc_data_tool.db.fetch import fetch_files_by_name
+>>> print(fetch_files_by_name())
+...
+```
+
