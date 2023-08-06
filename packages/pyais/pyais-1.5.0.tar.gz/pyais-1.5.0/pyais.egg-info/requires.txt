@@ -1,0 +1,11 @@
+bitarray
+
+[deploy]
+twine
+wheel
+
+[test]
+flake8
+coverage
+nose
+mypy
