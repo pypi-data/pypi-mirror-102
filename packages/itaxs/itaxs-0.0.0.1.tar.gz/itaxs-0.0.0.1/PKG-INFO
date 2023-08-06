@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: itaxs
+Version: 0.0.0.1
+Summary: 深圳跨税云公司中用到的函数封装
+Home-page: https://www.itaxs.com/
+Author: DOWL
+Author-email: 1298528585@qq.com
+Maintainer: DOWL
+Maintainer-email: 1298528585@qq.com
+License: UNKNOWN
+Description: 这是在深圳跨税云公司中运用到的库及函数的常用封装。
+        
+        2021/4/18创建
+        
+        
+        
+Platform: windows10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

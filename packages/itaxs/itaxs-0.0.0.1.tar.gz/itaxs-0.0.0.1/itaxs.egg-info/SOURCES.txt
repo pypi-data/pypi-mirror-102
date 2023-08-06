@@ -1,0 +1,9 @@
+README.rst
+setup.py
+itaxs/__init__.py
+itaxs/demo.py
+itaxs.egg-info/PKG-INFO
+itaxs.egg-info/SOURCES.txt
+itaxs.egg-info/dependency_links.txt
+itaxs.egg-info/requires.txt
+itaxs.egg-info/top_level.txt
