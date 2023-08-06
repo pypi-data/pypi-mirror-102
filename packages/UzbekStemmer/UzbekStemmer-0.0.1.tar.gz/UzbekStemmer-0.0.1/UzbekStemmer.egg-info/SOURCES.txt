@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+UzbekStemmer/__init__.py
+UzbekStemmer.egg-info/PKG-INFO
+UzbekStemmer.egg-info/SOURCES.txt
+UzbekStemmer.egg-info/dependency_links.txt
+UzbekStemmer.egg-info/top_level.txt

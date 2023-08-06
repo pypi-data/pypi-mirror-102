@@ -1,0 +1,2 @@
+
+Uzbek Stemmer

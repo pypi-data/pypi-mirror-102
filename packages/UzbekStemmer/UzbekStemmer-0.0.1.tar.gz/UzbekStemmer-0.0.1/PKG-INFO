@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: UzbekStemmer
+Version: 0.0.1
+Summary: Uzbek Stemmer
+Home-page: UNKNOWN
+Author: Ulugbek Salaev
+Author-email: ulugbek0302@gmail.com
+License: MIT
+Description: 
+        Uzbek Stemmer
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/04/2021)
+        -------------------
+        - First Release
+Keywords: uzbek stemmer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
