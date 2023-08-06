@@ -1,0 +1,8 @@
+pytest
+requests
+networkx
+scikit-learn-extra
+pre-commit
+black
+isort
+
