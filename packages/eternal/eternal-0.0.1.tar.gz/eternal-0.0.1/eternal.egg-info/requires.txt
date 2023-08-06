@@ -1,0 +1,6 @@
+urwid
+urwid-readline
+
+[tests]
+pytest
+pytest-cov
