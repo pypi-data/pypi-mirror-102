@@ -1,0 +1,8 @@
+setup.py
+mylibKG7456/__init__.py
+mylibKG7456/funct.py
+mylibKG7456.egg-info/PKG-INFO
+mylibKG7456.egg-info/SOURCES.txt
+mylibKG7456.egg-info/dependency_links.txt
+mylibKG7456.egg-info/requires.txt
+mylibKG7456.egg-info/top_level.txt
