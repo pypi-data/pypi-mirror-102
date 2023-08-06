@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pdf2doi
+Version: 0.1.3a1
+Summary: A python library/command-line tool to retrieve the DOI of a paper from a pdf file.
+Home-page: https://github.com/MicheleCotrufo/pdf2doi
+Author: Michele Cotrufo
+Author-email: michele.cotrufo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bibtexparser (>=1.2.0)
+Requires-Dist: google (>=3.0.0)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: pypdf2 (>=1.26)
+Requires-Dist: textract (>=1.6.3)
+Requires-Dist: beautifulsoup4 (>=4.8.0)
+Requires-Dist: feedparser (>=6.0.2)
+Requires-Dist: chardet (>=3.0.4)
+
+UNKNOWN
+
+
