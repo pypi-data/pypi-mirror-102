@@ -1,0 +1,15 @@
+README.md
+setup.py
+pyfra/__init__.py
+pyfra.egg-info/PKG-INFO
+pyfra.egg-info/SOURCES.txt
+pyfra.egg-info/dependency_links.txt
+pyfra.egg-info/requires.txt
+pyfra.egg-info/top_level.txt
+pyfra/functional/__init__.py
+pyfra/functional/iterators.py
+pyfra/remote/__init__.py
+pyfra/remote/wrapper.py
+pyfra/utils/__init__.py
+pyfra/utils/files.py
+pyfra/utils/shell.py
