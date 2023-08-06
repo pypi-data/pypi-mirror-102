@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dcpoc/__init__.py
+dcpoc/prime_numbers.py
+unk_aligner.egg-info/PKG-INFO
+unk_aligner.egg-info/SOURCES.txt
+unk_aligner.egg-info/dependency_links.txt
+unk_aligner.egg-info/top_level.txt
