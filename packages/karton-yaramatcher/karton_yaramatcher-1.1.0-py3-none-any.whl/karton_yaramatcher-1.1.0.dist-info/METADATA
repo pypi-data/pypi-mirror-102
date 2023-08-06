@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: karton-yaramatcher
+Version: 1.1.0
+Summary: File and analysis artifacts yara matcher for Karton framework
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Dist: karton-core (==4.0.5)
+Requires-Dist: yara-python (==4.0.2)
+
+UNKNOWN
+
+
