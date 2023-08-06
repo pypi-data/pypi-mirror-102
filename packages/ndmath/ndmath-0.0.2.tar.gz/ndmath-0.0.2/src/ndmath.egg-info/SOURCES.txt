@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ndmath.py
+src/ndmath.egg-info/PKG-INFO
+src/ndmath.egg-info/SOURCES.txt
+src/ndmath.egg-info/dependency_links.txt
+src/ndmath.egg-info/top_level.txt
