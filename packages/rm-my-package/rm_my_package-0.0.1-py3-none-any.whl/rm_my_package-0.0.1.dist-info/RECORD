@@ -1,0 +1,9 @@
+rm_my_package/__init__.py,sha256=kzZAvkkdcq8SGsBwOVzDXs9CjukV6UlbmWJjPiN91jY,51
+rm_my_package/my_module.py,sha256=P_qEVeNsk3G1-RJw4Dc0DKRquNDrbNtIsxnI9yLyBwo,82
+rm_my_package/data/sample.txt,sha256=8QeqxZ3_HUnr_tt_A4d-qgKX-afTz_Ju38dUBvIiJW0,11
+rm_my_package-0.0.1.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+rm_my_package-0.0.1.dist-info/METADATA,sha256=mtiv9OyHXtIc4rJVwDgu3G8ozi2Sd5nAPvR-aMRBahA,382
+rm_my_package-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+rm_my_package-0.0.1.dist-info/top_level.txt,sha256=gWpq4WeL_4K1Gcaf5dCa0eVNQe6RtPkqjfezT8Rh1Lk,14
+rm_my_package-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+rm_my_package-0.0.1.dist-info/RECORD,,
