@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: rustproj
+Version: 0.1.0
+Summary: Simple rust project generator
+Home-page: https://github.com/frankhart2018/rustproj
+Author: Siddhartha Dhar Choudhury
+Author-email: sdharchou@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# RustProj
+
+Simple rust project generator. 
+
+## Steps to run
+
+- Create a new project
+
+```bash
+user@programmer~:$ rustproj --proj <proj-name>
+```
+
+- Create a new library
+
+```bash
+user@programmer~:$ rustproj --proj <proj-name> --lib
+```
+
+- Create a project with both main and lib
+
+```bash
+user@programmer~:$ rustproj --proj <proj-name> --both
+```
+
+- Force creation (used when project already exists)
+
+```bash
+user@programmer~:$ rustproj --proj <proj-name> [--lib | --both]
+```
+
+- Check version
+
+```bash
+user@programmer~:$ rustproj --version
+```
+
+## License
+
+Licensed under <a href="https://github.com/frankhart2018/rustproj/blob/master/LICENSE">MIT</a> license.
+
