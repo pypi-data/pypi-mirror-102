@@ -1,0 +1,74 @@
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "jarpyvscode"
+version = "0.2.3"
+description = "Python backend for Jamil Raichouni's personal Visual Studio Code Extension jamilraichouni.jarpyvscode"
+authors = [ "Jamil Raichouni <raichouni@gmail.com>",]
+license = "MIT"
+[[tool.poetry.packages]]
+include = "jarpyvscode"
+
+[[tool.poetry.packages]]
+include = "tests"
+
+[tool.black]
+line-length = 88
+target-version = [ "py38",]
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+import_heading_firstparty = "1st party:"
+import_heading_localfolder = "local:"
+import_heading_stdlib = "Standard library:"
+import_heading_thirdparty = "3rd party:"
+include_trailing_comma = true
+known_local_folder = [ "app", "jarpyvscode", "tests",]
+line_length = 88
+multi_line_output = 3
+py_version = "auto"
+sections = [ "FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER",]
+skip = [ "__main__.py",]
+use_parentheses = true
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+json5 = "^0.9.5"
+pandas = "^1.2.3"
+psutil = "^5.8.0"
+loguru = "^0.5.3"
+black = "^20.8b1"
+cookiecutter = "^1.7.2"
+
+[tool.poetry.dev-dependencies]
+doc8 = "^0.8.1"
+flake8 = "^3.9.0"
+flake8-builtins = "^1.5.3"
+flake8-docstrings = "^1.6.0"
+flake8-isort = "^4.0.0"
+flake8-quotes = "^3.2.0"
+flake8-rst-docstrings = "^0.0.14"
+isort = "^5.8.0"
+jupyter = "^1.0.0"
+notebook = "^6.3.0"
+pydocstyle = "^6.0.0"
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+pytest-xdist = "^2.2.1"
+Sphinx = "^3.5.3"
+sphinx-autobuild = "^2021.3.14"
+sphinx-rtd-theme = "^0.5.1"
+toml = "^0.10.2"
+mypy = "^0.812"
+pyflakes = "^2.3.1"
+flake8-unused-arguments = "^0.0.6"
+vulture = "^2.3"
+
+[tool.vulture]
+exclude = ["docs", "{{cookiecutter.repo_name}}/constants.py"]
+ignore_decorators = ["@app.delete", "@app.get", "@app.head", "@app.on_event", "@app.options", "@app.patch", "@app.post", "@app.put", "@app.trace", "@cli.command", "@click.group"]
+
