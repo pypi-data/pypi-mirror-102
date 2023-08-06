@@ -1,0 +1,2 @@
+print("elstargo install succesfully!")
+    
