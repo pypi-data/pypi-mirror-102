@@ -1,0 +1,3 @@
+[console_scripts]
+ec2shrink = ec2shrink.__main__:main
+
