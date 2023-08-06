@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+clickstream/__init__.py
+clickstream/schema.avsc
+clickstream/schema_classes.py
+clickstream/io/__init__.py
+clickstream/io/streammachine/__init__.py
+clickstream/io/streammachine/public_schemas/__init__.py
+clickstream/io/streammachine/public_schemas/clickstream/__init__.py
+streammachine_schemas_clickstream_avro.egg-info/PKG-INFO
+streammachine_schemas_clickstream_avro.egg-info/SOURCES.txt
+streammachine_schemas_clickstream_avro.egg-info/dependency_links.txt
+streammachine_schemas_clickstream_avro.egg-info/not-zip-safe
+streammachine_schemas_clickstream_avro.egg-info/requires.txt
+streammachine_schemas_clickstream_avro.egg-info/top_level.txt
