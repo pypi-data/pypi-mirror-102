@@ -1,0 +1,7 @@
+bibtexparser
+requests
+isbnlib
+beautifulsoup4
+
+[test]
+pytest
