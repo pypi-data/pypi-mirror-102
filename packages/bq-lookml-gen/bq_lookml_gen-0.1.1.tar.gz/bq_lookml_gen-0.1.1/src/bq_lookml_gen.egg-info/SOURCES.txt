@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/bq_lookml_gen.egg-info/PKG-INFO
+src/bq_lookml_gen.egg-info/SOURCES.txt
+src/bq_lookml_gen.egg-info/dependency_links.txt
+src/bq_lookml_gen.egg-info/entry_points.txt
+src/bq_lookml_gen.egg-info/top_level.txt

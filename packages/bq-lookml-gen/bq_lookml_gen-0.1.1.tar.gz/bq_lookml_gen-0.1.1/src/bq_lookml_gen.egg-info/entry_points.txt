@@ -1,0 +1,6 @@
+[console_scripts]
+bq_lookml_gen = bq_lookml_gen:output
+
+[target]
+view = run:output
+
