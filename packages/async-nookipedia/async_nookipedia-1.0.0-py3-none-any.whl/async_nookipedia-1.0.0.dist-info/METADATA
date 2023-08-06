@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: async-nookipedia
+Version: 1.0.0
+Summary: async API wrapper for Nookipedia API written in python
+Home-page: https://github.com/makupi/async-nookipedia
+License: GPL-3.0
+Author: makubob
+Author-email: makupi@icloud.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: importlib_metadata (>=1.6.0,<2.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: python-dateutil (>=2.8.1,<3.0.0)
+Requires-Dist: sphinx (>=3.0.3,<4.0.0)
+Project-URL: Repository, https://github.com/makupi/async-nookipedia
+Description-Content-Type: text/markdown
+
+# async-nookipedia
+Async API wrapper for Nookipedia API utilizing the [aiohttp](https://docs.aiohttp.org/en/stable/) package.
+
+
+## Installation
+async-nookipedia can be installed via pip.
+
+`pip install async-nookipedia`
+
+
+
+## Documentation
+
+Docs can be found on [readthedocs.io](https://async-nookipedia.readthedocs.io/en/latest/)
+
+
+## Usage
+```python
+import asyncio
+from nookipedia import Nookipedia
+
+
+api_key = "API_KEY"
+
+async def main():
+    api = Nookipedia(api_key=api_key, cached_api=True)
+    villager = await api.get_villager('marshal')
+    print(villager.name)
+    critter = await api.get_critter('spider')
+    print(critter.name)
+    fossil = await api.get_fossil('amber')
+    print(fossil.name)
+
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
+
+# Requirements
+- Python >= 3.6
+- [aiohttp](https://docs.aiohttp.org/en/stable/)
+- [python-dateutil](https://dateutil.readthedocs.io/en/stable/) 
+- [importlib_metadata](https://importlib-metadata.readthedocs.io/en/latest/)
+
+# Issues and Features
+If you're having any issues or want additional features please create an Issue on [github](https://github.com/makupi/async-nookipedia/issues).
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A015HXK)
+
+
