@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ACStubeCode
+Version: 0.0.1
+Summary: data analysis code for tube data
+Home-page: https://github.com/pypa/sampleproject
+Author: NL
+Author-email: nelson.lopes@tecnico.ulisboa.pt
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+this is a package ment distribute tube code within the tube team
+
+the package is being developed fololowing the tutorial...
+https://packaging.python.org/tutorials/packaging-projects/
+(tks)
+
+the package is primarily dedicated to share software for analysis of tube data
+
+2021-04-17
+begin of package
+
+
