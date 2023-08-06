@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/__init__.py
+src/database.py
+src/index.py
+src/nlp_utils.py
+src/rosetta_search.egg-info/PKG-INFO
+src/rosetta_search.egg-info/SOURCES.txt
+src/rosetta_search.egg-info/dependency_links.txt
+src/rosetta_search.egg-info/requires.txt
+src/rosetta_search.egg-info/top_level.txt
