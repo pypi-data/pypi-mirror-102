@@ -1,0 +1,9 @@
+figcow/__init__.py,sha256=YjUoOv_f3EsBQn9wr7jO4dqggPCtl7JX-KZ6xYNXxys,433
+figcow/__main__.py,sha256=VBcOajlw_FQV9X31D1nFXR_WSqtCaxNeUiGIL-axvC4,118
+figcow/process.py,sha256=vh_2OU75QYYYJ_aIOV77B0b_lGBCBiTN-LXB7RGjOVA,29017
+figcow-1.0.0.dist-info/LICENSE,sha256=_j_UGw66H-opqsJDy7neKjxXJBiu1nd3Kn_4SgWBPMs,1060
+figcow-1.0.0.dist-info/METADATA,sha256=KtwPczlaidM4gnj6pttKV4kPrP4D_HGPYywEuCqHlt8,2483
+figcow-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+figcow-1.0.0.dist-info/entry_points.txt,sha256=ciPFT5Lcy91162oGgRMkdXMziOlJ5VqNOI7r_gcBSWE,49
+figcow-1.0.0.dist-info/top_level.txt,sha256=3EHTMD5LwrOpv1e67w8jlDRe-wzbS3Nmc0lO7GWqUfI,7
+figcow-1.0.0.dist-info/RECORD,,
