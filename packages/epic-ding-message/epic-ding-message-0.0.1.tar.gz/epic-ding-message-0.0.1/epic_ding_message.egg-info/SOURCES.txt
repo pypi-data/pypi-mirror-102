@@ -1,0 +1,8 @@
+setup.py
+EpicDingMessage/__init__.py
+EpicDingMessage/message.py
+epic_ding_message.egg-info/PKG-INFO
+epic_ding_message.egg-info/SOURCES.txt
+epic_ding_message.egg-info/dependency_links.txt
+epic_ding_message.egg-info/requires.txt
+epic_ding_message.egg-info/top_level.txt
