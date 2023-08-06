@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+oopwaiywaiy/__init__.py
+oopwaiywaiy/newschool.py
+oopwaiywaiy/pythonOOP.py
+oopwaiywaiy.egg-info/PKG-INFO
+oopwaiywaiy.egg-info/SOURCES.txt
+oopwaiywaiy.egg-info/dependency_links.txt
+oopwaiywaiy.egg-info/top_level.txt
