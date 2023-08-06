@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: codename-generator
+Version: 1.1
+Summary: Codename generator. A Python implementation of https://github.com/MarkSMurphy/codename-generator
+Home-page: https://github.com/wheresalice/codename-generator
+Author: Alice Kaerast
+Author-email: alice@kaerast.info
+License: UNKNOWN
+Keywords: python project codename generator code name
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
