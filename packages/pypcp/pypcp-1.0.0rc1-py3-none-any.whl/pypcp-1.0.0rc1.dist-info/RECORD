@@ -1,0 +1,13 @@
+pypcp/__init__.py,sha256=lyngukYnSAIkpPoKpxeHNXsH2BffbbcXjCfkOLvmRBw,339
+pypcp/pcp.py,sha256=nBGPdpHTAdli6F0ZbcU8vrH3a_48uo2g4Yzx6UlCojM,42386
+pypcp/pcp_cli.py,sha256=3zegU8EtRfpK3XfQzRklMwSFmtzu30iQUowJVS9-Jb0,21988
+pypcp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypcp/utils/pcp_md5.py,sha256=uvRPZw11pNoyEe18FuhVcFbThWQojekT3nMfT9b6nkc,349
+pypcp/utils/pcp_stream.py,sha256=tYrWxzNOAJoUBdskAb63JfHK4yAuVLfe4YyqcIW1R2Y,1589
+pypcp-1.0.0rc1.dist-info/DESCRIPTION.rst,sha256=glR92ltcANWd7xq5PaSN84aJEcMXFPfRUKLO3DjiIXM,2279
+pypcp-1.0.0rc1.dist-info/METADATA,sha256=Q3jcdLo5PL6d2KgRr6bKc-OWsoxa84nW5kIB9FA2zjU,3316
+pypcp-1.0.0rc1.dist-info/RECORD,,
+pypcp-1.0.0rc1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pypcp-1.0.0rc1.dist-info/entry_points.txt,sha256=12ajyAlnl6SiDUpAtdA7fDnfIV03v_eXls29ueoIyRE,48
+pypcp-1.0.0rc1.dist-info/metadata.json,sha256=Vy1KLnuKU9vgZjHculnddaOEr8R0vUGSGRVNQUNmWPA,1251
+pypcp-1.0.0rc1.dist-info/top_level.txt,sha256=A3usEFUKrvZaqxLqJUnlAB80o28ekmiFTFpRCQLdyJM,6
