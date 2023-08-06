@@ -1,0 +1,7 @@
+README.txt
+setup.py
+gencon.egg-info/PKG-INFO
+gencon.egg-info/SOURCES.txt
+gencon.egg-info/dependency_links.txt
+gencon.egg-info/not-zip-safe
+gencon.egg-info/top_level.txt

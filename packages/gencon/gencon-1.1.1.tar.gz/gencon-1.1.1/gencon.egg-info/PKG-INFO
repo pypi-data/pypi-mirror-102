@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: gencon
+Version: 1.1.1
+Summary: GENCON program is used to calculate C1, C2, C3 for model coefficents                 for general clay model in INFIDEL/INFIDEP
+Home-page: UNKNOWN
+Author: Nallathamby Sivasithamparam
+Author-email: nallathamby.siva@ngi.no
+License: NGI license
+Description: UNKNOWN
+Keywords: general clay model
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Free For Educational Use
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
