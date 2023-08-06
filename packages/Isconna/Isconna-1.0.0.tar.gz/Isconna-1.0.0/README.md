@@ -1,0 +1,160 @@
+![Test.Demo
+status](https://github.com/liurui39660/Isconna.Python/actions/workflows/Test.Demo.yml/badge.svg)
+![PyPI version](https://badge.fury.io/py/Isconna.svg)
+
+Python porting of the [Isconna](https://github.com/liurui39660/Isconna)
+algorithm.
+
+-   The demo is not included, see section
+    [???](#External Dataset + Custom Runner) for how to use Isconna
+
+-   The complete change log is at [CHANGELOG.adoc](CHANGELOG.adoc)
+
+<!-- -->
+
+-   Please consider using the [C++
+    version](https://github.com/liurui39660/Isconna) as the baseline,
+    this porting may not receive timely updates.
+
+# Demo
+
+1.  Open a terminal
+
+2.  `cd` to the project root `Isconna.Python`
+
+3.  `mkdir out`
+
+4.  If you already have a copy of datasets (e.g., from
+    [Isconna](https://github.com/liurui39660/Isconna)), you can set the
+    environment variable `DATASET_DIR` to its `data` folder
+
+    1.  Otherwise,
+        `curl -OL https://github.com/liurui39660/Isconna/raw/master/data/data.zip`
+
+    2.  `mkdir data && tar -xf data.zip -C data` (Windows)
+
+        -   Or `unzip data.zip -d data` (Linux/macOS)
+
+        -   Or `7z x data.zip -odata`
+
+        -   You can see a directory like `data/CIC-IDS2018/processed`
+
+5.  `pip install -r requirements.txt`
+
+    -   Or `conda install --file requirements.txt -y`
+
+6.  `set PYTHONPATH=src` (Windows) or `export PYTHONPATH=src`
+    (Linux/macOS)
+
+7.  `python example/Demo.py`
+
+This runs Isconna-EO on CIC-IDS2018
+(`$DATASET_DIR/CIC-IDS2018/processed/Data.csv`) and prints ROC-AUC.
+
+# Requirement
+
+All required packages are listed in `requirements.txt`.
+
+Python 3.6+ should be fine.
+
+-   `numba`: JIT, i.e., acceleration
+
+-   `numpy`: Make code concise, but no effect on speed
+
+    -   Because you actually run on the jitted (translated) code
+
+<!-- -->
+
+-   `pyprojroot`: Detect project root path
+
+-   `scikit-learn`: Metric
+
+-   `tqdm`: Progress bar
+
+# Customization
+
+## Export Raw Scores
+
+Uncomment the section "Export raw scores" of `example/Demo.py`.
+
+`out/Score.txt` has 1 column: the final anomaly score.
+
+## Switch Cores
+
+Cores are declared in the section "Do the magic" of `example/Demo.py`.
+Uncomment the desired core.
+
+## Different Parameters / Datasets
+
+Parameters and dataset paths are specified in the section Parameter of
+`example/Demo.py`.
+
+## External Dataset + `Demo.py`
+
+You need to prepare three files:
+
+-   Meta file
+
+    -   Only includes an integer `n`, the number of records in the
+        dataset
+
+    -   Assign its path to `pathMeta`
+
+    -   E.g., `data/CIC-IDS2018/processed/Meta.txt`
+
+-   Data file
+
+    -   A header-less csv file with shape `[n,3]`
+
+    -   Each row includes 3 integers: source, destination and timestamp
+
+    -   Timestamps should start from 1 and be continuous
+
+    -   Assign its path to `pathData`
+
+    -   E.g., `data/CIC-IDS2018/processed/Data.csv`
+
+-   Label file
+
+    -   A header-less text file with shape `[n,1]`
+
+    -   Each row includes 1 integer: 0 if normal, 1 if anomalous
+
+    -   Assign its path to `pathLabel`
+
+    -   E.g., `data/CIC-IDS2018/processed/Label.csv`
+
+## External Dataset + Custom Runner
+
+1.  Copy the directory `src/Isconna` to where you need
+
+2.  Import `Isconna` in the code
+
+3.  Instantiate cores with required parameters
+
+    -   Number of CMS rows
+
+    -   Number of CMS columns
+
+    -   Decay factor (default is 0, i.e., keep nothing)
+
+4.  Call `FitPredict()` on individual records, the signature includes
+
+    1.  Source (categorical)
+
+    2.  Destination (categorical)
+
+    3.  Timestamp
+
+    4.  Weight for the frequency score
+
+    5.  Weight for the width score
+
+    6.  Weight for the gap score
+
+    7.  Return value is the anomaly score
+
+# Feedback
+
+If you have any suggestion, can’t understand the algorithm, don’t know
+how to use the experiment code, etc., please feel free to open an issue.
