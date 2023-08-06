@@ -1,0 +1,8 @@
+amo_partner_crawler/__init__.py,sha256=eXPT0ljJq-k2p56wJlHOhn9-RSaaVF3ykU5_0UWM3NE,71
+amo_partner_crawler/core.py,sha256=iBzfpCvkvHZSmPdkSuX5aq528MjPvdqs6Jhy6uuB-7A,12952
+amo_partner_crawler/exceptions.py,sha256=I5v1jneodPpo35uhi4Vcg8hebXGm9j90BfMDstCZEt4,1347
+amo_partner_crawler/schemas.py,sha256=XfspC_jIa7G5k7eNBo19h0ppD-ZpV37ppSnQRMJPUS0,1151
+amo_partner_crawler/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amo_partner_crawler-2.1.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+amo_partner_crawler-2.1.3.dist-info/METADATA,sha256=b_oY03fM-R2vDAVLB43xtcAa3kXNN6eXkuD9NX9iax4,500
+amo_partner_crawler-2.1.3.dist-info/RECORD,,
