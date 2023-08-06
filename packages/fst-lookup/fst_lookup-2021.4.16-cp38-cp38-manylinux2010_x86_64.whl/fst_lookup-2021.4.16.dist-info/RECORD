@@ -1,0 +1,17 @@
+fst_lookup-2021.4.16.dist-info/RECORD,,
+fst_lookup-2021.4.16.dist-info/WHEEL,sha256=RIeRBYNNiNK3sXfnenIjXDrR2Tzyz05xCMpKF2hJ1iA,111
+fst_lookup-2021.4.16.dist-info/METADATA,sha256=CDyZ1kr2xlenyacrjUn8DFsV134ds0Y_OiPUjnYVPic,4573
+fst_lookup-2021.4.16.dist-info/top_level.txt,sha256=7hclx41IwDFItgIr3OlKvZzYfkcYvJvTgTTQ9gii0T8,11
+fst_lookup-2021.4.16.dist-info/LICENSE,sha256=ZUhwHDnEaSCJY4q9hE_YPuoSWJ1ATp7uCUXscgy0RRo,1096
+fst_lookup/typedefs.py,sha256=FrrJQGqi0DoQHrk7ZHCxqlmxX8ZeRlCW8SQwazObMuU,62
+fst_lookup/symbol.py,sha256=_ZO9Xjfry8oDfLuHtWov0Pq4ZyWlAb7F1dSk6rvcniA,2413
+fst_lookup/_fst_lookup.c,sha256=M1T0LlSfmJUygjQr3AmpRsyH0b_BXrbA0th8Jya5LeI,10839
+fst_lookup/parse.py,sha256=SDCPJspy7bdvuzUT9NAMT7mz8gAq_rQj9z2kXohzAjQ,13303
+fst_lookup/_fst_lookup.pyi,sha256=y8x1EQZFCXs1_EMw_CyXnFTFgqccrT9756tzJBUn5Nk,615
+fst_lookup/fallback_data.py,sha256=b30F2Oann70oL4GHxiLamLyEshqDJOf1zYXf_yuCcrA,1504
+fst_lookup/data.py,sha256=syLg7L0IHKD5V5Her5t5ryWuobIgOUOpt0Szf9CKwGc,187
+fst_lookup/_fst_lookup.cpython-38-x86_64-linux-gnu.so,sha256=kiJ2qkXH5MMuy0AD7LmrJtbmuiCSBBOap0CRhaTVg2Y,56504
+fst_lookup/__version__.py,sha256=vjiD8x0g_SxMdTzd84Yfh1P_2Op0f8QNJmmAM3RHclw,68
+fst_lookup/flags.py,sha256=w-0es9UFS0Wd7U48uxXDu2qUsvysy0U0cOgAWuNIP6E,4134
+fst_lookup/fst.py,sha256=poWwjBsNI4GZeWcYI-uelccYzsWmnC5ygt8IR54K1mc,8926
+fst_lookup/__init__.py,sha256=BTII6P3xCN28pcBYJS7u698ypFFECdkMUL4kzPUQnj0,116
