@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Targets/__init__.py
+models/__init__.py
+models/application.py
+models/plugins.py
+models/targets.py
+sego_cli.egg-info/PKG-INFO
+sego_cli.egg-info/SOURCES.txt
+sego_cli.egg-info/dependency_links.txt
+sego_cli.egg-info/requires.txt
+sego_cli.egg-info/top_level.txt
