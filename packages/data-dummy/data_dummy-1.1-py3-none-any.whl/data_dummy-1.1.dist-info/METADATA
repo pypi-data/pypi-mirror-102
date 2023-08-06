@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: data-dummy
+Version: 1.1
+Summary: Generate random data dummy
+Home-page: https://github.com/keselyoleren/data-dummy
+Author: keselyoleren
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+
+Data dummy generator
+=====
+
+
+Random name, username, email, phone, address, ipv4 generator
+
+
+Installation
+------------
+
+install with pip::
+
+    pip install data-dummy==1.0
+
+
+Usage
+-----
+Here are examples of all current features:
+
+
+    >>> import dummy
+    >>> dummy.name()
+    'Yuliana Sudradjat'
+    >>> dummy.username()
+    'Yuliana'
+    >>> dummy.email()
+    'Bernard@gmail.com'
+    >>> dummy.address()
+    'Jl. Dr A Rivai Bukittinggi Telp: 0752-21720'
+    >>> dummy.phone()
+    '+62812-0989-0128'
+    >>> dummy.ipv4()
+    '123.124.5.12'
+
+
+License
+-------
+
+This project is released under an `MIT License`.
+
+
+Src data
+--------
+
+- data.name (the following files are public domain in indonesia )
+- data.address (address of covid19 care referral hospital in indonesia)
+
+
+
+available on PyPI: https://pypi.org/project/data-dummy/
+
+
