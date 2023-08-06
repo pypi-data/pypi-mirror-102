@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: redash_tools
+Version: 1.0.3
+Summary: Tools to backup, batch update, template redash queries and dashboards
+Home-page: http://github.com/pavlova-marina/redash-tools
+Author: Marina Pavlova
+Author-email: pavlova.marina.v@gmail.com
+License: MIT
+Download-URL: https://github.com/pavlova-marina/redash-tools/archive/refs/tags/v1.0.3.tar.gz
+Description: UNKNOWN
+Keywords: redash
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
