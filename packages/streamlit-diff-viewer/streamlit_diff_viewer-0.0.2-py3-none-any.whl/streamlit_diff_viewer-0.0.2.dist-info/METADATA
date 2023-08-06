@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: streamlit-diff-viewer
+Version: 0.0.2
+Summary: A simple component to view diff between to files
+Home-page: UNKNOWN
+Author: Quentin Febvre
+Author-email: quentin.febvre@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit (>=0.63)
+
+# Streamlit diff viewer
+
+## Installation
+
+```
+pip install streamlit-diff-viewer
+```
+
+## Usage
+
+```
+diff_viewer.diff_viewer(old_text=old_value, new_text=new_value, lang=lang)
+```
+
+With lang one of 'python', 'yaml', 'none'
+
