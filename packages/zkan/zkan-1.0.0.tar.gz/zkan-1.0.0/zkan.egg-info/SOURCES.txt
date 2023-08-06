@@ -1,0 +1,9 @@
+README.md
+setup.py
+zkan/__init__.py
+zkan/__main__.py
+zkan.egg-info/PKG-INFO
+zkan.egg-info/SOURCES.txt
+zkan.egg-info/dependency_links.txt
+zkan.egg-info/entry_points.txt
+zkan.egg-info/top_level.txt
