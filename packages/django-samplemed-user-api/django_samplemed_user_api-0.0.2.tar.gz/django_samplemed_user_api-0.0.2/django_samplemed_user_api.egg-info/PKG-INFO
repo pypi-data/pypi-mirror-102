@@ -1,0 +1,81 @@
+Metadata-Version: 1.1
+Name: django-samplemed-user-api
+Version: 0.0.2
+Summary: A simple User app for DRF
+Home-page: https://github.com/EliasOPrado/users-package-api
+Author: Elias Prado
+Author-email: eliasprado123@outlook.com.com
+License: MIT License
+Description: ==========================
+        Django Samplemed Users Api
+        ==========================
+        
+        This is a generic sample of code for api test installation. To be used as an 
+        app to create api endpoints using DRF.
+        
+        The steps for installation are as follow:
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Install "rest_framework"::
+        
+            `pip install djangorestframework`
+        
+        2. Once installed add the ``rest_framework`` into your "INSTALLED_APPS" in your ``settings.py``::
+        
+            INSTALLED_APPS = [
+                ...
+                'rest_framework',
+            ]
+        
+        3. Install ``samplemed_users_api``::
+        
+             ``pip install samplemed_users_api``
+        
+        4. Once installed add the "User" app into your ``INSTALLED_APP`` in ``settings.py``::
+        
+            INSTALLED_APPS = [
+                ...
+                'rest_framework',
+                'Users',
+            ]
+        
+        5. Make db migrations to make the app work::
+        
+             ``python manage.py makemigrations``
+        
+        6. Migrate the changes::
+        
+             ``python manage.py migrate``
+        
+        7. Add the urls from "User" app into your main url::
+        
+             ``from django.conf.urls import include``
+        
+        - URL path that will display as default 
+          admin and the empty path as the API endpoints (router.urls)::
+        
+            urlpatterns = [
+                path('admin/', admin.site.urls),
+                path('users/', include("Users.urls")), 
+            ]
+        
+        8. Go to  "https://your.url.com/users/" and see the endpoints.
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
