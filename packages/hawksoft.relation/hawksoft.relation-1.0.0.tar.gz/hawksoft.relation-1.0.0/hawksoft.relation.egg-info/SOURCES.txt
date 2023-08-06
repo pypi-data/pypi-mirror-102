@@ -1,0 +1,10 @@
+README.rst
+setup.py
+./README.rst
+hawksoft/__init__.py
+hawksoft/relation.py
+hawksoft.relation.egg-info/PKG-INFO
+hawksoft.relation.egg-info/SOURCES.txt
+hawksoft.relation.egg-info/dependency_links.txt
+hawksoft.relation.egg-info/requires.txt
+hawksoft.relation.egg-info/top_level.txt
