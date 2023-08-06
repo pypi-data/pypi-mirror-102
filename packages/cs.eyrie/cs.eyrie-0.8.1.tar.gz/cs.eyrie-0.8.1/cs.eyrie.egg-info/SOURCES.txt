@@ -1,0 +1,5 @@
+setup.py
+cs.eyrie.egg-info/PKG-INFO
+cs.eyrie.egg-info/SOURCES.txt
+cs.eyrie.egg-info/dependency_links.txt
+cs.eyrie.egg-info/top_level.txt
