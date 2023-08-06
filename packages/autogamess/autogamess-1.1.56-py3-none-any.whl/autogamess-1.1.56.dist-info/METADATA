@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: autogamess
+Version: 1.1.56
+Summary: This is a python module for automating Raman calculations using GAMESS(us).
+Home-page: https://github.com/Cavenfish/autogamess
+Author: Brian C. Ferrari
+Author-email: brianf1996@knights.ucf.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: basis-set-exchange
+Requires-Dist: PeriodicElements
+Requires-Dist: openpyxl
+Requires-Dist: matplotlib
+Requires-Dist: xlrd
+Requires-Dist: xlsxwriter
+
+UNKNOWN
+
+
