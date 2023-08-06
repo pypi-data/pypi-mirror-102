@@ -1,0 +1,7 @@
+setup.py
+hctextshow/__init__.py
+hctextshow/show.py
+hctextshow.egg-info/PKG-INFO
+hctextshow.egg-info/SOURCES.txt
+hctextshow.egg-info/dependency_links.txt
+hctextshow.egg-info/top_level.txt
