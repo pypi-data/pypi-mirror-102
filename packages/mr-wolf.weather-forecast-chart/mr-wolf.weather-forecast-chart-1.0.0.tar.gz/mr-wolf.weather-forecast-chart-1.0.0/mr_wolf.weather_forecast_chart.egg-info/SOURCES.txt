@@ -1,0 +1,10 @@
+README.md
+setup.py
+mr_wolf.weather_forecast_chart.egg-info/PKG-INFO
+mr_wolf.weather_forecast_chart.egg-info/SOURCES.txt
+mr_wolf.weather_forecast_chart.egg-info/dependency_links.txt
+mr_wolf.weather_forecast_chart.egg-info/entry_points.txt
+mr_wolf.weather_forecast_chart.egg-info/requires.txt
+mr_wolf.weather_forecast_chart.egg-info/top_level.txt
+mr_wolf/weather_forecast_chart/__init__.py
+mr_wolf/weather_forecast_chart/main.py
