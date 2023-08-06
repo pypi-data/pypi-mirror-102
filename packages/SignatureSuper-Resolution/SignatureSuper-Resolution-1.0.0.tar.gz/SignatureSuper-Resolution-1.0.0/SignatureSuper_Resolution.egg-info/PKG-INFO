@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: SignatureSuper-Resolution
+Version: 1.0.0
+Summary: Sinature Super-Resolution
+Home-page: http://192.168.3.42:3000/zhoupengcheng/ssr
+Author: zhou peng cheng
+Author-email: 707480880@qq.com
+License: MIT License
+Description: # Signature Super-Resolution
+        
+        签字序列数据超分辨率重建工具库
+        
+        📝 三部分：
+        
+        - ssr_method：超分重建方法，现有基于贝塞尔曲线插值的方法
+        - metric：评价指标，现有dtw方法（序列不需要等长）和rmse（序列必须等长）
+        - utils：笔迹序列数据，速度数据对比可视化，下采样
+        
+        🔨 可用于：
+        
+        - 低报点率设备采集到的数据(lr_data)，经过重建，输出超分辨率数据(sr_data)
+        - 输入高报点率设备采集到的数据(hr_data)，经过下采样，重建，评价超分方法
+        
+        📌 签字序列数据输入/输出规范：
+        
+        - pd.DataFrame：["X", "Y", "P", "T"]，其中"T"维度数据非时间间隔和时间戳，是时间递增，从0开始
+        
+        ## ssr_method
+        ### 贝塞尔插值
+        - hr2lr2sr：输入高清数据和低清数据采样率，经过下采样（down_sample），超分重建(SR)，输出超分辨率数据
+        - ssr_bezier：输入低清数据和高清数据采样率，经过超分重建（SR）,输出超分辨率数据
+        
+        📆 TODO
+        - [ ] GAN SR
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
