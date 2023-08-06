@@ -1,0 +1,19 @@
+<div class="swiper-container"
+     tal:define="images context/get_images"
+     tal:condition="images">
+  <div class="swiper-wrapper">
+    <tal:items repeat="image images">
+      <div class="swiper-slide">
+        <div class="swiper-player aspect-16-9">
+          <div class="swiper-image-wrapper">
+            <img tal:replace="structure image/@@images/image/large" />
+          </div>
+        </div>
+        <div class="swiper-description" tal:content="image/Description|image/Title"></div>
+      </div>
+    </tal:items>
+  </div>
+  <div class="swiper-button-next swiper-button-white"></div>
+  <div class="swiper-button-prev swiper-button-white"></div>
+  <div class="swiper-pagination"></div>
+</div>
