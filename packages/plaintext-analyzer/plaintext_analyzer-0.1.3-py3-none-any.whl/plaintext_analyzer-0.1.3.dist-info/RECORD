@@ -1,0 +1,10 @@
+plaintext_analyzer/__init__.py,sha256=iQUo_tSai4yl3ZonH6yArJrgClpIYffUoBGqnaMMPJ0,874
+plaintext_analyzer/entry.py,sha256=pQspN1W0GH3ThQ6xtS1cC7fU8muoNj86GHoHZCe9YfY,2749
+plaintext_analyzer/file_reader.py,sha256=oifhyIy5yf6ByPGtOPSQue57rtqxEG_0QyZGuGGiOY4,1018
+plaintext_analyzer/file_writer.py,sha256=-YaTHPdZMC0OspHayXKHFWXveQhOI_NmrFKPP_NFFzA,1767
+plaintext_analyzer/phrase_analyzer.py,sha256=8vqj2Rtk2sToc0Jent82t3l4R6PEXo6fNeM0RvGzVVs,1912
+plaintext_analyzer/vocab_analyzer.py,sha256=OvWcL8wWb2G6FQ1bitijuafaRnGdEVz5TthzUXG38_8,1356
+plaintext_analyzer-0.1.3.dist-info/entry_points.txt,sha256=JdWtrz1dZ95B0_GMrk3WVm4gvqRd6QtU3WKZrqeXGb0,117
+plaintext_analyzer-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+plaintext_analyzer-0.1.3.dist-info/METADATA,sha256=k1k07UBBWsi8dw5myacYX5g4DHkvwXriTaFGscrC0BU,6079
+plaintext_analyzer-0.1.3.dist-info/RECORD,,
