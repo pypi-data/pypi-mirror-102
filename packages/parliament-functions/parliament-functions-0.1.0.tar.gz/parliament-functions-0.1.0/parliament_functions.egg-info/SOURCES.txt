@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+parliament/__init__.py
+parliament/__main__.py
+parliament/decorators.py
+parliament/invocation.py
+parliament/server.py
+parliament/version.py
+parliament_functions.egg-info/PKG-INFO
+parliament_functions.egg-info/SOURCES.txt
+parliament_functions.egg-info/dependency_links.txt
+parliament_functions.egg-info/entry_points.txt
+parliament_functions.egg-info/requires.txt
+parliament_functions.egg-info/top_level.txt
