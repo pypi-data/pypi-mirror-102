@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "texto"
+version = "0.1.2"
+description = "Projet de textométrie."
+authors = ["Jérémy DEMANGE <jeremy@scrapfast.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+spacy = "3.0.3"
+nltk = "3.5"
+gensim = "4.0.0b0"
+matplotlib = "3.3.4"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest="6.2.3"
+
+[tool.poetry.scripts]
+texto = 'texto.entry:cli'
+
+[build-system]
+requires = ["poetry-core>=1.1.2"]
+build-backend = "poetry.core.masonry.api"
