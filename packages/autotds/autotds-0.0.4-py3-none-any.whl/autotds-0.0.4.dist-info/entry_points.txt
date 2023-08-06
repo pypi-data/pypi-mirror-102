@@ -1,0 +1,3 @@
+[console_scripts]
+autotds = autotds.__main__:main
+
