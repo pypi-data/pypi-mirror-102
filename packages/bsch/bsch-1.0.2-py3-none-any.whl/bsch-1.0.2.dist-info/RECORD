@@ -1,0 +1,13 @@
+bsch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bsch/gtc400c/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bsch/gtc400c/colormaps.py,sha256=8Sbrj_rOOQ9pLKq2D0s5mJCno4iNNnkMbTXjNp1CXfg,3598
+bsch/gtc400c/ftp.py,sha256=R-aoF3WI1RsWVBteR_Cnel6K4leS85SoXlLNVgaNPzI,2240
+bsch/gtc400c/fusion.py,sha256=pZtkT8LvcM2SS9PAxSr5XJLbRZh2SuHfdkogknwRNKo,1415
+bsch/gtc400c/jpeg.py,sha256=4zWJd2cQ_ebn_715VntJOO8XrUznGojli4a2MuBOTUY,5529
+bsch/gtc400c/metadata.py,sha256=RbE5aZjjNaYq_1nLpCRrVHZbvs4MAQrJCiYZpbJ6KO4,3759
+bsch/gtc400c/util.py,sha256=2iquwU02LS9NJzlvsKHmG5RotDdrOVHND6EnxVVNN3A,5120
+bsch-1.0.2.dist-info/METADATA,sha256=I0HQmuUqkquJ5_-Za69_xb_fwTgUuuVCs7DfW1E3s8I,1109
+bsch-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bsch-1.0.2.dist-info/entry_points.txt,sha256=Wx80mUVLB7K-0RziyQfhESNQtWEyxfotuXa_N-goMEw,195
+bsch-1.0.2.dist-info/top_level.txt,sha256=zm6TYg7IIrhBz9PAd0d2jjrmaT9uuvqG0cYxuEtr43Y,5
+bsch-1.0.2.dist-info/RECORD,,
