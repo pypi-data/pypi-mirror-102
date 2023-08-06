@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+distributions_mf/BinomialDistribution.py
+distributions_mf/GaussianDistribution.py
+distributions_mf/GeneralDistribution.py
+distributions_mf/__init__.py
+distributions_mf/example.py
+distributions_mf/test.py
+distributions_mf.egg-info/PKG-INFO
+distributions_mf.egg-info/SOURCES.txt
+distributions_mf.egg-info/dependency_links.txt
+distributions_mf.egg-info/not-zip-safe
+distributions_mf.egg-info/top_level.txt
