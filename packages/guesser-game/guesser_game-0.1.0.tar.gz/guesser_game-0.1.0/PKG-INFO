@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: guesser_game
+Version: 0.1.0
+Summary: An easy funny game, which the computer will guess the number you have in mind
+Home-page: https://github.com/mwpnava/Python-Code/tree/master/My_own_Python_package
+Author: Wendy Navarrete
+Author-email: navarrete.wen@gmail.com
+License: UNKNOWN
+Description: <p align="center">
+          <img src="https://wendynavarrete.com/wp-content/uploads/2020/11/background-5594879__480.jpg" alt="Number Guesser Game" border="0" height="250" width="500" />
+        </p>
+        
+        The **Number Guesser Game** is a python package that contains an easy funny game. Based on a few simple arithmetic operations, the computer will be able to "guess" a number.
+        
+        
+        ###  Install
+        
+        ```bash
+        $ pip install guesser-game  
+        ```
+        
+        ### Usage
+        
+        Open a Python console, import the module GuessMyNumber, create an instance of it and call its method play(). Now start to play and let this code guess the number you have in mind 😉
+        
+        ```python
+        >> from guesser_game import GuessMyNumber
+        >>
+        >> my_game = GuessMyNumber()
+        >> my_game.play()
+        ```
+        
+        
+        ### License
+        
+        This project is licensed under the MIT License
+        
+        
+        ### Author
+        
+        [Wendy Navarrete](http://wendynavarrete.com)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
