@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+  <div>
+    {% include "partials/playbook_card.html" with playbook=host.playbook %}
+  </div>
+  <br/>
+  <div>
+    {% include "partials/host_facts.html" %}
+  </div>
+  <br/>
+  <div>
+    {% include "partials/host_results.html" %}
+  </div>
+  <br/>
+{% endblock %}

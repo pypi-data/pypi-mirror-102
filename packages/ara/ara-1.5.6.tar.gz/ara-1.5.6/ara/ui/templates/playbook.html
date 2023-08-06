@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load datetime_formatting %}
+{% load truncatepath %}
+{% block body %}
+  <div>
+    {% include "partials/playbook_card.html" %}
+  </div>
+  <br/>
+  <div>
+    <div class="row">
+      <div class="col-md-6">
+        {% include "partials/playbook_hosts.html" %}
+      </div>
+      <div class="col-md-4">
+        {% include "partials/playbook_files.html" %}
+      </div>
+      <div class="col-md-2">
+        {% include "partials/playbook_records.html" %}
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div>
+    {% include "partials/playbook_results.html" %}
+  </div>
+{% endblock %}
