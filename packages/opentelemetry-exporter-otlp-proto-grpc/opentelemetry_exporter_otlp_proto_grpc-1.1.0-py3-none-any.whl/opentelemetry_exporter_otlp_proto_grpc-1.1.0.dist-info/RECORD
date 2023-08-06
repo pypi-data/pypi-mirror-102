@@ -1,0 +1,10 @@
+opentelemetry/exporter/otlp/proto/grpc/__init__.py,sha256=_lfnEik9kdMewLpIUhhPtlD1_T8fSizPZK2nQzZ6qJ4,2447
+opentelemetry/exporter/otlp/proto/grpc/exporter.py,sha256=_t2N6yo2wKs5ARNdrWDeBN--3n4858BvspFGdhk-vPs,9555
+opentelemetry/exporter/otlp/proto/grpc/version.py,sha256=loNrtvmo_kMQE2iLU4A_0sVv7R4mDboXJDrBZv-LIrg,607
+opentelemetry/exporter/otlp/proto/grpc/trace_exporter/__init__.py,sha256=njD4_KevWgDBfUMxb-s5mFtJzUbApJ3A8rKCSIyhDek,10729
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/METADATA,sha256=Rqek5UUYX4yAFNomwf8PxTxxdzzZgL7xIpamfKTnMT8,2127
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/entry_points.txt,sha256=HncXLLC_Sn8F2E_rZykXaQtYh6_fhmbHXE6YqFbSLRc,120
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_exporter_otlp_proto_grpc-1.1.0.dist-info/RECORD,,
