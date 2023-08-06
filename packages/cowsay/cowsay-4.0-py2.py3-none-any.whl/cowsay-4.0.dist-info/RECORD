@@ -1,0 +1,11 @@
+cowsay/__init__.py,sha256=Sj_3A2KE1IbMf213L4T_LAJJ5EODwTO6HQCiqG83AJU,185
+cowsay/__main__.py,sha256=2W2U1UcUIaAQ35Byngt8TWYEF9K5u0Sc_KjvPr_P4uc,61
+cowsay/characters.py,sha256=3-oQAJOv_4mH2ggbySrb0jM0aZnWugfu2g_Jnbb0SFE,10243
+cowsay/main.py,sha256=KUG154ss1Dfiv5NeUBF3A6rOBqvHJLLv8gAla3-_qGI,2476
+cowsay/test.py,sha256=oW-P7TJcraekt5c_EWZzEsaV1PrbVDCOYHmV-k3u4og,36680
+cowsay-4.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cowsay-4.0.dist-info/METADATA,sha256=GzTn2CS5Dy_IORPx3Xq8BbI2If4D3njex7IHslMwtjE,7911
+cowsay-4.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+cowsay-4.0.dist-info/entry_points.txt,sha256=VM_r0clSAw6wKb2B8nA77qqxg2-vqBDj9VX9ILyfyG8,44
+cowsay-4.0.dist-info/top_level.txt,sha256=45zxJRiJFquDz8AIvNLxZWersc80tEFX0iKLKG868Ck,7
+cowsay-4.0.dist-info/RECORD,,
