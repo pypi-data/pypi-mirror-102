@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ipyauth-keycloak
+Version: 0.3.0
+Summary: Jupyter widget - OAuth2 implicit flow from notebook
+Home-page: https://gitlab.com/raisepartner/ipyauth-keycloak
+Author: raisepartner
+Author-email: vincent.pfister@raisepartner.com
+License: MIT
+Download-URL: https://gitlab.com/raisepartner/ipyauth-keycloak/repository/archive.tar.gz?ref=0.3.0
+Keywords: ipywidget,javascript,OAuth2,Implicit flow,Auth0,Google,SG Connect,Keycloak
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
+Requires-Dist: python-dotenv (>=0.8.2)
+Requires-Dist: ipywidgets (>=7.1.2)
+
+UNKNOWN
+
+
