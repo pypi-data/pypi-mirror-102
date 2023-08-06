@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: rmsfact
+Version: 0.1.0
+Summary: Display a randomly selected quote about Richard M. Stallman.
+Home-page: https://www.github.com/lewinfox/rmsfact
+Author: Lewin Appleton-Fox
+Author-email: lewin.a.f@gmail.com
+License: UNKNOWN
+Project-URL: Issues, https://www.github.com/lewinfox/rmsfact/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# rmsfact
+
+A port of the R package [`rmsfact`](https://cran.r-project.org/package=rmsfact) by Dirk Edelbuettel.
+
+Display a randomly selected quote about Richard M. Stallman based on the collection in the 'GNU
+Octave' function 'fact()' which was aggregated by Jordi Gutiérrez Hermoso based on the (now defunct)
+site stallmanfacts.com (which is accessible only via <http://archive.org>).
+
+# Usage
+
+The package contains a single class, `RMSFact()` which provides a single method `rmsfact()` which
+takes no arguments and prints a randomly-selected "fact" to the console.
+
+```python
+import rmsfact
+
+factory = rmsfact.RMSFact()
+
+factory.rmsfact()
+```
+
+
