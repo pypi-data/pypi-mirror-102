@@ -1,0 +1,6 @@
+pandas
+shapely
+numpy
+seaborn
+matplotlib<=3.3.0
+scipy
