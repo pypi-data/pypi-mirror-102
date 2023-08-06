@@ -1,0 +1,8 @@
+libmsf/__init__.py,sha256=mDJM4B67WMy3wq8vXtdQvdP1fQ-GLU2Bs5_A9rrq-Lg,266
+libmsf/msf.py,sha256=8yhUxkUxQ3Q80ijhMx8PPBUyhThVIoSlGL3GMvczwN0,6661
+libmsf/rest.py,sha256=lVuP0wVIv__5Fav__F-65GibfQr3GTvVm0NdHdNPZMg,76086
+libmsf-0.0.2.dist-info/METADATA,sha256=TKaSyLbPrxICf30FQIfvrw3lkUfWz4k8eP-KsyiqcDo,47466
+libmsf-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+libmsf-0.0.2.dist-info/entry_points.txt,sha256=ztu2PrpZFl3T-7SZkLPiP2kDBu23nnsA9JC34aInXqw,51
+libmsf-0.0.2.dist-info/top_level.txt,sha256=uvBGY2PwrxNAE6FNaHP9L4tUJb7VZb0UD75ybsNF-Gs,7
+libmsf-0.0.2.dist-info/RECORD,,
