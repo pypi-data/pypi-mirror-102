@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mijn-pkg
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: xarray
+Requires-Dist: pyct (>=0.4.8)
+Requires-Dist: param
+
+UNKNOWN
+
+

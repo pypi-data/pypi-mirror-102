@@ -1,0 +1,11 @@
+basic_pkg/.version,sha256=XnADyBblgcl9q1Me_9_J15Z9BrRbw89cla6yyQ8U-ZI,85
+basic_pkg/__init__.py,sha256=OvFfDZE_t-LrO2YvEoiDorgJnpZu9t-MmOovoKucozM,89
+basic_pkg/__main__.py,sha256=18f3kvqfbCh0FsP11mfAcYf3EqraXRESqhHslYJy-as,280
+basic_pkg/sample_mod.py,sha256=KWKDuzUxUCzFRmCrUOzM36q_C6VxncI76SPDcUvz6tA,47
+basic_pkg/examples/Untitled.ipynb,sha256=DT07P9GfkJBxzCIeeYq8xdTPXW4mlbhUR3gf5FFO8tM,555
+basic_pkg/examples/example_doc.txt,sha256=uU0nuZNNPgilLlLX2n2r-sSE7-N6U4DukIj3rOLvzek,11
+mijn_pkg-0.0.8.dist-info/METADATA,sha256=z7BA8No0VNcxKwPrnxmAAgRrXI747D4a-f6L7yvcD1Q,245
+mijn_pkg-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mijn_pkg-0.0.8.dist-info/entry_points.txt,sha256=OY_y8HDWbI2t2qCTIhSxi2VJlAGR5uqwTper9KppuC0,55
+mijn_pkg-0.0.8.dist-info/top_level.txt,sha256=4lxPCFbQFhSGlnN2c8vuSMMOayHd_zSH0kZ43GAJXuc,10
+mijn_pkg-0.0.8.dist-info/RECORD,,
