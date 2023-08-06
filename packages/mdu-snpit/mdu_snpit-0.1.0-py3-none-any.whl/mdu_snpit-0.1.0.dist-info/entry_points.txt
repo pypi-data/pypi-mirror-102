@@ -1,0 +1,3 @@
+[console_scripts]
+mdu-snpit = mdu_snpit.main:main
+

@@ -1,0 +1,10 @@
+mdu_snpit/__init__.py,sha256=2S4zCLZBIm0xlqBsDn-1-84QSH9EKIOsipDOWefcCFg,83
+mdu_snpit/main.py,sha256=1kgk65DXPWdfj_P_LBjEqTTEGMOFFo-Z8oB_8YMjlnI,5002
+mdu_snpit/db/snpit.count.json,sha256=NIrROlK1COVks9zQtZCQ_WpuNhbmeDd3V0i6rBNUW4U,524
+mdu_snpit/db/snpit.db.json,sha256=PYuOWBHA50d76ot4KafRA8veiTPP9fplHeypA2SOWqc,970937
+mdu_snpit/db/snpit.id.json,sha256=ESRImliT2KU3_NX56hLqgZWEkxAqpLGFrZg95sIjWck,2617
+mdu_snpit-0.1.0.dist-info/METADATA,sha256=ENzpwdvh0ryJ8aM0fgJ76EN7XJcHM0w1VXuuFRLTJX0,1658
+mdu_snpit-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mdu_snpit-0.1.0.dist-info/entry_points.txt,sha256=Y5sinF1cV7f9qPXHSvDnNljht0cBsQkqLiMsMh_C30k,51
+mdu_snpit-0.1.0.dist-info/top_level.txt,sha256=1DLxNyc52QwyaTFwoxarWFXxaC5yC9ULeLRPd1fcWE4,10
+mdu_snpit-0.1.0.dist-info/RECORD,,
