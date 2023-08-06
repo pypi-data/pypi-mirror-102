@@ -1,0 +1,9 @@
+setup.py
+fannys_math_package/__init__.py
+fannys_math_package/functions.py
+fannys_math_package.egg-info/PKG-INFO
+fannys_math_package.egg-info/SOURCES.txt
+fannys_math_package.egg-info/dependency_links.txt
+fannys_math_package.egg-info/top_level.txt
+fannys_math_package/test/__init__.py
+fannys_math_package/test/test_functions.py
