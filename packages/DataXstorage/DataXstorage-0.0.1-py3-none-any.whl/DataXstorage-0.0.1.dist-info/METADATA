@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: DataXstorage
+Version: 0.0.1
+Summary: Awesome and easy to use database
+Home-page: https://github.com/AwesomeAnimations/dataxbugs
+Author: AwesomeAnimations
+Author-email: None@sorry.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AwesomeAnimations/dataxbugs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+a easy to use database,that is better,faster,more intuitive,EASY than any other database out there
+
+
+This handy tool is meant for pure databasing, go to main.py for an example of most of the commands
+
+
+if you want to have 1 entry only,and delete system we would recommend using store_new_content, but if you want to make it so that once the code is done
+to just repeat the system on the next line use add_content
+
+we do not recommend opening DATAX_API_FILES directory(folder) manualy,as this gives higher chance of file corruption,instead use show_content("FILENAME") for the system to open it.
+
+Json is also avalible.].
+
+
+Todo:
+single line show content(intiger error)
+Security encription
+
