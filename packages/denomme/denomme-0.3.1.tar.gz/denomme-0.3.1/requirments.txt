@@ -1,0 +1,6 @@
+flair==1.0.0
+spacy==3.0
+spacy_streamlit==1.0.0
+fire==0.4.0
+spacy_transformers==1.0.1
+transformers[sentencepiece]
