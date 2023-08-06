@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "mlaide"
+version = "0.1.0-alpha.1"
+description = ""
+authors = ["Raman Singh <mail.raman.s@gmail.com>", "Farruch Kouliev <farruch.kouliev@gmail.com>"]
+maintainers = ["Raman Singh <mail.raman.s@gmail.com>", "Farruch Kouliev <farruch.kouliev@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://mlaide-ai.web.app/home"
+repository = "https://github.com/MLAide/python-client"
+documentation = "https://mlaide.github.io/docs/"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+python-dateutil = "^2.8.1"
+httpx = "^0.16.1"
+cloudpickle = "^1.6.0"
+dataclasses-json = "^0.5.2"
+marshmallow = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-mock = "^3.5.1"
+coverage = "^5.4"
+pytest-httpx = "^0.10.1"
+numpy = "^1.20.1"
+setuptools = "^54.2.0"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
