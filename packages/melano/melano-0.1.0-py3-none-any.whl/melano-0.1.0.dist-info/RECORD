@@ -1,0 +1,9 @@
+melano/__init__.py,sha256=sra_QHtuulyWyJAZ1OqGG1rOaF8l4gB_3TAUOzFWf3g,75
+melano/cli.py,sha256=_H5bKCXUaCp81IrJfB20BaL_m5s3_mgsXVdsQ1q3fK0,1605
+melano/diff.py,sha256=tSCN1eocgc8U5V7wUbN38R06NXzvyndDH0pGZOFeTbU,3696
+melano/utils.py,sha256=DOI5nJg6CuDhjzJd-kGYZFO4nVDxph3dnfTHUV7Iiok,775
+melano-0.1.0.dist-info/entry_points.txt,sha256=oNzfn9dsrNZZkmoS-dtsdFiYJEgMmvYCs0_JYpd8o2M,44
+melano-0.1.0.dist-info/LICENSE.txt,sha256=QARLtwiwy9f_31BfaffKXPiijU2DdRaHEPK4vga23PM,1097
+melano-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+melano-0.1.0.dist-info/METADATA,sha256=t18Ba3G-hzbLLE22UBWR3QGiAY4M4g8-tQWJ2Z-ki_M,1783
+melano-0.1.0.dist-info/RECORD,,
