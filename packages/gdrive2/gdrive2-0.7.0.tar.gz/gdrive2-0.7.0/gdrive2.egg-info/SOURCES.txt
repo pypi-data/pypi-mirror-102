@@ -1,0 +1,13 @@
+README.md
+setup.py
+gdrive2/__init__.py
+gdrive2/auth_util.py
+gdrive2/drive_util.py
+gdrive2/gd
+gdrive2/gd.py
+gdrive2/paths.py
+gdrive2.egg-info/PKG-INFO
+gdrive2.egg-info/SOURCES.txt
+gdrive2.egg-info/dependency_links.txt
+gdrive2.egg-info/requires.txt
+gdrive2.egg-info/top_level.txt
