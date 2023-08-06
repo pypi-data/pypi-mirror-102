@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/DataX_AwesomeAnimations.egg-info/PKG-INFO
+src/DataX_AwesomeAnimations.egg-info/SOURCES.txt
+src/DataX_AwesomeAnimations.egg-info/dependency_links.txt
+src/DataX_AwesomeAnimations.egg-info/top_level.txt
+src/datax/__init__.py
