@@ -1,0 +1,14 @@
+parameters:
+  databricksbundle:
+    enable_notebook_error_handler: True
+
+services:
+  databricksbundle.notebook.logger.NotebookLoggerFactory:
+    arguments:
+      - '@databricksbundle.notebook.path_resolver'
+
+  databricksbundle.test.DatabricksConnectTestCommand:
+    arguments:
+      - '@consolebundle.logger'
+    tags:
+      - 'console.command'
