@@ -1,0 +1,8 @@
+
+[dev]
+twine==3.4.1
+black==20.8b1
+build==0.3.1.post1
+
+[test]
+pytest==6.2.3

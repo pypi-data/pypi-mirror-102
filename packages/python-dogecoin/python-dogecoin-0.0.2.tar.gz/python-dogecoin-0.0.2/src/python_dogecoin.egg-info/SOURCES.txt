@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/dogecoinrpc/__init__.py
+src/dogecoinrpc/config.py
+src/dogecoinrpc/connection.py
+src/dogecoinrpc/data.py
+src/dogecoinrpc/exceptions.py
+src/dogecoinrpc/proxy.py
+src/dogecoinrpc/util.py
+src/python_dogecoin.egg-info/PKG-INFO
+src/python_dogecoin.egg-info/SOURCES.txt
+src/python_dogecoin.egg-info/dependency_links.txt
+src/python_dogecoin.egg-info/requires.txt
+src/python_dogecoin.egg-info/top_level.txt
