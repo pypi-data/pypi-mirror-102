@@ -1,0 +1,71 @@
+Metadata-Version: 1.2
+Name: garb_alarm_clock
+Version: 0.1.2
+Summary: Bilibili alarmclock
+Home-page: https://github.com/chuiba/garb_alarm_clock
+Author: chuiba
+Author-email: chuibachuibachuiba@163.com
+License: MIT license
+Description: ================
+        garb-alarm-clock
+        ================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/garb_alarm_clock.svg
+                :target: https://pypi.python.org/pypi/garb_alarm_clock
+        
+        .. image:: https://img.shields.io/travis/chuiba/garb_alarm_clock.svg
+                :target: https://travis-ci.com/chuiba/garb_alarm_clock
+        
+        .. image:: https://readthedocs.org/projects/garb-alarm-clock/badge/?version=latest
+                :target: https://garb-alarm-clock.readthedocs.io/en/latest/?version=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        
+        
+        Python Boilerplate contains all the boilerplate you need to create a Python package.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://garb-alarm-clock.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        浣跨敤 garb_alarm_clock 鎵撳紑锛屽彲浠ョ湅鍒颁富鐣岄潰
+        
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2021-04-17)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: garb_alarm_clock
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
