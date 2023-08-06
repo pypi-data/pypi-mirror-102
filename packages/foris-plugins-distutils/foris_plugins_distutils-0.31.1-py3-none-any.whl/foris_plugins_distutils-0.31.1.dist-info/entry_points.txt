@@ -1,0 +1,5 @@
+[distutils.commands]
+foris_build = foris_plugins_distutils:build
+foris_clean = foris_plugins_distutils:clean
+foris_make_messages = foris_plugins_distutils:make_messages
+
