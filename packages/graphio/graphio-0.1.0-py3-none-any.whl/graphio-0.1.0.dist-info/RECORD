@@ -1,0 +1,12 @@
+graphio/__init__.py,sha256=zncFy8TBVYPAFyQhhN_t20wt5OUBgRtDGHoDecDZgT8,156
+graphio/defaults.py,sha256=yfapqo9Iq7dmU2udZNEuWnd-c2Y82FnBi8NMwt5soRk,116
+graphio/objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphio/objects/datacontainer.py,sha256=liCF8BSGl6FdXvL44UCZjgLVmDTd_cLrBXWKVfFX5CI,1957
+graphio/objects/helper.py,sha256=FlFE8jBHtYs_Mtlyt1ltOPqjCoMCbdJuIWJUfqkv9m8,1742
+graphio/objects/nodeset.py,sha256=M0ahRwklEnneIG3pbsIej7lHmrg3BH0-uaQumJdsapY,6463
+graphio/objects/relationshipset.py,sha256=zTbCrBD0H1oGkeboTbUEmAKu-fp4CD2n1vn64DYkapA,10141
+graphio-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+graphio-0.1.0.dist-info/METADATA,sha256=M5Uw1x4Hu1Toa5dvk0ob2VoAk0S_4oaPNPPbeOMA1n8,3429
+graphio-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+graphio-0.1.0.dist-info/top_level.txt,sha256=YR3tVIeqmQNxCWXjoqUHFtkEQ0Cv1xgK2CCKiPx9v-g,8
+graphio-0.1.0.dist-info/RECORD,,
