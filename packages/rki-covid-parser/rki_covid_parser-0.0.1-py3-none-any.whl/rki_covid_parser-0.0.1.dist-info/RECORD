@@ -1,0 +1,9 @@
+rki_covid_parser/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+rki_covid_parser/const.py,sha256=jUgDy0e6BRgMT4WeIFdKBZgBO0Qt-nw9L57-dLYEuAI,1134
+rki_covid_parser/district.py,sha256=KcHXkZMfk-MxhRNQyS9eKkXExx7vdkhJ23rW_WKi0Ao,1750
+rki_covid_parser/parser.py,sha256=vkvXrsrlN3JBVstgE1emu41Au62-wHJ2mpv4gr11lyQ,2376
+rki_covid_parser-0.0.1.dist-info/LICENSE,sha256=fW3KgLVZfShN9THF_EhV5FnReNFFmHz9_IokZyAp3aM,10762
+rki_covid_parser-0.0.1.dist-info/METADATA,sha256=Fsq9rCUqbchIVUD02rj7QHDVTR8F0e8e_WWe87ipKkM,2287
+rki_covid_parser-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rki_covid_parser-0.0.1.dist-info/top_level.txt,sha256=VP9KOBenXwPyJoO7N9EpB8_azIUtW0q7m5ML7YGyZT8,17
+rki_covid_parser-0.0.1.dist-info/RECORD,,
