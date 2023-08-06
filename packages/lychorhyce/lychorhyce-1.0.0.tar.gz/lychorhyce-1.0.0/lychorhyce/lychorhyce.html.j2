@@ -1,0 +1,140 @@
+{#
+Copyright (c) 2021 Nicola 'teknico' Larosa <coding@teknico.net>
+Licensed under GPLv3 only.
+#}
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="LyChoRhyce v.{{ version }}">
+    <title>{{ main_title }}</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0.5cm;
+      }
+      div.song {
+        display: table;
+        break-after: page;
+      }
+      div.song_row {
+        display: table-row;
+      }
+      div.song_col {
+        display: table-cell;
+        min-width: 1em;
+      }
+      h1 {
+        font-size: 1.5em;
+        margin-top: 0em;
+        margin-bottom: 0.2em;
+        text-align: center;
+      }
+      div.metatable {
+        display: table;
+        margin: auto;
+        text-align: center;
+      }
+      div.metaname {
+        display: table-row;
+        font-size: 80%;
+        font-style: italic;
+      }
+      div.metavalue {
+        display: table-row;
+        font-size: 90%;
+      }
+      span.meta {
+        display: table-cell;
+        padding: 0 0.5em 0 0.5em;
+      }
+      h2 {
+        display: inline-block;
+        font-size: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
+        font-size: 90%;
+      }
+      span.section_descr {
+        display: inline-block;
+        margin-left: 0.5em;
+        font-size: 90%;
+      }
+      div.lcr_table {
+        display: table;
+        margin-bottom: 0.2em;
+      }
+      div.delimchord {
+        display: table-row;
+        font-size: 80%;
+        font-style: italic;
+      }
+      div.lyrics {
+        display: table-row;
+        background-color: #e8e8e8;
+        font-size: 90%;
+      }
+      span.lcr {
+        display: table-cell;
+        padding: 0 0.1em 0 0.1em;
+      }
+      {# Beat delimiter, shortened to save chars. #}
+      span.bdl {
+        display: table-cell;
+        padding: 0 0.05em 0 0.05em;
+        color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    # for header_names, header_values, sections in songs:
+    <h1>{{ header_values.0 }}</h1>
+    <div class="metatable">
+      <div class="metaname">
+      # for name in header_names[1:]:
+        <span class="meta">{{ name }}</span>
+      # endfor
+      </div>
+      <div class="metavalue">
+      # for value in header_values[1:]:
+        <span class="meta">{{ value }}</span>
+      # endfor
+      </div>
+    </div>
+    <div class="song">
+      <div class="song_row">
+        <div class="song_col">
+          # for section in sections:
+            # if section.0.new_column:
+        </div>
+        <div class="song_col"></div>
+        <div class="song_col">
+            # endif
+          <h2>{{ section.0.name }}</h2>
+          <span class="section_descr">{{ section.0.descr }}</span>
+          <br />
+          # for delims_chords, fragments in section[1:]:
+          <div class="lcr_table">
+            <div class="delimchord">
+            # for delim_chord in delims_chords:
+              # if delim_chord == "`":
+              <span class="bdl">|</span>
+              # else
+              <span class="lcr">{{ delim_chord }}</span>
+              # endif
+            # endfor
+            </div>
+            <div class="lyrics">
+            # for words in fragments:
+              <span class="lcr">{{ words }}</span>
+            # endfor
+            </div>
+          </div>
+          # endfor
+          # endfor
+        </div>
+      </div>
+    </div>
+    # endfor
+  </body>
+</html>

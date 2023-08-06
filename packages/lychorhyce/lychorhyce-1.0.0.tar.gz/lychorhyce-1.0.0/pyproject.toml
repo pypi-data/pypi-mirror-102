@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "lychorhyce"
+version = "1.0.0"
+description = "Create lyrics + chords + rhythm song files from LCR text files."
+license = "GPL-3.0-only"
+authors = ["Nicola 'tekNico' Larosa <coding@teknico.net>"]
+maintainers = ["Nicola 'tekNico' Larosa <coding@teknico.net>"]
+readme = "README.md"
+homepage = "https://lcr4songs.readthedocs.io/"
+documentation = "https://lcr4songs.readthedocs.io/"
+repository = "https://hg.sr.ht/~teknico/lcr4songs"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Artistic Software",
+    "Topic :: Text Processing :: Markup",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Jinja2 = "^2.11.3"
+importlib-metadata = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+prettyprinter = "^0.18.0"
+snoop = "^0.3.0"
+mkdocs = "^1.1.2"
+
+[tool.poetry.scripts]
+lychorhyce = "lychorhyce.lychorhyce:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
