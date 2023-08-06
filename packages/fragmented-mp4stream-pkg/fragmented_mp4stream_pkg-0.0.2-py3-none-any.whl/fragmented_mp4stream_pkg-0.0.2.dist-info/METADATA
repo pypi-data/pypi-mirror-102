@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: fragmented-mp4stream-pkg
+Version: 0.0.2
+Summary: Service to stream mp4 files in fragments
+Home-page: https://github.com/m-khomutov/pyfmp4
+Author: mkh
+Author-email: m.khomutov@list.ru
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/m-khomutov/pyfmp4/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Fragmented mp4stream Package
+
+**Usage**
+```python 
+import fragmentedmp4stream.service
+import sys
+
+def main(argv):
+    fragmentedmp4stream.service.start(argv)
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
+```
+
+**videocodec support**
+* h264
+* h265
+
+**parameters**
+* -p(--port) port to bind(def *4555*)
+* -r(--root) files directory(required) - path to seek required mp4 file
+* -v(--verb) be verbose (show structure of required mp4 file)
+* -h(--help) this help
+
+**installation**
+
+`pip install fragmented-mp4stream-pkg==0.0.1`
+
+**url**
+
+`http://ip:port/file_without_extension`
+
+**example**
+
+* service
+>`python3 mp4stream.py -r ~/video/`
+* client
+>`ffplay http://192.168.250.229:4555/toystory20`
+
+Service streams ~/video/toystory20.mp4
+
+
