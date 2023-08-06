@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: epic-logger
+Version: 1.0.2
+Summary: Write logs of multi-module programs to different files
+Home-page: https://github.com/zerone40
+Author: ZERONE40
+Author-email: zerone40@163.com
+License: UNKNOWN
+Description: # 多模块程序的日志输出到不同文件
+        
+        
+        ## 更新日志
+        2021-04-19 V1.0.2 解决使用TimedRotatingFileHandler做日志分割，Python多进程启动时，出现下面错误的问题
+        ```
+        PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: xxxx -> xxxx
+        ```
+        
+        
+        ## 安装
+        
+        ```
+        pip install epic-logger -i https://pypi.org/simple/
+        ```
+        
+        ## 使用
+        
+        package1.py
+        
+        ```
+        from EpicLogger.logger import InfoLogger, DebugLogger, ErrorLogger, WarningLogger, CriticalLogger
+        
+        info_logger = InfoLogger(__name__, "E:/logs/test01.log")
+        debug_logger = DebugLogger(__name__, "E:/logs/test01.log")
+        error_logger = ErrorLogger(__name__, "E:/logs/test01.log")
+        warning_logger = WarningLogger(__name__, "E:/logs/test02.log")
+        critical_logger = CriticalLogger(__name__, "E:/logs/test02.log")
+        
+        
+        def say_hi():
+            info_logger.log('Hi! Message 1 Log Into E:/logs/test01.log')
+            debug_logger.log('Hi! Message 2 Log Into E:/logs/test01.log')
+            debug_logger.log('Hi! Message 3 Log Into E:/logs/test01.log')
+            error_logger.log('Hi! Message 4 Log Into E:/logs/test01.log')
+            error_logger.log('Hi! Message 5 Log Into E:/logs/test01.log')
+            warning_logger.log('Hi! Message 6 Log Into E:/logs/test02.log')
+            critical_logger.log('Hi! Message 7 Log Into E:/logs/test02.log')
+        
+        
+        if __name__ == "__main__":
+            say_hi()
+        
+        ```
+        
+        package2.py
+        
+        .....
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+setup.py
+EpicLogger/__init__.py
+EpicLogger/logger.py
+EpicLogger/multiprocess_handler.py
+epic_logger.egg-info/PKG-INFO
+epic_logger.egg-info/SOURCES.txt
+epic_logger.egg-info/dependency_links.txt
+epic_logger.egg-info/top_level.txt
