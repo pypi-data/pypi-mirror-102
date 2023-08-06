@@ -1,0 +1,17 @@
+hudman/__init__.py,sha256=lxAD7zzsLBCGOWi3VeKFxtAv811zj95FR6Pjh5gmxxk,2952
+hudman/app/__init__.py,sha256=GVsRsDw5dlUieJpzvimEIOrdjOXNmHIIrpYXfrABZKU,114
+hudman/app/run.py,sha256=N0eJ41uxG-Q-Mdtpy7tGkSx1ZT592YX4r_YgH8_SP3s,896
+hudman/dnmanager/__init__.py,sha256=19XsV_cfkl_Nrh8CK-uPNxhxZAiJCpxEsrw7-9uekd0,2423
+hudman/headertime/__init__.py,sha256=t49kBgyV0uNo_Le4cMmb6_18Rr8n5vJMnR-ZwQsBYb8,978
+hudman/hud/__init__.py,sha256=PVy_DyTJOwhDxhgU3fTcr0hzZDXTOLV55bpS9we-kss,7386
+hudman/hud/factory.py,sha256=aazXauNAQIxcb7rAzPS4rWyTth9cnU2Qm2ZcBkrEp_I,662
+hudman/hud/github/__init__.py,sha256=-i97MzBwN6x7Q5ZHi0tXzY5-QPrMNui020YN__nm4eA,1640
+hudman/hud/other/__init__.py,sha256=hP9sik6ncPXx-dZY6j8CLC24UE829ahvbCMLBP4xcWA,1150
+hudman/messages/__init__.py,sha256=Lar8IeQxwYCj9vxFW92A3MswZhoTufqvU0gxXbg4aQY,706
+hudman/settings/__init__.py,sha256=CCriYKKYWkQXv6mpZmEjC0PwHJjQi5SAFA9ZjpSrW5c,777
+hudman-3.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+hudman-3.0.0.dist-info/METADATA,sha256=tJyk9WbH7qmEIzw4jr9ar5PlKHzOBMliHSpVjKRq8nM,2968
+hudman-3.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hudman-3.0.0.dist-info/entry_points.txt,sha256=G3RjtEoi8g86R4y6fgnQ06SWTdCSEguosh9qJ4B9gmw,48
+hudman-3.0.0.dist-info/top_level.txt,sha256=cw5irllw-xKwIGAkpZkqDIPIyNDw5nkFP-QAvO4cEBQ,7
+hudman-3.0.0.dist-info/RECORD,,
