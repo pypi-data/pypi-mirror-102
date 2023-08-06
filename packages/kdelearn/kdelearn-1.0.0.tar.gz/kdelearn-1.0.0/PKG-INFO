@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: kdelearn
+Version: 1.0.0
+Summary: Short description of ml methods based on kernel density estimation
+Home-page: UNKNOWN
+Author: Krystian Franus
+Author-email: krystian.franus@gmail.com
+License: MIT
+Description: # kde-learn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6

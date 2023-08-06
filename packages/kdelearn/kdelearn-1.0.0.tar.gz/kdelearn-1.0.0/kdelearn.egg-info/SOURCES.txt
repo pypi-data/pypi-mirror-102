@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kdelearn/__init__.py
+kdelearn/kde.py
+kdelearn/kernels.py
+kdelearn.egg-info/PKG-INFO
+kdelearn.egg-info/SOURCES.txt
+kdelearn.egg-info/dependency_links.txt
+kdelearn.egg-info/requires.txt
+kdelearn.egg-info/top_level.txt
