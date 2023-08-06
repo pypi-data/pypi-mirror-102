@@ -1,0 +1,11 @@
+openedx_hooks/__init__.py,sha256=iCVjZPShG5O4elJ-Yg8GVC74zvNmnOBq6o01CLQwQbI,71
+openedx_hooks/signals/__init__.py,sha256=4rvG0Sc8P-9rLIK_kkYXBMz5SithLVQlfXZOcqQ-M_Y,47
+openedx_hooks/signals/auth/__init__.py,sha256=gF1GRGagYM99krgyOghG6JKVTfifAIL_PbEV59QmE8Q,41
+openedx_hooks/signals/auth/v1/__init__.py,sha256=7Zdj1FYwDaWlas369VbITGhCefTWlzWfg1j3HVr4IFU,313
+openedx_hooks/signals/enrollment/__init__.py,sha256=COrnotFR7nAm2NDynVyCCq3SYWeKpHMnh-ftY-T7PyM,47
+openedx_hooks/signals/enrollment/v1/__init__.py,sha256=axOyVkdFaQuRxcZcnzqSoLXGkr7LMAefUgPLg8-LbkE,346
+openedx_hooks-0.1.0.dist-info/LICENSE.txt,sha256=QTW2QN7q3XszgUAXm9Dzgtu5LXYKbR1SGnqMa7ufEuY,35139
+openedx_hooks-0.1.0.dist-info/METADATA,sha256=QGHEnQSr54tQRjMC98SyrwQllyD2ZeOxAvNfmfCL22U,5318
+openedx_hooks-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+openedx_hooks-0.1.0.dist-info/top_level.txt,sha256=Lm4OoH_nvqq6yzJNqxWr_6lBIBTWTD36XchkU5nz9lI,14
+openedx_hooks-0.1.0.dist-info/RECORD,,
