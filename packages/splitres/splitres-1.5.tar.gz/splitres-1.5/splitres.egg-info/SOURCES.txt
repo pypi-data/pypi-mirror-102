@@ -1,0 +1,11 @@
+README.md
+setup.py
+splitres.egg-info/PKG-INFO
+splitres.egg-info/SOURCES.txt
+splitres.egg-info/dependency_links.txt
+splitres.egg-info/not-zip-safe
+splitres.egg-info/top_level.txt
+src/__init__.py
+src/splitres.py
+tests/__init__.py
+tests/tests.py
