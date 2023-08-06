@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: erogaki-wrapper-shared-python
+Version: 0.7.1
+Summary: Shared libraries of erogaki wrapper python projects
+Home-page: UNKNOWN
+Author: erogaki-devs (undefinedprojects, Yurifag)
+Author-email: undefinedprojects@outlook.com, yurifag@grzb.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5

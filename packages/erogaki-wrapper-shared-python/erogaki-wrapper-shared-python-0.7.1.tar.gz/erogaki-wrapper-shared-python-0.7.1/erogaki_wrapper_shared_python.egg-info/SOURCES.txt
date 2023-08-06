@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+erogaki_wrapper_shared_python/AbstractErogakiWrapperError.py
+erogaki_wrapper_shared_python/ErogakiWrapperConfig.py
+erogaki_wrapper_shared_python/ImageProcessor.py
+erogaki_wrapper_shared_python.egg-info/PKG-INFO
+erogaki_wrapper_shared_python.egg-info/SOURCES.txt
+erogaki_wrapper_shared_python.egg-info/dependency_links.txt
+erogaki_wrapper_shared_python.egg-info/requires.txt
+erogaki_wrapper_shared_python.egg-info/top_level.txt
