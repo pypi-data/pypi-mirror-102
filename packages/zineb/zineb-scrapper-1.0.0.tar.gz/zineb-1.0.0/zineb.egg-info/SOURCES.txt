@@ -1,0 +1,7 @@
+README.md
+setup.py
+zineb.egg-info/PKG-INFO
+zineb.egg-info/SOURCES.txt
+zineb.egg-info/dependency_links.txt
+zineb.egg-info/requires.txt
+zineb.egg-info/top_level.txt
