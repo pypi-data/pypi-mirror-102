@@ -1,0 +1,14 @@
+twinsqla/__init__.py,sha256=66ZUeXlw9XDGryWVGwLXe35rYuHQwcnhZuK4tL-Qr7k,399
+twinsqla/_dynamic_parser.py,sha256=iE39-Q1eUXei1oMkhaUnWtHDA4i3QpyCN2UORjQ9eyQ,12576
+twinsqla/_querybindbuilder.py,sha256=kSI3uFhl3UCEvoDk-kC1tBJPLLRt8QEpKeaD1kgq4hA,9240
+twinsqla/_resultbuilder.py,sha256=YnfcuUROQEv-IMq-FLOyW5Xe4bElNUMrG5e66Xm86Mo,2954
+twinsqla/_sqlbuilder.py,sha256=KK6dUbpta-h7zkuQQU7SPV2FbrrlwTHK6Ln23AX8Z8s,2078
+twinsqla/_support.py,sha256=Cs-tolCyxAHmDmlRiofAs8mgiMiEtVtdeZxF48S_CyM,3216
+twinsqla/exceptions.py,sha256=vh_dvlK62bJpwQa3UwaX-iO4Yjstu1HNKgDn3ps1ftI,2790
+twinsqla/python_grammer.lark,sha256=acwall-z9FaGbfDhvMloteXy1nGHJ6YqI4X8FFN81S0,15272
+twinsqla/sql.two_way.lark,sha256=LvWOCRA-301t4joPr0hUgXLhoOcPR2sRcAyRxWYLOBE,9027
+twinsqla/twinsqla.py,sha256=thSOa1aN9bnDzn-iMQe0xhhMPSFSgqFSd-W5dgBcUeI,29390
+twinsqla-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+twinsqla-0.0.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+twinsqla-0.0.3.dist-info/METADATA,sha256=iEaN0Ur0gSxbY9Tk9Wa-Wa10KbJ-ZssYVVmetDA55D8,23770
+twinsqla-0.0.3.dist-info/RECORD,,
