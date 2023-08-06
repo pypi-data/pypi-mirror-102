@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+quranpy/__init__.py
+quranpy/dict_data.py
+quranpy/enums.py
+quranpy/exceptions.py
+quranpy/surah.py
+quranpy.egg-info/PKG-INFO
+quranpy.egg-info/SOURCES.txt
+quranpy.egg-info/dependency_links.txt
+quranpy.egg-info/requires.txt
+quranpy.egg-info/top_level.txt
