@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: objectscriber
+Version: 0.0.4
+Summary: A simple tool for flexible serialization and desiarelization
+Home-page: https://github.com/supersergiy/objectscriber
+Author: Sergiy Popovych
+Author-email: sergiy.popovich@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: six
+
+UNKNOWN
+
+
