@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ovid/__init__.py
+src/ovid/basic.py
+src/ovid/inspecting.py
+src/ovid/producing.py
+src/ovid.egg-info/PKG-INFO
+src/ovid.egg-info/SOURCES.txt
+src/ovid.egg-info/dependency_links.txt
+src/ovid.egg-info/top_level.txt
