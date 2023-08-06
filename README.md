@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2021-04-13 04:42 and 2021-04-21 04:07.
 
-The repo is 25% (10000/40000) complete.
+The repo is 30% (12000/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-102/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| Files.com | 302 |
-| zenroom | 280 |
-| pyagrum-nightly | 208 |
-| notecoin | 195 |
-| dqrobotics | 142 |
-| advent-of-code | 132 |
-| xxhash | 119 |
-| taxoniq | 108 |
-| pyppmd | 108 |
-| SQLAlchemy | 102 |
-| MeUtils | 78 |
-| samna | 77 |
-| mllint | 76 |
-| ioh | 76 |
-| flockai | 74 |
-| quantconnect-stubs | 70 |
-| baseball | 69 |
-| assisted-service-client | 68 |
-| awscrt | 66 |
-| dependency-injector | 64 |
-| pyrogis | 61 |
-| mailslurp-client | 60 |
-| PyGLM | 56 |
-| pyfxr | 53 |
-| p6-namer | 52 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-102).
 
 
