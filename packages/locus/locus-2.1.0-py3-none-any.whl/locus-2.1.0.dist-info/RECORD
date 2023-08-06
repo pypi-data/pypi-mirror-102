@@ -1,0 +1,16 @@
+locus/__init__.py,sha256=n2hk7wVSLCcZtH7vg96UtrQOpJ6_tYtszJmzIPxTOwU,69
+locus/kd.py,sha256=mPTQNUVpO76heVemMwuJgVegBTFq5VX0ux32gf17Oe8,16447
+locus/r.py,sha256=Ep4c82Yepyx1Tj5lnSWcsgyp3acqiFeQ4gpnIuzP5LU,19228
+locus/segmental.py,sha256=5TJKpKDQj91VqbqL6cUvQuqnMJ2Vj0aZN-x2ehrx6d0,21818
+locus/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+locus/core/box.py,sha256=DfrrGJL66KfUoALdDryla64OLrsDOKmuCW55fhIQKic,603
+locus/core/hilbert.py,sha256=OGmPcLRK3maE_OumzNGl5wzgLgc48vvfFLHWjI1_1g4,1402
+locus/core/kd.py,sha256=4eh9hlCas3svrBU1PW4QZm9O2b_Vt68I_gatmJiq0TE,2613
+locus/core/r.py,sha256=MN6dyGpfcFjYCA37DoaxGblLQDT5hajm6cfYzviIqKA,4661
+locus/core/segmental.py,sha256=oxNp_xnTdNOrcEdXLML4zrvwW0IxBFRqhWLV4Xmj8BE,5903
+locus/core/utils.py,sha256=-EPHCoY4ao2PILd4IyT414KoDJKasnN0_UPHw8CGkls,92
+locus-2.1.0.dist-info/LICENSE,sha256=kb_Ykh5WQPYn_ZctWwkNTiKHmssa2CEqg2b3s7Tle9k,1090
+locus-2.1.0.dist-info/METADATA,sha256=k_yWzWLakYe6Jc3fF1Ogoe8AbLCw1fWkqQxvqmCaKNA,5073
+locus-2.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+locus-2.1.0.dist-info/top_level.txt,sha256=1uE5xclOArkUl3Gl8TybS85W-WDYhaHCHi2h1dStCJk,6
+locus-2.1.0.dist-info/RECORD,,
