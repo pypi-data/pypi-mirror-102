@@ -1,0 +1,15 @@
+AUTHORS.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_svg_image_form_field/__init__.py
+django_svg_image_form_field/svg_image_from_field.py
+django_svg_image_form_field.egg-info/PKG-INFO
+django_svg_image_form_field.egg-info/SOURCES.txt
+django_svg_image_form_field.egg-info/dependency_links.txt
+django_svg_image_form_field.egg-info/not-zip-safe
+django_svg_image_form_field.egg-info/requires.txt
+django_svg_image_form_field.egg-info/top_level.txt
