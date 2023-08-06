@@ -1,0 +1,12 @@
+pennylane_aqt/__init__.py,sha256=bZyywOznGCuitF9aUGVeMTFY6yzYK3WXKo7iScBr4Xs,819
+pennylane_aqt/_version.py,sha256=QBE30Cb-hid3r8xgPivtyKSIOMhCEWCoFsY6An5MnV4,692
+pennylane_aqt/api_client.py,sha256=YYA_PLaCDPWjC4JxY_hrV7deetOr2UKAZH_tsbb7eTY,2229
+pennylane_aqt/device.py,sha256=1rwr0lHkuZK3P1BBVMlM4Y73Pl4jQGLMp1s7zKMZ2pY,9507
+pennylane_aqt/ops.py,sha256=Zh7xmjzwsrtrnexsrwjoTaAbalmUs9zAF1jSFgZTOhA,2207
+pennylane_aqt/simulator.py,sha256=FTdiQjNJJa6ijIql5W3Fkaro4GP_4ZaT5eGfn3Ah_zk,2197
+PennyLane_AQT-0.15.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PennyLane_AQT-0.15.0.dist-info/METADATA,sha256=FNm0C6tM_c57ozINjmAAfI7MRYn2f8eY5X0qYLQruMc,7379
+PennyLane_AQT-0.15.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PennyLane_AQT-0.15.0.dist-info/entry_points.txt,sha256=bgF5eQgPE2dEVHJP2xyASV6jUIUvrFBa0iibHBuJp1E,118
+PennyLane_AQT-0.15.0.dist-info/top_level.txt,sha256=NZ97iLJYrEYjBPmMUthnaYz_l7fgjq0N0igeU3dJcaw,14
+PennyLane_AQT-0.15.0.dist-info/RECORD,,
