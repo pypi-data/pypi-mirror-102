@@ -1,0 +1,3 @@
+[console_scripts]
+msf_rest_cli = libmsf.rest:main
+
