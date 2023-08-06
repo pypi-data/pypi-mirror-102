@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pkgpy
+Version: 0.0.2
+Summary: Cross platform cross language package manager
+Home-page: https://github.com/eris9/pkgpy
+Author: Sakurai07
+Author-email: blzzardst0rm@Gmail.com
+License: UNKNOWN
+Description: pkgpy - cross platform cross language package manager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
