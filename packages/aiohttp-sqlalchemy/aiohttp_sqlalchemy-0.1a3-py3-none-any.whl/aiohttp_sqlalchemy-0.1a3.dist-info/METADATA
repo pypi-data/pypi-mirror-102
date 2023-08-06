@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: aiohttp-sqlalchemy
+Version: 0.1a3
+Summary: SQLAlchemy >= 1.4 support for aiohttp.
+Home-page: https://github.com/ri-gilfanov/aiohttp-sqlalchemy
+License: BSD-3-Clause
+Keywords: aiohttp,sqlalchemy
+Author: Ruslan Ilyasovich Gilfanov
+Author-email: ri.gilfanov@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: SQLAlchemy
+Requires-Dist: aiohttp
+Project-URL: Documentation, https://aiohttp-sqlalchemy.readthedocs.io/
+Project-URL: Repository, https://github.com/ri-gilfanov/aiohttp-sqlalchemy
+Description-Content-Type: text/x-rst
+
+==================
+aiohttp-sqlalchemy
+==================
+
+SQLAlchemy >= 1.4 support for aiohttp.
+
+Install
+-------
+::
+
+    pip install aiohttp-sqlalchemy
+
+
+Example
+-------
+
+.. code-block:: python
+
+   from aiohttp import web
+   import aiohttp_sqlalchemy
+   from aiohttp_sqlalchemy import sa_engine, sa_middleware
+
+   routes = web.RouteTableDef()
+
+   @routes.get('/')
+   async def main(request):
+      async with request['sa_main'].begin():
+         # some code
+
+   app = web.Application(middlewares=[sa_middleware()])
+   aiohttp_sqlalchemy.setup(app, [sa_engine('sqlite+aiosqlite:///')])
+   app.add_routes(routes)
+   web.run_app(app)
+
+Documentation
+-------------
+
+See: https://aiohttp-sqlalchemy.readthedocs.io/
+
+
