@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: blotly
+Version: 1.0.2
+Summary: 基于cufflinks的绘图工具
+Home-page: https://github.com/lotcher/blot
+Author: bowaer
+Author-email: cb229435444@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: pandas,plotly,plotting
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
