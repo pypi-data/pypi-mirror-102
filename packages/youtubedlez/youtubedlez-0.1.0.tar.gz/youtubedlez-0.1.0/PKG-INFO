@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: youtubedlez
+Version: 0.1.0
+Summary: A fast and easy way to use YoutubeDL
+Author: Stefano Pigozzi
+Author-email: me@steffo.eu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: youtube_dl
