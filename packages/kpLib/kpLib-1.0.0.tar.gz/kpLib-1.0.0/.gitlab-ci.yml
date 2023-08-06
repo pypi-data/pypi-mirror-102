@@ -1,0 +1,23 @@
+image: python
+
+before_script:
+  - apt-get update
+
+build_cpp:
+  stage: build
+  script:
+    - apt-get install cmake --yes
+    - apt-get install gcc
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
+
+test_python:
+  stage: test
+  script:
+    - apt-get install gcc
+    - pip install -r requirements.txt
+    - pip install pytest
+    - python setup.py develop
+    - pytest
