@@ -1,0 +1,5 @@
+query answerQuestion($input: String!, $context: String!, $min_length: Int!) {
+  result: callQA(input: $input, context: $context, min_length: $min_length) {
+    answer: result
+  }
+}

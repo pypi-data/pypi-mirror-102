@@ -1,0 +1,127 @@
+query toVec($input: String!) {
+  result: callNLU(input: $input) {
+    has_vector
+    vector
+    vector_norm
+
+    sentences {
+      has_vector
+      vector
+      vector_norm
+
+      entities {
+        has_vector
+        vector
+        vector_norm
+
+        entities {
+          has_vector
+          vector
+          vector_norm
+
+          entities {
+            has_vector
+            vector
+            vector_norm
+
+            entities {
+              has_vector
+              vector
+              vector_norm
+            }
+          }
+        }
+      }
+    }
+
+    noun_chunks {
+      has_vector
+      vector
+      vector_norm
+
+      entities {
+        has_vector
+        vector
+        vector_norm
+
+        entities {
+          has_vector
+          vector
+          vector_norm
+
+          entities {
+            has_vector
+            vector
+            vector_norm
+
+            entities {
+              has_vector
+              vector
+              vector_norm
+            }
+          }
+        }
+      }
+    }
+
+    entities {
+      has_vector
+      vector
+      vector_norm
+
+      entities {
+        has_vector
+        vector
+        vector_norm
+
+        entities {
+          has_vector
+          vector
+          vector_norm
+
+          entities {
+            has_vector
+            vector
+            vector_norm
+
+            entities {
+              has_vector
+              vector
+              vector_norm
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+# FIXME: Unfortunately, fragments are not supported by either codegen framework
+
+# fragment EntityResultFields on NLUResult {
+#   has_vector
+#   vector
+#   vector_norm
+# }
+#
+# fragment EntityFields on NLUSpan {
+#   has_vector
+#   vector
+#   vector_norm
+# }
+#
+# fragment EntitySubtree on NLUSpan {
+#   ...EntityFields
+#   entities {
+#     ...EntityFields
+#     entities {
+#       ...EntityFields
+#       entities {
+#         ...EntityFields
+#         entities {
+#           ...EntityFields
+#         }
+#       }
+#     }
+#   }
+# }

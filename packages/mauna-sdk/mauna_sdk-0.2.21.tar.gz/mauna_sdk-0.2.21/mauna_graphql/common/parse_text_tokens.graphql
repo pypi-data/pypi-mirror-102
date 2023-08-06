@@ -1,0 +1,140 @@
+query parseTextTokens($input: String!) {
+  result: callNLU(input: $input) {
+    tokens {
+      dependency
+      entity_type
+      is_alpha
+      is_currency
+      is_digit
+      is_oov
+      is_sent_start
+      is_stop
+      is_title
+      lemma
+      like_email
+      like_num
+      like_url
+      part_of_speech
+      log_probability
+      tag
+      text
+
+      subtree {
+        dependency
+        entity_type
+        is_alpha
+        is_currency
+        is_digit
+        is_oov
+        is_sent_start
+        is_stop
+        is_title
+        lemma
+        like_email
+        like_num
+        like_url
+        part_of_speech
+        log_probability
+        tag
+        text
+        subtree {
+          dependency
+          entity_type
+          is_alpha
+          is_currency
+          is_digit
+          is_oov
+          is_sent_start
+          is_stop
+          is_title
+          lemma
+          like_email
+          like_num
+          like_url
+          part_of_speech
+          log_probability
+          tag
+          text
+
+          subtree {
+            dependency
+            entity_type
+            is_alpha
+            is_currency
+            is_digit
+            is_oov
+            is_sent_start
+            is_stop
+            is_title
+            lemma
+            like_email
+            like_num
+            like_url
+            part_of_speech
+            log_probability
+            tag
+            text
+
+            subtree {
+              dependency
+              entity_type
+              is_alpha
+              is_currency
+              is_digit
+              is_oov
+              is_sent_start
+              is_stop
+              is_title
+              lemma
+              like_email
+              like_num
+              like_url
+              part_of_speech
+              log_probability
+              tag
+              text
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+# FIXME: Unfortunately, fragments are not supported by the codegen
+
+# fragment TokenSubtreeFields on NLUToken {
+#   dependency
+#   entity_type
+#   is_alpha
+#   is_currency
+#   is_digit
+#   is_oov
+#   is_sent_start
+#   is_stop
+#   is_title
+#   lemma
+#   like_email
+#   like_num
+#   like_url
+#   part_of_speech
+#   log_probability
+#   tag
+#   text
+# }
+#
+# fragment TokenSubtree on NLUToken {
+#   ...TokenSubtreeFields
+#   subtree {
+#     ...TokenSubtreeFields
+#     subtree {
+#       ...TokenSubtreeFields
+#       subtree {
+#         ...TokenSubtreeFields
+#         subtree {
+#           ...TokenSubtreeFields
+#         }
+#       }
+#     }
+#   }
+# }
