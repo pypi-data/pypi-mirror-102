@@ -1,0 +1,8 @@
+build/
+dist/
+*.egg-info
+test.*
+__pycache__
+.eggs
+.tox
+example/blog/no-git-test.md
