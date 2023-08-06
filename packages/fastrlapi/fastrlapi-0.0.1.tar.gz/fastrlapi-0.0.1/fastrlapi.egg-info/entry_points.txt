@@ -1,0 +1,3 @@
+[console_scripts]
+drlapi = drlapi.__main__:main
+
