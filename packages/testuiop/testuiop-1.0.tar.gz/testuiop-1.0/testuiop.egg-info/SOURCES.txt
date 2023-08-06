@@ -1,0 +1,7 @@
+README.md
+setup.py
+testuiop/__init__.py
+testuiop.egg-info/PKG-INFO
+testuiop.egg-info/SOURCES.txt
+testuiop.egg-info/dependency_links.txt
+testuiop.egg-info/top_level.txt
