@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "aisdk"
+version = "0.1.0"
+description = "The description of the package"
+
+license = "MIT"
+
+authors = [
+    "Jose Luis Rosado <jlrosado@ferrovial.com>"
+]
+
+readme = 'README.md'  # Markdown files are supported
+
+repository = "https://github.com/python-poetry/poetry"
+homepage = "https://github.com/python-poetry/poetry"
+
+keywords = ['packaging', 'poetry']
+
+#packages = [
+#{ include = "package_to_include" },
+#]
+
+[tool.poetry.dependencies]
+#python = "~2.7 || ^3.2"  # Compatible python versions must be declared here
+python = "^3.7"
+toml = "^0.10"
+
+# Dependencies with extras
+#requests = { version = "^2.13", extras = [ "security" ] }
+
+# Python specific dependencies with prereleases allowed
+#pathlib2 = { version = "^2.2", python = "~2.7", allow-prereleases = true }
+
+# Git dependencies
+#cleo = { git = "https://github.com/sdispater/cleo.git", branch = "master" }
+
+# Optional dependencies (extras)
+#pendulum = { version = "^1.4", optional = true }
+
+[tool.poetry.dev-dependencies]
+# Tests
+poetry_publish = "0.4.1"
+pytest = "^3.0"
+pytest-cov = "^2.4"
+pytest-azurepipelines = "0.8.0"
+pytest-flake8 = "1.0.7"
+flake8 = "3.9.0"
+black = "20.8b1"
+bandit = "1.7.0"
+mypy = "0.812"
+typing = "3.7.4.3"
+darglint = "1.8.0"
+
+# Dynamic validation
+pydantic = "1.8.1"
+
+
+#[tool.poetry.scripts]
+publish = 'aisdk:publish'
