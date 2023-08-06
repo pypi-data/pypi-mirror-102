@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Test69420
+Version: 0.0.1
+Summary: Test Package for PyPi
+Home-page: UNKNOWN
+Author: Incognito Under
+Author-email: <test@test.com>
+License: UNKNOWN
+Description: Test Package for PyPi Long Desc
+Keywords: python,Test69420
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
