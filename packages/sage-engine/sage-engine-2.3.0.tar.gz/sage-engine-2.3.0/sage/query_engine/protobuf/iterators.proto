@@ -1,0 +1,93 @@
+syntax = "proto3";
+
+package iterators;
+
+message TriplePattern {
+  string subject = 1;
+  string predicate = 2;
+  string object = 3;
+  string graph = 4;
+}
+
+message SavedScanIterator {
+  TriplePattern pattern = 1;
+  map<string, string> muc = 2;
+  map<string, string> mu = 3;
+  string last_read = 4;
+  string timestamp = 5;
+}
+
+message SavedProjectionIterator {
+  repeated string values = 1;
+  oneof source {
+    SavedScanIterator scan_source = 2;
+    SavedIndexJoinIterator join_source = 3;
+    SavedBagUnionIterator union_source = 4;
+    SavedFilterIterator filter_source = 5;
+  }
+}
+
+message SavedIndexJoinIterator {
+  oneof left {
+    SavedScanIterator scan_left = 1;
+    SavedProjectionIterator proj_left = 2;
+    SavedBagUnionIterator union_left = 3;
+    SavedIndexJoinIterator join_left = 4;
+    SavedFilterIterator filter_left = 5;
+  }
+  oneof right {
+    SavedScanIterator scan_right = 6;
+    SavedProjectionIterator proj_right = 7;
+    SavedBagUnionIterator union_right = 8;
+    SavedIndexJoinIterator join_right = 9;
+    SavedFilterIterator filter_right = 10;
+  }
+  map<string, string> muc = 11;
+}
+
+message SavedBagUnionIterator {
+  oneof left {
+    SavedScanIterator scan_left = 1;
+    SavedProjectionIterator proj_left = 2;
+    SavedBagUnionIterator union_left = 3;
+    SavedIndexJoinIterator join_left = 4;
+    SavedFilterIterator filter_left = 5;
+  }
+  oneof right {
+    SavedScanIterator scan_right = 6;
+    SavedProjectionIterator proj_right = 7;
+    SavedBagUnionIterator union_right = 8;
+    SavedIndexJoinIterator join_right = 9;
+    SavedFilterIterator filter_right = 10;
+  }
+}
+
+message SavedFilterIterator {
+  oneof source {
+    SavedScanIterator scan_source = 1;
+    SavedProjectionIterator proj_source = 2;
+    SavedFilterIterator filter_source = 3;
+    SavedIndexJoinIterator join_source = 4;
+  }
+  string expression = 5;
+}
+
+message SavedInsertData {
+  map<string, uint64> nb_inserted = 1;
+}
+
+message SavedDeleteData {
+  map<string, uint64> nb_inserted = 1;
+}
+
+message RootTree {
+  oneof source {
+    SavedScanIterator scan_source = 1;
+    SavedProjectionIterator proj_source = 2;
+    SavedIndexJoinIterator join_source = 3;
+    SavedBagUnionIterator union_source = 4;
+    SavedFilterIterator filter_source = 5;
+    SavedInsertData insert_source = 6;
+    SavedDeleteData delete_source = 7;
+  }
+}
