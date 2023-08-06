@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: FastAPIwee
+Version: 0.0.1
+Summary: FastAPIwee - FastAPI + PeeWee = <3
+Home-page: https://github.com/Ignisor/FastAPIwee
+Author: German Gensetskyi
+Author-email: Ignis2497@gmail.com
+License: UNKNOWN
+Description: # FastAPIwee
+        FastAPI + PeeWee = <3
+        
+        ## Warning
+        Library is in development right now.
+        Documentation is in development as well.
+        Refer to [example.py](example.py), source code and unit-tests for usage information.
+        
+        ## Installation
+        ```python
+        pip install FastAPIwee
+        ```
+        
+        :tada:
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
