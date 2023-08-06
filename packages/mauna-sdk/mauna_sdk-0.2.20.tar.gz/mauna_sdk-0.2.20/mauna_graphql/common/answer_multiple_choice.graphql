@@ -1,0 +1,9 @@
+query answerMultipleChoice(
+  $input: String!
+  $context: String!
+  $choices: [String!]!
+) {
+  result: callQA(input: $input, context: $context, choices: $choices) {
+    answer: result
+  }
+}

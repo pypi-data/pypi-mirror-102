@@ -1,0 +1,5 @@
+query parseACE($input: String!, $type: ACEOutputType!) {
+  result: callParseACE(input: $input, type: $type) {
+    parsed: result
+  }
+}
