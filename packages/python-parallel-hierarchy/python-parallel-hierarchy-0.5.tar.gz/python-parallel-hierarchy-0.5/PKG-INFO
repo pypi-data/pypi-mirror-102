@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: python-parallel-hierarchy
+Version: 0.5
+Summary: A utility for creating a parallel class hierarchy based on a primary set of classes.
+Home-page: https://gitlab.com/joel.larose/python-parallel-hierarchy
+Author: Joël Larose
+Author-email: joel.larose@gmail.com
+License: Apache License 2.0
+Description: Python Parallel Hierarchy
+        =========================
+        
+        A utility for creating a parallel class hierarchy based on a primary set of classes.
+        
+        How does it work?
+        -----------------
+        This package gives you an easy to use factory.  This factory takes as input a class from an original model, and outputs
+        a new class in a new parallel inheritance structure.
+        
+        More information at https://gitlab.com/joel.larose/python-parallel-hierarchy/-/blob/master/README.rst
+        
+        How to install
+        --------------
+        .. code::
+        
+            pip install https://gitlab.com/joel.larose/python-parallel-hierarchy.git
+        
+        or
+        
+        .. code::
+        
+            pip install python-parallel-hierarchy
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
