@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fivempy
+Version: 0.0.2
+Summary: A python wrapper for FiveM
+Home-page: https://github.com/itasli/fivempy
+Author: itasli
+Author-email: ilyas.tasli@outlook.com
+License: UNKNOWN
+Description: A python wrapper for FiveM servers
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
