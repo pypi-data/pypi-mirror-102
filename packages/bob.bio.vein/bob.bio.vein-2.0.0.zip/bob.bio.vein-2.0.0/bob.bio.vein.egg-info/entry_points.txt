@@ -1,0 +1,42 @@
+[bob.bio.config]
+1vsall = bob.bio.vein.config.database.protocol_utfvp.one_vs_all
+Cropped-Full = bob.bio.vein.config.database.protocol_verafinger.cropped_full
+Cropped-Nom = bob.bio.vein.config.database.protocol_verafinger.cropped_nom
+Full = bob.bio.vein.config.database.protocol_verafinger.full
+Nom = bob.bio.vein.config.database.protocol_verafinger.nom
+central = bob.bio.vein.config.database.protocol_fv3d.central
+full = bob.bio.vein.config.database.protocol_utfvp.full
+fv3d = bob.bio.vein.config.database.fv3d
+left = bob.bio.vein.config.database.protocol_fv3d.left
+mc = bob.bio.vein.config.maximum_curvature
+nom = bob.bio.vein.config.database.protocol_utfvp.nom
+palm-LR-1 = bob.bio.vein.config.database.protocol_putvein.palm_lr_1
+palm-LR-4 = bob.bio.vein.config.database.protocol_putvein.palm_lr_4
+putvein = bob.bio.vein.config.database.putvein
+right = bob.bio.vein.config.database.protocol_fv3d.right
+rlt = bob.bio.vein.config.repeated_line_tracking
+stitched = bob.bio.vein.config.database.protocol_fv3d.stitched
+utfvp = bob.bio.vein.config.database.utfvp
+verafinger = bob.bio.vein.config.database.verafinger
+wld = bob.bio.vein.config.wide_line_detector
+wrist-LR-1 = bob.bio.vein.config.database.protocol_putvein.wrist_lr_1
+wrist-LR-4 = bob.bio.vein.config.database.protocol_putvein.wrist_lr_4
+
+[bob.bio.database]
+fv3d = bob.bio.vein.config.database.fv3d:database
+putvein = bob.bio.vein.config.database.putvein:database
+utfvp = bob.bio.vein.config.database.utfvp:database
+verafinger = bob.bio.vein.config.database.verafinger:database
+
+[bob.bio.pipeline]
+mc = bob.bio.vein.config.maximum_curvature:pipeline
+rlt = bob.bio.vein.config.repeated_line_tracking:pipeline
+wld = bob.bio.vein.config.wide_line_detector:pipeline
+
+[console_scripts]
+bob_bio_vein_blame.py = bob.bio.vein.script.blame:main
+bob_bio_vein_compare_rois.py = bob.bio.vein.script.compare_rois:main
+bob_bio_vein_markdet.py = bob.bio.vein.script.markdet:main
+bob_bio_vein_view_sample.py = bob.bio.vein.script.view_sample:main
+bob_bio_vein_watershed_mask.py = bob.bio.vein.script.watershed_mask:main
+
