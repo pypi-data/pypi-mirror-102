@@ -1,0 +1,14 @@
+privex/__init__.py,sha256=Zfgn4eC_SbXdcLBQU3eoexEJkAQXIfcAt91X0TX8Xnc,2243
+privex/curconv/__init__.py,sha256=jjIeahIOUVq-gl11xfNnNxZs6ZE9-8wwyBJ2lyxrWQI,2672
+privex/curconv/__main__.py,sha256=Cob8EGrLgfVvlfpTIlGlCiQ_qnxuQymzCDmiwxUQBXQ,801
+privex/curconv/app.py,sha256=bg2j7uY1GkhxjosJ7HphBybe06IH8abwYrwW6pKPnyg,14924
+privex/curconv/base.py,sha256=WrPm-Ut0Ub5YSNznmiMDPb8xH949uheBKcXKPTIKW0E,20467
+privex/curconv/ratesapi.py,sha256=ynmBCgFRo-ey8Xu-14-y9sjnSgSF2kKnMh4xekVlooY,3437
+privex/curconv/settings.py,sha256=a5jR1dptrgm-S84oD1otYo64JUZYQnoPAf9SHjDEAaE,4169
+privex/curconv/version.py,sha256=_CvQ7YNV9f06vbh7XClPxwD1FMT4g7Cv2DpLWmJVpTA,18
+privex_curconv-0.5.0.data/scripts/conv,sha256=KepWmrT0X4jcaLOlUcussLl5oW2ArHZFPbTghgLEj3s,4291
+privex_curconv-0.5.0.dist-info/LICENSE,sha256=cYStztNo-CgcAj8LppQ4wJefrKm6W_FT1l3X-iAssvA,2111
+privex_curconv-0.5.0.dist-info/METADATA,sha256=GwgIleCgFjuRwNDEvkZutlvBAaNLEgrowS0rWHdwMAs,8271
+privex_curconv-0.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+privex_curconv-0.5.0.dist-info/top_level.txt,sha256=CfZhsdgr5OeyQuHMCIIgL0CnVtwImLWwXPN09JIOqz8,7
+privex_curconv-0.5.0.dist-info/RECORD,,
