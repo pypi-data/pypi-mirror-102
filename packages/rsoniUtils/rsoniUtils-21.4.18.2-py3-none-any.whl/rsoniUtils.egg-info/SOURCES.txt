@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rsoniUtils.egg-info/PKG-INFO
+rsoniUtils.egg-info/SOURCES.txt
+rsoniUtils.egg-info/dependency_links.txt
+rsoniUtils.egg-info/requires.txt
+rsoniUtils.egg-info/top_level.txt
