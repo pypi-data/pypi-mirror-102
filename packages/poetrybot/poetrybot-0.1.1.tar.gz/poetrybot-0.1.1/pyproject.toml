@@ -1,0 +1,36 @@
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+
+[tool.poetry]
+name = "poetrybot"
+version = "0.1.1"
+description = "poetrybot is a Telegram bot to quote poems between friends."
+authors = ["Daniele Tricoli <eriol@mornie.org>"]
+readme = "README.rst"
+repository = "https://noa.mornie.org/eriol/poetrybot"
+keywords = ["telegram", "bot"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = "^13.4"
+environ-config = "^20.1.0"
+SQLAlchemy = "^1.4.3"
+Flask = "^1.1.2"
+marshmallow = "^3.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-sugar = "^0.9.4"
+pytest-xdist = "^2.2.1"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--verbose"
+
+[tool.poetry.scripts]
+poetrybot = "poetrybot.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
