@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/DataXstorage.egg-info/PKG-INFO
+src/DataXstorage.egg-info/SOURCES.txt
+src/DataXstorage.egg-info/dependency_links.txt
+src/DataXstorage.egg-info/top_level.txt
+src/datax/__init__.py
