@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pfinance
+Version: 0.1.0
+Summary: Financial mathematics library
+Home-page: https://github.com/j-pettit/pfinance/
+Author: Julian Pettit
+Author-email: julian.s.pettit@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/j-pettit/pfinance/
+Project-URL: Tracker, https://github.com/j-pettit/pfinance/issues
+Description: # pfinance
+        Python financial mathematics library.
+        
+        ## Installation
+        ### Using pip
+        - run `pip install pfinance`
+        
+Keywords: finance,mathematics
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
