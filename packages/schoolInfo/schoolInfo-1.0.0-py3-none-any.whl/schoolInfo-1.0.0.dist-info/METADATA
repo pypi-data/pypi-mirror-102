@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: schoolInfo
+Version: 1.0.0
+Summary: 간단하게 Neis API를 이용해보세요!
+Home-page: https://github.com/sunrabbit123/school-info_python
+Author: sunrabbit123
+Author-email: qudwls185@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: pytz
+
+# SchoolInfo
+
+`Neis API` 기반으로 학교 정보, 급식 정보, 반 정보, 시간표 정보 등 제공 서비스
+
+
