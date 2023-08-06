@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: signature-detect
+Version: 0.0.1
+Summary: A package for the signature detection
+Home-page: https://github.com/EnzoSeason/signature_detection
+Author: Jijie LIU
+Author-email: liujijieseason@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: pillow (>=8.0)
+Requires-Dist: scikit-image
+Requires-Dist: Wand
+Requires-Dist: opencv-python
+Provides-Extra: dev
+Requires-Dist: coverage (>=5.5) ; extra == 'dev'
+
+# Signature Detection
+
+A simple tool to detect if there is **a signature** in **an image** or **a PDF file**.
+
+
+## Installation
+
+### Production version
+
+```bash
+pip install signature-detection
+```
+
+### Dev version
+
+If you would like to develop this package and run the tests, you can download the code and install dev environment locally.
+
+```bash
+pip install -e .[dev]
+```
+
