@@ -1,0 +1,5 @@
+[console_scripts]
+riboloco = riboloco.__main__:main
+riboloco_convert_gtf = riboloco.convert_gtf:main
+riboloco_find_orfs = riboloco.find_orfs:main
+
