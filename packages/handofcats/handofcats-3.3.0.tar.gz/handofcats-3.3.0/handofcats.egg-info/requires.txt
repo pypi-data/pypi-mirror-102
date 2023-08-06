@@ -1,0 +1,15 @@
+prestring>=0.9.0
+typing_extensions
+magicalimport
+
+[dev]
+flake8
+black
+mypy
+
+[docs]
+
+[testing]
+flake8
+black
+mypy
