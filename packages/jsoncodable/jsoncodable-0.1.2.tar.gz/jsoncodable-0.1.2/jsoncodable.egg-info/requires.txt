@@ -1,0 +1,2 @@
+jsonpickle>=2.0.0
+noraise>=0.0.10
