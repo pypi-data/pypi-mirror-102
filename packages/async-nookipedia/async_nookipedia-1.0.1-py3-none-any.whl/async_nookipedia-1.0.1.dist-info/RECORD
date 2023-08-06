@@ -1,0 +1,17 @@
+nookipedia/__init__.py,sha256=E6Dxg9NWS-DvjwsEpz0rsAZw7pL9ox6MfB8P5FccV-Q,212
+nookipedia/api/__init__.py,sha256=-SRh7zSlm8datFyrco-JQPfZ_O66c1OD5rSEEpZlluk,57
+nookipedia/api/api.py,sha256=m8zoMHBfk4NVnaUuEFGGtNUX7wHkB8p7gFak3-m9Pxs,6473
+nookipedia/api/cached_api.py,sha256=xDlh6omilLP334pN7Trqci6rgZZ6KwVc5tWQAOYa1gQ,2187
+nookipedia/models/__init__.py,sha256=ka16W6zFIyQZUpAz9Ia4lagfpUebMKE_LNRV_6XzMlU,106
+nookipedia/models/bug.py,sha256=-6MkY5zU_X5rUImpKM6EgG05q32FxS17d2vjgqmjwXQ,104
+nookipedia/models/cached_object.py,sha256=UVwldM_To2zo2RMmEw75AkEC54azGKB2t-5ZDJXJE_0,527
+nookipedia/models/common.py,sha256=YTt3pn7EVLiiwNrXpfM_a9VkADpeGfCuqI33repDrss,603
+nookipedia/models/fish.py,sha256=cGEFq_iErxZl8B6lG6iJ4eFrmXIgFXTHpoeLLhR9aBk,124
+nookipedia/models/fossil.py,sha256=GWwkl_KAQ_m13G64TcIThyee8cEFStP9i63m0fPsFYU,203
+nookipedia/models/villager.py,sha256=8cBaxhO9cqFs238v3YN6jsLRI-CHAjL73sFJaXYmHSU,1188
+nookipedia/models/villager_old.py,sha256=eQN-s5-ueUuCb1f1XVpNvWOWkYafJYLSHNgr8CJpzOY,4110
+nookipedia/nookipedia.py,sha256=CVO-67lmegavrs74HV-b_bUZjemb75Ka4d4y-K1qO1E,5025
+async_nookipedia-1.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+async_nookipedia-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+async_nookipedia-1.0.1.dist-info/METADATA,sha256=6apO86A0_OwJd46SeXlDvL_F7HajwfCQ0q1s6CVO-1Q,2129
+async_nookipedia-1.0.1.dist-info/RECORD,,
