@@ -1,0 +1,9 @@
+README.md
+setup.py
+yatimpdf/__init__.py
+yatimpdf/pdf2image.py
+yatimpdf/pdf2text.py
+yatimpdf.egg-info/PKG-INFO
+yatimpdf.egg-info/SOURCES.txt
+yatimpdf.egg-info/dependency_links.txt
+yatimpdf.egg-info/top_level.txt
