@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: chain-breaking-polymer-networks
+Version: 1.0.1
+Summary: Chain breaking in the statistical mechanical constitutive theory of polymer networks
+Home-page: https://github.com/mbuche/chain_breaking_polymer_networks
+Author: Michael R. Buche
+Author-email: mrb289@cornell.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# chain_breaking_polymer_networks
+
+This is the Python package corresponding to "Chain breaking in the statistical mechanical constitutive theory of polymer networks" by Michael R. Buche and Meredith N. Silberstein, 2021.
+
+It was written for Python 3, and uses some typical packages: numpy, scipy, and matplotlib.
+
+Please find more information on installation, usage, and examples [here](https://github.com/mbuche/chain_breaking_polymer_networks).
+
