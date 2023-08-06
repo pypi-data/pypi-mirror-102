@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytsal/__init__.py
+pytsal.egg-info/PKG-INFO
+pytsal.egg-info/SOURCES.txt
+pytsal.egg-info/dependency_links.txt
+pytsal.egg-info/top_level.txt
