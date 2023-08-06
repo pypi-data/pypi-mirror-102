@@ -1,0 +1,26 @@
+ezenv>=0.92
+
+[:os_name == "nt"]
+jinxed
+
+[:os_name == "nt" and platform_version < "10.0.10586"]
+colorama
+
+[:os_name == "nt" and python_version < "3.6"]
+win_unicode_console
+
+[:python_version < "3.5"]
+typing
+
+[:python_version < "3.6"]
+future_fstrings
+
+[all]
+pyfiglet
+webcolors
+
+[figlet]
+pyfiglet
+
+[webcolors]
+webcolors
