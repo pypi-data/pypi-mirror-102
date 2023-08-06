@@ -1,0 +1,36 @@
+{
+  "name": "portapy-js",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript compiler for portapy",
+  "homepage": "https://portapy.dev",
+  "author": "Relevance.io <info@relevance.io>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "/bin/true",
+    "lint": "tslint --project .",
+    "clean": "rm -Rf dist/",
+    "compile": "tsc",
+    "prebuild": "npm run clean",
+    "build": "npm run compile",
+    "tsfmt": "tsfmt"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/node-fetch": "^2.5.7",
+    "ts-node": "~7.0.0",
+    "tslint": "^5.15.0",
+    "typescript": "~3.7.4",
+    "typescript-formatter": "^7.2.2"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}

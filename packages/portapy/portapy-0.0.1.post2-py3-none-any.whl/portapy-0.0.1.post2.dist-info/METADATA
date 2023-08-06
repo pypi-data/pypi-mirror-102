@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: portapy
+Version: 0.0.1.post2
+Summary: Portable APIs in Python
+Home-page: https://github.com/relevance-ai/portapy
+Author: Francis Lacroix
+Author-email: f@relevance.ai
+Maintainer: Francis Lacroix
+Maintainer-email: f@relevance.ai
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Sphinx (<4,>=3.5.3)
+Provides-Extra: all
+
+UNKNOWN
+
+

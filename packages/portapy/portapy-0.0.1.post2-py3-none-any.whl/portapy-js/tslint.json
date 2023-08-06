@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+      "quotemark": ["true", "single", "avoid-escape", "avoid-template"],
+      "max-classes-per-file": {"severity": "off"},
+      "interface-name": {"severity": "off"},
+      "ordered-imports": {"severity": "off"},
+      "object-literal-sort-keys": {"severity": "off"},
+      "member-ordering": {"severity": "off"},
+      "no-console": {"severity": "off"}
+    },
+    "rulesDirectory": []
+}
