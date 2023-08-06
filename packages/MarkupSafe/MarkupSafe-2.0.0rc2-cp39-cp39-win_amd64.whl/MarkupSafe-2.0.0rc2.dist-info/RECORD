@@ -1,0 +1,10 @@
+markupsafe/__init__.py,sha256=V88YUzknb9uvH6YCPlQkTD0bIZH3XwpB4smjJFM5btY,9003
+markupsafe/_native.py,sha256=JMXegJtk1ZcnRKrgyCA-CEXmRnOpaIXLyDAM98GbshY,2061
+markupsafe/_speedups.cp39-win_amd64.pyd,sha256=A-GnRsh2OatltMsEKyAahyDsf9bw1mWkTdYOq0R3Sqs,16384
+markupsafe/_speedups.pyi,sha256=F7E4EdN0Aha2OB4Ft4PDTQ-ArDlo3snyoWKftP6X_78,272
+markupsafe/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MarkupSafe-2.0.0rc2.dist-info/LICENSE.rst,sha256=RjHsDbX9kKVH4zaBcmTGeYIUM4FG-KyUtKV_lu6MnsQ,1503
+MarkupSafe-2.0.0rc2.dist-info/METADATA,sha256=LrjuIXqDV-yrYSR-uL52Ai3z7bOipsh8MpNXv5wCQiA,3214
+MarkupSafe-2.0.0rc2.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+MarkupSafe-2.0.0rc2.dist-info/top_level.txt,sha256=qy0Plje5IJuvsCBjejJyhDCjEAdcDLK_2agVcex8Z6U,11
+MarkupSafe-2.0.0rc2.dist-info/RECORD,,
