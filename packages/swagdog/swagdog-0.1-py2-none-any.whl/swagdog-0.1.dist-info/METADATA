@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swagdog
+Version: 0.1
+Summary: swagdog cli tools
+Home-page: https://github.com/huahuabiji/ApiTesting.git
+Author: guofangmin
+Author-email: 1217435382@qq.com
+License: fangmin0325
+Platform: UNKNOWN
+Requires-Dist: PyYAML
+
+swagdog cli tools
+
+
