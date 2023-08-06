@@ -1,0 +1,8 @@
+README.md
+setup.py
+savannahcrm/__init__.py
+savannahcrm_client.egg-info/PKG-INFO
+savannahcrm_client.egg-info/SOURCES.txt
+savannahcrm_client.egg-info/dependency_links.txt
+savannahcrm_client.egg-info/requires.txt
+savannahcrm_client.egg-info/top_level.txt
