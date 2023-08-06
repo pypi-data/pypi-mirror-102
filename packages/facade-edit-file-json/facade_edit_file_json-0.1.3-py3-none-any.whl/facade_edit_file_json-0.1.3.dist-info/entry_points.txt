@@ -1,0 +1,3 @@
+[console_scripts]
+facade-edit-file-json = facade_edit_file_json.cli:FACADE_EDIT_FILE_JSON
+

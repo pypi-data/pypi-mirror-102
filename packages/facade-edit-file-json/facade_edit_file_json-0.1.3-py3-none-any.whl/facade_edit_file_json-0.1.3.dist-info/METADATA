@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: facade-edit-file-json
+Version: 0.1.3
+Summary: ...
+Home-page: https://github.com/RivalStorms/facade-edit-file-json
+Author: Tyshko Stanislav
+Author-email: admin@toqp.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# Facade edit file json 
+
+## Usage
+
+Install using pip:
+```shell
+$ pip install facade-edit-file-json
+```
+
+
+
