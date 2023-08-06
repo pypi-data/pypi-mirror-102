@@ -1,0 +1,5 @@
+openssh
+mysql-client
+make
+postgresql-client
+git
