@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kublog
+Version: 0.0.1
+Summary: A logger utility
+Home-page: https://github.com/cirbuk/kublog
+Author: Chaitanya Nettem
+Author-email: chaitanya@kubric.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cirbuk/kublog/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: contextvars ; python_version < "3.7"
+
+# Kublog
+
+Kublog is an opinionated library which makes it easy to print useful logs in python.
+
+
