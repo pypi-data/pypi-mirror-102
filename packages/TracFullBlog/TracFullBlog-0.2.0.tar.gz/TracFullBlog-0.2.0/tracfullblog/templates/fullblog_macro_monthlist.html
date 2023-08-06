@@ -1,0 +1,46 @@
+
+  ## Macro to render a plain listing with header (if available)
+  # macro render_monthlist(heading, posts)
+  <div class="monthlist">
+    # if heading:
+      <h3 id="${heading}">${heading}</h3>
+    # else:
+    ${heading}
+    # endif
+    # if not posts:
+    <p>No blog posts.</p>
+    # endif
+      <ul>
+        # for name, version, time, author, title, body, categories in posts:
+        <li>
+          <a href="${req.href.blog(name)}">${title}</a>
+          # if show_meta is undefined or show_meta:
+          <span class="metainfo">
+            &nbsp;-- Posted on ${pretty_dateinfo and pretty_dateinfo(time) or format_datetime(time)}
+            # if not blog_personal_blog:
+              : author <a href="${req.href.blog('author', author)}">${authorinfo(author)}</a>
+            # endif
+            # if categories:
+              : categories
+              # for cat in categories:
+              <span>
+                <a href="${req.href.blog('category', cat)}">${cat}</a>
+              </span>
+              # endfor
+            # endif
+          </span>
+          # endif
+        </li>
+        # endfor
+      </ul>
+  </div>
+  # endmacro
+
+  {# Directly execute the macro on import if 'execute_blog_macro' is set.
+     For this not to throw errors it presumes variables to be called
+     already exists in the data dictionary.
+  #}
+  # if execute_blog_macro:
+    <div class="blog">${render_monthlist(heading, posts)}</div>
+  # endif
+
