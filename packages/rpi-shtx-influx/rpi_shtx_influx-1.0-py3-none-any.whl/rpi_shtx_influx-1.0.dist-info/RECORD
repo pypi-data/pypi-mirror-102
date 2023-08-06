@@ -1,0 +1,8 @@
+rpi_shtx_influx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpi_shtx_influx/temperature.py,sha256=Et5h4V5335CYPJNj8Ctrx_M45TRbFjiN1YZYJk-0SdQ,3151
+rpi_shtx_influx/tool.py,sha256=cMdsNqSBcTbIPwQJiLAMu8GRVKXKwT-RGqgTmI9HGrA,486
+rpi_shtx_influx-1.0.dist-info/entry_points.txt,sha256=A3s0iLqoRrSVK_Vtb3wA04BJakWD2BhjfzvJb0plzUM,61
+rpi_shtx_influx-1.0.dist-info/LICENSE.md,sha256=rYWNU8rgXu2VMezUxGdECAOs_-NMad57iOA6_8W2ob0,34283
+rpi_shtx_influx-1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+rpi_shtx_influx-1.0.dist-info/METADATA,sha256=d8m8ou9n2CheJptKBI4cN8KMMbk3SqH_QGUTTN_LPco,825
+rpi_shtx_influx-1.0.dist-info/RECORD,,
