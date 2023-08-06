@@ -1,0 +1,4 @@
+Django==2.2.20
+django-simple-menu==1.2.1
+core-dashboard-common-app==1.15.*
+core-main-registry-app==1.15.*
