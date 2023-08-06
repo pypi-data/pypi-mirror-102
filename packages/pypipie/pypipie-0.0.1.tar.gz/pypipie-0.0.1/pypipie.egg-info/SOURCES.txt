@@ -1,0 +1,6 @@
+README.md
+setup.py
+pypipie.egg-info/PKG-INFO
+pypipie.egg-info/SOURCES.txt
+pypipie.egg-info/dependency_links.txt
+pypipie.egg-info/top_level.txt
