@@ -1,0 +1,13 @@
+nbterm/__init__.py,sha256=2c-IifJoYGoj7tTIBwrPoMkr1r9kHej1teF5mDV4cag,81
+nbterm/_version.py,sha256=6oq_C2zmZz8qNJJk-mSaKYwr1TsZ-FiPuYj2NcGjmaY,72
+nbterm/cell.py,sha256=9q1ipucVQYznYFovAORwS2KojZWNU18KiXX2N45oJSc,9040
+nbterm/format.py,sha256=KrBM9sH_gAsyRmybRdfylWQ-VPNl8Ob_ptFXRYlJe7s,1250
+nbterm/key_bindings.py,sha256=_7YIYTW1zE7FdmgNml71xPfYIh0ahqY65qGq8qug6cg,2492
+nbterm/nbterm.py,sha256=cpUv-C0la0E4-Km7e4tNUNPBpRyXlJIgc7TlXlCLxR8,1085
+nbterm/notebook.py,sha256=MEshalqLKYo2A3APNc04Ez8BePdIm4g5EQQorxZ5hWM,8034
+nbterm-0.0.6.dist-info/LICENSE,sha256=D4RG-56mwADojKq7mjLm37ldh6SNFelKvKIEM1x1FmY,1081
+nbterm-0.0.6.dist-info/METADATA,sha256=jPLk_Lf8ipMyXccNhp1WNzuWChlj3N0abbgqJGb1t5w,1827
+nbterm-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nbterm-0.0.6.dist-info/entry_points.txt,sha256=kWAtjJD400AI7rRgXASQ1jvaK1qY7ws8AEYBQxU8Gxs,46
+nbterm-0.0.6.dist-info/top_level.txt,sha256=2R6SvKlYsOr0BhgDCUB8bhqbWmCxT0C5uHAb42Td9YU,7
+nbterm-0.0.6.dist-info/RECORD,,
