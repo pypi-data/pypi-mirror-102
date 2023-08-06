@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: ezpaths
+Version: 0.1.1
+Summary: Python module which provides shorthand methods for frequent os.path one-liners.
+Home-page: https://github.com/Gastropod/ezpaths
+Author: Bradley Fallon
+Author-email: bradley.fallon+code@gmail.com
+License: MIT
+Download-URL: https://github.com/Gastropod/ezpaths/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: PATHS,UTILS,OS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
