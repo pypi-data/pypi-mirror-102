@@ -1,0 +1,8 @@
+README.md
+setup.py
+food_recipe_scraper/__init__.py
+food_recipe_scraper.egg-info/PKG-INFO
+food_recipe_scraper.egg-info/SOURCES.txt
+food_recipe_scraper.egg-info/dependency_links.txt
+food_recipe_scraper.egg-info/requires.txt
+food_recipe_scraper.egg-info/top_level.txt
