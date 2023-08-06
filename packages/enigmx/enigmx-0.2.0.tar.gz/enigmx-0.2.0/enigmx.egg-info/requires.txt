@@ -1,0 +1,14 @@
+pandas>=0.22.0
+numpy>=1.18.2
+zarr
+fracdiff==0.1.0
+xarray
+finnhub-python
+tsfresh
+SQLAlchemyray
+numba
+pandas-market-calendars
+pyodbc
+imbalanced-learn
+TA-Lib
+matplotlib
