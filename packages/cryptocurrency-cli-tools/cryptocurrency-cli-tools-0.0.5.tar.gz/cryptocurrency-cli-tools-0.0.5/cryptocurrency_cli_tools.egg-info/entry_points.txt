@@ -1,0 +1,3 @@
+[console_scripts]
+bip39gen = cryptocurrency_cli_tools.runnable.bip39gen:main
+
