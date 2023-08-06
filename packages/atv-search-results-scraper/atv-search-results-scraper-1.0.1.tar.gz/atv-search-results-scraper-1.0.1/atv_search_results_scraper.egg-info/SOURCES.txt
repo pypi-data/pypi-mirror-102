@@ -1,0 +1,8 @@
+README.md
+setup.py
+atv_search_results_scraper/__init__.py
+atv_search_results_scraper.egg-info/PKG-INFO
+atv_search_results_scraper.egg-info/SOURCES.txt
+atv_search_results_scraper.egg-info/dependency_links.txt
+atv_search_results_scraper.egg-info/requires.txt
+atv_search_results_scraper.egg-info/top_level.txt
