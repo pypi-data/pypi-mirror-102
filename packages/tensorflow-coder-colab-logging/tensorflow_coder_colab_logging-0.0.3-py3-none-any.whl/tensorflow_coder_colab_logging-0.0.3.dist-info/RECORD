@@ -1,0 +1,11 @@
+tf_coder_colab_logging/__init__.py,sha256=2jsQW5Ayf-7hEV7_NDMl4Izm1Hp9v07XQN7HG00uxoM,710
+tf_coder_colab_logging/colab_logging.py,sha256=CldPA1qn5urkZqpdP-0pzbXOPiFCKM4-rOLcbGSKFcI,5849
+tf_coder_colab_logging/colab_logging_test.py,sha256=0RR__ZngN0S8i4QRoBMeNduzvPQHq4QEG8aHgvj52GA,4302
+tf_coder_colab_logging/serialization.py,sha256=tNnklJX3tT6rsxBmK0TcFcgTYxlN1O2p4o3lKtC7jiQ,6543
+tf_coder_colab_logging/serialization_test.py,sha256=_f8Jp0XqEo3GEv1nl-hBmdE743VxBSbrBtATmN5uqUc,2882
+tf_coder_colab_logging/version.py,sha256=9ahimCKkkPsSDom3HV5mnRduizuI7yLxg7Zkv4MLwz0,666
+tensorflow_coder_colab_logging-0.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tensorflow_coder_colab_logging-0.0.3.dist-info/METADATA,sha256=dLfaFWfBbUtTbtIPgIQZ3AiSk3D3d08qlkVTWVxSbBQ,1379
+tensorflow_coder_colab_logging-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tensorflow_coder_colab_logging-0.0.3.dist-info/top_level.txt,sha256=0iwEpFFts8Yc3qPQP2rM3JaJWnITwqnFANOCRlKSi0o,23
+tensorflow_coder_colab_logging-0.0.3.dist-info/RECORD,,

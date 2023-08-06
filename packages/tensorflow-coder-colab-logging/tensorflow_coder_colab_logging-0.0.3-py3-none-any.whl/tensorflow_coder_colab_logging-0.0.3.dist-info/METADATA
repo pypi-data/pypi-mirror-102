@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tensorflow-coder-colab-logging
+Version: 0.0.3
+Summary: Logging utilities for TensorFlow Coder's Colab interface
+Home-page: https://github.com/google-research/tensorflow-coder
+Author: Google LLC
+Author-email: no-reply@google.com
+License: UNKNOWN
+Keywords: tensorflow coder tf-coder
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (>=0.6.1)
+Requires-Dist: numpy (>=1.15.4)
+Requires-Dist: mock (>=3.0.5)
+Requires-Dist: tensorflow (>=2.2.0)
+
+This package provides logging utilities for TensorFlow Coder's Colab notebook
+interace.
+
+**As a user of TF-Coder, you should not need to install this package yourself.**
+
+In the Colab tool, we would like to log usage data for TF-Coder, so that we can
+identify scenarios where TF-Coder can be improved. This usage data will help us
+improve TF-Coder for everyone. We also believe that the usage data can form a
+dataset that will be a valuable resource to the broader program synthesis
+research community.
+
+This data collection is completely optional.
+
+
