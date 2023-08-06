@@ -1,0 +1,7 @@
+include *.txt
+
+graft basic_pkg
+graft examples
+graft basic_pkg/examples
+
+global-exclude *.ipynb_checkpoints/*
