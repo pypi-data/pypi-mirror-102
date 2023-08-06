@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/pymongo/__init__.py,sha256=jHu1b5K7EokEK9M-x-fsXASBdJqrTWraCerYSHagqIo,5544
+opentelemetry/instrumentation/pymongo/version.py,sha256=6PgAiFRw0DfrOeR35QIC8GhFtiqMnLrk5tiasdqSSAI,608
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/METADATA,sha256=sQrEhHyTQGBELhmUieG8j2Pm5cCe89TJAC0lbfuNchk,1792
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/entry_points.txt,sha256=YM0QkHuKl4mtc6fv6n54jgKXdBhLEzLERdyHXMVL6Jk,98
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_pymongo-0.20b0.dist-info/RECORD,,
