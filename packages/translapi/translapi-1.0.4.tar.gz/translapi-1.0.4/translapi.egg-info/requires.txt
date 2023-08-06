@@ -1,0 +1,6 @@
+httplib2
+wavio
+pydub
+gtts
+langdetect
+vlc
