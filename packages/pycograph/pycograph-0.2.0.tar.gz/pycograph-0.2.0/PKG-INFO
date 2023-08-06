@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pycograph
+Version: 0.2.0
+Summary: 
+Author: reka
+Author-email: reka@hey.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.8,<2.0)
+Requires-Dist: redisgraph (>=2.3,<3.0)
+Requires-Dist: typer (==0.3.2)
