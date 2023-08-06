@@ -1,0 +1,12 @@
+blue_users/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blue_users/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+blue_users/apps.py,sha256=sbo8ZhjSAHtD5r9meZpvDPXulh2h6bT8mz0RTdCPGkw,94
+blue_users/models.py,sha256=7tPlOt0mnujN-P8XIGWTIBxtfsE0KrQxZI0caBuFxng,4772
+blue_users/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+blue_users/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+blue_users/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_blue_users-2.0.dist-info/LICENCE,sha256=Lt8gLuXT71-3x5Endi_-7U3QbNsS_kfl93mG-8Zyxv4,1078
+django_blue_users-2.0.dist-info/METADATA,sha256=XXxg2xzA1wM7O7StOaRlx1F0eFfcCLyCWBHZ9pTsfHY,1162
+django_blue_users-2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_blue_users-2.0.dist-info/top_level.txt,sha256=hV71i3lfwGN72DYQQlqCP-2mljSpf0VqxPb_deEhY6g,11
+django_blue_users-2.0.dist-info/RECORD,,
