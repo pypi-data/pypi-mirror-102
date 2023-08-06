@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: chalice-mail
+Version: 0.0.1
+Summary: SMTP mail integration with AWS Chalice
+Home-page: https://github.com/marktennyson/chalice-mail
+Author: Aniket Sarkar
+Author-email: aniketsarkar@yahoo.com
+License: MIT
+Description: UNKNOWN
+Keywords: chalice,email,smtp mail,aws
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
