@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+swagdog.egg-info/PKG-INFO
+swagdog.egg-info/SOURCES.txt
+swagdog.egg-info/dependency_links.txt
+swagdog.egg-info/requires.txt
+swagdog.egg-info/top_level.txt
+swagdog.egg-info/zip-safe
+swagdogsrc/__init__.py
+swagdogsrc/swagdog.py
