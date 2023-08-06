@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tgraphics
+Version: 1.0.1
+Summary: An omni-platform terminal graphics module
+Home-page: https://repl.it/@GrandMoff100/tgraphics
+Author: Wizard
+Author-email: nlarsen23.student@gmail.com
+License: UNKNOWN
+Description: # TGraphics
+        
+        ## Installation
+        > # Via `pip`
+        > 
+        ```
+        $ pip install tgraphics
+        ```
+        
+        []()
+        
+        
+        > # Via Source from GitHub using `git`
+        > 
+        ```
+        $ git clone https://github.com/GrandMoff100/tgraphics
+        $ cd tgraphics
+        $ python setup.py install
+        ```
+        
+        ## Usage
+        ```py
+        from tgraphics import (
+            Screen,
+            Sprite,
+            Vector, # Experimental, b/w vector
+            Texture # Experimental, b/w texture (wrapper for vector)
+        )
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
