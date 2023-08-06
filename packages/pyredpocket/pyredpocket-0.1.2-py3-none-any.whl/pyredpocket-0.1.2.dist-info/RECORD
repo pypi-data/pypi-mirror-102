@@ -1,0 +1,11 @@
+pyredpocket/__init__.py,sha256=2bk1z2aifEMSY0ge5AQp5Bwx4w59vSXvuYNIKhskVgY,86
+pyredpocket/client.py,sha256=8YAybed6ioYTcigJsszSlW6hgxD7g0Y4oKRfwHDr43A,2021
+pyredpocket/details.py,sha256=XxslloE1YKZwp-rXMiMyOBlizT32UNNn9MGn3MGepLw,2215
+pyredpocket/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyredpocket/tests/test_client.py,sha256=KyMgrMisa68_ocNa68I597kjpQhIkeUTGaQ6QJd2A_g,948
+pyredpocket/tests/test_details.py,sha256=VWVb83P0GPVYxu0TcZFok7-AX9JCPfFGt4IMumJjBLk,1212
+pyredpocket-0.1.2.dist-info/LICENSE,sha256=OjDbcSVW0cPXi0PINdQRSdHd9P9jZB5RVkqxeooyfLo,1071
+pyredpocket-0.1.2.dist-info/METADATA,sha256=p9lR88hc9iD0eG_RHxDu8NywglzYrMx-NGxZLEc1Hcc,1083
+pyredpocket-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyredpocket-0.1.2.dist-info/top_level.txt,sha256=vmFwaM2OorX6BlAKBe57dorlw6Pc4UA2M4dpMnUvnQ4,12
+pyredpocket-0.1.2.dist-info/RECORD,,
