@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jhelper"
+version = "0.1.1"
+description = "Juminfo Jenkins Upload Helper"
+authors = ["ssfdust <ssfdust@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25.1"
+filesplit = "^3.0.2"
+
+[tool.poetry.scripts]
+jhelper = 'jhelper.main:main'
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
