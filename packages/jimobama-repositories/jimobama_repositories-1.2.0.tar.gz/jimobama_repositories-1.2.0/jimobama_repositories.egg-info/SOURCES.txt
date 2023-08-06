@@ -1,0 +1,12 @@
+README.md
+setup.py
+jimobama_repositories/__init.py
+jimobama_repositories/argsinitialiser.py
+jimobama_repositories/dbproperty.py
+jimobama_repositories/fileinfo.py
+jimobama_repositories/repository.py
+jimobama_repositories/repositorydecorator.py
+jimobama_repositories.egg-info/PKG-INFO
+jimobama_repositories.egg-info/SOURCES.txt
+jimobama_repositories.egg-info/dependency_links.txt
+jimobama_repositories.egg-info/top_level.txt
