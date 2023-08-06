@@ -1,0 +1,3 @@
+[console_scripts]
+doomgit = DOOM.__main__:main
+
