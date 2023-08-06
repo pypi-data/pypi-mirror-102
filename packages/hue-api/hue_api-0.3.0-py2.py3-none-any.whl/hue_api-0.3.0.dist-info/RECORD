@@ -1,0 +1,17 @@
+hue/README.md,sha256=7KPrOvwdulhVJQ5yThkX5kAFcdRqpnBuTaAfdFg9i3k,258
+hue/__init__.py,sha256=yO0F929PKnbrQCINK0DIHJsIpxs8h-JR4ofZN1ctRGk,108
+hue/__main__.py,sha256=N1Wou3PdxiQ_3fPRErjccaBDMo6nygwQFNKLc2JJQhk,46
+hue/api/__init__.py,sha256=xalxAqwwfX8VZGN4FR3lKRq8B1eflUP7SReHt9yqjBQ,78
+hue/api/bridge.py,sha256=__c-ySjSeDVhkmqvhn12aNYL8CFdhl0c2NKPAnf6vvs,713
+hue/api/colors.py,sha256=UjTqEPdoRRJKFrLdk1st5J6vQMJuV0FT5c2vueLSW8k,9370
+hue/api/http.py,sha256=EHuYX4189mXeaR6MbMMNrGlkXx_uTvsJhkx8icuUTWA,525
+hue/api/light.py,sha256=I05qVuNXs_35w7ue2fduC-M_kxWug0viL-MEaFujykE,2030
+hue/cli/__init__.py,sha256=OjwkE9BFnZk_SPkwOX6viSLH5Db_K30He7il5IHm6bA,22
+hue/cli/bridge.py,sha256=78-AnlanLl-GmnQEsK6OTSiFP2yB4jBJlOMtePhPa7g,233
+hue/cli/light.py,sha256=RRjnxtET5zJnud8RgSNTfGKuDjVD6jN-ccZRUCxpLXI,114
+hue/cli/main.py,sha256=hJdQPTZIimHP5zuFbJTCcD8gMts0QBMLZBHf51VYGSE,372
+hue_api-0.3.0.dist-info/entry_points.txt,sha256=7rzpWjTNWLQNfwztUq-YrVkzHGRXqvcyCfzKGTCrjNQ,35
+hue_api-0.3.0.dist-info/LICENSE,sha256=3dYrFJZrI5EMdSQoZTxG5ivsXMtJ7GxAaTkAdhhB51E,1072
+hue_api-0.3.0.dist-info/WHEEL,sha256=iTBNkFIR26Wnx2cg5455J1IIBEskRg4YJC9DJwgu-js,99
+hue_api-0.3.0.dist-info/METADATA,sha256=CLr0k9ETPvsyg-xd-xyYMNutaGqWniwg8IRYCU2EFko,3430
+hue_api-0.3.0.dist-info/RECORD,,
