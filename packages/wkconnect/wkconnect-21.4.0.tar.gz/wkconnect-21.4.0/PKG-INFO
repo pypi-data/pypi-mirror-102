@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wkconnect
+Version: 21.4.0
+Summary: 
+License: AGPL-3.0
+Author: scalable minds
+Author-email: hello@scalableminds.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=6.2,<7.0)
+Requires-Dist: aiohttp (>=3.7,<4.0)
+Requires-Dist: async-lru (>=1.0,<2.0)
+Requires-Dist: blosc (>=1.10,<2.0)
+Requires-Dist: brotlipy (>=0.7.0,<0.8.0)
+Requires-Dist: compressed_segmentation (>=1.0,<2.0)
+Requires-Dist: gcloud-aio-auth (>=3.0,<4.0)
+Requires-Dist: jpeg4py (>=0.1.4,<0.2.0)
+Requires-Dist: numpy (>=1.17,<2.0)
+Requires-Dist: sanic (==18.12.0)
+Requires-Dist: sanic_cors (>=0.9.9,<0.10.0)
+Requires-Dist: tifffile (>=2020.9.3,<2021.0.0)
+Requires-Dist: wkcuber (>=0.5,<0.6)
