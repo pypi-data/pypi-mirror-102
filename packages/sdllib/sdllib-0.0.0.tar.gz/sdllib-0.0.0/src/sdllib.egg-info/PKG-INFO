@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: sdllib
+Version: 0.0.0
+Summary: WIP
+Home-page: UNKNOWN
+Author: sdllib-team
+License: see file
+Description: 
+        Overview
+        ========
+        
+        **sdllib - Smart Data Library**
+        
+        Prerequisites
+        =============
+        
+        - Python >= 3.6
+        - clean virtual environment with pip, setuptools
+        
+        
+        Installation
+        ============
+        `pip install sdllib`
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev

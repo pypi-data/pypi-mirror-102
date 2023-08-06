@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=30.3.0",
+    "wheel"
+]
+
+[tool.black]
+target-version = ['py36']
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | notebooks
+)/
+'''
+
+[tool.isort]
+force_single_line = true
+line_length = 140
+known_first_party = 'sdllib'
+default_section = 'THIRDPARTY'
+forced_separate = 'test_sdllib'
+skip = ['.tox', '.eggs', 'ci/templates', 'build' , 'dist']
