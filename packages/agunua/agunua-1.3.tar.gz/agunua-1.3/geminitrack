@@ -1,0 +1,187 @@
+#!/usr/bin/env python3
+
+"""A command-line utility to retrieve a complete Gemini
+<https://gemini.circumlunar.space/> capsule recursively. It can be
+used, for instance, to backup an existing capsule."""
+
+# https://framagit.org/bortzmeyer/agunua
+import Agunua
+
+import sys
+import getopt
+import signal
+import random
+import time
+import re
+import pathlib
+import urllib.parse
+
+# Defaults (but configurable)
+# Programmer: if you change the defaults, change also the documentation in geminitrack.md
+verbose = False
+maximum_time = 30 # Seconds 
+maximum_files = 20 
+sleep_duration = 1 # Seconds 
+base_directory = "." 
+prepend_host_and_path = True
+exclude = None # Regular expression
+insecure = True
+accept_expired_cert = False
+tofu = Agunua.TOFU
+
+def usage(msg=None):
+    print("Usage: %s url" % sys.argv[0], file=sys.stderr)
+    if msg is not None:
+        print(msg, file=sys.stderr)
+
+def alarm(*_):                                                                                                 
+    print("Maximum time (%i seconds) elapsed, stopping (use --maximum-time to increase it)" % maximum_time, file=sys.stderr)
+    sys.exit(1)
+
+def remove_leading_slashes(s):
+    if s.startswith("/"):
+        return remove_leading_slashes(s[1:])
+    else:
+        return s
+    
+def sanitize(s):
+    """ Turn a path from the URL into a safe file name (removing dangerous things). """
+    s = remove_leading_slashes(s)
+    if s.endswith("/"):
+        return sanitize(s + "index.gmi")
+    if s == "" or s is None:
+        return "index.gmi"
+    s2 = ""
+    for c in s:
+        if re.match("[\w/\-\.]", c):
+            s2 += c
+        else:
+            s2 += "_"
+    s2 = re.sub("\.\.+", "_", s2)
+    return s2
+
+try:
+    optlist, args = getopt.getopt (sys.argv[1:], "d:e:hn:rs:t:v",
+                                   ["help", "verbose", "directory=",
+                                    "exclude=", "maximum-time=",
+                                    "secure", "no-tofu",
+                                    "accept-expired-certificate",
+                                    "maximum-files=", "sleep=",
+                                    "raw-directory"])
+    for option, value in optlist:
+        if option == "--help" or option == "-h":
+            usage()
+            sys.exit(0)
+        elif option == "--verbose" or option == "-v":
+            verbose = True
+        elif option == "--secure":
+            insecure = False
+        elif option == "--no-tofu":
+            tofu = ""
+        elif option == "--accept-expired-certificate":
+            accept_expired_cert = True            
+        elif option == "--raw-directory" or option == "-r":
+            prepend_host_and_path = False
+        elif option == "--directory" or option == "-d":
+            base_directory = value
+        elif option == "--exclude" or option == "-e":
+            exclude = re.compile(value)
+        elif option == "--maximum-time" or option == "-t":
+            maximum_time = int(value)
+        elif option == "--maximum-files" or option == "-n":
+            maximum_files = int(value)
+        elif option == "--sleep" or option == "-s":
+            sleep = int(value)
+        else:
+            # Should never occur, it is trapped by getopt
+            usage("Unknown option %s" % option)
+except getopt.error as reason:
+    usage(reason)
+    sys.exit(1)
+if len(args) != 1:
+    usage()
+    sys.exit(1)
+
+signal.signal(signal.SIGALRM, alarm)
+signal.alarm(maximum_time)
+
+url = args[0]
+start_url = url
+components = urllib.parse.urlparse(start_url)
+if prepend_host_and_path:
+    path = pathlib.Path(remove_leading_slashes(components.path))
+    directory = pathlib.Path(base_directory).joinpath(components.netloc, path)
+else:
+    directory = pathlib.Path(base_directory)
+to_retrieve = {url: True}
+retrieved = {}
+total_attempts = 0
+total_retrieved = 0
+generator = random.Random()
+first = True
+
+# May be we should canonicalize URLs using the canonicalize() routine
+# in lupa.utils?
+while total_attempts < maximum_files and len(to_retrieve) > 0:
+    retrievables = []
+    for u in to_retrieve.keys():
+        retrievables.append(u)
+    url = generator.choice(retrievables)
+    if verbose:
+        print("Retrieving %s…" % url)
+    # "Insecure" by default. See ticket #36.
+    # We cannot use follow_redirect because it may go to other capsules.
+    g = Agunua.GeminiUri(url, insecure=insecure,
+                         accept_expired=accept_expired_cert, tofu=tofu,
+                         get_content=True, parse_content=True,
+                         follow_redirect=False, maxlines=None,
+                         maxsize=None) 
+    retrieved[url] = True
+    del to_retrieve[url]
+    total_attempts += 1
+    if g.network_success:
+        if g.status_code == "20":
+            total_retrieved += 1
+            if g.links is not None: # It is None, for instance in non-gemtext files
+                for l in g.links:
+                    if l.startswith(start_url) and (exclude is None or not exclude.search(l)):
+                        if l not in retrieved and l not in to_retrieve:
+                            to_retrieve[l] = True
+            (prefix, suffix) = url.split(start_url)
+            suffix = sanitize(suffix)
+            filename = directory.joinpath(suffix)
+            pathlib.Path.mkdir(filename.parent, parents=True, exist_ok=True)
+            if g.binary or not g.mediatype.startswith("text/"):
+                mode = "wb"
+            else:
+                mode = "w"
+            f = open(filename, mode)
+            f.write(g.payload)
+            f.close()
+        elif g.status_code == "30" or g.status_code == "31":
+            target = g.meta
+            if target.startswith(start_url) and (exclude is None or not exclude.search(target)):
+                        if target not in retrieved and target not in to_retrieve:
+                            to_retrieve[target] = True
+        else:
+            if verbose or first:
+                if g.status_code in Agunua.status.codes:
+                    status = Agunua.status.codes[g.status_code]
+                elif g.status_code[0] in Agunua.status.categories:
+                    status = "illegal status code, category \"%s\"" % \
+                        Agunua.status.categories[g.status_code[0]]
+                else:
+                    status = "completely illegal status code \"%s\"" % g.status_code
+                print("Wrong status code for %s: %s" % (url, status), file=sys.stderr) 
+    else:
+        if verbose or first:
+            print("Network error retrieving %s: %s" % (url, g.error), file=sys.stderr) 
+    time.sleep(sleep_duration)
+    first = False
+if len(to_retrieve) > 0 and total_attempts >= maximum_files:
+    print("Warning, maximum number of %i files reached (use --maximum-files to increase it)" % maximum_files,
+          file=sys.stderr)
+if total_retrieved == 0:
+    sys.exit(1)
+else:
+    sys.exit(0)
