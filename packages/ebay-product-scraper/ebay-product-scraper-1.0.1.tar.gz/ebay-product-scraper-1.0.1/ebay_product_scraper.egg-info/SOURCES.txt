@@ -1,0 +1,8 @@
+README.md
+setup.py
+ebay_product_scraper/__init__.py
+ebay_product_scraper.egg-info/PKG-INFO
+ebay_product_scraper.egg-info/SOURCES.txt
+ebay_product_scraper.egg-info/dependency_links.txt
+ebay_product_scraper.egg-info/requires.txt
+ebay_product_scraper.egg-info/top_level.txt
