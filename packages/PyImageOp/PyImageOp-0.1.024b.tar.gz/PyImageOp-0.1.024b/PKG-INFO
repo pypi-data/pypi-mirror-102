@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: PyImageOp
+Version: 0.1.024b
+Summary: Small library to help in live editing image with python, for now beta version
+Home-page: https://github.com/allahaka/PyImageOp
+Author: allahaka
+Author-email: allahaka90@gmail.com
+License: MIT
+Download-URL: https://github.com/allahaka/PyImageOp/archive/refs/tags/0.1.024b.tar.gz
+Description: temp. description and link to documentation 
+         https://pyimageop.readthedocs.io/en/main/
+Keywords: Image,AI,ImageCapture,Image Filters,Image Recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
