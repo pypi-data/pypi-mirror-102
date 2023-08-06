@@ -1,0 +1,17 @@
+sharestats_item_editor/__init__.py,sha256=lPyoZUx0JYntxAg1q0chlgfDS8QXV-Xt6bYdJTJukWA,1054
+sharestats_item_editor/__main__.py,sha256=T93DDP6uOcJcXC36Sxd_UOGPtNo3OEN51tvcUSB053M,59
+sharestats_item_editor/consts.py,sha256=O5wCZGy8DYqpINaN9rZwBaH9kEAo72utVpN607pW4VA,656
+sharestats_item_editor/files.py,sha256=n4RS2WAEZRvM0vo0l6NI8VSNcignrhLD0QrXzbGZBMo,6827
+sharestats_item_editor/item_sections.py,sha256=S7dzm0V6tzoP8svMRKsHmuDcggwKQ7haXpIZk8dzSVs,8168
+sharestats_item_editor/json_settings.py,sha256=RK4F46qoSynZa3ae-DKJyvvcv_XO1A2J5yzkA3_8DkU,1724
+sharestats_item_editor/misc.py,sha256=Fsax-BjVtvBrFyaIGq6Vt99jyJjQSn5eRKwZtOqLYOg,1346
+sharestats_item_editor/r_exams.py,sha256=SO1CiY-rnvd7AT02yEI8pegJFJJYcq1b24Uf159qRb0,1589
+sharestats_item_editor/rmd_exam_item.py,sha256=RMW0pbr1LSG1hdq9VCTOLfljemQ-BCVC3CeDkDPhn-U,5612
+sharestats_item_editor/taxonomy.py,sha256=FeabJCjVtEH83o6ZSNRgJ5CJMuXY6D56Ww5Xau41ssI,1191
+sharestats_item_editor/templates/__init__.py,sha256=eizmN08LT72caf7AEwT4n-FgEG7bpVJgXXpUtc4hpKk,482
+sharestats_item_editor-0.1.10.dist-info/LICENSE,sha256=JBiwLT7bbivy5OPpv9WgApufTWtFbPhFBQQaU34cSK0,1104
+sharestats_item_editor-0.1.10.dist-info/METADATA,sha256=IzdxtTCaQsFu6YmXH7AEVlGtQgVqouitXuXpex0u9zM,3448
+sharestats_item_editor-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sharestats_item_editor-0.1.10.dist-info/entry_points.txt,sha256=RJg1VggpnguPpyvx9lCap1J2JSF7IfMBDe-2aKgN6Ns,80
+sharestats_item_editor-0.1.10.dist-info/top_level.txt,sha256=iL9o6unMbvzIxIDTytN-_zwfJGW_CWifwN6tuJ8qqJE,23
+sharestats_item_editor-0.1.10.dist-info/RECORD,,
