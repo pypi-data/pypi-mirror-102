@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: luckyrandom
+Version: 0.0.1
+Summary: Encourage users with bad luck
+Home-page: https://github.com/maxesisn/luckyrandom
+Author: Maximilian Wu
+Author-email: me@maxesisn.online
+License: UNKNOWN
+Description: ## luckyrandom
+        拯救运气很差的用户
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
