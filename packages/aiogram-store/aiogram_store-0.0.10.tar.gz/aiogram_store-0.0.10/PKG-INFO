@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: aiogram_store
+Version: 0.0.10
+Summary: Python command line example package
+Home-page: https://github.com/OGURCHINSKIY/aiogram_store/issues
+Author: ogurchik
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/OGURCHINSKIY/aiogram_store/issues
+Description: beta store for aiogram
+Platform: UNKNOWN
