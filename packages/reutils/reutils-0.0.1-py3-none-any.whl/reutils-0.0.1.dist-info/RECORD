@@ -1,0 +1,8 @@
+coreutils/__init__.py,sha256=KD_Hi-j72qsX75ZrkaHIXyB35d3miAx81icl-JpfNog,256
+coreutils/cache.py,sha256=vhIZL_3WncgssOceoMgBVaZvVAMKyBEuTusfOqTWufc,666
+coreutils/logging.py,sha256=stdmx0bYwhv7nWsmomfb6oanyvJTtYs6bWHk_v0beyA,2017
+reutils-0.0.1.dist-info/LICENSE,sha256=QUQ7yDx84zc28X1L50S4TbOea15goR5MaZrrvgNUWw4,1071
+reutils-0.0.1.dist-info/METADATA,sha256=ZLxvxohHVhoA78OdIsEqsgCGGzf_LQ-ozL15IMgZ1Jc,524
+reutils-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+reutils-0.0.1.dist-info/top_level.txt,sha256=GDLmsvDsMN1L8r3QYiGqoKobte_ku2wJhD9X5TuezOA,10
+reutils-0.0.1.dist-info/RECORD,,
