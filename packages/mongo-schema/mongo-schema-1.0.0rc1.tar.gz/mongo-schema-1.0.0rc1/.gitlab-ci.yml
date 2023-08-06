@@ -1,0 +1,78 @@
+stages:
+    - "test"
+    - "package"
+    - "deploy"
+
+
+.only: &only
+    - master
+    - merge_requests
+    - tags
+
+
+.test: &test
+    before_script:
+        - "pip install --upgrade pip"
+        - "pip install -e .[tests]"
+    script:
+        - >
+            pytest -v --color=yes --cov --cov-report=term
+            --cov-report=xml --junit-xml=pytest-xunit.xml
+        - flake8 mongo_schema/
+    only: *only
+    artifacts:
+        reports:
+            junit: pytest-xunit.xml
+            cobertura: coverage.xml
+
+
+test:python3.6:
+    stage: "test"
+    image: "python:3.6"
+    <<: *test
+
+test:python3.7:
+    stage: "test"
+    image: "python:3.7"
+    <<: *test
+
+test:python3.8:
+    stage: "test"
+    image: "python:3.8"
+    <<: *test
+
+test:python3.9:
+    stage: "test"
+    image: "python:3.9"
+    <<: *test
+
+package:
+    stage: "package"
+    image: "python:3.9"
+    only: *only
+    before_script:
+        - "pip install --upgrade pip"
+        - "pip install twine"
+    script:
+        - "./setup.py sdist bdist_wheel"
+        - "twine check dist/*"
+    artifacts:
+        paths:
+            - "dist/*.tar.gz"
+            - "dist/*.whl"
+
+deploy:
+    stage: "deploy"
+    image: "python:3.9"
+    only:
+        - tags
+    dependencies:
+        - package
+    variables:
+        TWINE_USERNAME: $TWINE_USERNAME
+        TWINE_PASSWORD: $TWINE_PASSWORD
+    before_script:
+        - "pip install --upgrade pip"
+        - "pip install twine"
+    script:
+        - "twine upload dist/*"

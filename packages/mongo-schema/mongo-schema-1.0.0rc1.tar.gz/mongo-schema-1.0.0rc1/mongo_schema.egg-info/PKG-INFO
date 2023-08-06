@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: mongo-schema
+Version: 1.0.0rc1
+Summary: Schema validator for MongoDB's JSON Schema variant
+Home-page: https://gitlab.com/embray/mongoschema/
+Author: E. Madison Bray
+Author-email: embray@lri.fr
+License: BSD
+Description: # mongo-schema
+        
+        Extended [JSON Schema](https://json-schema.org/) validator for [MongoDB's
+        JSON Schema
+        variant](https://docs.mongodb.com/manual/reference/operator/query/jsonSchema/).
+        
+        ## Introduction
+        
+        Since MongoDB 3.6, MongoDB has supported server-side validation of documents
+        inserted into a collection by attaching a schema to that collection in an
+        extended version of JSON Schema.  It is almost the same JSON Schema [draft
+        4](https://tools.ietf.org/html/draft-zyp-json-schema-04), but with a few
+        custom extensions, as well as omissions, that are of course not handled by
+        existing JSON Schema validators such as
+        [jsonschema](https://github.com/Julian/jsonschema) for Python.
+        
+        This would not be a problem since we can test our schemas directly on our
+        MongoDB server.  However, anyone who's used this feature has probably found
+        that schema validation error responses from the server can be...a little
+        less than helpful[^1]:
+        
+        ```
+        > db.createCollection("test", {"validator": {"$jsonSchema": {"properties": {"count": {"bsonType": "int"}}}}})
+        { "ok" : 1 }
+        > db.test.insert({"count": "abc"})
+        WriteResult({
+        	"nInserted" : 0,
+        	"writeError" : {
+        		"code" : 121,
+        		"errmsg" : "Document failed validation"
+        	}
+        })
+        ```
+        
+        In this case we can clearly see that the value of `"count"` is not an
+        `int` as required by the schema.  But for even moderately-sized documents
+        with more than a handful of schema validation rules, document validation
+        errors can be extremely tricky to track down.
+        
+        This module was created to help debug validation issues in applications
+        using non-trivial schemas to validate their MongoDB documents.  It extends
+        the
+        [Draft4Validator](https://python-jsonschema.readthedocs.io/en/latest/validate/#versioned-validators)
+        of [jsonschema](https://github.com/Julian/jsonschema) to support the
+        metaschema and validators used by MongoDB's JSON Schema variant, in
+        particular with support for the `bsonType` validator.
+        
+        [^1]: This has actually been [fixed quite
+        recently](https://jira.mongodb.org/browse/SERVER-20547) as of MongoDB 4.9.0.
+        
+        
+        ## Installation
+        
+        Dependencies:
+        
+        * `jsonschema`
+        * One of: `pymongo` or `pybson`
+        
+        The `mongo-schema` package does *not* explicitly include a dependency for
+        the `bson` package.  Normally this package is installed as part of
+        `pymongo`, but it is a somewhat heavy-weight dependency to add, and has a
+        stand-alone version in the form of `pybson`.  So it is recommended to
+        install on or the other.  Most users of this package will already be using
+        `pymongo` as one of their dependencies:
+        
+        ```bash
+        $ pip install pymongo mongo-schema
+        ```
+        
+        or
+        
+        ```bash
+        $ pip install pybson mongo-schema
+        ``
+        
+        Note: Do **not** confuse this package with the `mongoschema` package on
+        PyPI, which is unrelated.
+        
+        
+        ## Usage
+        
+        Simply use `mongo_schema.validate` which has the same interface as
+        [`jsonschema.validate`](https://python-jsonschema.readthedocs.io/en/stable/validate/#jsonschema.validate).
+        Here are some examples demonstrating `bsonType` validation:
+        
+        ```python
+        >>> import mongo_schema
+        >>> mongo_schema.validate(123, {'bsonType': 'int'})
+        >>> mongo_schema.validate(123, {'bsonType': 'long'})
+        >>> mongo_schema.validate(2**65, {'bsonType': 'long'})
+        Traceback (most recent call last):
+        ...
+        jsonschema.exceptions.ValidationError: 36893488147419103232 is not of type
+        'long'
+        >>> mongo_schema.validate(b'\x00\x11\x22', {'bsonType': 'binData'})
+        >>> from datetime import datetime
+        >>> mongo_schema.validate(datetime.now(), {'bsonType': 'date'})
+        
+        ```
+        
+        Note that the schema itself is validated against a meta-schema which, like
+        MongoDB, explicitly disallows certain properties such as `$schema` or
+        `$ref`, as well as custom properties.  These will result in validation
+        errors on the schema itself:
+        
+        ```python
+        >>> mongo_schema.validate({}, {'$ref': '#/definitions/myDef'})
+        Traceback (most recent call last):
+        ...
+        jsonschema.exceptions.SchemaError: Additional properties are not allowed
+        ('$ref' was unexpected)
+        ...
+        >>> mongo_schema.validate({}, {'foo': 'bar'})
+        Traceback (most recent call last):
+        ...
+        jsonschema.exceptions.SchemaError: Additional properties are not allowed
+        ('foo' was unexpected)
+        ...
+        
+        ```
+        
+        You can also create a validator instance wrapping a specific schema using
+        `mongo_schema.MongoValidator`:
+        
+        ```python
+        >>> validator = mongo_schema.MongoValidator({'bsonType': 'objectId'})
+        >>> from bson import ObjectId
+        >>> validator.validate(ObjectId())
+        
+        ```
+        
+        A typical use case for this package might be to add better error output when
+        schema validation fails upon document insertion or update.  For example:
+        
+        ```python
+        document = {'a': 123}
+        try:
+            my_db.my_collection.insert_one(document)
+        except pymongo.errors.WriteError as exc:
+            if exc.code == 121:
+                # Get the schema for the collection
+                opts = my_db.my_collection.options()
+                schema = opts.get('validator').get('$jsonSchema')
+                # Raise a jsonschema.ValidationError with more details
+                if schema is not None:
+                    mongo_schema.validate(document, schema)
+        
+            raise
+        ```
+        
+        Here `exc.code == 121` is the MongoDB error code for
+        [DocumentValidationError](https://github.com/mongodb/mongo/blob/5bbadc66ed462aed3cc4f5635c5003da6171c25d/src/mongo/base/error_codes.yml#L159),
+        though as far as I can tell this is not made available anywhere by the
+        pymongo driver.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
