@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mylearn
+Version: 0.0.1
+Summary: mylearn: my Machine Learning toolkit
+Home-page: https://github.com/MichaelKarpe/mylearn
+Author: Michaël Karpe
+Author-email: michael.karpe@berkeley.edu
+License: UNKNOWN
+Description: mylearn: my Machine Learning toolkit
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

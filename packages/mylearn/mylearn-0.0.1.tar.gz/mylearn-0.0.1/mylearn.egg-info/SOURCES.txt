@@ -1,0 +1,8 @@
+README.md
+setup.py
+mylearn/__init__.py
+mylearn.egg-info/PKG-INFO
+mylearn.egg-info/SOURCES.txt
+mylearn.egg-info/dependency_links.txt
+mylearn.egg-info/requires.txt
+mylearn.egg-info/top_level.txt
