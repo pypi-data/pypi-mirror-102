@@ -1,0 +1,6 @@
+boto3
+tqdm
+pafy
+paramiko
+scipy
+numpy
