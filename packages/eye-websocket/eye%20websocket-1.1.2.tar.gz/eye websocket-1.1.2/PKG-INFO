@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: eye websocket
+Version: 1.1.2
+Summary: It is a utility to simplify service creation processes using websockets
+Home-page: https://github.com/ArthurBogiano/eye
+Author: Arthur Bogiano
+Author-email: arthurprosel@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/ArthurBogiano/eye
+Description: pt-br: É um utilitário para simplificar processos de criação de serviços utilizando websockets
+Keywords: websockets websocket socket web server
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics

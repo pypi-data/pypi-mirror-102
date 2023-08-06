@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+eye/Eye.py
+eye/__init__.py
+eye_websocket.egg-info/PKG-INFO
+eye_websocket.egg-info/SOURCES.txt
+eye_websocket.egg-info/dependency_links.txt
+eye_websocket.egg-info/requires.txt
+eye_websocket.egg-info/top_level.txt
