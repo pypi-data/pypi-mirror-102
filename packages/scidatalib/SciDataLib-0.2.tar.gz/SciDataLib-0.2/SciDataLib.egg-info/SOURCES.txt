@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+SciDataLib.egg-info/PKG-INFO
+SciDataLib.egg-info/SOURCES.txt
+SciDataLib.egg-info/dependency_links.txt
+SciDataLib.egg-info/top_level.txt
+scidatalib/__init__.py
+scidatalib/cli.py
+scidatalib/scidata.py
+tests/__init__.py
+tests/test_cli.py
+tests/test_scidata.py
