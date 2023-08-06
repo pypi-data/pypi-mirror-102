@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: spreadsheet-wrangler
+Version: 0.1.0
+Summary: Spreadsheet editing tools
+Home-page: https://github.com/snhobbs/spreadsheet_wrangler
+Author: Simon Hobbs
+Author-email: simon.hobbs@electrooptical.net
+License: MIT
+Description: # spreadsheet-wrangler
+        Command line tool for interacting with spreadsheet data
+        
+        ## Functions
+        - merge: Left merge two spreadsheets and save as xlsx
+        - compare: Compare two spreadsheets on a column name, prints out the discrepencies
+        - cluster: Combine the same values in a specified column as an array with the same name as the clustered column. The remainder of the first rows data is kept.
+        - uncluster: Unpack clustered columns into one entry for each. The row is duplicated for each entry.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
