@@ -1,0 +1,11 @@
+leidenalg-0.8.4.dist-info/RECORD,,
+leidenalg-0.8.4.dist-info/WHEEL,sha256=EzbPVXHRzO5Cusi_HRHsPfPkF-lUnFtP66wT8y3ATpA,118
+leidenalg-0.8.4.dist-info/METADATA,sha256=psxw92vpCenbTcEnC1ixme25d-0NS-3-s25c-GcGP7A,1444
+leidenalg-0.8.4.dist-info/top_level.txt,sha256=P3ENfjbM36KTOwEtlR1kASK7RB5a9tx2_ClF17aXLk0,10
+leidenalg-0.8.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+leidenalg/functions.py,sha256=wAW-K7BYKKEtas4R0h-fJ01mn5T14IV54YFVZXQlj68,19977
+leidenalg/_c_leiden.pypy37-pp73-x86_64-linux-gnu.so,sha256=ay4KI8F7iP0SQqxVfQ1rpGAI-s1N7OetgLGvBr7f_6E,551280
+leidenalg/VertexPartition.py,sha256=n4uOKJgZJ1q8JuwMEf41f84f_WTxO3UzcP1yXK-CY30,41924
+leidenalg/Optimiser.py,sha256=D2w5Ny6h6-FSuq1QeA9wgXvTydJeUtS7dI_kWxiHpgc,30429
+leidenalg/__init__.py,sha256=luSWLhX033WcMi3mmpFnj8FlfHvwPqk5JbenRup3DS4,2376
+leidenalg/version.py,sha256=740d_ey-_N46g7jlcG_DrWP2vGYlnHosXr4yOzmJeN0,142
