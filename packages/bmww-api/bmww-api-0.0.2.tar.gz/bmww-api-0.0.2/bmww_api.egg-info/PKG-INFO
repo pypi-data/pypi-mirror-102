@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: bmww-api
+Version: 0.0.2
+Summary: A basic unofficial batmanwonderwoman.com (bmww) api
+Home-page: https://github.com/Noche-10/bmww-api
+Author: Noche-10
+Author-email: nocheffic@gmail.com
+License: UNKNOWN
+Description: A basic bmww api, check github' readme for usage
+Keywords: python,api,batman,wonderwoman,bmww,batmanwonderwoman
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
