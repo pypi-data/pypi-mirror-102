@@ -1,0 +1,14 @@
+forsyde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forsyde/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forsyde/io/python/__init__.py,sha256=VpqH1G2YudIY9bG8zPo51Xu-Vt7byqM4eanQMbjyjeA,26
+forsyde/io/python/api.py,sha256=C1L95GsAYVuUnKJRnaj21JF_7wC2isdwfSrjoeyIhF0,1562
+forsyde/io/python/core.py,sha256=x1Uq6K0awRNdpCUN3NizNp4jARi66g6oMG3CdQ4VSTg,8431
+forsyde/io/python/drivers.py,sha256=Sh4bLUZpu4ihmr_VDUYvauGfuleiJKwsLK4UBO5EBqs,18348
+forsyde/io/python/ports.py,sha256=EJkxIl1-HJawor-u1CHHH9W8R2EsuGDATCSAYgDU2xU,1851
+forsyde/io/python/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forsyde/io/python/types.py,sha256=21gpa-6A3QkHC91mANQo4oueCv60dxRJOocM2CQp06c,26220
+forsyde/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forsyde_io_python-0.2.11.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+forsyde_io_python-0.2.11.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+forsyde_io_python-0.2.11.dist-info/METADATA,sha256=7aAe16Q6Hg1MDYCIbciLRxTm7jV53kCGKYlaatuygi8,905
+forsyde_io_python-0.2.11.dist-info/RECORD,,
