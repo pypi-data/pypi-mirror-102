@@ -1,0 +1,3 @@
+[spacy_factories]
+emoji = spacymoji:create_emoji
+
