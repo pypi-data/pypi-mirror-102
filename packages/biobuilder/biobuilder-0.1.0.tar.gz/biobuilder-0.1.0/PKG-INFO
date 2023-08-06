@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: biobuilder
+Version: 0.1.0
+Summary: BioBuilder is used to create biology model in both all-atom and coarse-grained resolution
+Home-page: https://openpd.net/en/latest/
+Author: Zhenyu Wei
+Author-email: zhenyuwei99@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/openpd-dev/biobuilder
+Description: # BioBuilder
+        
+        [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+        [![Build Status](https://travis-ci.com/openpd-dev/biobuilder.svg?branch=main)](https://travis-ci.com/openpd-dev/biobuilder)
+        [![codecov](https://codecov.io/gh/openpd-dev/biobuilder/branch/main/graph/badge.svg?token=2O1CV31X7S)](https://codecov.io/gh/openpd-dev/biobuilder)
+        
+        ## Introduction
+        
+        BioBuilder is used to create biology model in both all-atom and coarse-grained resolution.
+Keywords: Biology model builder
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
