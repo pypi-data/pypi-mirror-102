@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+baguette_senpai.egg-info/PKG-INFO
+baguette_senpai.egg-info/SOURCES.txt
+baguette_senpai.egg-info/dependency_links.txt
+baguette_senpai.egg-info/entry_points.txt
+baguette_senpai.egg-info/top_level.txt
