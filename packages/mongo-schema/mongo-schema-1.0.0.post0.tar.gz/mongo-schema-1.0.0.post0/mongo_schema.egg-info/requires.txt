@@ -1,0 +1,7 @@
+jsonschema
+
+[tests]
+flake8
+pytest
+pytest-cov
+pymongo>=3.6

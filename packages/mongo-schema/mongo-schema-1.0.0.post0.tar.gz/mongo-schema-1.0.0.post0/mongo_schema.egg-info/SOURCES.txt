@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mongo_schema/__init__.py
+mongo_schema.egg-info/PKG-INFO
+mongo_schema.egg-info/SOURCES.txt
+mongo_schema.egg-info/dependency_links.txt
+mongo_schema.egg-info/requires.txt
+mongo_schema.egg-info/top_level.txt
