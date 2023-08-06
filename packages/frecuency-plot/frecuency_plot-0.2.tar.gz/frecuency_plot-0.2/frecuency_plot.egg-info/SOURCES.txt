@@ -1,0 +1,8 @@
+setup.py
+frecuency_plot/__init__.py
+frecuency_plot/frecuency_plot.py
+frecuency_plot.egg-info/PKG-INFO
+frecuency_plot.egg-info/SOURCES.txt
+frecuency_plot.egg-info/dependency_links.txt
+frecuency_plot.egg-info/not-zip-safe
+frecuency_plot.egg-info/top_level.txt
