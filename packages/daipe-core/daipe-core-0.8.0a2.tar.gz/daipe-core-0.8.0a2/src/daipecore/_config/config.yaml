@@ -1,0 +1,6 @@
+services:
+  daipecore.function.ArgumentResolver:
+    arguments:
+      - '@daipecore.logger'
+
+  daipecore.function.ArgumentsResolver:
