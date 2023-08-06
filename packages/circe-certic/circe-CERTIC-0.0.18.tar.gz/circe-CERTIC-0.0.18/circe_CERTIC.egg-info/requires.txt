@@ -1,0 +1,10 @@
+requests
+argh
+sanic==20.12.3
+huey
+asyncio
+itsdangerous
+aiofiles
+markdown2
+python-json-logger
+python-dotenv
