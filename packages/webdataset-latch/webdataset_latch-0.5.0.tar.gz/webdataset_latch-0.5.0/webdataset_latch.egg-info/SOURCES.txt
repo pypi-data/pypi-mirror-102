@@ -1,0 +1,7 @@
+README.md
+setup.py
+webdataset_latch.egg-info/PKG-INFO
+webdataset_latch.egg-info/SOURCES.txt
+webdataset_latch.egg-info/dependency_links.txt
+webdataset_latch.egg-info/requires.txt
+webdataset_latch.egg-info/top_level.txt
