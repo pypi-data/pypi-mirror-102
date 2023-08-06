@@ -1,0 +1,8 @@
+ncbi_api/__init__.py,sha256=vGSvkdFHRQyspGnk-0AKuuQhfLOjn1vWV1CYJw1WiAk,161
+ncbi_api/compress.py,sha256=fiA0sH49U8J4g_MzgQh_bZntz4KnPN7YYMJNxmETch4,2766
+ncbi_api/geo.py,sha256=DpMHjyE5-U87MaxEfdFib2gPd8EeXvR6JisQsvCuwCI,17442
+ncbi_api-0.3.dist-info/LICENSE,sha256=eTAMrQxkyw6ApSsWH9vJdyVXchbASCr9kEPFfwQzv-c,1091
+ncbi_api-0.3.dist-info/METADATA,sha256=OM7XlGh0yNTzAobA9MvEFoA3ZHHCNJPNO2Tr-jc9pvQ,4087
+ncbi_api-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ncbi_api-0.3.dist-info/top_level.txt,sha256=NqM8_L_2UbEwbT1LMSpBGhdaJeay9o2PW9xCiWbmsXw,9
+ncbi_api-0.3.dist-info/RECORD,,
