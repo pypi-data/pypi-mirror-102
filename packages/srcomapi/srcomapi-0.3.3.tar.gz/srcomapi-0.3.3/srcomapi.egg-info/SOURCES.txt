@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+srcomapi/__init__.py
+srcomapi/datatypes.py
+srcomapi/exceptions.py
+srcomapi/srcomapi.py
+srcomapi.egg-info/PKG-INFO
+srcomapi.egg-info/SOURCES.txt
+srcomapi.egg-info/dependency_links.txt
+srcomapi.egg-info/requires.txt
+srcomapi.egg-info/top_level.txt
