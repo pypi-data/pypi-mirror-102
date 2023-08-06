@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: digi
+Version: 0.1.0
+Summary: dSpace driver library
+Home-page: UNKNOWN
+Author: Silvery Fu
+Author-email: silveryfu@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: kubernetes
+Requires-Dist: pyyaml
+Requires-Dist: inflection
+Requires-Dist: pyjq
+Requires-Dist: python-box
+
+UNKNOWN
+
+
