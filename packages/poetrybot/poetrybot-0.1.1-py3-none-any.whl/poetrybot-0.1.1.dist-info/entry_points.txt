@@ -1,0 +1,3 @@
+[console_scripts]
+poetrybot=poetrybot.main:main
+
