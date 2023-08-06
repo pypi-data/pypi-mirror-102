@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+klimits/__init__.py
+klimits/joint_limit_equations.py
+klimits/limit_calculation.py
+klimits/test_trajectory_generation.py
+klimits/trajectory_plotter.py
+klimits.egg-info/PKG-INFO
+klimits.egg-info/SOURCES.txt
+klimits.egg-info/dependency_links.txt
+klimits.egg-info/requires.txt
+klimits.egg-info/top_level.txt
+klimits/_klimits/_klimits_code.c
+klimits/_klimits/_klimits_code.h
+klimits/_klimits/_klimits_module.pyx
