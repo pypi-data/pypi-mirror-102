@@ -1,0 +1,7 @@
+FLAG_A = 0x0010
+FLAG_B = 0x0001
+FLAG_C = 0x0100
+
+FLAGS = 0x0010
+
+print(hex(FLAGS & FLAG_B))
