@@ -1,0 +1,10 @@
+quanmodule/__init__.py,sha256=aVEqSlhWqtvIUZYOLjjO5VnRidQ5zhWtDxNq0bZBlBA,75
+quanmodule/add.py,sha256=JmHOGqwMjneJ08Q2J-yuyLpwAuYiViNPx0OhrlMR-6M,61
+quanmodule/subtract.py,sha256=KoX-Eq1h_RrYkJLp35rNfDRgnJHs0fduEM1KgV2dN1M,53
+quanmodule/extras/__init__.py,sha256=a1X1sQQGICK6veR15u-dkwCPauItU9y6JsXbDMwvIi8,60
+quanmodule/extras/divide.py,sha256=qXpJbjXn7vyQxdmsQIxnMYa1Pl4BaFDLaMC33HMIjJ0,62
+quanmodule/extras/multiply.py,sha256=8CVQwiGyK1lwn2KXA14EKbHOefo83Rzklk8C7I1Fjo4,56
+quanmodule-0.0.5.dist-info/METADATA,sha256=jlt2byLuyWFl7FiGe5Uk_ohydDmn30UuyImEidsXZp0,355
+quanmodule-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+quanmodule-0.0.5.dist-info/top_level.txt,sha256=ETMC2ZBLN-l_VOgdBV2sRwJYjppkhbnP0vlJw0s4oJI,11
+quanmodule-0.0.5.dist-info/RECORD,,
