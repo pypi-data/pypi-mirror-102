@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ytdlmusic
+Version: 1.4.1
+Summary: With ytdlmusic, you can download directly from YouTube music files in MP3/OGG format from your terminal, without using your browser. By default, it will match your request with a selection of 5 results with a brief summary to choose from or you can use auto mode to download automaticaly the first item.
+Home-page: https://github.com/thib1984/ytdlmusic
+Author: thib1984
+Author-email: thibault.garcon@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: youtube-search-python
+Requires-Dist: youtube-dl
+
+The complete description/installation/use/FAQ is available at : https://github.com/thib1984/ytdlmusic#readme
+
+
