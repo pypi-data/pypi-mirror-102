@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/mwot/__init__.py
+src/mwot.egg-info/PKG-INFO
+src/mwot.egg-info/SOURCES.txt
+src/mwot.egg-info/dependency_links.txt
+src/mwot.egg-info/entry_points.txt
+src/mwot.egg-info/requires.txt
+src/mwot.egg-info/top_level.txt
