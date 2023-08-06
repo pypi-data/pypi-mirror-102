@@ -1,0 +1,4 @@
+biosimulators_utils[logging,sbml] >= 0.1.53
+lxml
+numpy
+rpy2
