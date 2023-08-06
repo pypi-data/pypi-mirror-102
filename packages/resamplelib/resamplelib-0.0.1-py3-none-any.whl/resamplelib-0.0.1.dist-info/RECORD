@@ -1,0 +1,8 @@
+resamplelib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resamplelib/binning.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resamplelib/jackknife.py,sha256=nJ4-wbb_Gnfc98DUlcV3JAllT1G291sc7V-qiqODpgk,890
+resamplelib-0.0.1.dist-info/LICENSE,sha256=uQyA6nT3kBDVfy9fKZhocWOwywfONUWKbi2Y8pB3C-M,1070
+resamplelib-0.0.1.dist-info/METADATA,sha256=f6v3-BYLEJaVVvpL7XiCjX0WPTg-HGAvNv2xBUnPFsg,615
+resamplelib-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+resamplelib-0.0.1.dist-info/top_level.txt,sha256=Td_cX0LwVM0KBc5s817N_yR-QsprOkrX7L3p5nhmdGw,12
+resamplelib-0.0.1.dist-info/RECORD,,
