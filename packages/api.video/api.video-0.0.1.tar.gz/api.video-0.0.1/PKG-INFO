@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: api.video
+Version: 0.0.1
+Summary: api.video Python API client
+Home-page: https://github.com/apivideo/python-api-client
+Author: api.video ecosystem team
+Author-email: ecosystem@api.video
+License: UNKNOWN
+Description:     api.video is an API that encodes on the go to facilitate immediate playback, enhancing viewer streaming experiences across multiple devices and platforms. You can stream live or on-demand online videos within minutes.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,api.video
+Platform: UNKNOWN
+Requires-Python: >=3.6
