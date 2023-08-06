@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mylibKG7456
+Version: 0.0.1
+Summary: VizKG
+Home-page: UNKNOWN
+Author: Hana
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: SPARQLWrapper
+Requires-Dist: matplotlib
+Requires-Dist: imageio
+Requires-Dist: plotly (==4.14.3)
+
+UNKNOWN
+
+
