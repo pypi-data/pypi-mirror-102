@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+allpy/__init__.py
+allpy.egg-info/PKG-INFO
+allpy.egg-info/SOURCES.txt
+allpy.egg-info/dependency_links.txt
+allpy.egg-info/requires.txt
+allpy.egg-info/top_level.txt
