@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: BioLectorPy
+Version: 0.1.2
+Summary: A Python package for plotting BioLector results
+Home-page: https://github.com/sulheim/biolector
+Author: Snorre sulheim
+Author-email: ssulheim@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+# BioLector
+Scripts used to plot data from BioLector experiments
+
+# Installation
+pip install BioLectorPy
+
+
