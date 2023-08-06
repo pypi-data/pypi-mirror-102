@@ -1,0 +1,52 @@
+# conda
+cffi
+Cython
+datashape
+jinja2
+joblib>=0.12
+jupyter
+matplotlib
+notebook>=5.0.0
+numba
+numpy>=1.19.0
+pandas
+pillow
+scikit-learn>=0.23
+scipy
+Sphinx
+wheel
+
+# pip
+autopep8
+asv
+# git+https://github.com/sdpython/asv.git@jenkins
+chardet
+coverage>=5.0
+flatbuffers
+jyquickhelper
+lightgbm
+memory_profiler
+mlinsights>=0.3
+nbconvert>=6.0.2
+openpyxl
+opt-einsum
+pybind11
+pydot
+pyensae
+py-cpuinfo
+pyinstrument
+pylint>=2.6.0
+pyquickhelper>=1.10
+pyquicksetup
+sphinx
+sphinxcontrib.blockdiag
+sphinx_gallery
+tqdm
+wheel
+xgboost
+
+# onnx
+onnx>=1.8.0
+onnxruntime>=1.7.0
+git+https://github.com/xadupre/onnxconverter-common.git@jenkins
+git+https://github.com/xadupre/sklearn-onnx.git@jenkins
