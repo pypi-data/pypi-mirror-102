@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: treeClass
+Version: 1.0.1
+Summary: Tree Data class for my use
+Home-page: https://github.com/wisteria2gp/treeClass
+Author: ryufmr
+Author-email: wisteria2gpssftu@gmail.com
+License: MIT
+Description: # treeClass
+        Tree Data Class for my use
+        
+Keywords: treeClass
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

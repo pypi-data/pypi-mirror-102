@@ -1,0 +1,8 @@
+README.md
+setup.py
+treeClass/treeClass.py
+treeClass.egg-info/PKG-INFO
+treeClass.egg-info/SOURCES.txt
+treeClass.egg-info/dependency_links.txt
+treeClass.egg-info/requires.txt
+treeClass.egg-info/top_level.txt
