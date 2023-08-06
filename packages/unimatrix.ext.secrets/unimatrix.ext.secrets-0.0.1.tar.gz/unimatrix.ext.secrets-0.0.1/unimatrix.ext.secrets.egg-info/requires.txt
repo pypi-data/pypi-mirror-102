@@ -1,0 +1,11 @@
+marshmallow==3.10.0
+python-ioc==1.5.5
+PyYAML==5.4.1
+six==1.15.0
+unimatrix==0.6.0
+
+[all]
+google-cloud-secret-manager>=2.0.0
+
+[gcp]
+google-cloud-secret-manager>=2.0.0

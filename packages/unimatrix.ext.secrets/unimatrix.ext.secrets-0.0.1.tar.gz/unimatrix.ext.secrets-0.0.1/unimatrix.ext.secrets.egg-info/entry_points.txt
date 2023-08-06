@@ -1,0 +1,6 @@
+[ioc.providers]
+unimatrix.ext.crypto = = unimatrix.ext.secrets.__boot__
+
+[unimatrix.runtime]
+unimatrix.ext.crypto = = unimatrix.ext.secrets.__boot__
+
