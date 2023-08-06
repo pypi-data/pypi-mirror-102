@@ -1,0 +1,16 @@
+mail_office/__init__.py,sha256=npanL49NyjEFBGTAwt8q7Vrn2lAV8wBlVMp_7hcU4Vo,109
+mail_office/admin.py,sha256=vWsN0ORVLtI9lH8T5oiRv2QWJ8aC6zMaHgaaqY4mqcI,117
+mail_office/apps.py,sha256=Ix1mIs83C26auu8_dfJryin9PehgxIUDCyLC0z1aD5Q,157
+mail_office/mail_office.py,sha256=Do9rMtlBEbwG5D7KCWTmQJdzCQ5CxDlyZ56sVvzOjbo,3582
+mail_office/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_office/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_office/management/commands/start_mailing.py,sha256=-viFPvhYR7Vw_DrDHudMD4GNTL5y-UscobQpRLaL-0E,911
+mail_office/migrations/0001_initial.py,sha256=6h90jntYQIASAh3AMcvmUlNlsEASlmg2BM1M3wz1z5I,3292
+mail_office/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_office/models.py,sha256=J4jhMPyJEhnLDtJwpVNfMSi8kJZohEgQXQzDkDyFA4U,5132
+mail_office/postman.py,sha256=RDMj4hG3COjeeNv_FEPITRYaCBV7AgUn_Ems7lNMzWk,2193
+mail_office/queue_.py,sha256=WcjuXigqrpltoeyvEC1XXPR-ox8N9eE9yfe5ngh8dc4,135
+mail_office/settings.py,sha256=7AAZWDzmEVOpwcYboQA4nY4aTknVh6erO6Ly4Jd47ro,283
+django_mail_office-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_mail_office-0.4.0.dist-info/METADATA,sha256=G60HAdXYmiWnUlXYkmRzTCtpJ3OTFwB_Eja2s3N7dQU,384
+django_mail_office-0.4.0.dist-info/RECORD,,
