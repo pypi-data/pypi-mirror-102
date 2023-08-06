@@ -1,0 +1,9 @@
+deep_trainer/__init__.py,sha256=GSUfj32imFamOPH6UaZxe5ye8qWpjZ-Llqj4tza2rM8,136
+deep_trainer/pytorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deep_trainer/pytorch/metric.py,sha256=WF_uGZ59x-NRSW67Pqry-2v9hVsgD7BjmzwHHTNgj9o,4744
+deep_trainer/pytorch/trainer.py,sha256=cSskijKOY2dTUBVFb0l94r7YNamojJ4CcAGfLWgaSzg,9045
+deep_trainer-0.0.5.dev2.dist-info/LICENSE,sha256=mTZcRcQZEJ2Wbp_A0P1mCeetemSOdyl043X0DbupM10,1068
+deep_trainer-0.0.5.dev2.dist-info/METADATA,sha256=4yruTrd3_iNytEMZlYMF8Swd2xjVP80An1TaAxhAm-E,1173
+deep_trainer-0.0.5.dev2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deep_trainer-0.0.5.dev2.dist-info/top_level.txt,sha256=gO6Tpv7BCNwlfsW35_lOcuXffTH0N97sqsyjYi89JH0,13
+deep_trainer-0.0.5.dev2.dist-info/RECORD,,
