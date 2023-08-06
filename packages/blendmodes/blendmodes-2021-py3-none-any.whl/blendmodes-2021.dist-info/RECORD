@@ -1,0 +1,7 @@
+blendmodes/__init__.py,sha256=ppoj-TkFonF-5N9ijH9GuB9_Su2wjh0C-p8i_JXJCMU,99
+blendmodes/blend.py,sha256=hLy27O4LxfDnPb6wTvfLUIQwR0QUQiK-oV5AO-U0vMA,16212
+blendmodes/imagetools.py,sha256=54CQVOfvx3H_sS2hjKDbIoIBZWg0JWE94EoSL3H4Wyg,1257
+blendmodes-2021.dist-info/LICENSE.md,sha256=gk-BAg-CgoFFeKY4ufClL48Poj1aGdmBmC8xC-7IaUc,1192
+blendmodes-2021.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+blendmodes-2021.dist-info/METADATA,sha256=ULGptgn58YAzUIHar2oFpEyxOy1gAaZKRd8mXe7gekk,12121
+blendmodes-2021.dist-info/RECORD,,
