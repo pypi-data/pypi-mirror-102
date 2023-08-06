@@ -1,0 +1,12 @@
+discord_web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_web/abc.py,sha256=_md1nE5HjcpLVcqBGYI5MzTq8zjHQ0NA5PDHBeCvPEg,3697
+discord_web/checks.py,sha256=yuggaphOGVoAtwUiamInfomllSemNxDKr5CVwMaAaYk,25
+discord_web/errors.py,sha256=rt81x--hE5qdCLknFBSwhPecNXD7x7fe1ZcTRldhHmw,263
+discord_web/oauth2.py,sha256=XIypaU6ac050GJWhy2_xiRXJVcYxeBF_VWG4gjs3HrM,2432
+discord_web/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_web/utils/web.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord.web-0.0.1a0.dist-info/LICENSE,sha256=Wad65L8VlEooBkBLrR8-hw5mv7uBCJuuam5LJJ44Rho,1083
+discord.web-0.0.1a0.dist-info/METADATA,sha256=MwIYzvDoAzrXD4eC9v0ORqQj1HkoraJ7nTmGKqzCxZw,8477
+discord.web-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+discord.web-0.0.1a0.dist-info/top_level.txt,sha256=KiJQJdZK1TBooELxGl88FIe5otTZAIyiEVFdiP2NSq4,12
+discord.web-0.0.1a0.dist-info/RECORD,,
