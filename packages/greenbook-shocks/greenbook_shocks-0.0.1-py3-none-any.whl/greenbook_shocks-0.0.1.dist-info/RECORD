@@ -1,0 +1,9 @@
+rrgb/__init__.py,sha256=tmPvJ79HicjBNYwsheTvwsX8W2czNXPZIBqaEpkFDxs,23
+rrgb/rrgb.py,sha256=aNv1e---LJvmArNDOC4X0KcInxUu6PLFr17vG3RzqW0,26080
+rrgb/data/rr.pkl.gz,sha256=aJUj2ZTtG9yX49tsVGfl-LKUkqgJkT1yTD2XxhA0CKU,15245
+rrgb/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rrgb/tests/baseline_test.py,sha256=hpv0LIPgJWthRQ7V-X6n0293r5NAtp9mQQ0cQKWBHhs,374
+greenbook_shocks-0.0.1.dist-info/METADATA,sha256=9acxUWA0ywfx100XY_6xLXQTGaYAC2jYfHxt1D0gmBw,3114
+greenbook_shocks-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+greenbook_shocks-0.0.1.dist-info/top_level.txt,sha256=Mhx7I2L8DtpNEnmf1OPn9jcte2jOqr_EMkibNb-28k8,5
+greenbook_shocks-0.0.1.dist-info/RECORD,,
