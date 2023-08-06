@@ -1,0 +1,17 @@
+fattureincloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fattureincloud/client.py,sha256=bxGkpv5l6pJ-3KJZhrgV4-htN1iQ6UTTyUVzogmFDD8,2961
+fattureincloud/exceptions.py,sha256=xq3hD-ZHG_XWrZJBiwexiBnFWRZwJUsxASPAYuAdHKM,694
+fattureincloud/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fattureincloud/models/acquisti.py,sha256=armRo__cqWm2N3nUAM08n_U49ocd_ZCDcDymmFA0NTQ,1661
+fattureincloud/models/anagrafica.py,sha256=3q04-KO1cCrxha6E5HGA3lb_Y1O1IdwIh_3aFGrb5ug,1085
+fattureincloud/models/base.py,sha256=2hOVKj6eyIxd5xsGg4R0hJA3GPBzbm2yJ21gxiXo1bY,861
+fattureincloud/models/corrispettivi.py,sha256=p9yb6O2ScNEgyn9tNRPV6nzQ1K1OqijTsUu9nLhEj_w,1073
+fattureincloud/models/documenti.py,sha256=lhkaF590iohq5x2NeUcWwq3ZFg61BnpL_nuFm31LnyI,2574
+fattureincloud/models/magazzino.py,sha256=e9RuedJ9mnEKv2JypPLAGohwhL8mKZp81axnFC1pcU8,1166
+fattureincloud/models/mail.py,sha256=vr0laSfT35iimN2do6CXfo3HrDJx-xMpfBRIOmS1VTA,905
+fattureincloud/models/prodotti.py,sha256=dg7zTYACNsvCKdi5Sx3ZIVz8NvEusTg9ST0dbQCFaIY,1011
+python_fattureincloud-0.0.1.dist-info/LICENSE.md,sha256=-Y6t6USVdPAvqx3tOYc4jGI_1IwXhAIfkWisZ-Cr_EM,1073
+python_fattureincloud-0.0.1.dist-info/METADATA,sha256=5zErSZ-2wQkfMIrP7m0qoPyETjNUEjT70grbDK36zkU,3089
+python_fattureincloud-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_fattureincloud-0.0.1.dist-info/top_level.txt,sha256=kHmSrX6PmfawS2DseNPJUMQ2YBXNvyJezA_I91Tu0X0,15
+python_fattureincloud-0.0.1.dist-info/RECORD,,
