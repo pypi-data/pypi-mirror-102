@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+json_pattern_validator/__init__.py
+json_pattern_validator/json_validator.py
+json_pattern_validator/validators.py
+json_pattern_validator.egg-info/PKG-INFO
+json_pattern_validator.egg-info/SOURCES.txt
+json_pattern_validator.egg-info/dependency_links.txt
+json_pattern_validator.egg-info/top_level.txt
