@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: iottalk-py
+Version: 2.3.1
+Summary: UNKNOWN
+Home-page: https://github.com/IoTtalk/iottalk-py
+Author: the IoTtalk team
+Author-email: iblis@hs.ntnu.edu.tw
+Maintainer: Iblis Lin
+Maintainer-email: iblis@hs.ntnu.edu.tw
+License: UNKNOWN
+Platform: Linux
+Platform: FreeBSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/x-rst
+Requires-Dist: iottalk-paho-mqtt (==1.4.0.dev3)
+Requires-Dist: requests (>=2.22.0)
+
+IoTtalk v2 Python SDK
+===============================================================================
+
+Current supported module:
+
+- Device Application to Network (DAN)
+- Device Application to IoT device (DAI)
+
+Supported Python version:
+
+- 2.7
+- 3.4+
+
+
+Installation
+----------------------------------------------------------------------
+
+::
+
+    pip install iottalk-py
+
+
+Usage of DAI module
+----------------------------------------------------------------------
+
+There is a executable DAI module. User can invoke it via the command line
+interface.::
+
+    python -m iottalkpy.dai /path/to/your/sa.py
+
+or::
+
+    python -m iottalkpy.dai /path/to/your/sa  # in case of dir
+
+
+API
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If you want to operate DAI via Python API:
+
+.. code-block:: python
+
+    from iottalkpy import dai
+
+    sa = dai.module_to_sa(dai.load_module('/path/to/sa.py'))
+    sa.start()
+    ...
+    # stop sa process
+    sa.terminate()
+
+
+Usage of DAN module
+----------------------------------------------------------------------
+
+Minimal example:
+
+.. code-block:: python
+
+    from iottalkpy import dan
+
+    ccm_url = 'http://localhost:9992'
+
+    def on_data(*args):
+        ...
+
+    def on_signal(*args):
+        ...  # handle CCM signal here
+
+    client = dan.Client()
+    client.register(
+        ccm_url,
+        on_signal=on_signal,
+        on_data=on_data
+        odf_list=[('meow', ['dB'])],
+        name='BetaCat',
+        profile={
+            'model': 'AI',
+        },
+    )
+    client.loop_forever()
+
+
+Developer Notes
+----------------------------------------------------------------------
+
+Development steps
+
+#. Install this package and the development requirements
+
+.. code-block:: shell
+
+  pip install -e .
+  pip install -r dev-requirements.txt
+
+
+Release steps
+
+#. Bump version and commit
+
+#. ``git-tag`` the version
+    #. Versioning rule: ``<major>.<minor>.<patch>``
+    #. The major and minor verion number should be the same as IoTtalk server.
+
+#. ``git push --tags``
+
+#. ``python ./setup.py bdist_wheel``
+
+#. ``twine upload ./dist/iottalk_py-<version>-py3-none-any.whl``
+
+
+TODO
+----------------------------------------------------------------------
+
+#. Auto generate doc via Sphinx
+
+
