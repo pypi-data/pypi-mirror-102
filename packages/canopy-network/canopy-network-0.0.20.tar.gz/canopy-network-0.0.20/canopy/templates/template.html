@@ -1,0 +1,59 @@
+$def with (about, resource)
+<!doctype html>
+<html class=dark>
+<head>
+<meta name=charset content=utf-8>
+<meta name=generator content=canopy>
+<meta name=viewport content="initial-scale=1.0,user-scalable=no,\
+maximum-scale=1,width=device-width">
+<title>
+$if "title" in resource:
+    $:resource.title&thinsp;&mdash;&thinsp;
+$about["name"]</title>
+<style>
+body {
+    font-size: 16px;
+    margin: 2.5em; }
+h1 {
+    font-size: 2.5em; }
+h1 a {
+    color: #000;
+    text-decoration: none; }
+#user {
+    text-align: right; }
+</style>
+$# <link rel=stylesheet href=/static/solarized.css>
+<script src=/static/canopy.js crossorigin=anonymous></script>
+<script>const _ = Canopy('$about["name"]')</script>
+$if "head" in resource:
+    $:resource.head()
+</head>
+<body>
+<header>
+$if "me" in tx.user.session:
+    <form id=user method=post action=/users/sign-out>
+    <strong><a href=/people/$tx.user.session["me"]>\
+    $tx.user.session["me"]</a></strong>
+    $if tx.user.is_owner:
+        <a href=/auth>Sign-ins</a>
+        <a href=/pub>Posts</a>
+        <a href=/sub>Following</a>
+        <a href=/hub>Followers</a>
+        <a href=/mentions>Mentions</a>
+        <a href=/users>Visitors</a>
+        <a href=/people>Contacts</a>
+        <a href=/cache>Cache</a>
+    <button>Sign Out</button>
+    </form>
+</header>
+<nav>
+<ul>
+$if "title" in resource:
+    <li><a href=/>Home</a></li>
+</ul>
+</nav>
+$if "title" in resource:
+    <h1>$resource.title</h1>
+$:resource
+</body>
+</html>
