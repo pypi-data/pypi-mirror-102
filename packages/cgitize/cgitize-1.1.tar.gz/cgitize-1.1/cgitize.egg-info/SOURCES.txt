@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cgitize/__init__.py
+cgitize/cgit.py
+cgitize/config.py
+cgitize/git.py
+cgitize/main.py
+cgitize/repo.py
+cgitize/utils.py
+cgitize.egg-info/PKG-INFO
+cgitize.egg-info/SOURCES.txt
+cgitize.egg-info/dependency_links.txt
+cgitize.egg-info/entry_points.txt
+cgitize.egg-info/top_level.txt
