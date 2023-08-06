@@ -1,0 +1,12 @@
+tarpy/__init__.py,sha256=uEWYq1NvwsoN_oDvO_piFTV615jruFo4JWoaObY8NJk,23
+tarpy/config.py,sha256=fP-_mAITPZ3G_YZJcL_wpjE0WV_T4LoZs6-7pCLM-O0,669
+tarpy/filters.py,sha256=HwtUmKgXQsPzmkFBX2Eralp3g-lJKTVDg4rw1AS0gYw,2297
+tarpy/tarhandler.py,sha256=lwlMG_PVlqlngiuWqmwhCoEVTIwkI4VRGnQizyQa0sU,3533
+tarpy/utils.py,sha256=_jmMUw-BEHmCL_U2opg32HobJ4OSxoYJkq0Q0q5is3Q,543
+tarpy/cli/__init__.py,sha256=xAkWCS6tlFnu6FgIcvGXWY2F0uHtRNIEcANXiJTG9BM,28
+tarpy/cli/run.py,sha256=itFLngqWDnSSCp7hCftXKHEwVxnmfvzYVsw_IdmiLvI,1744
+tarpy-0.0.1.dist-info/METADATA,sha256=WskjGMlOO4V18ROQMsppLjuNH6MB_7tWBnPILKuvC2E,324
+tarpy-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tarpy-0.0.1.dist-info/entry_points.txt,sha256=--O4DtK6_XGNBsJKLgyKikvvneJCYGZYjTNA3-czsZU,45
+tarpy-0.0.1.dist-info/top_level.txt,sha256=yPXEEzQ6KydLQsdzQsAbWgGg6ps7cFla1bTdkJSsBqw,6
+tarpy-0.0.1.dist-info/RECORD,,
