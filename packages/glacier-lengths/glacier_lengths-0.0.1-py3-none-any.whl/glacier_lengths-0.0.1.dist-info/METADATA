@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: glacier-lengths
+Version: 0.0.1
+Summary: Tools to measure glacier lengths statistically
+Home-page: https://github.com/erikmannerfelt/glacier_lengths.git
+Author: Erik Schytt Mannerfelt
+Author-email: mannerfelt@vaw.baug.ethz.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: shapely
+Requires-Dist: numpy
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib ; extra == 'matplotlib'
+
+UNKNOWN
+
+
