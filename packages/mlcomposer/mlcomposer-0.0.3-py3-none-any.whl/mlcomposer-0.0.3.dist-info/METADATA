@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mlcomposer
+Version: 0.0.3
+Summary: Treinamento e avaliação de modelos de machine learning através de funções e classes encapsuladas
+Home-page: https://github.com/ThiagoPanini/pylearn
+Author: Thiago Panini
+Author-email: thipanini94@gmail.com
+License: MIT
+Keywords: Packages,Components,Machine Learning,Auto ML,Viz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: joblib (==0.14.1)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: python-dotenv (==0.17.0)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: seaborn (==0.10.0)
+Requires-Dist: shap (==0.37.0)
+
+# pylearn
+Treinamento e avaliação de modelos de machine learning através de funcionalidades encapsuladas
+
+
