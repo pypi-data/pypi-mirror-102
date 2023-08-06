@@ -1,0 +1,31 @@
+#!/usr/bin/env python3 
+# This file is placed in the Public Domain.
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+from op.bus import opts
+from op.clt import Console
+from op.trm import exec
+from op.zzz import os, time
+
+from kamer.tbl import tbl
+
+def main():
+    k = Console()
+    k.prompt = False
+    k.tbl(tbl)
+    k.cfg.name = "kamer"
+    k.cfg.version = 7
+    k.parse()
+    k.scan(os.path.join(os.getcwd(), "mod"))
+    k.scan("kamer")
+    if k.cfg.txt:
+        k.run()
+        return
+    if opts("c"):
+        k.prompt = True
+        k.start()
+        k.init(k.cfg.mods)
+        k.wait()
+
+exec(main)
