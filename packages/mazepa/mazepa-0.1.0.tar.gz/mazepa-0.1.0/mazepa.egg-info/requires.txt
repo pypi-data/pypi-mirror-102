@@ -1,0 +1,5 @@
+boto3
+click
+uuid
+task-queue
+tenacity
