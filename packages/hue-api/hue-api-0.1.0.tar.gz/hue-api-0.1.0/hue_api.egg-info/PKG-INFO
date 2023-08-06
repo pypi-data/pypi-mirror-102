@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hue-api
+Version: 0.1.0
+Summary: Async API for controlling Hue Lights
+Home-page: https://github.com/nirantak/hue-api
+Author: Nirantak Raghav
+Author-email: hey@nirantak.com
+License: MIT
+Project-URL: Documentation, https://github.com/nirantak/hue-api#readme
+Project-URL: Source, https://github.com/nirantak/hue-api
+Project-URL: Tracker, https://github.com/nirantak/hue-api/issues
+Description: # Hue API
+        
+        > _Async API for controlling Hue Lights_
+        
+        [![PyPI](https://img.shields.io/pypi/v/hue-api.svg)](https://pypi.org/project/hue-api/ "PyPI Package")
+        
+        
+        # History
+        
+        ## 0.1.0 (2021-04-15)
+        
+        - First release on PyPI.
+        
+Keywords: hue lights async automation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
