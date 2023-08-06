@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ustash
+Version: 0.0.1
+Summary: Web-based personal data stash/store
+Home-page: https://github.com/destinatech/ustash
+Author: Francis M
+Author-email: francis@vnet.destinatech.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/destinatech/ustash/issues
+Project-URL: Source, https://github.com/destinatech/ustash
+Description: # uStash
+        
+        Python-based web application for stashing (storing) personal data.
+        
+        
+        <!--
+        vim: ts=2 sw=2 et fdm=marker :
+        -->
+        
+Keywords: ustash,web,based,personal,data,stash,store,storage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
