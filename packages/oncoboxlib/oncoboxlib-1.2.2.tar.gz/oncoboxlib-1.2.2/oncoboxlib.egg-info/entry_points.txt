@@ -1,0 +1,3 @@
+[console_scripts]
+oncoboxlib_calculate_scores = oncoboxlib.calculate_scores:main
+
