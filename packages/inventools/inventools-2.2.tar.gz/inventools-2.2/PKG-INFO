@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: inventools
+Version: 2.2
+Summary: Inventory tools helps to convert yeild return value to Json or CSV
+Home-page: https://github.com/kalaiarasan33/inventools
+Author: Kalaiarasan
+Author-email: kalaiarsanbalaraman@gmail.com
+License: MIT
+Download-URL: https://github.com/kalaiarasan33/inventools/archive/refs/heads/main.zip
+Description: UNKNOWN
+Keywords: inventools,inventools packagepip install inventoolsjson,csv,yield,yeild output to json,yeild output to csv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
