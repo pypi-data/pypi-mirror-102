@@ -1,0 +1,11 @@
+img2feat/__init__.py,sha256=CaXBA_IQAwh8bTqdvut09iWheIjSd6xCBVp3Z763Wp8,229
+img2feat/antbee.py,sha256=7BX_pYeRnfsT1ky9wZ6g6OtSfKFoRISji4DSWQm4upc,4967
+img2feat/aug.py,sha256=vIWte2SEvO0iSJAmubFAdxTYVsw5IrZFj7VUwRMavNk,3029
+img2feat/buildnet.py,sha256=XFOVb1lcsxz2HyNbhf0q7VD1kMvE54qOGIZ4zL6pDuw,5322
+img2feat/cnn.py,sha256=yEPFrTspPT_clgGpb9cVS4zwCWOda4kAD6I1vrzjaXg,5111
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_img2feat.py,sha256=UZd87bgTM2IJBjwp15oJ497La2_lAvF00MBglu6g4rg,3769
+img2feat-0.2.0.dist-info/METADATA,sha256=R93WHYMozti9AqLa1Poy1Y1Z3srY9S8cmSD52QVkNjc,6522
+img2feat-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+img2feat-0.2.0.dist-info/top_level.txt,sha256=fTk4uS42la6_2lZz3ZqDV8oIax7pkIkVlsWuuzfR7L0,15
+img2feat-0.2.0.dist-info/RECORD,,
