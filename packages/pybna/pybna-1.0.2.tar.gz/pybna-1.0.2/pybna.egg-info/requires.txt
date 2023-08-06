@@ -1,0 +1,10 @@
+PyYAML
+geopandas
+munch
+osmnx
+overpass
+packaging
+pandas
+psycopg2-binary
+tqdm
+xlrd
