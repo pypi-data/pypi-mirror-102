@@ -1,0 +1,7 @@
+LICENSE.txt
+README.txt
+setup.py
+saraconversations.egg-info/PKG-INFO
+saraconversations.egg-info/SOURCES.txt
+saraconversations.egg-info/dependency_links.txt
+saraconversations.egg-info/top_level.txt

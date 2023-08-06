@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: saraconversations
+Version: 0.0.1
+Summary: conversations of sara
+Home-page: UNKNOWN
+Author: Pyrobit
+Author-email: pyrobit.technologies@gmail.com
+License: MIT
+Description: Sara artificial interllegence conversation file
+        
+        this includes conversation of Sara
+Keywords: Saraconversations
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
