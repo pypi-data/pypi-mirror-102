@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        autosync=autosync.cli.cli:cli
+    
