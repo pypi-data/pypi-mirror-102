@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pysl4land
+Version: 0.0.1
+Summary: Python tools to process spaceborne lidar (GEDI and ICESAT2) for land (pySL4Land) applications.
+Home-page: https://github.com/remotesensinginfo/pysl4land
+Author: Pete Bunting
+Author-email: petebunting@mac.com
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
