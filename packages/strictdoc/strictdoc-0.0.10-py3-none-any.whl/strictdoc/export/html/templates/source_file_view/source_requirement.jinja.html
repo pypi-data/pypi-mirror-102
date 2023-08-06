@@ -1,0 +1,44 @@
+<article id="requirement:{{ requirement.uid }}" class="requirement">
+  <a href="{{ link_renderer.render_requirement_link_from_source_file(requirement, source_file) }}">
+    {%- if requirement.uid %}
+    <span class="requirement_child-uid">{{ requirement.uid }}</span>
+    {%- endif %}
+    {{ requirement.title }}
+  </a>
+
+  {# <p><a onclick="toggleRequirement('{{ requirement.uid }}')" href="#{{ requirement.uid }}">go to</a></p> #}
+
+  {# LINKS #}
+  {%- set requirement_file_links = traceability_index.get_requirement_file_links(requirement) %}
+  {%- if requirement_file_links %}
+  <ul class="requirement_file">
+    {%- for link, opt_ranges in requirement_file_links %}
+      {%- if opt_ranges -%}
+        {%- for range in opt_ranges %}
+          <li>
+            <a
+              id="pointer:{{ requirement.uid }}:{{ range.ng_source_line_begin }}:{{ range.ng_source_line_end }}"
+              class="pointer"
+              href="{{ link_renderer.render_requirement_in_source_file_range_link(requirement, link, source_file, range) }}"
+            >
+              <b>{{ link }}</b>, lines: {{ range.ng_source_line_begin }}-{{ range.ng_source_line_end }}
+            </a>
+          </li>
+        {%- endfor -%}
+      {%- else -%}
+        <li>
+          <a
+            id="pointer:{{ requirement.uid }}"
+            class="pointer"
+            href="{{ link_renderer.render_requirement_in_source_file_link(requirement, link, source_file) }}"
+          >
+            <b>{{ link }}</b>
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ul>
+  {%- endif %}
+  {# // LINKS #}
+
+</article>
