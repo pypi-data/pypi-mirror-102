@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.cfg
+jstate.egg-info/PKG-INFO
+jstate.egg-info/SOURCES.txt
+jstate.egg-info/dependency_links.txt
+jstate.egg-info/top_level.txt
