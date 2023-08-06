@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: vcell_cli_utils
+Version: 0.3.01
+Summary: Python utility package for VCell CLI Java App
+Home-page: https://github.com/virtualcell/vcell_cli_utils
+Author: Virtual Cell
+Author-email: marupilla@uchc.edu
+License: MIT
+Download-URL: https://github.com/virtualcell/vcell_cli_utils/archive/refs/tags/0.1.tar.gz
+Description: UNKNOWN
+Keywords: HDF5,Visualization,YAML,Fire
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
