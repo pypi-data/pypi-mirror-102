@@ -1,0 +1,56 @@
+# dunsync
+
+Identical to [unsync](https://github.com/alex-sherman/unsync), except that continuation callbacks receives the result of the Unfuture
+rather than the Unfuture itself. This allows cpu-bound `@unsync` functions to be chained together with other regular functions and IO-bound `@unsync` functions, as long as the result is pickleble. 
+
+## Example
+
+```python
+from dunsync import unsync
+import asyncio
+import time
+
+@unsync()  # Will run in an asyncio event loop
+async def download_data(url):
+    await asyncio.sleep(1)
+    return 'data'
+
+@unsync(cpu_bound=True)  # Will run in a separate process
+def process_data(data):
+    time.sleep(1)
+    return 'processed data'
+
+@unsync()  # Will run in a separate thread
+def store_processed_data(data):
+    time.sleep(1)
+    return 'Done'
+
+tasks = [
+    download_data(url).then(process_data).then(store_processed_data)
+    for url in ['url1', 'url2', 'url3']
+]
+
+for task in tasks:
+    print(task.result())
+```
+
+Replacing dunsync with unsync in the above example results in the error `TypeError: cannot pickle '_asyncio.Task' object`,
+since the Unfuture wraps other objects (either `asyncio.Task`, as in this example, or `threading.Thread`) which cannot be pickled
+in order to be passed to a separate process.
+
+## Installation
+
+Using pip:
+```shell
+pip install dunsync
+```
+
+Using pipenv:
+```shell
+pipenv install dunsync
+```
+
+Using poetry:
+```shell
+poetry add dunsync
+```

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "dunsync"
+version = "0.1.1"
+description = "Identical to unsync, but supports cpu-bound continuation functions"
+authors = ["Daniel Hjertholm"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/danhje/dunsync"
+homepage = "https://github.com/danhje/dunsync"
+keywords = ["unsync", "asyncio", "threading", "multiprocessing", "chaining", "continuation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Natural Language :: English"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
