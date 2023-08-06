@@ -1,0 +1,13 @@
+blobfile/VERSION,sha256=QVh-oXE9O_Eto7b8aIGNtIm6f6enRYGYzqERAJEy8sk,5
+blobfile/__init__.py,sha256=zwuMAVs17G4z3gm8WaAm74fiLHydK29nVXjmIuyrO0Y,1802
+blobfile/_azure.py,sha256=FRmaxR91Sgz1mib6mOfk4j43JAEhJ7XvhT7W1Xi1Y9A,57664
+blobfile/_common.py,sha256=07Fi_7iO9YJTiG2Dv9Q4jghpKCn3TBddtFY-FKMLeTc,29684
+blobfile/_gcp.py,sha256=S1X_LGM7Uqi6GrxVg0KoZy8haVLP0ShNEU7yzoTVeec,26848
+blobfile/_ops.py,sha256=iNixp8Drep1fRQ7TL1224nAjBXzsNRb0pEjChGrTRrg,66411
+blobfile/_ops_test.py,sha256=5QesQMvRYTYkPrhqF_YG5oU5VbOybBo6XQgN61NoxS0,50959
+blobfile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blobfile-1.1.3.dist-info/LICENSE,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+blobfile-1.1.3.dist-info/METADATA,sha256=R1iP2Twuc0z5Y-DfjL0afAqkboIetMNtY3qczZ04Q7I,13523
+blobfile-1.1.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+blobfile-1.1.3.dist-info/top_level.txt,sha256=BsixHWRC2Vk13oMQM4HUfWAfrjXllowAwpGFz0w6MrM,9
+blobfile-1.1.3.dist-info/RECORD,,
