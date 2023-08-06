@@ -1,0 +1,6 @@
+# Example
+```
+from PingF import PingF
+PingF.Sshi_ah(token='Bot TOKEN', channel='Channel ID')
+
+- if you want commanf on all channel, you nedd set [ channel = all ]
