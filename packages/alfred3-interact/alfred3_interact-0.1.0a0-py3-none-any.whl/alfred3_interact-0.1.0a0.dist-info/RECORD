@@ -1,0 +1,15 @@
+alfred3_interact/__init__.py,sha256=YOgZ44mrOoadl2H0GLNe4eoOMb4JqwZ9xc423STqYOs,199
+alfred3_interact/_util.py,sha256=62RfNk_7zCh9TeE46rbjGSracno3h1Wl2_ieQmcY9vk,459
+alfred3_interact/_version.py,sha256=6HV-niRkH-e8BwraWZjHBejR7cbsrN84GqiGSzZDZF0,214
+alfred3_interact/chat.py,sha256=KNhrTU_QSHp97F95s_qWZGpSYFJRMtnSN5ncwVzP39Y,7526
+alfred3_interact/data.py,sha256=XJIZJ4J43vm7icC9kdPXaafhEbxwxgO6q1fueCrJkEs,3508
+alfred3_interact/element.py,sha256=SQpPYQQtLqAd0_DYJuxc-Yhw8xe5HtOmgr4dMHm_0Jg,10494
+alfred3_interact/group.py,sha256=HMflf7dAG8p4BYOTBG5I33y83xPBN46aWSzs8jFgJzI,12645
+alfred3_interact/match.py,sha256=G-Hso2xq3i98lQ1TWyxgxqH-fGOwahGIUwRzKQstgQ8,26822
+alfred3_interact/member.py,sha256=Y2qmPgmXdYCthW8JFMQQtgXRpOw80jjwiWFf2cPDWVg,10208
+alfred3_interact/page.py,sha256=xpYQ2H7U023tdS2e1GmPn0dfrKOrZB1M3_hZIh_CFjQ,10269
+alfred3_interact-0.1.0a0.dist-info/LICENSE,sha256=E-aLN_D7Xj5mdjnRB821oVLU7n3H5wX-w9cHvgL_mqw,1101
+alfred3_interact-0.1.0a0.dist-info/METADATA,sha256=wyg9zDtLZhQZr2w02PVFCDQwRedPmD_LpL9jmKFDGkU,2589
+alfred3_interact-0.1.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alfred3_interact-0.1.0a0.dist-info/top_level.txt,sha256=nDllNiIN5_9A4_v-LqOiqtN78mBZaX5xEybmmG0_IIQ,17
+alfred3_interact-0.1.0a0.dist-info/RECORD,,
