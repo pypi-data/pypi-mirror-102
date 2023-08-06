@@ -1,0 +1,8 @@
+nameko<3,>=2
+prometheus_client<1,>=0.7
+
+[:python_version < "3.7.0"]
+dataclasses<0.9,>=0.8
+
+[:python_version < "3.8.0"]
+singledispatchmethod<2.0,>=1.0
