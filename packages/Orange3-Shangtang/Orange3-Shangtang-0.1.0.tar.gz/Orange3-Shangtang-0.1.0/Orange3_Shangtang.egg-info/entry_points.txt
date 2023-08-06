@@ -1,0 +1,6 @@
+[orange.widgets]
+商汤教育 = orangecontrib.shangtang.widgets
+
+[orange3.addon]
+shangtang = orangecontrib.shangtang
+

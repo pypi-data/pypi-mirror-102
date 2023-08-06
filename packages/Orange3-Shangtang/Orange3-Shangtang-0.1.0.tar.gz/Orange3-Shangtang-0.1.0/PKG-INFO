@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: Orange3-Shangtang
+Version: 0.1.0
+Summary: 商汤教育人工智能 API 橙现智能Orange 图形化实现的插件
+Home-page: https://github.com/szzyiit/orange3-shangtang
+Author: SZZYIIT
+Author-email: gengy@zhaoyang.org.cn
+License: UNKNOWN
+Description: 橙现智能 -- 商汤
+        ===================
+        
+        此插件演示商汤(<https://lab.study.sensetime.com>)教育的部分(未来是全部)人工智能 API, 
+        相关 API 权限请联系商汤公司购买, 本插件仅仅为其调用的前端图形界面, 从而方便上课教学需要, 
+        降低学生学习门槛..
+Keywords: orange3 add-on
+Platform: UNKNOWN
