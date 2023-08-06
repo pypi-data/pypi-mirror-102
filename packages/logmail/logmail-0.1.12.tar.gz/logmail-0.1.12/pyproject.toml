@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "logmail"
+version = "0.1.12"
+description = "Simple send mails as logging in Loguru"
+authors = ["DanilaCharushin <charushin2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/DanilaCharushin/logmail"
+repository = "https://github.com/DanilaCharushin/logmail.git"
+keywords = ["mail", "loguru", "loguru for mail"]
+classifiers = [
+    "Operating System :: OS Independent",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+emails = "^0.6"
+loguru = "^0.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
