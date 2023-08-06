@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+from gcd.bus import Bus
+from gcd.evt import Command
+from gcd.hdl import Client, cmd
+from gcd.irc import Cfg
+from gcd.nms import Names
+from gcd.obj import boot, cfg
+from gcd.trc import exception
+from gcd.trm import exec
+from gcd.zzz import os, sys
+
+__version__ = 30
+
+Cfg.channel = "#genocide"
+Cfg.nick = "genocide"
+
+class Console(Client):
+
+    prompt = True
+
+    def handle(self, e):
+        super().handle(e)
+        e.wait()
+
+    def poll(self):
+        if Console.prompt:
+            return input("> ")
+
+    def raw(self, txt):
+        sys.stdout.write(txt + "\n")
+        sys.stdout.flush()
+
+def ver(event):
+    event.reply("GENOCIDE %s" % __version__)
+
+def main():
+    if "INVOCATION_ID" not in os.environ:
+        print("run this program under systemd.")
+        return
+    cfg.name = "genocide"
+    Names.walk("genocide")
+    c = Console()
+    c.boot("/var/lib/genocide")
+    c.add("ver", ver)
+    c.scan(os.path.join(os.getcwd(), "mod"))
+    cfg.mods = "irc,rss,udp"
+    if cfg.txt:
+        Console.prompt = False
+        e = c.event(cfg.otxt)
+        cmd(c, e)
+        e.wait()
+        return
+    c.start()
+    c.init(cfg.mods)
+    c.wait()
+
+exec(main)

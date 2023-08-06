@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+from op.clt import Test
+from op.evt import events
+from op.obj import Cfg
+from op.prs import parseargs
+from op.tbl import tbl
+from op.trc import exc
+from op.trm import exec
+from op.zzz import shutil, time, unittest
+
+import op.obj
+import op.url
+
+def main():
+    if os.path.exists(".test"):
+        shutil.rmtree(".test")
+    op.url.debug = True
+    pat = "test_%s*" % "*"
+    suite = unittest.loader.TestLoader().discover("test", pattern=pat)
+    unittest.TextTestRunner(verbosity=3).run(suite)
+
+exec(main)
+if exc:
+    print("EXCEPTIONS:")
+    for e in exc:
+        print(e)
+if events:
+    print("EVENTS:")
+    for e in events:
+        print(e)
