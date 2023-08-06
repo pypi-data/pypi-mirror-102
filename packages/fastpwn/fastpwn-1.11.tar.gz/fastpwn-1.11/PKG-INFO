@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: fastpwn
+Version: 1.11
+Summary: fastest pwning youve ever seen
+Home-page: https://github.com/0xmanjoos/fastpwn
+Author: manjoos
+Author-email: manjoos@protonmail.com
+License: MIT
+Download-URL: https://github.com/0xmanjoos/fastpwn/archive/refs/tags/1.1.tar.gz
+Description: UNKNOWN
+Keywords: pwn,ctf,fast
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
