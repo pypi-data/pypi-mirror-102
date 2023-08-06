@@ -1,0 +1,3 @@
+[console_scripts]
+ssm_analyze = ssm_analyze.gui.window:main
+
