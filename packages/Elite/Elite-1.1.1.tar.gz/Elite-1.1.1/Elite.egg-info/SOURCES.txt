@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+Elite.egg-info/PKG-INFO
+Elite.egg-info/SOURCES.txt
+Elite.egg-info/dependency_links.txt
+Elite.egg-info/requires.txt
+Elite.egg-info/top_level.txt
+elite/__init__.py
+elite/cipher.py
+elite/scheme.py
+elite/secret.py
+elite/test.py
+elite/utils.py
