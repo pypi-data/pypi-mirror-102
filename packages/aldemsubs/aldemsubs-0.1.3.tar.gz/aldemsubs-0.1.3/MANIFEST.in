@@ -1,0 +1,5 @@
+include *.lock
+include Pipfile
+recursive-include systemd *.sh
+recursive-include tests *.ini
+recursive-include tests *.py

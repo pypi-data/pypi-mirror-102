@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: aldemsubs
+Version: 0.1.3
+Summary: Subscribe to Youtube channels via RSS
+Home-page: https://gitlab.com/80KiloMett/aldemsubs
+Author: Paul Hillmann - 80KiloMett
+Author-email: 80kilomett@posteo.de
+License: UNKNOWN
+Description: # Aldemsubs
+        
+        Aldemsubs is a command line application to subscribe to Youtube channels and
+        automatically download videos. It provides a way to keep track of channels
+        without the need of a Youtube account. It stores channel and video information
+        in a database and automatically updates them based on the RSS feed Youtube
+        provides for every channel.
+        
+        Aldemsubs works on GNU/Linux and MacOS (only tested on Mojave). It
+        should also be compatible with Windows, this is not thoroughly tested however.
+        
+        ## Installation
+        
+        ```
+        pip install --user aldemsubs
+        ```
+        For user installation make sure that `~/.local/bin/` is in your `$PATH`.
+        
+        ## Usage
+        
+        Subscribe to a channel:
+        ```
+        aldemsubs -s <channel id>
+        ```
+        In most cases the channel id is just part of the URL to a channel page. If that
+        is not the case it can be found by examining the source code of the channel
+        page. The most reliable way to find a channel id is by searching for "rss" in
+        the page source. This will take you to the RSS-Link of the channel, which
+        contains the channel id.
+        
+        Unsubscribe from a channel:
+        ```
+        aldemsubs -r <channel id>
+        ```
+        Removes the channel and video data from the database. Downloaded videos will
+        not be deleted.
+        
+        List subscriptions:
+        ```
+        aldemsubs -l
+        ```
+        Lists channel id and title of all subscribed channels.
+        
+        Update all subscriptions:
+        ```
+        aldemsubs -u
+        ```
+        This loads the current version of the RSS-feed for each channel and adds new
+        videos to the database.
+        
+        Download newly added videos:
+        ```
+        aldemsubs -d
+        ```
+        Downloads all new videos to the directory set in the configuration file. By
+        default videos are downloaded to `~/Youtube`.
+        
+        Delete old videos:
+        ```
+        aldemsubs -x
+        ```
+        Deletes all video files older than a set amount of days (with respect to the
+        download date not publication date).
+        
+        ## Configuration
+        
+        Default configuration:
+        ```ini
+        [aldemsubs]
+        
+        # Videos will be downloaded to this folder (download_path/channel_title/video).
+        download_path = ~/Youtube/
+        
+        # Where the database is stored
+        db_file_path = ~/Youtube/aldemsubs.sqlite
+        
+        # A video marked as new will be downloaded by aldemsubs -d (see usage). This
+        # setting controls after how many days the new flag is removed by aldemsubs -u.
+        # This only matters if you frequently update the database without downloading
+        # videos
+        mark_videos_old_after = 5  # days
+        
+        # Controls for how many days to keep a video file after download. Videos older
+        # than this will be removed by aldemsubs -x
+        delete_downloads_after = 5  # days
+        
+        # How many videos should be marked as new / for download after you subscribe to
+        # a channel? Set this to a negative number to download all videos in the RSS
+        # feed (usually Youtube only lists the last 15 videos in the feed)
+        after_subscribe_download_n_videos = 3
+        ```
+        Changes to the configuration can be stored in `~/.config/aldemsubs.ini`.
+        
+        ## systemd service and timer
+        
+        To update your subscriptions and download new videos you can install a systemd
+        service and timer. Find installation scripts in this repo under
+        `systemd/install_service.sh` and `systemd/install_timer.sh`. Please read the
+        scripts before executing them and adjust them to your liking.
+        
+        Don't forget to `systemctl enable aldemsubs.timer` after installation.
+        
+        The service and the timer are incompatible with MacOS and Windows.
+        
+        ## Windows compatibility
+        
+        Aldemsubs should work on Windows. However, as of now, some of my tests do not
+        run properly on Windows (For more details take a look at the issues). 
+        
+        If you want to try running aldemsubs on Windows inspite of that, the command is
+        `python -m aldemsubs`. All the options are the same. User configuration should
+        be stored at `%APPDATA%\aldemsubs\aldemsubs.ini` and the default download
+        directory is `%USERPROFILE%\Youtube\`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
