@@ -1,0 +1,11 @@
+requests
+citeproc-py>=0.4
+six
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[tests]
+pytest
+vcrpy
+contextlib2
