@@ -1,0 +1,15 @@
+mongomantic/__init__.py,sha256=mQRXImr39fP4YMiLGxOXxWynpmMnWa5Aff7-dSDpkM4,603
+mongomantic/config.py,sha256=iR02Mi-So6Ju9x3l1dLsM8_2x5OEb_3Qn7SQNzCZauM,686
+mongomantic/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongomantic/core/base_repository.py,sha256=YUZrcuKK3MkyEzDxEP2ud6Ql7URgyFTWML_-xyNc9GQ,5754
+mongomantic/core/database.py,sha256=tAfLU_DVkzfov2NJ0XjMxaOEzgYTFE0sFYPrl6YgvO8,642
+mongomantic/core/errors.py,sha256=bFnWUiYgQkfdIlkXjJ4GuqjEBXjGiQJUH47kjxS6A5E,392
+mongomantic/core/mongo_model.py,sha256=q4WA07I_CVRgVE5mZTj-uEe55JVwXRk8J2BdTp0DbaI,2031
+mongomantic/mongomantic.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongomantic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongomantic/utils/safe_repository.py,sha256=OdVFxc4JSExdHPjzstwcj5GlNfrXK-wbxklyrAfxVbY,1993
+mongomantic-0.3.1.dist-info/entry_points.txt,sha256=lXbZWwlVI5XKyzjPLkGxnUTAkJ6gq49s-J510wF1bEo,56
+mongomantic-0.3.1.dist-info/LICENSE,sha256=NMCZAlis2nIXQEdGwOUmNLgwhH0TevFjWWKAkeEM7ec,1067
+mongomantic-0.3.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+mongomantic-0.3.1.dist-info/METADATA,sha256=9dLYjX1cuVtZmOtCpixbwOPTBjYPlw0AaWgO6YHo4Ns,7797
+mongomantic-0.3.1.dist-info/RECORD,,
