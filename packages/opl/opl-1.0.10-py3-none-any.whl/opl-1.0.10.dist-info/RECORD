@@ -1,0 +1,12 @@
+opl/__init__.py,sha256=sJw2G5tSwZHMghE3SSK4btYk4zAX3I71IbAtmoLeL3Q,379
+opl/confluence.py,sha256=VlCaj_5b2bz_JyrqfQ-KfJ5DqWaGJCUabsvDGeQkdPY,1947
+opl/constants.py,sha256=lREoeAesWptI7d5yH1PmKxqWXhkZwHkku7iygWzdI8Q,402
+opl/incquery.py,sha256=VuFk5bK3u4i5bZDdC8awc4-V0HhnVVG37CCdMpqK9cQ,12752
+opl/patterns.py,sha256=DG7SmNYRJG5s5rodEm2mfcdnzzh9ZFEhYOyDcQ4Tnfw,1483
+opl/sparql.py,sha256=Ur4wTXxevzJ2FmZx6hNuud7V8eVdlQPRdo2pjx2QRlM,5264
+opl/types.py,sha256=b7R2G-ap_ujN8Z6BnFNGIqWlMyFBXwXKE-_WRdlhOHI,47
+opl-1.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opl-1.0.10.dist-info/METADATA,sha256=o2LxB7VUSkYCXpfMdxvZGCFme9yY1YAKCV8wHy0aoVM,1018
+opl-1.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opl-1.0.10.dist-info/top_level.txt,sha256=qQP_TcmM96SbDjvyACASkq_UXMvQbNMlTdXQKpa6oDs,4
+opl-1.0.10.dist-info/RECORD,,
