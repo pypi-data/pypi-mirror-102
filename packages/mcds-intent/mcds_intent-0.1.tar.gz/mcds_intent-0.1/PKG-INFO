@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: mcds_intent
+Version: 0.1
+Summary: mcds_intent
+Home-page: https://mailchimp.com
+Author: MAILCHIMP
+Author-email: info@mailchimp.com
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
