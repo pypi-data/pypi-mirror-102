@@ -1,0 +1,8 @@
+jacobpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jacobpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jacobpdf/text2pdf.py,sha256=_a22ZWxia1MrJ2Zdk7fw0spjqcmanwSJielTSnA0eEk,39
+jacobpdf-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+jacobpdf-1.0.dist-info/METADATA,sha256=t-1NzAPQdEFAJFN7nNxwjpL07R6B6cAjWOSU_kglL24,198
+jacobpdf-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jacobpdf-1.0.dist-info/top_level.txt,sha256=Ni-XvG7ptmjEpe56emRdlc9DYFligCd06v2Gor9IYNo,9
+jacobpdf-1.0.dist-info/RECORD,,
