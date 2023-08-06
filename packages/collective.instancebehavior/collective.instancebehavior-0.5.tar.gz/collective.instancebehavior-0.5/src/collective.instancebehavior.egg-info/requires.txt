@@ -1,0 +1,9 @@
+plone.behavior
+plone.dexterity
+setuptools
+zope.annotation
+zope.component
+zope.interface
+
+[test]
+plone.app.testing
