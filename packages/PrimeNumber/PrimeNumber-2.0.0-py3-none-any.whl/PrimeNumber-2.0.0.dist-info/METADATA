@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PrimeNumber
+Version: 2.0.0
+Summary: Working with prime numbers
+Home-page: UNKNOWN
+Author: Helder Cepeda
+Author-email: <helder_cepeda@hotmail.com>
+License: UNKNOWN
+Keywords: python,prime,prime number,prime numbers,number,numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+A package that allows developers to: check if a number is prime, generate prime numbers, decompose any whole number  as the product of prime numbers
+
+
