@@ -1,0 +1,11 @@
+cressp/__init__.py,sha256=F9zYGA6TEMy3XacbR27uPbSFjPtKPQ4OG5h2NhqwS9k,137
+cressp/data/__init__.py,sha256=7MbnrzFX1rGlsomtBNsAUn5sdNgwwG2syEwIVc0bwkM,25
+cressp/data/blosum62.tsv.gz,sha256=fs1IYbIj_QOgufP-R4-NO3cNvxWPpMWY9McawK3BaJE,2048
+cressp/data/parse_data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cressp/main/cressp.py,sha256=8J0H70EYcs5P_NfXGSVWUR-OcwQB-I42xE0uKuOMQ8E,37454
+cressp-0.0.7.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+cressp-0.0.7.dist-info/METADATA,sha256=BasFscZkA0TxhrO81hQkEjU-WHb6ePbV-02yjDqjb1Q,592
+cressp-0.0.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cressp-0.0.7.dist-info/entry_points.txt,sha256=tUuO_cdG6OPmWeD9L2G6TgvjfD-_oybOnEigaQT0IbM,52
+cressp-0.0.7.dist-info/top_level.txt,sha256=9L2PdNhIOV_zBCvjGOiK0jYabQoW3VaKw9fF1N0t0ZQ,7
+cressp-0.0.7.dist-info/RECORD,,
