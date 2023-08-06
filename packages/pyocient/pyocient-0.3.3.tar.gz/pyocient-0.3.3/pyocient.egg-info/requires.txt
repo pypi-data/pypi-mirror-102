@@ -1,0 +1,4 @@
+dsnparse
+cryptography<3.4
+google-auth<2.0dev
+google-api-python-client
