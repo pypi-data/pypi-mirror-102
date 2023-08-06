@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ILikeFrog
+Version: 0.0.3
+Summary: Utility for converting to and from Frog-Talk
+Home-page: https://github.com/Drakovek/ILikeFrog
+Author: Drakovek
+Author-email: DrakovekMail@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# ILikeFrog
+
+A utility for converting between English and Frog-Talk
+
+# Instalation
+ILikeFrog can be installed from its [PyPI package](https://pypi.org/project/ILikeFrog/) using pip:
+
+    pip install ilikefrog
+
+# How to use
+Requires python v3 or higher.
+
+Install the ilikefrog package and run using the following command.
+
+    ilikefrog *text* [-e]
+
+Use the -e/--english tag to convert your text from Frog-Talk to English.
+Otherwise the program will convert from English to Frog-Talk.
+
+# Examples
+
+    $ ilikefrog "Yay frog!"
+
+    > FROG TALK:
+    LikeIIFrogFrogLikeILikeFrogLikeLikeLikeLikeLikeLikeILikeILikeFrogLikeIFrogLikeILikeLikeIFrogILikeLikeILikeILikeIFrogLikeLikeILikeIFrogI
+
+    $ ilikefrog -e "IFrogLikeFrogLikeLikeLikeIFrogILikeLikeILikeILikeIFrogLikeLikeLikeIFrogLikeLikeLikeLikeLikeLikeLike"
+
+    > ENGLISH:
+    Froggy
+
+
