@@ -1,0 +1,8 @@
+README.md
+setup.py
+naive/__init__.py
+naive/math.py
+pynaive.egg-info/PKG-INFO
+pynaive.egg-info/SOURCES.txt
+pynaive.egg-info/dependency_links.txt
+pynaive.egg-info/top_level.txt
