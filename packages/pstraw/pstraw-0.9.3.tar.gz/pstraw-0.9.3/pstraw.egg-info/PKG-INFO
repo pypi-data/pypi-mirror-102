@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: pstraw
+Version: 0.9.3
+Summary: 简单的函数调用来处理数据库
+Home-page: https://github.com/pskelecton/straw
+Author: Chalk Yu
+Author-email: yuequn3721@qq.com
+Maintainer: Chalk Yu
+Maintainer-email: yuequn3721@qq.com
+License: MIT License
+Description: 
+        1. Beta:0.9.x
+        2. License:MIT
+        3. Python >= 3.7
+        4. SQL@Support:postgres|mysql
+        
+Platform: all
+Classifier: Programming Language :: Python :: 3.7
