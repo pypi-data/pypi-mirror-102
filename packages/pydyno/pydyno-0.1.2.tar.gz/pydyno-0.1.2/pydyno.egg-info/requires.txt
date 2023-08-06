@@ -1,0 +1,11 @@
+pysb
+matplotlib
+anytree
+scikit-learn
+pydot
+tqdm
+editdistance
+pandas
+networkx
+numpy
+sympy==1.5
