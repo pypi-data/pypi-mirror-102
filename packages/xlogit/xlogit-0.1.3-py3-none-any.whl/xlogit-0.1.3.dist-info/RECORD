@@ -1,0 +1,11 @@
+xlogit/__init__.py,sha256=RsauSgsyt2h8M8J9fueofSjNqzUuVgvG40KPSp44KW4,112
+xlogit/_choice_model.py,sha256=wIUYkx_Q_DLmCKdy0PSy-GaQwiMKrBAvcCd8V1pqEK4,9986
+xlogit/_device.py,sha256=IC9YXnAF2FSQuTRDwTg3ylJLcJHTaKe41mAOAMEZbq0,1036
+xlogit/mixed_logit.py,sha256=hVLrrL5HnpHOjo1plzTG6SuQ4CZKezEYOHs6S6Hut-4,24862
+xlogit/multinomial_logit.py,sha256=lrwvNQ6Zj0ecHxSjUfzP4r9K0Bnll3XuR47JytnwiRU,12038
+xlogit/utils.py,sha256=Nng-qDt0vojjLJV73MapYQevYwNHviplkO-RBTnRfpA,3893
+xlogit-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xlogit-0.1.3.dist-info/METADATA,sha256=606IMDI3zBjEnu1sFPPGiI9vysUqzgAoXPusF7CvncA,9328
+xlogit-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xlogit-0.1.3.dist-info/top_level.txt,sha256=vedoXHH0yJ-Ih5h3yYCpos7kB5taKQKhTXnE10HLiIk,7
+xlogit-0.1.3.dist-info/RECORD,,
