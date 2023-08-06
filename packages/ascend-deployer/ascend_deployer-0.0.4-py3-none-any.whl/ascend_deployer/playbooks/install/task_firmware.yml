@@ -1,0 +1,83 @@
+- name: get npu info for Atlas 800 and Atlas 900
+  shell: dmidecode -t 1 |egrep "Atlas 800 \(Model 90|Atlas 900" | awk -d" " '{print $4"-"$6}' | head -c -2
+  register: npu_info
+  become: yes
+
+- name: set npu product name for A800 and A900
+  set_fact: npu_product="A{{ npu_info.stdout }}"
+  when: npu_info.stdout != ""
+
+- name: set npu product name for others
+  set_fact: npu_product="{{ ansible_local.npu_info.product }}-.*{{ ansible_local.npu_info.model_number }}"
+  when: npu_info.stdout == ""
+
+- name: find firmware package train only
+  find:
+    path:
+      - "{{ resources_dir }}/run_from_zip_dir"
+      - "{{ resources_dir }}"
+      - "{{ resources_dir }}/CANN"
+    recurse: no
+    file_type: file
+    use_regex: yes
+    patterns:
+      - "npu-firmware.*.run"
+  register: firmware_pkg
+  when: ansible_local.npu_info.scene == 'train'
+
+- set_fact: firmware_run={{firmware_pkg.files[0].path}}
+  when:
+    - not 'skipped' in firmware_pkg
+    - firmware_pkg.matched > 0
+
+- name: find firmware package
+  find:
+    paths:
+      - "{{ resources_dir }}/run_from_zip_dir"
+      - "{{ resources_dir }}"
+      - "{{ resources_dir }}/CANN"
+    recurse: no
+    file_type: file
+    use_regex: yes
+    patterns:
+      - "{{ npu_product }}.*firmware.*.run"
+  register: firmware_pkg
+
+- set_fact: firmware_run={{firmware_pkg.files[0].path}}
+  when:
+    - firmware_pkg.matched > 0
+
+- name: find upgrade tool
+  find:
+    path: /usr/local/Ascend/driver
+    recurse: yes
+    file_type: file
+    use_regex: yes
+    patterns: "upgrade-tool"
+  register: up_tool
+
+- name: message
+  debug:
+    msg:
+    - "firmware install failed: driver not installed"
+  failed_when: true
+  when: up_tool.matched == 0 and (firmware_pkg.matched > 0)
+
+- name: install firmware
+  shell: "bash {{ firmware_run }} --full --quiet"
+  become: yes
+  register: firmware_result
+  when: (firmware_run is defined) and (firmware_run|length > 0)
+  failed_when: firmware_result.rc != 0
+
+- name: message
+  debug:
+    msg:
+      - "can not find firmware package, firmware install skipped"
+  when: (firmware_run is not defined) or (firmware_run|length == 0)
+
+- name: message
+  debug:
+    msg:
+      - "{{ firmware_result | default('NOT DEFINED') }}"
+  when: firmware_result.changed
