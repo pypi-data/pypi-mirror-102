@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+setup_colab_logging.py
+tensorflow_coder_colab_logging.egg-info/PKG-INFO
+tensorflow_coder_colab_logging.egg-info/SOURCES.txt
+tensorflow_coder_colab_logging.egg-info/dependency_links.txt
+tensorflow_coder_colab_logging.egg-info/requires.txt
+tensorflow_coder_colab_logging.egg-info/top_level.txt
+tf_coder_colab_logging/__init__.py
+tf_coder_colab_logging/colab_logging.py
+tf_coder_colab_logging/colab_logging_test.py
+tf_coder_colab_logging/serialization.py
+tf_coder_colab_logging/serialization_test.py
+tf_coder_colab_logging/version.py
