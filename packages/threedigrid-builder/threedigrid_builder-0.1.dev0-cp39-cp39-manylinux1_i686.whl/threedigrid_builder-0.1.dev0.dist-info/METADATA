@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: threedigrid-builder
+Version: 0.1.dev0
+Summary: 3Di Grid Generator
+Home-page: https://github.com/nens/threedigrid-builder
+Author: Martijn Siemerink
+Author-email: martijn.siemerink@nelen-schuurmans.nl
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: threedi-modelchecker (>=0.12)
+Requires-Dist: pygeos
+Requires-Dist: pyproj
+Requires-Dist: condenser[geo]
+Requires-Dist: rasterio
+Requires-Dist: sqlalchemy (<1.4)
+Provides-Extra: gpkg
+Requires-Dist: geopandas ; extra == 'gpkg'
+Provides-Extra: gridadmin
+Requires-Dist: h5py (>=2.7) ; extra == 'gridadmin'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+3Di Grid Generator
+==================
+
+Build the docker::
+
+  $ docker-compose build lib
+
+
+Install::
+
+  $ docker-compose run --rm lib bash
+  (lib) $ python setup.py build_ext --inplace
+
+
+Changelog of threedigrid-builder
+================================
+
+0.1 (unreleased)
+----------------
+
+- Partially ported functionality from inpy (generate 3di files, makegrid).
+
+- Breaking change: the interpolation between cross section locations (channels)
+  now also extrapolates for velocity points that are not in between 2 
+  connection nodes if the channel has at least 2 connection nodes. This is
+  reflected by the line.cross_weight less than 0 or greater than 1.
+
+
