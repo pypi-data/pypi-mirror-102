@@ -1,0 +1,14 @@
+inflexion/__init__.py,sha256=hf8WT2eTYJsUk80NiHlCVABmA4IjuHSNwxkf27QFkB8,83
+inflexion/adjective.py,sha256=6M0mcUg142OilAQxcXRauKB6sEY8EwezHrKC2gwNtpM,3089
+inflexion/adjective_core.py,sha256=bjmCPnZtHqTTuSqHjLCqKVjSc9vwGvPhAllSqoI6FbE,1733
+inflexion/indefinite_core.py,sha256=8f16zEYJkyXZDP17EBQnMrGER35Sqh_dQPLy0QCeckU,2856
+inflexion/noun.py,sha256=RXWUyzhx6jaUxjZ0RwoZL9XXdhDWct4vaJlDA6k8GN0,24803
+inflexion/noun_core.py,sha256=dz_7Tcj1A3QpOqvanJNy5kfCHNTaMAmg8byssPducVI,275602
+inflexion/term.py,sha256=DuR3IFI2VDJlimhMg0bewdSdtj4PMqNF4AAI43rkxoc,1208
+inflexion/verb.py,sha256=s36CWTZx5FRKvjF0XDchOjac3nWEHV6p1Mmi5wXW0N0,5440
+inflexion/verb_core.py,sha256=2nK8k0RfFrzOOlu5Vrl97ccCV3vAqGoMVnn1IPlqPxo,140122
+inflex-1.0.0.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+inflex-1.0.0.dist-info/METADATA,sha256=o6Fllsf8FA-Al7V08gXu50RfX-edMQUDz6_bv52hGDc,1512
+inflex-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+inflex-1.0.0.dist-info/top_level.txt,sha256=Y4cGbUL7Y_b9tNrYeKE7Vf03_FWZ7TuDlUz_8-mV27s,7
+inflex-1.0.0.dist-info/RECORD,,
