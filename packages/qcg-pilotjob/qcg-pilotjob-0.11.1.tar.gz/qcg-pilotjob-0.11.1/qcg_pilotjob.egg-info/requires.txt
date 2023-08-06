@@ -1,0 +1,5 @@
+zmq
+click
+prompt_toolkit
+psutil
+termcolor
