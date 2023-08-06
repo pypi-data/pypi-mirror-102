@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: captcha-pc
+Version: 3.0.0
+Summary: Função que faz o download de arquivos através de URLs informadas
+Home-page: UNKNOWN
+Author: Fabrício Antoniasse
+Author-email: fabricio.antoniasse@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: captcha_pc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent

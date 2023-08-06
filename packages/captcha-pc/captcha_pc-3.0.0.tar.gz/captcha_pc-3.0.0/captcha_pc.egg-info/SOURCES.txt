@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+captcha_pc/__init__.py
+captcha_pc/captcha_pc.py
+captcha_pc/new_funcaptcha.py
+captcha_pc/new_hcaptcha.py
+captcha_pc/new_recaptcha_coordinates.py
+captcha_pc/new_recaptcha_image_group.py
+captcha_pc/new_recaptcha_token_image.py
+captcha_pc/new_recaptcha_token_v3.py
+captcha_pc.egg-info/PKG-INFO
+captcha_pc.egg-info/SOURCES.txt
+captcha_pc.egg-info/dependency_links.txt
+captcha_pc.egg-info/top_level.txt
