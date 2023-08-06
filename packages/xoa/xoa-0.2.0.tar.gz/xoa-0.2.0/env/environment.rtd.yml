@@ -1,0 +1,27 @@
+name: xoa-rtd
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - appdirs
+  - cartopy
+  - cmocean
+  - ipython
+  - ipykernel
+  - jupyter_client
+  - matplotlib-base
+  - numba
+  - pip
+  - python>=3
+  - xarray
+  - xesmf
+  - pip:
+      - configobj
+      - nbsphinx
+      - sphinx
+      - sphinx_rtd_theme
+      - sphinx-argparse
+      - sphinxcontrib-programoutput
+

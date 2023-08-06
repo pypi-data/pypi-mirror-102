@@ -1,0 +1,9 @@
+appdirs
+cmocean
+configobj
+netCDF4
+numba
+setuptools>=40.4
+scipy
+xarray
+xesmf>=0.4
