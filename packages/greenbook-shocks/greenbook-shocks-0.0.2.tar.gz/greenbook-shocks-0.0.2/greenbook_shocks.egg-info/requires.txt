@@ -1,0 +1,5 @@
+openpyxl
+sklearn
+datapungi_fed
+urllib3
+bs4
