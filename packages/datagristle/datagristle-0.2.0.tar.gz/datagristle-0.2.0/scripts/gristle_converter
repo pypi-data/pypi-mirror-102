@@ -1,0 +1,194 @@
+#!/usr/bin/env python
+"""
+Copies input files into a single output file while converting the csv dialect.
+
+Input file csv dialect is determined by first auto-detecting the dialect from the file, and then
+overriding that with any options provided by the user.
+
+Output file csv dilect is determined by defaulting to the input file dialect and then overriding
+with any options provided by the user.
+
+
+Usage: gristle_converter [options]
+
+
+{see: helpdoc.HELP_SECTION}
+
+
+Main Options:
+    -i, --infiles [INFILES [INFILES ...]]
+                        One or more input files or '-' (the default) for stdin.
+    -o, --outfile OUTFILE
+                        Output filename or '-' for stdout (the default).
+
+
+{see: helpdoc.CSV_SECTION}
+
+
+Output Formatting Options: All of these options will default to the final input csv dialect.
+    -D, --out-delimiter DELIMITER
+                        CSV delimiter.
+    -Q, --out-quoting QUOTING
+                        CSV quoting.
+    --out-quotechar QUOTECHAR
+                        CSV quoting character.
+    --out-doublequote   Quotes are escaped through double-quoting.
+    --out-no-doublequote
+                        Quotes not not escaped through double-quoting.
+    --out-escapechar ESCAPECHAR
+                        Uses the provided escapechar.
+    --out-has-header    Header exists, defaults to input.
+    --out-has-no-header Header does not exist.
+    --out-skipinitialspace
+                        Has a space after the delimiter and before the value.
+    --out-no-skipinitialspace
+                        has no space between delimiter and value.
+
+
+Examples:
+    $ gristle_converter.py --infiles colors.csv  -o /tmp/colors.out \
+             --delimiter ','  --quoting quote_none  \
+             --out-delimiter '|' --out-quoting quote_all --out_escapechar '\'
+    Many more examples can be found here:
+        https://github.com/kenfar/DataGristle/tree/master/examples/gristle_converter
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+        http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+"""
+
+import errno
+from pprint import pprint as pp
+from os.path import basename
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import Dict, List, Any, Optional, Union
+
+import datagristle.configulator as conf
+import datagristle.csvhelper as csvhelper
+import datagristle.file_io as file_io
+import datagristle.helpdoc as helpdoc
+
+#Ignore SIG_PIPE and don't throw exceptions on it... (http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+
+
+
+def main():
+    """ Analyzes the file to automatically determine input file csv
+        characteristics.  Then reads one record at a time and writes it
+        out.
+
+    """
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, _ = config_manager.get_config()
+    except EOFError:
+        sys.exit(errno.ENODATA) # 61: empty file
+
+    input_handler = file_io.InputHandler(nconfig.infiles,
+                                         nconfig.dialect)
+
+    output_handler = file_io.OutputHandler(nconfig.outfile,
+                                           nconfig.out_dialect)
+
+    for rec in input_handler:
+        if input_handler.curr_file_rec_cnt == 1:
+            if (nconfig.dialect.has_header and not nconfig.out_dialect.has_header):
+                continue  # skip input header if output has-no-header
+            elif input_handler.files_read > 1:
+                continue  # skip input header on any files besides the first
+
+        output_handler.write_rec(rec)
+
+    input_handler.close()
+    output_handler.close()
+
+    return 0
+
+
+
+
+
+class ConfigManager(conf.Config):
+
+
+    def define_user_config(self) -> None:
+        """ Defines the user config or metadata.
+
+        Does not get the user input.
+        """
+        self.add_standard_metadata('infiles')
+        self.add_standard_metadata('outfile')
+
+        self.add_all_csv_configs()
+
+        self.add_custom_metadata(name='out_delimiter',
+                                 short_name='D',
+                                 type=str)
+        self.add_custom_metadata(name='out_quoting',
+                                 short_name='Q',
+                                 type=str,
+                                 choices=['quote_none', 'quote_all', 'quote_minimal', 'quote_nonnumeric'])
+        self.add_custom_metadata(name='out_quotechar',
+                                 type=str)
+        self.add_custom_metadata(name='out_has_header',
+                                 short_name='H',
+                                 type=bool,
+                                 action='store_const',
+                                 const=True)
+        self.add_custom_metadata(name='out_has_no_header',
+                                 type=bool,
+                                 action='store_const',
+                                 const=False)
+        self.add_custom_metadata(name='out_escapechar',
+                                 short_name='E',
+                                 type=str)
+        self.add_custom_metadata(name='out_doublequote',
+                                 type=bool,
+                                 action='store_const',
+                                 const=True)
+        self.add_custom_metadata(name='out_skipinitialspace',
+                                 type=bool,
+                                 action='store_const',
+                                 const=True)
+        self.add_custom_metadata(name='out_no_skipinitialspace',
+                                 type=bool,
+                                 action='store_const',
+                                 dest='out_skipinitialspace',
+                                 const=False)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_config_configs()
+        self.add_all_help_configs()
+
+
+
+    def extend_config(self) -> None:
+        """ Add derrived attributes to our config so they're all in one place.
+        """
+        self.generate_csv_dialect_config()
+
+        out_dialect = csvhelper.get_dialect('-',  # type: ignore
+            self.config['out_delimiter']   or self.nconfig.dialect.delimiter,  # type: ignore
+            self.config['out_quoting'] or csvhelper.get_quote_name(self.nconfig.dialect.quoting), # type: ignore
+            self.config['out_quotechar']   or self.nconfig.dialect.quotechar, # type: ignore
+            self.config['out_has_header']  or self.nconfig.dialect.has_header, # type: ignore
+            self.config['out_doublequote'] or self.nconfig.dialect.doublequote, # type: ignore
+            self.config['out_escapechar']  or self.nconfig.dialect.escapechar, # type: ignore
+            self.config['out_skipinitialspace']
+                or self.nconfig.dialect.skipinitialspace, verbosity='normal') # type: ignore
+
+        self.update_config('out_dialect', out_dialect)
+
+
+
+if __name__ == '__main__':
+    sys.exit(main())

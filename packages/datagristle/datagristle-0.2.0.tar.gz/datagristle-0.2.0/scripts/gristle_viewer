@@ -1,0 +1,209 @@
+#!/usr/bin/env python
+"""
+Displays a single record of a file, pivoted with one field per line, with field names displayed
+as labels to the left of the field values.  Also allows simple navigation between records.
+
+Usage: gristle_viewer [options]
+
+
+Main Options:
+   -i, --infiles [INFILES [INFILES ...]]
+                        One or more input files or '-' (the default) for stdin.
+   -o, --outfile OUTFILE
+                        The output filename or '-' for stdout (the default).
+   -r, --recnum RECNUM
+                        Displays this record number based on 0 offset, defaulting to 1
+   --exit-after         Causes program to immediately exit after displaying a single
+                        record.
+
+
+{see: helpdoc.CSV_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Examples:
+    $ gristle_viewer sample.csv -r 3
+        Presents the third record in the file with one field per line
+        and field names from the header record as labels in the left
+        column.
+    $ gristle_viewer sample.csv -r 3  -d '|' -q quote_none
+        In addition to what was described in the first example this
+        adds explicit csv dialect overrides.
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+        http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+"""
+
+import errno
+from os.path import basename
+from pprint import pprint as pp
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import Dict, List, Optional, Any, Tuple
+
+import datagristle.common as comm
+import datagristle.configulator as conf
+import datagristle.field_determinator  as field_determinator
+import datagristle.field_type as field_type
+import datagristle.file_io as file_io
+import datagristle.file_type as file_type
+import datagristle.helpdoc as helpdoc
+
+#Ignore SIG_PIPE and don't throw exceptions on it... (http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+
+
+
+def main():
+    """ Analyzes file then displays a single record and allows simple
+        navigation between records.
+    """
+
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, _ = config_manager.get_config()
+    except EOFError:
+        sys.exit(errno.ENODATA) # 61: empty file
+
+    field_names = None
+
+    recnum = nconfig.recnum
+    while True:
+        input_handler = file_io.InputHandler(nconfig.infiles,
+                                             nconfig.dialect)
+        if not field_names:
+            field_names = get_field_names(nconfig.infiles, input_handler.dialect)
+        rec = get_rec(input_handler, recnum)
+        input_handler.close()
+        if rec is None:
+            print('No record found')
+            return
+
+        output_handler = file_io.OutputHandler(nconfig.outfile, dialect=None)
+        display_rec(rec, field_names, output_handler)
+        output_handler.close()
+
+        if nconfig.outfile != '-' or nconfig.exit_after:
+            break
+
+        response = input('Rec: %d     Q[uit] P[rev] N[ext] T[op], or a specific record number: ' % recnum).lower()
+        if response == 'q':
+            break
+        elif response == 'p':
+            recnum -= 1
+        elif response == 'n':
+            recnum += 1
+        elif response == 't':
+            recnum = 0
+        elif field_type._get_type(response) == 'integer':
+            recnum = int(response)
+        else:
+            print('Invalid response, please enter q, p, n, t, or a specific record number')
+    return 0
+
+
+
+def get_field_names(input_files, dialect) -> Dict[int, str]:
+
+    field_cnt = file_type.get_field_cnt(dialect, input_files[0])
+    my_fields = field_determinator.FieldDeterminator(input_files[0],
+                                                     field_cnt,
+                                                     dialect)
+    my_fields.analyze_fields()
+    return my_fields.field_names
+
+
+
+def display_rec(rec: str,
+                field_names: Dict[int, str],
+                output_handler: file_io.OutputHandler):
+    """ Displays a single record
+    """
+    # figure out label length for formatting:
+    if field_names:
+        max_v_len = 0
+        for val in field_names.values():
+            if len(val) > max_v_len:
+                max_v_len = len(val)
+        min_format_len = max_v_len + 4
+    else:
+        for f_sub in range(len(rec)):
+            field_names[f_sub] = f'field_{f_sub}'
+        min_format_len = 12
+
+    # write in column order:
+    for f_sub in range(len(rec)):
+        try:
+            output_handler.write_text_rec('%-*s  -  %-40s\n' % (min_format_len, field_names[f_sub], rec[f_sub]))
+        except KeyError:
+            output_handler.write_text_rec('*** Missing Field - possibly due to csv parsing issues ***\n')
+
+
+
+
+def get_rec(input_handler, recnum: int) -> Optional[List[Any]]:
+    """ Gets a single record from a file
+        Since it reads from the begining of the file it can take a while to get
+        to records at the end of a large file
+
+        To do:
+           - possibly keep file open in case user wants to navigate about
+           - possibly keep some of the data in a dictionary in case the user
+             wants to navigate about
+    """
+    for row in input_handler:
+        if input_handler.rec_cnt == recnum+1:
+            result = row
+            break
+    else:
+        result = None
+    return result
+
+
+
+class ConfigManager(conf.Config):
+
+
+    def define_user_config(self) -> None:
+        self.add_standard_metadata('infiles')
+        self.add_standard_metadata('outfile')
+
+        self.add_custom_metadata(name='recnum',
+                                 short_name='r',
+                                 default=0,
+                                 type=int)
+        self.add_custom_metadata(name='exit_after',
+                                 default=False,
+                                 type=bool,
+                                 action='store_const',
+                                 const=True)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_csv_configs()
+        self.add_all_config_configs()
+        self.add_all_help_configs()
+
+
+    def extend_config(self) -> None:
+        self.generate_csv_dialect_config()
+
+
+    def validate_custom_config(self,
+                               config: conf.CONFIG_TYPE):
+        if config['infiles'] == '-':
+            comm.abort('An input filename is required')
+
+
+
+if __name__ == '__main__':
+    sys.exit(main())

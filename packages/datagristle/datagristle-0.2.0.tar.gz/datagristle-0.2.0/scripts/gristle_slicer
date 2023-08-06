@@ -1,0 +1,299 @@
+#!/usr/bin/env python
+"""
+Gristle_slicer extracts subsets of input files based on user-specified columns and rows.  The
+input csv file can be piped into the program through stdin or identified via a command line option.
+The output will default to stdout, or redirected to a filename via a command line option.
+
+The columns and rows are specified using python list slicing syntax - so individual columns or
+rows can be listed as can ranges.   Inclusion or exclusion logic can be used - and even combined.
+
+Usage: gristle_slicer [options]
+
+
+{see: helpdoc.HELP_SECTION}
+
+
+Main Options:
+    -i, --infiles INFILE
+                        One or more input files or '-' (the default) for stdin.
+    -o, --outfile OUTFILE
+                        The output file.  The default of '-' is stdout.
+    -c, --columns SPEC  The column inclusion specification.
+                        Default is ':' which includes all columns.
+    -C, --excolumns SPEC
+                        The column exclusion specification.
+                        Default is None which excludes nothing.
+    -r, --records SPEC  The record inclusion specification.
+                        Default is ':' which includes all records.
+    -R, --exrecords SPEC
+                        The record exclusion specification.
+                        Default is None which excludes nothing.
+
+Notes:
+    Supported slicing specification - for columns (-c, -C) and rows (-r, -R):
+        'NumberN, StartOffset:StopOffset'
+    This specification is either a comma-delimited list of individual offsets or ranges.
+    Offsets are based on zero, and if negative are measured from the end of the record
+    or file with -1 being the final item.  There can be N number of individual offsets.
+    Ranges are a pair of offsets separated by a colon.  The first number indicates the
+    starting offset, and the second number indicates the stop offset +1.
+
+
+{see: helpdoc.CSV_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Examples:
+    $ gristle_slicer -i sample.csv
+                            Prints all rows and columns
+    $ gristle_slicer -i sample.csv -c":5, 10:15" -C 13
+                            Prints columns 0-4 and 10,11,12,14 for all records
+    $ gristle_slicer -i sample.csv -C:-1
+                            Prints all columns except for the last for all
+                            records
+    $ gristle_slicer -i sample.csv -c:5 -r-100:
+                            Prints columns 0-4 for the last 100 records
+    $ gristle_slicer -i sample.csv -c:5 -r-100 -d'|' --quoting=quote_all:
+                            Prints columns 0-4 for the last 100 records, csv
+                            dialect info (delimiter, quoting) provided manually)
+    $ cat sample.csv | gristle_slicer -c:5 -r-100 -d'|' --quoting=quote_all:
+                            Prints columns 0-4 for the last 100 records, csv
+                            dialect info (delimiter, quoting) provided manually)
+    Many more examples can be found here:
+        https://github.com/kenfar/DataGristle/tree/master/examples/gristle_slicer
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+       http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+"""
+import csv
+import errno
+import fileinput
+from os.path import basename
+from pprint import pprint as pp
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import List, Tuple, Dict, Any, Optional, IO
+
+import datagristle.configulator as conf
+import datagristle.file_io as file_io
+import datagristle.helpdoc as helpdoc
+import datagristle.location_slicer as slicer
+
+#Ignore SIG_PIPE and don't throw exceptions on it... (http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+
+
+
+def main() -> int:
+
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, _ = config_manager.get_config()
+    except EOFError:
+        return errno.ENODATA
+
+    input_handler = file_io.InputHandler(nconfig.infiles,
+                                         nconfig.dialect)
+
+    (incl_rec_slicer,
+     excl_rec_slicer,
+     incl_col_slicer,
+     excl_col_slicer) = setup_slicers(nconfig.infiles,
+                                      input_handler.dialect,
+                                      nconfig.records,
+                                      nconfig.exrecords,
+                                      nconfig.columns,
+                                      nconfig.excolumns)
+
+    output_handler = file_io.OutputHandler(nconfig.outfile, input_handler.dialect)
+
+    for rec in input_handler:
+        new_rec = process_rec(input_handler.rec_cnt - 1,
+                              incl_rec_slicer,
+                              excl_rec_slicer,
+                              rec,
+                              incl_col_slicer,
+                              excl_col_slicer)
+        if new_rec:
+            output_handler.write_rec(new_rec)
+
+    input_handler.close()
+    output_handler.close()
+
+    return 0
+
+
+
+def setup_slicers(infiles: List[str],
+                  dialect: csv.Dialect,
+                  config_records: str,
+                  config_exrecords: str,
+                  config_columns: str,
+                  config_excolumns: str) -> Tuple[slicer.SpecProcessor,
+                                                  slicer.SpecProcessor,
+                                                  slicer.SpecProcessor,
+                                                  slicer.SpecProcessor]:
+    """  Sets up the 4 slicer objects: inclusion & exclusion for
+         rec and column.
+
+         Then counts records and columns if negative slice references
+         exist and calls the spec adjuster.
+    """
+
+    # first parse the config items;
+    columns   = config_columns.split(',')
+    excolumns = config_excolumns.split(',') if config_excolumns else []
+    records   = config_records.split(',')
+    exrecords = config_exrecords.split(',') if config_exrecords else []
+
+    incl_rec_slicer = slicer.SpecProcessor(records,   'incl_rec_spec')
+    excl_rec_slicer = slicer.SpecProcessor(exrecords, 'excl_rec_spec')
+    incl_col_slicer = slicer.SpecProcessor(columns,   'incl_col_spec')
+    excl_col_slicer = slicer.SpecProcessor(excolumns, 'excl_col_spec')
+
+    rec_cnt = None
+    if incl_rec_slicer.has_negatives or excl_rec_slicer.has_negatives:
+        if infiles == '-':
+            raise ValueError('ERROR: negative record slicing with stdin')
+        rec_cnt = get_rec_count(infiles, dialect)
+    incl_rec_slicer.spec_adjuster(loc_max=rec_cnt)
+    excl_rec_slicer.spec_adjuster(loc_max=rec_cnt)
+
+    col_cnt = None
+    if incl_col_slicer.has_negatives or excl_col_slicer.has_negatives:
+        if infiles == '-':
+            raise ValueError('negative column slicing with stdin')
+        col_cnt = get_col_count(infiles, dialect)
+    incl_col_slicer.spec_adjuster(loc_max=col_cnt)
+    excl_col_slicer.spec_adjuster(loc_max=col_cnt)
+
+    return incl_rec_slicer, excl_rec_slicer, incl_col_slicer, excl_col_slicer
+
+
+
+def get_rec_count(files: List[str],
+                  dialect: csv.Dialect) -> int:
+    """ Gets record counts for input files.
+        - Counts have an offset of 0
+    """
+    rec_cnt = -1
+    for _ in csv.reader(fileinput.input(files), dialect):
+        rec_cnt += 1
+    fileinput.close()
+    return rec_cnt
+
+
+
+def get_col_count(files: List[str],
+                  dialect: csv.Dialect) -> int:
+    """ Gets column counts for input files.
+        - Counts have an offset of 0
+    """
+    for record in csv.reader(fileinput.input(files[0]), dialect):
+        field_cnt = len(record) -1
+        break
+    fileinput.close()
+    return field_cnt
+
+
+
+
+
+def process_rec(rec_number: int,
+                incl_rec_slicer: slicer.SpecProcessor,
+                excl_rec_slicer: slicer.SpecProcessor,
+                rec: List[str],
+                incl_col_slicer: slicer.SpecProcessor,
+                excl_col_slicer: slicer.SpecProcessor) -> Optional[List[str]]:
+    """ Evaluates all the specifications against a single record
+        from the input file.  First it applies inclusion & exclusion
+        specifications against the record, then it applies inclusion
+        & exclusion specifications against each column.
+        Input:
+            - rec_number:      used for rec specs
+            - incl_rec_spec
+            - excl_rec_spec
+            - rec:             a list of all columns from the record
+            - incl_col_spec:   which columns to include
+            - excl_col_spec:   which columns to exclude
+        Output:
+            - if the rec_number fails:  None
+            - if the rec_number passes: a list of the columns that qualified
+    """
+    # minimal validation
+    assert int(rec_number) >= 0
+
+    # reject record if it isn't in the inclusion spec
+    if not incl_rec_slicer.spec_evaluator(rec_number):
+        return None
+
+    # reject record if it is in the exclusion spec
+    if excl_rec_slicer.spec_evaluator(rec_number):
+        return None
+
+    output_rec = []
+    for col_number in range(len(rec)):
+        if not incl_col_slicer.spec_evaluator(col_number):
+            continue
+        if excl_col_slicer.spec_evaluator(col_number):
+            continue
+        output_rec.append(rec[col_number])
+
+    if output_rec:
+        return output_rec
+    else:
+        return None  # don't return empty list
+
+
+
+class ConfigManager(conf.Config):
+
+
+    def define_user_config(self) -> None:
+        """ Defines the user config or metadata.
+
+        Does not get the user input.
+        """
+        self.add_standard_metadata('infiles')
+        self.add_standard_metadata('outfile')
+
+        self.add_custom_metadata(name='columns',
+                                 short_name='c',
+                                 default=':',
+                                 type=str)
+        self.add_custom_metadata(name='excolumns',
+                                 short_name='C',
+                                 default='',
+                                 type=str)
+        self.add_custom_metadata(name='records',
+                                 short_name='r',
+                                 default=':',
+                                 type=str)
+        self.add_custom_metadata(name='exrecords',
+                                 short_name='R',
+                                 default='',
+                                 type=str)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_config_configs()
+        self.add_all_csv_configs()
+        self.add_all_help_configs()
+
+
+    def extend_config(self) -> None:
+        self.generate_csv_dialect_config()
+
+
+
+if __name__ == '__main__':
+    sys.exit(main())

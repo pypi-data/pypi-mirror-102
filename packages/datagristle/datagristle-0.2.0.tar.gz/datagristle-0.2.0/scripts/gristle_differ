@@ -1,0 +1,527 @@
+#!/usr/bin/env python
+"""
+Gristle_differ is used to compare two files and writes the differences to five output files named
+after the inputs with these suffixes: .insert, .delete, .same, .chgold, .chgnew.
+
+The program sorts the two input files based on unique key columns, then removes any duplicates
+based on this key (leaving 1 of any duplicate set behind).
+
+Comparisons of matching records can be limited to specific columns in two ways:
+    - using --compare-cols no cols will be compared other than these specifically identified.
+    - using --ignore-cols all cols will be compared, and explicitly idenitify those not to compare.
+
+After the comparison post-delta transformations can be performed in order to ready the file for
+subsequent processing.  Examples of these transformations include:
+    - incrementing a key column in the .insert & .chgnew files
+    - populating a delete flag in the .delete file
+    - populating a row version starting timestamp in the .insert and .chgnew files
+    - populating a row version ending timestamp in the .delete and .chgold files
+    - populating a batch_id in any or all files
+
+Usage: gristle_differ [options]
+
+
+{see: helpdoc.HELP_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Main Options:
+    -i [infiles]        Specifies the two input files.
+                        The first argument is also referred to as the 'old file', the second as the
+                        'new file'.
+    -k, --key-cols [KEY_COLS [KEY_COLS ...]]
+                        Columns that constitute a unique row.
+                        The keys use a zero-offset or column names if also provided. This is a
+                        required option.
+    -c, --compare-cols [COMPARE_COLS [COMPARE_COLS ...]]
+                        Columns to compare.
+                        These are referenced either using a zero-offset integer or by the column
+                        name.  This option is mutually exclusive with ignore-cols.  If no
+                        value is provided then all non-key cols will be compared.
+    --ignore-cols [IGNORE_COLS [IGNORE_COLS ...]]
+                        Columns to ignore.
+                        These are referenced either using a zero-offset integer or by the column
+                        name.  This option is mutually exclusive with compare-cols.
+                        If this column is provided then all cols except for these identified here and
+                        key-cols will be compared.
+    --col-names [COL_NAMES [COL_NAMES ...]]
+                        Column names - allows other args to reference col names rather than positions.
+                        If nothing is provided but the files have headers they will automatically be
+                        added to col_names with a couple of changes: all values are turned to
+                        lowercase, and spaces are replaced with underscores.
+    --variables [VARIABLES [VARIABLES ...]]
+                        Variables to reference with post-delta assignments.
+                        Typical examples are a batch_id, sequence starting num, or extract timestamp
+                        to insert into output recs.  The format is "<name>:<value>"
+    --already-sorted
+                        Causes program to bypass sorting step.
+    --already-uniq
+                        Causes program to bypass deduping step.
+    --temp-dir TEMP_DIR
+                        Used for temporary files.
+
+
+Output Control Options:
+
+    --dry-run           Performs most processing except for final changes.
+    --out-dir OUT_DIR
+                        Where the output files will be written.  Defaults to
+                        the directory of the second file.
+    --verbosity VERBOSITY Controls stdout detail level.  Valid values include:
+                        quiet, normal, high, or debug.
+
+
+{see: helpdoc.CSV_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Examples:
+    Example 1: Simple Comparison
+        $ gristle_differ -i file0.dat file1.dat --key-cols 0 2 --ignore-cols 19 22 33
+        In this case the two files are each sorted and deduped on columns 0 & 2, and
+        then all columns except 19, 22, and 33 are used for the comparison.
+        Produces the following files:
+        - file1.dat.insert
+        - file1.dat.delete
+        - file1.dat.same
+        - file1.dat.chgnew
+        - file1.dat.chgold
+    Example 2: Complex Operation
+        $ gristle_differ file0.dat file1.dat --config-fn ./foo.yml  \
+            --variables batchid:919 --variables pkid:82304
+        Produces the same output file names as example 1.
+        But in this case it gets the majority of its configuration items from the config
+        file ('foo.yml').  This could include key columns, comparison columns, ignore columns,
+        post-delta transformations, and other information.
+        The two variables options are used to pass in user-defined variables that can be
+        referenced by the post-delta transformations.
+        The batchid will get copied into a batch_id column for every file, and the pkid is a
+        sequence that will get incremented and used for new rows in the insert, delete and
+        chgnew files.
+    Many more examples can be found here:
+        https://github.com/kenfar/DataGristle/tree/master/examples/gristle_differ
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+        http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+    See gristle_differ on the wiki for the most thorough documentation here:
+        https://github.com/kenfar/DataGristle/wiki/gristle_differ
+"""
+import copy
+import csv
+import errno
+import logging
+import os
+from  os.path import exists, dirname, basename
+from pprint import pprint as pp
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import List, Union, Dict, Any, Tuple
+
+import datagristle.common       as comm
+from   datagristle.common  import abort
+import datagristle.configulator as configulator
+import datagristle.csvhelper    as csvhelper
+import datagristle.file_delta   as gdelta
+import datagristle.file_sorter  as gsorter
+import datagristle.file_deduper as gdeduper
+import datagristle.helpdoc      as helpdoc
+
+import jsonschema
+
+#Ignore SIG_PIPE and don't throw exceptions on it...
+#(http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+
+logging.basicConfig()
+
+
+
+def main():
+    """ runs all processes:
+            - gets args & config
+            - compares files
+            - writes counts
+    """
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, config = config_manager.get_config()
+    except EOFError:
+        sys.exit(errno.ENODATA) #61: empty file
+
+    # either file may be empty - but at least one must have data in it.
+    assert len(nconfig.infiles) == 2
+    if (os.path.getsize(nconfig.infiles[0]) == 0
+            and os.path.getsize(nconfig.infiles[1]) == 0):
+        return 1
+
+    config_manager.update_config('col_names', comm.get_best_col_names(config, nconfig.dialect))
+    config = config_manager.config
+    nconfig = config_manager.nconfig
+
+    file_delta = delta_runner(nconfig, nconfig.dialect)
+
+    if nconfig.verbosity in ('high', 'debug'):
+        print('')
+        print('Read Stats:')
+        print('   File0/oldfile records:  %d' % file_delta.old_read_cnt)
+        print('   File1/newfile records:  %d' % file_delta.new_read_cnt)
+        print('')
+        print('Write Stats:')
+        print('   *.delete records:       %d' % file_delta.out_counts.get('delete', 0))
+        print('   *.insert records:       %d' % file_delta.out_counts.get('insert', 0))
+        print('   *.same records:         %d' % file_delta.out_counts.get('same', 0))
+        print('   *.chgold records:       %d' % file_delta.out_counts.get('chgold', 0))
+        print('   *.chgnew records:       %d' % file_delta.out_counts.get('chgnew', 0))
+
+    return 0
+
+
+
+def delta_runner(nconfig,
+                 dialect: csvhelper.Dialect) -> gdelta.FileDelta:
+    """ sets up config items for delta class,
+        prepares input files,
+        instantiates delta class and runs comparison
+        removes temporary files
+    """
+    adj_temp_dir = nconfig.temp_dir or dirname(nconfig.infiles[1])
+    adj_out_dir = nconfig.out_dir  or dirname(nconfig.infiles[1])
+
+    #--- handle all key, compare and ignore logic --------------
+    def convert_cols(col_title: str,
+                     lookup_cols: List[Any]):
+        try:
+            off0 = comm.colnames_to_coloff0(nconfig.col_names, lookup_cols)
+        except (KeyError, ValueError, TypeError) as err:
+            msg1 = 'Column lookup list: %s' % ','.join([str(x) for x in lookup_cols])
+            msg2 = f'Column names known ({len(nconfig.col_names)}): %s' % ','.join(nconfig.col_names)
+            msg3 = 'Note that this is sometimes caused by an incorrect delimiter'
+            abort('Invalid config cols for %s: ' % col_title, ',   '.join((repr(err), msg1, msg2, msg3)))
+        return off0
+
+    keys_off0 = convert_cols('key_cols', nconfig.key_cols)
+    compare_off0 = convert_cols('compare_cols', nconfig.compare_cols)
+    ignore_off0 = convert_cols('ignore_cols', nconfig.ignore_cols)
+
+    delta = gdelta.FileDelta(adj_out_dir, dialect)
+    for col in keys_off0:
+        delta.set_fields('join', col)
+    for col in ignore_off0:
+        delta.set_fields('ignore', col)
+    for col in compare_off0:
+        delta.set_fields('compare', col)
+
+    for kv_pair in nconfig.variables:
+        key, value = kv_pair.split(':', 1)
+        delta.dass.set_special_values(key, value)
+
+    #--- handle all assignment logic --------------
+    if getattr(nconfig, 'assignments', None):
+        asgn_offsets = get_assign_with_offsets_for_names(nconfig.col_names,
+                                                         nconfig.assignments)
+        for asgn in asgn_offsets:
+            delta.dass.set_assignment(**asgn)
+
+    #--- calc any sequences that refer to old file: -------
+    delta.dass.set_sequence_starts(dialect, nconfig.infiles[0])
+
+    #--- sort & dedupe the two source files -----
+    f0_sorted_uniq_fn, _ = prep_file(nconfig.infiles[0],
+                                     dialect,
+                                     keys_off0,
+                                     adj_temp_dir,
+                                     adj_out_dir,
+                                     nconfig.already_sorted,
+                                     nconfig.already_uniq)
+    f1_sorted_uniq_fn, _ = prep_file(nconfig.infiles[1],
+                                     dialect,
+                                     keys_off0,
+                                     adj_temp_dir,
+                                     adj_out_dir,
+                                     nconfig.already_sorted,
+                                     nconfig.already_uniq)
+
+    #--- finally, run the comparison ---
+    delta.compare_files(f0_sorted_uniq_fn, f1_sorted_uniq_fn,
+                        dry_run=False)
+
+    #--- housekeeping ---
+    os.remove(f0_sorted_uniq_fn)
+    os.remove(f1_sorted_uniq_fn)
+
+    return delta
+
+
+def get_assign_with_offsets_for_names(col_names: List[str],
+                                      assign_config: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """ Return assignment config section after converting col names to offsets.
+
+    Args:
+        col_names: a list of column names
+        assign_config: assignment section of config structure
+    Returns:
+        copy of config - with colnames replaced with 0-offsets
+    Raises:
+        KeyError - if colname from config not in col_names
+                 - or if col position from config beyond col_name list
+    """
+    new_assign_config: List[Dict[str, Any]] = copy.deepcopy(assign_config)
+    for asgn in new_assign_config:
+        if asgn.get("src_field", None) is not None:
+            asgn["src_field"] = comm.colnames_to_coloff0(col_names, [asgn["src_field"]])[0]
+        if asgn.get("dest_field", None) is not None:
+            asgn["dest_field"] = comm.colnames_to_coloff0(col_names, [asgn["dest_field"]])[0]
+    return new_assign_config
+
+
+
+def prep_file(filename: str,
+              dialect: csvhelper.Dialect,
+              key_cols: List[int],
+              temp_dir: str,
+              out_dir: str,
+              already_sorted: bool,
+              already_uniq: bool) -> Tuple[str, int]:
+    """ Set up a file for the delta class comparison.
+
+    Args:
+        filename: name of input file
+        dialect:  csv dialect
+        key_cols: list of key columns, offsets only
+        temp_dir: used for sorting
+        out_dir:  directory used to write intermittent & prepared files
+        already_sorted: boolean, if True will skip sort
+        already_uniq: boolean, if True will skip deduping
+    Returns:
+        final_name: provides final name of prepared file
+        dups_removed: count of duplicates removed
+    Raises:
+        Multiple (see CSVSorter & CSVDeDuper
+    Misc:
+        - sorted_fn - ends in .sorted or .csv (if already-sorted)
+        - deduped_fn - ends in .uniq
+        - final_name - ends in .uniq or .csv (if already-sorted)
+    """
+    dups_removed = 0
+
+    # Sort the file if necessary
+    if already_sorted:
+        sorted_fn = filename
+    elif (dialect.quoting == csv.QUOTE_NONE
+          and dialect.escapechar is None
+          and dialect.doublequote is None
+          and dialect.has_header is False):
+        sorter = gsorter.CSVSorter(dialect, key_cols, temp_dir, out_dir) # type: ignore
+        sorted_fn = sorter.sort_file(filename)
+    else:
+        sorted_fn = filename + '.sorted'
+        sort_key_config = convert_key_offsets_to_sort_key_config(key_cols)
+        sorter = gsorter.CSVPythonSorter(in_fqfn=filename,         # type: ignore
+                                         out_fqfn=sorted_fn,
+                                         sort_keys_config=sort_key_config,
+                                         dialect=dialect,
+                                         dedupe=(not already_uniq),
+                                         keep_header=False)
+        sorter.sort_file()                             # type: ignore
+        sorter.close()                                 # type: ignore
+        dups_removed = sorter.stats['recs_deduped']    # type: ignore
+        already_uniq = True
+
+    # Dedupe the file if necessary
+    if already_uniq:
+        final_name = sorted_fn
+    else:
+        deduper = gdeduper.CSVDeDuper(dialect, key_cols, out_dir)
+        final_name, read_cnt, write_cnt = deduper.dedup_file(sorted_fn)
+        dups_removed = read_cnt - write_cnt
+        if sorted_fn != filename:
+            os.remove(sorted_fn)
+
+    return final_name, dups_removed
+
+
+
+def convert_key_offsets_to_sort_key_config(key_offsets):
+    keys = [f'{x}sf' for x in key_offsets]
+    sort_key_config = gsorter.SortKeysConfig(keys)
+    return sort_key_config
+
+
+
+class ConfigManager(configulator.Config):
+
+
+    def define_user_config(self) -> None:
+        """ Defines the user config or metadata.
+
+        Does not get the user input.
+        """
+        self.add_standard_metadata('infiles')
+
+        self.add_custom_metadata(name='key_cols',
+                                 short_name='k',
+                                 required=True,
+                                 default=[],
+                                 nargs='*',
+                                 type=list)
+        self.add_custom_metadata(name='compare_cols',
+                                 short_name='c',
+                                 default=[],
+                                 nargs='*',
+                                 type=list)
+        self.add_custom_metadata(name='ignore_cols',
+                                 default=[],
+                                 nargs='*',
+                                 type=list)
+        self.add_custom_metadata(name='col_names',
+                                 default=[],
+                                 nargs='*',
+                                 type=list)
+        self.add_custom_metadata(name='variables',
+                                 default=[],
+                                 nargs='*',
+                                 type=list)
+        self.add_custom_metadata(name='already_sorted',
+                                 action='store_const',
+                                 const=True,
+                                 default=False,
+                                 type=bool)
+        self.add_custom_metadata(name='already_uniq',
+                                 action='store_const',
+                                 const=True,
+                                 default=False,
+                                 type=bool)
+        self.add_custom_metadata(name='temp_dir',
+                                 default=None,
+                                 type=str)
+        self.add_custom_metadata(name='out_dir',
+                                 default=None,
+                                 type=str)
+        self.add_custom_metadata(name='assignments',
+                                 default=[],
+                                 type=list)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_config_configs()
+        self.add_all_csv_configs()
+        self.add_all_help_configs()
+
+
+
+    def validate_custom_config(self,
+                               config: configulator.CONFIG_TYPE):
+
+        config_schema = {'type': 'object',
+                         'properties': {
+                            'infiles':         {"type":     "array"},
+                            'temp_dir':        {},
+                            'out_dir':         {"type":     ["null", "string"]},
+                            'config_fn':       {},
+                            'gen_config_fn':   {},
+                            'col_names':       {},
+                            'key_cols':        {"type":     "array"},
+                            'ignore_cols':     {"type":     "array"},
+                            'compare_cols':    {"type":     "array"},
+                            'variables':       {"type":     "array"},
+                            'already_sorted':  {"type":     "boolean"},
+                            'already_uniq':    {"type":     "boolean"},
+                            'assignments':     {"type":     "array",
+                                                "properties": {
+                                                    "dest_file":       {"type":    "string"},
+                                                    "dest_field":      {"type":    "string"},
+                                                    "src_type":        {"type":    "string"},
+                                                    "src_val":         {"type":    "string"},
+                                                    "src_file":        {"type":    "string"},
+                                                    "src_field":       {"type":    "string"},
+                                                    "comments":        {"type":    "string"}}},
+                            'delimiter':       {"type":     ["null", "string"]},
+                            'has_header':      {'type':     ["null", "boolean"]},
+                            'recdelimiter':    {"type":     ["null", "string"]},
+                            'quoting':         {'type':     ["null", "string"],
+                                                "enum":     [None, "quote_none", "quote_all",
+                                                            "quote_minimal", "quote_nonnumeric"]},
+                            'quotechar':       {"type":     ["null", "string"]},
+                            'doublequote':     {"type":     ["null", "boolean"]},
+                            'escapechar':      {"type":     ["null", "string"]},
+                            'skipinitialspace': {"type":    ["null", "boolean"]},
+                            'verbosity':       {'type':     ["null", "string"],
+                                                "enum":     [None, 'quiet', 'normal', 'high', 'debug']},
+                            'dry_run':         {"type":     "boolean"},
+                            'long_help':       {"type":     ["null", "boolean"]},
+                            'help':            {"type":     ["null", "boolean"]},
+                            'version':         {"type":     "boolean"},
+                            },
+                        'additionalProperties': False,
+                        'required': []
+                        }
+        jsonschema.validate(instance=config, schema=config_schema)
+        config_bonus_validator(config)
+
+
+    def extend_config(self) -> None:
+        self.generate_csv_dialect_config()
+
+
+
+def config_bonus_validator(config: Dict[str, Any]) -> None:
+    """ Provide additional validation of config.
+
+    Purpose is to provide additional validation beyond what's done by JSON
+    Schema.  Generally either because we want a better message for a common
+    error or because that validation isn't able to be performed by JSON Schema.
+
+    Args:
+        config:  the configuration dictionary
+    Returns:
+        nothing
+    Raises:
+        sys.exit
+    """
+
+    if len(config['infiles']) != 2:
+        abort("Error: Two file names must be provided, what was found: %s" % config['infiles'])
+    elif not exists(config['infiles'][0]):
+        abort("Error: The first file does not exist: %s" % config['infiles'][0])
+    elif not exists(config['infiles'][1]):
+        abort("Error: The second file does not exist: %s" % config['infiles'][1])
+
+    if config['compare_cols'] and config['ignore_cols']:
+        abort("Error: Provide only one of compare_cols or ignore_cols, not both")
+
+    if len(list(set(config['ignore_cols']) & set(config['key_cols']))) > 0:
+        config['ignore_cols'] = [x for x in config['ignore_cols'] if x not in config['key_cols']]
+        print("Warning: some key-cols removed from ignore-cols")
+        print("Revised config['ignore_cols']: %s" % config.get('ignore_cols', None))
+    elif len(list(set(config['compare_cols']) & set(config['key_cols']))) > 0:
+        config['compare_cols'] = [x for x in config['compare_cols'] if x not in config['key_cols']]
+        print("Warning: some key-cols removed from compare-cols")
+        print("Revised config['compare_cols']: %s" % config.get('compare_cols', None))
+
+    for kv_pair in config['variables']:
+        if ':' not in kv_pair:
+            abort('Invalid variable: must be name:value.  Was: %s' % kv_pair)
+
+    if 'assignments' in config:
+        for assign in config['assignments']:
+            if isinstance(assign['src_field'], list):
+                abort('Assignment src_field must be a string (refers to col_name) '
+                      'or an integer - it is a list')
+            if isinstance(assign['dest_field'], list):
+                abort('Assignment dest_field must be a string (refers to col_name)'
+                      'or an integer - it is a list')
+
+
+if __name__ == '__main__':
+    sys.exit(main())
