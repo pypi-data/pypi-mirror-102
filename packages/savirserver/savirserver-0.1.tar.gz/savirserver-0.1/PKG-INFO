@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: savirserver
+Version: 0.1
+Summary: Created by Savir Singh in the Choonka Community. Go to https://choonka.pagekite.me/ for more.
+Home-page: https://github.com/choonka/savirserver
+Author: Savir Singh
+Author-email: savir.singh0308@gmail.com
+License: MIT
+Download-URL: https://github.com/choonka/savirserver/archive/refs/tags/v01.tar.gz
+Description: SavirServer (Official)
+        =============================
+        Easily attach your HTML files to a server.
+        
+        Video:
+        
+        https://www.youtube.com/watch?v=kK2cEvpy2GM&t=24s
+        
+        Channel:
+        
+        https://www.youtube.com/channel/UC2HL-s1fNE7h9LsEXIgTJTg
+        
+        Creators:
+        Savir Singh,
+        Choonka Community
+        
+        
+        You are not permitted to reproduce, share, or sell this Python module, without prior written permission from the creator, Savir Singh.
+        
+Keywords: savirserver,flask,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
