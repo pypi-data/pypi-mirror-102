@@ -1,0 +1,9 @@
+cvdupdate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvdupdate/__main__.py,sha256=WrYSbxoxx-JioUuFEzB0pOccrWrRZNemDf8L9hROPzk,9350
+cvdupdate/cvdupdate.py,sha256=vbX0saBpY2hRcYIuMkWHjTU8Jkp1Ee-dB6IzJIL7M9s,41495
+cvdupdate-1.0.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+cvdupdate-1.0.1.dist-info/METADATA,sha256=rmPR7nvKOGND_7f0XOzj09Ls01JehQOrYuWr3pzffIw,12934
+cvdupdate-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cvdupdate-1.0.1.dist-info/entry_points.txt,sha256=2o0Eh-ofwfHF4dZ0PpaOT04W73UMhnPPRzy3SDpVr3Q,83
+cvdupdate-1.0.1.dist-info/top_level.txt,sha256=8jglMtB6xnQmskPn1vw7_LPEA_n_bTAKFpmOVdZwy1g,10
+cvdupdate-1.0.1.dist-info/RECORD,,
