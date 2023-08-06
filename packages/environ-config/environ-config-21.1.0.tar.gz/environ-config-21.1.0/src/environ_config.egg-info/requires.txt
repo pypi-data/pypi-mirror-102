@@ -1,0 +1,19 @@
+attrs>=17.4.0
+
+[:python_version < "3.0"]
+configparser
+
+[dev]
+pytest
+coverage[toml]
+sphinx
+furo
+pre-commit
+
+[docs]
+sphinx
+furo
+
+[tests]
+pytest
+coverage[toml]
