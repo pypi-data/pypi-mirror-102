@@ -1,0 +1,3 @@
+[console_scripts]
+trie=triehard.cli:main
+
