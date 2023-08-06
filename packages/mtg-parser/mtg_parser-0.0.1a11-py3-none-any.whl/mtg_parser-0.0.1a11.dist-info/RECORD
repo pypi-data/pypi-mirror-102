@@ -1,0 +1,15 @@
+mtg_parser/__init__.py,sha256=qT9_G95DjUbYzcp4d_XeHltLXKVMV2yHfaenSmozK3I,486
+mtg_parser/archidekt.py,sha256=nkD4iNV4YWmmlnBy-IibSXAWlqNg2ooJK3CQUy3PA58,1506
+mtg_parser/decklist.py,sha256=tIwqJZi6Bm-H30LmRrqY3oYD7S3bgppwOa1nqM4VWp8,1294
+mtg_parser/deckstats.py,sha256=S7BznyH5wIMo6J4R49TCgyh_gJVn2CB3yDK-Z6Y2SoQ,1183
+mtg_parser/diff.py,sha256=t6aChopJ9a30x88BTQ8wCbTEAuEi6LmnWFiUsOgFQUw,473
+mtg_parser/grammar.py,sha256=kmqtHDp0DMvyWcewbNd-rTIygLlCs2QtyXrH5THXCrU,1531
+mtg_parser/moxfield.py,sha256=Tc4fxJ5FTtzaaW_xZEk33X0dR3_eTH4CtVuBXbjNxH4,1266
+mtg_parser/mtggoldfish.py,sha256=IsaD-cFmdHBvmW4kILDOJ12TLxDHSO432vdnQfJ6d_w,1440
+mtg_parser/parser.py,sha256=L3G-CacvlTInamnJUpcrQ92XZug_eq2JaK3etShnVWY,835
+mtg_parser/tappedout.py,sha256=_VYtFHFqu7JkV-2w0IQTtKbSdvRzb4dhn5dKvBwH9H0,708
+mtg_parser/utils.py,sha256=FqE0ROR5GNMr-1PCVNDaRCUAn_dLmYg0wNRi_RsIPvE,1042
+mtg_parser-0.0.1a11.dist-info/LICENSE,sha256=1eCNwXuFBAaQVD7NV7-1A7lXWaxarkl640qBzPl5sgc,1074
+mtg_parser-0.0.1a11.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mtg_parser-0.0.1a11.dist-info/METADATA,sha256=gCBQI69iRNpBioP_Wox7VRwr2d6qViId5IRq_LJyJSU,1224
+mtg_parser-0.0.1a11.dist-info/RECORD,,
