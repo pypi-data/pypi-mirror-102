@@ -1,0 +1,8 @@
+README.md
+setup.py
+storegames_scraper/__init__.py
+storegames_scraper.egg-info/PKG-INFO
+storegames_scraper.egg-info/SOURCES.txt
+storegames_scraper.egg-info/dependency_links.txt
+storegames_scraper.egg-info/requires.txt
+storegames_scraper.egg-info/top_level.txt
