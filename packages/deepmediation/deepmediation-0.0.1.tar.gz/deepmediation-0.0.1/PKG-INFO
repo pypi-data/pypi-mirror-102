@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: deepmediation
+Version: 0.0.1
+Summary: Deep-mediation: a new approach towards high-dimensional mediation analysis
+Home-page: https://github.com/meet10may/deepmediation
+Author: Tanmay Nath
+Author-email: tnath3@jhu.edu
+License: UNKNOWN
+Description: # deep-mediation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
