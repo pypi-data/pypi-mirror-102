@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sinus/__init__.py
+sinus.egg-info/PKG-INFO
+sinus.egg-info/SOURCES.txt
+sinus.egg-info/dependency_links.txt
+sinus.egg-info/top_level.txt
