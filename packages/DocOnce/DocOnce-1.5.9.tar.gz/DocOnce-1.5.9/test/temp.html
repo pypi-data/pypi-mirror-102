@@ -1,0 +1,653 @@
+<!--
+HTML file automatically generated from DocOnce source
+(https://github.com/doconce/doconce/)
+doconce format html temp.html temp reveal --html_slide_theme=solarized --html_slide_transition=slide
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/doconce/doconce/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Minimal slide demo">
+<title>Minimal slide demo</title>
+
+<!-- reveal.js: https://lab.hakim.se/reveal-js/ -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+<link rel="stylesheet" href="reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+<!--
+<link rel="stylesheet" href="reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/css/theme/beige.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/beigesmall.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/night.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/moon.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/sky.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/darkgray.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/default.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/cbc.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/simula.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+-->
+
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+<script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+
+<style type="text/css">
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-size: 60%; font-style: italic; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.reveal .alert-text-small   { font-size: 80%;  }
+.reveal .alert-text-large   { font-size: 130%; }
+.reveal .alert-text-normal  { font-size: 90%;  }
+.reveal .alert {
+  padding:8px 35px 8px 14px; margin-bottom:18px;
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  border:5px solid #bababa;
+  -webkit-border-radius: 14px; -moz-border-radius: 14px;
+  border-radius:14px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 38px;
+  padding-left: 30px; /* 55px; if icon */
+}
+.reveal .alert-block {padding-top:14px; padding-bottom:14px}
+.reveal .alert-block > p, .alert-block > ul {margin-bottom:1em}
+/*.reveal .alert li {margin-top: 1em}*/
+.reveal .alert-block p+p {margin-top:5px}
+/*.reveal .alert-notice { background-image: url(https://hplgit.github.io/doconce/bundled/html_images/small_gray_notice.png); }
+.reveal .alert-summary  { background-image:url(https://hplgit.github.io/doconce/bundled/html_images/small_gray_summary.png); }
+.reveal .alert-warning { background-image: url(https://hplgit.github.io/doconce/bundled/html_images/small_gray_warning.png); }
+.reveal .alert-question {background-image:url(https://hplgit.github.io/doconce/bundled/html_images/small_gray_question.png); } */
+/* Override reveal.js table border */
+.reveal table td {
+  border: 0;
+}
+
+<style type="text/css">
+/* Override h1, h2, ... styles */
+h1 { font-size: 2.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h1, h2, h3, h4 { font-weight: bold; line-height: 1.2; }
+body { overflow: auto; } /* vertical scrolling */
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-size: 60%; font-style: italic; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.slide .alert-text-small   { font-size: 80%;  }
+.slide .alert-text-large   { font-size: 130%; }
+.slide .alert-text-normal  { font-size: 90%;  }
+.slide .alert {
+  padding:8px 35px 8px 14px; margin-bottom:18px;
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  border:5px solid #bababa;
+    -webkit-border-radius:14px; -moz-border-radius:14px;
+  border-radius:14px
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 38px;
+  padding-left: 30px; /* 55px; if icon */
+}
+.slide .alert-block {padding-top:14px; padding-bottom:14px}
+.slide .alert-block > p, .alert-block > ul {margin-bottom:0}
+/*.slide .alert li {margin-top: 1em}*/
+.deck .alert-block p+p {margin-top:5px}
+/*.slide .alert-notice { background-image: url(https://hplgit.github.io/doconce/
+bundled/html_images//small_gray_notice.png); }
+.slide .alert-summary  { background-image:url(https://hplgit.github.io/doconce/
+bundled/html_images//small_gray_summary.png); }
+.slide .alert-warning { background-image: url(https://hplgit.github.io/doconce/
+bundled/html_images//small_gray_warning.png); }
+.slide .alert-question {background-image:url(https://hplgit.github.io/doconce/
+bundled/html_images/small_gray_question.png); } */
+.table table, .table th, .table tr, .table tr td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+</style>
+
+
+<!-- Styles for table layout of slides -->
+<style type="text/css">
+td.padding {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:50px;
+  padding-left:50px;
+}
+</style>
+
+</head>
+
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "none"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+
+<section>
+<!-- ------------------- main content ---------------------- -->
+<center>
+<h1 style="text-align: center;">Minimal slide demo</h1>
+</center>  <!-- document title -->
+
+<!-- author(s): Some Author, and Some Author2 -->
+<center>
+<b>Some Author</b> [1]
+</center>
+<center>
+<b>Some Author2</b> [2, 3] (<tt>someemail at site.net</tt>)
+</center>
+<!-- institution(s) -->
+<center>
+[1] <b>UiO</b>
+</center>
+<center>
+[2] <b>institution1</b>
+</center>
+<center>
+[3] <b>institution2</b>
+</center>
+<br>
+<center>
+<h4>Apr 15, 2021</h4>
+</center> <!-- date -->
+<br>
+<h1 id="table_of_contents">Table of contents</h1>
+
+<div class='toc'>
+<p><a href="#commands-to-be-commented-out"> Commands to be commented out </a></p>
+<p><a href="#chapters-and-sections"> Chapters and Sections </a></p>
+<p><span class="tab"> <a href="#sec1"> Section 1 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#subsec1"> Subsection 1 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#subsection"> subsection </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#media"> Media </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#inline-tags"> Inline Tags </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#inline-tags-2"> Inline Tags 2 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#commands"> Commands </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#code"> Code </a></p>
+<p><span class="tab"> <a href="#blocks"> Blocks </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#references"> References </a></p>
+</div>
+<br>
+</section>
+
+<section>
+<center>
+<h1 id="commands-to-be-commented-out">Commands to be commented out </h1>
+</center> <hr>
+
+<table border="0">
+<tr>
+<td class="padding">
+<ul>
+ <p><li> Scope</li>
+ <p><li> Focus</li>
+ <p><li> Approach</li>
+</ul>
+<p>
+</td>
+<td class="padding">
+<br /><br /><center>
+<p><img src="https://openclipart.org/people/jpneok/junebug.svg" align="bottom" width=200></p>
+</center>
+<br /><br/>
+</td>
+</tr>
+</table>
+
+
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Methods are slow or fast:</b>
+<p>
+<ul>
+ <p><li class="fragment"> Slow:</li>
+<ul>
+
+<p><li class="fragment"> Pick-and-choose</li>
+</ul>
+<p>
+ <p><li class="fragment"> Fast:</li>
+<ul>
+
+<p><li class="fragment"> Quickstep</li>
+
+<p><li class="fragment"> MMST</li>
+</ul>
+<p>
+</ul>
+</div>
+</section>
+
+<section>
+<center>
+<h1 id="chapters-and-sections">Chapters and Sections </h1>
+</center> <hr>
+<h1 id="sec1">Section 1</h1>
+<h2 id="subsec1">Subsection 1</h2>
+
+<p>
+<b>Abstract.</b> on two 
+lines
+</p>
+<h2 id="subsection">subsection </h2>
+<h3 id="subsubsection">subsubsection </h3>
+<p>Horizontal rule:
+<hr>
+</p>
+</section>
+
+<section>
+<h2 id="media">Media </h2>
+
+<center> <!-- figure label: --> <div id="myfig"></div> <!-- FIGURE -->
+<hr class="figure">
+<center>
+<p class="caption">Figure 1:  Results for \( a=2 \).  <!-- caption label: myfig --> </p>
+</center>
+<p><img src="https://openclipart.org/people/jpneok/junebug.svg" align="bottom" width=200></p>
+</center>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/P8VcZzgdfSc" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section>
+<h2 id="inline-tags">Inline Tags </h2>
+<p>normal text on top</p>
+
+<p>This text has one,
+two,
+three lines
+</p>
+
+<p>Inline Mathematics: \( a^2=\sin(x) \).</p>
+<p>
+<b>Paragraph with running..</b>
+text</p>
+<p>
+<b>Only Paragraph.</b>
+Some <em>Italics</em> with text
+<em>Only</em> *Italics*
+<em>italics</em>-with hyphen-<em>emphasis</em>
+</p>
+
+<p>Some <b>Bold</b> with text
+<b>Only Bold</b>
+<em>Bold</em>-with hyphen-<em>Bold</em>
+</p>
+
+<p>
+<b>No newline after this.</b>
+The text continues on two more 
+lines. 
+</p>
+
+<p>more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text </p>
+
+<p>blank line, even more text</p>
+</section>
+
+<section>
+<h2 id="inline-tags-2">Inline Tags 2 </h2>
+<p>inline comment here 
+<!-- begin inline comment -->
+<font color="red">(<b>Alessandro 1</b>: has a comment)</font>
+<!-- end inline comment -->
+<h3 id="subsubsection">Subsubsection </h3>
+text with a line-<br />
+break
+normal text
+</p>
+
+<p>url with verbatim:
+<a href="https://doconce.github.io/doconce/doc/pub/manual/manual.html" target="_self"><tt>verbatim</tt></a>
+</p>
+
+<p>non-breaking space using tilde: 7.4&nbsp;km</p>
+
+<p>Guns &amp; Roses</p>
+
+<p>Texas A&amp;M</p>
+
+<p>emoji: <img src="https://raw.githubusercontent.com/hplgit/doconce/master/bundled/emoji/png/smile.png" width="22px" height="22px" align="center"> </p>
+
+<p>test footnotes [<a id="link_footnote_1" href="#def_footnote_1">1</a>]</p>
+
+<p id="def_footnote_1"><a href="#link_footnote_1"><b>1:</b></a> Typesetting of the footnote depends on the format.</p>
+</section>
+
+<section>
+<h2 id="commands">Commands </h2>
+<p>a ref: <a href="#myfig">1</a></p>
+
+<p>Here is a citation using cite: <a href="#Langtangen_Pedersen_2002">[1]</a> 
+Four citations: <a href="#Langtangen_1992c">[2]</a> <a href="#Langtangen_1994a">[3]</a> <a href="#Mortensen_et_al_2011">[4]</a> <a href="#Langtangen_Pedersen_2002">[1]</a>
+</p>
+
+<b>nested list:TODO</b>
+
+<ul>
+
+<p><li> item1</li>
+
+<p><li> item2</li>
+
+<p><li> item3 which continues on the next line to test that feature</li>
+
+<p><li> and a sublist</li>
+<ul>
+
+<p><li> with indented subitem1</li>
+
+<p><li> and a subitem2</li>
+</ul>
+<p>
+
+<p><li> and perhaps an ordered sublist
+<ol type="a"></li>
+
+<p><li> first item</li>
+
+<p><li> second item, continuing on a new line</li>
+</ol>
+<p>
+  <dt>keyword1:<dd> 
+<p>    TODO explanation of keyword1</p>
+  <dt>keyword2:<dd> 
+<p>    explanation of keyword2</p>
+</ul>
+<p>
+<b>tables</b>
+
+<table class="table" border="1">
+<thead>
+<tr><th align="center">time</th> <th align="center">velocity</th> <th align="center">acceleration</th> </tr>
+</thead>
+<tbody>
+<tr><td align="left">   0.0     </td> <td align="right">   1.4186      </td> <td align="right">   -5.01           </td> </tr>
+<tr><td align="left">   2.0     </td> <td align="right">   1.376512    </td> <td align="right">   11.919          </td> </tr>
+</tbody>
+</table>
+</section>
+
+<section>
+<h2 id="code">Code </h2>
+<p>Verbatim above <code>pycod -t</code></p>
+
+<!-- code=python (!bc pycod) typeset with pygments style "default" -->
+<div class="cell border-box-sizing code_cell rendered">
+  <div class="input">
+    <div class="inner_cell">
+      <div class="input_area">
+        <div class="highlight" style="background: #f8f8f8">
+  <pre style="font-size: 80%; line-height: 125%;">total <span style="color: #666666">=</span> <span style="color: #666666">0</span>
+</pre>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="output_wrapper">
+    <div class="output">
+      <div class="output_area">
+        <div class="output_subarea output_stream output_stdout output_text">          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>Verbatim below <code>pycod -t</code></p>
+</section>
+
+<section>
+<h1 id="blocks">Blocks </h1>
+
+<p>
+<b>!bquote</b>
+A quote:
+</p>
+
+<blockquote>
+
+<p>Sayre's law states that
+    &quot;in any dispute the intensity of feeling is inversely
+    proportional to the value of the issues at stake.&quot; <br />
+    By way of corollary, it adds: <br />
+    &quot;That is why academic politics are so bitter.&quot; <br />
+    <em>Source</em>: <a href="https://en.wikipedia.org/wiki/Sayre's_law" target="_self">wikipedia</a>
+    </p>
+</blockquote>
+
+<p>
+<b>!bbox and !bt.</b>
+</p>
+
+<!-- begin box -->
+<div style="width: 95%; padding: 10px; border: 1px solid #000; border-radius: 4px;">
+<p>A generic equation</p>
+
+<p>&nbsp;<br>
+$$ f(x) = 0 $$
+<p>&nbsp;<br>
+
+<p>must be solved by a numerical method, such as</p>
+
+<ul>
+ <p><li> Newton's method</li>
+ <p><li> The Bisection method</li>
+ <p><li> Fixed-point (Picard) iteration by rewriting \( f(x)=x - g(x) \)</li>
+ <p><li> The Secant method</li>
+</ul>
+</div>
+<!-- end box -->
+
+<p>
+<b>!bwarning.</b>
+</p>
+<div class="alert alert-block alert-warning alert-text-large">
+<b>Watch out for \( \nabla\cdot\boldsymbol{u}=0 \) equations</b>
+<p>
+<p>Divergence freedom is often problematic from a numerical point
+of view.
+</p>
+</div>
+<h2 id="references">References </h2>
+
+<!-- begin bibliography -->
+<ol>
+ <p><li> <div id="Langtangen_Pedersen_2002"></div> <b>H. P. Langtangen and G. Pedersen</b>.  Propagation of Large Destructive Waves, <em>International Journal of Applied Mechanics and Engineering</em>, 7(1), pp. 187-204, 2002.</li>
+ <p><li> <div id="Langtangen_1992c"></div> <b>H. P. Langtangen</b>.  Stochastic Breakthrough Time Analysis of an Enhanced Oil Recovery Process, <em>SIAM Journal on Scientific Computing</em>, 13, pp. 1394-1417, 1992.</li>
+ <p><li> <div id="Langtangen_1994a"></div> <b>H. P. Langtangen</b>.  Numerical Solution of First Passage Problems in Random Vibrations, <em>SIAM Journal of Scientific and Statistical Computing</em>, 15, pp. 997-996, 1994.</li>
+ <p><li> <div id="Mortensen_et_al_2011"></div> <b>M. Mortensen, H. P. Langtangen and G. N. Wells</b>.  A FEniCS-Based Programming Framework for Modeling Turbulent Flow by the Reynolds-Averaged Navier-Stokes Equations, <em>Advances in Water Resources</em>, 34(9), <a href="https://dx.doi.org/10.1016/j.advwatres.2011.02.013" target="_self">doi: 10.1016/j.advwatres.2011.02.013</a>, 2011.</li>
+</ol>
+<p>
+<!-- end bibliography -->
+</section>
+
+
+
+</div> <!-- class="slides" -->
+</div> <!-- class="reveal" -->
+
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+  // Display navigation controls in the bottom right corner
+  controls: true,
+
+  // Display progress bar (below the horiz. slider)
+  progress: true,
+
+  // Display the page number of the current slide
+  slideNumber: true,
+
+  // Push each slide change to the browser history
+  history: false,
+
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+
+  // Enable the slide overview mode
+  overview: true,
+
+  // Vertical centering of slides
+  //center: true,
+  center: false,
+
+  // Enables touch navigation on devices with touch input
+  touch: true,
+
+  // Loop the presentation
+  loop: false,
+
+  // Change the presentation direction to be RTL
+  rtl: false,
+
+  // Turns fragments on and off globally
+  fragments: true,
+
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+
+  // Transition style
+  transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+  // Transition speed
+  transitionSpeed: 'default', // default/fast/slow
+
+  // Transition style for full page slide backgrounds
+  backgroundTransition: 'default', // default/none/slide/concave/convex/zoom
+
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+
+  // Parallax background image
+    //parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+  // Parallax background size
+  //parallaxBackgroundSize: '' // CSS syntax, e.g. "2100px 900px"
+
+  theme: Reveal.getQueryHash().theme, // available themes are in reveal.js/css/theme
+    transition: Reveal.getQueryHash().transition || 'slide', // default/cube/page/concave/zoom/linear/none
+
+});
+
+Reveal.initialize({
+  dependencies: [
+      // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+      // Interpret Markdown in <section> elements
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+      // Syntax highlight for <code> elements
+      { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+      // Zoom in and out with Alt+click
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+
+      // Speaker notes
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+      // MathJax
+      //{ src: 'reveal.js/plugin/math/math.js', async: true }
+  ]
+});
+
+Reveal.initialize({
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 1170,  // original: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.0
+
+});
+</script>
+
+<!-- begin footer logo
+<div style="position: absolute; bottom: 0px; left: 0; margin-left: 0px">
+<img src="somelogo.png">
+</div>
+   end footer logo -->
+
+
+
+
+</body>
+</html>

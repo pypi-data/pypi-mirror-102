@@ -1,0 +1,134 @@
+# Automatic execution of code blocks
+
+Convert this document to `ipynb`, `latex` or `html` with e.g.:
+
+
+~~~
+doconce format ipynb execute.do.txt --execute
+~~~
+
+This is a normal python block using the `pycod` environment
+
+~~~{.Python}
+print('pycod')
+~~~
+
+This is a normal bash block using the `sh` environment
+
+~~~
+if [ 1 -eq 0 ] ; then echo 1; fi
+~~~
+
+Hidden execution cells (`pyhid`, `pycod-e`) can be used to perform operations (e.g. imports, variable initializations) without showing any cell.  
+The `pyhid` environment executes and hides the cell in formats other than .ipynb:
+
+
+
+The `pycod-e` environment executes but hides the cell also in .ipynb files:
+
+~~~{.Python}
+import os
+os.listdir(".")
+a = 1
+print('hide pycod-e')
+~~~
+
+`pycod` is a normal cell that should execute automatically when using `--execute`. Note that this cells relies on code executed in a previous hidden cell:
+
+~~~{.Python}
+print(sys.version)
+b = 2
+c = a + b
+print("The result is {}".format(c))
+c
+~~~
+
+<!-- !split -->
+## Special environments
+
+The `*-t` environment (e.g. `pycod-t`) formats a cell to text, and can be used to print an example
+
+~~~{.Python}
+# This is a for-loop example
+for i in [0,10]:
+  print(i)
+~~~
+
+The `*out`  (e.g. `pycod-out`) environment can be used to write a cell output:
+
+~~~{.Python}
+# This is a text cell using pycod-t
+1/0
+~~~
+
+~~~
+# This is a output cell using the `pycod-out` environment
+1/0: You cannot divide by zero
+~~~
+
+The `-h` postfix can be used in the `html` format to show a Show/Hide button that toggles the code visibility. 
+
+The `pyscpro` environment creates an interactive cell using [Sage](https://github.com/sagemath/sagecell/) in the `html` format
+
+<!-- !split -->
+## Plotting
+
+This is a cell that should plot and output:
+
+
+~~~{.Python}
+from pylab import *
+x = linspace(0, 10, 100)
+plot(x, x*x)
+show()
+~~~
+
+To improve quality when exporting to LaTeX, the following code has automatically
+been run to enable PDF export in notebooks.
+
+
+~~~{.Python}
+from IPython.display import set_matplotlib_formats
+set_matplotlib_formats('png', 'pdf')
+~~~
+
+<!-- !split -->
+## Ignore output
+
+Predefined output can be omitted by passing `--ignore_output` to DocOnce.
+This will remove all environments ending with `out`.
+
+
+~~~{.Python}
+a = 2
+print(a)
+~~~
+
+~~~
+2
+~~~
+
+<!-- !split -->
+## Code with errors
+
+If code contains errors, it will still be run and the exception shown as part
+of the output:
+
+
+~~~{.Python}
+for a in range(10)
+    print(a)
+~~~
+
+<!-- !split -->
+## Opening files
+
+The working directory is the same as the .do.txt file.
+You may want to use `os.chdir` to change the directory.
+
+
+~~~{.Python}
+with open("../LICENSE") as f:
+    print(f.read())
+~~~
+

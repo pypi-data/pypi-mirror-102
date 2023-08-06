@@ -1,0 +1,492 @@
+<!--
+HTML file automatically generated from DocOnce source
+(https://github.com/doconce/doconce/)
+doconce format html first.do.txt --examples_as_exercises --html_output=temp
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/doconce/doconce/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Minimal slide demo">
+<title>Minimal slide demo</title>
+<style type="text/css">
+/* blueish style */
+body {
+  margin-top: 1.0em;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, FreeSans, san-serif;
+  color: #000000;
+}
+h1 { font-size: 1.8em; color: #1e36ce; }
+h2 { font-size: 1.6em; color: #1e36ce; }
+h3 { font-size: 1.4em; color: #1e36ce; }
+h4 { font-size: 1.2em; color: #1e36ce; }
+a { color: #1e36ce; text-decoration:none; }
+tt { font-family: "Courier New", Courier; }
+p { text-indent: 0px; }
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-style: normal; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa; }
+/* pre style removed because it will interfer with pygments */
+div.highlight {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    line-height: 1.21429em;
+}
+div.cell {
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    margin: 0;
+    outline: none;
+}
+div.input {
+    page-break-inside: avoid;
+    box-orient: horizontal;
+    box-align: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+div.inner_cell {
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-flex: 1;
+    flex: 1;
+}
+div.input_area {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    background: #f7f7f7;
+    line-height: 1.21429em;
+}
+div.input_area > div.highlight {
+    margin: .4em;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+div.output_wrapper {
+    position: relative;
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.output {
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+div.output_area {
+    padding: 0;
+    page-break-inside: avoid;
+    box-orient: horizontal;
+    box-align: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+div.output_subarea {
+    padding: .4em .4em 0 .4em;
+    box-flex: 1;
+    flex: 1;
+}
+div.output_text {
+    text-align: left;
+    color: #000;
+    line-height: 1.21429em;
+}
+.alert-text-small   { font-size: 80%;  }
+.alert-text-large   { font-size: 130%; }
+.alert-text-normal  { font-size: 90%;  }
+.alert {
+  padding:8px 35px 8px 14px; margin-bottom:18px;
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  border:1px solid #bababa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  color: #555;
+  background-color: #f8f8f8;
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  background-size: 38px;
+  padding-left: 55px;
+  width: 75%;
+ }
+.alert-block {padding-top:14px; padding-bottom:14px}
+.alert-block > p, .alert-block > ul {margin-bottom:1em}
+.alert li {margin-top: 1em}
+.alert-block p+p {margin-top:5px}
+.alert-notice { background-image: url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_notice.png); }
+.alert-summary  { background-image:url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_summary.png); }
+.alert-warning { background-image: url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_warning.png); }
+.alert-question {background-image:url(https://cdn.rawgit.com/doconce/doconce/master/bundled/html_images/small_gray_question.png); }
+div { text-align: justify; text-justify: inter-word; }
+.tab {
+  padding-left: 1.5em;
+}
+div.toc p,a {
+  line-height: 1.3;
+  margin-top: 1.1;
+  margin-bottom: 1.1;
+}
+</style>
+</head>
+
+<!-- tocinfo
+{'highest level': 0,
+ 'sections': [('Table of contents',
+               0,
+               'table_of_contents',
+               'table_of_contents'),
+              ('Commands to be commented out',
+               0,
+               None,
+               'commands-to-be-commented-out'),
+              ('Chapters and Sections', 0, None, 'chapters-and-sections'),
+              ('Section 1', 1, 'sec1', 'sec1'),
+              ('Subsection 1', 2, 'subsec1', 'subsec1'),
+              ('subsection', 2, None, 'subsection'),
+              ('subsubsection', 3, None, 'subsubsection'),
+              ('Media', 2, None, 'media'),
+              ('Inline Tags', 2, None, 'inline-tags'),
+              ('Inline Tags 2', 2, None, 'inline-tags-2'),
+              ('Subsubsection', 3, None, 'subsubsection'),
+              ('Commands', 2, None, 'commands'),
+              ('Code', 2, None, 'code'),
+              ('Blocks', 1, None, 'blocks'),
+              ('References', 2, None, 'references')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<!-- ------------------- main content ---------------------- -->
+<center>
+<h1>Minimal slide demo</h1>
+</center>  <!-- document title -->
+
+<!-- author(s): Some Author, and Some Author2 -->
+<center>
+<b>Some Author</b> [1]
+</center>
+<center>
+<b>Some Author2</b> [2, 3] (<tt>someemail at site.net</tt>)
+</center>
+<!-- institution(s) -->
+<center>
+[1] <b>UiO</b>
+</center>
+<center>
+[2] <b>institution1</b>
+</center>
+<center>
+[3] <b>institution2</b>
+</center>
+<br>
+<center>
+<h4>Apr 13, 2021</h4>
+</center> <!-- date -->
+<br>
+<h1 id="table_of_contents">Table of contents</h1>
+
+<div class='toc'>
+<p><a href="#commands-to-be-commented-out"> Commands to be commented out </a></p>
+<p><a href="#chapters-and-sections"> Chapters and Sections </a></p>
+<p><span class="tab"> <a href="#sec1"> Section 1 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#subsec1"> Subsection 1 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#subsection"> subsection </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#media"> Media </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#inline-tags"> Inline Tags </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#inline-tags-2"> Inline Tags 2 </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#commands"> Commands </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#code"> Code </a></p>
+<p><span class="tab"> <a href="#blocks"> Blocks </a></p>
+<p><span class="tab"> <span class="tab"> <a href="#references"> References </a></p>
+</div>
+<br>
+
+<!-- !split -->
+<p>two inline tags in same line. .. for simple layout and
+<a href="http://doconce.github.io/teamods/doconce/demo/demo_blue_shadow.pdf" target="_self"><code>shadow</code></a>
+for shadowed boxes and more visual structure in the slides.</p>
+
+<!-- !split -->
+<center>
+<h1 id="commands-to-be-commented-out">Commands to be commented out </h1>
+</center> <hr>
+<!-- !bslidecell 00 0.4 -->
+<ul>
+ <li> Scope</li>
+ <li> Focus</li>
+ <li> Approach</li>
+</ul>
+<!-- !eslidecell -->
+<!-- !bslidecell 01 0.6 -->
+<br /><br /><center>
+<p><img src="https://openclipart.org/people/jpneok/junebug.svg" align="bottom" width=200></p>
+</center>
+<br /><br/>
+<!-- !eslidecell -->
+
+<div class="alert alert-block alert-block alert-text-normal">
+<b>Methods are slow or fast:</b>
+<p>
+<!-- !bpop -->
+<ul>
+ <li> Slow:</li>
+<ul>
+   <li> Pick-and-choose</li>
+</ul>
+ <li> Fast:</li>
+<ul>
+   <li> Quickstep</li>
+   <li> MMST</li>
+</ul>
+</ul>
+<!-- !epop -->
+</div>
+
+
+<!-- !split -->
+<center>
+<h1 id="chapters-and-sections">Chapters and Sections </h1>
+</center> <hr>
+<p>TODO?: title and TOC headers collide
+TODO? Chapter has an issue here related to css in deck slides. It is this html code
+<code>&lt;center&gt;&lt;/p&gt;
+&lt;h1 id=&quot;chapter&quot;&gt;chapter &lt;/h1&gt;
+&lt;p&gt;&lt;/center&gt; &lt;hr&gt;
+</code></p>
+<h1 id="sec1">Section 1</h1>
+<h2 id="subsec1">Subsection 1</h2>
+
+<p>
+<b>Abstract.</b> on two 
+lines</p>
+<h2 id="subsection">subsection </h2>
+<h3 id="subsubsection">subsubsection </h3>
+<p>Horizontal rule:
+<hr>
+</p>
+
+<!-- !split -->
+<h2 id="media">Media </h2>
+
+<center> <!-- figure label: --> <div id="myfig"></div> <!-- FIGURE -->
+<hr class="figure">
+<center>
+<p class="caption">Figure 1:  Results for \( a=2 \).  <!-- caption label: myfig --> </p>
+</center>
+<p><img src="https://openclipart.org/people/jpneok/junebug.svg" align="bottom" width=200></p>
+</center>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/P8VcZzgdfSc" frameborder="0" allowfullscreen></iframe>
+
+<!-- !split -->
+<h2 id="inline-tags">Inline Tags </h2>
+<p>normal text on top</p>
+
+<p>This text has one,
+two,
+three lines</p>
+
+<p>Inline Mathematics: \( a^2=\sin(x) \).</p>
+<p>
+<b>Paragraph with running..</b>
+text</p>
+<p>
+<b>Only Paragraph.</b>
+Some <em>Italics</em> with text
+<em>Only Italics</em>
+Some <b>Bold</b> with text
+<b>Only Bold</b>
+</p>
+
+<p>
+<b>No newline after this.</b>
+The text continues on two more 
+lines. </p>
+
+<p>more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text more text </p>
+
+<p>blank line, even more text</p>
+
+<!-- !split -->
+<h2 id="inline-tags-2">Inline Tags 2 </h2>
+<p>inline comment here 
+<!-- begin inline comment -->
+<font color="red">(<b>Alessandro 1</b>: has a comment)</font>
+<!-- end inline comment -->
+<h3 id="subsubsection">Subsubsection </h3>
+text with a line-<br />
+break
+normal text</p>
+
+<p>non-breaking space using tilde: 7.4&nbsp;km</p>
+
+<p>Guns &amp; Roses</p>
+
+<p>Texas A&amp;M</p>
+
+<p>emoji: <img src="https://raw.githubusercontent.com/hplgit/doconce/master/bundled/emoji/png/smile.png" width="22px" height="22px" align="center"> </p>
+
+<p>test footnotes [<a id="link_footnote_1" href="#def_footnote_1">1</a>]</p>
+
+<p id="def_footnote_1"><a href="#link_footnote_1"><b>1:</b></a> Typesetting of the footnote depends on the format.</p>
+
+<!-- !split -->
+<h2 id="commands">Commands </h2>
+<p>a ref: <a href="#myfig">1</a></p>
+
+<p>Here is a citation using cite: <a href="#Langtangen_Pedersen_2002">[1]</a> 
+Four citations: <a href="#Langtangen_1992c">[2]</a> <a href="#Langtangen_1994a">[3]</a> <a href="#Mortensen_et_al_2011">[4]</a> <a href="#Langtangen_Pedersen_2002">[1]</a></p>
+
+<b>nested list:TODO</b>
+
+<ul>
+  <li> item1</li>
+  <li> item2</li>
+  <li> item3 which continues on the next line to test that feature</li>
+  <li> and a sublist</li>
+<ul>
+    <li> with indented subitem1</li>
+    <li> and a subitem2</li>
+</ul>
+  <li> and perhaps an ordered sublist
+<ol type="a"></li>
+   <li> first item</li>
+   <li> second item, continuing on a new line</li>
+</ol>
+  <dt>keyword1:<dd> 
+<p>    TODO explanation of keyword1</p>
+  <dt>keyword2:<dd> 
+<p>    explanation of keyword2</p>
+</ul>
+<b>tables</b>
+
+<table class="table" border="1">
+<thead>
+<tr><th align="center">time</th> <th align="center">velocity</th> <th align="center">acceleration</th> </tr>
+</thead>
+<tbody>
+<tr><td align="left">   0.0     </td> <td align="right">   1.4186      </td> <td align="right">   -5.01           </td> </tr>
+<tr><td align="left">   2.0     </td> <td align="right">   1.376512    </td> <td align="right">   11.919          </td> </tr>
+</tbody>
+</table>
+
+<!-- !split -->
+<h2 id="code">Code </h2>
+<p>Verbatim above <code>pycod -t</code></p>
+
+<!-- code=python (!bc pycod) typeset with pygments style "default" -->
+<div class="cell border-box-sizing code_cell rendered">
+  <div class="input">
+    <div class="inner_cell">
+      <div class="input_area">
+        <div class="highlight" style="background: #f8f8f8">
+  <pre style="line-height: 125%;">total <span style="color: #666666">=</span> <span style="color: #666666">0</span>
+</pre>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="output_wrapper">
+    <div class="output">
+      <div class="output_area">
+        <div class="output_subarea output_stream output_stdout output_text">          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>Verbatim below <code>pycod -t</code></p>
+
+<!-- !split -->
+<h1 id="blocks">Blocks </h1>
+
+<p>
+<b>!bquote</b>
+A quote:</p>
+
+<blockquote>
+    <p>Sayre's law states that
+    &quot;in any dispute the intensity of feeling is inversely
+    proportional to the value of the issues at stake.&quot; <br />
+    By way of corollary, it adds: <br />
+    &quot;That is why academic politics are so bitter.&quot; <br />
+    <em>Source</em>: <a href="https://en.wikipedia.org/wiki/Sayre's_law" target="_self">wikipedia</a></p>
+</blockquote>
+
+
+<p>
+<b>!bbox and !bt.</b>
+</p>
+
+<!-- begin box -->
+<div style="width: 95%; padding: 10px; border: 1px solid #000; border-radius: 4px;">
+<p>A generic equation</p>
+
+$$ f(x) = 0 $$
+
+<p>must be solved by a numerical method, such as</p>
+
+<ul>
+ <li> Newton's method</li>
+ <li> The Bisection method</li>
+ <li> Fixed-point (Picard) iteration by rewriting \( f(x)=x - g(x) \)</li>
+ <li> The Secant method</li>
+</ul>
+</div>
+<!-- end box -->
+
+
+<p>
+<b>!bwarning.</b>
+</p>
+<div class="alert alert-block alert-warning alert-text-large">
+<b>Watch out for \( \nabla\cdot\boldsymbol{u}=0 \) equations</b>
+<p>
+<p>Divergence freedom is often problematic from a numerical point
+of view.</p>
+</div>
+
+<h2 id="references">References </h2>
+
+<!-- begin bibliography -->
+<ol>
+ <li> <div id="Langtangen_Pedersen_2002"></div> <b>H. P. Langtangen and G. Pedersen</b>.  Propagation of Large Destructive Waves, <em>International Journal of Applied Mechanics and Engineering</em>, 7(1), pp. 187-204, 2002.</li>
+ <li> <div id="Langtangen_1992c"></div> <b>H. P. Langtangen</b>.  Stochastic Breakthrough Time Analysis of an Enhanced Oil Recovery Process, <em>SIAM Journal on Scientific Computing</em>, 13, pp. 1394-1417, 1992.</li>
+ <li> <div id="Langtangen_1994a"></div> <b>H. P. Langtangen</b>.  Numerical Solution of First Passage Problems in Random Vibrations, <em>SIAM Journal of Scientific and Statistical Computing</em>, 15, pp. 997-996, 1994.</li>
+ <li> <div id="Mortensen_et_al_2011"></div> <b>M. Mortensen, H. P. Langtangen and G. N. Wells</b>.  A FEniCS-Based Programming Framework for Modeling Turbulent Flow by the Reynolds-Averaged Navier-Stokes Equations, <em>Advances in Water Resources</em>, 34(9), <a href="https://dx.doi.org/10.1016/j.advwatres.2011.02.013" target="_self">doi: 10.1016/j.advwatres.2011.02.013</a>, 2011.</li>
+</ol>
+<!-- end bibliography -->
+
+<!-- ------------------- end of main content --------------- -->
+</body>
+</html>
+    
+

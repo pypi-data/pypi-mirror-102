@@ -1,0 +1,91 @@
+Translating doconce text in issue125.do.txt to html
+*** error: could not open the file ../code/code1.py used in
+@@@CODE ../code/code1.py
+[Errno 2] No such file or directory: '../code/code1.py'
+Translating doconce text in issue125.do.txt to html
+*** error: could not open the file doconce_demo/code/code1.py used in
+@@@CODE doconce_demo/code/code1.py
+[Errno 2] No such file or directory: 'doconce_demo/code/code1.py'
+Translating doconce text in issue125.do.txt to html
+*** error: could not open the file private/doconce_demo/code/code1.py used in
+@@@CODE private/doconce_demo/code/code1.py
+[Errno 2] No such file or directory: 'private/doconce_demo/code/code1.py'
+Translating doconce text in issue125.do.txt to html
+copy complete file ../private/doconce_demo/code/code1.py (format: pypro)
+copy complete file first.do.txt (format: !bc)
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+copy complete file first.do.txt (format: !bc)
+copy complete file ../private/doconce_demo/code/code1.py (format: pypro)
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+copy complete file first.do.txt (format: !bc)
+copy complete file ../private/doconce_demo/code/code1.py (format: pypro)
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+
+...doconce translation: inline substitutions 23.0 s (accumulated time: 23.0)
+
+
+...doconce format used 25.4 s to translate the document (130 lines)
+
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+
+...doconce translation: inline substitutions 38.3 s (accumulated time: 38.4)
+
+
+...doconce format used 40.8 s to translate the document (128 lines)
+
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+copy complete file first.do.txt (format: !bc)
+copy complete file ../private/doconce_demo/code/code1.py (format: pypro)
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+
+...doconce translation: inline substitutions 16.7 s (accumulated time: 16.8)
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+Translating doconce text in issue125.do.txt to html
+
+
+...doconce format used 17.1 s to translate the document (128 lines)
+
+output in temp.html
+Translating doconce text in issue125.do.txt to html
+output in temp.html
