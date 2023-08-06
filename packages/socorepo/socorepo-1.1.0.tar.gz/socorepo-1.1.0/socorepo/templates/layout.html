@@ -1,0 +1,34 @@
+{% if bare %}{{ self.content() }}{% else -%}
+<!DOCTYPE html>
+<html lang="{{ msg_lang }}">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{% block title %}{% endblock %} &middot; {{ global_title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="layout.css") }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="generic.css") }}"/>
+    <link rel="icon" href="{{ url_for("favicon") }}"/>
+    {% block head %}{% endblock %}
+</head>
+<body>
+<div id="container">
+    <header>
+        {{ heading }}
+    </header>
+    <main>
+        <h1>{{ self.title() }}</h1>
+        <nav>
+            <span>{{ _("layout.you_are_here") }} {% block breadcrumb %}{% endblock %}</span>
+            <a href="{% block api_link %}{% endblock %}" target="_blank" style="float: right;">
+                {{ _("layout.view_in_api") }}
+            </a>
+        </nav>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        {{ footer }}
+    </footer>
+</div>
+</body>
+</html>
+{% endif %}
