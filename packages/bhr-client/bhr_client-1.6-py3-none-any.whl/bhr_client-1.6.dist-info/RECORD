@@ -1,0 +1,12 @@
+bhr_client/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+bhr_client/block_manager.py,sha256=4S5HGHZMKfV5cGMpKmH3pHU9Qp6qR6_FaaFZ7X4xZdU,2455
+bhr_client/cli.py,sha256=zyAsOmQWokPwuYBqTBUTf6V62ibXRiHHc7Oso51lo-Q,3807
+bhr_client/rest.py,sha256=8w7b54zxaCltZ3mUDdDNyGytxuNSILDVtGxcbsQayBk,7865
+bhr_client/run.py,sha256=Tg2iFRA3Z_Iek97tWC4ly8bT16W0zJ7ww1PZDPy0FM4,282
+bhr_client/source_blocker.py,sha256=rn5mi1K2ufmrggWbsdB_7SfN5jCiDMoMzVwNlwwJ_W0,2107
+bhr_client-1.6.dist-info/LICENSE.txt,sha256=67DIPgYKSY-wfnNsthHPUbjsbBzxxHCI-ay_BvJr2AQ,1638
+bhr_client-1.6.dist-info/METADATA,sha256=BxqoktY4ZM9pCoUdUMOUzY3Bc0nJ1Dw3dA6sWd7lt6E,384
+bhr_client-1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bhr_client-1.6.dist-info/entry_points.txt,sha256=Xo0kXp0Xi8S5-AYPEk0VS905dBCP1pmSFALqZuwUumo,96
+bhr_client-1.6.dist-info/top_level.txt,sha256=NLqtGJJ6RVRqcJCG01bkJD5gGeCn3gt1-I_DzTHbULw,11
+bhr_client-1.6.dist-info/RECORD,,
