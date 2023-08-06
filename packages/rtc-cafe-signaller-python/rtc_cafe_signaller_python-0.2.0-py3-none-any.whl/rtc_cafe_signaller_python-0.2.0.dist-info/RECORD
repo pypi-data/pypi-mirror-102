@@ -1,0 +1,7 @@
+rtc_cafe_signaller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rtc_cafe_signaller/wrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rtc_cafe_signaller/wrappers/flask_socketio_wrapper.py,sha256=5dxcvl_QRsJB9gFuVXXAwNSJLpT-n2N8DwYv5KTvfkc,3307
+rtc_cafe_signaller_python-0.2.0.dist-info/METADATA,sha256=Jy4dc7ReJ1cMdStf1pMWCjwjevlxWSPPmrddgutZ5h4,931
+rtc_cafe_signaller_python-0.2.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+rtc_cafe_signaller_python-0.2.0.dist-info/top_level.txt,sha256=GHavetLKuSwFgiHTbGyUMeYHA39L61t4d7Fwt723M7o,19
+rtc_cafe_signaller_python-0.2.0.dist-info/RECORD,,
