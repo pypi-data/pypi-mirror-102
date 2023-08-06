@@ -1,0 +1,17 @@
+[tool.poetry]
+name        = "html-table-parser-python3"
+version     = "0.2.0"
+description = "A small and simple HTML table parser not requiring any external dependency."
+authors     = ["Arran Hobson Sayers <ahobsonsayers@gmail.com>"]
+license     = "AGPLv3"
+readme      = "README.md"
+homepage    = "https://github.com/ahobsonsayers/html-table-parser-python3"
+
+packages = [{ include = "html_table_parser" }]
+
+[tool.poetry.dependencies]
+python = "^3"
+
+[build-system]
+requires      = ["poetry_core"]
+build-backend = "poetry.core.masonry.api"
