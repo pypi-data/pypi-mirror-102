@@ -1,0 +1,14 @@
+bionic/__init__.py,sha256=0wCEvCb687RvM8fwM4-FBo5pFSlBEkaI6o_k_FD5pFI,1024
+bionic/client.py,sha256=NDpGcPz5mN20kw8viAhXdxei0p_ZuGtXbpkaZrSf-q8,5598
+bionic/connection.py,sha256=XXHfzhhenx5-vSgDluWzgDa_aXyyor7KwiLmu1HXvDY,13084
+bionic/errors.py,sha256=GUO2MHGE9oYpuAaE7bcQQE8acY7UBZKUDwjkZ2DMwmI,3370
+bionic/meta.py,sha256=wumXdEE1h8cwbUNHv153b7s6zpNJM33NJj21aQDGGzI,1454
+bionic/models.py,sha256=7jkfL8C9VTMR6fBaZQzuToNDvPsJsnoT4Gl2xJQbbXQ,6667
+bionic/server.py,sha256=zFEUqUdU_zLwAXTJ9BNwrNGKkQ0gojVSnx3HlTNLqw0,4739
+bionic/sync.py,sha256=D1f6SL_fg6MCw94xyhTDC9X5kbFlwiyywuGm1KGV3Ko,5160
+bionic/utils.py,sha256=x1k2cw_k1Ztr-M1YNPj_EHgQBo8PR3FmTBlzkOzsUqg,2240
+bionicipc-2.0a0.dist-info/LICENSE,sha256=8DJqgsQDd9HhyJZ1zAkaJlURX6LqD9eziv3JpSWe0ug,11554
+bionicipc-2.0a0.dist-info/METADATA,sha256=L9oHA6BggBRgWXLvtdVzDQ6sB1qB2I1cnicuK7Vk7ks,514
+bionicipc-2.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bionicipc-2.0a0.dist-info/top_level.txt,sha256=dLrIFMONOdxIkIACZIyJVm2iFiv6QRxW7aSM8F8mr10,7
+bionicipc-2.0a0.dist-info/RECORD,,
