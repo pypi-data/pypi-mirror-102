@@ -1,0 +1,15 @@
+click
+geopandas
+pygeos
+shapely
+
+[dev]
+flake8
+pytest
+twine
+
+[doc]
+sphinx
+sphinx_automodapi
+sphinx_autodoc_typehints
+sphinx-click

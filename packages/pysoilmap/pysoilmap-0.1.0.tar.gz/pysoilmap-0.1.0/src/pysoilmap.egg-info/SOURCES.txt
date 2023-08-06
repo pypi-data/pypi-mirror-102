@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+src/pysoilmap/__init__.py
+src/pysoilmap/__main__.py
+src/pysoilmap/shapeops.py
+src/pysoilmap.egg-info/PKG-INFO
+src/pysoilmap.egg-info/SOURCES.txt
+src/pysoilmap.egg-info/dependency_links.txt
+src/pysoilmap.egg-info/entry_points.txt
+src/pysoilmap.egg-info/requires.txt
+src/pysoilmap.egg-info/top_level.txt
+src/pysoilmap.egg-info/zip-safe
+src/pysoilmap/cli/__init__.py
+src/pysoilmap/cli/help.py
+src/pysoilmap/cli/shapefile.py
