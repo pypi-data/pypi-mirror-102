@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simsapa
+Version: 0.1.0
+Summary: Simsapa Dhamma Reader
+License: MIT
+Author: Gambhiro
+Author-email: gambhiro.bhikkhu.85@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Markdown (>=3.3.4,<4.0.0)
+Requires-Dist: PyMuPDF (>=1.18.12,<2.0.0)
+Requires-Dist: PySimpleGUI (==4.38.0)
+Requires-Dist: SQLAlchemy (>=1.4.6,<2.0.0)
+Requires-Dist: pillow (>=8.2.0,<9.0.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: tkinterweb (==3.0.0)

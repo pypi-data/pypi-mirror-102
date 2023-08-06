@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "simsapa"
+version = "0.1.0"
+description = "Simsapa Dhamma Reader"
+authors = ["Gambhiro <gambhiro.bhikkhu.85@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tkinterweb = "==3.0.0"
+PySimpleGUI = "==4.38.0"
+requests = "==2.25.1"
+pillow = "^8.2.0"
+SQLAlchemy = "^1.4.6"
+Markdown = "^3.3.4"
+PyMuPDF = "^1.18.12"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
