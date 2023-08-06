@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: camera.py
+Version: 0.0.1
+Summary: A camera package that allows you to take photos with just a few lines of code
+Home-page: UNKNOWN
+Author: Max Keller
+Author-email: max_max_123@icloud.com
+License: UNKNOWN
+Description: A camera package that allows you to take photos, look at photos, and add filters with some basic code
+Keywords: python,camera
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
