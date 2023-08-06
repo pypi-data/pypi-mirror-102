@@ -1,0 +1,11 @@
+shared_memory38-0.1.1.dist-info/RECORD,,
+shared_memory38-0.1.1.dist-info/WHEEL,sha256=_QKkH0H9qMY0gkrpv_QHbgJwF3gjUFm2PIIZr7MA2NA,215
+shared_memory38-0.1.1.dist-info/top_level.txt,sha256=Bi8DSG0TzP3Nn_yzTFXFYHT0kH2ejTgVzHJZ1BGV7FU,14
+shared_memory38-0.1.1.dist-info/METADATA,sha256=HLC0K0e9TM9dOWcZpXPmAc40SRiZ6LG3CMRTvLTIU9E,878
+shared_memory/_posixshmem.cpython-37m-darwin.so,sha256=uI6Ibmlx6xk28x4md-kmqzvygNHHF0x8RBGKacgSHwA,35160
+shared_memory/shared_memory.py,sha256=aaCA7FRLL_sd9SvS8slCB70YPY-xAFEEL8kkNq8dQ2E,17468
+shared_memory/resource_tracker.py,sha256=x24rurwiHZDODBjTTySmTzt6sAs-weJXMVts8dZhAL8,8645
+shared_memory/_version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+shared_memory/__init__.py,sha256=PSTsuFUHmGJrMp62iKRPbFFSE4vQsZN0UQdPbx1pWjE,144
+shared_memory/managers.py,sha256=8tIcFS7-TKtH2amizgriXeP_GOxKzMmUyQPv3Sk6nTA,7923
+shared_memory/.dylibs/libgcc_s.1.dylib,sha256=YeClviOH9Ql9ZLXpNJ9-99vpyOfH0xNUjhto55Rk6rM,169040
