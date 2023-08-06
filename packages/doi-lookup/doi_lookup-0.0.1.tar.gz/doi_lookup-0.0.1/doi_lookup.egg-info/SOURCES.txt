@@ -1,0 +1,8 @@
+setup.py
+doi_lookup/__init__.py
+doi_lookup/doi.py
+doi_lookup.egg-info/PKG-INFO
+doi_lookup.egg-info/SOURCES.txt
+doi_lookup.egg-info/dependency_links.txt
+doi_lookup.egg-info/requires.txt
+doi_lookup.egg-info/top_level.txt
