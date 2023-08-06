@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+image_classification_helper/__init__.py
+image_classification_helper/_nbdev.py
+image_classification_helper/core.py
+image_classification_helper.egg-info/PKG-INFO
+image_classification_helper.egg-info/SOURCES.txt
+image_classification_helper.egg-info/dependency_links.txt
+image_classification_helper.egg-info/entry_points.txt
+image_classification_helper.egg-info/not-zip-safe
+image_classification_helper.egg-info/requires.txt
+image_classification_helper.egg-info/top_level.txt
