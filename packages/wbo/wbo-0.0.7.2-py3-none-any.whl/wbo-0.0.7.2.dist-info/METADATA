@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wbo
+Version: 0.0.7.2
+Summary: Download and plot worldwide box office data!
+Home-page: UNKNOWN
+Author: Adnan Hoq
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==1.2.3)
+Requires-Dist: plotly (==4.14.3)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: lxml (==4.6.3)
+
+### WBO
+Scrape box office mojo's Worldwide Box Office data. Download as csv. Plot using plotly.js
+
+### Installation
+
+```
+pip install wbo
+```
+
+### Usage
+
+Type ```wbo get-data``` or  ```wbo display-plot``` in the command line. These will run the two commands with their default values.
+You can also specify the earliest year and the latest year like this:
+
+```
+wbo get-data -min=2005 -max=2020
+```
+
+
