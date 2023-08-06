@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: flask-autorouter
+Version: 0.2.2
+Summary: a utility for generating flask URL routing
+Home-page: https://github.com/dpep/flask_autorouter
+Author: Daniel Pepper
+Author-email: pepper.daniel@gmail.com
+License: MIT
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Dist: flask
+
+UNKNOWN
+
+
