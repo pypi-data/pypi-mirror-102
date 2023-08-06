@@ -1,0 +1,10 @@
+pgvessel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvessel/main.py,sha256=Qu1oJqKobR8taYOsEsyQ_XZMiP67GPkG-jrdUrdSeLA,16080
+pgvessel/_static_files_/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvessel/_static_files_/logging.conf,sha256=x1C6zkwqlJlQBDQHPNbCtQ06k4mEZpsxcHpzOKeGMpI,598
+pgvessel-0.1.0.dist-info/LICENSE,sha256=wAhPUR6V9iH9ubzn9wljmwAzXi4yakNr2EjRyUYmmHc,1066
+pgvessel-0.1.0.dist-info/METADATA,sha256=v5kKIZuoFIkxKNOaxbrCk__pmrSu-Vye_S-hvXPosc8,781
+pgvessel-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pgvessel-0.1.0.dist-info/entry_points.txt,sha256=3cClZA-kQggWzm4P5lrQ_UNoqMfgwfg_SkOlzRDhknY,55
+pgvessel-0.1.0.dist-info/top_level.txt,sha256=vQVJctr9Qs4vM8tEXiOrjM7mPZH3hEXo5AwaQZ4cvpA,9
+pgvessel-0.1.0.dist-info/RECORD,,
