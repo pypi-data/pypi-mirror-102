@@ -1,0 +1,9 @@
+
+[dev]
+pandas
+pytest
+ipykernel
+setuptools-scm
+
+[spark]
+pyspark
