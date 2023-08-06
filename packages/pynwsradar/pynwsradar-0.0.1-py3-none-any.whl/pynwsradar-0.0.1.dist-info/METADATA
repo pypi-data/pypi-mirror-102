@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pynwsradar
+Version: 0.0.1
+Summary: Python library to retrieve radar from NWS/NOAA
+Home-page: https://github.com/MatthewFlamm/pynwsradar
+Author: Matthew Flamm
+Author-email: matthewflamm0@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: Pillow
+Requires-Dist: numpy
+
+# pynwsradar
+
+
