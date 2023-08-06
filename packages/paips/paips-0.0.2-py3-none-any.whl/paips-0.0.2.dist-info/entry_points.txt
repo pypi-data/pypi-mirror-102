@@ -1,0 +1,3 @@
+[console_scripts]
+paiprun = paips.run_paips:main
+
