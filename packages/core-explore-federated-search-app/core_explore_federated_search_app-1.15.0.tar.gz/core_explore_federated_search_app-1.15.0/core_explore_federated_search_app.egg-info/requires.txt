@@ -1,0 +1,6 @@
+Django==2.2.20
+djangorestframework==3.12.2
+future==0.18.2
+core-explore-common-app==1.15.*
+core-federated-search-app==1.15.*
+core-main-app==1.15.*
