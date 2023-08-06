@@ -1,0 +1,4 @@
+numpy
+dtaidistance
+pytest
+scipy
