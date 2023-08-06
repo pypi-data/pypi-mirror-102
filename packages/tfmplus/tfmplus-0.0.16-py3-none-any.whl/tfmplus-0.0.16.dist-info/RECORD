@@ -1,0 +1,19 @@
+tfmplus/__init__.py,sha256=FfBjIfJW7JsueCbuPuKD0JRtdxuzRId9vkvCwFqI87c,18177
+tfmplus/docs/How to install Benewake TF series on PixHawk.pdf,sha256=bx4NQhcVDo-9S8S287XFoZ32A5mBoXGSghSDdwJo37A,1168194
+tfmplus/docs/TFmini-Plus-01 A05_Datasheet.pdf,sha256=oMso-Yz-HNuyc1yzUDeSPmJWJdHoL-9sOc7S22D4iTs,905430
+tfmplus/docs/TFmini-Plus-T-01 A04_Product Manual.pdf,sha256=bBs77j2lpPG3fhiOPSDzYwhSV13kK1wh-91YEdOLg5I,1020272
+tfmplus/docs/__init__.py,sha256=ZW4Md76c1aJIM8WygxvSfkJDa_ZRWEebZd0-tYcDR9Y,117
+tfmplus/docs/TFMini-S/SJ-GU-TFmini-S-01 A00 Datasheet.pdf,sha256=9nnAj9wgidoYml6PMPo3bEk_tEz5WsFDUyV7bT1dz7A,178842
+tfmplus/docs/TFMini-S/SJ-PM-TFmini-S A00 Product Mannual_EN.pdf,sha256=lJOSKCMkkeKrR4Dx8p3J1imQeqge8Hfl4NKwXrwYgdY,1229958
+tfmplus/docs/TFMini-S/__init__.py,sha256=KG77fQoCuA0uBs2JrwQN7nglMt3AxmPXpsEVgJS0z94,144
+tfmplus/docs/TI OPT3101/TI_opt3101_datasheet.pdf,sha256=nmvD-IbBtBwatZrTMd3se5B_0loknVRTT2A6uK_v-rA,2733665
+tfmplus/docs/TI OPT3101/TI_opt3101_eval module.pdf,sha256=0g4QXzBTjaKABJAhJwyOcyp1BH4CH15nTxKSOLZqqhs,5445952
+tfmplus/docs/TI OPT3101/TI_opt3101_systerm design.pdf,sha256=_7T-ci2kk0KCO7mWP7dIFRXH2JtoIHrxS0dsu3HyadA,2702957
+tfmplus/docs/TI OPT3101/__init__.py,sha256=tmuJO47q_b1hpMKQu3huh9y98nmNxYVUE7o9AgjBKyw,96
+tfmplus/tests/__init__.py,sha256=csmENRO4ywXDJwWAYAawohz3sKTCNw5zm_C_Is6uqrU,66
+tfmplus/tests/tfmp_test.py,sha256=oiGzGVVvMyg7AVsOx_jH1byVi38mwtSrOMn3bbc-cXo,4068
+tfmplus-0.0.16.dist-info/LICENSE,sha256=gLEz0x4pNe04cducXy4kGfoTWZB8i_QCazh1HyWN13E,1070
+tfmplus-0.0.16.dist-info/METADATA,sha256=byewtNgM92DliZ92KMb34K0hDpwpXrnVB_hM_BscI4A,7563
+tfmplus-0.0.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfmplus-0.0.16.dist-info/top_level.txt,sha256=Ha6peGKISdjb6aQCxo_YD1CO1F2-5JsKi2Ez_reCdjA,8
+tfmplus-0.0.16.dist-info/RECORD,,
