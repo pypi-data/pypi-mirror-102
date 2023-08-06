@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "partiqle"
+version = "0.0.0"
+description = "DynamoDB PartiQL support for Python"
+authors = ["Seonghyeon Kim <self@seonghyeon.dev>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.17.53"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+pytest-dynamodb = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
