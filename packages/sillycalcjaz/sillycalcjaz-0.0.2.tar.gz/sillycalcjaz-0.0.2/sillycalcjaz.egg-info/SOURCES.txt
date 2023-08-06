@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+sillycalcjaz.egg-info/PKG-INFO
+sillycalcjaz.egg-info/SOURCES.txt
+sillycalcjaz.egg-info/dependency_links.txt
+sillycalcjaz.egg-info/top_level.txt

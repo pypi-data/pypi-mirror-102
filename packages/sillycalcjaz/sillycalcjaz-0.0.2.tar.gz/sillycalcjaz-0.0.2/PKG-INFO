@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: sillycalcjaz
+Version: 0.0.2
+Summary: A very basic calculator for Mac and Linux
+Home-page: UNKNOWN
+Author: Jazil Zaim
+Author-email: jazilzaim32@gmail.com
+License: MIT
+Description: This is a simple calculator to calculate numbers in Python.
+        
+        It can add, subtract, multiply, and divide. 
+        
+        This code is under the MIT License.
+        
+        Change Log 
+        ===========
+        
+        0.0.1 (4/19/2021)
+        ------------------
+        - First release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
