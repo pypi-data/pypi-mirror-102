@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-terminal-calc-TuttiFrutti1090
+Version: 1.0.0
+Summary: A terminal scientific calculator
+Home-page: https://github.com/TuttiFrutti1090/py-terminal-calc
+Author: TuttiFrutti1090
+Author-email: tuttifrutti1090.developer@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TuttiFrutti1090/py-terminal-calc/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
