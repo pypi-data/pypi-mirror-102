@@ -1,0 +1,6 @@
+cloudml_default_fds_bucket: browser-algo-nanjing
+xiaomi_access_key_id: AKO6GF5GAN5COTD6VM
+xiaomi_secret_access_key: x5/uE1eb+kmeOeIDR3O+Ibu6ugQY2xIQ8pGTv5R9
+xiaomi_org_mail: yuanjie@xiaomi.com
+xiaomi_cloudml_endpoint: 'https://cnbj5-cloud-ml.api.xiaomi.net'
+xiaomi_fds_endpoint: cnbj1-fds.api.xiaomi.net

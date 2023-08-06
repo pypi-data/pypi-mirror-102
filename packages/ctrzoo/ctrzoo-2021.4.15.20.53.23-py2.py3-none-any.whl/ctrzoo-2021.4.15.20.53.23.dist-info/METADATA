@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ctrzoo
+Version: 2021.4.15.20.53.23
+Summary: CTR ZOO for CloudML
+Home-page: https://github.com/Jie-Yuan/ctrzoo
+Author: yuanjie
+Author-email: yuanjie@xiaomi.com
+License: MIT license
+Keywords: ctrzoo
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: meutils[plus]
+Requires-Dist: bertzoo
+Requires-Dist: tensorflow-gpu (==2.2.0)
+Requires-Dist: pypinyin
+Requires-Dist: pymilvus (==0.3.0)
+
+<h1 align = "center">:rocket: CTRZOO :rocket:</h1>
+
+---
+
+# Usage
+
+
+---
+# TODO:
+- CMD封装
+- zk配置训练任务
+- 数据工厂CM
+
+
+=======
+History
+=======
+
+0.1.0 (2021-02-04)
+------------------
+
+* First release on PyPI.
+
+
