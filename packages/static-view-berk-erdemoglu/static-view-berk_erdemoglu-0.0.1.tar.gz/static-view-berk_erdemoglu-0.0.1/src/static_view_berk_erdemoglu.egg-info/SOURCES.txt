@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/static_view/__init__.py
+src/static_view/startserver.py
+src/static_view_berk_erdemoglu.egg-info/PKG-INFO
+src/static_view_berk_erdemoglu.egg-info/SOURCES.txt
+src/static_view_berk_erdemoglu.egg-info/dependency_links.txt
+src/static_view_berk_erdemoglu.egg-info/top_level.txt
