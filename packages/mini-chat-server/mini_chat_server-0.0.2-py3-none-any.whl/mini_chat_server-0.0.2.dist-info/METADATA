@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mini-chat-server
+Version: 0.0.2
+Summary: mini_chat_server
+Home-page: UNKNOWN
+Author: Evgeniy Sarmanov
+Author-email: esarmanov@noname.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: argparse
+Requires-Dist: binascii
+Requires-Dist: configparser
+Requires-Dist: dataclasses
+Requires-Dist: datetime
+Requires-Dist: hashlib
+Requires-Dist: hmac
+Requires-Dist: json
+Requires-Dist: logging
+Requires-Dist: os
+Requires-Dist: select
+Requires-Dist: socket
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlalchemy.orm
+Requires-Dist: sqlalchemy.sql
+Requires-Dist: sqlite3
+Requires-Dist: sys
+Requires-Dist: threading
+
+UNKNOWN
+
+
