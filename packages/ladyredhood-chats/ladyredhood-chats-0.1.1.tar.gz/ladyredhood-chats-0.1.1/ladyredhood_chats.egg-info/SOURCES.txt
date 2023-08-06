@@ -1,0 +1,9 @@
+README.md
+setup.py
+chats/__init__.py
+chats/chats.py
+ladyredhood_chats.egg-info/PKG-INFO
+ladyredhood_chats.egg-info/SOURCES.txt
+ladyredhood_chats.egg-info/dependency_links.txt
+ladyredhood_chats.egg-info/requires.txt
+ladyredhood_chats.egg-info/top_level.txt
