@@ -1,0 +1,8 @@
+License.txt
+setup.py
+insta_reels.egg-info/PKG-INFO
+insta_reels.egg-info/SOURCES.txt
+insta_reels.egg-info/dependency_links.txt
+insta_reels.egg-info/requires.txt
+insta_reels.egg-info/top_level.txt
+reels-downloader/__init__.py
