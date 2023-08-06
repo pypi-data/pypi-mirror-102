@@ -1,0 +1,18 @@
+Battery History (0% used, 300 used of 4096KB, 6 strings using 254):
+                    0 (14) RESET:TIME: 2021-04-14-17-38-54
+                    0 (1) 025 status=charging health=good plug=ac temp=310 volt=4023 charge=828 modemRailChargemAh=0 wifiRailChargemAh=0 +running +wake_lock +mobile_radio +screen +plugged data_conn=lte_ca phone_signal_strength=good brightness=dim +wifi +usb_data +ble_scan
+                    0 (2) 025 fg=1000:"com.miui.securitycenter"
+                    0 (2) 025 fg=1000:"com.miui.notification"
+                    0 (2) 025 top=u0a170:"com.instagram.android"
+                    0 (2) 025 user=0:"0"
+                    0 (2) 025 userfg=0:"0"
+                +15ms (3) 025 phone_signal_strength=great stats=0:"wakelock-change"
+             +4s214ms (1) 025 -ble_scan
+             +4s245ms (2) 025 brightness=dark +ble_scan
+             +7s374ms (2) 025 stats=0:"dump"
+
+Total cpu time reads: 0
+Batched cpu time reads: 0
+Batching Duration (min): 68
+All UID cpu time reads since the later of device start or stats reset: 8
+UIDs removed since the later of device start or stats reset: 0
