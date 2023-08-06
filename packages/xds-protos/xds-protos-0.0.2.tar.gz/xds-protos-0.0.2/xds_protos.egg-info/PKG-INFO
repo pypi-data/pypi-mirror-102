@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: xds-protos
+Version: 0.0.2
+Summary: Generated Python code from envoyproxy/data-plane-api
+Home-page: https://grpc.io
+Author: The gRPC Authors
+Author-email: grpc-io@googlegroups.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
