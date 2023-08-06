@@ -1,0 +1,5 @@
+numpy
+pyarrow>=3
+requests
+sqlalchemy
+pandas
