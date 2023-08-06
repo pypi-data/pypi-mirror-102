@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+gami/__init__.py
+gami/_version.py
+gami/conftest.py
+gami/mod.py
+gami.egg-info/PKG-INFO
+gami.egg-info/SOURCES.txt
+gami.egg-info/dependency_links.txt
+gami.egg-info/requires.txt
+gami.egg-info/top_level.txt
