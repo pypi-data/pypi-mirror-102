@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+EloadConsts/__init__.py
+EloadConsts.egg-info/PKG-INFO
+EloadConsts.egg-info/SOURCES.txt
+EloadConsts.egg-info/dependency_links.txt
+EloadConsts.egg-info/not-zip-safe
+EloadConsts.egg-info/top_level.txt
