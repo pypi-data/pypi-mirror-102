@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+pydocgen/__main__.py
+pydocgen/documentation_generator.py
+pydocgen/helper.py
+pydocgen.egg-info/PKG-INFO
+pydocgen.egg-info/SOURCES.txt
+pydocgen.egg-info/dependency_links.txt
+pydocgen.egg-info/entry_points.txt
+pydocgen.egg-info/requires.txt
+pydocgen.egg-info/top_level.txt
