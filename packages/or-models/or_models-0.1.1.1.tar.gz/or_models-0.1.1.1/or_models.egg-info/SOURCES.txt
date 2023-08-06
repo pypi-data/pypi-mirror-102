@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+or_models/SCP.py
+or_models/__init__.py
+or_models.egg-info/PKG-INFO
+or_models.egg-info/SOURCES.txt
+or_models.egg-info/dependency_links.txt
+or_models.egg-info/requires.txt
+or_models.egg-info/top_level.txt
+tests/__init__.py
