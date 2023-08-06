@@ -1,0 +1,11 @@
+leidenalg/Optimiser.py,sha256=Dalv1ATAk5pqekfkluHnQ1tx975v1LJXLOwn328ePjk,31241
+leidenalg/VertexPartition.py,sha256=h8hnnSYoXpupEG8yOnxAHhNk1T7ijw05qgd5zlaIDJY,43042
+leidenalg/__init__.py,sha256=Gy-HrEz11Ruk1USwZfqeOF5fRzz5EIfc1mfVmTbq0JE,2433
+leidenalg/_c_leiden.cp36-win32.pyd,sha256=P3qPpB6BOOmlkzdifpIn88AjAsRAkjBzodHqznr1168,128000
+leidenalg/functions.py,sha256=HQ-bpgEi3lVBNdl5I9H9AdNhVSA4JYitl6JAUq747IU,20498
+leidenalg/version.py,sha256=FajJiJNEkA_6lVvCqPCtFTN6XcJSPTmbDw33HCgnNXM,147
+leidenalg-0.8.4.dist-info/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+leidenalg-0.8.4.dist-info/METADATA,sha256=psxw92vpCenbTcEnC1ixme25d-0NS-3-s25c-GcGP7A,1444
+leidenalg-0.8.4.dist-info/WHEEL,sha256=MIcnjHs8vB2T7t3biMROEABHsna_miSfN1s4sPkohUM,97
+leidenalg-0.8.4.dist-info/top_level.txt,sha256=P3ENfjbM36KTOwEtlR1kASK7RB5a9tx2_ClF17aXLk0,10
+leidenalg-0.8.4.dist-info/RECORD,,
