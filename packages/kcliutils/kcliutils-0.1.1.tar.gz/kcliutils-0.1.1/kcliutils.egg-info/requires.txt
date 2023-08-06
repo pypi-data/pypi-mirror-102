@@ -1,0 +1,4 @@
+bullet>=2.2.0
+jsoncodable>=0.1.2
+kcu>=0.0.66
+kdependencies>=0.0.4
