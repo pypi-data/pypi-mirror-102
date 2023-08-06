@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bigquery_dry_run"
+version = "0.1.0"
+description = ""
+authors = ["Christo Olivier <mail@christoolivier.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6,<3.10"
+google-cloud-bigquery = "^2.13.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bqdry = "bigquery_dry_run.app:run"
