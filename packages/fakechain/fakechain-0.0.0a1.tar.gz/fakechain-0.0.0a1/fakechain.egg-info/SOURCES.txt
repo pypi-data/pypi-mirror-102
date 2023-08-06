@@ -1,0 +1,6 @@
+setup.py
+fakechain/__init__.py
+fakechain.egg-info/PKG-INFO
+fakechain.egg-info/SOURCES.txt
+fakechain.egg-info/dependency_links.txt
+fakechain.egg-info/top_level.txt
