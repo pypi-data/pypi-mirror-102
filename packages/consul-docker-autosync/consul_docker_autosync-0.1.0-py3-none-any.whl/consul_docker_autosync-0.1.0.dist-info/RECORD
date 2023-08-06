@@ -1,0 +1,8 @@
+consul_docker_autosync/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+consul_docker_autosync/autosync.py,sha256=b09wOED-uZCgokI3QHljY7dBqVPvJbG52U8dRFQHL-k,2638
+consul_docker_autosync/cli.py,sha256=e2cKjAbJVhBxuKkB0VUoGLUw3BRhS7WU7ytf99tvaXg,1757
+consul_docker_autosync/http_server.py,sha256=6jVa4YaBwoAjx5Jat1Uo_1FCjYk85OJ8MFGFqWb-V0I,585
+consul_docker_autosync-0.1.0.dist-info/entry_points.txt,sha256=vM_uqx3XgvQfqrsR-MfHO9HX6Eu4_T1QVErXxEn4MSQ,54
+consul_docker_autosync-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+consul_docker_autosync-0.1.0.dist-info/METADATA,sha256=8OER-Y8MbCKPOUGk1nXkTsIpiA7s0X3IP76tLuMWogQ,552
+consul_docker_autosync-0.1.0.dist-info/RECORD,,
