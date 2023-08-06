@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kubespin
+Version: 0.1.0b0
+Summary: A very simple tool to manage an application's lifecycle in Spinnaker.
+Home-page: https://github.com/lersouza/kubespin
+Author: Leandro Rodrigues de Souza
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
