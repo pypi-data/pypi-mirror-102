@@ -1,0 +1,5 @@
+# this file lists files that need to be included in packages
+include LICENSE
+include README.rst
+include requirements.txt
+include bvlapi/files/*
