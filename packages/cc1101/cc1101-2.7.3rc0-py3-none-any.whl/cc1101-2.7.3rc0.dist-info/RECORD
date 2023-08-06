@@ -1,0 +1,11 @@
+cc1101/__init__.py,sha256=Zsb6MoAansKJ7fZFV-OJa4aT5Ayv9D96Y9wuekegHsA,38800
+cc1101/_cli.py,sha256=spiPord_az9gWiVhGt0S2BJwb7IaGpx6KGE-OWjOqX4,6141
+cc1101/_gpio.py,sha256=07bnbGrv9s0X9CBpXRnr1i5St2Ga41XyGeSFbCAJZcU,2474
+cc1101/addresses.py,sha256=l-dpktOBPaMKQoWjiMI1vFOxf6fpyIyyn7bhNqzlUsg,3837
+cc1101/options.py,sha256=2eiQPtJNOYs7OJwOXzl5Z1NDgdsIS3xT_ZSFlGVrvOE,1951
+cc1101-2.7.3rc0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cc1101-2.7.3rc0.dist-info/METADATA,sha256=M7MwGoDMMw_YloCfrNRJ9iEIfmw9fPtwwUw3HC3pfEI,4366
+cc1101-2.7.3rc0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cc1101-2.7.3rc0.dist-info/entry_points.txt,sha256=uFC_hEpSPfNYaYk6moiFQvQpWiu5frRydNuTJPQHOOU,109
+cc1101-2.7.3rc0.dist-info/top_level.txt,sha256=ykxahL4pL09MUdWDdUBjwT5uOZx0vsJ-ktTUbAahJW8,7
+cc1101-2.7.3rc0.dist-info/RECORD,,
