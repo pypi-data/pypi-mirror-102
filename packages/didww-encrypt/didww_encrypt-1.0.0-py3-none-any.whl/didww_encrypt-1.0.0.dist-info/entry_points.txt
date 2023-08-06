@@ -1,0 +1,3 @@
+[console_scripts]
+didww_encrypt = didww_encrypt.command_line:main
+
