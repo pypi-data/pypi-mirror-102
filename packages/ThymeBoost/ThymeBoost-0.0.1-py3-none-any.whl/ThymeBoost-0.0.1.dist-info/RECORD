@@ -1,0 +1,11 @@
+ThymeBoost/CostFunctions.py,sha256=i3tTiwS676RI78vUBrZ33-GSRfBOUohDy2hdaohqYKo,1372
+ThymeBoost/FitExogenous.py,sha256=BcVRvU7l17OKiw8rLIRrYAvQHz6IthTp5gMlTYhyLmw,2500
+ThymeBoost/FitSeasonality.py,sha256=Y9zmcdMqGwOCLuVasM5a61qoDC1GbFsHGCFsinf4yic,4206
+ThymeBoost/FitTrend.py,sha256=c7FHki41-xEe4wQ9KbOP4khUPrxQGzsMjSAovCzShd0,10345
+ThymeBoost/SplitProposals.py,sha256=uAW_40wZ3Qn10lv3EGeuvBKT-_-q81ZHShN4M2s8noE,2661
+ThymeBoost/ThymeBoost.py,sha256=NS0-PcqfbljCb_osN75Hyk0Ow-8HRN1uNsynMiZw1Ts,22123
+ThymeBoost/__init__.py,sha256=M9j1NuexsmXRO0O_LLRNrLF7fEfPAHWIxm90hC6gV3I,27
+ThymeBoost-0.0.1.dist-info/METADATA,sha256=2F1GiWayPwrtdF5RBMw6Yq7KA45pIn5-agMVIMz3tcM,324
+ThymeBoost-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ThymeBoost-0.0.1.dist-info/top_level.txt,sha256=oVpDNDMoVW_6lNURRAjEGXOqqNArp636DukiC83XfkU,11
+ThymeBoost-0.0.1.dist-info/RECORD,,
