@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sprite-unpack
+Version: 0.1.1
+Summary: Tool for cutting spritesheets into seperate images for importing into Godot, Unity, etc.
+Home-page: https://github.com/savonarola/sprite_unpack
+License: MIT
+Author: Ilya Averyanov
+Author-email: av@rubybox.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: tqdm (>=4.60.0,<5.0.0)
+Project-URL: Repository, https://github.com/savonarola/sprite_unpack
+Description-Content-Type: text/markdown
+
+# Sprite unpack
+
+[![CI](https://github.com/savonarola/sprite_unpack/actions/workflows/CI.yml/badge.svg)](https://github.com/savonarola/sprite_unpack/actions/workflows/CI.yml)
+
+## Description
+
+Utility script for cutting sprite sheets into sprite images. See examples section.
+
+## Installation
+
+```bash
+pip install sprite-unpack
+```
+
+## Requirements
+
+Python >= 3.9
+
+## Usage
+
+```bash
+sprite-unpack -i examples/doctor-doom-sheet.png -o ./examples/result
+```
+
+## Example
+
+I am fan of writing tiny games. Usually I use free sprite sheets for them.
+This script cuts sprite sheets into separate images ready for use in
+Godot, Unity, etc.
+
+The result of cutting [doctor-doom-sheet.png](examples/doctor-doom-sheet.png)
+into images can be found in [examples/result](examples/result) folder.
+
+The algorithm is pretty straigtforward and can be easily
+understood from the following recording:
+
+![Algo](examples/doctor-doom-sprites.gif).
+
+**Caution!** The script does not handle disjoint sprites with many particles.
+
