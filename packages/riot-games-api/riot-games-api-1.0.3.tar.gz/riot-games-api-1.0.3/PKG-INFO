@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: riot-games-api
+Version: 1.0.3
+Summary: Riot Games API wrapper for Python.
+Home-page: https://github.com/esbraff/riot_games_api
+Author: Kirill Shikhalev
+Author-email: esbraff@yandex.ru
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/esbraff/riot_games_api/issues
+Description: # riot-games-api
+        
+        Riot Games API wrapper for Python.
+        
+        ## Installation
+        
+        ```shell
+        pip install riot-games-api
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
