@@ -1,0 +1,10 @@
+README.md
+setup.py
+remove_dagmc_tags/__init__.py
+remove_dagmc_tags/core.py
+remove_dagmc_tags/remove-dagmc-tags
+remove_dagmc_tags.egg-info/PKG-INFO
+remove_dagmc_tags.egg-info/SOURCES.txt
+remove_dagmc_tags.egg-info/dependency_links.txt
+remove_dagmc_tags.egg-info/top_level.txt
+remove_dagmc_tags.egg-info/zip-safe
