@@ -1,0 +1,795 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean docs",
+            "detail": "Sphinx project",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run make clean"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run make clean"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run make clean"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": {
+                "owner": "restructuredtext",
+                "fileLocation": [
+                    "absolute"
+                ],
+                "pattern": {
+                    "regexp": "^(.*?):(\\d+): ([A-Z]+): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            }
+        },
+        {
+            "label": "Build API docs",
+            "detail": "Sphinx project",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-apidoc --output-dir docs/source --force ${workspaceFolder}"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-apidoc --output-dir docs/source --force ${workspaceFolder}"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-apidoc --output-dir docs/source --force ${workspaceFolder}"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            },
+            "problemMatcher": {
+                "owner": "restructuredtext",
+                "fileLocation": [
+                    "absolute"
+                ],
+                "pattern": {
+                    "regexp": "^(.*?):(\\d+): ([A-Z]+): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            },
+            "dependsOn": [
+                "Clean docs"
+            ]
+        },
+        {
+            "label": "Build docs (static)",
+            "detail": "Sphinx project",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-build -v --color -T docs/source docs/build/html"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-build -v --color -T docs/source docs/build/html"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-build -v --color -T docs/source docs/build/html"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": {
+                "owner": "restructuredtext",
+                "fileLocation": [
+                    "absolute"
+                ],
+                "pattern": {
+                    "regexp": "^(.*?):(\\d+): ([A-Z]+): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            },
+            "dependsOn": [
+                "Build API docs"
+            ]
+        },
+        {
+            "label": "Build docs (live)",
+            "detail": "Sphinx project",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-autobuild -E --port=8001 --watch ${PROJECT_NAME} --watch tests docs/source docs/build/html"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-autobuild -E --port=8001 --watch ${PROJECT_NAME} --watch tests docs/source docs/build/html"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run sphinx-autobuild -E --port=8001 --watch ${PROJECT_NAME} --watch tests docs/source docs/build/html"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": {
+                "owner": "restructuredtext",
+                "fileLocation": [
+                    "absolute"
+                ],
+                "pattern": {
+                    "regexp": "^(.*?):(\\d+): ([A-Z]+): (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                }
+            },
+            "dependsOn": [
+                "Build API docs"
+            ]
+        },
+        {
+            "label": "Test",
+            "detail": "Run all tests and create coverage report",
+            "type": "shell",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run pytest"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run pytest"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run pytest"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "poetry build package",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry build"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry build"
+                ]
+            },
+            "windows": {
+                "command": "cmd.exe",
+                "args": [
+                    "/C",
+                    "poetry build"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "(Re-)Install Python package",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry build && python3 -m pip uninstall --yes ${workspaceFolderBasename} && python3 -m pip install ${workspaceFolder}/dist/*.whl"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry build && python3 -m pip uninstall --yes ${workspaceFolderBasename} && python3 -m pip install ${workspaceFolder}/dist/*.whl"
+                ]
+            },
+            "windows": {
+                "command": "cmd.exe",
+                "args": [
+                    "/C",
+                    "poetry build & python -m pip uninstall --yes ${workspaceFolderBasename} & python -m pip install ${workspaceFolder}\\dist\\*.whl"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Lint",
+            "detail": "closed files with flake8",
+            "type": "shell",
+            "command": "${env:SHELL}",
+            "args": [
+                "--rcfile",
+                "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                "-i",
+                "-c",
+                "poetry run flake8"
+            ],
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run flake8"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "never",
+                "revealProblems": "onProblem"
+            },
+            "problemMatcher": {
+                "owner": "python",
+                "applyTo": "closedDocuments",
+                "source": "flake8",
+                "fileLocation": "relative",
+                "pattern": {
+                    "regexp": "^(.+):(\\d+):(\\d+): (\\w+) (.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "Mypy",
+            "detail": "closed files with mypy",
+            "type": "shell",
+            "command": "${env:SHELL}",
+            "args": [
+                "--rcfile",
+                "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                "-i",
+                "-c",
+                "poetry run mypy --config-file tox.ini ${workspaceFolder}/${workspaceFolderBasename}"
+            ],
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run mypy --config-file tox.ini ${workspaceFolder}/${workspaceFolderBasename}"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "never",
+                "revealProblems": "onProblem"
+            },
+            "problemMatcher": {
+                "owner": "python",
+                "applyTo": "allDocuments",
+                "source": "mypy",
+                "fileLocation": "relative",
+                "pattern": {
+                    "regexp": "^(.+):(\\d+):(\\d+): (\\w+): (.*)",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "Run FastAPI app (reload)",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "poetry run python app -vv start --reload"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "poetry run python app -vv start --reload"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "poetry run python app -vv start --reload"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Angular CLI",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "npm install -g @angular/cli typescript eslint"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "npm install -g @angular/cli typescript eslint"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "npm install -g @angular/cli typescript eslint"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Create Angular UI",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "PROJECT_NAME=`echo \"${workspaceFolderBasename}\" | sed \"s/_/-/g\"` && ng new $PROJECT_NAME --style=scss --strict --skip-git --routing --directory=ui"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "PROJECT_NAME=`echo \"${workspaceFolderBasename}\" | sed \"s/_/-/g\"` && ng new $PROJECT_NAME --style=scss --strict --skip-git --routing --directory=ui"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "PROJECT_NAME=`echo \"${workspaceFolderBasename}\" | sed \"s/_/-/g\"` && ng new $PROJECT_NAME --style=scss --strict --skip-git --routing --directory=ui"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Angular UI (production)",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "ng build --prod --aot=true --base-href /ui/"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "ng build --prod --aot=true --base-href /ui/"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "ng build --prod --aot=true --base-href /ui/"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/ui"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Angular UI",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "ng build --aot=true --base-href /ui/"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "ng build --aot=true --base-href /ui/"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "ng build --aot=true --base-href /ui/"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/ui"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Serve Angular UI",
+            "detail": "",
+            "type": "process",
+            "command": "",
+            "osx": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_macos",
+                    "-i",
+                    "-c",
+                    "ng serve --host=localhost --open --watch --port=4200"
+                ]
+            },
+            "linux": {
+                "command": "${env:SHELL}",
+                "args": [
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_linux",
+                    "-i",
+                    "-c",
+                    "ng serve --host=localhost --open --watch --port=4200"
+                ]
+            },
+            "windows": {
+                "command": "${env:JARROOT}\\opt\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${env:JARROOT}/repos/jar/environment/bash/bash_windows",
+                    "-i",
+                    "-c",
+                    "ng serve --host=localhost --open --watch --port=4200"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/ui"
+            },
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

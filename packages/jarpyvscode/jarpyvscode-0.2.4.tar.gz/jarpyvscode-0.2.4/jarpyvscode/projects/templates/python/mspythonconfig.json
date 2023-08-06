@@ -1,0 +1,19 @@
+{
+    "ignore": [],
+    "include": [],
+    "reportGeneralTypeIssues": false,
+    "reportMissingModuleSource": false,
+    "reportMissingTypeStubs": "information",
+    "reportPrivateUsage": false,
+    "reportUnboundVariable": "warning",
+    "reportUndefinedVariable": "none",
+    "reportUnknownArgumentType": false,
+    "reportUnknownLambdaType": false,
+    "reportUnknownMemberType": false,
+    "reportUnknownVariableType": false,
+    "reportUnnecessaryIsInstance": false,
+    "reportUntypedClassDecorator": "none",
+    "reportUntypedFunctionDecorator": "none",
+    "reportUnusedImport": "none",
+    "reportUnusedVariable": "information"
+}
