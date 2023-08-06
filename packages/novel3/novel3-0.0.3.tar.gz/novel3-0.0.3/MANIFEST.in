@@ -1,0 +1,3 @@
+include novel3/novel_yunlin/sql/*
+include novel3/novel_yunlin/json/*
+include novel3/novel_yunlin/config/*
