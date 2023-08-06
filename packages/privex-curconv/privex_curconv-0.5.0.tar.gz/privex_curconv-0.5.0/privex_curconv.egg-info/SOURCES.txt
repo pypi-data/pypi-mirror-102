@@ -1,0 +1,16 @@
+README.md
+setup.py
+bin/conv
+privex/__init__.py
+privex/curconv/__init__.py
+privex/curconv/__main__.py
+privex/curconv/app.py
+privex/curconv/base.py
+privex/curconv/ratesapi.py
+privex/curconv/settings.py
+privex/curconv/version.py
+privex_curconv.egg-info/PKG-INFO
+privex_curconv.egg-info/SOURCES.txt
+privex_curconv.egg-info/dependency_links.txt
+privex_curconv.egg-info/requires.txt
+privex_curconv.egg-info/top_level.txt

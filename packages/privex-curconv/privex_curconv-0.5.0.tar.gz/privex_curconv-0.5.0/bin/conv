@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+############################################################################################################
+# Python Currency Converter CLI Tool
+# This is the system executable for privex-curconv, a Python package that provides quick
+# currency conversions on the command line, whether for users who spend a lot of time
+# in the terminal like myself (Someguy123), or for those who need easy currency conversion
+# within a shellscript :)
+#
+# (C) 2021 Privex Inc. - https://www.privex.io
+# Official Repo: https://github.com/Privex/python-curconv
+# Released under the X11/MIT License
+#
+############################################################################################################
+#
+# Bi-lingual shellscript/python file. When this file is ran as an executable with ./iota-status, it tries to determine the
+# highest version of python which has privex-iota installed.
+# Once the highest version has been found, this script simply executes itself using Python.
+# Original source of bilingual script: https://stackoverflow.com/a/47886254/2648583
+# Shell commands follow
+
+# Next line is bilingual: it starts a comment in Python, and is a no-op in shell
+
+""":"
+
+: ${DEBUG=0}
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:${PATH}"
+export PATH="${HOME}/.local/bin:/snap/bin:${PATH}"
+export DEBIAN_FRONTEND="noninteractive"
+DEPS=('privex-helpers' 'privex-loghelper' 'async-property' 'python-dotenv' 'httpx')
+: ${USE_DATACLASSES=1}
+MIN_VER=3060 PREF_VER=3070
+OS_TYPE="" _YUM_CMD="yum" _APT_CMD="apt-get"
+PKG_MGR="" PKG_MGR_UPDATE=""
+
+HIGHEST_VER=0
+
+dbg() {
+    (( DEBUG )) && >&2 echo -e "$@" || true
+}
+
+_pyver() {
+    local _xver=0
+    grep -Eqi "^python 3.4" <<< "$1" && _xver=3040
+    grep -Eqi "^python 3.5" <<< "$1" && _xver=3050
+    grep -Eqi "^python 3.6" <<< "$1" && _xver=3060
+    grep -Eqi "^python 3.7" <<< "$1" && _xver=3070
+    grep -Eqi "^python 3.8" <<< "$1" && _xver=3080
+    grep -Eqi "^python 3.9" <<< "$1" && _xver=3090
+    grep -Eqi "^python 3.10" <<< "$1" && _xver=3100
+    echo "$_xver"
+}
+
+
+for cmd in python3.9 python3.8 python3.7 python3.6 python3 ; do
+    if command -v "$cmd" &>/dev/null; then
+        dbg " [DBG] Found interpreter $cmd - checking version"
+        PVER="$("$cmd" -V 2> /dev/null)"
+        _ret=$?
+        if (( _ret )); then
+          dbg " [DBG] Non-zero return code from $cmd (code: ${_ret}) - skipping"
+          continue
+        fi
+        IVER="$(_pyver "$PVER")"
+        if (( IVER > HIGHEST_VER )); then
+            dbg " [DBG] New highest version: $IVER"
+            HIGHEST_VER=$IVER
+        fi
+    fi
+done
+
+# Find a suitable python interpreter, newest first.
+
+for cmd in python3.9 python3.8 python3.7 python3.6 python3 ; do
+    dbg " [DBG] Checking if we have $cmd"
+
+    if command -v "$cmd" &>/dev/null; then
+
+       dbg " [DBG] Found interpreter $cmd - checking python dependencies"
+
+       INSTALLED_DEPS="$(env "$cmd" -m pip freeze)" MISSING_DEPS=0
+       for d in "${DEPS[@]}"; do
+           if ! grep -q "$d" <<< "$INSTALLED_DEPS"; then
+               dbg " [DBG] Missing dependency: $d"
+               MISSING_DEPS=1
+           fi
+       done
+       if (( MISSING_DEPS )); then
+           dbg " [DBG] Installing all dependencies: ${DEPS[@]}"
+           env "$cmd" -m pip install -U "${DEPS[@]}" > /dev/null
+       fi
+       PY_VER="$($cmd -V)"
+       IVER="$(_pyver "$PY_VER")"
+       if (( IVER < 3070 )) && (( USE_DATACLASSES )); then
+           if ! grep -q "dataclasses" <<< "$INSTALLED_DEPS"; then
+               dbg " [DBG] Missing dependency: dataclasses (< py3.7)"
+               dbg " [DBG] Installing dependency: dataclasses"
+               env "$cmd" -m pip install -U dataclasses > /dev/null
+           fi
+       fi
+       # Re-execute this script using the appropriate Python interpreter.
+       exec $cmd $0 "$@"
+       exit $?
+    fi
+done
+
+>&2 echo -e "\n [!!!] CRITICAL ERROR: No python3 interpreter could be found...\n"
+
+exit 2
+
+":"""
+
+# Previous line is bilingual: it ends a comment in Python, and is a no-op in shell
+# Shell commands end here
+# Python script follows (example commands shown)
+
+import asyncio
+from privex.curconv import settings
+from privex.curconv.app import main
+
+if __name__ == '__main__':
+    asyncio.run(main())
