@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pycontests
+Version: 0.1.0
+Summary: Estimate the mixed strategy equilibrium of All-Pay Contests with Spillovers
+Home-page: https://github.com/mwt/pycontests
+Author: Matthew Wildrick Thomas
+Author-email: matthew.thomas@northwestern.edu
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/mwt/pycontests/issues
+Description: # Solve for Mixed Strategy Equilibrium of All-Pay Contests with Spillovers
+        
+        This package currently can estimate the mixed strategy equilibrium of an asymmetric all pay contest with spillovers. It uses the matrix inversion method established in [Betto and Thomas (2021)](https://mattwthomas.com/papers/asymmetric-all-pay-contests-with-spillovers/).
+        
+        The package is not yet complete and the commands are subject to design changes. Better documentation is forthcoming.
+        
+Platform: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown

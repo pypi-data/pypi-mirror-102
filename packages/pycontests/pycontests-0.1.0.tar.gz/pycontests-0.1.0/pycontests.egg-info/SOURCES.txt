@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pycontests/__init__.py
+pycontests.egg-info/PKG-INFO
+pycontests.egg-info/SOURCES.txt
+pycontests.egg-info/dependency_links.txt
+pycontests.egg-info/requires.txt
+pycontests.egg-info/top_level.txt
