@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mutator
+Version: 0.0.1
+Summary: Mutates the value of a however nested dictionary using the callback function.
+Home-page: https://github.com/rickgrammer/dictmutator
+Author: Ashfaq Rahman
+Author-email: ashrmzn22@gmail.com
+License: MIT
+Download-URL: https://github.com/rickgrammer/mutator/archive/refs/tags/v0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: dictionary,nested dictionary
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
