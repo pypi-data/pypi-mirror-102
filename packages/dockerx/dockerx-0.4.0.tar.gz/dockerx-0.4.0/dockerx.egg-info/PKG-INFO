@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dockerx
+Version: 0.4.0
+Summary: Launcher of Docker containers.
+Home-page: https://github.com/luiscarlosgph/docker-with-graphics
+Author: Luis C. Garcia-Peraza Herrera
+Author-email: luiscarlos.gph@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
