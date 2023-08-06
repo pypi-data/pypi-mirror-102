@@ -1,0 +1,12 @@
+knada_kafka_consumer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knada_kafka_consumer/app.py,sha256=f7NhmyBKhDqLarRrYFW-V5EgC_YmIp143kt6GIsqa9w,894
+knada_kafka_consumer/bq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knada_kafka_consumer/bq/bigquery_writer.py,sha256=vCP8aBrEnt4L8B7OW_WsoG101MdJrrWfrMMV9yt_cqo,866
+knada_kafka_consumer/consumer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knada_kafka_consumer/consumer/consumer.py,sha256=h_bRF8E0FYNHGGgKAojTey_zoNz9DwEaNfHsW3Ur_O4,4811
+knada_kafka_consumer/kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knada_kafka_consumer/kafka/kafka.py,sha256=DiS3FImH36YYOopihf0qnZclhcaOgyu1aEuvSY83i6A,869
+knada_kafka_consumer-0.1.0.dist-info/LICENSE,sha256=FfMLWGfNV84q3Vu6OICGbuIKjS3ecqUvJaVxFduL4xU,1063
+knada_kafka_consumer-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+knada_kafka_consumer-0.1.0.dist-info/METADATA,sha256=pcX37T1d_yKu0GZbdWesU-fKBkBhuVzXrQ4o6caVbzE,1003
+knada_kafka_consumer-0.1.0.dist-info/RECORD,,
