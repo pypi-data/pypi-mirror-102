@@ -1,0 +1,4 @@
+bluesky
+bluesky-live
+bluesky-widgets
+numpy
