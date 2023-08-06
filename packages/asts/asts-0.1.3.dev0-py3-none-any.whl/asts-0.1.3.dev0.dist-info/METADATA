@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: asts
+Version: 0.1.3.dev0
+Summary: A library for programmatic software modification
+Home-page: https://github.com/grammatech/sel
+Author: Eric Schulte and GrammaTech
+Author-email: sel@grammatech.com
+License: GPLv3+
+Project-URL: Bug Reports, https://github.com/grammatech/sel/issues
+Project-URL: Source, https://github.com/grammatech/sel/
+Keywords: software-engineering,source,program-synthesis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
