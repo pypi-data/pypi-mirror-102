@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-termenu
+Version: 0.1.2
+Summary: Simple terminal-based menus in Python
+Home-page: https://github.com/ii-Python/termenu
+Author: iiPython
+Author-email: ben@iipython.cf
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ii-Python/termenu/issues
+Project-URL: Source, https://github.com/ii-Python/termenu/
+Keywords: menu terminal cli console keystroke ascii
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# Termenu
+---
+
+README file coming soon.
+
+
