@@ -1,0 +1,9 @@
+stacterm/__init__.py,sha256=7vZM0mZHpfKJLzq-bm63ZrcTUDkieN6QHUIDBR3MiOw,104
+stacterm/calendar.py,sha256=bTTdM9FvbvtO12BUI0BFBXvCCzWfIcVWJDrn-bgY8GI,2650
+stacterm/cli.py,sha256=iMILR0cxfM-Oom3VuA3HKhTtq3yIAaqBkvdDl9bcf24,4736
+stacterm/utils.py,sha256=rS0MbWJb4fCPZi2K6HZt0gXAwu2Sw6cg4e90pbVSxj4,507
+stacterm-0.1.0.dist-info/METADATA,sha256=d5vKpZm5c93cww6uD4qcklleeZl-FI4rOJs8YKwX3DQ,7484
+stacterm-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stacterm-0.1.0.dist-info/entry_points.txt,sha256=ml1G_1uDtFMp4mt7J0uJCqkEWU4eV7mMZw7dVkYOl3A,47
+stacterm-0.1.0.dist-info/top_level.txt,sha256=_3p2G1Ek1pQTUPIjO2XXDZok_YwxREnjgcWT36QwWNw,9
+stacterm-0.1.0.dist-info/RECORD,,
