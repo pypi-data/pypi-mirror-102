@@ -1,0 +1,3 @@
+[console_scripts]
+mmd5sum = mmd5sum:main
+
