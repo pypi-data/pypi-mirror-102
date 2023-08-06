@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+django_nofloc.egg-info/PKG-INFO
+django_nofloc.egg-info/SOURCES.txt
+django_nofloc.egg-info/dependency_links.txt
+django_nofloc.egg-info/top_level.txt
+nofloc/__init__.py
+nofloc/apps.py
+nofloc/middleware.py
+nofloc/models.py
+nofloc/views.py
