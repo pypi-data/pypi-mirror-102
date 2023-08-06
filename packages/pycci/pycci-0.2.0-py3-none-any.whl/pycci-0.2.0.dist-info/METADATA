@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pycci
+Version: 0.2.0
+Summary: CircleCI API written in python
+Home-page: https://github.com/winslowdibona/pycci
+Author: Winslow DiBona
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: requests
+
+# pycci
+
+Simple python client for the CircleCI API
+
+## Installation
+
+```bash
+pip install pycci
+```
+
+## Examples
+
+Basic example can be found in the examples directory
+
+
