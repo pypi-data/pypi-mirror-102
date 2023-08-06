@@ -1,0 +1,3 @@
+[console_scripts]
+telemunin=telemuninn:__main__.main
+
