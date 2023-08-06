@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: testops-api
+Version: 1.0.1
+Summary: TestOps API
+Home-page: https://testops.katalon.io
+Author: Katalon, LLC. (https://www.katalon.io)
+Author-email: info@katalon.io
+License: UNKNOWN
+Keywords: Katalon,TestOps,Katalon TestOps API,API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+Requires-Dist: nulltype
+
+UNKNOWN
+
+
