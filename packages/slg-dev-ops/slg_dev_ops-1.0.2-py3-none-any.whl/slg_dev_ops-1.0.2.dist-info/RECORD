@@ -1,0 +1,7 @@
+slg_dev_ops/__init__.py,sha256=UhLJ9u6pgbfuY8xO656UkvpexgXvswJOWKOiLvGy8Ws,187
+slg_dev_ops/install_nginx.py,sha256=QVAO_SThj_fLgYJEmD77NlXmS2HDak2VY3J5r-kaisA,1457
+slg_dev_ops-1.0.2.data/scripts/slg-install-nginx,sha256=NJ4tQdfU975iwHj05wiyNIgijsLOihZueM7AYzyhCgQ,1333
+slg_dev_ops-1.0.2.dist-info/METADATA,sha256=SsdDPBr5A66ZR2x4Cde-U9sK99fpWEohRPIOt6I1l0A,703
+slg_dev_ops-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slg_dev_ops-1.0.2.dist-info/top_level.txt,sha256=PEiK1asdFZCOcZzeSdmP-5kektnb2lMRsyOBNIg6f_0,12
+slg_dev_ops-1.0.2.dist-info/RECORD,,
