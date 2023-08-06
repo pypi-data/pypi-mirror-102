@@ -1,0 +1,11 @@
+conxugador/__init__.py,sha256=kZKrl5tZX7gF1EeJFqANfQ1eeoaDwmTy49SGl8nRK4Q,1021
+conxugador/__main__.py,sha256=fOREbEDG3Yr_cb4t3DeFbz61sJKAOJkc_pu5OPQDtOw,3085
+conxugador/conjugation.py,sha256=gIcNaYECgP5aTrnAvcpiHJcARt49zpEZLIVdSAMCiNU,12757
+conxugador/load_paradigms.py,sha256=CLVTY2WfWQoMEBmpTdeD7lL5LxQo89kMb_S5i4b4EEw,6347
+conxugador/verbos.txt,sha256=OQ1svqkdV7eoVKq9-3CqQA5ednBAaulyr6FCJW4_huo,152863
+conxugador-2021.4.dist-info/LICENSE,sha256=4pAFyy2eZge3kvjtuNT3bxbJ1EKxJ4ZP5eBgeOQDrB4,33040
+conxugador-2021.4.dist-info/METADATA,sha256=NIiGYULguW_euGYOMPFl--TsUjr-XzevWGr5kHtRJXc,6459
+conxugador-2021.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+conxugador-2021.4.dist-info/entry_points.txt,sha256=AC52DumHbZxsaeJGxcnZ1kUtWiAiuRBv4ACXXOHH4M4,57
+conxugador-2021.4.dist-info/top_level.txt,sha256=9P0H_KzV8u1yVXe02UvxFL45JqjyTNMzlvZ-d3riKg4,11
+conxugador-2021.4.dist-info/RECORD,,
