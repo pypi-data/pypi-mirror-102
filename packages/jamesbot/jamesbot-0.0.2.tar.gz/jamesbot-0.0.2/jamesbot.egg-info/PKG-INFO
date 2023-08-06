@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jamesbot
+Version: 0.0.2
+Summary: Download and Store financial data.
+Home-page: https://github.com/felipe-fp/JamesBot
+Author: Faruk Hammoud, Felipe Freire Pinto
+Author-email: farukhammoud@student-cs.fr, felipe.fp@student-cs.fr
+License: UNKNOWN
+Description: # JamesBot
+        My name is Bot, I'm a James.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
