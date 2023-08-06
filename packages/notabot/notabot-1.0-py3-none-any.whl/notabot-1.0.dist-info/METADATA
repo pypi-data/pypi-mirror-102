@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: notabot
+Version: 1.0
+Summary: Automated notarization tool for macOS applications
+Home-page: https://github.com/3-manifolds/notabot/
+Author: Marc Culler, Nathan M. Dunfield, and Matthias Görner
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+
+This module provides a base class for an automated notarizer.
+Subclasses must provide a method for building a distribution disk image.
+
