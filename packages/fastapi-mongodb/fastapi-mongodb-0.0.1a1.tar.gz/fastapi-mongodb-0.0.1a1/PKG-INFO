@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: fastapi-mongodb
+Version: 0.0.1a1
+Summary: Snippets for FastAPI to work with MongoDB by Motor driver.
+Home-page: https://github.com/KosT-NavySky/fastapi_mongodb
+License: MIT
+Keywords: fastapi,mongodb,pydantic,motor,pymongo
+Author: Kostiantyn Salnykov
+Author-email: kostiantyn.salnykov@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: coverage
+Requires-Dist: faker
+Requires-Dist: fastapi
+Requires-Dist: gunicorn
+Requires-Dist: httpx
+Requires-Dist: ipython
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-material
+Requires-Dist: motor
+Requires-Dist: orjson
+Requires-Dist: pydantic[email,dotenv]
+Requires-Dist: pyjwt
+Requires-Dist: pymongo[tls,srv]
+Requires-Dist: typer
+Requires-Dist: uvicorn
+Project-URL: Repository, https://github.com/KosT-NavySky/fastapi_mongodb
+Description-Content-Type: text/markdown
+
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Kost-NavySky/fastapi_mongodb/Python%20package/master)
+![GitHub](https://img.shields.io/github/license/KosT-NavySky/fastapi_mongodb)
+[![codecov](https://codecov.io/gh/KosT-NavySky/fastapi_mongodb/branch/master/graph/badge.svg)](https://codecov.io/gh/KosT-NavySky/fastapi_mongodb)
+[![](https://img.shields.io/badge/code%20style-black-000000?style=flat)](https://github.com/psf/black)
+
+# fastapi-mongodb
+
+## Requirements
+
+- Python 3.9 +
+- poetry
+
+## Tests
+
+```
+poetry run pytest
+```
+
+## Coverage
+
+```
+poetry run coverage run -m pytest
+poetry coverage report
+```
+
+## Roadmap
+
+- ➕ BaseModel (data container and to_db / from_db)
+- ➕ BaseSchema (request / response validation and serialization)
+- ➕ BaseRepository (CRUD operations for the DB)
+- ➕ BaseRepositoryConfig (customization for Repository logic)
+- ➕ TokensHandler (encode / decode and validate JWT tokens)
+- ➕ PasswordsHandler (password hashing and password checking)
+- ➕ settings.py (get base config from .env)
+- ➕ BaseLogger (debug logger and simple logger)
+- ➕ DB profiling and monitoring
+- ➕ Application setup (config.py, indexes, collection setup)
+- ➕ Tests and test environment (test DB configuration)
+- ➕ Model Factories (factory_boy)
+- ➕➖ Pagination (?limit, ?offset, ?latest_id)
+- ➕➖ Sorting (?orderBy)
+- ➕➖ Projectors (?showFields, ?hideFields)
+- ➕➖ Trace memory allocations (tracemalloc)
+- ➕➖ BaseProfiler (decorator and context manager and metaclass / cProfile)
+- ➕➖ manage.py commands (setup apps / create apps etc)
+- ➕➖ .Dockerfile and docker-compose.yaml
+- ➕➖ DB setup (db management, db level commands)
+- ➖ DB User management commands (append to manage.py)
+- ➖ DB ReplicaSet setup + docker-compose.yaml
+- ➖ DB migrations handler (migrations running and tracking)
+- ➖ DB dump/restore
+- ➖ Filters ("Depends" classes maybe DB applicable)
+- ➖ Change email flow
+- ➖ Change password flow
+- ➖ Reset password flow
+- ➖ Load testing with Locust
+- ➖ Login with Google, Facebook, Twitter
+- ➖ .csv / .xlsx Handlers
+- ➖ Background tasks (Redis + celery/celery-beat)
+
+
