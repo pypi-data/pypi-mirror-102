@@ -1,0 +1,3 @@
+[console_scripts]
+kedro-hyperparam=kedro_hyperparam.__main__:main
+
