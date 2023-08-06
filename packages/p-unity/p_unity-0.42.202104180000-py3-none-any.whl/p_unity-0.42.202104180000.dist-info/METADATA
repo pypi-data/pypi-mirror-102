@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: p-unity
+Version: 0.42.202104180000
+Summary: { Programming : Unity }
+Home-page: https://github.com/p-unity
+Author: Scott McCallum (https://sr.ht/~scott91e1)
+Author-email: 262464@195387.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Free To Use But Restricted
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Framework :: Trio
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: SQL
+Classifier: Programming Language :: Forth
+Classifier: Programming Language :: Basic
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: simplejson
+
+# Programming Unity in Python
+
+[![Build status](https://badge.buildkite.com/8f8d4293b63c2ce47936a901edd8ed2b1710f7006647387244.svg)](https://buildkite.com/intermine-dot-com-dot-au-pty-ltd/p-unity-python)
+
+# Programming Unity License 10.42
+
+SPDX: Programming-Unity-10.42
+
+## Purpose
+
+This license gives everyone as much permission to work with this software as possible, while protecting contributors from liability.
+
+## Acceptance
+
+In order to receive this license, you must agree to its rules.  The rules of this license are both obligations under that agreement and conditions to your license. You must not do anything with this software that triggers a rule that you cannot or will not follow.
+
+## Copyright
+
+Each contributor licenses you to do everything with this software that would otherwise infringe that contributor's copyright in it.
+
+## Rules
+
+You may only exercise your license in countries with green ticks in the following columns on the [LGBT Rights By Country or Territory](https://en.wikipedia.org/wiki/LGBT_rights_by_country_or_territory) page on Wikipedia.  
+
+- Same-sex marriage
+- Same-sex sexual activity
+- Adoption by same-sex couples
+- Recognition of same-sex unions
+- LGB people allowed to serve openly in military
+- Anti-discrimination laws concerning sexual orientation
+
+Ticks must be visible for 30 continuous days to be considered valid.
+
+## Ethics
+
+You may only exercise your license if you and your organisation follow, or are striving to follow [The Software Engineering Code of Ethics and Professional Practice](https://ethics.acm.org/code-of-ethics/software-engineering-code) and any future updates.  The document must be re-read every year on or around your birthday where the year is divisible by three or five.
+
+## Interoperation
+
+Where the licensed software interoperates with "Artificial Intelligence" it may only be used when the use is compliant, or is striving to become compliant with these [AI Ethics](https://www.industry.gov.au/data-and-publications/building-australias-artificial-intelligence-capability/ai-ethics-framework/ai-ethics-principles) or similar comprehensive frameworks designed to protect [Human Rights](https://tech.humanrights.gov.au/human-rights).
+
+## Notices
+
+You must ensure that everyone who gets a copy of any part of this software from you, with or without changes, also gets the text of this license.
+
+## Excuse
+
+If anyone notifies you in writing that you have not complied with notices, you can keep your license by taking all practical steps to comply within 180 days after the notice.  If you do not do so, your license ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this software that would otherwise infringe any patent claims they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+***As far as the law allows, this software comes as is, without any warranty or condition, and no contributor will be liable to anyone for any damages related to this software or this license, under any kind of legal claim.***
+
+
+
