@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+extract/ACStubeCode.egg-info/PKG-INFO
+extract/ACStubeCode.egg-info/SOURCES.txt
+extract/ACStubeCode.egg-info/dependency_links.txt
+extract/ACStubeCode.egg-info/top_level.txt
