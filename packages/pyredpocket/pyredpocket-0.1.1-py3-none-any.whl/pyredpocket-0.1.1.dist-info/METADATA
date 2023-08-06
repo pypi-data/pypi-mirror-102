@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyredpocket
+Version: 0.1.1
+Summary: Python Interface for RedPocket Mobile Data
+Home-page: https://github.com/ronnie-llamado/pyRedPocket
+Author: Ronnie Llamado
+Author-email: llamado.ronnie@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+[![build](https://github.com/ronnie-llamado/pyRedPocket/actions/workflows/build.yml/badge.svg)](https://github.com/ronnie-llamado/pyRedPocket/actions/workflows/build.yml)
+
+# pyRedPocket
+
+Python interface to RedPocket Mobile's website - to get data, messaging and voice balances.
+
+## Installation
+
+```
+pip install pyredpocket
+```
+
+## Example
+
+```python
+from pyredpocket import RedPocket
+
+client = RedPocket(username='username', password='password')
+
+print(client.details)
+```
+
+
