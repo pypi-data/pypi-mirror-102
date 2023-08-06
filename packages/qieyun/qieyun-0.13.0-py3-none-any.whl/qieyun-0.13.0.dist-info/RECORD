@@ -1,0 +1,16 @@
+Qieyun/__init__.py,sha256=AjjWb79mpSmJXyJmN09BqO3zrDVA2PqFFSJTwhv3GEQ,324
+Qieyun/_version.py,sha256=8jbyfDafOI8eZRtXgKR6mD8oxCBRAURo9UJ6grdsnZU,23
+Qieyun/_拓展音韻屬性.py,sha256=aVPwmL1D8FMwvTk1B6riXsAPLtNjhclZ3WrT1UCqDhA,2860
+Qieyun/_書影.py,sha256=TsAR6BJkRvPdGA-D-luhSrUC6rbLl05hHdGSOyADGHI,1035
+Qieyun/_韻圖.py,sha256=daGHCz68YHf3F6Av0VmZD3xixptXq9PMQqtl8C8w6Fc,2591
+Qieyun/rhyme_book.csv,sha256=Oqt2ZdaLZvStcuVSJQIikhm7FCklubnEQr12oSO-MqY,2000120
+Qieyun/rhyme_table.csv,sha256=_vm_UBRwyrtAFuPyNs3ztWznVLIUTWGDFZQtjx4BoKY,123127
+Qieyun/常量.py,sha256=dLCplohy_caCEcaCuSYztiUp8O__9giZ-b91QGaphBs,1584
+Qieyun/音韻地位.py,sha256=zgq76F99gYrsjC5fyLprzWLY4aFIlenKB9EwxYDHVZM,20025
+Qieyun/韻書.py,sha256=MDvzvpJ8g1UlCyJKbZfL9Uix6JtZVx011UCu03ZX2I8,3316
+Qieyun/韻書和韻圖.py,sha256=km0FndoJb3h6B7CwRiG-U_-GICEJmP5NlMdHKlmOS-o,824
+qieyun-0.13.0.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+qieyun-0.13.0.dist-info/METADATA,sha256=waxLGxz0yxywiZ6NJio4eWQktmWbykvOlCyRm1ULWQU,1651
+qieyun-0.13.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qieyun-0.13.0.dist-info/top_level.txt,sha256=HKJXbOdUQJyWO3A-_4QKWhSWPxIHj0nglJtX2R50vV0,7
+qieyun-0.13.0.dist-info/RECORD,,
