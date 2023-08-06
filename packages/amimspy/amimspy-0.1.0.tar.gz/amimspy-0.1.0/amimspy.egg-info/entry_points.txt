@@ -1,0 +1,3 @@
+[console_scripts]
+amimspy = amimspy.__main__:main
+
