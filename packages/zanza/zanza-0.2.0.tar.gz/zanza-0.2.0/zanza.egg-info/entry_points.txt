@@ -1,0 +1,4 @@
+[console_scripts]
+dezanza = dezanza.__main__:main
+zanza = zanza.__main__:main
+

@@ -1,0 +1,15 @@
+README.md
+setup.py
+dezanza/__init__.py
+dezanza/__main__.py
+dezanza/tests/__init__.py
+dezanza/tests/tests_dezanza.py
+zanza/__init__.py
+zanza/__main__.py
+zanza.egg-info/PKG-INFO
+zanza.egg-info/SOURCES.txt
+zanza.egg-info/dependency_links.txt
+zanza.egg-info/entry_points.txt
+zanza.egg-info/top_level.txt
+zanza/tests/__init__.py
+zanza/tests/tests_zanza.py
