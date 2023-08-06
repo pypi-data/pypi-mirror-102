@@ -1,0 +1,12 @@
+selenium_support-0.0.1-py3.8-nspkg.pth,sha256=PXKhO0veYBt5gRBouyfn6ReB5ifiMsR7OmRozUbbmvg,544
+alexber/seleniumsupport/__init__.py,sha256=VCKFPJmik6oYVtKTb1nB7c0o5mdbPDjKgwqHYHxj6jk,279
+alexber/seleniumsupport/_impl.py,sha256=Fec3I5zwKtvZ_EpiHjEF_nDil23DdB2ya_LQr-oVTtI,20903
+alexber/seleniumsupport/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests_data/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selenium_support-0.0.1.dist-info/LICENSE.txt,sha256=QnWlJXamxAc_2PTpTGrh3NOWOLZdmkjVLaeMk-HD-00,1317
+selenium_support-0.0.1.dist-info/METADATA,sha256=fBK_w3NTzVviJ1moIr_CavjS29dNdSMjEG4xOBLdvL0,15544
+selenium_support-0.0.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+selenium_support-0.0.1.dist-info/namespace_packages.txt,sha256=VDuPd7dQwrD0T8ff_Y0UomZ_dz8UVi5HfmDVnZZRGGs,8
+selenium_support-0.0.1.dist-info/top_level.txt,sha256=WcM3XzoC_lwtE8utFdT2MH9hyk7krH_sC_38Q8Eht7w,19
+selenium_support-0.0.1.dist-info/RECORD,,
