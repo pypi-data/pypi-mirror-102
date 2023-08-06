@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rapidhrv
+Version: 0.0.4
+Summary: A package for preprocessing, analyzing, and visualizing cardiac data
+Home-page: https://github.com/peterakirk/RapidHRV/
+Author: Peter Kirk
+Author-email: p.kirk@ucl.ac.uk
+License: UNKNOWN
+Description: ![Logo](https://github.com/peterakirk/RapidHRV/blob/main/logo/Logo.png?raw=true)
+        
+        RapidHRV is a Python library for preprocessing, analyzing, and visualizing cardiac data (validated on ECG, Pulse Oximetry, and PPG).
+        
+        ## Installation
+        
+        ```bash
+        pip install rapidhrv
+        ```
+        
+        ## Usage
+        
+        ```python
+        from rapidhrv import preprocess, analyze, visualize
+        
+        processedData = preprocess.preprocess(inputdata=mydata, samplingrate=250)  # returns upsampled, high-pass filtered, smoothed data
+        
+        analyzedData = analyze.extract_heart(inputdata=processedData,resampledrate=1000)  # returns dictionary with analyzed data
+        
+        fig = visualize.visualize(inputdata=processedData, inputframe=analyzedData)  # returns interactive matplotlib object, displaying time series BPM and RMSSD time series
+        
+        ```
+        
+        ## License
+        MIT License
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
