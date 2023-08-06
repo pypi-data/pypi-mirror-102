@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: xpartition
+Version: 0.1.0
+Summary: Tool for writing large xarray datasets to zarr stores with independent processes
+Home-page: https://github.com/spencerkclark/xpartition
+Author: Spencer K. Clark
+Author-email: spencerkclark@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6

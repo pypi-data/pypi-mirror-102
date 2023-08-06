@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+test_xpartition.py
+tox.ini
+xpartition.py
+xpartition.egg-info/PKG-INFO
+xpartition.egg-info/SOURCES.txt
+xpartition.egg-info/dependency_links.txt
+xpartition.egg-info/not-zip-safe
+xpartition.egg-info/requires.txt
+xpartition.egg-info/top_level.txt

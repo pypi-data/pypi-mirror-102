@@ -1,0 +1,7 @@
+xarray>=0.16.2
+dask[array]>=2.9.0
+setuptools>=38.4
+zarr
+
+[:python_version == "3.6"]
+dataclasses
