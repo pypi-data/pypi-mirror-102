@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BetterString
+Version: 2.0.3
+Summary: Like a normal string but with more functionality
+Home-page: UNKNOWN
+Author: DerSchinken (aka DrBumm)
+License: UNKNOWN
+Description: # BetterString
+        ### This is a QoL (Quality of Life) package   
+        It implements some more functionality to the normal Python str    
+        Example:   
+        You can specify how many characters should be uppercase in .upper
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
