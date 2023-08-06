@@ -1,0 +1,3 @@
+[console_scripts]
+paraman = paraman.__main__:main
+
