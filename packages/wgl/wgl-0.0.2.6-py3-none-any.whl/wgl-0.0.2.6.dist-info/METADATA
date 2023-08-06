@@ -1,0 +1,276 @@
+Metadata-Version: 2.1
+Name: wgl
+Version: 0.0.2.6
+Summary: Allows creation of terminal uis
+Home-page: https://github.com/pypa/sampleproject
+Author: WoffleTbh#0043
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# wTermUi
+wTermUi is a simple module that allows creating good looking terminal uis.
+It's very easy to use and doesn't rely too much on other libraries.
+
+## Usage
+
+Any wTermUi window is navigated using:
+Up arrow, Down arrow, Left arrow, Right arrow
+where up arrow navigates to the previous input widget (Button, Switch, TextBox),
+and down arrow navigates to the next input widget (Button, Switch, TextBox).
+
+Left arrow navigates to the previous page, and right arrow navigates to the next page.
+
+When you press enter, the currently selected input widget will be activated.
+In the case of inputs, you'll be prompted to assign a new value, while buttons
+just run their callback function, and switches just toggle.
+
+## Changelog
+
+## V 0.0.2.5
+ + More stable TextBoxes, still a visual bug when switching pages.
+ + Pauses Pynput while editing TextBox
+ + TextBoxes now have a type and max length
+
+### V 0.0.2.4
+Yes, I dedicated a whole update to 1 change.
+ + added quick_ui_gen and "blocky" theme
+
+### V 0.0.2.3
+ + Added a few built-in themes
+ + Better documentation
+ + Added a "Divider" widget which just adds a divider
+ + Added a docstring to most classes and methods, this has an effect when editing in IDEs such as Visual studio code.
+
+### V 0.0.2.2
+ + Added allow_scaling, adjust_term_size to TermWin class
+ + Changed ui by a bit
+ + Inputs/TextBoxes are more stable
+
+### V 0.0.2.1
+ + Fixed wTermUi not importing correctly 
+
+## Documentation
+
+All widgets, except for Switches and Dividers, have 2 required arguments: pos, text/placeholder_text.
+
+pos takes 3 arguments, x, y, and page.
+x represents which character on the x axis, not which pixel, same goes for y.
+Page is which page to put this widget on.
+
+text/placeholder_text is just any string. Note that the widget scales with the length of text/placeholder_text.
+
+Optional argument is callback, it will toggle whenever the current widget changes in any way.
+
+### Changing ui theme
+There are currently 4 available themes:
+Simplistic (WGL_THEME_SIMPLISTIC), makes use of only "+-|". This one generates a less clean ui
+Default (WGL_THEME_DEFAULT), is te default theme that uses "╚╔╩╦╠═╬╝╗║╣". Creates a very clean ui
+Thin (WGL_THEME_THIN), is the default theme, but it uses thinner lines "└┌┴┬├─┼┘┐│┤". Greate for creating simple but clean uis.
+Blocky (WGL_THEME_BLOCKY), is a theme which I added as a test, it uses only "█".
+
+To change your current window's theme you can either:
+Initialize the window with a theme:
+```python
+TermWin([100, 20], "A very blocky window", border_letters=WGL_THEME_BLOCKY)
+```
+or you can of course change the variable itself, note that this method will take effect during the next render call
+```python
+window.border_letters = WGL_THEME_BLOCKY
+```
+
+### Widgets
+
+The currently supported widgets are:
+```py
+Label(
+    pos=[x, y, page],
+    text="Label"
+)
+
+TextBox(
+    pos=[x, y, page],
+    placeholder_text="INPUT", # optional
+    callback=None, # optional
+    type=WGL_TYPES_STRING, # optional, Supported types are WGL_TYPES_STRING, WGL_TYPES_INT, WGL_TYPES_FLOAT
+    max_len=10000 # optional, Negative values will get n, where n is the value, letters from the end of the TextBox
+)
+
+Button(
+    pos=[x, y, page],
+    text="Label",
+    callback=None # Optional
+)
+
+Switch(
+    pos=[x, y, page],
+    callback=None # optional
+)
+
+Divider(
+    pos=[x, y, page]
+)
+```
+
+Creating a window is very simple. Just call 
+```py
+window = TermUi(
+    win_size=[size_x, size_y],
+    win_title="wTermUi window",
+    allow_scaling=True, # optional
+    adjust_term_size=False, # optional
+    max_pages=1, # optional
+    key_events=None # optional
+    border_letters="╚╔╩╦╠═╬╝╗║╣" #optional
+)
+```
+
+this code will return a window that you can add widgets to using
+```py
+window.add_widget(Widget(
+    # Widget arguments
+))
+```
+
+where widget can be any of teh widgets mentioned above.
+This function returns the cerated widget, so you can retrieve 
+data such as text or toggled from them.
+
+```py
+textbox = window.add_widget(TextBox([0,0,1],"Enter text here"))
+print(textbox.text)
+```
+
+The code above will print whatever teh user put in. 
+Note that text and placeholder_text are different values.
+
+### Quick ui gen
+
+Class TermWin has a method called "quick_ui_gen". What it does is it lexes any input given as long as it's a string.
+It supports new lines and doesn't require any positioning etc.
+The current code would turn:
+```python
+"""First name: [ENTER FIRST NAME]"""
+```
+into
+```
+[Label([0,0,1], "First name:"), TextBox([13, 0, 1], "ENTER FIRST NAME")]
+```
+This is good for creating an ui in the matter of minutes, but it comes with drawbacks.
++ As of now, it's limited to only 1 page.
++ Some unintended spaces may make an appearance when dealing with larger data.
++ It can't deal very well with widgets with no spaces in between.
++ Switches have buggy behaviour.
++ Doesn't support overlapping widgets nor dividers.
+
+But if you're making a very simple ui, this shouldn't be too much of a problem. 
+Note that this specific function is heavily WIP, as I made it at 1am.
+I will be fixing bugs as well as adding new features to this function in a future update.
+## Example codes
+
+Here's an example code for a calculator:
+```py
+from wTermUi import *
+import math
+
+window = TermWin([41, 20], "Calculator", 5, adjust_term_size=True, border_letters=WGL_THEME_THIN)
+
+
+def convert_numbers():
+    if str.lower(number1.text) == "pi":
+        number1.text = "3.1415626"
+    if str.lower(number2.text) == "pi":
+        number2.text = "3.1415626"
+
+
+def convert_number():
+    if str.lower(number3.text) == "pi":
+        number3.text = "3.1415626"
+
+
+def add_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) + float(number2.text))
+
+
+def sub_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) - float(number2.text))
+
+
+def mul_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) * float(number2.text))
+
+
+def div_numbers():
+    convert_numbers()
+    if float(number2.text) != 0.0:
+        output.text = "Output: " + str(float(number1.text) / float(number2.text))
+
+
+def pow_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) ** float(number2.text))
+
+
+def mod_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) % float(number2.text))
+
+
+def fulldiv_numbers():
+    convert_numbers()
+    output.text = "Output: " + str(float(number1.text) // float(number2.text))
+
+
+def sqrt_number():
+    convert_number()
+    output2.text = "Output: " + str(math.sqrt(float(number3.text)))
+
+
+def sin_number():
+    convert_number()
+    output2.text = "Output: " + str(math.sin(float(number3.text)))
+
+
+def cos_number():
+    convert_number()
+    output2.text = "Output: " + str(math.cos(float(number3.text)))
+
+
+window.add_widget(Label([0, 0, 1], "Number 1: "))
+number1 = window.add_widget(TextBox([11, 0, 1], "INSERT NUMBER HERE"))
+
+window.add_widget(Label([0, 3, 1], "Number 2: "))
+number2 = window.add_widget(TextBox([11, 3, 1], "INSERT NUMBER HERE"))
+
+window.add_widget(Label([0, 0, 2], "Number: "))
+number3 = window.add_widget(TextBox([9, 0, 2], "INSERT NUMBER HERE"))
+
+window.add_widget(Button([0, 6, 1], "+", add_numbers))
+window.add_widget(Button([4, 6, 1], "-", sub_numbers))
+window.add_widget(Button([8, 6, 1], "*", mul_numbers))
+window.add_widget(Button([12, 6, 1], "/", div_numbers))
+window.add_widget(Button([16, 6, 1], "^", pow_numbers))
+window.add_widget(Label([0, 7, 1], "Advanced operations: "))
+window.add_widget(Button([0, 8, 1], "%", mod_numbers))
+window.add_widget(Button([4, 8, 1], "//", fulldiv_numbers))
+
+
+window.add_widget(Button([0, 3, 2], "√", sqrt_number))
+window.add_widget(Button([4, 3, 2], "sin", sin_number))
+window.add_widget(Button([10, 3, 2], "cos", cos_number))
+
+output = window.add_widget(Label([0, 12, 1], "Output: "))
+output2 = window.add_widget(Label([0, 12, 2], "Output: "))
+
+window.main_loop()
+```
+
