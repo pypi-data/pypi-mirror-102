@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        resourcedictionary=ckanext.resourcedictionary.plugin:ResourcedictionaryPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
