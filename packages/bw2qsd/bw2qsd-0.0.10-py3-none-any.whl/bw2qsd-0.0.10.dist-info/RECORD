@@ -1,0 +1,13 @@
+bw2qsd/Tutorial.ipynb,sha256=9RE3TuRc7_v890FX2yfDHe3ycXl0bCdKr4W9lZ7QVMI,39602
+bw2qsd/__init__.py,sha256=dU1XWqfFCpIt-dsQnH4lGO8kolMilyNkznm1e-ed0Zg,2523
+bw2qsd/_cf_getter.py,sha256=7g7IiuWmSLbaQSggE4468G0jXKdsQANS2DWpERS0nXE,16266
+bw2qsd/_db_downloader.py,sha256=SHmL8mKnn2x0qCWzmUTt_2hIqaWpgUmgQn3SbwkrHs8,12527
+bw2qsd/_exceptions.py,sha256=y7-5RaTCrUOW9rrF8GzIvW3c_FJoXuIO1pjwkRh30us,449
+bw2qsd/sample_output.tsv,sha256=1mAO2MJdx0nsHgjB8KublEn6J0xSU0R36ombI9ahUlA,3366
+bw2qsd/temp.py,sha256=42FD4yuBvOBAPm9jS_bbCenI3vuBPWKyUcyDkgQE-yU,739
+bw2qsd/utils.py,sha256=KnKrJR2IU6-_PtFM_C7EU_eG6R0TDeeZ4SYLPLYkNac,1913
+bw2qsd-0.0.10.dist-info/LICENSE.txt,sha256=QVvAmFiYmul4WEHRtl5JwfQOPooD4UMuWzWlyfEvOfc,1829
+bw2qsd-0.0.10.dist-info/METADATA,sha256=8BCHSI3tMhbbxIHtPX5lNB4mkr9Wl7RAriFmjhP_0qM,3476
+bw2qsd-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bw2qsd-0.0.10.dist-info/top_level.txt,sha256=4nlyzefK28iuOTk-gQdpR_jzQlY4jgwcmomC22vPy6U,7
+bw2qsd-0.0.10.dist-info/RECORD,,
