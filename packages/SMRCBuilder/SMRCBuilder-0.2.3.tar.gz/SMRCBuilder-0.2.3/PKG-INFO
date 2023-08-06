@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: SMRCBuilder
+Version: 0.2.3
+Summary: A Library To Help Build Your SmartRC Interface
+Home-page: https://nokodaaddictions.github.io/Projects/SmartRC/SMRCBuilder.html
+Author: NoKodaAddictions
+Author-email: nokodaaddictions@gmail.com
+License: MIT
+Description: # SmartRC - Builder Library
+        
+        A Library To Help You Build Your Interface For SmartRC
+        
+        The builder library is broken down into separate modules.
+        
+        - Communications
+        
+        - Input
+        
+        - Logs
+        
+        - Update
+        
+        - Linker
+        
+        ## Requirements
+        Python 3.6+
+        
+        Git [https://git-scm.com/]
+        
+        ## Install
+        
+        ```terminal
+        pip install SMRCBuilder
+        ```
+        
+        or
+        
+        ```
+        python3 -m pip install SMRCBuilder
+        ```
+        ## Documentation
+        
+        Visit https://nokodaaddictions.github.io/Projects/SmartRC/SMRCBuilder.html
+        
+        2021 NoKodaAddictions
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
