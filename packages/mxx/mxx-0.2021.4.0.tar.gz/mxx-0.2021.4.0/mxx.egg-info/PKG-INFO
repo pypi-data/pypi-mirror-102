@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mxx
+Version: 0.2021.4.0
+Summary: Debug Toolset for Python.
+Home-page: https://github.com/DIYer22/mxx
+Author: DIYer22
+Author-email: ylxx@live.com
+License: UNKNOWN
+Description: Debug Toolset for Python.
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown

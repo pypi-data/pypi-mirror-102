@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mxx/__info__.py
+mxx/__init__.py
+mxx.egg-info/PKG-INFO
+mxx.egg-info/SOURCES.txt
+mxx.egg-info/dependency_links.txt
+mxx.egg-info/top_level.txt
