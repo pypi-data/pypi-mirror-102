@@ -1,0 +1,3 @@
+[console_scripts]
+shop=shop.__main__:main
+

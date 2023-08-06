@@ -1,0 +1,10 @@
+shop/__init__.py,sha256=ZGsmLEpws5g89pZVnV3bcWDipeOLKugZOyG9OslvA48,64
+shop/__main__.py,sha256=SbsDBwRuOmkvSsazGT13kBdHniT8BqqCIBIbHIbrlZo,1239
+shop/exceptions.py,sha256=6lBNp-hadJNGMKfhI54GMEXs2xbKoKsJmyFVixwzRQk,35
+shop/server.py,sha256=a27vsUet8HJgSHrjUQcv4Qz_r6li8tmns014i1EnmX8,396
+shop/snapshot.py,sha256=4IJx8ART6ql6-aju7fcOFL5J9I4B3GYMkljw2iVSFm4,2381
+shop/svm.py,sha256=2JxvN4x7uYnWbFx54usmZl1NgmQwzxmPSpiEpQrb7PQ,3692
+shop_vc-0.0.1.dist-info/entry_points.txt,sha256=ipiYjyYVhRZ6HGgmnIZKDMWa7rMTEfGbdN3Y1EDBNN4,43
+shop_vc-0.0.1.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+shop_vc-0.0.1.dist-info/METADATA,sha256=OJZKpNLBICpz5qASvVauLyyrKEFSpK31vdW9A29MWCA,991
+shop_vc-0.0.1.dist-info/RECORD,,
