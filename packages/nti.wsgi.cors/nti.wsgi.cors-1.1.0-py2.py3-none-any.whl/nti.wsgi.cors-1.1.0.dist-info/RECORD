@@ -1,0 +1,15 @@
+nti.wsgi.cors-1.1.0-py3.8-nspkg.pth,sha256=oD1h28NI6pSrobdCIBj54d_cIeJ23PZL1HJV4kLQzrg,524
+nti/wsgi/__init__.py,sha256=bsYhUUbk-9F0kJ8gb--FrHLMzn7xaIhhb2Fb25x3gro,75
+nti/wsgi/cors/__init__.py,sha256=qFBtmd-6LIvgQMWQds7loEtSJaPzTBh58JQul7t1FRQ,320
+nti/wsgi/cors/cors.py,sha256=3J-xGP1fd2e08y5LeqaPCUG63FH1burMBmMyvHixDGU,9227
+nti/wsgi/cors/tests/__init__.py,sha256=cXGwu3PXDks-Dyfy83jK1B5uUXSUsMVfCGNcx83jbk8,1002
+nti/wsgi/cors/tests/test_cors.py,sha256=WXgNsybufgx-c5-1ZX4pNSCftPtRk-aoAPDVsIF5mm4,2234
+nti.wsgi.cors-1.1.0.dist-info/AUTHORS,sha256=4f0xTnBFQqb8JYGfYOAAl5vuPuFBLtTVM1l1O-zhuC8,85
+nti.wsgi.cors-1.1.0.dist-info/LICENSE,sha256=ICK11YXlxb9oZ9RbGlWO8Z_qI0czGGf4CJT0S7tIjlQ,594
+nti.wsgi.cors-1.1.0.dist-info/METADATA,sha256=LZRHW3X45L6BTp7699EV6OCpeQqwUwdTm-iQzARR04w,2061
+nti.wsgi.cors-1.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+nti.wsgi.cors-1.1.0.dist-info/entry_points.txt,sha256=bECyPS3a0fufyql8BWHOy0aQ4DgQDVJEsjHXNvHNpN0,125
+nti.wsgi.cors-1.1.0.dist-info/namespace_packages.txt,sha256=QeoTxYiElOI7m9177uCBGg6ardc4SF0AChkyASYXx7k,4
+nti.wsgi.cors-1.1.0.dist-info/top_level.txt,sha256=QeoTxYiElOI7m9177uCBGg6ardc4SF0AChkyASYXx7k,4
+nti.wsgi.cors-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nti.wsgi.cors-1.1.0.dist-info/RECORD,,
