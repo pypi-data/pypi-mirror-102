@@ -1,0 +1,7 @@
+setup.py
+whitenoise/__init__.py
+whitenoise_player.egg-info/PKG-INFO
+whitenoise_player.egg-info/SOURCES.txt
+whitenoise_player.egg-info/dependency_links.txt
+whitenoise_player.egg-info/requires.txt
+whitenoise_player.egg-info/top_level.txt

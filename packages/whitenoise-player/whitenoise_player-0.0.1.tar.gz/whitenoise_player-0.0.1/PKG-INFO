@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: whitenoise_player
+Version: 0.0.1
+Summary: White noise player
+Home-page: https://python3.whitenoi.se/
+Author: Adam Jenca
+Author-email: jenca.a@gjh.sk
+License: UNKNOWN
+Description: Just play white noise with whitenoise.play()
+Platform: UNKNOWN
