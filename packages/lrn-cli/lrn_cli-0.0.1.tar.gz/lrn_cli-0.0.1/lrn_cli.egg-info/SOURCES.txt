@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lrn_cli.egg-info/PKG-INFO
+lrn_cli.egg-info/SOURCES.txt
+lrn_cli.egg-info/dependency_links.txt
+lrn_cli.egg-info/entry_points.txt
+lrn_cli.egg-info/requires.txt
+lrn_cli.egg-info/top_level.txt
