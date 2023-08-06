@@ -1,0 +1,3 @@
+[console_scripts]
+desuwa=desuwa.cli:main
+
