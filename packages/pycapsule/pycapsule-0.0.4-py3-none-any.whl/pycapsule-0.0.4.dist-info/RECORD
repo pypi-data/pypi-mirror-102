@@ -1,0 +1,13 @@
+pycapsule/__init__.py,sha256=asDRCsFN2IAuaV0IK_EKQX67QNpaUdTj3hZ-kVSubUE,23
+pycapsule/client/classification_nfb.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/client/classification_p300.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/client/client.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/client/remote_classifier.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/client/session.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/client/stimuli_player.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycapsule/mne/io.py,sha256=iSaGgijidJ-039L8hVbujnwVQWrRDkmxuAz9ybYog9Q,2744
+pycapsule/record_reader.py,sha256=jxaj50DWy3hj6mgVfU0Yc1Y7tJ4knlGaolHp9ST3YjI,5248
+pycapsule/types.py,sha256=9aCUvndTR1lgEl-gee5d5yFL4fyQVR83UbXKRAkxX8g,746
+pycapsule-0.0.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pycapsule-0.0.4.dist-info/METADATA,sha256=Nr4LFvHpZTaZSCQu2q8vGkVTlsIq48WAxqNB9lsogiM,467
+pycapsule-0.0.4.dist-info/RECORD,,
