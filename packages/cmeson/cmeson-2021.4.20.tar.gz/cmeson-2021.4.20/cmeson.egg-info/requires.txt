@@ -1,0 +1,2 @@
+meson>=0.5
+urwid
