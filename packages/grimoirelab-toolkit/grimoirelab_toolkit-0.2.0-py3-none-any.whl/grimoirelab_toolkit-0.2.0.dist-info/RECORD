@@ -1,0 +1,13 @@
+AUTHORS,sha256=nVlSiMmkhiF6Tz0u1pglGeVH_pNFRatM-qRwIy1NqUk,218
+LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+NEWS,sha256=xxt-0J75kqWvtnY5kZsT05rFeKLaeNAzsaJup-FiizY,503
+README.md,sha256=423qaRZHZad2ewatXkJYEB5J82edWrjO4vy4gJyjfYI,842
+grimoirelab_toolkit/__init__.py,sha256=NS1vGJp1OVlLNXBuUCVJYsoCsXyHJUiSB7dOg23eGGE,1011
+grimoirelab_toolkit/_version.py,sha256=5_9aOJ6JVM57sF2Am2VNkKo3OXP5y-uKXinXcsLC1Fw,97
+grimoirelab_toolkit/datetime.py,sha256=8Tp9mCtyXvpNmUke0yG6GiB4iFEcEr3J7vSKrQaJpOo,5606
+grimoirelab_toolkit/introspect.py,sha256=gK0T4tUMB9TezN8Bg5SVE6z8_NUFhV3iixp_ZeDPFpE,3846
+grimoirelab_toolkit/uris.py,sha256=KBmHY8G8vaOleSzYc2pHXcyWEUSlIUpv4Qp6mymSrlw,1383
+grimoirelab_toolkit-0.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+grimoirelab_toolkit-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+grimoirelab_toolkit-0.2.0.dist-info/METADATA,sha256=7fQ7WqC8VUnmwU6fo6UJw7Ajdq6e8BRUNeGJSfJtudI,1751
+grimoirelab_toolkit-0.2.0.dist-info/RECORD,,
