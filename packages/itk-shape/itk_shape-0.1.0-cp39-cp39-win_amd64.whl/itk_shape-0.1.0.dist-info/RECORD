@@ -1,0 +1,10 @@
+itk/Mesh3DProcrustesAlignFilterPython.py,sha256=hjWbKE0sqvL0zXMhiPhhY8QHdpw_J1FEZDZv1eLUV_w,2555
+itk/_Mesh3DProcrustesAlignFilterPython.pyd,sha256=qxlbNiLtF2gLsGaS_2teigdMOdBAODeZhGFNCsQ2BOc,717312
+itk/itkMeshProcrustesAlignFilterPython.py,sha256=G4YRm42BUHum5nYdPiZPkhAilk4OdAmnQ0pC6gk4mIA,38470
+itk/Configuration/Mesh3DProcrustesAlignFilterConfig.py,sha256=hSapWXuzikoVhtQ6J9I9yC6ltni8nJQXM4YshlYBTNI,931
+itk/Configuration/Mesh3DProcrustesAlignFilter_snake_case.py,sha256=N0x7xP2I6-QRDv42HrmmIX6gxooq0V-stQenPu_2TH0,59
+itk_shape-0.1.0.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_shape-0.1.0.dist-info/METADATA,sha256=o1Y2EFiphFxrVfBRvlSzvSE83mBPaLvEWG2HWRSeN3I,1355
+itk_shape-0.1.0.dist-info/WHEEL,sha256=agPHDgQgdU8NSWIKgA1v7gpVJM51Mj4k7QPUWbVb89Y,93
+itk_shape-0.1.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_shape-0.1.0.dist-info/RECORD,,
