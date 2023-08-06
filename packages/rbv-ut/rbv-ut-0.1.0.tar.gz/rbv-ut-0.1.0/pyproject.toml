@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "rbv-ut"
+version = "0.1.0"
+description = ""
+authors = ["hexatester <hexatester@protonmail.com>"]
+readme = "README.md"
+keywords = [
+    "univterbuka",
+    "RBV",
+]
+classifiers=[
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+reader-rbv = "^0.6.0"
+requests = "^2.25.1"
+beautifulsoup4 = "^4.9.3"
+attrs = "^20.3.0"
+cattrs = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.812"
+flake8 = "^3.9.0"
+pylint = "^2.7.4"
+black = "^20.8b1"
+pre-commit = "^2.12.0"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
