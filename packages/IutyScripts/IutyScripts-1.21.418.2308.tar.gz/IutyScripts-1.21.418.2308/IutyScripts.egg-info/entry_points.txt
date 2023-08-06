@@ -1,0 +1,4 @@
+[console_scripts]
+ifs = IutyScripts.file.fileclient:main
+ipb = IutyScripts.coding.publisher:main
+
