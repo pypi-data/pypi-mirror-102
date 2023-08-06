@@ -1,0 +1,11 @@
+scipy
+numpy
+pillow
+simpleITK
+ase
+tqdm
+scikit-image
+scikit-learn
+pyNSID
+sidpy
+SciFiReaders
