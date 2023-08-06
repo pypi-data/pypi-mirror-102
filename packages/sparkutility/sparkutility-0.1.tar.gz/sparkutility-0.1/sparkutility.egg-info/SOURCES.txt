@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sparkutility/__init__.py
+sparkutility/is_numeric.py
+sparkutility.egg-info/PKG-INFO
+sparkutility.egg-info/SOURCES.txt
+sparkutility.egg-info/dependency_links.txt
+sparkutility.egg-info/top_level.txt
