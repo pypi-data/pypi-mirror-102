@@ -1,0 +1,7 @@
+sqlalchemy
+
+[dev]
+pytest
+black
+flake8
+pre-commit
