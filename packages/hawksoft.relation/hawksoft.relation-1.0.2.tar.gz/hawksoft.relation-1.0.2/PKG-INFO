@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hawksoft.relation
+Version: 1.0.2
+Summary: This package provides Relation class as an complement to sympy package.
+Home-page: https://gitee.com/xingyongkang/relation
+Author: xingyongkang
+Author-email: xingyongkang@cqu.edu.cn
+License: MIT
+Description: http://gitee.com/xingyongkang
+Keywords: relation sympy
+Platform: any
