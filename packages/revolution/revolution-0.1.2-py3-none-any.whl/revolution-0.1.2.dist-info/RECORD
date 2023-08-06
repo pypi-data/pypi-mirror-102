@@ -1,0 +1,11 @@
+revolution/__init__.py,sha256=49orVlT5V6P_BNclE5eqB9j6nGNt9iW6mjWQekbpz4Q,728
+revolution/__version__.py,sha256=DH4GhKC2QeKkkkuaJrCzcHYTn6JWcfF6wj8c_fHrhjw,338
+revolution/revolution.py,sha256=AABnKcuX4cYNwwbFzzigKfLov13VtKdT9-GGH_rapM8,8168
+revolution/spinner.py,sha256=Q5ISl6qK4mGhQn1X780PIfyrGB8R8SNaxkCNbHdnagw,1359
+revolution/visual_example.py,sha256=3mKNeLVycKVKCRX9hnkthXPDA1n8y5hBlqprBmmzAAY,2463
+revolution-0.1.2.dist-info/LICENSE,sha256=BLcKMNFzoCD9DcJyiygo0GlVlPCQdu8tRPFSQRyq4ac,1061
+revolution-0.1.2.dist-info/METADATA,sha256=Rh1iWerGmR-WDdO-isqgvp03_RVXmZ2tQ4m-5hheCjc,5643
+revolution-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+revolution-0.1.2.dist-info/entry_points.txt,sha256=LIyJklNMzU1dik179rPI3at5LiZZWSN-nR1yBpqLcMg,57
+revolution-0.1.2.dist-info/top_level.txt,sha256=RvVcZRuWDMYWtzy_SrqsaZSqpW7SoDsxMCpyFEghNOM,11
+revolution-0.1.2.dist-info/RECORD,,
