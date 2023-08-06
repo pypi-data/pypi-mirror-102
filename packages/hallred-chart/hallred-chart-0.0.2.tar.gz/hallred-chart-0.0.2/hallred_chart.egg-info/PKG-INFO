@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hallred-chart
+Version: 0.0.2
+Summary: Data analytics and charting for Verizon System Performance Engineers
+Home-page: https://github.com/hallred/chart
+Author: Hal Allred
+Author-email: halley.allred@verizonwireless.com
+License: MIT
+Description: <p>placeholder</p>
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
