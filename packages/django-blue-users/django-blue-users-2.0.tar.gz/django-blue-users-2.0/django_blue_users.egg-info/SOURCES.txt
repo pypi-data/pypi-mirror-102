@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+blue_users/__init__.py
+blue_users/admin.py
+blue_users/apps.py
+blue_users/models.py
+blue_users/tests.py
+blue_users/views.py
+blue_users/migrations/__init__.py
+django_blue_users.egg-info/PKG-INFO
+django_blue_users.egg-info/SOURCES.txt
+django_blue_users.egg-info/dependency_links.txt
+django_blue_users.egg-info/top_level.txt
