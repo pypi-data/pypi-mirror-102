@@ -1,0 +1,4 @@
+finviz
+pandas
+sklearn
+matplotlib
