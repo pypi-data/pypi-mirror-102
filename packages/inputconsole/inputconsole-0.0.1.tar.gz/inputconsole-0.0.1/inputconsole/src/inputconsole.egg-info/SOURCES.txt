@@ -1,0 +1,8 @@
+README.md
+setup.py
+inputconsole/src/inputconsole.py
+inputconsole/src/inputconsole.egg-info/PKG-INFO
+inputconsole/src/inputconsole.egg-info/SOURCES.txt
+inputconsole/src/inputconsole.egg-info/dependency_links.txt
+inputconsole/src/inputconsole.egg-info/requires.txt
+inputconsole/src/inputconsole.egg-info/top_level.txt
