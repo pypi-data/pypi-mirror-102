@@ -1,0 +1,510 @@
+##### stdlib #####
+----- 100000 -----
+#0: 0.07002s
+#1: 0.07159s
+#2: 0.06977s
+#3: 0.07313s
+#4: 0.07044s
+#5: 0.07212s
+#6: 0.07149s
+#7: 0.07023s
+#8: 0.07147s
+#9: 0.06982s
+Average of 10 attempts: 0.07101s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - False
+55MB - True
+51MB - True
+49MB - True
+48MB - True
+48MB
+----- 500000 -----
+#0: 0.34687s
+#1: 0.33498s
+#2: 0.33536s
+#3: 0.34887s
+#4: 0.32580s
+#5: 0.35095s
+#6: 0.32767s
+#7: 0.33527s
+#8: 0.33387s
+#9: 0.33673s
+Average of 10 attempts: 0.33764s
+1000MB - True
+500MB - True
+250MB - True
+125MB - False
+188MB - False
+219MB - True
+204MB - True
+196MB - False
+200MB - True
+198MB - True
+197MB - True
+197MB
+----- 1000000 -----
+#0: 0.68174s
+#1: 0.67856s
+#2: 0.66358s
+#3: 0.66248s
+#4: 0.70635s
+#5: 0.71439s
+#6: 0.68895s
+#7: 0.69447s
+#8: 0.70587s
+#9: 0.68458s
+Average of 10 attempts: 0.68810s
+1000MB - True
+500MB - True
+250MB - False
+375MB - False
+438MB - True
+407MB - True
+391MB - True
+383MB - False
+387MB - True
+385MB - True
+384MB - True
+384MB
+##### hyperjson #####
+----- 100000 -----
+#0: 1.19877s
+#1: 1.25769s
+#2: 1.19244s
+#3: 1.21398s
+#4: 1.20517s
+#5: 1.21099s
+#6: 1.20291s
+#7: 1.20171s
+#8: 1.20269s
+#9: 1.21482s
+Average of 10 attempts: 1.21012s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - False
+94MB - True
+78MB - True
+70MB - False
+74MB - True
+72MB - False
+73MB - False
+74MB
+----- 500000 -----
+#0: 5.97780s
+#1: 5.94042s
+#2: 5.92447s
+#3: 5.95373s
+#4: 5.95982s
+#5: 5.93382s
+#6: 5.93138s
+#7: 5.97575s
+#8: 5.94639s
+#9: 5.94262s
+Average of 10 attempts: 5.94862s
+1000MB - True
+500MB - True
+250MB - False
+375MB - True
+313MB - True
+282MB - False
+298MB - False
+306MB - False
+310MB - False
+312MB - False
+313MB
+----- 1000000 -----
+#0: 11.91095s
+#1: 11.85441s
+#2: 11.93168s
+#3: 11.98606s
+#4: 11.91930s
+#5: 11.87366s
+#6: 12.40859s
+#7: 11.89412s
+#8: 12.39286s
+#9: 12.04773s
+Average of 10 attempts: 12.02194s
+1000MB - True
+500MB - False
+750MB - True
+625MB - True
+563MB - False
+594MB - False
+610MB - False
+618MB - True
+614MB - False
+616MB - True
+615MB - True
+615MB
+##### streamson #####
+----- 100000 -----
+#0: 0.30803s
+#1: 0.31261s
+#2: 0.31057s
+#3: 0.31594s
+#4: 0.31322s
+#5: 0.31686s
+#6: 0.31477s
+#7: 0.31549s
+#8: 0.31563s
+#9: 0.31914s
+Average of 10 attempts: 0.31423s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - True
+32MB - True
+32MB
+----- 500000 -----
+#0: 1.58847s
+#1: 1.54267s
+#2: 1.57225s
+#3: 1.57601s
+#4: 1.56200s
+#5: 1.56844s
+#6: 1.60909s
+#7: 1.58232s
+#8: 1.57301s
+#9: 1.55341s
+Average of 10 attempts: 1.57277s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - False
+34MB - True
+34MB
+----- 1000000 -----
+#0: 3.17993s
+#1: 3.15488s
+#2: 3.21068s
+#3: 3.18707s
+#4: 3.12655s
+#5: 3.07960s
+#6: 3.07073s
+#7: 3.10188s
+#8: 3.15667s
+#9: 3.14386s
+Average of 10 attempts: 3.14118s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - False
+34MB - True
+34MB
+##### ijson-yajl2 #####
+----- 100000 -----
+#0: 1.67145s
+#1: 1.68257s
+#2: 1.64557s
+#3: 1.71286s
+#4: 1.74332s
+#5: 1.66561s
+#6: 1.65357s
+#7: 1.68224s
+#8: 1.65243s
+#9: 1.62510s
+Average of 10 attempts: 1.67347s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - True
+40MB - True
+40MB
+----- 500000 -----
+#0: 8.12204s
+#1: 8.35270s
+#2: 8.30521s
+#3: 8.44722s
+#4: 8.29664s
+#5: 8.22507s
+#6: 8.36450s
+#7: 8.43287s
+#8: 8.34352s
+#9: 8.57442s
+Average of 10 attempts: 8.34642s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - True
+40MB - True
+40MB
+----- 1000000 -----
+#0: 17.09071s
+#1: 16.86030s
+#2: 17.61941s
+#3: 16.68373s
+#4: 16.62170s
+#5: 16.69497s
+#6: 16.56247s
+#7: 16.82071s
+#8: 16.86307s
+#9: 16.87973s
+Average of 10 attempts: 16.86968s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - True
+40MB - True
+40MB
+##### ijson-yajl2_c #####
+----- 100000 -----
+#0: 0.20291s
+#1: 0.19781s
+#2: 0.19776s
+#3: 0.19274s
+#4: 0.19951s
+#5: 0.21018s
+#6: 0.23372s
+#7: 0.20215s
+#8: 0.19823s
+#9: 0.20243s
+Average of 10 attempts: 0.20374s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - False
+34MB - False
+35MB
+----- 500000 -----
+#0: 0.99020s
+#1: 0.99782s
+#2: 0.98428s
+#3: 0.98819s
+#4: 1.01643s
+#5: 1.01373s
+#6: 0.96575s
+#7: 1.00130s
+#8: 0.97675s
+#9: 0.98409s
+Average of 10 attempts: 0.99185s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - False
+34MB - False
+35MB
+----- 1000000 -----
+#0: 2.00181s
+#1: 2.01586s
+#2: 1.91420s
+#3: 1.86991s
+#4: 1.95464s
+#5: 1.95837s
+#6: 2.03857s
+#7: 1.94273s
+#8: 1.94067s
+#9: 1.91739s
+Average of 10 attempts: 1.95542s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - True
+35MB - True
+33MB - False
+34MB - False
+35MB
+##### ijson-yajl2_cffi #####
+----- 100000 -----
+#0: 1.67225s
+#1: 1.67902s
+#2: 1.64527s
+#3: 1.69466s
+#4: 1.76511s
+#5: 1.66307s
+#6: 1.72371s
+#7: 1.61295s
+#8: 1.66285s
+#9: 1.70990s
+Average of 10 attempts: 1.68288s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - True
+40MB - True
+40MB
+----- 500000 -----
+#0: 8.12175s
+#1: 8.11780s
+#2: 8.74846s
+#3: 9.37402s
+#4: 8.38493s
+#5: 8.58317s
+#6: 8.39605s
+#7: 8.07652s
+#8: 8.55611s
+#9: 8.27243s
+Average of 10 attempts: 8.46312s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - False
+42MB - True
+42MB
+----- 1000000 -----
+#0: 16.93263s
+#1: 16.91462s
+#2: 16.54553s
+#3: 17.28559s
+#4: 16.74368s
+#5: 16.60091s
+#6: 16.54666s
+#7: 16.61421s
+#8: 16.95659s
+#9: 16.79240s
+Average of 10 attempts: 16.79328s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - False
+42MB - True
+42MB
+##### ijson-python #####
+----- 100000 -----
+#0: 2.81023s
+#1: 2.79681s
+#2: 2.81775s
+#3: 2.76488s
+#4: 2.80527s
+#5: 2.78135s
+#6: 2.79546s
+#7: 2.84712s
+#8: 2.88587s
+#9: 2.78658s
+Average of 10 attempts: 2.80913s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - True
+39MB - False
+43MB - True
+41MB - False
+42MB - False
+43MB
+----- 500000 -----
+#0: 14.01336s
+#1: 13.96139s
+#2: 13.89748s
+#3: 13.86180s
+#4: 13.86925s
+#5: 13.88574s
+#6: 14.45881s
+#7: 13.91991s
+#8: 13.90177s
+#9: 13.80053s
+Average of 10 attempts: 13.95700s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - False
+55MB - True
+51MB - True
+49MB - True
+48MB - False
+49MB
+----- 1000000 -----
+#0: 28.09957s
+#1: 27.89199s
+#2: 27.94311s
+#3: 28.73403s
+#4: 28.29245s
+#5: 28.05193s
+#6: 27.75506s
+#7: 27.98223s
+#8: 28.09264s
+#9: 28.15190s
+Average of 10 attempts: 28.09949s
+1000MB - True
+500MB - True
+250MB - True
+125MB - True
+62MB - True
+31MB - False
+47MB - False
+55MB - True
+51MB - False
+53MB - False
+54MB - False
+55MB

@@ -1,0 +1,105 @@
+on: [push]
+
+name: Code Quality
+
+jobs:
+  pre-commit:
+    name: Run pre-commit Lints
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install rust nightly toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: nightly
+          override: true
+          components: rustfmt, clippy
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.x"
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: 1.1.4
+
+      - name: Install virtualenv
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-venv
+
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Run pre-commit checks
+        run: |
+          env RUSTFLAGS="-D unused_crate_dependencies" poetry run pre-commit run --hook-stage push --all-files
+
+  tests-python:
+    name: Run ${{ matrix.os }} tests
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install rust nightly toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: nightly
+          override: true
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.x"
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: 1.1.4
+
+      - name: Install streamson
+        run: poetry install
+
+      - name: Run tests
+        run: poetry run tox
+
+  tests-binary:
+    name: Run binary tests
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: nightly
+          override: true
+
+      - name: Install test binary
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: --version 7.0.1 streamson-bin --bin streamson-bin-test --features test
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.x"
+
+      - name: Install streamson from python package
+        run: pip install .
+
+      - name: Run binary test
+        run: streamson-bin-test streamson

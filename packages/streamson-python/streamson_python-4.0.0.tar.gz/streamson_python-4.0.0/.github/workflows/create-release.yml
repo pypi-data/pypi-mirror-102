@@ -1,0 +1,158 @@
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+name: Release
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: nightly
+          override: true
+
+      - name: Setup python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: Setup python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Setup python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: 1.1.4
+
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Build wheels
+        run: poetry run maturin build
+
+      - name: Copy binary
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          mkdir -p ./streamson-linux/
+          cp target/wheels/*.whl streamson-linux/
+          tar czf streamson-linux.tar.gz streamson-linux/
+          mkdir -p ./dist
+          cp streamson-linux.tar.gz dist/
+
+      - name: Copy binary
+        if: matrix.os == 'windows-latest'
+        run: |
+          mkdir ./streamson-windows/
+          cp target/wheels/*.whl streamson-windows/
+          Compress-Archive -Path streamson-windows/ -DestinationPath streamson-windows.zip
+          mkdir ./dist
+          cp streamson-windows.zip dist/
+
+      - name: Copy binary
+        if: matrix.os == 'macos-latest'
+        run: |
+          mkdir -p ./streamson-macos/
+          cp target/wheels/*.whl streamson-macos/
+          tar czf streamson-macos.tar.gz streamson-macos/
+          mkdir -p ./dist
+          cp streamson-macos.tar.gz dist/
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: ${{ matrix.os }}
+          path: ./dist
+
+  release:
+    name: Create Release
+    needs: ['build']
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Download artifacts ubuntu
+        uses: actions/download-artifact@v1
+        with:
+          name: ubuntu-latest
+          path: dist
+
+      - name: Download artifacts windows
+        uses: actions/download-artifact@v1
+        with:
+          name: windows-latest
+          path: dist
+
+      - name: Download artifacts macos
+        uses: actions/download-artifact@v1
+        with:
+          name: macos-latest
+          path: dist
+
+      - name: Get description
+        run: echo "::set-output name=DESCRIPTION::$(git tag -l --format='%(contents:body)' ${{ github.ref }})"
+        id: get_description
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: "${{ steps.get_description.outputs.DESCRIPTION }}"
+          draft: false
+          prerelease: false
+        continue-on-error: true  # Already existing release
+
+      - name: Upload Release Asset ubuntu
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist/streamson-linux.tar.gz
+          asset_name: streamson-linux.tar.gz
+          asset_content_type: application/tar+gzip
+
+      - name: Upload Release Asset windows
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist/streamson-windows.zip
+          asset_name: streamson-windows.zip
+          asset_content_type: application/bin
+
+      - name: Upload Release Asset macos
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist/streamson-macos.tar.gz
+          asset_name: streamson-macos.tar.gz
+          asset_content_type: application/tar+gzip
