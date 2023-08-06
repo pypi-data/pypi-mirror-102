@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: codebots
+Version: 0.6.0
+Summary: collection of bots for tasks automation
+Home-page: https://github.com/franaudo/codebots
+Author: Francesco Ranaudo
+Author-email: ranaudo@arch.ethz.ch
+License: MIT license
+Keywords: codebots
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+Requires-Dist: slack-sdk
+Requires-Dist: yagmail
+
+========
+Codebots
+========
+
+.. image:: https://github.com/franaudo/codebots/actions/workflows/docs.yml/badge.svg
+        :target: https://github.com/franaudo/codebots/actions/workflows/docs.yml
+        :alt: Documentation Status
+
+.. image:: https://github.com/franaudo/codebots/actions/workflows/python-package.yml/badge.svg
+        :target: https://github.com/franaudo/codebots/actions/workflows/python-package.yml
+        :alt: Python package
+
+.. image:: https://github.com/franaudo/codebots/actions/workflows/codeql-analysis.yml/badge.svg
+        :target: https://github.com/franaudo/codebots/actions/workflows/codeql-analysis.yml
+        :alt: CodeQL
+
+
+This is a collection of simple bots to help with boring tasks during coding.
+
+Currently supported bots:
+
+* EmailBot: useful to get an email when a task is complete
+* SlackBot: same thing, but you get a slack message instead.
+* TeleBot: again the same thing, but you get a message on Telegram this time.
+* sshBot: this is different...it will help you with ssh stuff.
+
+Full documentation: https://franaudo.github.io/codebots/latest/.
+
+WIP
+---
+
+This pacakge is a WIP! Expect things to be very different among versions. However,
+the stable releases will always work and pass all the tests.
+
+If you want to access the latest functionalities, clone the GitHub repo and switch
+to the `develop` branch, although it is very likely that things won't work! :)
+
+Features
+--------
+
+* Free software: MIT license
+* Easy to use
+* Fun (well, for someone...)
+
+Credits
+~~~~~~~
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=========
+CHANGELOG
+=========
+
+0.4.1 (2021-04-10)
+------------------
+
+* fixed imports and documentation.
+
+0.4.0 (2021-04-10)
+------------------
+
+* added TeleBot (telegram bot).
+
+0.1.0 (2021-03-25)
+------------------
+
+* First release on GitHub.
+
+
