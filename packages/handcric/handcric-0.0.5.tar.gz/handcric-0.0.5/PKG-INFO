@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: handcric
+Version: 0.0.5
+Summary: terminal game of Hand Cricket
+Home-page: UNKNOWN
+Author: Chiranjeev Mishra(chirrumishra)
+Author-email: chirrumishra@gmail.com
+License: UNKNOWN
+Description: # HANDCRIC
+        
+        This is a library which hosts a game of Hand Cricket which you can
+        enjoy while doing your work
+        
+        Developed by Chiranjeev Mishra
+        
+        ## Example of How to use it 
+        
+        ```python
+        import handcric
+        //create an object of class match and here you go
+        a = handcric.match()
+        #Now you can play the game
+        ```
+        
+        Open for pull requests 
+        check out : https://github.com/chirrumishra/Hand-Cricket
+        
+Keywords: match,python,cricket,hand cric,cricket lib
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

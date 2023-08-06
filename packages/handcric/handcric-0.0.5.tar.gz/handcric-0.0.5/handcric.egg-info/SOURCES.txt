@@ -1,0 +1,8 @@
+README.md
+setup.py
+handcric/__init__.py
+handcric/handcric.py
+handcric.egg-info/PKG-INFO
+handcric.egg-info/SOURCES.txt
+handcric.egg-info/dependency_links.txt
+handcric.egg-info/top_level.txt
