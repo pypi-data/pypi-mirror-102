@@ -1,0 +1,14 @@
+mockfs/__init__.py,sha256=O--eSLZhaKnjR1R98WvUkPdGA878w8SRQqN3zhna0j4,1788
+mockfs/compat.py,sha256=g6B4s7B4GVkjGn1nqJ0hO65igaugrCaiP1jVsV8J6Ec,317
+mockfs/mfs.py,sha256=a15_7QzWrEvEqwBMyVDBd-oWlIpF-NOXH7KYcqHnKiQ,12316
+mockfs/storage.py,sha256=jIoXhD1enEc03hovfUVGkzT_mH8QnMXFyYCxL87hwcs,14501
+mockfs/util.py,sha256=VNV5Oa-UjtyVB8f7O0BJrufdmRZt1Uvgki8G6TelKI4,2503
+mockfs/tests/__init__.py,sha256=4pvVp8FC-_opAfzwfiuYPMe7k85eIohs0tvWJB6Rid4,440
+mockfs/tests/mockfs_test.py,sha256=tAYuNr-SjM8vLfgOGLfSd8aFGPPMVI9VaRQVKYc2UA0,8495
+mockfs/tests/storage_test.py,sha256=qUetVh74J7eN4q7BFXqLoYbNHHVFX_Mn7j-9PysOt64,2112
+mockfs/tests/util_test.py,sha256=gUHyiV71Ax00zvuCJuUufFPp-bkGNKazXv3ZUdNJFxg,1680
+mockfs-1.1.2.dist-info/LICENSE,sha256=7UXzVRJd_20JIgMnaONKB9j8gx0HotOPSg8F-tc81Cw,1064
+mockfs-1.1.2.dist-info/METADATA,sha256=4Zc3U7Ch0iuYynksnjLyyKfQUilIjJRXRRS2CvAaOSY,2321
+mockfs-1.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+mockfs-1.1.2.dist-info/top_level.txt,sha256=QBqLRl400v_2TLAEavnNFqh5C2SyJoWfQ_Kok_osB2I,7
+mockfs-1.1.2.dist-info/RECORD,,
