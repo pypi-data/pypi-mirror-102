@@ -1,0 +1,7 @@
+README.md
+setup.py
+netkiller/__init__.py
+netkiller_project.egg-info/PKG-INFO
+netkiller_project.egg-info/SOURCES.txt
+netkiller_project.egg-info/dependency_links.txt
+netkiller_project.egg-info/top_level.txt
