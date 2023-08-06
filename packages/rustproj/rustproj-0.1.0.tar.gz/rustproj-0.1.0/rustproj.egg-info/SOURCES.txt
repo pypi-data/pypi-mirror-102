@@ -1,0 +1,10 @@
+README.md
+setup.py
+rustproj/__init__.py
+rustproj/proj_generator.py
+rustproj/run.py
+rustproj.egg-info/PKG-INFO
+rustproj.egg-info/SOURCES.txt
+rustproj.egg-info/dependency_links.txt
+rustproj.egg-info/entry_points.txt
+rustproj.egg-info/top_level.txt
