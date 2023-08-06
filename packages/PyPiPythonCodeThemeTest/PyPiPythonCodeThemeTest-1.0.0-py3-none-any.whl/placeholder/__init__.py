@@ -1,0 +1,1 @@
+print("Hello world!\nYou downloaded and installed this library for no reason. :/")
