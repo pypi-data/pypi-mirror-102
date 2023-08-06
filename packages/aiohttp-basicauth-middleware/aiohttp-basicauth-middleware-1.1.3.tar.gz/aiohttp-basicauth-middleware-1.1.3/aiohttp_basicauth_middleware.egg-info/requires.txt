@@ -1,0 +1,3 @@
+aiohttp
+http_basic_auth
+wheel
