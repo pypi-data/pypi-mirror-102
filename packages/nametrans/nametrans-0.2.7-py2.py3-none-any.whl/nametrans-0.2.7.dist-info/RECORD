@@ -1,0 +1,14 @@
+nametrans/__init__.py,sha256=a863R0JF9xyO9VOAfZnnIOeiREmi8zArzxpvnQljEWs,63
+nametrans/callbacks.py,sha256=LpnKLFWuOCEuJkWjU-gnsQg61jTXXNttS6RcjJr-pyg,922
+nametrans/digitstring.py,sha256=3mPke_U0eInizflgnfx9q_XXXMRoHT8ZGRJUnHa-r5c,1974
+nametrans/filepathtrans.py,sha256=TGaJ1y5y-xEfaePTJGaIlSs-MK32Gatm6J99k81vJfQ,2302
+nametrans/fs.py,sha256=nFEpC8Zx80uukRL6nT2hoI7CuO0WRmiwS7DvfBQOK6o,5153
+nametrans/io.py,sha256=M4JfwEkGCxI6A0Bc4Y7GLLeL_0PDl64cgGPwwElsUq4,289
+nametrans/main.py,sha256=jtllzm8LXmHTu5aHCdIM7A4lJGE9aY1T10mT3uSyEX4,3804
+nametrans/nametransformer.py,sha256=P5WzImuB-uqIBFHEzB8yPILT359e0LPvQqXRZWLXXAc,11380
+nametrans-0.2.7.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+nametrans-0.2.7.dist-info/METADATA,sha256=S4PaTnVuV2OH_Lrc_1xNu5hygyz0TTFNLae8HyVWIO4,737
+nametrans-0.2.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+nametrans-0.2.7.dist-info/entry_points.txt,sha256=p5-QSqQ6gILXEJDlA3fOYtPNP8DX_XbwtlxJglR-pok,51
+nametrans-0.2.7.dist-info/top_level.txt,sha256=BfMVCY3DRORJahMAfFVJfb0oWV5wD48eVEXX9ePsNhM,10
+nametrans-0.2.7.dist-info/RECORD,,
