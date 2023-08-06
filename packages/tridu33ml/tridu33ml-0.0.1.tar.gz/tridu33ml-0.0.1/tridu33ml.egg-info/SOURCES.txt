@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+tridu33ml/__init__.py
+tridu33ml.egg-info/PKG-INFO
+tridu33ml.egg-info/SOURCES.txt
+tridu33ml.egg-info/dependency_links.txt
+tridu33ml.egg-info/top_level.txt
+tridu33ml/nn/__init__.py
+tridu33ml/nn/core.py
+tridu33ml/utils/__init__.py
+tridu33ml/utils/utilities.py
