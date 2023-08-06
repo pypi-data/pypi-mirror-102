@@ -1,0 +1,12 @@
+kernreg
+linearmodels
+numpy
+matplotlib
+oyaml
+pandas
+pytest
+scikit-learn
+scikit-misc
+scipy
+seaborn
+statsmodels
