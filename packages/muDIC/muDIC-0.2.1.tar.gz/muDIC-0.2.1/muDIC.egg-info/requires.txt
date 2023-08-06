@@ -1,0 +1,10 @@
+numba
+scipy
+matplotlib
+numpy
+Pillow
+dill
+nose
+scikit-image
+muDIC
+natsort
