@@ -1,0 +1,7 @@
+README.md
+setup.py
+vm_booking_app.egg-info/PKG-INFO
+vm_booking_app.egg-info/SOURCES.txt
+vm_booking_app.egg-info/dependency_links.txt
+vm_booking_app.egg-info/requires.txt
+vm_booking_app.egg-info/top_level.txt
