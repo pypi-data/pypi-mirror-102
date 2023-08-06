@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+prsw.egg-info/PKG-INFO
+prsw.egg-info/SOURCES.txt
+prsw.egg-info/dependency_links.txt
+prsw.egg-info/requires.txt
+prsw.egg-info/top_level.txt
