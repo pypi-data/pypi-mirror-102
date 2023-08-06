@@ -1,0 +1,17 @@
+spyder_remote_client/__init__.py,sha256=5JTmdFt4LIVYCgMPF3T_kaBYa0y_kk-nx5KG3bNO_uk,97
+spyder_remote_client/constants.py,sha256=6YvgjAWPieWhzozyWdKxGpMTEY4zuvmDqgZija3u8PY,113
+spyder_remote_client/discover.py,sha256=R02x-TKFSed27QzzPa0BdI1I3dguZL9Yenjde5FYVQY,4644
+spyder_remote_client/utils.py,sha256=9homRnqwkl2H49W9I5b9AVOo6YzQxmwMA1dB8_ZShM8,6419
+spyder_remote_client/spyder/__init__.py,sha256=cB_HFY-fJYy-ztW56OsR359UhbhW98FZrBz_898mmSo,196
+spyder_remote_client/spyder/api.py,sha256=lahT9qqKMNn-8jiyvZ5Z6MqJZb4Z0zMQhIffm8Zt-dI,74
+spyder_remote_client/spyder/container.py,sha256=KKxHpFd_wWt1cLaF1lztGIoW69ILpLdekePgFg27lqk,1784
+spyder_remote_client/spyder/dialog.py,sha256=Sn3ztzcCdfEl0XB2T-wsTEZsZ3t-d-acZUH6opPBRMo,14983
+spyder_remote_client/spyder/discover.py,sha256=z1qpGaibmIQ0EtCj7WYR-_G6bDpuANK2SgCXopKeqfw,3529
+spyder_remote_client/spyder/plugin.py,sha256=Pzh-7js1VfDOBPWD-t8ABzcz0EDPo7OQYZPxkSQ312o,3286
+spyder_remote_client/spyder/widgets.py,sha256=157LaTi9vNjb6PPbwmD5-v2D2nhQLoEMITsYZ1BQCsE,7267
+spyder_remote_client-0.0.4.dist-info/LICENSE.txt,sha256=LfgCdP-Pavat2QvjroyGQzqCAhKubD0vgTFSAZ9FOLI,1065
+spyder_remote_client-0.0.4.dist-info/METADATA,sha256=rV-Ibs7pjjU4BDI63nJxrxa8CdEVxXRjEfenO3fd-eM,720
+spyder_remote_client-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spyder_remote_client-0.0.4.dist-info/entry_points.txt,sha256=9yz59dGFQl2B6eK50gLEdUnKkyp3bzHs21Mjhzq7LpM,82
+spyder_remote_client-0.0.4.dist-info/top_level.txt,sha256=dZmOhTyHJlCHVIYqM_3t5243xiAAdELhOziLuhxcfxc,21
+spyder_remote_client-0.0.4.dist-info/RECORD,,
