@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: disruptive
+Version: 0.2.1
+Summary: Disruptive Technologies Python API.
+Home-page: UNKNOWN
+Author: Disruptive Technologies Research AS
+Author-email: developer-support@disruptive-technologies.com
+License: UNKNOWN
+Description: # Disruptive Technologies Python API
+        
+        ![build](https://github.com/disruptive-technologies/disruptive-python/actions/workflows/build.yml/badge.svg)
+        ![python](https://img.shields.io/badge/python-3.7%2C%203.8%2C%203.9-blue)
+        ![coverage](https://img.shields.io/badge/coverage-87%25-green)
+        
+        ## Documentation
+        
+        - [Python API Reference](https://developer.disruptive-technologies.com/api/libraries/python/)
+        - [Developer Documentation](https://developer.disruptive-technologies.com/docs/)
+        
+        ## Installation
+        
+        The package can be installed through pip:
+        
+        ```sh
+        pip install --upgrade disruptive
+        ```
+        
+        or from source:
+        
+        ```sh
+        pip install .
+        ```
+        
+        ### Requirements
+        
+        - Python 3.7+
+        
+        ## Authentication
+        
+        Using [Service Account](https://developer.disruptive-technologies.com/docs/service-accounts/introduction-to-service-accounts) credentials, setting `disruptive.default_auth` authenticates the package:
+        
+        ```python
+        import disruptive as dt
+        dt.default_auth = dt.Auth.serviceaccount(key_id, secret, email)
+        ```
+        
+        ## Usage
+        
+        API methods are grouped under various resource names on the form `disruptive.<Resource>.<method>()`.
+        
+        ```python
+        # Fetch a specific temperature sensor from a project.
+        sensor = dt.Device.get_device(device_id)
+        
+        # Print the sensor information, listing all available attributes.
+        print(sensor)
+        
+        # Set a new label on the sensor.
+        dt.Device.set_label(sensor.device_id, sensor.project_id, key='nb#', value='99')
+        
+        # Get touch- and temperature event history the last 24 hours for the sensor.
+        history = dt.EventHistory.list_events(
+            sensor.device_id,
+            sensor.project_id,
+            event_types=['touch', 'temperature']
+        )
+        
+        # Set up a real-time event stream for the sensor.
+        for new_event in dt.Stream.device(sensor.device_id, sensor.project_id):
+            # Print the data in new events as they arrive.
+            print(new_event.data)
+        ```
+        
+        ## Examples
+        A few examples showcasing various uses for the package has been provided. They do not require additional dependencies and can, provided the package has been installed, run as a normal script:
+        ```sh
+        python example_name.py
+        ```
+        or from root using the source code:
+        ```sh
+        python -m examples.example_name
+        ```
+        
+        ## Exceptions
+        If a request is unsuccessful or has been provided with invalid parameters, an exception is raised. A list of available exceptions are available in the [API Reference](https://developer.disruptive-technologies.com/api/libraries/python/).
+        
+        ## Development
+        
+        Set up the development virtualenv environment:
+        ```
+        make
+        ```
+        
+        Run unit-tests against the currently active python version:
+        ```
+        make test
+        ```
+        
+        Lint the package code using MyPy and flake8:
+        ```
+        make lint
+        ```
+        
+        Build the sphinx documentation:
+        ```
+        make docs
+        ```
+        
+        Build the package distribution:
+        ```
+        make build
+        ```
+        
+        # Changelog
+        All notable changes, fixes, and additions to the project is listed in this changelog.  
+        After major version v1.0.0, the project adheres to [semantic versioning](https://semver.org/).
+        
+        # v0.2.1
+        _Released on 2020-04-17._  
+        Initial pre-release, open-sourcing, and PyPI publication of the project.  
+        
+        MIT License
+        
+        Copyright (c) 2021 Disruptive Technologies Research AS
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: disruptive,technologies,dt,rest,api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
