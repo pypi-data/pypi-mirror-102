@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cs.eyrie
+Version: 0.8.1
+Summary: Eyrie - Retired
+Home-page: https://github.com/CrowdStrike/cs.eyrie
+Author: CrowdStrike, Inc.
+Author-email: csoc@crowdstrike.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 7 - Inactive
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=2.7
+
+UNKNOWN
+
+
