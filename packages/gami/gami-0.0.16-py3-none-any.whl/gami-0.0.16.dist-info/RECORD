@@ -1,0 +1,9 @@
+gami/__init__.py,sha256=qWXLq_8izyRjBqwn66ug6WRILR0qcjJxuNWqunoPn0M,114
+gami/_version.py,sha256=CgwoZEvcDFozYdhU50AsJAB8SCBKXbAg_yK1dQwfVpI,498
+gami/conftest.py,sha256=YYcjfs0jqBH9xF0oENa4w9rGGBRrl76UHXA0IfTIRdk,444
+gami/model.py,sha256=Wrfa7C_YUoIToI91AORQpBSHgmn-bW30OU0C93jbbCE,3348
+gami-0.0.16.dist-info/LICENSE,sha256=gmnohvWg93RFWt1sjEo3cdKLb0BP3AV_ZJmesdhrad0,1066
+gami-0.0.16.dist-info/METADATA,sha256=1n9b_AOty5JN43Z42cbzatHQm0jl_NoQmbuOFc5WIuw,1754
+gami-0.0.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gami-0.0.16.dist-info/top_level.txt,sha256=DIG9qxsz4_VC3-JvKGyWnvhpPtd_XpaXaCg2MYBJ5iM,5
+gami-0.0.16.dist-info/RECORD,,
