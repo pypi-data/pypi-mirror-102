@@ -1,0 +1,4 @@
+libhxl
+pygments
+cryptography
+keyring

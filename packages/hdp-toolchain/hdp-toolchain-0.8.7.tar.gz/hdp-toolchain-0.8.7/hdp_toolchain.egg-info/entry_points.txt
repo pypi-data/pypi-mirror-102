@@ -1,0 +1,4 @@
+[console_scripts]
+hdpcli = hxlm.core.bin.hdpcli:exec_from_console_scripts
+urnresolver = hxlm.core.bin.urnresolver:exec_from_console_scripts
+
