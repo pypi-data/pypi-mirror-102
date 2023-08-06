@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyAQIplot
+Version: 0.1
+Summary: plot AQI data
+Home-page: https://github.com/Augus1999/pyAQIplot
+Author: Nianze Augus TAO
+Author-email: TaoN@cardiff.ac.uk
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
