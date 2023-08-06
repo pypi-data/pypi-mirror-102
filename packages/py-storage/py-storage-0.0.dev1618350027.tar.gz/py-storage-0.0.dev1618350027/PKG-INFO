@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-storage
+Version: 0.0.dev1618350027
+Summary: UNKNOWN
+Home-page: https://github.com/ettoreleandrotognoli/py-storage
+Author: Éttore Leandro Tognoli
+Author-email: ettoreleandrotognoli@gmail.com
+License: Apache-2.0
+Download-URL: https://github.com/ettoreleandrotognoli/py-storage/tree/0.0.dev1618350027/
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
