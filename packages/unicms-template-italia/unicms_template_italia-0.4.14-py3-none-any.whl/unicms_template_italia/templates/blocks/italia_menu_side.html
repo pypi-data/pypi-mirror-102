@@ -1,0 +1,45 @@
+{% load i18n %}
+{% load static %}
+
+{% if items %}
+<div class="sidebar-wrapper">
+    <div class="sidebar-linklist-wrapper">
+        <div class="link-list-wrapper">
+            <ul class="link-list">
+                {% for item in items %}
+                    <li>
+                        {% if item.get_childs %}
+                        <a class="list-item large medium right-icon"
+                           href="#collapse{{ forloop.counter }}"
+                           data-toggle="collapse"
+                           aria-expanded="false"
+                           aria-controls="collapseOne">
+                            <span>{{ item.name }} </span>
+                            <svg class="icon icon-sm icon-primary right" aria-hidden="true">
+                                <use xlink:href="{% static 'svg/sprite.svg' %}#it-expand"></use>
+                            </svg>
+                        </a>
+                        <ul class="link-sublist collapse" id="collapse{{ forloop.counter }}">
+                            {% for child in item.get_childs %}
+                            <li>
+                                <a class="list-item" href="{{ child.link}}">
+                                    <span>{{ child.name }} </span>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <a class="list-item" href="{{ item.link }}">
+                            <span>{{ item.name }} </span>
+                        </a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
+
