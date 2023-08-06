@@ -1,0 +1,8 @@
+tgcc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgcc/cli.py,sha256=P7qi5ApJBi59plyfDj0FLzsSwdFymc3EamUg8NWNEhQ,61
+tgcc/md.py,sha256=aOxPa2u--nyfKeEwobU3RlBYnpno_IzKJORF5jEq5z8,2254
+tgcc-1.0.0.dist-info/METADATA,sha256=IotiO27J0AzfAUo5aSW8aOA8cSyJd8TWhBclo77gCzM,1143
+tgcc-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tgcc-1.0.0.dist-info/entry_points.txt,sha256=zC2JHF23U6h_4bK8IB28tEcF1oQDsworobdrqkX_GQM,39
+tgcc-1.0.0.dist-info/top_level.txt,sha256=cQoItIP_HqXv_g37AtX-su_73jDMMSIPSrDAn_FO8tM,5
+tgcc-1.0.0.dist-info/RECORD,,
