@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+ooti/__init__.py
+ooti/example.py
+ooti/ooti.py
+ooti_api.egg-info/PKG-INFO
+ooti_api.egg-info/SOURCES.txt
+ooti_api.egg-info/dependency_links.txt
+ooti_api.egg-info/top_level.txt
