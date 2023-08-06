@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: upbit.py
+Version: 1.0.1
+Summary: Upbit API
+Home-page: https://github.com/Beta5051/upbit.py
+Author-email: beta5051@gmail.com
+License: MIT
+Description: # upbit.py
+        ![PyPi](https://img.shields.io/pypi/v/upbit.py)
+        
+        Upbit API (업비트 API) 
+        
+        ## Install
+        ```shell
+        pip install upbit.py
+        ```
+        
+        ## Example
+        ### Quotation
+        ```python
+        from upbit import Client
+        
+        client = Client('', '')
+        print(client.get_markets())
+        ```
+        
+        ### Exchange
+        ```python
+        from upbit import Client
+        
+        client = Client('access_key', 'secret_key')
+        print(client.get_accounts())
+        ```
+        
+        ### WebSocket
+        ```python
+        from upbit import WebSocket
+        
+        class WS(WebSocket):
+            async def on_connect(self):
+                await self.send_field()
+        
+            async def on_response(self, response: dict):
+                print(response)
+        
+        WS().run()
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
