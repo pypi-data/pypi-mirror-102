@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: adrenaline
+Version: 0.2.0
+Summary: Keep your OS from sleeping (supports Windows and macOS)
+License: MIT
+Author: Tamas Nepusz
+Author-email: ntamas@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyobjc-core (>=7.1,<8.0); sys_platform == "darwin"
+Requires-Dist: pyobjc-framework-Cocoa (>=7.1,<8.0); sys_platform == "darwin"
