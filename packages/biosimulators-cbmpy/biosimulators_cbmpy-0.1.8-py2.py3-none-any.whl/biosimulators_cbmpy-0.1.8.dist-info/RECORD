@@ -1,0 +1,12 @@
+biosimulators_cbmpy/__init__.py,sha256=6-n8_3MLuGHdeWj6AAJ2TtmVgAZ7mJa8Qk7lMz1akYY,138
+biosimulators_cbmpy/__main__.py,sha256=JqPbMqaK-fw-FOrBdYZnzaWKaeat6W1TDP-ZKD69nbQ,637
+biosimulators_cbmpy/_version.py,sha256=rq5OMW-khxQo_5FAvSrPaAS1lRfG9aG2hSuo-KK2Yfk,22
+biosimulators_cbmpy/core.py,sha256=dT62ZbrilKiEcv_ii_SIBJ6hyxpwMjSP1FFS8yp2NNI,8148
+biosimulators_cbmpy/data_model.py,sha256=tZSasfnC47gmpsUuOiC6sWZxYr6KNtJeZ7txE7rYA7Y,12096
+biosimulators_cbmpy/utils.py,sha256=4tDctqodyyhBvb3NKCtLZlI-TdzRmP_yM4k1Ni8aLVg,11011
+biosimulators_cbmpy-0.1.8.dist-info/LICENSE,sha256=HEgoRB3A2xcLy7Uu8JZdMvnKnnJLmifKaaJQwEePmUo,1110
+biosimulators_cbmpy-0.1.8.dist-info/METADATA,sha256=eZqv1Dhk9uk4QyNURngvX7IuRgMkey5_uk1RXckagrk,4938
+biosimulators_cbmpy-0.1.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+biosimulators_cbmpy-0.1.8.dist-info/entry_points.txt,sha256=GfTVJm7yyDjoj_esabHjQUPcE-wDrLK0S5GnANJPJac,61
+biosimulators_cbmpy-0.1.8.dist-info/top_level.txt,sha256=MYywIBNWm9UxABlu-TvM-KOzbRxAcT69c7xxQksCKHE,20
+biosimulators_cbmpy-0.1.8.dist-info/RECORD,,
