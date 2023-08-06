@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "sas7bdat_converter"
+version = "0.8.10"
+description = "Convert sas7bdat and xport files into other formats"
+authors = ["Paul Sanders <psanders1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sanders41/sas7bdat-converter"
+homepage = "https://github.com/sanders41/sas7bdat-converter"
+documentation = "https://github.com/sanders41/sas7bdat-converter"
+keywords = ["sas", "sas7bdat", "converter", "xpt", "XPort"]
+classifiers=[
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+pandas = "^1.2.0"
+openpyxl = {version = "^3.0.5", optional = true}
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.9.1"
+isort = "^5.8.0"
+mypy = "^0.812"
+pre-commit = "^2.12.1"
+pytest = "^6.2.3"
+pytest-cov = "^2.11.1"
+tox = "^3.23.0"
+openpyxl = "^3.0.5"
+
+[tool.poetry.extras]
+excel = ["openpyxl"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.egg
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | \venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | setup.py
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+src_paths = ["sas7bdat_converter", "tests"]
