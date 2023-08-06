@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: worldOfGames
+Version: 0.0.8
+Summary: world of games
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: python,devops course,memory game,guessing game
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: forex-python
+
+three simple terminal games for course homework.
+
+

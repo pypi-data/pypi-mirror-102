@@ -1,0 +1,11 @@
+worldOfGames/Live.py,sha256=mgPTE3hjGco-UwNIDjXAAFmT59gs4yCw_M9uPNU3MNY,3049
+worldOfGames/__init__.py,sha256=4naij14YtNSBohbiv_Afwlpjr4H5IoRRW3mLlzMQd3Q,34
+worldOfGames/games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worldOfGames/games/currency_roulette.py,sha256=r5Jwrv_X7zt3OQz-vOYlY5QKkxC7YAzts4uCk0dW7BU,1113
+worldOfGames/games/game_helper.py,sha256=iP8QJEz3Sp4kRuQstPVmEIREkyGvL6a-sslA1IbP-BY,1083
+worldOfGames/games/guess_game.py,sha256=QIBMN0eWkWbVmSPpLA_nM9-3rTlF49KcHHR2fFN5nbY,471
+worldOfGames/games/memory_game.py,sha256=6z0_bu_vykGXBpvpNZ8wWP5Lb85AsBV8T4xlbbNAm2M,580
+worldOfGames-0.0.8.dist-info/METADATA,sha256=Mfn07N34_bTH54aJ9COTMNe41ValR0Jh8t_zdYMiT6U,498
+worldOfGames-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+worldOfGames-0.0.8.dist-info/top_level.txt,sha256=EqF_e10BzuYPnvrR0NH9q08hgHxyfQ_jqtsOTAM7_W0,13
+worldOfGames-0.0.8.dist-info/RECORD,,
