@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pluralcode
+Version: 0.0.1
+Summary: WIP Pluralcode library
+Home-page: https://git.catgirl.biz/pluralcode/pypluralcode
+Author: Sophie Luna Schumann
+Author-email: me@sophie.lgbt
+License: UNKNOWN
+Project-URL: Bug Tracker, https://git.catgirl.biz/pluralcode/pypluralcode/-/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Religion
+Classifier: Topic :: Sociology
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
