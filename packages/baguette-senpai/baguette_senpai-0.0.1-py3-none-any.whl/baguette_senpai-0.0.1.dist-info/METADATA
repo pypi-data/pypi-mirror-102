@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: baguette-senpai
+Version: 0.0.1
+Summary: mange de la baguette quand tu as faim
+Home-page: https://jooeys.github.io
+Author: JunyiZHONG
+Author-email: jyzh@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+### Test how to publish a package on Pypi
+https://packaging.python.org/tutorials/packaging-projects/
+
+baguette_senpai is a python library
+
