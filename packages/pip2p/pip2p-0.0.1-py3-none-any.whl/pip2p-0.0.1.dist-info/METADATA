@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pip2p
+Version: 0.0.1
+Summary: install private packages which store in svn repository
+Home-page: UNKNOWN
+Author: ticktick
+Author-email: cyxia90s@163.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# README
+## setup
+pip3 install pip2p
+
+## usage
+pipp install private_package_name
+
+
+
+
