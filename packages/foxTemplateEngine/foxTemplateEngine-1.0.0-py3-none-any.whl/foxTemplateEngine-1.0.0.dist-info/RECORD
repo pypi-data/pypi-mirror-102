@@ -1,0 +1,9 @@
+foxTemplateEngine/__init__.py,sha256=zEpF9dWHy2zJNFoN4MQ81zwsMGnwmAPlTgIk7kZXIJc,62
+foxTemplateEngine/template_engine.py,sha256=aXXVSw7XgUhyP3rNfpu7ar1q_QDq4rWLq_lWJc-QXuE,2272
+tests/__init__.py,sha256=sDO2gvcUwg5zaJSfbkJ__mmqKVIzNnjlXQikaL_bODM,38
+tests/test_transform.py,sha256=QOOo9ieSzLHfG-uERZh9nERWjuLrt9Z7LUIt5zInT7U,2242
+foxTemplateEngine-1.0.0.dist-info/LICENSE,sha256=ZrOlwNhwEBRD4fsQ6tEz4RsTYo_BD2lwLnxfeXrPvo4,1068
+foxTemplateEngine-1.0.0.dist-info/METADATA,sha256=biVUzRVbXu04PUEpxxht0wtlK-1-6cdr-2mcSDiAnuI,1204
+foxTemplateEngine-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foxTemplateEngine-1.0.0.dist-info/top_level.txt,sha256=NJn-b-Bl2fkLoIT-VUMjlw59KUAcEcLghM4zC-cd_gw,24
+foxTemplateEngine-1.0.0.dist-info/RECORD,,
