@@ -1,0 +1,7 @@
+setup.py
+savelib/__init__.py
+savelib/savelib.py
+savelib.egg-info/PKG-INFO
+savelib.egg-info/SOURCES.txt
+savelib.egg-info/dependency_links.txt
+savelib.egg-info/top_level.txt

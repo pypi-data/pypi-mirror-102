@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: savelib
+Version: 0.1
+Summary: A simple save lib
+Home-page: UNKNOWN
+Author: Yesnt
+Author-email: noemail@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,save,file,savelib,simplesave
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
