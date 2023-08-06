@@ -1,0 +1,3 @@
+[console_scripts]
+ugc = uol_grades_calculator.cli:cli
+
