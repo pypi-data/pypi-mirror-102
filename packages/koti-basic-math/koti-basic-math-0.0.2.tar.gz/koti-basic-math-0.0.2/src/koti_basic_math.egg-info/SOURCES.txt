@@ -1,0 +1,7 @@
+setup.py
+src/koti_basic_math.egg-info/PKG-INFO
+src/koti_basic_math.egg-info/SOURCES.txt
+src/koti_basic_math.egg-info/dependency_links.txt
+src/koti_basic_math.egg-info/top_level.txt
+src/kotipython/__init__.py
+src/kotipython/maths.py
