@@ -1,0 +1,7 @@
+README.md
+msg2apps.py
+setup.py
+msg2apps.egg-info/PKG-INFO
+msg2apps.egg-info/SOURCES.txt
+msg2apps.egg-info/dependency_links.txt
+msg2apps.egg-info/top_level.txt
