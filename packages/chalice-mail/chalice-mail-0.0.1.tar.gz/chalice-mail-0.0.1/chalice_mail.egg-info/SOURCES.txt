@@ -1,0 +1,13 @@
+README.md
+setup.py
+chalice_mail/__init__.py
+chalice_mail/_errors.py
+chalice_mail/mail.py
+chalice_mail/message.py
+chalice_mail/render_template.py
+chalice_mail.egg-info/PKG-INFO
+chalice_mail.egg-info/SOURCES.txt
+chalice_mail.egg-info/dependency_links.txt
+chalice_mail.egg-info/not-zip-safe
+chalice_mail.egg-info/requires.txt
+chalice_mail.egg-info/top_level.txt
