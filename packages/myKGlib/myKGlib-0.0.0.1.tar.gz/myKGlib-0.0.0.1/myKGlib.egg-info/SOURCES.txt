@@ -1,0 +1,8 @@
+setup.py
+myKGlib/__init__.py
+myKGlib/funct.py
+myKGlib.egg-info/PKG-INFO
+myKGlib.egg-info/SOURCES.txt
+myKGlib.egg-info/dependency_links.txt
+myKGlib.egg-info/requires.txt
+myKGlib.egg-info/top_level.txt
