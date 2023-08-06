@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=KyMgrMisa68_ocNa68I597kjpQhIkeUTGaQ6QJd2A_g,948
+tests/test_details.py,sha256=VWVb83P0GPVYxu0TcZFok7-AX9JCPfFGt4IMumJjBLk,1212
+pyredpocket-0.1.0.dist-info/LICENSE,sha256=OjDbcSVW0cPXi0PINdQRSdHd9P9jZB5RVkqxeooyfLo,1071
+pyredpocket-0.1.0.dist-info/METADATA,sha256=vpXpZNo8v30sUH--PTIgOjPIPPjbHAIKUD2FUtyNRmM,1826
+pyredpocket-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyredpocket-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+pyredpocket-0.1.0.dist-info/RECORD,,
