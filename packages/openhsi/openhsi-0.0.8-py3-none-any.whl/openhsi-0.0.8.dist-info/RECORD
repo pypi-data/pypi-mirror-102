@@ -1,0 +1,17 @@
+openhsi/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+openhsi/_nbdev.py,sha256=psTjVFRV_DvOYWr1rJ0PuZRUr_AEpc8A_qNCfam4F28,1496
+openhsi/atmosphere.py,sha256=AG6eJsWAzJsbUW5AKFEB0_mEQt2LGt7Mv5NhSdgLc3Y,376
+openhsi/calibrate.py,sha256=54erfNKdvcfmTLGj57-s06H5CFOOgxeiVnCk3rtjztc,3516
+openhsi/capture.py,sha256=AVLT-C5NZ4dOOkD84xZme_rKnz5qoqpYlIskbJcZqJo,6050
+openhsi/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+openhsi/data.py,sha256=G8f7OLkrksziReYFz_Uf4vJc6Tzix2EmP0_Pz9iyaBA,518
+openhsi/geometry.py,sha256=7wlVIyS5tEaxnNiBF05ap__RawK4GiIcVKzUKhpzR7M,105
+openhsi/sensors.py,sha256=s9IKvVjOiVT7YeEc_BaHRQzNSDZyD84xxl6qGrWP2hk,1437
+openhsi/utils.py,sha256=q4hCIdeFb5QrosEnvpF6UgOEZTfJxj6iEgyPggERSf8,5603
+openhsi/visualise.py,sha256=6bgoMCGu5kQN5T7vfC6R3Q0uzQeVRYqGdLoRpvpfPJ8,352
+openhsi-0.0.8.dist-info/LICENSE,sha256=Yd8P2LM-VpxcQw7GvfeMCGeyplAxNH8_-ryIEEoaCG8,13137
+openhsi-0.0.8.dist-info/METADATA,sha256=is0iiE16jNclkCWPTttpJgWrod8YWLI_eB1korussKI,3676
+openhsi-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openhsi-0.0.8.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+openhsi-0.0.8.dist-info/top_level.txt,sha256=bxTmti2M2fWbJXbEnzikbyNJl42I1OKuEiNQPshzl7g,8
+openhsi-0.0.8.dist-info/RECORD,,
