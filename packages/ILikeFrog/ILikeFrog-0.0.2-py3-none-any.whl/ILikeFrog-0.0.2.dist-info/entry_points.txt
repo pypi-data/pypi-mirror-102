@@ -1,0 +1,3 @@
+[console_scripts]
+ilikefrog = i_like_frog.main.ilikefrog:main
+

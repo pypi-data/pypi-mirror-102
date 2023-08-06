@@ -1,0 +1,10 @@
+i_like_frog/__init__.py,sha256=QC9sNiNMMpT9YddXt1JMdx8md82Lk-4znZDC12oAWOk,50
+i_like_frog/main/__init__.py,sha256=UHk_Xgk9kXPGzrvBEREUUFHNG7VwI3UmadGnGVFmXck,53
+i_like_frog/main/ilikefrog.py,sha256=9hfNGcL45wTqTP4gTdRXZeyrP3fh15e7e_hrmsEJOOA,5129
+i_like_frog/test/__init__.py,sha256=5F-SXnXdvFplzGf_83c1rRPqYuiuufHbrilIpDejmbQ,53
+i_like_frog/test/test_ilikefrog.py,sha256=-oF7BSpC__bZBp3Mc0BkFmprfdPEfHJXycU9fD_EX2Y,3090
+ILikeFrog-0.0.2.dist-info/METADATA,sha256=W7_w3akxrhWLQOh7evASIQDtmmi-mmfCrSso0fnezYs,1272
+ILikeFrog-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ILikeFrog-0.0.2.dist-info/entry_points.txt,sha256=eMNcxfkTrmW7AUHiji9bWRgFcvEMtg2yRytiWuHTpm0,63
+ILikeFrog-0.0.2.dist-info/top_level.txt,sha256=y0dRlm1tazrDsE2S_mxNDuqNqJXwDvN29RN93nkbgQc,12
+ILikeFrog-0.0.2.dist-info/RECORD,,
