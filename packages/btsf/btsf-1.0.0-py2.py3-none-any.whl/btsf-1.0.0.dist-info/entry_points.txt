@@ -1,0 +1,3 @@
+[console_scripts]
+btsf = btsf.cli:main
+
