@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: MVPR
+Version: 1.2
+Summary: Multi-variable polynomial regression for curve fitting.
+Home-page: https://github.com/Joel-H-dot/MVPR
+Author: Joel Hampton
+Author-email: joelelihampton@outlook.com
+License: MIT
+Download-URL: https://github.com/Joel-H-dot/MVPR/archive/refs/tags/1.1.tar.gz
+Description: UNKNOWN
+Keywords: Machine Learning,Regression,polynomial
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
