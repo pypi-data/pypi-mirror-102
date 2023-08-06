@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: GPopt
+Version: 0.1.0
+Summary: Bayesian Optimization using Gaussian Process Regression
+Home-page: https://github.com/thierrymoudiki/GPopt
+Author: Thierry Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD
+Download-URL: https://github.com/thierrymoudiki/GPopt/tarball/0.1.0
+Description: GPopt
+        ===============================
+        
+        version number: 0.0.1
+        author: Thierry Moudiki
+        
+        Overview
+        --------
+        
+        Bayesian Optimization using Gaussian Process Regression
+        
+        Installation / Usage
+        --------------------
+        
+        To install use pip:
+        
+            $ pip install GPopt
+        
+        
+        Or clone the repo:
+        
+            $ git clone https://github.com/thierrymoudiki/GPopt.git
+            $ python setup.py install
+            
+        Contributing
+        ------------
+        
+        TBD
+        
+        Example
+        -------
+        
+        TBD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
