@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+pycher.egg-info/PKG-INFO
+pycher.egg-info/SOURCES.txt
+pycher.egg-info/dependency_links.txt
+pycher.egg-info/entry_points.txt
+pycher.egg-info/top_level.txt
+scripts/getallinpath.sh
