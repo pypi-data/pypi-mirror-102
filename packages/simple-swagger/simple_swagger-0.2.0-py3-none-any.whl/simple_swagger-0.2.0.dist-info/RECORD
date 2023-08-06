@@ -1,0 +1,11 @@
+simpleswagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleswagger/generator.py,sha256=AFVCicXCOIe4ZILHgSNhusPgXhYgFj4Sp_ofqk1hhGQ,4711
+simpleswagger/templates/base.jinja2,sha256=yIoAMyGI7bW3cNpfWrlVXOMisY8o7O8zq5e7HgyM8WA,1420
+simpleswagger/templates/client.jinja2,sha256=vOal8R0TkSnO6Y_ceGHaSDNIzuFWl_0GUte0o9JUBU4,4480
+simpleswagger/templates/server.jinja2,sha256=nfaWUN-0HF7qJJIeX4Nv8n3mN9FkDFAbU-YMlp5Kwz4,5036
+simple_swagger-0.2.0.dist-info/LICENSE,sha256=LjNLPtOeU7Po2TnJ4b37j6LIURlfR-CxJ-4tRi4CP3w,1096
+simple_swagger-0.2.0.dist-info/METADATA,sha256=azefAyVxV1IgtU_oL3SneEzAmHaNLwXPSScQVMBHSNw,794
+simple_swagger-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simple_swagger-0.2.0.dist-info/entry_points.txt,sha256=fUajq8Pbghakx3DsGWhzr35_15ET92SYH16aPaRXims,65
+simple_swagger-0.2.0.dist-info/top_level.txt,sha256=sgGvVpr795_7ilo3y_XuFhRy-3-hho1WV6lSB57Cs5E,14
+simple_swagger-0.2.0.dist-info/RECORD,,
