@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.rst
+requirements.txt
+setup.py
+loomxpy/__init__.py
+loomxpy/loomxpy.py
+loomxpy.egg-info/PKG-INFO
+loomxpy.egg-info/SOURCES.txt
+loomxpy.egg-info/dependency_links.txt
+loomxpy.egg-info/requires.txt
+loomxpy.egg-info/top_level.txt

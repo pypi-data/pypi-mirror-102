@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: loomxpy
+Version: 0.1.0
+Summary: Python package (compatible with SCope) to create .loom files and extend them with other data e.g.: SCENIC regulons
+Home-page: https://github.com/aertslab/LoomXpy
+Author: Maxime De Waegeneer, Kristofer Davie
+Author-email: UNKNOWN
+License: GPL-3.0+
+Description: LoomXpy
+        ^^^^^^^
+        
+        Python package (compatible with SCope) to create .loom files and extend them with other data e.g.: SCENIC regulons
+        
+        
+Keywords: SCope,loom,single-cell
+Platform: any
