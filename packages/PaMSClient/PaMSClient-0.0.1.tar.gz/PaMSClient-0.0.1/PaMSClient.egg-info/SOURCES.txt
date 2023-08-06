@@ -1,0 +1,8 @@
+setup.py
+PaMSClient/PaMSClient.py
+PaMSClient/__init__.py
+PaMSClient.egg-info/PKG-INFO
+PaMSClient.egg-info/SOURCES.txt
+PaMSClient.egg-info/dependency_links.txt
+PaMSClient.egg-info/requires.txt
+PaMSClient.egg-info/top_level.txt
