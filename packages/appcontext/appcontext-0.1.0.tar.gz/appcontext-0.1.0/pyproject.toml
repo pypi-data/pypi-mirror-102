@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "appcontext"
+version = "0.1.0"
+description = "Simple application configuration"
+authors = ["Imtiaz Mangerah <Imtiaz_Mangerah@a2d24.com>"]
+license = "MIT"
+homepage = "https://www.github.com.com/a2d24/appcontext"
+repository = "https://www.github.com.com/a2d24/appcontext"
+documentation = "https://www.github.com.com/a2d24/appcontext"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+Pygments = "^2.8.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
