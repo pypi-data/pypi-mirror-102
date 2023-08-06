@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django_user_auth
+Version: 0.1.2
+Summary: 0.1.0 实现了域用户登录 0.1.2 增加日志追踪的功能
+Home-page: https://www.cnblogs.com/Evan-fanfan/
+Author: evanyang
+Author-email: lightyiyi@qq.com
+License: MIT tencent_message
+Description: 
+        0.1.0 实现了域用户登录
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
