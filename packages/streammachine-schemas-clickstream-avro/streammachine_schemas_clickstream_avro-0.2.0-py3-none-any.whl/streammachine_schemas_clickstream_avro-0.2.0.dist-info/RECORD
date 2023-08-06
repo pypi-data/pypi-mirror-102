@@ -1,0 +1,11 @@
+clickstream/__init__.py,sha256=FNZoDn1x9Lpl3I21nYQ3im9WunPheXFaGYf4dgjUZJo,1274
+clickstream/schema.avsc,sha256=uw_pT-ENX_sLCsOAibBPWFS77YbtJFtxrq7j9Gbm66Q,905
+clickstream/schema_classes.py,sha256=s6-sW9rV8b_LBNNnt31huXi9LxZoZ9Y7ZwUPZZuUNkY,15953
+clickstream/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickstream/io/streammachine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickstream/io/streammachine/public_schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickstream/io/streammachine/public_schemas/clickstream/__init__.py,sha256=b6bUKdM7GHj78gi-47c8m4co2Zylms_q-rorNliHtMA,311
+streammachine_schemas_clickstream_avro-0.2.0.dist-info/METADATA,sha256=tind8BGWUvM_DawgD9xD8dK-t1YJWHh-rQDwqd8-Q3s,840
+streammachine_schemas_clickstream_avro-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+streammachine_schemas_clickstream_avro-0.2.0.dist-info/top_level.txt,sha256=Zscl4hZMxsprz8UlPF84_rwO8FHLltbHko3W2VP3qdc,12
+streammachine_schemas_clickstream_avro-0.2.0.dist-info/RECORD,,
