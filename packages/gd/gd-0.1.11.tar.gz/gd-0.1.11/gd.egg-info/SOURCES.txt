@@ -1,0 +1,4 @@
+README.md
+README.rst
+setup.py
+gd/__init__.py

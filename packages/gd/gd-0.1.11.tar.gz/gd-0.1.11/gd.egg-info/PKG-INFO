@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gd
+Version: 0.1.11
+Summary: Python GoodData SDK library
+Project-URL: Homepage, https://bizztreat.com
+Author: Tomas Votava
+Author-email: tomas.votava@bizztreat.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+
+Python GoodData SDK
+===================
+
+See `documentation <https://bizztreat.gitlab.io/dev/pygd>`_
