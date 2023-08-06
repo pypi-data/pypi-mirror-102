@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simple_imaging/__init__.py
+simple_imaging/errors.py
+simple_imaging/image.py
+simple_imaging/matrix.py
+simple_imaging/types.py
+simple_imaging/utils.py
+simple_imaging.egg-info/PKG-INFO
+simple_imaging.egg-info/SOURCES.txt
+simple_imaging.egg-info/dependency_links.txt
+simple_imaging.egg-info/top_level.txt
