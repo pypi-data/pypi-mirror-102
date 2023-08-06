@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: Helloworld20211234
+Version: 0.0.1
+Summary: says hello world. Learn how to make your own Python package by visiting my blog, https://ryan-chou.medium.com/
+Home-page: UNKNOWN
+Author: Ryan Chou
+Author-email: UNKNOWN
+License: MIT
+Description: say hello to the Hello World package. Tutorial for how to make this package at my blog: https://ryan-chou.medium.com/.
+        
+        Change Log
+        ==================================
+        
+        0.0.1 (April 17, 2021)
+        ===================================
+        - First Version
+Keywords: KEYS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Helloworld20211234.egg-info/PKG-INFO
+Helloworld20211234.egg-info/SOURCES.txt
+Helloworld20211234.egg-info/dependency_links.txt
+Helloworld20211234.egg-info/top_level.txt
+PythonPackage/__init__.py
