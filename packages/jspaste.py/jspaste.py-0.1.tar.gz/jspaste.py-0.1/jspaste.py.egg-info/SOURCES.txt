@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+jspaste/__init__.py
+jspaste/__main__.py
+jspaste/delete.py
+jspaste/errors.py
+jspaste/get.py
+jspaste/publish.py
+jspaste/temporal.py
+jspaste/vares.py
+jspaste.py.egg-info/PKG-INFO
+jspaste.py.egg-info/SOURCES.txt
+jspaste.py.egg-info/dependency_links.txt
+jspaste.py.egg-info/top_level.txt
