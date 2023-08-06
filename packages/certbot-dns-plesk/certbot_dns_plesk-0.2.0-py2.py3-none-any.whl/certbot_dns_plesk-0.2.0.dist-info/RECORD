@@ -1,0 +1,8 @@
+certbot_dns_plesk/__init__.py,sha256=oyPAXxihknHOmUjIQ13F9oUA7zdx1-30ZDpzyoJ2xuE,30
+certbot_dns_plesk/dns_plesk.py,sha256=EC2L7PzvAjsvO64EEYYXQWyW1J6lG3pusr4KqyJtm8w,3441
+certbot_dns_plesk/dns_plesk_test.py,sha256=JjTHRA_jVYC-pg9wzg9zpnv8V7oiV3_IgsJiF3I99Yk,1936
+certbot_dns_plesk-0.2.0.dist-info/METADATA,sha256=JhvztZTz5o69taAuXl3yt7iAeQVa1r43f4wbxweSE98,3016
+certbot_dns_plesk-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+certbot_dns_plesk-0.2.0.dist-info/entry_points.txt,sha256=raKKmIqLAGyL4xKktMp67dSCDdl8dlq3DYMxzrpTivk,73
+certbot_dns_plesk-0.2.0.dist-info/top_level.txt,sha256=Vwlj-HUBd-QSMNbaOQDNJ0hI6scZBEEaNH3WyYTEtlE,18
+certbot_dns_plesk-0.2.0.dist-info/RECORD,,
