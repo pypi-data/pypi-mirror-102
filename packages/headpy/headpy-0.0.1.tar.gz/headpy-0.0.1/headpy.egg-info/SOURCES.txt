@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./headpy/__init__.py
+./headpy/auth.py
+./headpy/vacancies.py
+headpy/__init__.py
+headpy/auth.py
+headpy/vacancies.py
+headpy.egg-info/PKG-INFO
+headpy.egg-info/SOURCES.txt
+headpy.egg-info/dependency_links.txt
+headpy.egg-info/requires.txt
+headpy.egg-info/top_level.txt
