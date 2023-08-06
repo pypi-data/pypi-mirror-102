@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: demesdraw
+Version: 0.1.0
+Summary: drawing tools for Demes demographic models
+Home-page: UNKNOWN
+Author: Graham Gower
+License: ISC
+Description: Drawing functions for [Demes](https://github.com/popsim-consortium/demes-python).
+        See the [DemesDraw documentation](https://grahamgower.github.io/demesdraw) for details.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
