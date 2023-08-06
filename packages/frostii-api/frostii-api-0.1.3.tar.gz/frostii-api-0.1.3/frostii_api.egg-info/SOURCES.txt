@@ -1,0 +1,8 @@
+README.md
+setup.py
+frostii_api.egg-info/PKG-INFO
+frostii_api.egg-info/SOURCES.txt
+frostii_api.egg-info/dependency_links.txt
+frostii_api.egg-info/requires.txt
+frostii_api.egg-info/top_level.txt
+frostiiapi/__init__.py
