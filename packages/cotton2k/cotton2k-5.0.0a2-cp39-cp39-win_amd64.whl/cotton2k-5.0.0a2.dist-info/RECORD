@@ -1,0 +1,13 @@
+_cotton2k.cp39-win_amd64.pyd,sha256=TS9LHPpA98fIs3thxnkhGmDpV4O5dvK9RZgxpm7RRa4,529408
+cotton2k/__init__.py,sha256=pMloE1OAVFnDG3WRfRzGlTJfOMixV_9fjSifHFUFyZE,614
+cotton2k/__main__.py,sha256=y7C3Ghf9ebxnorIQSATKedYjAVUYxAGba01I5VEhsjE,165
+cotton2k/cotton2k.schema.json,sha256=9JsSN9CRsD7XMMqLXkcWo7AcHkhbaTDJ0whHy3riRLg,11522
+cotton2k/io.py,sha256=QqfIIzMj-YvNsoC7VDwkXmlbI99FiG7cDp_PQsQnOEU,2093
+cotton2k/soil_imp.csv,sha256=T8Zw0QrdZYfBs4azQUHoxc5GjbN0MstcSqu8o9fvdJg,255
+cotton2k/units.py,sha256=bvyzXbo5T8oRth9Ia6VWuLEI17b_WbpbXIroEe4YDjE,5658
+cotton2k/utils.py,sha256=SOrzd8312uva5mFGzO3iEH1vUSmsprv5_KEVnp9ymY8,399
+cotton2k-5.0.0a2.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+cotton2k-5.0.0a2.dist-info/METADATA,sha256=eRZp1_qRA_pSrTgLvURVw1592GB1QkmibM0Gxevc1hI,1993
+cotton2k-5.0.0a2.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+cotton2k-5.0.0a2.dist-info/top_level.txt,sha256=GhlZrYrdVlj8FQPflS8jsIYECXGcIPA_NI4fpi7ufpg,19
+cotton2k-5.0.0a2.dist-info/RECORD,,
