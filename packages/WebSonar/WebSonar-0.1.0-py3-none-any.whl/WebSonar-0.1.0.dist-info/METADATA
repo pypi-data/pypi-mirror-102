@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: WebSonar
+Version: 0.1.0
+Summary: Describe your package in one sentence
+Home-page: https://github.com/intv0id/WebSonar
+Author: Clément Trassoudaine
+Author-email: clement.trassoudaine@outlook.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+ðŸ“¡ WebSonar
+===
+
+SEO tool for e-commerce
+---
+
+WebSonar identifies websites providers within the first results of popular search engines.
+
+---
+
+## âš™ Setup
+
+1. Setup python >= 3.9
+
+2. Run
+
+``` bash
+pipenv install
+```
+
+3. Change parameters in main.py
+
+
