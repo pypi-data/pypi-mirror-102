@@ -1,0 +1,3 @@
+[console_scripts]
+pcp_cli = pypcp.pcp_cli:main
+
