@@ -1,0 +1,1 @@
+opencv-python==4.2.0openslide-python==1.1.2pandas==1.2.1Pillow==8.0.0seaborn==0.11.0numpy==1.19.2tqdm==4.60.0aicspylibczi==2.8.0shapely==1.7.1scikit-learn==0.24.1ipykernel==5.3.4
