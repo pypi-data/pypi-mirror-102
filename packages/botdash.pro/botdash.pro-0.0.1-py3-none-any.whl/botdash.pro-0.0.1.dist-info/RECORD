@@ -1,0 +1,11 @@
+botdash/__init__.py,sha256=en5f8LG7a4oe6FAMOQk84n8DmcCt3udnLO_N7bG2lvw,643
+botdash/client.py,sha256=nwU3qakkdDGjgN6mTwkn8LdvAi4xdJgbhubl9jC6aHs,494
+botdash/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botdash/lib/util/__init__.py,sha256=uFyUWp1Zlih0vZqdiJuDjr8C1XQNOxq1lRPiUCbq1Cs,48
+botdash/lib/util/exceptions.py,sha256=7qL8vpkj_mnVrwJYZbZpFdxn-Nht7DMYq1F2nWitKtA,423
+botdash/lib/util/objects.py,sha256=GlCW5NA3ThvVevCvOTQEZ2lU0gQEEI_Zxeu6J6w6Uk4,288
+botdash.pro-0.0.1.dist-info/LICENSE,sha256=X6AbCb5u1JiAIPP2Bo_drCQV5oVIuMHPLp8Wma2M8jc,1073
+botdash.pro-0.0.1.dist-info/METADATA,sha256=U9tiTFZ_QRTt9F0sMQRYb1l63dqNED8-j2pYhBKwSTc,554
+botdash.pro-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+botdash.pro-0.0.1.dist-info/top_level.txt,sha256=X3El3n1qVQQbUlK8LvXGFn2pMyf6R72iB5OAXXp4GUo,8
+botdash.pro-0.0.1.dist-info/RECORD,,
