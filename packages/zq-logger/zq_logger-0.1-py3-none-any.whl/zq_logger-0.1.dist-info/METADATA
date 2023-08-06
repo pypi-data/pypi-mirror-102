@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zq-logger
+Version: 0.1
+Summary: customized logger
+Home-page: http://www.google.com/search?q=zq_logger
+Author: zzqq2199
+Author-email: zhouquanjs@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: logging
+Requires-Dist: colorlog
+
+UNKNOWN
+
+
