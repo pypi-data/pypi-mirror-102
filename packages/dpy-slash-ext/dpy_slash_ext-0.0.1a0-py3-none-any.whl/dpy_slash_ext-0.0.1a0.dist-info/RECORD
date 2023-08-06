@@ -1,0 +1,8 @@
+discord/ext/slash/__init__.py,sha256=BJSTcEdjHLdCyG8Y0TMNa4AcnXpygXvmtiBVOGkHc5c,146
+discord/ext/slash/abc.py,sha256=cfOqF8zRhNftYcEy0iU7a0qysGoysa5QrK6sikQWZoc,2940
+discord/ext/slash/client.py,sha256=IqLEhrAbFV-roBbyvG8pdKU3-blwWQ5nRu3AaNm63dk,2732
+discord/ext/slash/gateway.py,sha256=0BaeA7mYOXYAK9nmxJB-LMwjGV6lan29eukcDWQ10xw,2119
+dpy_slash_ext-0.0.1a0.dist-info/METADATA,sha256=hHOKFlsOwheZSsieUpQHm4yoZL-vJm15c53RtSa8axE,2166
+dpy_slash_ext-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dpy_slash_ext-0.0.1a0.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+dpy_slash_ext-0.0.1a0.dist-info/RECORD,,
