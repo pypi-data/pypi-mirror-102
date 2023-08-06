@@ -1,0 +1,10 @@
+tfds_korean/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfds_korean/nsmc/__init__.py,sha256=BMSRpkApzENACkZN0d0JYEQZgiCtqaxpFwEi1cZARlI,64
+tfds_korean/nsmc/checksums.tsv,sha256=g2-K5LTKQtjVYuxwHvG3b5V9Ne1tCAEzEEKOsoz9z9M,317
+tfds_korean/nsmc/nsmc.py,sha256=uNDAsMseGnMBHi4GyJT4LwUZe3tCVEH5H5ijCs2loWA,2006
+tfds_korean/nsmc/nsmc_test.py,sha256=TWierHbkqu-a-KpyE8zVCij2byRzfbxZUpjvG0L-Nco,398
+tfds_korean-0.0.1a0.dist-info/LICENSE,sha256=gt1G-am-OppGuHrjshJbOGT8H-usbBTWnIOYY-_RgM0,1068
+tfds_korean-0.0.1a0.dist-info/METADATA,sha256=Bcr8FeEj7bvz37MK6g7jd0P7BsD0B6svVTH_1GPAtBM,692
+tfds_korean-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfds_korean-0.0.1a0.dist-info/top_level.txt,sha256=SSJizrDTvdJwI2uiAfeZxe4gqTRkoyEokiVcSyk8xlQ,12
+tfds_korean-0.0.1a0.dist-info/RECORD,,
