@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "jailrootDetector"
+version = "0.1.1"
+description = "Identify root and jailbreak detection in mobile applications"
+authors = ["JxTx <joethorpe6@protonmail.com>"]
+readme = "README.org"
+repository = "https://gitlab.com/JxTx/jailrootdetector"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+r2pipe = "^1.5.3"
+sh = "^1.14.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.7.2"
+flake8 = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# this makes it cli callable
+# $ jrd --help
+[tool.poetry.scripts]
+jrd = "jailrootdetector.main:main"
