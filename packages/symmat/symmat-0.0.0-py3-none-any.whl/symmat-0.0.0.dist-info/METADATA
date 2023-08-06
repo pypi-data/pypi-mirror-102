@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: symmat
+Version: 0.0.0
+Summary: symmat
+Home-page: http://github.com/symmat/symmat/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+symmat: A Symbolic Toolbox for Matrix Calculation
+=======================
+
+
