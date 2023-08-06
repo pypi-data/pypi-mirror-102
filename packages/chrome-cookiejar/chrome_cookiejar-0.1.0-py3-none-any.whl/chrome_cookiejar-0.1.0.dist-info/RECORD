@@ -1,0 +1,12 @@
+chrome_cookiejar/__init__.py,sha256=kcqrOr-W4ZVLy_Wtpdq90v9t8izLCVx0XThm26kP03I,42
+chrome_cookiejar/decrypt.py,sha256=Ct_yE5SHlaorpnfY-q2ccM43itXNleA4LxIKz_h72qg,677
+chrome_cookiejar/main.py,sha256=BZvI-1NqfGu6fVB9C8vKAmPV8WrrhLWD4MBhxu2ijPc,3392
+chrome_cookiejar/path.py,sha256=6g3AbIzXCjCYE3v1Rm0XyKBC0kZ9sRb5GKs-Ler4ALs,863
+chrome_cookiejar/unix_crypt.py,sha256=m0oiRVO8lKRicRs-UGQZgmo5wS2Z9t-4zwDZlffuOsA,625
+chrome_cookiejar/win32crypt.py,sha256=fQaXnChSgFMjMqjXdSn1s96OOYb5YSYxxWGocJ2HmQ4,1238
+chrome_cookiejar-0.1.0.dist-info/LICENSE,sha256=2TZydBIyTUhxjW8yCSZmBcFr2zAihKhCccYqsGLW7RQ,1099
+chrome_cookiejar-0.1.0.dist-info/METADATA,sha256=Fo3W5QB2Uxbdp4anc-FrtVrrD9yfbKgMuGU2viEkkGE,2382
+chrome_cookiejar-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chrome_cookiejar-0.1.0.dist-info/top_level.txt,sha256=KAGAzs2-h3c83Et26B9_-zx7rUzXlecggWx1fJ5H9-Y,17
+chrome_cookiejar-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+chrome_cookiejar-0.1.0.dist-info/RECORD,,
