@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: fdriver
+Version: 0.0.9
+Summary: mvc archhitecture for fastapi
+Home-page: https://github.com/AdamMusa/fdriver
+Author: AdamMusa
+Author-email: adammusa2222@gmail.com
+License: MIT
+Description: fdriver is a cli program which facilitates the implementation of an mvc architecture in the api. An API made with fdriver is automatically modular, easy to test and exportable because fdriver dockerizes your API 
+        
+        Change log
+        ==========
+        0.0.9 (16/04/2021)
+        
+        -First Release
+Keywords: fdriver,fastapi mvc,mvc for fastapi,goode architecture for fastapi
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
