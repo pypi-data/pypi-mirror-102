@@ -1,0 +1,8 @@
+cython
+numpy
+colorama
+astpretty
+requests
+flask
+twine
+python-dateutil
