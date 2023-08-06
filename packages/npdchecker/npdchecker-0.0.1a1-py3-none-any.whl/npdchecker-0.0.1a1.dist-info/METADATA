@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: npdchecker
+Version: 0.0.1a1
+Summary: Tool for checking the status of the NPD-payer in Russia
+Home-page: https://gitlab.com/whiteapfel/NPDChecker
+Author: WhiteApfel
+Author-email: white@pfel.ru
+License: Mozilla Public License 2.0
+Keywords: НПД проверка ФНС статус NPD check FNS status
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+
+# NPDChecker
+
+Инструмент для проверки статуса плательщика налога на профессиональный доход (НПД) по ИНН
+
+---
+
+### Синхронный режим:
+```python
+from npdchecker import NPDChecker
+
+checker = NPDChecker()
+inn = 144075719327
+
+status = checker(inn) # проверка актуального статуса
+status = checker(inn, "2020-07-25") # Проверка статуса на 25 июля 2020 года
+```
+
+---
+
+### Асинхронный режим:
+```python
+from npdchecker import NPDChecker
+
+checker = NPDChecker()
+inn = 144075719327
+
+async def check():
+	async with checker:
+		status = await checker.a(inn)
+        status = await checker.a(inn, "2019-12-31")
+
+checker.run(check())
+```
+
+---
+
+### Ошибки
+
+Все ошибки API идут классом `NPDError`. Класс имеет атрибуты `code` и `message`
+согласно [Документации](https://npd.nalog.ru/html/sites/www.npd.nalog.ru/api_statusnpd_nalog_ru.pdf 'Ссылка на документацию').
+
