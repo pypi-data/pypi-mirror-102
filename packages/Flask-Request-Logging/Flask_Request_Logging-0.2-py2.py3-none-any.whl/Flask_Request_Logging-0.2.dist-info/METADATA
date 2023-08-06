@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Flask-Request-Logging
+Version: 0.2
+Summary: Logging for Flask Request
+Home-page: https://github.com/ip-hardy/Flask-Request-Logging
+Author: liuzhiyong
+Author-email: ip_hardy@qq.com
+License: UNKNOWN
+Keywords: flask,logging
+Platform: any
+Requires-Dist: Flask
+
+UNKNOWN
+
+
