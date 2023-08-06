@@ -1,0 +1,6 @@
+napari-plugin-engine>=0.1.4
+tensorflow
+numpy
+napari
+yapic
+scikit-image
