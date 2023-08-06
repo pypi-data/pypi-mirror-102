@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: savircraftfull
+Version: 0.1
+Summary: Created by Savir Singh in the Choonka Community. Go to https://choonka.pagekite.me/ for more.
+Home-page: https://github.com/choonka/savircraft
+Author: Savir Singh
+Author-email: savir.singh0308@gmail.com
+License: MIT
+Download-URL: https://github.com/choonka/savircraft/archive/refs/tags/v03.tar.gz
+Description: SavirCraft (Official)
+        =============================
+        Play free Minecraft with just 1 line of code...
+        
+        SavirCraft is easy to install (pip install savircraftfull)
+        and it is easy to use (from savircraftfull import free_minecraft)
+        
+        Features:
+        Play free Minecraft, using a single line of code,
+        Simple and quick installation,
+        Choonka monitored.
+        
+        Usage:
+        Open a Python Compiler (IDLE, PyCharm, etc.),
+        Download "texture.png" and save it to the same directory as your Python file: https://choonka.pagekite.me/static/texture.png/,
+        Type 1 line of code: from savircraftfull import free_minecraft,
+        Play free Minecraft!
+        
+        Creators:
+        Savir Singh,
+        Choonka Community
+        
+        
+        You are not permitted to reproduce, share, or sell this Python module, without prior written permission from the creator, Savir Singh.
+        
+Keywords: savircraft,minecraft,game
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
