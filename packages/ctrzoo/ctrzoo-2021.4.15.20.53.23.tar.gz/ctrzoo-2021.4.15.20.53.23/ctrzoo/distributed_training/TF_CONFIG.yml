@@ -1,0 +1,14 @@
+# master: 计算节点，与worker的区别在于master节点还需负责checkpoint的保存和模型的输出
+# worker: 计算节点。负责读取训练样本，计算loss，把参数的梯度传给ps节点，再从ps节点接收新的参数值进行参数更新
+# parameter server(ps): 主要负责参数的同步，从master和worker节点收集参数梯度并进行聚合，然后更新参数，并将新的参数值返回给计算节点
+
+cluster:
+    master:
+        - '127.0.0.1:3000'
+    ps:
+        - '127.0.0.1:3001'
+    worker:
+        - '127.0.0.1:3002'
+task:
+    index: 0
+    type: worker

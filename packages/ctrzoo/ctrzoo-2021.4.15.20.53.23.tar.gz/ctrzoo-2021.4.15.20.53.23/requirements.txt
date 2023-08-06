@@ -1,0 +1,5 @@
+meutils[plus]
+bertzoo
+tensorflow-gpu==2.2.0
+pypinyin
+pymilvus==0.3.0
