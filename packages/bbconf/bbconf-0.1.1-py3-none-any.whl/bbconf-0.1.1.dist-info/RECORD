@@ -1,0 +1,13 @@
+bbconf/__init__.py,sha256=GnqNde75dnNi7_TBDhvM7pInkjz9ymuWitmZunwYB5I,250
+bbconf/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+bbconf/bbconf.py,sha256=ixVDl9zC9sM30HUwSdA_XR7nN-cnPvN5hWTS1C0lx5w,9713
+bbconf/const.py,sha256=x4pAWws-Z5OMn8KR0dJt4SKB85Yh6fSefSxqMRr8AAI,2478
+bbconf/exceptions.py,sha256=cvHeJHNBpLmpo96onGWM4WscSU6V1Xbvwn32mtJdf28,694
+bbconf/helpers.py,sha256=2Hln04DxN2OuH9e1QhZgJ6AjKR2j9fgY2uiZIktIiNY,799
+bbconf/schemas/bedfiles_schema.yaml,sha256=ECoQ7KTv28an7Iua4tlQhRudUZpnXkJ8nVyX6OWm5vg,2582
+bbconf/schemas/bedsets_schema.yaml,sha256=WNrJYlHYOUN6UYx52z79DoE3qg4Q15pQOJiOcXzUzfo,1132
+bbconf-0.1.1.dist-info/LICENSE.txt,sha256=oB6ZGDa4kcznznJKJsLLFFcOZyi8Y6e2Jv0rJozgp-I,1269
+bbconf-0.1.1.dist-info/METADATA,sha256=WB4O1U2Ix7K0m6gGpTY8p3UFn_Il3-1BF0Q7ELE3I-8,1856
+bbconf-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bbconf-0.1.1.dist-info/top_level.txt,sha256=5YVFG20OPCXsdCdH0Ovn1b6SVEE-cs06aGgv8DLiaAs,7
+bbconf-0.1.1.dist-info/RECORD,,
