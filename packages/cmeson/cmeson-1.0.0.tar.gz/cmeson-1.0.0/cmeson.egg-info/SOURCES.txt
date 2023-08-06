@@ -1,0 +1,14 @@
+README.md
+setup.py
+cmeson/__init__.py
+cmeson/__main__.py
+cmeson/application.py
+cmeson/command.py
+cmeson/editwidgets.py
+cmeson/optionlist.py
+cmeson.egg-info/PKG-INFO
+cmeson.egg-info/SOURCES.txt
+cmeson.egg-info/dependency_links.txt
+cmeson.egg-info/entry_points.txt
+cmeson.egg-info/requires.txt
+cmeson.egg-info/top_level.txt
