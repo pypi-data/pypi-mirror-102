@@ -1,0 +1,23 @@
+# Runtime dependencies
+
+Django<3
+sqlparse
+django_jinja==2.4.1
+
+# Testing
+
+coverage
+flake8
+html5lib
+isort
+selenium
+tox
+
+# Documentation
+
+Sphinx
+
+# Other tools
+
+transifex-client
+wheel
