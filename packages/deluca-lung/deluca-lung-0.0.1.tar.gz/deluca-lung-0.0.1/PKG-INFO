@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deluca-lung
+Version: 0.0.1
+Summary: Ventilator control research in deluca
+Home-page: https://github.com/MinRegret/deluca-lung
+Author: Google AI Princeton
+Author-email: dsuo@google.com
+License: Apache License
+Description: # deluca-lung
+        
+        ## Getting started
+        Instructions to provide to students: run the following commands
+        ```
+        git clone https://github.com/MinRegret/deluca-lung
+        cd deluca-lung
+        pip install -e .
+        jupyter notebook
+        ```
+        
+        Navigate to the notebook `notebooks/2021-04-13-hello-world.ipynb` and run the cells.
+Keywords: differentiable,control algorithms,reinforcement learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
