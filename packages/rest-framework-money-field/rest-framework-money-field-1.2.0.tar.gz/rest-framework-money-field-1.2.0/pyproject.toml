@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rest-framework-money-field"
+version = "1.2.0"
+description = "A DRF serializer for monetary values."
+authors = ["Rauli Laine <rauli.laine@treet.fi>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["rest_framework_money_field/tests"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+djangorestframework = ">3.7.0,<4.0.0"
+py-moneyed = ">1.0,<2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.9.0"
+pytest = "^6.2.3"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
