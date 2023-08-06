@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/anitejb/__init__.py
+src/anitejb/safeopen.py
+src/anitejb.egg-info/PKG-INFO
+src/anitejb.egg-info/SOURCES.txt
+src/anitejb.egg-info/dependency_links.txt
+src/anitejb.egg-info/top_level.txt
