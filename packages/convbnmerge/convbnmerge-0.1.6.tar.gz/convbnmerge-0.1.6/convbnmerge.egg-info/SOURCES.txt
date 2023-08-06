@@ -1,0 +1,8 @@
+README.md
+setup.py
+convbnmerge/__init__.py
+convbnmerge/convbnmerge.py
+convbnmerge.egg-info/PKG-INFO
+convbnmerge.egg-info/SOURCES.txt
+convbnmerge.egg-info/dependency_links.txt
+convbnmerge.egg-info/top_level.txt
