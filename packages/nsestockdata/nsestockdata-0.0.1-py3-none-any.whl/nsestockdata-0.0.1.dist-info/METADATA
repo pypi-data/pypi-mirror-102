@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nsestockdata
+Version: 0.0.1
+Summary: NSE stock data
+Home-page: UNKNOWN
+Author: Vikram Ahuja
+Author-email: <vikramahuja1313@gmail.com>
+License: UNKNOWN
+Keywords: python,NSE,stock,finance,data
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: requests
+
+UNKNOWN
+
+
