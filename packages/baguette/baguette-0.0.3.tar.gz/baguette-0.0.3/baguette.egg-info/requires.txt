@@ -1,0 +1,13 @@
+
+[dev]
+autoflake
+black
+flake8
+isort
+pytest
+pytest-asyncio
+pytest-cov
+twine
+
+[uvicorn]
+uvicorn[standard]
