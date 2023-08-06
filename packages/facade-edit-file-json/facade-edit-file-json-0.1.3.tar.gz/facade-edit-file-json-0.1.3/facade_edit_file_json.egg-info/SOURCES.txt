@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+facade_edit_file_json/__init__.py
+facade_edit_file_json/cli.py
+facade_edit_file_json.egg-info/PKG-INFO
+facade_edit_file_json.egg-info/SOURCES.txt
+facade_edit_file_json.egg-info/dependency_links.txt
+facade_edit_file_json.egg-info/entry_points.txt
+facade_edit_file_json.egg-info/top_level.txt
