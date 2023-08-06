@@ -1,0 +1,9 @@
+README.md
+setup.py
+terbilang/__init__.py
+terbilang/__main__.py
+terbilang/terbilang.py
+terbilang.egg-info/PKG-INFO
+terbilang.egg-info/SOURCES.txt
+terbilang.egg-info/dependency_links.txt
+terbilang.egg-info/top_level.txt
