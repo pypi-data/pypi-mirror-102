@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: GoogleDriveDown
+Version: 0.0.3
+Summary: This module allows you to download all the content from a shared google drive url to specified directory.
+Home-page: UNKNOWN
+Author: Aditya Sisodiya
+Author-email: adityasisodiya2803@gmail.com
+License: MIT
+Description: This module allows you to download all the content from a shared google drive url to specified directory.
+        
+        # Requirements:<br/>
+        * "client_secrets.json" file which is required for integration of Python with Google Drive
+            *   You can follow [this](https://medium.com/swlh/google-drive-api-with-python-part-i-set-up-credentials-1f729cb0372b) blog to      generate client secrets file.
+        
+        * Make sure that your client_secrets.json file and python file must be in same directory.
+        
+        # Installation using pip:<br/>
+        ```
+           pip install GoogleDriveDown 
+        ```
+        
+        # Code Example:<br/>
+        ```
+            import GoogleDriveDown as gd
+        
+            url = 'https://drive.google.com/drive/folders/1NIGvjHBuUQHWnMqzboyg-zLI1q_bOuCH'
+            gd.get_files(url, 'save to directory(directory name)')
+        ```
+        
+        
+        Change Log
+        
+        =================
+        
+        0.0.1 (15/04/2021)
+        --------------------------
+        - First Release
+Keywords: Google Google-Drive
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
