@@ -1,0 +1,12 @@
+slr_parser/__init__.py,sha256=2eiWQI55fd-roDdkt4Hvl9WzrTJ4xQo33VzFud6D03U,22
+slr_parser/grammar.py,sha256=hCeDl6lrBmbhGyt_Z6UGXR-hOW_GWFWNRu0WET-scp8,1359
+slr_parser/slr_parser.py,sha256=DQlJpJmNKbI7sXwnFz2IiDZYsrCGZ271FyAgnPHATX8,12860
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_grammar.py,sha256=8Cn2aFUQQKs3k9OhhUEdVHJwuO-44AKRFQ86Sh8trzw,1072
+tests/test_slr_parser.py,sha256=iQ726G4yotaXwY_ImWmzgq2oi0CZbMzGqBosTmsmmQ4,11913
+slr_parser-0.4.0.dist-info/LICENSE,sha256=MAMggt8ls5rJZwl6qsyucjGdwEWHXZ9HROnTmGm6lVw,1069
+slr_parser-0.4.0.dist-info/METADATA,sha256=xT4131-IHoAjU0yVv5MX5CcndnNKVwU19MQc_j6yGLM,7323
+slr_parser-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slr_parser-0.4.0.dist-info/entry_points.txt,sha256=NwQwwHVjGYULD7o3yWD6tLiuCwDxedO9WFbUlIAZF0Q,52
+slr_parser-0.4.0.dist-info/top_level.txt,sha256=CYrH4Dghh1vXpUWhlq8FCn_V_pvICznUgi1G6mZEz_Y,17
+slr_parser-0.4.0.dist-info/RECORD,,
