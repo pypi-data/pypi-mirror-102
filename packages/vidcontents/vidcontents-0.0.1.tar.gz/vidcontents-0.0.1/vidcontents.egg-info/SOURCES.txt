@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cocontents/__init__.py
+cocontents/hello.py
+vidcontents.egg-info/PKG-INFO
+vidcontents.egg-info/SOURCES.txt
+vidcontents.egg-info/dependency_links.txt
+vidcontents.egg-info/requires.txt
+vidcontents.egg-info/top_level.txt
