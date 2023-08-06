@@ -1,0 +1,9 @@
+README.md
+setup.py
+bmi_processor/__init__.py
+bmi_processor/bmi_processor.py
+bmi_processor_beta.egg-info/PKG-INFO
+bmi_processor_beta.egg-info/SOURCES.txt
+bmi_processor_beta.egg-info/dependency_links.txt
+bmi_processor_beta.egg-info/requires.txt
+bmi_processor_beta.egg-info/top_level.txt
