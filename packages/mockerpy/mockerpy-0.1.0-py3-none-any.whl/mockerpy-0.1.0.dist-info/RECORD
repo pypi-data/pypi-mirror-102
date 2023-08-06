@@ -1,0 +1,10 @@
+mockerpy/__init__.py,sha256=6rGtB1JrcM0Csxl1eAqvxdoowAktMFKQbjB2FcTANHg,49
+mockerpy/fake_api.py,sha256=4YzU_lzhziTAVGKvhg-FaYelZ-9EKN119r0nS6eEAkI,18119
+mockerpy/fake_api_client.py,sha256=CKYz_Z6JPT-jHNeCJkZWUBJinPG7Jjixmw9Cl2MpgFw,2454
+mockerpy/fake_node_response.py,sha256=JYoi50irnTRXbMBxCOkh5isLAUOHq_5cNybLSv2vhGM,3487
+mockerpy/fake_stat.py,sha256=sKyMNjLxU9OSMoFsdoXEMYZO1J4PyqHJwbNBRMWc-ro,2956
+mockerpy/services/__init__.py,sha256=Oc0Tto-BCz6c-kJiHlC70CVkLa4-9JM_uz0BRp2PCTs,1327
+mockerpy/services/responses.py,sha256=XvLgHerbHTYxnnnjzUpKchLKwmq1Zx-yy02EnaocaGE,5016
+mockerpy-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mockerpy-0.1.0.dist-info/METADATA,sha256=XEHeGFUUAdpbA6M_fEfwX3k1vXo_85qlM6hGQES3-gE,461
+mockerpy-0.1.0.dist-info/RECORD,,
