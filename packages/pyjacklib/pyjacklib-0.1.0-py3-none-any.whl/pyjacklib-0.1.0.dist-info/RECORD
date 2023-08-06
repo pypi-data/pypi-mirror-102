@@ -1,0 +1,9 @@
+jacklib/__init__.py,sha256=_sVqghVJoHE5lzvJ8-5wEvE9Gbd6Ia80Lg2oHnhkfYQ,82
+jacklib/api.py,sha256=2GD_Oou7nR7G0tnJLLAjRhaYYrdI0Y-YM1LAjSiMSEM,58499
+jacklib/helpers.py,sha256=d81XEUbnqSw0ATFdGdE-H1EjwZ1oo9lInpnIs9-oUNg,4415
+jacklib/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pyjacklib-0.1.0.dist-info/COPYING,sha256=2MMg_8ADDRsJauRzK1DSuBHPlemptzd8ESeyVj4KA4g,15220
+pyjacklib-0.1.0.dist-info/METADATA,sha256=BRvdkcaTEDWxnfrB8FCroQer5nMT7QEJgaBumPflg7s,3122
+pyjacklib-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyjacklib-0.1.0.dist-info/top_level.txt,sha256=RneVINWw3q6uaDgyEd6Mz1FwptlM38iGljaOkOzDXvI,8
+pyjacklib-0.1.0.dist-info/RECORD,,
