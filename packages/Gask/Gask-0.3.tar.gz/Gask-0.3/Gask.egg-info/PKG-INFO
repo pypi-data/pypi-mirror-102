@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Gask
+Version: 0.3
+Summary: A git backed task management system
+Home-page: https://github.com/RyanVanDijck/Gask
+Author: ryan
+Author-email: rvandijck02@outlook.com
+License: GNU General Public License v3
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: burndown
