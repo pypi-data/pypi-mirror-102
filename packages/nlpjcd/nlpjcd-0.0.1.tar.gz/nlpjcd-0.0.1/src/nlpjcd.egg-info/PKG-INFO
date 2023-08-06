@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nlpjcd
+Version: 0.0.1
+Summary: NLP Toolkit Package
+Home-page: https://github.com/juancadh/nlpjcd
+Author: Juan Camilo Diaz
+Author-email: juancadh@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/juancadh/nlpjcd/issues
+Description: # NLP Toolkit
+        
+        This is a simple NLP toolkit package that allows to do NER, Text Classification using sklearn and more.
+Keywords: nlp,ner,toolkit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

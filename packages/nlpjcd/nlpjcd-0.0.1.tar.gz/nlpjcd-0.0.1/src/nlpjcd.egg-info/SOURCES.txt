@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nlpjcd/__init__.py
+src/nlpjcd/nlpjcd.py
+src/nlpjcd.egg-info/PKG-INFO
+src/nlpjcd.egg-info/SOURCES.txt
+src/nlpjcd.egg-info/dependency_links.txt
+src/nlpjcd.egg-info/top_level.txt
