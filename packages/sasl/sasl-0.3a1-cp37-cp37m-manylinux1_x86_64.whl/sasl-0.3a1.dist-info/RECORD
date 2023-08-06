@@ -1,0 +1,12 @@
+sasl/saslwrapper.cpython-37m-x86_64-linux-gnu.so,sha256=zkCNqbytsu7TJoQd9VJh6_-czz2rt0uDdVlA_dFWmgs,567288
+sasl/__init__.py,sha256=7dhg4IxXcH8xpwtgoP5EsUrHrb1BKq-ODtYgFtF9aFw,609
+sasl/saslwrapper.pyx,sha256=S5eyjq-R9VdsL0lcH-j_HHjl6S2fD1jnqTErBk8CKn4,3246
+sasl/saslwrapper.h,sha256=WJQqsMjI6h7VDBABcXjAQl1z661EwG1iTq4zYQy3ye4,14903
+sasl/saslwrapper.cpp,sha256=2BCNAPYK9X4MUse6qipUSdziBx4KvOirfZKnck6atvA,262966
+sasl.libs/libsasl2-e96a0dbf.so.2.0.22,sha256=C_kfhnqFfU_YB0l7y9ZKbsn2GrUFp94obscGAdmK6OU,117920
+sasl.libs/libcrypt-36ce9caf.so.1.1.0,sha256=hnMFbvH5bHJA5eXGgCbPRJDrjxTL1lh3ZJD-PmqUnuY,767224
+sasl-0.3a1.dist-info/RECORD,,
+sasl-0.3a1.dist-info/METADATA,sha256=5rA4TRseS-0K3aeijrjec6gwphvkE5ghwSRHQojjU5M,379
+sasl-0.3a1.dist-info/top_level.txt,sha256=Wn03IKFYcuTmi2-YglYSnDMwFpPg3VMd5b2EeQ8VM2Y,5
+sasl-0.3a1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sasl-0.3a1.dist-info/WHEEL,sha256=YuK2D4GEfn5egRtpxwtNXqS6oo6NJGt_NUlX8IjB65k,109
