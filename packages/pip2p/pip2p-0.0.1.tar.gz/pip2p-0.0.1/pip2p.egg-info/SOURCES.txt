@@ -1,0 +1,9 @@
+README.md
+pip2p.py
+setup.py
+pip2p.egg-info/PKG-INFO
+pip2p.egg-info/SOURCES.txt
+pip2p.egg-info/dependency_links.txt
+pip2p.egg-info/entry_points.txt
+pip2p.egg-info/requires.txt
+pip2p.egg-info/top_level.txt
