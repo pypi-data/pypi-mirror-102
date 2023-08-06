@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pykalman
+seaborn
+scipy
+pandas_datareader
+datetime
+statsmodels
+sklearn
