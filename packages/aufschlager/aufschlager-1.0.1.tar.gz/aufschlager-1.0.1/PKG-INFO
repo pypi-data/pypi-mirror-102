@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aufschlager
+Version: 1.0.1
+Summary: Very simple web framework
+Home-page: https://github.com/jenca-adam/pylots/tree/master/pylots/aufschlager
+Author: Adam Jenca
+Author-email: jenca.a@gjh.sk
+License: UNKNOWN
+Description: 
+        Aufschlager is very simple Web framework.
+        
+        ```python
+        import aufschlager
+        aufschlager.route('/helloworld/','Hello world')
+        aufschlager.run(8080)
+        ```
+        This will output 'Hello world' on url /helloworld/
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
