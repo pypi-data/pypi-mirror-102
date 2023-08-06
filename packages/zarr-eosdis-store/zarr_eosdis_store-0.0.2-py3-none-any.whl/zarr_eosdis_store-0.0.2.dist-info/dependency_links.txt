@@ -1,0 +1,1 @@
+zarr @ https://github.com/bilts/zarr-python.git@getitems-prototype#egg=zarr
