@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hello/__init__.py
+hello_amadeus.egg-info/PKG-INFO
+hello_amadeus.egg-info/SOURCES.txt
+hello_amadeus.egg-info/dependency_links.txt
+hello_amadeus.egg-info/top_level.txt
