@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "secondmer"
+version = "1.0.0"
+description = "SecondMer MILLIseconds. secondmer.starttrial(100)"
+authors = ["TikOt Studio <tikotstudio@yandex.ru>"]
+license = "TikOt Python"
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
