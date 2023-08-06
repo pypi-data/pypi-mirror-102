@@ -1,0 +1,8 @@
+pdfmailmerge/__init__.py,sha256=WS9xxiXJqdp7-bW4aTyMSpHpe48SqFRA88dLsX-oPr0,62
+pdfmailmerge/config.yml,sha256=a7Jmna58Ah5eKValh9-ZhunDDkgZFEf0UwKHL4lfGn0,212
+pdfmailmerge/produce_html.py,sha256=Fj8nnZ3mqPiyMOGHQGEF8b7HL5rMELw5J1wLqvqvLto,5146
+pdfmailmerge/produce_pdfs.py,sha256=3y4ZmHjcavFUM65cwBvhSbKCK3CtxdpfBSEoJM1iUW0,2239
+pdfmailmerge-0.1.1.dist-info/LICENSE,sha256=cjRUbMhmRHBtJTduv5FYHWFYBAD6RknmRdXJP7fO1UY,1088
+pdfmailmerge-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pdfmailmerge-0.1.1.dist-info/METADATA,sha256=ysT15HgAJLBTti1DLIih0LWYX--4YM9agrz_4H-I-p4,2090
+pdfmailmerge-0.1.1.dist-info/RECORD,,
