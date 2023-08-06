@@ -1,0 +1,9 @@
+README.md
+setup.py
+ZaloTTS.egg-info/PKG-INFO
+ZaloTTS.egg-info/SOURCES.txt
+ZaloTTS.egg-info/dependency_links.txt
+ZaloTTS.egg-info/requires.txt
+ZaloTTS.egg-info/top_level.txt
+zalo_tts/__init__.py
+zalo_tts/zalo_tts.py
