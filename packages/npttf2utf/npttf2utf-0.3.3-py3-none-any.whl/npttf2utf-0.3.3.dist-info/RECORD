@@ -1,0 +1,15 @@
+npttf2utf/__init__.py,sha256=nbOifsomMZPnI2uut9Z-yVE51k539Aqw_kA5vEzBj1s,4930
+npttf2utf/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+npttf2utf/map.json,sha256=QiItHNySZMKgvFtXhnhy1TLTQ4Y8JfbzlpH3z7up-kE,34197
+npttf2utf/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npttf2utf/base/docxhandler.py,sha256=i8ShQAzsVQz__6isKbZL2isPwWlz_97-My8lc_22gRA,13355
+npttf2utf/base/fontmapper.py,sha256=6u4H1DhvHvm8sr-QdlxMxzk22O-MzqW2VnBJS8lSujY,2192
+npttf2utf/base/preetimapper.py,sha256=Mzo66MXh-1zOzgxkwbABYIJNeecX-AVrvrzXhs-MVNc,9055
+npttf2utf/base/txthandler.py,sha256=24X5MNwzZfADcGJ7SB-9_AamgcFwBf3uTn-tTJu17EU,1188
+npttf2utf/base/exceptions/__init__.py,sha256=kRI2pQeUKRHzszV2uWZ_dSBbVdXS31P62wMl4KsX3JE,250
+npttf2utf-0.3.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+npttf2utf-0.3.3.dist-info/METADATA,sha256=AURngUw5yUXjMYYcM2C0DuW_mUcKzp3XLMfhK2MI4Vo,12905
+npttf2utf-0.3.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+npttf2utf-0.3.3.dist-info/entry_points.txt,sha256=WBrPKuCTzXUtw8XG1WoHyk6kyaJctxyARE8OpDDlUyM,46
+npttf2utf-0.3.3.dist-info/top_level.txt,sha256=DKVU55bUgYb05ux4Bs7xwevpEKgCcaJmqrBJbxBblEY,10
+npttf2utf-0.3.3.dist-info/RECORD,,
