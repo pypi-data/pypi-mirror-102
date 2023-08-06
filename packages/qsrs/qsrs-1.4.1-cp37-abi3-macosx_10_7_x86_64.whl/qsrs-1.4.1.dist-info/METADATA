@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qsrs
+Version: 1.4.1
+Classifiers: Programming Language :: Python
+Classifiers: Programming Language :: Rust
+Classifiers: Programming Language :: Python :: 3.7
+Classifiers: Programming Language :: Python :: 3.8
+Classifiers: Programming Language :: Python :: 3.9
+Classifiers: Development Status :: 5 - Production/Stable
+Classifiers: Intended Audience :: Science/Research
+Classifiers: Topic :: Software Development :: Compilers
+Author: Ethan Smith <ethanhs@berkeley.edu>
+Author-Email: Ethan Smith <ethanhs@berkeley.edu>
+License: LGPL-2.1 AND BSD-3-Clause
