@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+willump/__init__.py
+willump/proc_utils.py
+willump/subscription.py
+willump/willump.py
+willump.egg-info/PKG-INFO
+willump.egg-info/SOURCES.txt
+willump.egg-info/dependency_links.txt
+willump.egg-info/top_level.txt
+willump/willump.egg-info/PKG-INFO
+willump/willump.egg-info/SOURCES.txt
+willump/willump.egg-info/dependency_links.txt
+willump/willump.egg-info/requires.txt
+willump/willump.egg-info/top_level.txt
