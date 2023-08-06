@@ -1,0 +1,11 @@
+biotransformers/__init__.py,sha256=nWqDbnZvmKghxQxns2HyfpLW1R8IWPcZ5MXHyPF7jnA,45
+biotransformers/bio_transformers.py,sha256=OO8i_6bnou4j2xG-E1lO7x4qAZNG_FmSqmGab9OeyFg,1152
+biotransformers/esm_wrappers.py,sha256=JNOyB_3xvVK8a8GE78AWRZB0zWAzGLtU3MP6edF-pRY,10693
+biotransformers/rostlab_wrapper.py,sha256=DTlktCgI_vSXKF0AdJU9lXEkqFT8NvDPBzWVEJICvCQ,12101
+biotransformers/transformers_wrappers.py,sha256=3XiiqcPCAyMnFEFm86A0oWjksXG0WboqhU--J4olqZU,17286
+biotransformers/version.py,sha256=t_QiCcOQDjV4pl-PMvif1IH68nAKKe0wdeizhaDsDds,17
+bio_transformers-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bio_transformers-0.0.1.dist-info/METADATA,sha256=lEASKr4BFvdi2_1lFBt9asBBF_zheFbNoHJu2NWtqZs,2853
+bio_transformers-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bio_transformers-0.0.1.dist-info/top_level.txt,sha256=MnIJShciiNDmPd2bUmMqjIfu3Nhqfaj1n8rSpQosQiE,16
+bio_transformers-0.0.1.dist-info/RECORD,,
