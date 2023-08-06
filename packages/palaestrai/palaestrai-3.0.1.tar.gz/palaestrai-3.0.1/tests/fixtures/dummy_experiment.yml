@@ -1,0 +1,44 @@
+# Very simple dummy experiment. Does nothing except for exercising all relevant components of the software.
+# This file is most prominently used in the unit test tests.unit.palaestrai.doe.test_el.py
+# Do not change it! But can copy it and modify it to your needs, of course. :^)
+# Below the configuration are some additional information
+
+id: "Yo-ho, a dummy experiment for me!"
+seed: 123
+envs:
+  - env_type: palaestrai.environment.dummy_environment:DummyEnvironment
+    env_params: { "params": { } }
+
+agents:
+  - name: mighty_defender
+    brain: palaestrai.agent.dummy_brain:DummyBrain
+    brain_params: {"muscle_connection": "tcp://127.0.0.1:45310"}
+    muscle: palaestrai.agent.dummy_muscle:DummyMuscle
+    muscle_params: { "broker_connection": "tcp://127.0.0.1:4242", "brain_connection": "tcp://127.0.0.1:45310" }
+    objective: palaestrai.agent.dummy_objective:DummyObjective
+    objective_params: {"reward": 0, "params": 1}
+    sensors: [0, 1, 2, 3, 4]
+    actuators: [0, 1, 2, 3, 4]
+  - name: mighty_Attacker
+    brain: palaestrai.agent.dummy_brain:DummyBrain
+    brain_params: { "muscle_connection": "tcp://127.0.0.1:45318" }
+    muscle: palaestrai.agent.dummy_muscle:DummyMuscle
+    muscle_params: { "broker_connection": "tcp://127.0.0.1:4242", "brain_connection": "tcp://127.0.0.1:45318" }
+    objective: palaestrai.agent.dummy_objective:DummyObjective
+    objective_params: { "reward": 0, "params": 1 }
+    sensors: [5, 6, 7, 8, 9]
+    actuators: [5, 6, 7, 8, 9]
+experiment:
+  sim_type: palaestrai.experiment.vanilla_sim_controller:VanillaSimController
+  episodes: 10
+  worker: 1
+  termination_conditions:
+    run_governor:
+      condition: palaestrai.experiment:VanillaRunGovernorTerminationCondition
+      params: {}
+    simulation_controller:
+      - condition: palaestrai.experiment:VanillaSimControllerTerminationCondition
+        params: {}
+  is_local: True
+  exec_broker_port: 4242
+  verbose: 4

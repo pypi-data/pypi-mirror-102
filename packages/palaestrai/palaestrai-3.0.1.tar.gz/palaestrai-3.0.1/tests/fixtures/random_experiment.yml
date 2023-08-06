@@ -1,0 +1,56 @@
+# Very simple dummy experiment. Does nothing except for exercising all relevant components of the software.
+# This file is most prominently used in the unit test tests.unit.palaestrai.doe.test_el.py
+# Do not change it! But can copy it and modify it to your needs, of course. :^)
+# Below the configuration are some additional information
+
+envs:
+  - env_type: palaestrai.environment.random_environment:DiscreteRandomEnvironment
+    env_params: 
+      params: {} 
+      num_sensors: 10
+      max_value: 10
+      max_iter: 1000
+      resolution: 100
+
+agents:
+  - name: mighty_defender
+    brain: palaestrai.agent.dummy_brain:DummyBrain
+    brain_params: {"muscle_connection": "tcp://127.0.0.1:45310"}
+    muscle: palaestrai.agent.dummy_muscle:DummyMuscle
+    muscle_params: {"broker_connection": "tcp://127.0.0.1:45306", "brain_connection": "tcp://127.0.0.1:45310"}
+    objective: palaestrai.agent.dummy_objective:DummyObjective
+    objective_params: {"reward": 0, "params": 1}
+    sensors: [Sensor-0, Sensor-1, Sensor-2, Sensor-3, Sensor-4]
+    actuators: [Actuator-0, Actuator-1, Actuator-2, Actuator-3, Actuator-4]
+  - name: mighty_Attacker
+    brain: palaestrai.agent.dummy_brain:DummyBrain
+    brain_params: { "muscle_connection": "tcp://127.0.0.1:45318" }
+    muscle: palaestrai.agent.dummy_muscle:DummyMuscle
+    muscle_params: { "broker_connection": "tcp://127.0.0.1:45306", "brain_connection": "tcp://127.0.0.1:45318" }
+    objective: palaestrai.agent.dummy_objective:DummyObjective
+    objective_params: { "reward": 0, "params": 1 }
+    sensors: [Sensor-5, Sensor-6, Sensor-7, Sensor-8, Sensor-9]
+    actuators: [Actuator-5, Actuator-6, Actuator-7, Actuator-8, Actuator-9]
+experiment:
+  sim_type: palaestrai.experiment.vanilla_sim_controller:VanillaSimController
+  sim_param: { "rungov_connection": "tcp://127.0.0.1:45305", "sim_connection": "tcp://127.0.0.1:45306" }
+  sim_connection: "tcp://127.0.0.1:45306"
+  store_uri: testoutput
+  worker: 1
+  termination_conditions:
+    run_governor:
+      condition: palaestrai.experiment:VanillaRunGovernorTerminationCondition
+      params: {}
+    simulation_controller:
+      - condition: palaestrai.experiment:VanillaSimControllerTerminationCondition
+        params: {}
+  is_local: True
+  exec_broker_port: 45305
+  verbose: 4
+
+######################################################################
+# Some additional information:                                       #
+# A list of all sensor and actuator uids of midasmv_der              #
+# Just place them in the correct list of the agents and they will    #
+# work.                                                              #
+######################################################################
