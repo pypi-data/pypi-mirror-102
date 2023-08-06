@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+inflex.egg-info/PKG-INFO
+inflex.egg-info/SOURCES.txt
+inflex.egg-info/dependency_links.txt
+inflex.egg-info/top_level.txt
