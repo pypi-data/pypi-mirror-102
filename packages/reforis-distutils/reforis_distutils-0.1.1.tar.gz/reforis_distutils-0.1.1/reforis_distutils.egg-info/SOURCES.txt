@@ -1,0 +1,8 @@
+README.md
+setup.py
+reforis_distutils/__init__.py
+reforis_distutils.egg-info/PKG-INFO
+reforis_distutils.egg-info/SOURCES.txt
+reforis_distutils.egg-info/dependency_links.txt
+reforis_distutils.egg-info/requires.txt
+reforis_distutils.egg-info/top_level.txt
