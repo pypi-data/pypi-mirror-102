@@ -1,0 +1,6 @@
+[console_scripts]
+DataShow_consle = DataReplay.DataReplay_gui:main
+
+[gui_scripts]
+DataShow_gui = DataReplay.DataReplay_gui:main
+
