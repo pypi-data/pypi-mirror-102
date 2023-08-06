@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "amplitude-python-sdk"
+version = "0.1.1"
+description = "Client for the Amplitude HTTP V1 and V2 API (https://developers.amplitude.com/docs)."
+authors = ["Krishnan Chandra <krishnan.chandra@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/researchrabbit/amplitude-python-sdk"
+repository = "https://github.com/researchrabbit/amplitude-python-sdk"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pydantic = "^1.8.1"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+pre-commit = "^2.12.1"
+pylint = "^2.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
