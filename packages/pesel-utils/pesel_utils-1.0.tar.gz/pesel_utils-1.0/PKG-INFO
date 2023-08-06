@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: pesel_utils
+Version: 1.0
+Summary: Utilities for checking PESEL numbers
+Home-page: https://github.com/queereen/pesel_utils
+Author: Avis Drożniak
+Author-email: queereen@riseup.net
+License: Hippocratic License 2.1
+Description: pesel-utils
+        ===========
+        
+        Just a bunch of utilities for PESEL numbers.
+        
+        Usage
+        -----
+        
+        ::
+        
+            import pesel_utils
+        
+            pesel_utils.is_valid("51030830369") //=> True
+            pesel_utils.check_birthdate("51030830369") //=> 1953/3/8
+            pesel_utils.check_gender("51030830369") //=> 'female'
+        
+        
+Platform: UNKNOWN
