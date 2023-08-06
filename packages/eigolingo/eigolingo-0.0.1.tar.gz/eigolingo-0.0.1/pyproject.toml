@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eigolingo"
+version = "0.0.1"
+description = "Determine the number of unique words in a given text/string"
+authors = ["exc4l <cps0537@gmail.com>"]
+include = ["dict70.txt", "dict80.txt", "dict95.txt"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hworld = "eigolingo:hello_world"
+eigo = "eigolingo:main"
