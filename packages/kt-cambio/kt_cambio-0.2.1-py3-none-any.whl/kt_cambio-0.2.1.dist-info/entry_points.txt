@@ -1,0 +1,4 @@
+[console_scripts]
+brlusd=kt_cambio.cli:brlusd
+usdbrl=kt_cambio.cli:usdbrl
+
