@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/paips.egg-info/PKG-INFO
+src/paips.egg-info/SOURCES.txt
+src/paips.egg-info/dependency_links.txt
+src/paips.egg-info/entry_points.txt
+src/paips.egg-info/top_level.txt
