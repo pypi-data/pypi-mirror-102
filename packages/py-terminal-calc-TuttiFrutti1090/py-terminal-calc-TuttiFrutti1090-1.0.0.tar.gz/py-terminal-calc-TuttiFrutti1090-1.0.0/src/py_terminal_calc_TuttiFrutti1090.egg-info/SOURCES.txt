@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/py-terminal-calc/__init__.py
+src/py_terminal_calc_TuttiFrutti1090.egg-info/PKG-INFO
+src/py_terminal_calc_TuttiFrutti1090.egg-info/SOURCES.txt
+src/py_terminal_calc_TuttiFrutti1090.egg-info/dependency_links.txt
+src/py_terminal_calc_TuttiFrutti1090.egg-info/top_level.txt
