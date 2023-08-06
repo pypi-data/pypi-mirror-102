@@ -1,0 +1,7 @@
+unbelipy/__init__.py,sha256=yJjl5s478ci1QUft7Z277RrPoAdBQML6_SB8WWzCE50,41
+unbelipy/api.py,sha256=zOFNkgls_BPpuC-Y82gqe2WkQLEovmnwUylUT01bLrg,17094
+unbelipy/errors.py,sha256=9xPxC3gtnmm9xHP84WwqSfKcd4AL2QfXaaOcJ0h4R_s,609
+unbelipy/rate_limits.py,sha256=cF0Eghhf0OE2Ux1cp5vqVsb_8cygu0fymaQEyD0eSL4,3510
+unbelipy-0.0.8a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+unbelipy-0.0.8a0.dist-info/METADATA,sha256=il8UnLoTyjGB8PAxqN4R7n2znrAXIR1eT4e3Hmi7wL8,3336
+unbelipy-0.0.8a0.dist-info/RECORD,,
