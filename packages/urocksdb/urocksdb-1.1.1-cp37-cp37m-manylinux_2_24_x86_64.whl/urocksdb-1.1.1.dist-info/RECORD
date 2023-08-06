@@ -1,0 +1,13 @@
+urocksdb.libs/libsnappy-1125e350.so.1.3.0,sha256=7qe2HBNd66fkw-vvoBEKcZQ155h01SxZJ0eb1lV3E5Y,36824
+urocksdb.libs/libgflags-b4c204a9.so.2.2.2,sha256=hRTv8fg3bNznDzOz7xKe-eaFDrpjzRcECyINwx10zv8,194720
+urocksdb.libs/libzstd-1518ed15.so.1.1.2,sha256=D6nsy5jsVGzgaouanCfcIth4AF_rUFnDqP9seyqpWD4,548208
+urocksdb-1.1.1.dist-info/RECORD,,
+urocksdb-1.1.1.dist-info/WHEEL,sha256=TKoK3EG1NKvyd3_YA_rYeDC8HnGMJuv4wICdN8vTjlM,113
+urocksdb-1.1.1.dist-info/METADATA,sha256=FWVDXg-XCjAhJ60-J_AjSYd-2e1qWG35FOzr99Hrejk,237
+urocksdb-1.1.1.dist-info/top_level.txt,sha256=o6m6GI8jL_TdgbhFZC8Sq7maayDICV9YOSBO6buSdUA,27
+urocksdb-1.1.1.dist-info/LICENSE,sha256=symffv8d_RYIdmIWtFNYcD9aElK_3n5-V-kaDMBs9No,1073
+urocksdb/librocksdb.so.6.19.0,sha256=okf4zlpJXPfLP44W-hCAUGlM4Zyp_zWePq-wprxY2HE,14426424
+urocksdb/urocksdb.cpython-37m-x86_64-linux-gnu.so,sha256=Gk3Ii3pwsw3iYrRedzOP2MaPCBzerZ2GpZRGtg9ydpY,9051240
+urocksdb/librocksdb.so.6,sha256=okf4zlpJXPfLP44W-hCAUGlM4Zyp_zWePq-wprxY2HE,14426424
+urocksdb/librocksdb.so,sha256=okf4zlpJXPfLP44W-hCAUGlM4Zyp_zWePq-wprxY2HE,14426424
+urocksdb/__init__.py,sha256=_Ow40OzeLHd14QNoyNrRN_O6mMDlb3sPXoivSOQHJfA,24
