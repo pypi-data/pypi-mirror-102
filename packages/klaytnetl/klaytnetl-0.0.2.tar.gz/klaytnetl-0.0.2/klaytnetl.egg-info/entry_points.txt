@@ -1,0 +1,4 @@
+[console_scripts]
+ethereumetl = ethereumetl.cli:cli
+klaytnetl = klaytnetl.cli:cli
+
