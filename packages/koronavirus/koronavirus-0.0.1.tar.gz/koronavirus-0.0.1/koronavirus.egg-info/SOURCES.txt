@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+koronavirus/__init__.py
+koronavirus/koronavirus.py
+koronavirus.egg-info/PKG-INFO
+koronavirus.egg-info/SOURCES.txt
+koronavirus.egg-info/dependency_links.txt
+koronavirus.egg-info/requires.txt
+koronavirus.egg-info/top_level.txt
