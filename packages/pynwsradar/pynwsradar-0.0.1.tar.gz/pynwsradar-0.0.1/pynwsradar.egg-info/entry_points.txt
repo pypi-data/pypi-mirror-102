@@ -1,0 +1,3 @@
+[console_scripts]
+pynwsradar = pynwsradar.console_script:main
+
