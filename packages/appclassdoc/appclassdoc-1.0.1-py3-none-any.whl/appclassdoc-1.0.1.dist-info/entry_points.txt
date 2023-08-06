@@ -1,0 +1,3 @@
+[console_scripts]
+appclassdoc = appclassdoc.appclassdoc:appclassdoc_cli
+
