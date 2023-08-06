@@ -1,0 +1,11 @@
+falcon~=2.0
+opentelemetry-instrumentation-wsgi==0.20b0
+opentelemetry-util-http==0.20b0
+opentelemetry-instrumentation==0.20b0
+opentelemetry-api==1.1.0
+opentelemetry-semantic-conventions==0.20b0
+
+[test]
+falcon~=2.0
+opentelemetry-test==0.20b0
+parameterized==0.7.4
