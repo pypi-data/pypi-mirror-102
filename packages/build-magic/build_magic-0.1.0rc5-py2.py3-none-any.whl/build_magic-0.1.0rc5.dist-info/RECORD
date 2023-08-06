@@ -1,0 +1,17 @@
+build_magic/__init__.py,sha256=-2eLl0j0LTsTzEPbtX1AaiURNwZ8PdUNuQkH7evDdns,365
+build_magic/__main__.py,sha256=3hNIKLaSOFM4tvlB6gVrCHu9P9GcSILFSFPwDT1hb_s,169
+build_magic/actions.py,sha256=LJXJ2HJkQ5bfYdkF6HTUil63_F0X2JuKRqybOPGCm7w,21986
+build_magic/cli.py,sha256=MsdHtLpR2otpj7XGEyHFuDWQDhFpzu18xaRIZhMtzy0,7224
+build_magic/core.py,sha256=gvo8eZsOE4rj3yaCiLhesIGcFQ3hekiIFmaiOOTjB6U,16228
+build_magic/exc.py,sha256=0ZZuiDGgc8hyJguHRxdFFFuU-NDaf7R4zlX4GPlM784,1223
+build_magic/macro.py,sha256=7xP9BQAXt2FoasqThqUXPVy_QmYE1Atp3ypf-w2Sb0g,3347
+build_magic/output.py,sha256=0FufZfgWMtBM7oXFou8UC75eFUEtBzlt2Qs16Or9axQ,12674
+build_magic/reference.py,sha256=uNtg8_YGWkeaFcnAlSciLnxSU2Q95pLkqGRV0E9W_B0,8524
+build_magic/runner.py,sha256=X-eDtZf1LA3wjPbqr6H67grLVLRpnDPTMI1bIdLW3bw,18301
+build_magic/static/config_schema.json,sha256=xUWWrm6q8dBeKPtx3hDyqjrlHUoisBzckKIbKxKUbow,25467
+build_magic-0.1.0rc5.dist-info/LICENSE,sha256=aKQoUssTegyIhKBGZt5lrDHI1Vl-abhuk34wUhIVfZA,1069
+build_magic-0.1.0rc5.dist-info/METADATA,sha256=yHX7qbnJvGkIzwt800yFqaUjbl12lhwRQ15kIS8apj8,4339
+build_magic-0.1.0rc5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+build_magic-0.1.0rc5.dist-info/entry_points.txt,sha256=gxu5wA-cFz8Ma8gYKV34MobPs3oqid0Vz7PP1N3Jb_M,61
+build_magic-0.1.0rc5.dist-info/top_level.txt,sha256=Lk5R4XIsOaYwRJtNF3v9gnVmsUuI85h5R4brbAdlevY,12
+build_magic-0.1.0rc5.dist-info/RECORD,,
