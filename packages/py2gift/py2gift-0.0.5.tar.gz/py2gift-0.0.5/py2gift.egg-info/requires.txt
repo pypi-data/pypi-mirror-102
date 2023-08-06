@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+ruamel.yaml
+ipython
+gift-wrapper>=1.7
+nbconvert>6
