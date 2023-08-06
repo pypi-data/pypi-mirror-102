@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: celldetection
+Version: 0.1.0
+Summary: Cell Detection with PyTorch
+Home-page: https://celldetection.org
+Author: Eric Upschulte
+Author-email: e.upschulte@fz-juelich.de
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: cell,detection,object,segmentation,pytorch,cpn,contour,proposal,network,deep,learning,unet,fzj,julich,juelich,ai
+Platform: UNKNOWN
