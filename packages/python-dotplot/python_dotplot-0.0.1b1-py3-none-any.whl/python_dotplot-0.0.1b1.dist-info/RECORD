@@ -1,0 +1,10 @@
+dotplot/__init__.py,sha256=cADXWbqjvzytxME9SCls4JnhpZz_Qlzf6sXRrCxfX1U,176
+dotplot/cmap.py,sha256=6r7oBPI-ni0aaOfzkuPkIRB0YMiOuvGU1wWTEc7_13I,170
+dotplot/core.py,sha256=CTDG2m5eT2SaigJkT8CaaZc2In7dDrWZpgGQgi_E-5U,13681
+dotplot/hierarchical.py,sha256=3fpPG-R7X07eEyThyGskYOa4RVNxQrIwMupDEfPmvqs,2222
+dotplot/utils.py,sha256=yQWfEYsAjF-taV-_xBvS9TPTCmtnks_wjBCxDb8KWK4,1112
+python_dotplot-0.0.1b1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+python_dotplot-0.0.1b1.dist-info/METADATA,sha256=95AX7KA1_qpMunN8R7d-EY4FQTzkNcfNkhdbD63pwTU,1574
+python_dotplot-0.0.1b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_dotplot-0.0.1b1.dist-info/top_level.txt,sha256=IE3xeD8TN4onfQPAg21v0F02C8kkNxvDAK49u_w-1lY,8
+python_dotplot-0.0.1b1.dist-info/RECORD,,
