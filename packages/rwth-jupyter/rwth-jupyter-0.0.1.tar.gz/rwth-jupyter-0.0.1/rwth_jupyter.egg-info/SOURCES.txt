@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+rwth_jupyter.egg-info/PKG-INFO
+rwth_jupyter.egg-info/SOURCES.txt
+rwth_jupyter.egg-info/dependency_links.txt
+rwth_jupyter.egg-info/entry_points.txt
+rwth_jupyter.egg-info/requires.txt
+rwth_jupyter.egg-info/top_level.txt
