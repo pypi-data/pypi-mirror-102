@@ -1,0 +1,11 @@
+setup.py
+quanmodule/__init__.py
+quanmodule/add.py
+quanmodule/subtract.py
+quanmodule.egg-info/PKG-INFO
+quanmodule.egg-info/SOURCES.txt
+quanmodule.egg-info/dependency_links.txt
+quanmodule.egg-info/top_level.txt
+quanmodule/extras/__init__.py
+quanmodule/extras/divide.py
+quanmodule/extras/multiply.py
