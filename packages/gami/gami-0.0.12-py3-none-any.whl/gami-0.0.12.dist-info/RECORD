@@ -1,0 +1,9 @@
+gami/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gami/_version.py,sha256=8BOuCXHmP_bcN2y5jkPiJ3ZUA6vq3CCSkUYRRd-wrGc,498
+gami/conftest.py,sha256=YYcjfs0jqBH9xF0oENa4w9rGGBRrl76UHXA0IfTIRdk,444
+gami/mod.py,sha256=BrqRoWV5oMJbi7IpxfiDClyi0J5hkgNQg9N5FwWpYFY,39
+gami-0.0.12.dist-info/LICENSE,sha256=gmnohvWg93RFWt1sjEo3cdKLb0BP3AV_ZJmesdhrad0,1066
+gami-0.0.12.dist-info/METADATA,sha256=qYf9I3qVcHVoNI9IeV9I2vaRnIcAmpqEeFjtCg-CgAY,2190
+gami-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gami-0.0.12.dist-info/top_level.txt,sha256=DIG9qxsz4_VC3-JvKGyWnvhpPtd_XpaXaCg2MYBJ5iM,5
+gami-0.0.12.dist-info/RECORD,,
