@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: azure-synapse
+Version: 0.1.1
+Summary: Microsoft Azure Synapse Client Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Description: # Microsoft Azure Synapse SDK for Python
+        
+        This package was the Microsoft Azure Synapse bundle.
+        
+        It is deprecated. Please install the service specific packages prefixed by azure-synapse needed for your application.
+        
+        The complete list of available packages can be found at: https://aka.ms/azsdk/python/all
+        
+        Here's a non-exhaustive list of common packages:
+        
+        * [azure-synapse-accesscontrol](https://pypi.org/project/azure-synapse-accesscontrol/)
+        * [azure-synapse-artifacts](https://pypi.org/project/azure-synapse-artifacts/)
+        * [azure-synapse-spark](https://pypi.org/project/azure-synapse-spark/)
+        * [azure-synapse-managedprivateendpoints](https://pypi.org/project/azure-synapse-managedprivateendpoints/)
+        * [azure-synapse-monitoring](https://pypi.org/project/azure-synapse-monitoring/)
+        
+        # Release History
+        
+        ## 0.1.1 (2020-04-13)
+        
+        * Deprecate azure-synapse
+        
+        ## 0.1.0 (2020-02-20)
+        
+        * Initial Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
