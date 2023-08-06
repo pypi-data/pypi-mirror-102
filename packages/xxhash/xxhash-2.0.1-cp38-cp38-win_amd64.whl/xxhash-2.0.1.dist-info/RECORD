@@ -1,0 +1,7 @@
+xxhash/__init__.py,sha256=RsTjm_676Q7kcQEyO94Bl_8VruaiPSEkYg35bRwwx2w,968
+xxhash/_xxhash.cp38-win_amd64.pyd,sha256=WVExzvvuG3S4lLFVuFLEMyqDpNXG93VIqLCbb8D0FW4,79360
+xxhash-2.0.1.dist-info/LICENSE,sha256=-OnvAMeL5NLaUmssN-QJnJIMf-C52UO_Da6y78MKOls,1313
+xxhash-2.0.1.dist-info/METADATA,sha256=vBkJwMxWbQraw5o0klBXZIozzmgHJcFIvAFEjWCvyRY,11776
+xxhash-2.0.1.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+xxhash-2.0.1.dist-info/top_level.txt,sha256=1PPSBP-gnjG59E5bigzMTzmT6BVWjHwnpzMiisPWZ5I,15
+xxhash-2.0.1.dist-info/RECORD,,
