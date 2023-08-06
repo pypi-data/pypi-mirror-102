@@ -1,0 +1,12 @@
+minimize/__init__.py,sha256=8Ppb5sgT6qHemIuxm178diqhg_w1F93plAEatm4smyE,148
+minimize/cli.py,sha256=BqXSYT9qiShDTPdDjO9lZ37mP_j7sChEBQyotAjEHA0,624
+minimize/consts.py,sha256=C3DLCcBhUNSDvpBoXkUNXk8zT6MBLvZgSAfdl-GK8Ps,21
+minimize/util.py,sha256=Yq9jPn20wYpItatI3jU1MqRDYvk_-DdlPjru_iE39bA,781
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_source.py,sha256=XaZDXbprAC0eM4yHjDdjJt5hdrEnNYsf7yrvwOAFxd8,12
+python_minimize-0.0.3.dist-info/LICENSE,sha256=xOuS21XAd7-aeRhjt0Mgmd5s94TYkuwdz_05OkyBjdA,10832
+python_minimize-0.0.3.dist-info/METADATA,sha256=w2JfpiQToSSpzlQEz6FrPayplUO4BTltA9sKkGv8TR8,1952
+python_minimize-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_minimize-0.0.3.dist-info/entry_points.txt,sha256=gZFvqciNbIfCrzSinlWzX13jeX0Ls2upVTaoeDogF9w,48
+python_minimize-0.0.3.dist-info/top_level.txt,sha256=LbT-1fjHcIh66TwwH9fRUk4Q2wMXnNKgZrIBhVm3s8k,14
+python_minimize-0.0.3.dist-info/RECORD,,
