@@ -1,0 +1,15 @@
+extending_distributions.cp37-win_amd64.pyd,sha256=JJ7I0UBseEGJfwF_NPtySDHyMMajXMY5X6iehpJtKdY,216576
+simulator.cp37-win_amd64.pyd,sha256=7KVIbcTxMhrZpSfHa30hOIwHKNVsYHW9i7ns0e5jswA,291840
+simulators.cp37-win_amd64.pyd,sha256=QS8ZHtM8i0Ly9Ef3oiYFvyoiNGwal0gPZrYxwrJX0z0,377856
+ppsim/__init__.py,sha256=lgpXnrgJo8QSnIlkW2BcCj0CaoMsGHiGYnN4bkpOZQk,27
+ppsim/ppsim.py,sha256=TkYPx_QK-qsYI5EgB3JRFvfQE9RHwkC8t6HLSa_zEMw,32159
+ppsim-0.0.2.dist-info/.ipynb_checkpoints/PKG-INFO-checkpoint,sha256=0kkvAFR6p9Sg8XebTNPBOMFI5HYaTk0xTIotg-Qy3Zo,10836
+ppsim-0.0.2.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=cbnp8C5sFiBfbmoev3bjfOniEOGJG-xJ99BU5rgAG50,325
+ppsim-0.0.2.dist-info/.ipynb_checkpoints/dependency_links-checkpoint.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ppsim-0.0.2.dist-info/.ipynb_checkpoints/requires-checkpoint.txt,sha256=a0jbs_fYjnAXfCf1WtEI-shWWjEQF_UHHNdh2xHwlP0,143
+ppsim-0.0.2.dist-info/.ipynb_checkpoints/top_level-checkpoint.txt,sha256=TLHT686E4AqtW4Ck6ZjNrgJOjKHIsmwmu8ISNZl97ow,10
+ppsim-0.0.2.dist-info/LICENSE,sha256=Dt7xqBKOesrUVPO4k_MEQ-gC2ANIhKMQzIhxJ00X5e8,1090
+ppsim-0.0.2.dist-info/METADATA,sha256=B2ezAFIEf7gKlF6Pyqa_Q6nYqq9763_cOzIrzcMyXTo,8209
+ppsim-0.0.2.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+ppsim-0.0.2.dist-info/top_level.txt,sha256=TJkVA1JvsdqmJcmyrPZrJXQ0laZRptz0ywqLudLHH5c,16
+ppsim-0.0.2.dist-info/RECORD,,
