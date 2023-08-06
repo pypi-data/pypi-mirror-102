@@ -1,0 +1,11 @@
+numpy
+matplotlib
+pandas
+openpyxl
+folium
+vincent
+simplekml
+scipy
+sklearn
+KDEpy
+peakutils
