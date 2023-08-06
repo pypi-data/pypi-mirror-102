@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+spreadsnake/__init__.py
+spreadsnake/google.py
+spreadsnake/xlsx.py
+spreadsnake.egg-info/PKG-INFO
+spreadsnake.egg-info/SOURCES.txt
+spreadsnake.egg-info/dependency_links.txt
+spreadsnake.egg-info/top_level.txt
