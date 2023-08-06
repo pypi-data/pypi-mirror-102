@@ -1,0 +1,16 @@
+gift_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gift_wrapper/colors.py,sha256=pl-Ve0a_48qLFh2Jtv_UpzOwQxegKYhO-qWfiV1-MPk,254
+gift_wrapper/core.py,sha256=tkOl_f5SHi6i9E3W_kSxgBDQC4ngrSzbWYr4A7_fryw,5718
+gift_wrapper/gift.py,sha256=wHCmt7UL1uXLomWeBXIKf4D8tgPqT6u6owLSSjPM5ek,3871
+gift_wrapper/image.py,sha256=VDf-ABKCZ7MM_SIzmV8ItZFK8PlFA-fyTVIQFbcPdxQ,2686
+gift_wrapper/latex.py,sha256=aCTM4gc3qinbpP16AKvi-yYObctpLqr25bJspRrzwfk,2743
+gift_wrapper/parsing.py,sha256=VHHSUFxAgmiLyMnX3Y5b1JMJmzLFcDJy8vCOJin9Fpo,660
+gift_wrapper/question.py,sha256=Xxl_ehWsCB_RDgwqee94IkQMEdYfrYH_D506eS8PzC8,6796
+gift_wrapper/remote.py,sha256=njA6o4MrV8xKHXNCU6YN3ZA3ecMyd5GX2JEOL3JtK6g,4403
+gift_wrapper/transformer.py,sha256=TZYUketNdyFm-TscMWCpoPQ36Gz5RN8u1oKL0LMp4JI,6186
+gift_wrapper-1.7.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gift_wrapper-1.7.0.1.dist-info/METADATA,sha256=U-5w8iXEtC5P7bDgOySOLxlJCMcgN3CnsRXs346xsnY,8920
+gift_wrapper-1.7.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gift_wrapper-1.7.0.1.dist-info/entry_points.txt,sha256=SIL6kUnFwLEnZIdBZpifJh264dMtq9_HtlhAmHlBRJc,52
+gift_wrapper-1.7.0.1.dist-info/top_level.txt,sha256=0V_BO7gCtRm7j1dt-boJ-T2NZKK0FLHM5zLt6iRsnyA,13
+gift_wrapper-1.7.0.1.dist-info/RECORD,,
