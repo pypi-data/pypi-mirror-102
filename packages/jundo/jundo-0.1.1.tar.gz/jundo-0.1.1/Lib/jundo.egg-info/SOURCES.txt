@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pytest.ini
+setup.py
+.github/workflows/ci.yml
+Examples/glyphUndo.py
+Lib/jundo/__init__.py
+Lib/jundo/_version.py
+Lib/jundo/undoManager.py
+Lib/jundo.egg-info/PKG-INFO
+Lib/jundo.egg-info/SOURCES.txt
+Lib/jundo.egg-info/dependency_links.txt
+Lib/jundo.egg-info/requires.txt
+Lib/jundo.egg-info/top_level.txt
+Test/examples_test.py
+Test/undoManager_test.py
