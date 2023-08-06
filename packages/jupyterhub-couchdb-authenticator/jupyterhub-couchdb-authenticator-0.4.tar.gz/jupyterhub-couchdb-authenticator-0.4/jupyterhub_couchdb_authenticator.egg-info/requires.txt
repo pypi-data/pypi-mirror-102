@@ -1,0 +1,7 @@
+requests
+jupyterhub
+tornado
+traitlets
+
+[example]
+python-dotenv
