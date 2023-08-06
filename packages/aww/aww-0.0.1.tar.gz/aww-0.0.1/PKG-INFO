@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aww
+Version: 0.0.1
+Summary: AWS helper functions
+Home-page: https://github.com/binarymason/aww
+Author: John Mason
+Author-email: binarymason@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/binarymason/aww/issues
+Description: # AWW: AWS Wrappers
+        
+        Collection of helpful wrappers and utilities for working with AWS services.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
