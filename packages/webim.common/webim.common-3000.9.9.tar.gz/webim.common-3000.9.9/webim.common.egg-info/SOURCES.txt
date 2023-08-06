@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+webim.common.egg-info/PKG-INFO
+webim.common.egg-info/SOURCES.txt
+webim.common.egg-info/dependency_links.txt
+webim.common.egg-info/top_level.txt
