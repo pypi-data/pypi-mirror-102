@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ttyfb
+Version: 0.1
+Summary: Use your True Color Terminal as low-res framebuffer
+Home-page: https://github.com/thp/ttyfb
+Author: Thomas Perl
+Author-email: m@thp.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
