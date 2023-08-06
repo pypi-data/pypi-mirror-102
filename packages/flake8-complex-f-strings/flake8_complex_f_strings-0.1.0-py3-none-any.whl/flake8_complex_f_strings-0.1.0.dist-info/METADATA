@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flake8-complex-f-strings
+Version: 0.1.0
+Summary: Flake8 plugin for too complex f-strings.
+Home-page: https://github.com/anatoly-kor/flake8_complex_f_strings
+Author: Anatoly Korobov
+Author-email: a.korobov06@gmail.com,
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flake8 (>=3.7)
+Requires-Dist: importlib-metadata (>=0.9) ; python_version < "3.8"
+
+UNKNOWN
+
+
