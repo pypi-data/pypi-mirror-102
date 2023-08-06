@@ -1,0 +1,9 @@
+README.md
+rbox_iou_op.cc
+rbox_iou_op.cu
+setup.py
+rbox_iou_ops.egg-info/PKG-INFO
+rbox_iou_ops.egg-info/SOURCES.txt
+rbox_iou_ops.egg-info/dependency_links.txt
+rbox_iou_ops.egg-info/not-zip-safe
+rbox_iou_ops.egg-info/top_level.txt
