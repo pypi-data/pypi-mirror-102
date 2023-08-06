@@ -1,0 +1,12 @@
+jsnlog/__init__.py,sha256=pHzcT9T_Mv4H2nRspbJNp1PMl_rAHmXj_xiSgZXMjPE,101
+jsnlog/apps.py,sha256=sMD9CTJ_aA3pWtTcSRctQ_8JtbqN3XA_08RtmlH_e84,297
+jsnlog/urls.py,sha256=aCxvvv3StLqwgFQhQqMQwGS02bt6PeobcPHiAb7PuwU,141
+jsnlog/views.py,sha256=C1EZUs5-BAQbVHFCGzMTOvuEYj6Ex9fI1JElqfsFfAE,591
+jsnlog/static/jsnlog/js/django-jsnlog.js,sha256=J8CLG4gqMjkBW7MRwT7_LY0MuiHzMY7v6kwDvh2fexI,1023
+jsnlog/static/jsnlog/js/jsnlog.min.js,sha256=pIEXCbQVeo05dXkJsMcbcjM274VOeVo9BfpRbpurCkA,11519
+django_jsnlog-0.1.0.dist-info/AUTHORS.rst,sha256=jksyK3yM-70FlwH2d--rehLhTRucBDO6XbB5eLPJGiY,157
+django_jsnlog-0.1.0.dist-info/LICENSE,sha256=cK8nTzNLdVUdcgFFq44kfZTqjJBo6pGNTyFYNZAnCYo,1098
+django_jsnlog-0.1.0.dist-info/METADATA,sha256=cpj2uDW1szCT-ZRAKAxjnuvchoeYcgtZlABbkyMCZNU,2322
+django_jsnlog-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_jsnlog-0.1.0.dist-info/top_level.txt,sha256=rncRO0umzLtx6Ti9xXEtsm04mA4I-tSCEOjn7XzJrwM,7
+django_jsnlog-0.1.0.dist-info/RECORD,,
