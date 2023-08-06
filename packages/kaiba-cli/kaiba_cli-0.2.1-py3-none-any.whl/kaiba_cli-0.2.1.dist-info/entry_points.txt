@@ -1,0 +1,3 @@
+[console_scripts]
+kaiba=kaiba_cli.cli:main
+

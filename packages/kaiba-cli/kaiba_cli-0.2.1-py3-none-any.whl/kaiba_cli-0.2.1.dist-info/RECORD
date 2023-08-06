@@ -1,0 +1,8 @@
+kaiba_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaiba_cli/cli.py,sha256=_OmRS3C4NSNYYzfuWr2hsSDpx6BqG7KfBfFS1mNwV1k,1554
+kaiba_cli/common.py,sha256=NkVdBnL4OILOOpOiV45vv9nv4GieaeENDz96IbzkFJA,1423
+kaiba_cli-0.2.1.dist-info/entry_points.txt,sha256=UkrUcNpDtuj-cOqOu4tEZsfu8cAIULCHsLquCJ_KwTs,44
+kaiba_cli-0.2.1.dist-info/LICENSE,sha256=xEjfPW2t6b-h5c2XeEHdsvHEn4Q_cmCmE8rNCvqOAeA,1092
+kaiba_cli-0.2.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+kaiba_cli-0.2.1.dist-info/METADATA,sha256=mZ_C8aw-uHlZUDdCxriFFDU7mFC_C2tIRXLtRxiu_Gw,494
+kaiba_cli-0.2.1.dist-info/RECORD,,
