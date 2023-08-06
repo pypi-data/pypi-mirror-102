@@ -1,0 +1,7 @@
+{% include "plotting/bokeh_statics.html" %}
+
+{{ script_trend | safe }}
+
+{% if div_trend %}
+    {{ div_trend | safe }}
+{% endif %}
