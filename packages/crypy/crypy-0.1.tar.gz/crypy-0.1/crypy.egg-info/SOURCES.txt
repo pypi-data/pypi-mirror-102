@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+crypy/__init__.py
+crypy.egg-info/PKG-INFO
+crypy.egg-info/SOURCES.txt
+crypy.egg-info/dependency_links.txt
+crypy.egg-info/requires.txt
+crypy.egg-info/top_level.txt
