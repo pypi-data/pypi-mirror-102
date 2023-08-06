@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        wbo=wbo.cli:cli
+    
