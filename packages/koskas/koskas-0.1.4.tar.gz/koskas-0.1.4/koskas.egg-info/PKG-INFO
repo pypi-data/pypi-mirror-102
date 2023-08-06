@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: koskas
+Version: 0.1.4
+Summary: My python package
+Home-page: https://github.com/yairKoskas/koskas
+Author: Yair Koskas
+Author-email: yairi2003@gmail.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
