@@ -1,0 +1,10 @@
+LICENSE,sha256=qZFohPrdANjW-XVR39qkEhV04JMkR73CH4JrWKhnytY,1069
+motioneye_client/__init__.py,sha256=n8aRSQVwrVDB4TOpBXZ-_7dJWW8h9GzYc38svsdSC8s,24
+motioneye_client/client.py,sha256=W5uvuY-kS9eu4zahYSaDkMEeO3MOykKQuIqh7G7k9-I,8656
+motioneye_client/const.py,sha256=5a0rQUNPF45neI5ML-2zAJMZcXZZ18JUWVFjRLeTl7w,4210
+motioneye_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motioneye_client/utils.py,sha256=cQuJnpP1CeGxYEf8XtGcZTw-u6PbxRCgRcQ7VCBZW0w,2737
+motioneye_client-0.3.2.dist-info/LICENSE,sha256=qZFohPrdANjW-XVR39qkEhV04JMkR73CH4JrWKhnytY,1069
+motioneye_client-0.3.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+motioneye_client-0.3.2.dist-info/METADATA,sha256=APT3BZncnoP7kafxhOtGobNeq4kk7U7halJ1UaYX3QM,6261
+motioneye_client-0.3.2.dist-info/RECORD,,
