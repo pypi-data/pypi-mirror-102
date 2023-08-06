@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hafer
+Version: 0.0.1
+Summary: HAFER ML, the homemade framework for machine learning
+Home-page: https://github.com/emptymalei/haferml
+Author: Lei Ma
+Author-email: hi@leima.is
+License: MIT
+Description: HAFER ML, the homemade framework for machine learning, is a simple and unambitious framework for small machine learning projects, with reproducibility in mind.
+Platform: UNKNOWN
+Provides-Extra: nose
+Provides-Extra: tests
+Provides-Extra: docs
+Provides-Extra: mkdocstrings
+Provides-Extra: mkdocs-material
+Provides-Extra: colorama
+Provides-Extra: requests
+Provides-Extra: aws
+Provides-Extra: awscli
+Provides-Extra: all
