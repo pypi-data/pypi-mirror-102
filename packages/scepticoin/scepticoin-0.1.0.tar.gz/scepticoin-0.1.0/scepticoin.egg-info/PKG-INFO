@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: scepticoin
+Version: 0.1.0
+Summary: The Coin for Non-Believers
+Home-page: UNKNOWN
+Author: Sashimi Houdini
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
