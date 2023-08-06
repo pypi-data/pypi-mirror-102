@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pkg-Sakurai07
+Version: 0.0.1
+Summary: A package manager for all platforms and 20+ languages by eris9/sakurai07
+Home-page: https://github.com/eris9/pkgpy
+Author: Sakurai07
+Author-email: blzzardst0rm@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/eris9/pkgpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+pkgpy - cross platform cross language package manager
+
+
