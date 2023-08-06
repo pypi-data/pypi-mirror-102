@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: telegram-notification
+Version: 0.0.7
+Summary: A small example package
+Home-page: https://github.com/dankernel/telegram_notification
+Author: dankernel
+Author-email: dkdkernel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-telegram-bot
+
+
+
+# getting started
+
+## 0. Make a simple setup.
+
+Install the Python dependency package
+```
+$ pip install telegram-notification
+```
+
+## 1. Create your Telesram Bot.
+
+## 2. Set your bot's token. 
+
+## 3. Set your user_id. 
+
+## 4. Use it anytime.
+
+
+
+
