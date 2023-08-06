@@ -1,0 +1,7 @@
+xxhash-2.0.2.dist-info/RECORD,,
+xxhash-2.0.2.dist-info/WHEEL,sha256=9lsfhQYXzYGV03HoZN2y4CxkGJfN9Dbo_xt-OhhvIF0,112
+xxhash-2.0.2.dist-info/METADATA,sha256=en_D_kQCJdkG-Ir4uJtXnzIVoeLUS_oC5spOvTyou3M,11864
+xxhash-2.0.2.dist-info/top_level.txt,sha256=1PPSBP-gnjG59E5bigzMTzmT6BVWjHwnpzMiisPWZ5I,15
+xxhash-2.0.2.dist-info/LICENSE,sha256=-OnvAMeL5NLaUmssN-QJnJIMf-C52UO_Da6y78MKOls,1313
+xxhash/__init__.py,sha256=GEmeNHQneEjy1opnvnrY15iQKggeD1_Ox3elusB2SIY,968
+xxhash/_xxhash.cpython-38-aarch64-linux-gnu.so,sha256=rPRCuaRBKobSlZoa3QMzs9teKGoW_d5kSGx7q0I_Y1Y,1164032
