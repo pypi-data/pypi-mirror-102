@@ -1,0 +1,17 @@
+Flask==1.1.2
+APScheduler==3.7.0
+flask_cors==3.0.10
+flask_restplus==0.13.0
+flask-restx==0.3.0
+Werkzeug==0.16.1
+python-logging-loki==0.3.1
+prometheus_client==0.10.1
+prometheus_flask_exporter==0.18.1
+flask_sqlalchemy==2.5.1
+#opentelemetry-api==1.0.0
+#opentelemetry-sdk==1.0.0
+#opentelemetry-exporter-jaeger==1.0.0
+#grpcio==1.35.0
+flask_jwt_extended==4.1.0
+SQLAlchemy<1.4
+aerospike==5.0.0
