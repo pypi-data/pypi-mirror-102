@@ -1,0 +1,11 @@
+cloudx_iaas_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudx_iaas_api/cluster_management.py,sha256=gSNJjrvfVW4vekK6U_Ew3hbGfya0QaoWx61qlFA_0Js,2088
+cloudx_iaas_api-1.2.13.data/scripts/cloudx,sha256=ZAEkYpKI5KAQDq1xTHW1L_MxIo8M9OYkjK1qVlipH0k,58
+cloudx_paas_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudx_paas_api/monitoring_management.py,sha256=kiC5Oau0YgF4EoLl486Mo1mDI4l0F_kgqJmmuwEXVLs,944
+cloudx_paas_api/smart_dns_management.py,sha256=2q0eV8vMjfDQNyZRxG8Va6ZoPtNbDLiRqZJB7HpzHQU,948
+cloudx_iaas_api-1.2.13.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+cloudx_iaas_api-1.2.13.dist-info/METADATA,sha256=82FrWpSocCVtGc55Z7J6TPaLKNPiCaTho11R9RB1UH0,3346
+cloudx_iaas_api-1.2.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloudx_iaas_api-1.2.13.dist-info/top_level.txt,sha256=GG1BhdvIve8pIUXIaK9-8yLrxvAkiMq8c43v2N-kEU0,32
+cloudx_iaas_api-1.2.13.dist-info/RECORD,,
