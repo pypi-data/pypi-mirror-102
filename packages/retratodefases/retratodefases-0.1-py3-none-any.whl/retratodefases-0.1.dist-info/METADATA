@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: retratodefases
+Version: 0.1
+Summary: Una librería sencilla para realizar retratos de fases de sistemas 2D y 3D.
+Home-page: https://github.com/Loracio/retrato-de-fases
+Author: Unai Lería & Víctor Loras
+Author-email: vhloras@gmail.com, unaileria@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Motivado por los retratos de fases vistos en la asignatura de Caos y Sistemas Dinámicos no lineales, y por ganas de hacer algo chulo y aprender algo más de Python, se me ocurrió intentar hacer una librería para poder hacer retratos de fases. Esto es el resultado.
+
+
