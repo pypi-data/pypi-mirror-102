@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+src/ngpuinfo/__init__.py
+src/ngpuinfo/byte_units.py
+src/ngpuinfo/ngpu.py
+src/ngpuinfo/ngpu_detect.py
+src/ngpuinfo/ngpuinfo.py
+src/ngpuinfo/xml_parser.py
+src/ngpuinfo.egg-info/PKG-INFO
+src/ngpuinfo.egg-info/SOURCES.txt
+src/ngpuinfo.egg-info/dependency_links.txt
+src/ngpuinfo.egg-info/top_level.txt
