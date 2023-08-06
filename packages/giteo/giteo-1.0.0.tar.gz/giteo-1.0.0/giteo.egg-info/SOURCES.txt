@@ -1,0 +1,10 @@
+README.md
+setup.py
+giteo/__init__.py
+giteo/__main__.py
+giteo.egg-info/PKG-INFO
+giteo.egg-info/SOURCES.txt
+giteo.egg-info/dependency_links.txt
+giteo.egg-info/entry_points.txt
+giteo.egg-info/requires.txt
+giteo.egg-info/top_level.txt

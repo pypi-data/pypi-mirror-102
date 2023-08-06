@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        giteo=giteo.__main__:giteo
+    
