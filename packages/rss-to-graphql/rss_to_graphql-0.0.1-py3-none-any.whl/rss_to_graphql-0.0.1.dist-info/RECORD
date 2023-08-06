@@ -1,0 +1,9 @@
+rss_to_graphql/__init__.py,sha256=XOz_SDF2K50U51cZCX76qG2gBv4Wn6fDld2CYZwZ1cQ,160
+rss_to_graphql/__main__.py,sha256=s1uRZ8nOqvQ9QLqCtoGhUgCa73E8uCaSW9SG37udcr8,2040
+rss_to_graphql/schema.py,sha256=t2e8NJw-7Vuo0lPUZZmSObgdGl3vGM1kJSILcjTslME,5733
+rss_to_graphql/template.py,sha256=aQzWo6Si4aChews0heXoWzaLIlXsEkKp7hTZ1g0drI0,4325
+rss_to_graphql-0.0.1.dist-info/LICENSE,sha256=X62dPafQbZqEr-PHgD4UbXuC5clWCJ2cS4ziWHegb4U,1090
+rss_to_graphql-0.0.1.dist-info/METADATA,sha256=SHRPWmHetJNLasBw206viUnkmRlzkHa30wrvJVqZlk8,2526
+rss_to_graphql-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+rss_to_graphql-0.0.1.dist-info/top_level.txt,sha256=K4ryRZ0gJOHEoPEwR-46NSiZdjjFVpbPpJkzmC1dy08,15
+rss_to_graphql-0.0.1.dist-info/RECORD,,
