@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sprite-unpack
+Version: 0.1.0
+Summary: Tool for cutting spritesheets into seperate images for importing into Godot, Unity, etc.
+Home-page: https://github.com/savonarola/sprite_unpack
+License: MIT
+Author: Ilya Averyanov
+Author-email: av@rubybox.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: tqdm (>=4.60.0,<5.0.0)
+Project-URL: Repository, https://github.com/savonarola/sprite_unpack
+Description-Content-Type: text/markdown
+
+

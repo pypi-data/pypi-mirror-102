@@ -1,0 +1,13 @@
+LICENSE,sha256=4I8iqaNRCJyVyDjuoN5hCfVThHO4yWhhxkGiFBusod8,1067
+sprite_unpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sprite_unpack/cli.py,sha256=tJQqEwnFIrjM9hgt4JNo7qejfiih2AjMzKqRc3h6RNE,1454
+sprite_unpack/image.py,sha256=O1Z0a_oHBwqXKhcvDXg6flgMYPyfr6yDdcIWmHoIWl8,1851
+sprite_unpack/image_boxes.py,sha256=KGPt5RPuw3-YOxJTYmI3H_9P_XM2iTCD6oAuV3Q0s-Q,5282
+sprite_unpack/sprite_sheet.py,sha256=fY3orTD1X4CpYk0VVPyDH5NztPfPy51V0I9sTy4Os9s,1485
+sprite_unpack/types.py,sha256=cXcmTOiN2GYgFUAMQkG7lptynJZ7HNJNazhZrxmqPtM,171
+sprite_unpack/unpack.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sprite_unpack-0.1.0.dist-info/entry_points.txt,sha256=uq-FCQdF5Ctav0bTbs6iI8aAqNJ2sHbWrTwYk7C_7r4,56
+sprite_unpack-0.1.0.dist-info/LICENSE,sha256=4I8iqaNRCJyVyDjuoN5hCfVThHO4yWhhxkGiFBusod8,1067
+sprite_unpack-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sprite_unpack-0.1.0.dist-info/METADATA,sha256=zVN-QYFuWtToaMUYsKVuDDDwHX-2Fk_elPOLidhXczA,639
+sprite_unpack-0.1.0.dist-info/RECORD,,
