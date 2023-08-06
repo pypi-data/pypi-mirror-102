@@ -1,0 +1,74 @@
+[build-system]
+requires = [ "whey",]
+build-backend = "whey"
+
+[project]
+name = "seed_intersphinx_mapping"
+version = "0.5.0"
+description = "Populate the Sphinx 'intersphinx_mapping' dictionary from the project's requirements."
+readme = "README.rst"
+keywords = [ "sphinx", "intersphinx", "documentation",]
+dynamic = []
+dependencies = [
+    "apeye>=0.1.0",
+    "cawdrey>=0.4.2",
+    "domdf-python-tools>=2.7.0",
+    "packaging>=20.9",
+    "requests>=2.24.0",
+    "shippinglabel>=0.12.0",
+    "sphinx>=3.0.3",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Sphinx :: Extension",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development :: Documentation",
+    "Typing :: Typed",
+]
+requires-python = ">=3.6"
+
+[[project.authors]]
+email = "dominic@davis-foster.co.uk"
+name = "Dominic Davis-Foster"
+
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/sphinx-toolbox/seed_intersphinx_mapping"
+"Issue Tracker" = "https://github.com/sphinx-toolbox/seed_intersphinx_mapping/issues"
+"Source Code" = "https://github.com/sphinx-toolbox/seed_intersphinx_mapping"
+Documentation = "https://seed_intersphinx_mapping.readthedocs.io/en/latest"
+
+[tool.whey]
+base-classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Sphinx :: Extension",
+    "Intended Audience :: Developers",
+    "Topic :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development :: Documentation",
+    "Typing :: Typed",
+]
+python-versions = [ "3.6", "3.7", "3.8", "3.9",]
+python-implementations = [ "CPython", "PyPy",]
+platforms = [ "Windows", "macOS", "Linux",]
+license-key = "MIT"
+additional-files = [ "include seed_intersphinx_mapping/fallback_mapping.json",]
+
+[tool.mkrecipe]
+conda-channels = [ "conda-forge", "domdfcoding",]
+extras = "all"
