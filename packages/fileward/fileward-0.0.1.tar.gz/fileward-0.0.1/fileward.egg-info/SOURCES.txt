@@ -1,0 +1,7 @@
+README.md
+setup.py
+fileward.egg-info/PKG-INFO
+fileward.egg-info/SOURCES.txt
+fileward.egg-info/dependency_links.txt
+fileward.egg-info/not-zip-safe
+fileward.egg-info/top_level.txt
