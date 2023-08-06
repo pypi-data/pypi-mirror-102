@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pgvessel/__init__.py
+src/pgvessel/main.py
+src/pgvessel.egg-info/PKG-INFO
+src/pgvessel.egg-info/SOURCES.txt
+src/pgvessel.egg-info/dependency_links.txt
+src/pgvessel.egg-info/entry_points.txt
+src/pgvessel.egg-info/requires.txt
+src/pgvessel.egg-info/top_level.txt
+src/pgvessel/_static_files_/__init__.py
+src/pgvessel/_static_files_/logging.conf
