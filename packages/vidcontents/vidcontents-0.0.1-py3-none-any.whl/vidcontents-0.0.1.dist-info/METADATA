@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vidcontents
+Version: 0.0.1
+Summary: A ContentsManager for managing Google Cloud APIs.
+Home-page: UNKNOWN
+Author: Sanskar Jain
+Author-email: sanskarj123@gmail.com
+License: UNKNOWN
+Keywords: python,jupyter,contents manager
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: notebook (>=6.0.0)
+Requires-Dist: nbformat (>=5.0.0)
+Requires-Dist: tornado (>=6)
+Requires-Dist: traitlets (>=5.0.0)
+
+
+# cocontents
+
