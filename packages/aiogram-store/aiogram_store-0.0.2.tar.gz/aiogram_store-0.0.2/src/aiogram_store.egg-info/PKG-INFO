@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aiogram-store
+Version: 0.0.2
+Summary: aiogram store
+Home-page: https://github.com/OGURCHINSKIY/aiogram_store
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/OGURCHINSKIY/aiogram_store/issues
+Description: beta store for aiogram
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
