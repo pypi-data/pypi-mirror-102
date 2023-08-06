@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/rndm
+src/rndm_2.egg-info/PKG-INFO
+src/rndm_2.egg-info/SOURCES.txt
+src/rndm_2.egg-info/dependency_links.txt
+src/rndm_2.egg-info/top_level.txt
