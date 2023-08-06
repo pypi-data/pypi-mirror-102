@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: twofourseven
+Version: 0.0.2
+Summary: Package to scrape 247Sports website for recruiting data
+Home-page: https://github.com/Natron0919/TwoFourSeven/
+Author: Nathan Reeb
+Author-email: Nathan.Reeb94@outlook.com
+License: UNKNOWN
+Description: # TwoFourSeven
+        Python Module to scrape recruiting data from 247Sports website
+        
+        Able to scrape transfer portal page as well.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
