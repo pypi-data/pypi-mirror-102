@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: csrank
+Version: 2.0.0rc1
+Summary: Context-sensitive ranking and choice
+Home-page: https://github.com/kiudee/cs-ranking
+License: Apache-2.0
+Author: Karlson Pfannschmidt
+Author-email: kiudee@mail.upb.de
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Provides-Extra: docs
+Requires-Dist: IPython (>=7.18.1,<8.0.0); extra == "docs"
+Requires-Dist: Sphinx (>=3.2.1,<4.0.0); extra == "docs"
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: h5py (>=2.7,<3.0)
+Requires-Dist: joblib (>=0.16.0,<0.17.0)
+Requires-Dist: nbsphinx (>=0.7.1,<0.8.0); extra == "docs"
+Requires-Dist: numpy (>=1.12.1,<2.0.0)
+Requires-Dist: pandas (>=1.1.1,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.7,<3.0)
+Requires-Dist: pygmo (>=2.7,<3.0)
+Requires-Dist: pymc3 (>=3.8,<4.0)
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Requires-Dist: skorch (>=0.9.0,<0.10.0)
+Requires-Dist: sphinx_rtd_theme (>=0.5.0,<0.6.0); extra == "docs"
+Requires-Dist: sphinxcontrib-bibtex (>=1.0.0,<2.0.0); extra == "docs"
+Requires-Dist: torch (>=1.8.0,<2.0.0)
+Requires-Dist: tqdm (>=4.11.2,<5.0.0)
+Project-URL: Documentation, https://kiudee.github.io/cs-ranking/
+Project-URL: Repository, https://github.com/kiudee/cs-ranking
