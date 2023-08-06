@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: nti.wsgi.cors
+Version: 1.1.1
+Summary: Support for CORS in a WSGI environment
+Home-page: https://github.com/NextThought/nti.wsgi.cors
+Author: Jason Madden
+Author-email: jason@nextthought.com
+License: Apache
+Keywords: wsgi cors
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: setuptools
+Requires-Dist: greenlet ; platform_python_implementation == "CPython"
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: repoze.sphinx.autointerface ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: nti.testing ; extra == 'docs'
+Requires-Dist: Paste ; extra == 'docs'
+Requires-Dist: WebTest ; extra == 'docs'
+Requires-Dist: zope.testrunner ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: nti.testing ; extra == 'test'
+Requires-Dist: Paste ; extra == 'test'
+Requires-Dist: WebTest ; extra == 'test'
+Requires-Dist: zope.testrunner ; extra == 'test'
+
+============
+nti.wgi.cors
+============
+
+.. image:: https://github.com/NextThought/nti.wsgi.cors/workflows/tests/badge.svg
+    :target: https://github.com/NextThought/nti.wsgi.cors/actions?query=workflow%3Atests
+
+.. image:: https://coveralls.io/repos/github/NextThought/nti.wsgi.cors/badge.svg?branch=master
+     :target: https://coveralls.io/github/NextThought/nti.wsgi.cors?branch=master
+
+A WSGI middleware for handling CORS.
+
+
+=========
+ Changes
+=========
+
+
+1.1.1 (2021-04-20)
+==================
+
+- Greenlet dependency is only required on CPython. See `Issue 2
+  <https://github.com/NextThought/nti.wsgi.cors/issues/2>`_
+
+1.1.0 (2021-04-20)
+==================
+
+- Add support for python 3.7, 3.8 and 3.9.
+
+
+1.0.0 (2017-04-20)
+==================
+
+- First PyPI release.
+- Add support for Python 3.
+
+
