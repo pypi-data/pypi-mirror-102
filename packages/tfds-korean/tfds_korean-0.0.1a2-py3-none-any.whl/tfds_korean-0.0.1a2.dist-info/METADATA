@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tfds-korean
+Version: 0.0.1a2
+Summary: UNKNOWN
+Home-page: https://github.com/jeongukjae/tfds-korean
+Author: Ukjae Jeong
+Author-email: jeongukjae@gmail.com
+License: MIT
+Keywords: tensorflow,machine learning,dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Requires-Dist: tensorflow-datasets
+
+UNKNOWN
+
+
