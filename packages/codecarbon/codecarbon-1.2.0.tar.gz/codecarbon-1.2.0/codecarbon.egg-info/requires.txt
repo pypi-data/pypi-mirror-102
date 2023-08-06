@@ -1,0 +1,11 @@
+APScheduler
+dash
+dash_bootstrap_components
+fire
+pandas
+pynvml
+requests
+py-cpuinfo
+
+[:python_version < "3.7"]
+dataclasses
