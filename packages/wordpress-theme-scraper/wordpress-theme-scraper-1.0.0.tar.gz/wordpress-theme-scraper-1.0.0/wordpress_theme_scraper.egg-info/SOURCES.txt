@@ -1,0 +1,8 @@
+README.md
+setup.py
+wordpress_theme_scraper/__init__.py
+wordpress_theme_scraper.egg-info/PKG-INFO
+wordpress_theme_scraper.egg-info/SOURCES.txt
+wordpress_theme_scraper.egg-info/dependency_links.txt
+wordpress_theme_scraper.egg-info/requires.txt
+wordpress_theme_scraper.egg-info/top_level.txt
