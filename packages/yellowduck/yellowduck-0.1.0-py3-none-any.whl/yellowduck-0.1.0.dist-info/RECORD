@@ -1,0 +1,15 @@
+yellowduck/__init__.py,sha256=CLWjgmSc9RLd6PWSVcrpTg-JZPkJLBWtn9U3MmNod7g,164
+yellowduck/explore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck/hypothesis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck/images/duplicate.py,sha256=3S_LmKU9QmCJPbaRl-_E5HV4eeBKWClIPiZj6ltbMks,6773
+yellowduck/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck/preprocessing/image.py,sha256=KeChF9e0nW832uvcYx-l0LKK1S5hLHCMEzGqFewVOuk,9229
+yellowduck/preprocessing/text.py,sha256=q70w1Ji2esj5PtPgk31RUzV34DqokaW5rzUqRoj8kVw,3310
+yellowduck/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yellowduck-0.1.0.dist-info/LICENSE,sha256=D7MznNlExyrTk6VBpb5ybDhHPKdj4d87bJgHUZmzq4M,1102
+yellowduck-0.1.0.dist-info/METADATA,sha256=ktwLcceEetGcX4j1wZZQNDT5baAqOGEUH3ty6dsAZLs,922
+yellowduck-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+yellowduck-0.1.0.dist-info/top_level.txt,sha256=cx1uTkw0wancFkPLf5jPG9XXCS9i5P9VdMJD3T0vvrE,11
+yellowduck-0.1.0.dist-info/RECORD,,
