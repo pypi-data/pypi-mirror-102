@@ -1,0 +1,12 @@
+query classifyTopic($input: String!, $topics: [String!]!) {
+  result: callClassifyTopic(
+    input: $input
+    topics: $topics
+    allow_multiple: true
+  ) {
+    topics: result {
+      topic
+      score
+    }
+  }
+}
