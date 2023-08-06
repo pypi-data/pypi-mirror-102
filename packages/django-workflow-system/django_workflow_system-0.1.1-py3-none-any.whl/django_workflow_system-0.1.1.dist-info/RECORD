@@ -1,0 +1,9 @@
+workflows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workflows/apps.py,sha256=t_YlNdLUVre1ozCQ_MtcF0k5SIOW3bu-PH4OhG7BnDo,963
+workflows/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+workflows/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_workflow_system-0.1.1.dist-info/LICENSE,sha256=-EnTyT-Pozh8VpfmOfdCDalxp-4f08HDbyh8BL25OPE,1086
+django_workflow_system-0.1.1.dist-info/METADATA,sha256=0Kr3sXZtNCMDNLuCFmgmXJ4IX55ZM25ASFuKQzrHXS4,1115
+django_workflow_system-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_workflow_system-0.1.1.dist-info/top_level.txt,sha256=Vj2LUSNvqIo10clsau6oNSgqOwbPfQl8rN8IMZ9dw4A,10
+django_workflow_system-0.1.1.dist-info/RECORD,,
