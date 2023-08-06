@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PexpectLibrary
+Version: 0.2.0
+Summary: An (almost) complete and convenience Pexpect wrapper for Robot Framework, with extra functionalities.
+Home-page: https://github.com/lipan-sudo/PexpectLibrary
+Author: pan li
+Author-email: lipan.sudo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pexpect (>=4.6.0)
+Requires-Dist: pyserial (>=3.5)
+Requires-Dist: robotframework (>=3.2.2)
+
+UNKNOWN
+
+
