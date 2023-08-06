@@ -1,0 +1,10 @@
+example_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main/cli.py,sha256=_TTvDREoxF676pmoUx7L4VWLSm55zH5V1nyluiTJhkg,3493
+main/color.py,sha256=xvSkvO0h0hwYydWxT3im8UQMn8YTvrpVNCkP2-Da1lw,427
+commit_msg_hook-0.0.1.dist-info/LICENSE,sha256=kDOfz3U5sNO_oP-D-EExKA44Kw4w6YEQQ_6PPRr0LOo,1058
+commit_msg_hook-0.0.1.dist-info/METADATA,sha256=jq2LJlslVFbBOlAqyXGi5lhMqK2OTkZi0eu_WeFNY2s,1981
+commit_msg_hook-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+commit_msg_hook-0.0.1.dist-info/entry_points.txt,sha256=Egny2b3gfCGNWaRA3AghNk-Rqzn2fNe6Z0uVNs9C6w8,51
+commit_msg_hook-0.0.1.dist-info/top_level.txt,sha256=wmJnMxCqBxi8wX8AdVL5VF9FT2TY9GR9fa-6Goc3rgY,17
+commit_msg_hook-0.0.1.dist-info/RECORD,,
