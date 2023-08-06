@@ -1,0 +1,10 @@
+click
+logzero
+IPython
+
+[:python_version<"3.7"]
+dataclasses
+
+[testing]
+pytest
+mypy
