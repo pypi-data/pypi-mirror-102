@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+	<div class="container">
+		{% for feed in feeds %}
+			<div class="feed">
+				<h3>{{ feed.channel.title }}</h3>
+				<ul>
+					{% for entry in feed.entries[0:4] %}
+						<li><a href="{{ entry.link }}">{{ entry.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+</body>
+</html>
