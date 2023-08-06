@@ -1,0 +1,11 @@
+weightwatcher/RMT_Util.py,sha256=eQgBOD5Ld0YQRjkePNN-yipB3z30v26vly462ouBswY,16096
+weightwatcher/__init__.py,sha256=e91hgyynaT0jS9piqYoPf2jX_9GjdxDF35M_zEC_JeI,1197
+weightwatcher/__main__.py,sha256=DSmcN6tB1ZIYsgm5Xccq4UmnUkjoKyqdq_7iVwCdnS0,736
+weightwatcher/constants.py,sha256=0HpJPPKNq5xq0Ju11n2qD-PCL86p-iW4r-62PsHYMg8,1611
+weightwatcher/weightwatcher.py,sha256=8WGtbgoQRV0gfkqJt-kYgEFOKm0BvR96DovdchkfFdI,57659
+weightwatcher-0.4.6.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+weightwatcher-0.4.6.dist-info/METADATA,sha256=OxvUxoccqKGxSHLtOqjydPjwg4hCvMjiLLluNBxcDO0,17024
+weightwatcher-0.4.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+weightwatcher-0.4.6.dist-info/entry_points.txt,sha256=wNrDWLE9v4FRto8X5g6V0XQL_OinaaPLnDxKyWO-DHo,72
+weightwatcher-0.4.6.dist-info/top_level.txt,sha256=ckst1amUmC7XbgHnw1IZnhq_riE3-LGVZzYY9a23iOY,14
+weightwatcher-0.4.6.dist-info/RECORD,,
