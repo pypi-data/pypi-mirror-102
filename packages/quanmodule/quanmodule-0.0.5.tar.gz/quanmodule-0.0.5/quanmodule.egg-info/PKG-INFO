@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: quanmodule
+Version: 0.0.5
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Quan Nham
+Author-email: beast@yeast.com
+License: UNKNOWN
+Description: It's my first Python package bitch
+Keywords: Quan,python,speedrun
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
