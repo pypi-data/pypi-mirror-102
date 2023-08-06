@@ -1,0 +1,8 @@
+couchdbauthenticator/__init__.py,sha256=N7ZNBahc3wyIQE_yiEWZoJKCgxgeEtoMBcTQYnOpJGg,189
+couchdbauthenticator/authenticator.py,sha256=spcW7Vnts3SzD0_jG9CPbaRMsliTKTawnhPIO7W7MHo,2175
+couchdbauthenticator/user_manager.py,sha256=P27BTycWSVW-SwdiuJ_DCRvvm1Tk_qkY6gERf1ukuW8,3467
+jupyterhub_couchdb_authenticator-0.1.dist-info/LICENSE,sha256=9_aeuuLLWhxlgN0Fv6Ggqft3c3GLZOQCxzVNOwaHg54,1485
+jupyterhub_couchdb_authenticator-0.1.dist-info/METADATA,sha256=T5hmVZ7CMJs7Z_w6yStkldJ9D7kzj-JgIXvo3SFsU6s,4142
+jupyterhub_couchdb_authenticator-0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+jupyterhub_couchdb_authenticator-0.1.dist-info/top_level.txt,sha256=DsIBDHpPX4vZ1bxf8rtAl9wnOk7sYcmX6BYTsfOBtNU,21
+jupyterhub_couchdb_authenticator-0.1.dist-info/RECORD,,
