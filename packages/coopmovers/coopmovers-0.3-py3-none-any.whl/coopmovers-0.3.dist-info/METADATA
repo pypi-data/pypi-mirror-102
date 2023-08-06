@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: coopmovers
+Version: 0.3
+Summary: Library for logic around controlling "things that move"
+Home-page: https://github.com/tylertjburns/coopmovers
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+Requires-Dist: astroid (==2.4.2)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: coopbugger (==0.1)
+Requires-Dist: coopgame (==0.11)
+Requires-Dist: coopgraph (==0.17)
+Requires-Dist: cooplock (==0.2)
+Requires-Dist: coopstructs (==0.14)
+Requires-Dist: Hexy (==1.4.3)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: lazy-object-proxy (==1.4.3)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: numpy (==1.19.1)
+Requires-Dist: pygame (==1.9.6)
+Requires-Dist: pylint (==2.5.3)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: typed-ast (==1.4.1)
+Requires-Dist: wrapt (==1.12.1)
+
+# coopmovers
+Library of tools for creating and controlling "entities that move"
+
+
