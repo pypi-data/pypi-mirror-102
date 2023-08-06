@@ -1,0 +1,15 @@
+README.md
+setup.py
+swagger2case/__init__.py
+swagger2case/cli.py
+swagger2case/compat.py
+swagger2case/core.py
+swagger2case/parser.py
+swagger2case.egg-info/PKG-INFO
+swagger2case.egg-info/SOURCES.txt
+swagger2case.egg-info/dependency_links.txt
+swagger2case.egg-info/entry_points.txt
+swagger2case.egg-info/requires.txt
+swagger2case.egg-info/top_level.txt
+tests/__init__.py
+tests/test_swaggerparser.py

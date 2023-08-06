@@ -1,0 +1,3 @@
+[console_scripts]
+sw2case = swagger2case.cli:main
+
