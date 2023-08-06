@@ -1,0 +1,7 @@
+cupy-cuda110
+numpy
+opencv-python
+
+[test]
+pytest
+pytest-cov
