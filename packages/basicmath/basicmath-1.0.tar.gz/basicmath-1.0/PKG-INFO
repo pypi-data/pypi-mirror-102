@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: basicmath
+Version: 1.0
+Summary: Basic Math Package
+Home-page: UNKNOWN
+Author: Balaguru
+Author-email: <balagurudmanickam@gmail.com>
+License: UNKNOWN
+Description: Basic math operators.
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
