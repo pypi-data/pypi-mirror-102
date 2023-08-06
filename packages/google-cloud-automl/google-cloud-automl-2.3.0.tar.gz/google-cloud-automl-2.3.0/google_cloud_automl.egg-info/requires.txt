@@ -1,0 +1,11 @@
+google-api-core[grpc]<2.0.0dev,>=1.22.2
+proto-plus>=1.10.0
+
+[libcst]
+libcst>=0.2.5
+
+[pandas]
+pandas>=0.23.0
+
+[storage]
+google-cloud-storage<2.0.0dev,>=1.18.0
