@@ -1,0 +1,9 @@
+shared_memory/__init__.py,sha256=yes2iUy48Qi_g_938Kw5arwvRyCtLIpPivOI5nNm8PI,139
+shared_memory/_winshmem.py,sha256=IAammLNHAUuMb3a0dQJLZQE9JsSiPjYC_UWHFFDCWz4,4036
+shared_memory/managers.py,sha256=0LQq0m8h-OIFCKvnwFTaN4WKXwEVKdUXfyPFgKABiT8,8106
+shared_memory/resource_tracker.py,sha256=HcMfXGIHM_3wyxe0wr3sW7MnfKTSBHbiibNVBdbsuUA,8875
+shared_memory/shared_memory.py,sha256=Y0zrsFco15x5ChTYY8S3HOzGv80lai630FYrobuQ_gY,17978
+shared_memory38-0.1.0.dist-info/METADATA,sha256=WMqT-V-Mher7aqOKXVrrOyX9u3srvYoa-27zPD3zFCA,584
+shared_memory38-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shared_memory38-0.1.0.dist-info/top_level.txt,sha256=Bi8DSG0TzP3Nn_yzTFXFYHT0kH2ejTgVzHJZ1BGV7FU,14
+shared_memory38-0.1.0.dist-info/RECORD,,
