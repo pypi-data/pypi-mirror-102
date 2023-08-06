@@ -1,0 +1,13 @@
+eigolingo/__init__.py,sha256=A6HOj5uPE6X7Xni6P-nPZK5ztVgZRQcxSIaZXfBv0-U,8439
+eigolingo/__main__.py,sha256=L2ubunx1R46BgbO4sAFyFeMT1Hzeo0lxv2T3BBsFS6Q,62
+eigolingo/wdicts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eigolingo/wdicts/contraction_dict.txt,sha256=qVz7Tp4a7wTTgazEpwjUcyplkUNJL2fFg-y_cWR4x5w,3051
+eigolingo/wdicts/dict70.txt,sha256=xR5ug62JhGoh6F3ZsKYd1vKnB3LpzpK0FaBDzEz8oPM,8141527
+eigolingo/wdicts/dict80.txt,sha256=xiVV1PMRty92qTZ0dsbhWY76JEqxNw88YBUfSrvUXXo,2151794
+eigolingo/wdicts/dict95.txt,sha256=yyarPfCS7Dg-u-ShMbuYbAiuR3R6eehnQOoMccfqPvo,3719451
+eigolingo/wdicts/total_counter.txt,sha256=jxsB3Of_XPDK1p3Lm3pFvzXQ8bEcPJT86176E-7PMmE,4532889
+eigolingo-0.0.4.dist-info/entry_points.txt,sha256=FPSWJjGI7rywy5TSuTt4KWW1DgVDvYvHoXdCaJJ9Eks,39
+eigolingo-0.0.4.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+eigolingo-0.0.4.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+eigolingo-0.0.4.dist-info/METADATA,sha256=8kJpcSHD6tf48X9FVlG8cjZM_h-zOPeXI8WXjJzmnVw,5152
+eigolingo-0.0.4.dist-info/RECORD,,
