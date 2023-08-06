@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ua_box_api
+Version: 1.0.0
+Summary: Provides easy interface for making REST requests to University of Arizona Box file storage.
+Home-page: https://github.com/UACoreFacilitiesIT/UA-Box-API
+Author: Ryan Johannes-Bland
+Author-email: rjjohannesbland@email.arizona.edu
+License: MIT
+Description: # UA-EDS-API
+        
+        Provides easy interface for making REST requests to University of Arizona Box file storage.
+        
+        ## Motivation
+        
+        To make a python API that could generically interact with the REST architecture of Box.
+        
+        ## Code Example
+        
+        ```python
+        from ua_box_api import ua_box_api
+        
+        box_api = ua_eds_api.BoxApi(config)
+        
+        items = box_api.get_all_items(10)
+        ```
+        
+        ## Installation
+        
+        pip install --user ua-box-api
+        
+        ## Credits
+        
+        [RyanJohannesBland](https://github.com/RyanJohannesBland)
+        [EtienneThompson](https://github.com/EtienneThompson)
+        
+        ## License
+        
+        MIT
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
