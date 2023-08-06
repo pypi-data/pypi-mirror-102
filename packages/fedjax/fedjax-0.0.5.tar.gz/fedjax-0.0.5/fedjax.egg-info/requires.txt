@@ -1,0 +1,7 @@
+dm-haiku
+immutabledict
+jax
+jaxlib
+msgpack
+optax
+tensorflow-federated
