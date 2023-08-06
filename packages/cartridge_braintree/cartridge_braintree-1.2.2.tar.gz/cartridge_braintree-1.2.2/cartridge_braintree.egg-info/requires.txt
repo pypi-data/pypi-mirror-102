@@ -1,0 +1,6 @@
+braintree
+cartridge>=0.13
+django<1.12,>=1.11.29
+
+[countries_utf8_sorting]
+pyuca
