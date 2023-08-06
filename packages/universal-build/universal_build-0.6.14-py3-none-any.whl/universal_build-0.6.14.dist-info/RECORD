@@ -1,0 +1,16 @@
+universal_build/__init__.py,sha256=l3zRr4FRjqRgmpPYnV4AH4Q1_5BLC0VNT2XXqlZYcxc,149
+universal_build/_about.py,sha256=GPGET-HKj6DoKKkEunMF9eqnC-9m3ykxUqoTq5Mwxq4,125
+universal_build/_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+universal_build/_utilities.py,sha256=u9jiKhBgaxoA_q8HZ74hs-GEQOw_2C1Fy5SnXKAIpcY,1847
+universal_build/build_utils.py,sha256=PMhfKejVFYuRFyoSZtUYF5hDJx8Io0S8voSpwNK7EuI,28175
+universal_build/helpers/__init__.py,sha256=Q1YJ4yyuJf9v3_pmI0NtcRLLaYIiIYp6QXvxC3AjOPQ,83
+universal_build/helpers/build_docker.py,sha256=_aQYT2p6jSlkrMurdj3OmbmiMyTGFboTpXSV7Vsv6BQ,8165
+universal_build/helpers/build_mkdocs.py,sha256=4r55SmMJZ4H-m-FFtJ_oQC6Klche4m1s8xBNPORcHJE,3606
+universal_build/helpers/build_python.py,sha256=lOKA_2yHrxfhuG-FjuToQZt2_9weEXOweM8z5EugXRI,12282
+universal_build/helpers/openapi_utils.py,sha256=tYXAgwWWu0b5w56Ml5R-WSV2lB1myjqwhaMi3pcYvAI,6245
+universal_build-0.6.14.dist-info/LICENSE,sha256=Ixhb36Qp3A5N0KROEmFZ05pcD8HyQPZzf-RJ0oUbsI4,1081
+universal_build-0.6.14.dist-info/METADATA,sha256=BlpNqmuRVgBuSMpdUaGr3E_6GqooKeGVZcGIfnafSRM,39530
+universal_build-0.6.14.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+universal_build-0.6.14.dist-info/entry_points.txt,sha256=Wlmyo01a9biNIzqz5tqEiJXT6eDWEutRbR0X6ysWvsc,62
+universal_build-0.6.14.dist-info/top_level.txt,sha256=g5TBVIFw9KHhWj_uKEDRb6UOsJAeTEericfBK79bNzw,16
+universal_build-0.6.14.dist-info/RECORD,,
