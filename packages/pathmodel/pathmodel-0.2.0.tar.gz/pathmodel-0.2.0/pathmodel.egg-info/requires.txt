@@ -1,0 +1,4 @@
+clyngor
+clyngor-with-clingo
+matplotlib
+networkx
