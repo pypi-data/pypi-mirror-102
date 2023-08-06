@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/helloworld.py
+src/hellodaisy.egg-info/PKG-INFO
+src/hellodaisy.egg-info/SOURCES.txt
+src/hellodaisy.egg-info/dependency_links.txt
+src/hellodaisy.egg-info/requires.txt
+src/hellodaisy.egg-info/top_level.txt
