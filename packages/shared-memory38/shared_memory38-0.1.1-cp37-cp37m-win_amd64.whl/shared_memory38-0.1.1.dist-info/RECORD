@@ -1,0 +1,10 @@
+shared_memory/__init__.py,sha256=RYcXihJmHGTzd_6HOOdf0w0PjGJiuJCuVSCzM_UqA1s,151
+shared_memory/_version.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+shared_memory/_winshmem.cp37-win_amd64.pyd,sha256=Kf46-qK-d8vgYMKrXhKVb0caXWhPfHbHLhmCPWSkdcs,15872
+shared_memory/managers.py,sha256=0LQq0m8h-OIFCKvnwFTaN4WKXwEVKdUXfyPFgKABiT8,8106
+shared_memory/resource_tracker.py,sha256=HcMfXGIHM_3wyxe0wr3sW7MnfKTSBHbiibNVBdbsuUA,8875
+shared_memory/shared_memory.py,sha256=Y0zrsFco15x5ChTYY8S3HOzGv80lai630FYrobuQ_gY,17978
+shared_memory38-0.1.1.dist-info/METADATA,sha256=HLC0K0e9TM9dOWcZpXPmAc40SRiZ6LG3CMRTvLTIU9E,878
+shared_memory38-0.1.1.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+shared_memory38-0.1.1.dist-info/top_level.txt,sha256=Bi8DSG0TzP3Nn_yzTFXFYHT0kH2ejTgVzHJZ1BGV7FU,14
+shared_memory38-0.1.1.dist-info/RECORD,,
