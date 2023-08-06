@@ -1,0 +1,13 @@
+README.md
+setup.py
+chain_breaking_polymer_networks/__init__.py
+chain_breaking_polymer_networks/__main__.py
+chain_breaking_polymer_networks/network.py
+chain_breaking_polymer_networks/plotting.py
+chain_breaking_polymer_networks/relaxation_function.py
+chain_breaking_polymer_networks/single_chain.py
+chain_breaking_polymer_networks.egg-info/PKG-INFO
+chain_breaking_polymer_networks.egg-info/SOURCES.txt
+chain_breaking_polymer_networks.egg-info/dependency_links.txt
+chain_breaking_polymer_networks.egg-info/requires.txt
+chain_breaking_polymer_networks.egg-info/top_level.txt
