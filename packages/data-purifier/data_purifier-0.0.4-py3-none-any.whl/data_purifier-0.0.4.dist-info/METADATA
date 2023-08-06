@@ -1,0 +1,206 @@
+Metadata-Version: 2.1
+Name: data-purifier
+Version: 0.0.4
+Summary: A Python library for Automated Exploratory Data Analysis, Automated Data Cleaning and Automated Data Preprocessing For Machine Learning and Natural Language Processing in Python.
+Home-page: UNKNOWN
+Author: Abhishek Manilal Gupta
+Author-email: abhig0209@gmail.com
+License: MIT
+Keywords: automated eda exploratory-data-analysis data-cleaning data-preprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles (==0.5.0)
+Requires-Dist: argon2-cffi (==20.1.0)
+Requires-Dist: astroid (==2.2.5)
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: blis (==0.7.4)
+Requires-Dist: catalogue (==2.0.3)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: cffi (==1.14.5)
+Requires-Dist: chardet (==3.0.2)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cloudpickle (==1.3.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: colorclass (==2.2.0)
+Requires-Dist: coloredlogs (==10.0)
+Requires-Dist: colorhash (==1.0.2)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: cymem (==2.0.5)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: dnspython (==1.16.0)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: gevent (==1.5.0)
+Requires-Dist: greenlet (==1.0.0)
+Requires-Dist: h11 (==0.8.1)
+Requires-Dist: h2 (==3.2.0)
+Requires-Dist: hpack (==3.0.0)
+Requires-Dist: hstspreload (==2020.9.15)
+Requires-Dist: httplib2 (==0.18.1)
+Requires-Dist: httptools (==0.1.1)
+Requires-Dist: humanfriendly (==8.2)
+Requires-Dist: hyperframe (==5.2.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==4.0.0)
+Requires-Dist: ipykernel (==5.5.3)
+Requires-Dist: ipython (==7.22.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.6.3)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: jedi (==0.18.0)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyter-client (==6.1.12)
+Requires-Dist: jupyter-core (==4.6.3)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: jupyterlab-widgets (==1.0.0)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: lazy-object-proxy (==1.4.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: more-itertools (==8.0.2)
+Requires-Dist: multidict (==4.7.6)
+Requires-Dist: murmurhash (==1.0.5)
+Requires-Dist: nbclient (==0.5.3)
+Requires-Dist: nbconvert (==6.0.7)
+Requires-Dist: nbformat (==5.1.3)
+Requires-Dist: nest-asyncio (==1.5.1)
+Requires-Dist: nltk (==3.6.1)
+Requires-Dist: notebook (==6.3.0)
+Requires-Dist: numpy (==1.20.2)
+Requires-Dist: oauth2client (==4.1.3)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: pandocfilters (==1.4.3)
+Requires-Dist: parso (==0.8.2)
+Requires-Dist: pathy (==0.4.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: preshed (==3.0.5)
+Requires-Dist: prometheus-client (==0.10.1)
+Requires-Dist: prompt-toolkit (==3.0.18)
+Requires-Dist: psycopg2-binary (==2.8.6)
+Requires-Dist: py (==1.8.1)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pydantic (==1.7.3)
+Requires-Dist: Pygments (==2.8.1)
+Requires-Dist: pykwalify (==1.7.0)
+Requires-Dist: pylint (==2.3.1)
+Requires-Dist: pymongo (==3.8.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pyrsistent (==0.17.3)
+Requires-Dist: python-crfsuite (==0.9.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywin32 (==227)
+Requires-Dist: pywinpty (==0.5.7)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: pyzmq (==22.0.3)
+Requires-Dist: regex (==2020.6.8)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: rsa (==4.7.2)
+Requires-Dist: ruamel.yaml (==0.16.12)
+Requires-Dist: s3transfer (==0.3.3)
+Requires-Dist: sanic (==19.12.2)
+Requires-Dist: Sanic-Cors (==0.10.0.post3)
+Requires-Dist: Sanic-Plugins-Framework (==0.9.3)
+Requires-Dist: scipy (==1.6.2)
+Requires-Dist: seaborn (==0.11.0)
+Requires-Dist: Send2Trash (==1.5.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sklearn-crfsuite (==0.3.6)
+Requires-Dist: slackclient (==2.8.2)
+Requires-Dist: smart-open (==3.0.0)
+Requires-Dist: sniffio (==1.1.0)
+Requires-Dist: soupsieve (==2.2.1)
+Requires-Dist: spacy (==3.0.5)
+Requires-Dist: spacy-legacy (==3.0.2)
+Requires-Dist: srsly (==2.4.1)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: terminado (==0.9.4)
+Requires-Dist: testpath (==0.4.4)
+Requires-Dist: textblob (==0.15.3)
+Requires-Dist: thinc (==8.0.2)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: tqdm (==4.60.0)
+Requires-Dist: traitlets (==5.0.5)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: typer (==0.3.2)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: tzlocal (==2.1)
+Requires-Dist: urllib3 (==1.26.4)
+Requires-Dist: wasabi (==0.8.2)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: websockets (==8.1)
+Requires-Dist: widgetsnbextension (==3.5.1)
+Requires-Dist: wincertstore (==0.2)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: yarl (==1.5.1)
+Requires-Dist: zipp (==3.4.1)
+
+# Data-Purifier
+
+### A Python library for Automated Exploratory Data Analysis, Automated Data Cleaning and Automated Data Preprocessing For Machine Learning and Natural Language Processing in Python.
+
+## Features
+
+* It gives shape, number of categorical and numerical features, description of the dataset, and also the information about the number of null values and their respective percentage. 
+
+* For understanding the distribution of datasets and getting useful insights, there are many interactive plots generated where the user can select his desired column and the system will automatically plot it. Plot includes
+   1. Count plot
+   2. Correlation plot
+   3. Joint plot
+   4. Pair plot
+   5. Pie plot 
+
+
+## Get Started
+
+Install the package
+```
+pip install data-purifier
+```
+
+Load the module
+```python
+from datapurifier import Mleda
+```
+
+Load the dataset and let the magic of automated EDA begin
+
+```python
+df = pd.read_csv("./datasets/iris.csv")
+ae = Mleda(df)
+ae
+```
+
+Python Package: https://pypi.org/project/data-purifier/
+
+
+
+
+
