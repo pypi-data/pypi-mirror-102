@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flowi
+Version: 0.2.1
+Summary: 
+Author: Leonardo Silva
+Author-email: psilva.leo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cloudpickle (>=1.6.0,<2.0.0)
+Requires-Dist: dask (>=2021.4.0,<2022.0.0)
+Requires-Dist: dask-ml (>=1.8.0,<2.0.0)
+Requires-Dist: distributed (>=2021.4.0,<2022.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: scikit-learn (>=0.24.1,<0.25.0)
