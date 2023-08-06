@@ -1,0 +1,7 @@
+xxhash/__init__.py,sha256=RsTjm_676Q7kcQEyO94Bl_8VruaiPSEkYg35bRwwx2w,968
+xxhash/_xxhash.cpython-35m-aarch64-linux-gnu.so,sha256=ejtTZjQu3SXI_4j2rymL_cyTvUph7yLmLmxXYIw8FO8,1162680
+xxhash-2.0.1.dist-info/RECORD,,
+xxhash-2.0.1.dist-info/WHEEL,sha256=Dfvz_rnQ9PyIaSZZfjkuxx8gkNFoZSFA_mGJEKRYsIs,113
+xxhash-2.0.1.dist-info/METADATA,sha256=vBkJwMxWbQraw5o0klBXZIozzmgHJcFIvAFEjWCvyRY,11776
+xxhash-2.0.1.dist-info/top_level.txt,sha256=1PPSBP-gnjG59E5bigzMTzmT6BVWjHwnpzMiisPWZ5I,15
+xxhash-2.0.1.dist-info/LICENSE,sha256=-OnvAMeL5NLaUmssN-QJnJIMf-C52UO_Da6y78MKOls,1313
