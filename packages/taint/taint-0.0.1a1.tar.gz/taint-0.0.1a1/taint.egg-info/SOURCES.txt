@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+taint/account.py
+taint/cache.py
+taint/crypto.py
+taint/name.py
+taint/store.py
+taint/tag.py
+taint.egg-info/PKG-INFO
+taint.egg-info/SOURCES.txt
+taint.egg-info/dependency_links.txt
+taint.egg-info/requires.txt
+taint.egg-info/top_level.txt
