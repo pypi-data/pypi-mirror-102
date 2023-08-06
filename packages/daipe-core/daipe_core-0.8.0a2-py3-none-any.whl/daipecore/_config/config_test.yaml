@@ -1,0 +1,6 @@
+services:
+  daipecore.logger:
+    class: logging.Logger
+    factory: ['@loggerbundle.LoggerFactory', 'create']
+    arguments:
+      - 'daipecore_test_logger'
