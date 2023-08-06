@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: python-cassandra-jaeger
+Version: 0.1a8
+Summary: Library to correctly pass current OpenTracing span to Cassandra
+Home-page: https://git.dms-serwis.com.pl/piotrmaslanka/python-cassandra-jaeger/
+Author: Piotr Maślanka
+Author-email: piotr.maslanka@henrietta.com.pl
+License: UNKNOWN
+Project-URL: Code, https://github.com/piotrmaslanka/python-cassandra-jaeger
+Project-URL: Issue tracker, https://github.com/piotrmaslanka/python-cassandra-jaeger/issues
+Description: # python-cassandra-jaeger
+        [![PyPI](https://img.shields.io/pypi/pyversions/python-cassandra-jaeger.svg)](https://pypi.python.org/pypi/python-cassandra-jaeger)
+        [![PyPI version](https://badge.fury.io/py/python-cassandra-jaeger.svg)](https://badge.fury.io/py/python-cassandra-jaeger)
+        [![PyPI](https://img.shields.io/pypi/implementation/python-cassandra-jaeger.svg)](https://pypi.python.org/pypi/python-cassandra-jaeger)
+        
+        
+        ## When do I use it?
+        
+        When I'm using the following technologies:
+        
+        * [cassandra-driver](https://pypi.org/project/cassandra-driver/)
+        * [cassandra-jaeger-tracing](https://github.com/smok-serwis/cassandra-jaeger-tracing)
+        
+        And you want to attach your traces to Cassandra's requests.
+        
+        ## Usage
+        
+        Just do the following:
+        
+        ```python
+        from python_cassandra_jaeger import SessionTracer
+        from cassandra.cluster import Cluster
+        
+        from .tracing import tracer
+        
+        c = Cluster(['127.0.0.1'])
+        s = c.connect('keyspace')
+        st = SessionTracer(s, tracer)
+        
+        st.execute('SELECT * FROM table')
+        ```
+        
+        And you keep on utilizing `st` instead of `s`.
+        This will automatically execute tracing when your span is being traced.
+        
+        
+        For tracing cassandra-driver using smok-serwis/cassandra-jaeger-tracing
+        
+Keywords: cassandra,cassandra-driver,jaeger,opentracing,query
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: !=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
+Description-Content-Type: text/markdown; charset=UTF-8
