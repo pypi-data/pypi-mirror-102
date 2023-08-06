@@ -1,0 +1,10 @@
+Targets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/__init__.py,sha256=yw3AJKdjXZFufMOnE0JIULi-U1dfZZARy9khGXTTkqs,73
+models/application.py,sha256=XcwiGpbGr-IqInieUQqQ0yX_focagdqkJ231lcyRe28,84
+models/plugins.py,sha256=hldqjw1ldxP1UuNI4D1KNNinIa4RkVP9_s9oOLmfiYE,75
+models/targets.py,sha256=Ad-SwW7xDF4hgwZgXf3eU24nwZViuF3quh7tlD2CyUg,75
+sego_cli-0.1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sego_cli-0.1.0.0.dist-info/METADATA,sha256=XeYh8HboPuN4dW1N_ZKT2DAA46pyWjvBJikBZMnnvak,3238
+sego_cli-0.1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sego_cli-0.1.0.0.dist-info/top_level.txt,sha256=UBiiUsHv17rjWWDRDSNRwlHuoMUU4PZC143C22Dh5pI,15
+sego_cli-0.1.0.0.dist-info/RECORD,,
