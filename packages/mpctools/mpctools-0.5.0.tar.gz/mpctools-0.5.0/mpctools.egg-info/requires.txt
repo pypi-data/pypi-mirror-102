@@ -1,0 +1,11 @@
+opencv-python
+scikit-learn
+matplotlib
+lapsolver
+hotelling
+seaborn
+pandas
+pathos
+scipy
+numpy
+numba
