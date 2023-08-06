@@ -1,0 +1,11 @@
+functionwords/__init__.py,sha256=HiEboc2XcH1nXxirlNV5zpGQH8mA2kqNpF_CN04ydH8,45
+functionwords/base.py,sha256=tD55yTuT4sCj_NHDyivKNDpL_Mx7gOHiy-Xqs6_rTDI,2498
+functionwords/resources/chinese_classical_comprehensive.json,sha256=cFENkFDR-fLZuScXfumj04dRvCqT3WAznrX_FdycBeQ,4660
+functionwords/resources/chinese_classical_naive.json,sha256=vwSSfrZ1Ww3nn4hQPnyhkd_hFM-hI8zc0W22vDaWoBU,320
+functionwords/resources/chinese_modern.json,sha256=Q52hIm2I8jfLjdUPAN9OH7WNNWuXYTzm9Pgknli5sFU,11616
+functionwords/resources/description.json,sha256=Ip_tomMFq7gRQcLSYR7a1JmnvEifdSn0YIJGM6MbRNw,1157
+functionwords/resources/english.json,sha256=lfgnjysKxGq1l0b1__wDcceVZJQhhQruBnQXMXm-Ug0,3757
+functionwords/resources/names.json,sha256=OetL02g3HY8nmkPdFss2bfq70rcMidOGAd-T6tI33oY,102
+functionwords-0.4.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+functionwords-0.4.2.dist-info/METADATA,sha256=59bsOIcFD4HltT1Hu0PLwKzpDl_Vg8tEP9IUN4s3uOo,3468
+functionwords-0.4.2.dist-info/RECORD,,
