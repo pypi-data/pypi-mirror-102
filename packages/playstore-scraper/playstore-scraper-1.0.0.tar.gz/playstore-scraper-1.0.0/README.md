@@ -1,0 +1,87 @@
+Playstore-Scraper is a python library to get information on playstore automatically using browser automation. 
+It currently runs only on windows.
+
+### Example 1
+In this example we first import library, then we will fetch the audiobook info.
+```sh
+from playstore_scraper import *
+book_link="https://play.google.com/store/audiobooks/details/Ryan_Turner_Python_Programming?id=AQAAAEDsWA4Y8M"
+response=playstore.get_audiobook_info(book_url=book_link)
+data=response['body']
+```
+
+### Example 2
+In this example we first import library, then we will fetch the ebook info.
+```sh
+from playstore_scraper import *
+book_link="https://play.google.com/store/books/details/Al_Sweigart_Automate_the_Boring_Stuff_with_Python?id=8AcvDwAAQBAJ"
+response=playstore.get_ebook_info(book_url=book_link)
+data=response['body']
+```
+
+### Example 3
+In this example we first import library, then we will fetch the movie info.
+```sh
+from playstore_scraper import *
+movie_link="https://play.google.com/store/movies/details/The_Three_Stooges?id=_GEvePCUliI"
+response=playstore.get_movie_info(movie_link=movie_url)
+data=response['body']
+```
+
+### Example 4
+In this example we first import library, then we will fetch the app info.
+```sh
+from playstore_scraper import *
+app_link="https://play.google.com/store/apps/details?id=com.match3blaster.DropStackBallFall"
+response=playstore.get_app_info(app_url=app_link)
+data=response['body']
+```
+
+#### BotStudio
+[bot_studio](https://pypi.org/project/bot_studio/) is needed for browser automation. As soon as this library is imported in code, automated browser will open up in which link will be opened.
+
+
+### Installation
+
+```sh
+pip install playstore-scraper
+```
+
+### Import
+```sh
+from playstore_scraper import *
+```
+
+### Get audiobook info
+```sh
+response=playstore.get_audiobook_info(book_url='book link')
+data=response['body']
+```
+
+### Get ebook info
+```sh
+response=playstore.get_ebook_info(book_url='book link')
+data=response['body']
+```
+
+### Get movie info
+```sh
+response=playstore.get_movie_info(movie_link='movie link')
+data=response['body']
+```
+
+### Get app info
+```sh
+response=playstore.get_app_info(app_url='app link')
+data=response['body']
+```
+
+### Send Feedback to Developers
+```sh
+bot_studio.send_feedback(feedback="Need help with this ......")
+```
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+* [Website](https://datakund.com)
+

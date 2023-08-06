@@ -1,0 +1,8 @@
+README.md
+setup.py
+playstore_scraper/__init__.py
+playstore_scraper.egg-info/PKG-INFO
+playstore_scraper.egg-info/SOURCES.txt
+playstore_scraper.egg-info/dependency_links.txt
+playstore_scraper.egg-info/requires.txt
+playstore_scraper.egg-info/top_level.txt
