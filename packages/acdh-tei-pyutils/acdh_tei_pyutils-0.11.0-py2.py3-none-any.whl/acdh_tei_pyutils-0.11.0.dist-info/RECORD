@@ -1,0 +1,13 @@
+acdh_tei_pyutils/__init__.py,sha256=briOtVuhG2QQBmsfT7wiLQcHCMPHomXrGU5Rqg6IIDM,144
+acdh_tei_pyutils/cli.py,sha256=bJNbAzqife1yh6evy8k6OftpDrvugh_PJZohIrK06ck,7843
+acdh_tei_pyutils/tei.py,sha256=AgiP8fERIu25B7Sw5Z0cnRmZ5ew63ysMpRq3p7YSNU0,7514
+acdh_tei_pyutils/utils.py,sha256=LNDN1NWKfKLwRTwhNOtz2e4R8xcRbU1Wv81McoXjmxQ,307
+acdh_tei_pyutils/files/clean_markup.xsl,sha256=Zt7CgHcF6guve-mw5GFOJZ2biPIIZ1QXi7qeZx3arrs,552
+acdh_tei_pyutils/files/tei.xml,sha256=g3n8pekF1wpL9KD80aGxXf_yfmdtjd4lwKQaJJH-DC0,4476
+acdh_tei_pyutils-0.11.0.dist-info/AUTHORS.rst,sha256=Ipby9-LDs-1lcmVP00LBzuaxxB6SD1NetUdx2zj9TDA,165
+acdh_tei_pyutils-0.11.0.dist-info/LICENSE,sha256=ORtiSKx2C-Jt5Kbj-Fp9Fqe9s2xSPJPH-rUsdT0qsmY,1072
+acdh_tei_pyutils-0.11.0.dist-info/METADATA,sha256=XdE3WW3u8lwyMbzNhlnVc1R_hRPO6hfbo0489G_G0AI,2368
+acdh_tei_pyutils-0.11.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+acdh_tei_pyutils-0.11.0.dist-info/entry_points.txt,sha256=Un4s_X8nnvBJnBukNwvacsYznTNbXqipEOIveSkpR5E,205
+acdh_tei_pyutils-0.11.0.dist-info/top_level.txt,sha256=PxuPASOvJDCvjOF4utuSOeBXCo23xR0Alt0yXVaDc9c,17
+acdh_tei_pyutils-0.11.0.dist-info/RECORD,,
