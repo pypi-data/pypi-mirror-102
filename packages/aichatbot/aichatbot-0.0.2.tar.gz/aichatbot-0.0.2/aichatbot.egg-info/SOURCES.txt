@@ -1,0 +1,11 @@
+README.md
+setup.py
+aichatbot/__init__.py
+aichatbot/chatbot.py
+aichatbot/speech2text.py
+aichatbot/utils.py
+aichatbot.egg-info/PKG-INFO
+aichatbot.egg-info/SOURCES.txt
+aichatbot.egg-info/dependency_links.txt
+aichatbot.egg-info/requires.txt
+aichatbot.egg-info/top_level.txt
