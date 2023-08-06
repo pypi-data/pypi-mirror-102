@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: robotframework-robotmk
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/simonmeggle/robotframework-robotmk
+Author: Simon Meggle
+Author-email: simon.meggle@elabit.de
+License: GPLv3
+Description: # robotframework-robotmk
+        
+        A kKeyword Library for Robotmk, the Robot Framework integration into Checkmk
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
