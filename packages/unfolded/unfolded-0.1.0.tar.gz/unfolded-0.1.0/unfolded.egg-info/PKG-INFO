@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: unfolded
+Version: 0.1.0
+Summary: Metapackage for Unfolded's public Python packages.
+Home-page: UNKNOWN
+Author: Unfolded
+Author-email: info@unfolded.ai
+License: Proprietary
+Description: Metapackage for Unfolded's public Python packages.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
