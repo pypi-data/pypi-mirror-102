@@ -1,0 +1,10 @@
+ondewo/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+ondewo/s2t/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/s2t/grpc_utils.py,sha256=RsooWeUg1KLf0zaggRC5uOEbOH3zhvzZA1JM1BZi55c,1665
+ondewo/s2t/speech_to_text_pb2.py,sha256=hDlwuoXRxeeq5qxJYncXvA1WbGDoRItkirZ0GvjYJKQ,83462
+ondewo/s2t/speech_to_text_pb2_grpc.py,sha256=CXUCjcLAD2usiN3VxE2n0GJ11HRzpqk3cu0GL3FiyIY,16636
+ondewo_s2t_client-1.4.1.dist-info/LICENSE,sha256=b64U8Nlwl-DmaozBK6sSUjWnhkGg9syz9EueNgfDLtg,10257
+ondewo_s2t_client-1.4.1.dist-info/METADATA,sha256=zuLLwBg64GDpxCxLxXWG3RnjffAhPUgCKNnEGsZ2MBU,1559
+ondewo_s2t_client-1.4.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ondewo_s2t_client-1.4.1.dist-info/top_level.txt,sha256=k6xvj-4simLbghb9G4LX5lD3UvNgTBdB-WT8oPDlqqE,7
+ondewo_s2t_client-1.4.1.dist-info/RECORD,,
