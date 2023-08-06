@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    lang="en"
+    metal:use-macro="context/@@main_template/macros/master"
+    i18n:domain="plone">
+<body>
+
+<metal:content-core fill-slot="content-core">
+<metal:block define-macro="content-core"
+             tal:define="content_type python: context.file.contentType;
+                         filename python: context.file.filename;
+                         mimetype_icon python: 'mimetype-' + content_type;
+                         download_url python: '{}/@@download/file/{}'.format(context.absolute_url(), filename)">
+
+  <section id="section-details" class="mb-5">
+    <tal:icon tal:replace="structure python:icons.tag(mimetype_icon)" />
+    <a class="" href="${python:download_url}" tal:content="python: filename">Filename</a>
+    <small class="meta-type text-muted">– <span i18n:translate="image_kind_label" tal:omit-tag="">Type</span>: <span tal:replace="python: content_type">image/jpeg</span></small>
+    <small class="meta-size text-muted">– <span i18n:translate="image_size_label" tal:omit-tag="">Size</span>: <span tal:define="size python: context.file.getSize()" tal:content="python: size">1000</span> kB</small>
+  </section>
+
+  <section id="section-video" tal:condition="python: view.is_videotype()">
+    <h2 i18n:translate="heading_file_video">Video</h2>
+    <video class="w-100" controls="controls">
+      <source src="${python:download_url}" type="${python:content_type}"></source>
+      <tal:translation i18n:translate="embedded_video_not_supported">Sorry, your browser doesn't support embedded videos.</tal:translation>
+    </video>
+  </section>
+
+  <section id="section-audio" tal:condition="python: view.is_audiotype()">
+    <h2 i18n:translate="heading_file_audio">Audio</h2>
+    <audio class="w-100" controls="controls">
+      <source tal:attributes="src python: download_url; type python: content_type"></source>
+      <tal:translation i18n:translate="embedded_audio_not_supported">Sorry, your browser doesn't support embedded audio.</tal:translation>
+    </audio>
+  </section>
+
+  <section id="section-text" tal:condition="python: content_type.startswith('text')">
+    <h2 i18n:translate="heading_file_contents">File contents</h2>
+    <div class="card">
+      <div class="card-body">
+        <pre tal:content="python: getattr(context.file, 'data', None)" />
+      </div>
+    </div>
+  </section>
+
+</metal:block>
+</metal:content-core>
+
+</body>
+</html>
