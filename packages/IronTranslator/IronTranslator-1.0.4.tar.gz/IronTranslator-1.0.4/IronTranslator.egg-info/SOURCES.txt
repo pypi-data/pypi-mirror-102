@@ -1,0 +1,10 @@
+README.rst
+setup.py
+IronTranslator/GoogleTranslate.py
+IronTranslator/__init__.py
+IronTranslator/constants.py
+IronTranslator.egg-info/PKG-INFO
+IronTranslator.egg-info/SOURCES.txt
+IronTranslator.egg-info/dependency_links.txt
+IronTranslator.egg-info/requires.txt
+IronTranslator.egg-info/top_level.txt
