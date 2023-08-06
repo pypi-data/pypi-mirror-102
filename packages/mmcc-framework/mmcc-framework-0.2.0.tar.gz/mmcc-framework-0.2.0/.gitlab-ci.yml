@@ -1,0 +1,36 @@
+# This file is a template, and might need editing before it works on your project.
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/python/tags/
+image: "python:3.7"
+
+# Commands to run in the Docker container before starting each job.
+before_script:
+  - python --version
+  - pip install -r requirements.txt
+
+# Pipeline stages
+stages:
+  - Test
+  - Deploy
+
+# Run all test
+unittest:
+  stage: Test
+  variables:
+    PYTHONPATH: "/builds/i3lab/mmcc/core/mmcc-framework"
+  script:
+    - pip install pylint
+    - cd tests
+    - python -m unittest discover -v
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+
+deploy:
+  stage: Deploy
+  script:
+    - pip install python-semantic-release
+    - git config user.email $GITLAB_USER_EMAIL
+    - git config user.name $GITLAB_USER_LOGIN
+    - semantic-release publish -v DEBUG
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
