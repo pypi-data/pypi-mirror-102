@@ -1,0 +1,12 @@
+pyBlendFigures/__init__.py,sha256=BbZYJxoFZ4YysGonPXZDycadErVc3O1cdq7KxA7SfIc,77
+pyBlendFigures/ForestPlot/ForestPlot.py,sha256=bC92SRVyzX8FvjJPHEOoOtMKhIdfxLjgdQhDKrACs8E,3956
+pyBlendFigures/ForestPlot/__init__.py,sha256=i-hcNDGTx8iZZdoc5H-VZRM_ucY-mXgautiOLQ9ZzKQ,36
+pyBlendFigures/ForestPlot/blend_forest.py,sha256=UCQLrqsZvwp8O6zfF6E4OOfxm4dcha89ewatlWZsfNA,13630
+pyBlendFigures/Supporting/Base.blend,sha256=hvCxhDbZCx-El2ziI9hcfqlLlWZJe18iEiIGZepIP2o,653064
+pyBlendFigures/Supporting/BlendController.py,sha256=VHVsyl28YIV3mdS9GtgVHwBxHfr94_Ar_9pa4FV-o_U,306
+pyBlendFigures/Supporting/__init__.py,sha256=KitE3QoaffJWUqNtzDjGl7m5kuPKXn5YasN2NsUkwGI,46
+pyBlendFigures-0.3.0.dist-info/LICENSE,sha256=xZcGbgqpLfUL-_kZyLf19H94ARWpF4q9LL3k7Cadvug,1090
+pyBlendFigures-0.3.0.dist-info/METADATA,sha256=hk8kvO5Hw5q-zAnvhAP7OUvAtELZBGTb2yaFkYiF4i4,653
+pyBlendFigures-0.3.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyBlendFigures-0.3.0.dist-info/top_level.txt,sha256=1Mux7wyOV-Blo1oHrOgSp3-cqNHD57rwQ9e0x2m0xvc,15
+pyBlendFigures-0.3.0.dist-info/RECORD,,
