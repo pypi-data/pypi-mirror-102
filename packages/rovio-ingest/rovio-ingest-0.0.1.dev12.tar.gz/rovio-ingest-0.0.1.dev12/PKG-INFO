@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rovio-ingest
+Version: 0.0.1.dev12
+Summary: 
+Author: Vivek Balakrishnan
+Author-email: vivek.balakrishnan@rovio.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyspark (>=3.0.0,<4.0.0)
