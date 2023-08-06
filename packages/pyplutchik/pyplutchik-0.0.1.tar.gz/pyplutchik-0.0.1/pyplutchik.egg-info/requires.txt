@@ -1,0 +1,5 @@
+descartes
+matplotlib
+numpy
+pandas
+shapely
