@@ -1,0 +1,6 @@
+assets
+deluca
+dist
+notebooks
+pkls
+scripts
