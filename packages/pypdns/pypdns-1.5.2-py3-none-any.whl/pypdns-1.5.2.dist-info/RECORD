@@ -1,0 +1,8 @@
+pypdns/__init__.py,sha256=PzDlH1ny616XH6_fK17VEiHuvMTBM_JWI3ZpOe3sHbY,134
+pypdns/api.py,sha256=v5KiXDYkE3_AiMjkc8H3XPK9sFRzEQbUa6Ev9EtBNF0,3472
+pypdns/errors.py,sha256=yB-CsXMP87gyqfvqQBXuOy7YhKOpxF7GYFn5_2ZQQKc,215
+pypdns/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypdns-1.5.2.dist-info/LICENSE,sha256=o1p6jKkqoo0k2KXZ23F8zTPaRGIoF8Gu9ADxi-QiUyo,1576
+pypdns-1.5.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pypdns-1.5.2.dist-info/METADATA,sha256=p-HtHaNlKiGQ18nhXLtlgd3__m2nGwW-zZ7SeJ_ZpMs,1583
+pypdns-1.5.2.dist-info/RECORD,,
