@@ -1,0 +1,6 @@
+click
+confloader
+loguru
+pex
+pytest
+pytest-watch

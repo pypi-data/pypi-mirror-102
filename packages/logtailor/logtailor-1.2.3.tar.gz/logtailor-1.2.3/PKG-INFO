@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: logtailor
+Version: 1.2.3
+Summary: Log tail and filter tool.
+Home-page: UNKNOWN
+Author: Stefan Braun
+Author-email: sb@stbraun.com
+License: MIT
+Description: UNKNOWN
+Keywords: development tools
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
