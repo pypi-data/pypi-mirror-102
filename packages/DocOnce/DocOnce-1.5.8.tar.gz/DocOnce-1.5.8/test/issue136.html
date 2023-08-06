@@ -1,0 +1,233 @@
+<!--
+HTML file automatically generated from DocOnce source
+(https://github.com/doconce/doconce/)
+doconce format html issue136.do.txt --execute --syntax_check=on
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/doconce/doconce/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<style type="text/css">
+/* blueish style */
+body {
+  margin-top: 1.0em;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, FreeSans, san-serif;
+  color: #000000;
+}
+h1 { font-size: 1.8em; color: #1e36ce; }
+h2 { font-size: 1.6em; color: #1e36ce; }
+h3 { font-size: 1.4em; color: #1e36ce; }
+h4 { font-size: 1.2em; color: #1e36ce; }
+a { color: #1e36ce; text-decoration:none; }
+tt { font-family: "Courier New", Courier; }
+p { text-indent: 0px; }
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-style: normal; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa; }
+/* pre style removed because it will interfer with pygments */
+div.highlight {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    line-height: 1.21429em;
+}
+div.cell {
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    margin: 0;
+    outline: none;
+}
+div.input {
+    page-break-inside: avoid;
+    box-orient: horizontal;
+    box-align: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+div.inner_cell {
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-flex: 1;
+    flex: 1;
+}
+div.input_area {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    background: #f7f7f7;
+    line-height: 1.21429em;
+}
+div.input_area > div.highlight {
+    margin: .4em;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+div.output_wrapper {
+    position: relative;
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.output {
+    box-orient: vertical;
+    box-align: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+div.output_area {
+    padding: 0;
+    page-break-inside: avoid;
+    box-orient: horizontal;
+    box-align: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+div.output_subarea {
+    padding: .4em .4em 0 .4em;
+    box-flex: 1;
+    flex: 1;
+}
+div.output_text {
+    text-align: left;
+    color: #000;
+    line-height: 1.21429em;
+}
+div { text-align: justify; text-justify: inter-word; }
+.tab {
+  padding-left: 1.5em;
+}
+div.toc p,a {
+  line-height: 1.3;
+  margin-top: 1.1;
+  margin-bottom: 1.1;
+}
+</style>
+</head>
+
+<!-- tocinfo
+{'highest level': 2,
+ 'sections': [('Plain text', 2, None, 'plain-text'),
+              ('Explanation', 2, None, 'explanation'),
+              ('Table', 2, None, 'table'),
+              ('Figure', 2, None, 'figure'),
+              ('Math', 2, None, 'math'),
+              ('References', 2, None, 'references')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<!-- ------------------- main content ---------------------- -->
+<h2 id="plain-text">Plain text </h2>
+
+<p>Here is some plain text.</p>
+
+<p>Now we add a citation: a Langtangen book #<a href="#CaiLangtangen2006">[1]</a>. And a paper <a href="#Chorin1968">[2]</a>.</p>
+<h2 id="explanation">Explanation </h2>
+
+<p>Let's explain some of this code
+(setting the code to be unexecutable):
+</p>
+
+<p>The <code>for</code> loop:</p>
+
+
+<!-- code=python (!bc pycod) typeset with pygments style "default" -->
+<div class="cell border-box-sizing code_cell rendered">
+  <div class="input">
+    <div class="inner_cell">
+      <div class="input_area">
+        <div class="highlight" style="background: #f8f8f8">
+  <pre style="line-height: 125%;"><span style="color: #008000; font-weight: bold">for</span> number <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>(<span style="color: #666666">10</span>):
+   total <span style="color: #666666">=</span> total <span style="color: #666666">+</span> (number <span style="color: #666666">+</span> <span style="color: #666666">1</span>)
+</pre>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="output_wrapper">
+    <div class="output">
+      <div class="output_area">
+        <div class="output_subarea output_stream output_stdout output_text">          
+<pre>
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-70aa03522a03> in <module>
+      1 for number in range(10):
+----> 2    total = total + (number + 1)
+
+NameError: name 'total' is not defined</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>Goes through numbers 0 to 9 and adds 1 more than each number to the <code>total</code> variable.</p>
+<h2 id="table">Table </h2>
+
+<p>The data on exponential growth can be found in the table below.</p>
+
+<table class="table" border="1">
+<thead>
+<tr><th align="center">time</th> <th align="center">  count  </th> </tr>
+</thead>
+<tbody>
+<tr><td align="center">   60      </td> <td align="center">   10000        </td> </tr>
+<tr><td align="center">   90      </td> <td align="center">   25587        </td> </tr>
+<tr><td align="center">   120     </td> <td align="center">   76327        </td> </tr>
+<tr><td align="center">   150     </td> <td align="center">   212715       </td> </tr>
+<tr><td align="center">   180     </td> <td align="center">   619511       </td> </tr>
+<tr><td align="center">   210     </td> <td align="center">   1940838      </td> </tr>
+<tr><td align="center">   240     </td> <td align="center">   4240760      </td> </tr>
+<tr><td align="center">   270     </td> <td align="center">   13993730     </td> </tr>
+<tr><td align="center">   300     </td> <td align="center">   38971086     </td> </tr>
+<tr><td align="center">   330     </td> <td align="center">   105614040    </td> </tr>
+</tbody>
+</table>
+<h2 id="figure">Figure </h2>
+
+<p>See figure <a href="#PythonDict">PythonDict</a> for an illustration that explains the python dictionary concept.</p>
+
+<!-- FIGURE: [../img/PythonDict, width=400 frac=0.8] Data structure concept of a dictionary in python. #From <a href="#PythonDict">[3]</a>. <div id="PythonDict"></div> -->
+<h2 id="math">Math </h2>
+
+<p>Now we add some mathematical formula:</p>
+
+$$
+\begin{equation*}
+K_n = rwTK_{n-1}\left (1 - \frac{K_{n-1}}{H}\right ) - K_{n-1}.
+\end{equation*}
+$$
+<h2 id="references">References </h2>
+
+<!-- BIBFILE: papers.pub -->
+<!-- ------------------- end of main content --------------- -->
+</body>
+</html>
+    
+

@@ -1,0 +1,19 @@
+TOC: on
+
+aaa
+
+!bsummary
+l'entrée
+
+*l'entrée*
+
+l'entrée
+
+_l'entrée_
+
+__l'entrée__
+
+`l'entrée`
+
+!esummary
+

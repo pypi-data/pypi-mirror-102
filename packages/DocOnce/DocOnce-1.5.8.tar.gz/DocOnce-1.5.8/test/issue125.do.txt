@@ -1,0 +1,4 @@
+1 we also add some keywords in a bullet list on the left and a
+2 figure on the right. The `!bslidecell XY f` command starts the
+3 definition of a cell in a grid of cells in the slide. The `XY`
+4 part defines the coordinates of the cell, `00` is upper left,

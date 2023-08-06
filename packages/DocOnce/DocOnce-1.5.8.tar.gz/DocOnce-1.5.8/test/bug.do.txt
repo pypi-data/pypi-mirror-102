@@ -1,0 +1,34 @@
+===== Testing =====
+Here is some text 
+continuing on a second line
+ 
+Paragraph (indentation) after empty line. 
+Now test \newline
+newline (no indentation)\\
+two backslashes (no indentation)\hfill \break
+and then hfill break. 
+
+
+!bc pypro
+import numpy as np
+
+
+
+'three whitelines'
+!ec
+
+Now test a page break:\clearpage
+page break used with clearpage
+
+
+# Test multi-line caption in figure with sidecap=True
+
+Here is figure ref{myfig} with a long (illegal) multi-line caption
+containing inline verbatim text:
+
+FIGURE: [testfigs/wave1D.png, width=500 sidecap=True] A long
+caption spanning
+several lines and containing verbatim words like `my_file_v1` and `my_file_v2`
+as well as math with subscript as in $t_{i+1}$. label{myfig}
+
+# Must be a blank line after MOVIE or FIGURE to detect this problem

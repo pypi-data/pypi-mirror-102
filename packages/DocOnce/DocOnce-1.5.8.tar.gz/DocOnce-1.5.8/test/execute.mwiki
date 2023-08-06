@@ -1,0 +1,122 @@
+== '''Automatic execution of code blocks''' ==
+
+Convert this document to <code>ipynb</code>, <code>latex</code> or <code>html</code> with e.g.:
+
+<syntaxhighlight lang="text">
+doconce format ipynb execute.do.txt --execute
+</syntaxhighlight>
+
+This is a normal python block using the <code>pycod</code> environment
+<syntaxhighlight lang="python">
+print('pycod')
+</syntaxhighlight>
+
+This is a normal bash block using the <code>sh</code> environment
+<syntaxhighlight lang="text">
+if [ 1 -eq 0 ] ; then echo 1; fi
+</syntaxhighlight>
+
+Hidden execution cells (<code>pyhid</code>, <code>pycod-e</code>) can be used to perform operations (e.g. imports, variable initializations) without showing any cell.  
+The <code>pyhid</code> environment executes and hides the cell in formats other than .ipynb:
+
+
+
+The <code>pycod-e</code> environment executes but hides the cell also in .ipynb files:
+<syntaxhighlight lang="python">
+import os
+os.listdir(".")
+a = 1
+print('hide pycod-e')
+</syntaxhighlight>
+
+<code>pycod</code> is a normal cell that should execute automatically when using <code>--execute</code>. Note that this cells relies on code executed in a previous hidden cell:
+<syntaxhighlight lang="python">
+print(sys.version)
+b = 2
+c = a + b
+print("The result is {}".format(c))
+c
+</syntaxhighlight>
+
+<!-- !split -->
+== Special environments ==
+
+The <code>*-t</code> environment (e.g. <code>pycod-t</code>) formats a cell to text, and can be used to print an example
+<syntaxhighlight lang="python">
+# This is a for-loop example
+for i in [0,10]:
+  print(i)
+</syntaxhighlight>
+
+The <code>*out</code>  (e.g. <code>pycod-out</code>) environment can be used to write a cell output:
+<syntaxhighlight lang="python">
+# This is a text cell using pycod-t
+1/0
+</syntaxhighlight>
+<syntaxhighlight lang="text">
+# This is a output cell using the `pycod-out` environment
+1/0: You cannot divide by zero
+</syntaxhighlight>
+
+The <code>-h</code> postfix can be used in the <code>html</code> format to show a Show/Hide button that toggles the code visibility. 
+
+The <code>pyscpro</code> environment creates an interactive cell using [https://github.com/sagemath/sagecell/ Sage] in the <code>html</code> format
+
+<!-- !split -->
+== Plotting ==
+
+This is a cell that should plot and output:
+
+<syntaxhighlight lang="python">
+from pylab import *
+x = linspace(0, 10, 100)
+plot(x, x*x)
+show()
+</syntaxhighlight>
+
+To improve quality when exporting to LaTeX, the following code has automatically
+been run to enable PDF export in notebooks.
+
+<syntaxhighlight lang="python">
+from IPython.display import set_matplotlib_formats
+set_matplotlib_formats('png', 'pdf')
+</syntaxhighlight>
+
+<!-- !split -->
+== Ignore output ==
+
+Predefined output can be omitted by passing <code>--ignore_output</code> to DocOnce.
+This will remove all environments ending with <code>out</code>.
+
+<syntaxhighlight lang="python">
+a = 2
+print(a)
+</syntaxhighlight>
+
+<syntaxhighlight lang="text">
+2
+</syntaxhighlight>
+
+<!-- !split -->
+== Code with errors ==
+
+If code contains errors, it will still be run and the exception shown as part
+of the output:
+
+<syntaxhighlight lang="python">
+for a in range(10)
+    print(a)
+</syntaxhighlight>
+
+<!-- !split -->
+== Opening files ==
+
+The working directory is the same as the .do.txt file.
+You may want to use <code>os.chdir</code> to change the directory.
+
+<syntaxhighlight lang="python">
+with open("../LICENSE") as f:
+    print(f.read())
+</syntaxhighlight>
+
+
