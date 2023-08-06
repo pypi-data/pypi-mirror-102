@@ -1,0 +1,5 @@
+pyserial
+playsound
+gTTS
+pydub
+requests
