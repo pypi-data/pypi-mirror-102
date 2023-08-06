@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "screenshotz"
+version = "3.0"
+authors = [ "Robert Lechte <robert.lechte@dpc.vic.gov.au>",]
+license = "Unlicense"
+readme = "README.md"
+description = "Basic screenshot scripting"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+selenium = "*"
+pyyaml = "*"
+Pillow = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = {version="*", python=">=3.8,<4"}
+pytest-cov = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+black = { version = ">=19.10b0", python=">=3.8" }
+
+[tool.poetry.scripts]
+screenshotz = 'screenshotz:command.do_command'
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+line_length = 88

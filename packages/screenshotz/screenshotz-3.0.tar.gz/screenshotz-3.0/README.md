@@ -1,0 +1,1 @@
+# `screenshotz`: Easy screenshot scripting
