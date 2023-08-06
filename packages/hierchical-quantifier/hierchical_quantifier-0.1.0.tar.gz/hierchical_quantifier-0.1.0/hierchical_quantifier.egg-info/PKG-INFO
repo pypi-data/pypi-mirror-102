@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hierchical-quantifier
+Version: 0.1.0
+Summary: computig hierarchical quantifier value from music pieces
+Home-page: https://github.com/DCMLab/hierarchicity-in-music
+Author: Niroshan Vijayarasa
+Author-email: nirobnc@gmail.ch
+License: UNKNOWN
+Description: # Quantify Hierarchicity in Western Classical Music
+        [![codecov](https://codecov.io/gh/DCMLab/hierarchicity-in-music/branch/master/graph/badge.svg?token=LKO7M8A35X)](https://codecov.io/gh/DCMLab/hierarchicity-in-music)
+        
+        Python library to compute Information-theoretical based measures on music data. It contains
+        the implementation 
+        
+        - Mutual information based quantifier to compute the long-term and short-term relationship
+        in a music corpus.
+        
+        - Kullback-Leibler divergence based quantifer to compute the Information gain given a section
+        of a piece relative to the hole music piece.
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

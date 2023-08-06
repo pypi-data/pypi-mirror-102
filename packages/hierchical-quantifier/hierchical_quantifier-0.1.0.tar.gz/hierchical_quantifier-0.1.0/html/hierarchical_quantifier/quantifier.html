@@ -1,0 +1,1016 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>hierarchical_quantifier.quantifier API documentation</title>
+<meta name="description" content="This module contains all the function which allows to compute hierarchical quantifier value
+using a pitch class distribution." />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>hierarchical_quantifier.quantifier</code></h1>
+</header>
+<section id="section-intro">
+<p>This module contains all the function which allows to compute hierarchical quantifier value
+using a pitch class distribution.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+This module contains all the function which allows to compute hierarchical quantifier value
+using a pitch class distribution.
+&#34;&#34;&#34;
+import numpy as np
+from hierarchical_quantifier.utils import read_pickle, write_pickle, check_pickle_argument
+from multiprocessing import Pool
+__NBR_PITCH = 12  # number of pitch class.
+from itertools import repeat
+import functools
+
+
+
+
+def __check_corpus_count_input(counts: np.ndarray) -&gt; np.ndarray:
+    if (type(counts) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if counts.shape[2] != __NBR_PITCH:
+        raise ValueError(&#39;Wrong number of pitch classes&#39;)
+
+    if counts.ndim != 3:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if counts.shape[0] &lt; 2:
+        raise ValueError(&#39;Input is not a corpus.&#39;)
+
+    if (counts &lt; 0).any():
+        raise ValueError(&#39;Corpus contains at least  one negative count&#39;)
+
+
+def __check_scape_input(scape: np.ndarray) -&gt; np.ndarray:
+    if (type(scape) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if scape.ndim != 2:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if scape.shape[0] != scape.shape[1]:
+        raise ValueError(&#39;scape array must be equal dimension.&#39;)
+
+
+def get_mi_scape(counts: np.ndarray, set_zero_diagonal: bool = True,pickle=False,force_reset=False) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the Mutual
+    Information value for each pair of time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :param set_zero_diagonal: By default is True, set to 0 the Mutual information value for the same time index.
+    :type counts: numpy.ndarray (m, n, 12)
+    :type set_zero_diagonal: bool
+    :return: 2D array of the Mutual information value indexes by time indexes.
+    :rtype: numpy.ndarray of shape (n,n)
+    &#34;&#34;&#34;
+    if (type(set_zero_diagonal) != bool):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    __check_corpus_count_input(counts)
+
+    mutual_info = read_pickle(pickle)
+    if not mutual_info is None:
+        return mutual_info
+
+
+    pcd = get_pcd(counts)
+    jpcd = get_join_pcd(counts)
+
+    # == Mutual information
+    h_pcd = __compute_entropy_pdc(pcd)
+    h_jpcd = __compute_entropy_jpdc(jpcd)
+
+    mutual_info = (h_pcd + h_pcd[:, None]) - h_jpcd
+    n = mutual_info.shape[0]
+    if set_zero_diagonal:
+        mutual_info[np.diag_indices(n)] = 0
+
+    write_pickle(force_reset, mutual_info)
+
+    return mutual_info
+
+
+def get_pcd(counts: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the pitch class distribution
+    for each time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :type counts: numpy.ndarray (m, n, 12)
+    :return: Pitch class distribution of a corpus.
+    :rtype: numpy.ndarray of shape (n,12)
+    &#34;&#34;&#34;
+    __check_corpus_count_input(counts)
+
+    # == Pitch class distribution
+    normalize = np.sum(counts, axis=2)[:, :, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # add the silence
+    count[(np.sum(counts, axis=2) == 0), :] = 1 / __NBR_PITCH
+
+    count = np.sum(count, axis=0)[None]
+    norm2 = np.sum(count, axis=2)[:, :, None]
+
+    return np.ma.divide(count, norm2).filled(0)[0]
+
+
+def get_join_pcd(counts: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the join pitch class distribution
+    for each pair og time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :type counts: numpy.ndarray (m, n, 12)
+    :return: Join pitch class distribution of a corpus.
+    :rtype: numpy.ndarray of shape (n,n,12)
+    &#34;&#34;&#34;
+    __check_corpus_count_input(counts)
+
+    pcd = get_pcd(counts)  # check if it can be given as argument.
+
+    # == Join pitch class distribution
+    normalize = np.sum(counts, axis=2)[:, :, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # thread the silence
+    count[(np.sum(count, axis=2) == 0), :] = 1 / __NBR_PITCH  # silence note
+
+    y = count[:, None, :, None, :] * count[:, :, None, :, None]  # count the occurences
+
+    y = np.sum(y, axis=0)  # aggregate the pieces
+    jpcd = np.ma.divide(y, np.sum(y, axis=(2, 3))[:, :, None, None]).filled(0)
+
+    index_time = list(range(0, jpcd.shape[0]))
+    jpcd[index_time, index_time, :, :] = 0
+
+    for i in index_time:
+        jpcd[i, i, :, :] = np.diag(pcd[i, :])
+
+    return jpcd
+
+
+def get_pitch_scape(counts: np.ndarray,pickle = False,force_reset = False) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given the pitch class distribution(PCD) of a piece, this function return the pitchscape representation of it.
+
+    :param counts: Pitch class distribution of a piece. The number
+    of time bins is n.
+    :type counts: numpy.nparray of shape (n, 12).
+    :return: Return the Pitchscape representation of the piece. It allows to compute the pitch class
+    distribution given a time interval. Note that the PDC of negative time interval is set to zero.
+    :rtype: numpy.ndarray of shape (n, n, 12).
+
+    &#34;&#34;&#34;
+    if (type(counts) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if counts.shape[1] != __NBR_PITCH:
+        raise ValueError(&#39;Wrong number of pitch classes&#39;)
+
+    if counts.ndim != 2:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if (counts &lt; 0).any():
+        raise ValueError(&#39;Piece contains at least one negative count&#39;)
+
+
+    res = read_pickle(pickle)
+    if not res is None:
+        return res
+
+    normalize = np.sum(counts, axis=1)[:, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # thread the silence
+    count[(np.sum(count, axis=1) == 0), :] = 1 / __NBR_PITCH  # silence note
+
+    size = counts.shape[0]
+
+    res = np.zeros((size, size, __NBR_PITCH))
+    for i in np.arange(size):
+        for j in np.arange(size):
+            if j &gt;= i:
+                res[i, j, :] = np.sum(count[i:j + 1, :], axis=0)
+
+    # normalize
+    norm2 = np.sum(res, axis=2)[:, :, None]
+    res = np.ma.divide(res, norm2).filled(0)
+
+    write_pickle(force_reset,res)
+
+    return res
+
+
+def get_kld_scape(pitch_scape: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a pitch scape representation of a piece, this function return the Kullback-Leibler
+    divergence(KLD) value from the hole piece to any subsection of the piece.
+
+    :param pitch_scape: Pitchscape representation of a piece. The number of time bins of the piece is n.
+    :type pitch_scape: numpy.ndarray of shape (n, n, 12).
+    :return: Return the KLD value from the hole piece to any subsection of the piece
+    :rtype: numpy.ndarray of shape (n, n).
+    &#34;&#34;&#34;
+    if (type(pitch_scape) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if pitch_scape.ndim != 3:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if pitch_scape.shape[2] != __NBR_PITCH:
+        raise ValueError(&#39;Wrong number of pitch classes&#39;)
+
+    if (pitch_scape &lt; 0).any():
+        raise ValueError(&#39;pitch scape contains at least one negative count&#39;)
+
+    full_piece_prob_dist = pitch_scape[0, -1, :]
+    # print(self.__k_l_divergence(full_piece_prob_dist,self.prob_density[0,10,:]
+    res = pitch_scape
+    map_func = lambda x: __k_l_divergence(full_piece_prob_dist, x)
+    res = map_func(res)
+    res = np.sum(res, axis=2)
+
+    return res
+
+
+def __compute_entropy_pdc(prob_density: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a Pitch class distribution, this function computes the entropy value.
+
+    :param prob_density: The pitch class distribution. The sample size is n.
+    :type prob_density: numpy.ndarray of shape (n, 12).
+    :return: Entropy value array indexed by time index.
+    :rtype: numpy.ndarray of shape (n,).
+    &#34;&#34;&#34;
+    ret = prob_density * (-1 * np.ma.log2(prob_density).filled(0))
+    return np.sum(ret, axis=1)
+
+
+def __compute_entropy_jpdc(prob_density: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a Join Pitch class distribution, this function computes the join entropy value.
+
+    :param prob_density: The join pitch class distribution. The sampe size is n.
+    :type prob_density: numpy.ndarray of shape (n, n, 12).
+    :return: Join entropy value array indexed by pair of time indexes.
+    :rtype: numpy.ndarray of shape (n, n).
+    &#34;&#34;&#34;
+    ret = prob_density * (-1 * np.ma.log2(prob_density).filled(0))
+    return np.sum(ret, axis=(2, 3))
+
+
+def reduce_scape_2d(scape: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a scape representation weighted by a quantifier, this function computes the center of gravity
+    point of the scape. It also computes the covariance matrix of the sampled points.
+
+    :param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+    :type scape: numpy.ndarray of shape (n, n).
+    :return: tuple formed with the Center of gravity of the scape representation and the covariance matrix.
+    The coordinate of the center of gravity is express using the horitzontal time index and vertical time index.
+    :rtype: (numpy.ndarray, numpy.ndarray) center of gravity is of shape (2,) and the covariance matrix is of
+    shape (2,2).
+    &#34;&#34;&#34;
+    __check_scape_input(scape)
+
+    scape = np.triu(scape, k=0)
+    non_zero = scape.nonzero()
+
+    scape_nonzero = scape[non_zero]
+    sum_scape_non_zero = sum(scape[non_zero])
+    (t_s, t_e) = ((sum(scape_nonzero * non_zero[0]) / sum_scape_non_zero),
+                  (sum(scape_nonzero * non_zero[1]) / sum_scape_non_zero))
+
+    # compute the covariance matrix
+    X = np.asarray(non_zero).transpose()
+    # change the index
+    Y = np.asarray([__convert_to_scape_axis(x) for x in X])
+
+    weight = scape[non_zero]
+    weight = weight / np.linalg.norm(weight)
+
+    return (__convert_to_scape_axis(np.asarray([t_s, t_e])), np.cov(Y, rowvar=False, aweights=weight, bias=False))
+
+
+def reduce_scape_horizontale(scape: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a scape representation weighted by a quantifier value, this function computes the mean quantifier value
+    over the distance time index. It also computed the variance value over the time index distance.
+    :param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+    :type scape: numpy.ndarray of shape (n, n).
+    :return: The mean value and the variance of the quantifier for each distance time index.
+    :rtype: (numpy.ndarray, numpy.ndarray) the mean  and the variance are of shape  (n,)
+    &#34;&#34;&#34;
+    __check_scape_input(scape)
+
+    scape = np.triu(scape, k=0)
+    dist = []
+    variance = []
+    for i in range(0, scape.shape[0]):
+        dist.append(scape.diagonal(i).mean())
+        variance.append(np.var(scape.diagonal(i)))
+
+    dist = np.asarray(dist)
+    variance = np.asarray(variance)
+
+    return (dist, variance)
+
+
+
+def reduce_1d(arr: np.ndarray) -&gt; (float, float):
+    &#34;&#34;&#34;
+    Given a horizonzal reduction of a scape, this function compute the center of gravity 1D (with variance) of
+    scape.
+    :param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+    :type arr: numpy.ndarray of shape (n,)
+    :return: tuple of the center of gravity and the variance of the two-way reduction of the scape.
+    :rtype: (float, float)
+    &#34;&#34;&#34;
+    if (type(arr) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if arr.ndim != 1:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    index = np.arange(0, arr.shape[0])
+    c = (sum(index * arr) / sum(arr))
+
+    # variance
+    norm_arr = arr / np.linalg.norm(arr)
+    c_var = sum((index - c) * (index - c) * norm_arr)
+    return (c, c_var)
+
+
+def get_mean_var(arr: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a horizontale reduction of a scape, this function compute the average quantifier value (with variance).
+    :param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+    :type arr: numpy.ndarray of shape (n,)
+    :return: Tuple of the average mean and variance value of the quantifier.
+    :rtype: (float, float)
+    &#34;&#34;&#34;
+    return (np.mean(arr), np.var(arr))
+
+
+def __convert_to_scape_axis(cog: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a 2D point express using a start and end time index, this function express the point
+    using horizontal and vertical time axes.
+    :param cog: a 2D point express in start and end time axes.
+    :type cog: numpy.ndarray of shape (2,)
+    :return: expression of the point using horizontal and vertical time axes.
+    :rtype: numpy.ndarray of shape (2,)
+    &#34;&#34;&#34;
+    (t_s, t_e) = cog
+    (t_h, t_v) = ((t_s + t_e) / 2, (t_e - t_s))
+    return np.asarray([t_h, t_v])
+
+
+def __k_l_divergence(q: np.ndarray, p: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given two probability distributions q and p, this function computes the KLD value from q to p.
+
+    :param q: Prior probability distribution
+    :param p: Posterior probability distribution
+    :type q: numpy.ndarray
+    :type p: numpy.ndarray
+    :return: KLD value terms indexed by time index.
+    :rtype: numpy.nparray
+    &#34;&#34;&#34;
+    temp = np.ma.divide(p, q).filled(0)
+    return p * (np.ma.log2(temp).filled(0))
+
+#*
+def bootstrap(data: np.ndarray, func=None, n: int = 100,pickle = False,force_reset = False) -&gt; list:
+    &#34;&#34;&#34;
+    This function allows to perform bootstraping on hierarchical quantifier data.
+
+    :param data: Hierarchical quantifer data.
+    :param func: Transformation function applied to data. The return type of this function is bootstrapted.
+    :param n: Bootstrap size. By default is 100.
+    :type data: numpy.ndarray
+    :type n: int
+    :return: List of return value of the transformation function func. Each element of the list represent an
+    iteration of the bootstrap.
+    :rtype: list
+
+    &#34;&#34;&#34;
+
+    if (type(data) != np.ndarray and type(data) != list):
+        raise TypeError(&#39;Wrong input types. data&#39;)
+
+    if type(n) != int:
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if func is None:
+        raise ValueError(&#39;no  bootstrap function is given.&#39;)
+    if n &lt;= 0:
+        raise ValueError(&#39;bootstrap iteration must be hiher than 0.&#39;)
+
+
+    res = read_pickle(pickle)
+
+    if not res is None:
+        return res
+
+    res = []
+
+    for i in range(0,n):
+        temp = data[np.random.choice(data.shape[0], size=(
+            data.shape[0],))]
+
+
+        res.append(func(temp))
+
+    &#39;&#39;&#39;
+    for i in range(0, n):
+        temp = data[np.random.choice(data.shape[0], size=(
+            data.shape[0],))]
+
+        res.append(temp)
+
+    with Pool(5) as p:
+
+        #foo = functools.partial(func)
+        res = p.starmap(func,res)
+        #ret = p.map(func, res)
+        print(res)
+    &#39;&#39;&#39;
+
+    write_pickle(force_reset,res)
+
+    return res
+
+
+def global_function(x,func):
+    return func(x)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="hierarchical_quantifier.quantifier.bootstrap"><code class="name flex">
+<span>def <span class="ident">bootstrap</span></span>(<span>data: numpy.ndarray, func=None, n: int = 100, pickle=False, force_reset=False) ‑> list</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This function allows to perform bootstraping on hierarchical quantifier data.</p>
+<p>:param data: Hierarchical quantifer data.
+:param func: Transformation function applied to data. The return type of this function is bootstrapted.
+:param n: Bootstrap size. By default is 100.
+:type data: numpy.ndarray
+:type n: int
+:return: List of return value of the transformation function func. Each element of the list represent an
+iteration of the bootstrap.
+:rtype: list</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def bootstrap(data: np.ndarray, func=None, n: int = 100,pickle = False,force_reset = False) -&gt; list:
+    &#34;&#34;&#34;
+    This function allows to perform bootstraping on hierarchical quantifier data.
+
+    :param data: Hierarchical quantifer data.
+    :param func: Transformation function applied to data. The return type of this function is bootstrapted.
+    :param n: Bootstrap size. By default is 100.
+    :type data: numpy.ndarray
+    :type n: int
+    :return: List of return value of the transformation function func. Each element of the list represent an
+    iteration of the bootstrap.
+    :rtype: list
+
+    &#34;&#34;&#34;
+
+    if (type(data) != np.ndarray and type(data) != list):
+        raise TypeError(&#39;Wrong input types. data&#39;)
+
+    if type(n) != int:
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if func is None:
+        raise ValueError(&#39;no  bootstrap function is given.&#39;)
+    if n &lt;= 0:
+        raise ValueError(&#39;bootstrap iteration must be hiher than 0.&#39;)
+
+
+    res = read_pickle(pickle)
+
+    if not res is None:
+        return res
+
+    res = []
+
+    for i in range(0,n):
+        temp = data[np.random.choice(data.shape[0], size=(
+            data.shape[0],))]
+
+
+        res.append(func(temp))
+
+    &#39;&#39;&#39;
+    for i in range(0, n):
+        temp = data[np.random.choice(data.shape[0], size=(
+            data.shape[0],))]
+
+        res.append(temp)
+
+    with Pool(5) as p:
+
+        #foo = functools.partial(func)
+        res = p.starmap(func,res)
+        #ret = p.map(func, res)
+        print(res)
+    &#39;&#39;&#39;
+
+    write_pickle(force_reset,res)
+
+    return res</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_join_pcd"><code class="name flex">
+<span>def <span class="ident">get_join_pcd</span></span>(<span>counts: numpy.ndarray) ‑> numpy.ndarray</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a sampled pitchscape representation of each piece in a corpus, this function computes the join pitch class distribution
+for each pair og time index.</p>
+<p>:param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+of time bins is n.
+:type counts: numpy.ndarray (m, n, 12)
+:return: Join pitch class distribution of a corpus.
+:rtype: numpy.ndarray of shape (n,n,12)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_join_pcd(counts: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the join pitch class distribution
+    for each pair og time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :type counts: numpy.ndarray (m, n, 12)
+    :return: Join pitch class distribution of a corpus.
+    :rtype: numpy.ndarray of shape (n,n,12)
+    &#34;&#34;&#34;
+    __check_corpus_count_input(counts)
+
+    pcd = get_pcd(counts)  # check if it can be given as argument.
+
+    # == Join pitch class distribution
+    normalize = np.sum(counts, axis=2)[:, :, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # thread the silence
+    count[(np.sum(count, axis=2) == 0), :] = 1 / __NBR_PITCH  # silence note
+
+    y = count[:, None, :, None, :] * count[:, :, None, :, None]  # count the occurences
+
+    y = np.sum(y, axis=0)  # aggregate the pieces
+    jpcd = np.ma.divide(y, np.sum(y, axis=(2, 3))[:, :, None, None]).filled(0)
+
+    index_time = list(range(0, jpcd.shape[0]))
+    jpcd[index_time, index_time, :, :] = 0
+
+    for i in index_time:
+        jpcd[i, i, :, :] = np.diag(pcd[i, :])
+
+    return jpcd</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_kld_scape"><code class="name flex">
+<span>def <span class="ident">get_kld_scape</span></span>(<span>pitch_scape: numpy.ndarray) ‑> numpy.ndarray</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a pitch scape representation of a piece, this function return the Kullback-Leibler
+divergence(KLD) value from the hole piece to any subsection of the piece.</p>
+<p>:param pitch_scape: Pitchscape representation of a piece. The number of time bins of the piece is n.
+:type pitch_scape: numpy.ndarray of shape (n, n, 12).
+:return: Return the KLD value from the hole piece to any subsection of the piece
+:rtype: numpy.ndarray of shape (n, n).</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_kld_scape(pitch_scape: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a pitch scape representation of a piece, this function return the Kullback-Leibler
+    divergence(KLD) value from the hole piece to any subsection of the piece.
+
+    :param pitch_scape: Pitchscape representation of a piece. The number of time bins of the piece is n.
+    :type pitch_scape: numpy.ndarray of shape (n, n, 12).
+    :return: Return the KLD value from the hole piece to any subsection of the piece
+    :rtype: numpy.ndarray of shape (n, n).
+    &#34;&#34;&#34;
+    if (type(pitch_scape) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if pitch_scape.ndim != 3:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if pitch_scape.shape[2] != __NBR_PITCH:
+        raise ValueError(&#39;Wrong number of pitch classes&#39;)
+
+    if (pitch_scape &lt; 0).any():
+        raise ValueError(&#39;pitch scape contains at least one negative count&#39;)
+
+    full_piece_prob_dist = pitch_scape[0, -1, :]
+    # print(self.__k_l_divergence(full_piece_prob_dist,self.prob_density[0,10,:]
+    res = pitch_scape
+    map_func = lambda x: __k_l_divergence(full_piece_prob_dist, x)
+    res = map_func(res)
+    res = np.sum(res, axis=2)
+
+    return res</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_mean_var"><code class="name flex">
+<span>def <span class="ident">get_mean_var</span></span>(<span>arr: numpy.ndarray) ‑> (<class 'numpy.ndarray'>, <class 'numpy.ndarray'>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a horizontale reduction of a scape, this function compute the average quantifier value (with variance).
+:param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+:type arr: numpy.ndarray of shape (n,)
+:return: Tuple of the average mean and variance value of the quantifier.
+:rtype: (float, float)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_mean_var(arr: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a horizontale reduction of a scape, this function compute the average quantifier value (with variance).
+    :param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+    :type arr: numpy.ndarray of shape (n,)
+    :return: Tuple of the average mean and variance value of the quantifier.
+    :rtype: (float, float)
+    &#34;&#34;&#34;
+    return (np.mean(arr), np.var(arr))</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_mi_scape"><code class="name flex">
+<span>def <span class="ident">get_mi_scape</span></span>(<span>counts: numpy.ndarray, set_zero_diagonal: bool = True, pickle=False, force_reset=False) ‑> numpy.ndarray</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a sampled pitchscape representation of each piece in a corpus, this function computes the Mutual
+Information value for each pair of time index.</p>
+<p>:param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+of time bins is n.
+:param set_zero_diagonal: By default is True, set to 0 the Mutual information value for the same time index.
+:type counts: numpy.ndarray (m, n, 12)
+:type set_zero_diagonal: bool
+:return: 2D array of the Mutual information value indexes by time indexes.
+:rtype: numpy.ndarray of shape (n,n)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_mi_scape(counts: np.ndarray, set_zero_diagonal: bool = True,pickle=False,force_reset=False) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the Mutual
+    Information value for each pair of time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :param set_zero_diagonal: By default is True, set to 0 the Mutual information value for the same time index.
+    :type counts: numpy.ndarray (m, n, 12)
+    :type set_zero_diagonal: bool
+    :return: 2D array of the Mutual information value indexes by time indexes.
+    :rtype: numpy.ndarray of shape (n,n)
+    &#34;&#34;&#34;
+    if (type(set_zero_diagonal) != bool):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    __check_corpus_count_input(counts)
+
+    mutual_info = read_pickle(pickle)
+    if not mutual_info is None:
+        return mutual_info
+
+
+    pcd = get_pcd(counts)
+    jpcd = get_join_pcd(counts)
+
+    # == Mutual information
+    h_pcd = __compute_entropy_pdc(pcd)
+    h_jpcd = __compute_entropy_jpdc(jpcd)
+
+    mutual_info = (h_pcd + h_pcd[:, None]) - h_jpcd
+    n = mutual_info.shape[0]
+    if set_zero_diagonal:
+        mutual_info[np.diag_indices(n)] = 0
+
+    write_pickle(force_reset, mutual_info)
+
+    return mutual_info</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_pcd"><code class="name flex">
+<span>def <span class="ident">get_pcd</span></span>(<span>counts: numpy.ndarray) ‑> numpy.ndarray</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a sampled pitchscape representation of each piece in a corpus, this function computes the pitch class distribution
+for each time index.</p>
+<p>:param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+of time bins is n.
+:type counts: numpy.ndarray (m, n, 12)
+:return: Pitch class distribution of a corpus.
+:rtype: numpy.ndarray of shape (n,12)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_pcd(counts: np.ndarray) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given a sampled pitchscape representation of each piece in a corpus, this function computes the pitch class distribution
+    for each time index.
+
+    :param counts: Pitch class distribution of each piece in the corpus. The corpus contains m pieces. The number
+    of time bins is n.
+    :type counts: numpy.ndarray (m, n, 12)
+    :return: Pitch class distribution of a corpus.
+    :rtype: numpy.ndarray of shape (n,12)
+    &#34;&#34;&#34;
+    __check_corpus_count_input(counts)
+
+    # == Pitch class distribution
+    normalize = np.sum(counts, axis=2)[:, :, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # add the silence
+    count[(np.sum(counts, axis=2) == 0), :] = 1 / __NBR_PITCH
+
+    count = np.sum(count, axis=0)[None]
+    norm2 = np.sum(count, axis=2)[:, :, None]
+
+    return np.ma.divide(count, norm2).filled(0)[0]</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.get_pitch_scape"><code class="name flex">
+<span>def <span class="ident">get_pitch_scape</span></span>(<span>counts: numpy.ndarray, pickle=False, force_reset=False) ‑> numpy.ndarray</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given the pitch class distribution(PCD) of a piece, this function return the pitchscape representation of it.</p>
+<p>:param counts: Pitch class distribution of a piece. The number
+of time bins is n.
+:type counts: numpy.nparray of shape (n, 12).
+:return: Return the Pitchscape representation of the piece. It allows to compute the pitch class
+distribution given a time interval. Note that the PDC of negative time interval is set to zero.
+:rtype: numpy.ndarray of shape (n, n, 12).</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_pitch_scape(counts: np.ndarray,pickle = False,force_reset = False) -&gt; np.ndarray:
+    &#34;&#34;&#34;
+    Given the pitch class distribution(PCD) of a piece, this function return the pitchscape representation of it.
+
+    :param counts: Pitch class distribution of a piece. The number
+    of time bins is n.
+    :type counts: numpy.nparray of shape (n, 12).
+    :return: Return the Pitchscape representation of the piece. It allows to compute the pitch class
+    distribution given a time interval. Note that the PDC of negative time interval is set to zero.
+    :rtype: numpy.ndarray of shape (n, n, 12).
+
+    &#34;&#34;&#34;
+    if (type(counts) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if counts.shape[1] != __NBR_PITCH:
+        raise ValueError(&#39;Wrong number of pitch classes&#39;)
+
+    if counts.ndim != 2:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    if (counts &lt; 0).any():
+        raise ValueError(&#39;Piece contains at least one negative count&#39;)
+
+
+    res = read_pickle(pickle)
+    if not res is None:
+        return res
+
+    normalize = np.sum(counts, axis=1)[:, None]
+    count = np.ma.divide(counts, normalize).filled(0)  # normalize
+    # thread the silence
+    count[(np.sum(count, axis=1) == 0), :] = 1 / __NBR_PITCH  # silence note
+
+    size = counts.shape[0]
+
+    res = np.zeros((size, size, __NBR_PITCH))
+    for i in np.arange(size):
+        for j in np.arange(size):
+            if j &gt;= i:
+                res[i, j, :] = np.sum(count[i:j + 1, :], axis=0)
+
+    # normalize
+    norm2 = np.sum(res, axis=2)[:, :, None]
+    res = np.ma.divide(res, norm2).filled(0)
+
+    write_pickle(force_reset,res)
+
+    return res</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.global_function"><code class="name flex">
+<span>def <span class="ident">global_function</span></span>(<span>x, func)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def global_function(x,func):
+    return func(x)</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.reduce_1d"><code class="name flex">
+<span>def <span class="ident">reduce_1d</span></span>(<span>arr: numpy.ndarray) ‑> (<class 'float'>, <class 'float'>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a horizonzal reduction of a scape, this function compute the center of gravity 1D (with variance) of
+scape.
+:param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+:type arr: numpy.ndarray of shape (n,)
+:return: tuple of the center of gravity and the variance of the two-way reduction of the scape.
+:rtype: (float, float)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def reduce_1d(arr: np.ndarray) -&gt; (float, float):
+    &#34;&#34;&#34;
+    Given a horizonzal reduction of a scape, this function compute the center of gravity 1D (with variance) of
+    scape.
+    :param arr: Mean value of the horizontal reduction of a scape.The scape are computed on piece of length n.
+    :type arr: numpy.ndarray of shape (n,)
+    :return: tuple of the center of gravity and the variance of the two-way reduction of the scape.
+    :rtype: (float, float)
+    &#34;&#34;&#34;
+    if (type(arr) != np.ndarray):
+        raise TypeError(&#39;Wrong input types.&#39;)
+
+    if arr.ndim != 1:
+        raise ValueError(&#39;Wrong number of dimension of the array.&#39;)
+
+    index = np.arange(0, arr.shape[0])
+    c = (sum(index * arr) / sum(arr))
+
+    # variance
+    norm_arr = arr / np.linalg.norm(arr)
+    c_var = sum((index - c) * (index - c) * norm_arr)
+    return (c, c_var)</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.reduce_scape_2d"><code class="name flex">
+<span>def <span class="ident">reduce_scape_2d</span></span>(<span>scape: numpy.ndarray) ‑> (<class 'numpy.ndarray'>, <class 'numpy.ndarray'>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a scape representation weighted by a quantifier, this function computes the center of gravity
+point of the scape. It also computes the covariance matrix of the sampled points.</p>
+<p>:param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+:type scape: numpy.ndarray of shape (n, n).
+:return: tuple formed with the Center of gravity of the scape representation and the covariance matrix.
+The coordinate of the center of gravity is express using the horitzontal time index and vertical time index.
+:rtype: (numpy.ndarray, numpy.ndarray) center of gravity is of shape (2,) and the covariance matrix is of
+shape (2,2).</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def reduce_scape_2d(scape: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a scape representation weighted by a quantifier, this function computes the center of gravity
+    point of the scape. It also computes the covariance matrix of the sampled points.
+
+    :param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+    :type scape: numpy.ndarray of shape (n, n).
+    :return: tuple formed with the Center of gravity of the scape representation and the covariance matrix.
+    The coordinate of the center of gravity is express using the horitzontal time index and vertical time index.
+    :rtype: (numpy.ndarray, numpy.ndarray) center of gravity is of shape (2,) and the covariance matrix is of
+    shape (2,2).
+    &#34;&#34;&#34;
+    __check_scape_input(scape)
+
+    scape = np.triu(scape, k=0)
+    non_zero = scape.nonzero()
+
+    scape_nonzero = scape[non_zero]
+    sum_scape_non_zero = sum(scape[non_zero])
+    (t_s, t_e) = ((sum(scape_nonzero * non_zero[0]) / sum_scape_non_zero),
+                  (sum(scape_nonzero * non_zero[1]) / sum_scape_non_zero))
+
+    # compute the covariance matrix
+    X = np.asarray(non_zero).transpose()
+    # change the index
+    Y = np.asarray([__convert_to_scape_axis(x) for x in X])
+
+    weight = scape[non_zero]
+    weight = weight / np.linalg.norm(weight)
+
+    return (__convert_to_scape_axis(np.asarray([t_s, t_e])), np.cov(Y, rowvar=False, aweights=weight, bias=False))</code></pre>
+</details>
+</dd>
+<dt id="hierarchical_quantifier.quantifier.reduce_scape_horizontale"><code class="name flex">
+<span>def <span class="ident">reduce_scape_horizontale</span></span>(<span>scape: numpy.ndarray) ‑> (<class 'numpy.ndarray'>, <class 'numpy.ndarray'>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a scape representation weighted by a quantifier value, this function computes the mean quantifier value
+over the distance time index. It also computed the variance value over the time index distance.
+:param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+:type scape: numpy.ndarray of shape (n, n).
+:return: The mean value and the variance of the quantifier for each distance time index.
+:rtype: (numpy.ndarray, numpy.ndarray) the mean
+and the variance are of shape
+(n,)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def reduce_scape_horizontale(scape: np.ndarray) -&gt; (np.ndarray, np.ndarray):
+    &#34;&#34;&#34;
+    Given a scape representation weighted by a quantifier value, this function computes the mean quantifier value
+    over the distance time index. It also computed the variance value over the time index distance.
+    :param scape: Scape representation of a quantifier. The scape is computed over pieces sampled at length n.
+    :type scape: numpy.ndarray of shape (n, n).
+    :return: The mean value and the variance of the quantifier for each distance time index.
+    :rtype: (numpy.ndarray, numpy.ndarray) the mean  and the variance are of shape  (n,)
+    &#34;&#34;&#34;
+    __check_scape_input(scape)
+
+    scape = np.triu(scape, k=0)
+    dist = []
+    variance = []
+    for i in range(0, scape.shape[0]):
+        dist.append(scape.diagonal(i).mean())
+        variance.append(np.var(scape.diagonal(i)))
+
+    dist = np.asarray(dist)
+    variance = np.asarray(variance)
+
+    return (dist, variance)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="hierarchical_quantifier" href="index.html">hierarchical_quantifier</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="hierarchical_quantifier.quantifier.bootstrap" href="#hierarchical_quantifier.quantifier.bootstrap">bootstrap</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_join_pcd" href="#hierarchical_quantifier.quantifier.get_join_pcd">get_join_pcd</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_kld_scape" href="#hierarchical_quantifier.quantifier.get_kld_scape">get_kld_scape</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_mean_var" href="#hierarchical_quantifier.quantifier.get_mean_var">get_mean_var</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_mi_scape" href="#hierarchical_quantifier.quantifier.get_mi_scape">get_mi_scape</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_pcd" href="#hierarchical_quantifier.quantifier.get_pcd">get_pcd</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.get_pitch_scape" href="#hierarchical_quantifier.quantifier.get_pitch_scape">get_pitch_scape</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.global_function" href="#hierarchical_quantifier.quantifier.global_function">global_function</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.reduce_1d" href="#hierarchical_quantifier.quantifier.reduce_1d">reduce_1d</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.reduce_scape_2d" href="#hierarchical_quantifier.quantifier.reduce_scape_2d">reduce_scape_2d</a></code></li>
+<li><code><a title="hierarchical_quantifier.quantifier.reduce_scape_horizontale" href="#hierarchical_quantifier.quantifier.reduce_scape_horizontale">reduce_scape_horizontale</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>

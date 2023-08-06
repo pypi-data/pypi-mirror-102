@@ -1,0 +1,9 @@
+numpy>=1.19.2
+matplotlib>=3.3.2
+pitchscapes>=0.1.4
+music21>=6.1.0
+torch
+scipy
+mido
+IPython
+music21
