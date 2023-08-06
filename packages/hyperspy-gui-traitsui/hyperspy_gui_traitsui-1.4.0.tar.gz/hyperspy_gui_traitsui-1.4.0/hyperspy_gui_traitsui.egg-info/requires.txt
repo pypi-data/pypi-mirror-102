@@ -1,0 +1,9 @@
+hyperspy>=1.6.2
+traitsui>=6.0
+
+[coverage]
+pytest-cov
+codecov
+
+[tests]
+pytest
