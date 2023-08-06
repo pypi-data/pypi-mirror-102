@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+blip_alpha.egg-info/PKG-INFO
+blip_alpha.egg-info/SOURCES.txt
+blip_alpha.egg-info/dependency_links.txt
+blip_alpha.egg-info/entry_points.txt
+blip_alpha.egg-info/requires.txt
+blip_alpha.egg-info/top_level.txt
