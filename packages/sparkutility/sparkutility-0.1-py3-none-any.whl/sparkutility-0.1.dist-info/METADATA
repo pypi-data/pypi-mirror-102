@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sparkutility
+Version: 0.1
+Summary: For functionalities that are missing in Spark SQL.
+Home-page: https://github.com/Shreekanth-BK/spark_utility
+Author: Shreekanth B K
+Author-email: shreekanth.bk@datagrokr.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+# sparkutility
+For functionalities that are missing in Spark SQL
+
+## Available functions
+- isNumeric <br/><br/>
+
+## example
+```
+from sparkutility import is_numeric
+
+print(is_numeric(40.2))
+print(is_numeric('40.2a'))
+
+'''
+output:
+True
+False
+'''
+```
+
+
