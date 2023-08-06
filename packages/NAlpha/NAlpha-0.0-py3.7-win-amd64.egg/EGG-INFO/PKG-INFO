@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: NAlpha
+Version: 2.2
+Summary: NAlpha
+Home-page: 
+Author: www.algo.plus
+Author-email: algo@algo.com
+License: MIT
+Description: 
+NAlpha
+Keywords: 量化交易 算法交易
+Platform: Windows
+Platform: Linux
+Requires-Python: >=3.7

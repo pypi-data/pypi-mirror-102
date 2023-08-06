@@ -1,0 +1,2 @@
+NAlpha/CTP/MdApiBase.cp37-win_amd64.pyd
+NAlpha/CTP/TraderApiBase.cp37-win_amd64.pyd
