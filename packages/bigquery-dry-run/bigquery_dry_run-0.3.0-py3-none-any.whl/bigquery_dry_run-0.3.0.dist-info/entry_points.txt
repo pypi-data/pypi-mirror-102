@@ -1,0 +1,3 @@
+[console_scripts]
+bqdry=bigquery_dry_run.app:run
+
