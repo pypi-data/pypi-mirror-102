@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mongo_pc/__init__.py
+mongo_pc/mongo_pc.py
+mongo_pc.egg-info/PKG-INFO
+mongo_pc.egg-info/SOURCES.txt
+mongo_pc.egg-info/dependency_links.txt
+mongo_pc.egg-info/top_level.txt
