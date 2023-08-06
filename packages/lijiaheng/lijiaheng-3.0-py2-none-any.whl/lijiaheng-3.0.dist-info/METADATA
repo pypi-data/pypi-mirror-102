@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lijiaheng
+Version: 3.0
+Summary: 测试setuptools的功能
+Home-page: https://www.lijiaheng.cn
+Author: lijiaheng
+Author-email: 417452756@qq.com
+License: UNKNOWN
+Keywords: lijiaheng
+Platform: UNKNOWN
+Requires-Dist: redis
+
+UNKNOWN
+
+
