@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aww/__init__.py
+src/aww.egg-info/PKG-INFO
+src/aww.egg-info/SOURCES.txt
+src/aww.egg-info/dependency_links.txt
+src/aww.egg-info/top_level.txt
+src/aww/athena/__init__.py
+src/aww/athena/athena_query.py
+src/aww/athena/bulk_inserter.py
+src/aww/athena/context.py
+src/aww/athena/query_manager.py
