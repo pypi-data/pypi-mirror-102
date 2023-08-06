@@ -1,0 +1,3 @@
+[console_scripts]
+rpi_shtx_influx=rpi_shtx_influx.tool:main
+
