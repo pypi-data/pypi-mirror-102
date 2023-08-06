@@ -1,0 +1,8 @@
+README.md
+setup.py
+ezinputs/__init__.py
+ezinputs/ezinputs.py
+ezinputs.egg-info/PKG-INFO
+ezinputs.egg-info/SOURCES.txt
+ezinputs.egg-info/dependency_links.txt
+ezinputs.egg-info/top_level.txt
