@@ -1,0 +1,6 @@
+setup.py
+chive/__init__.py
+chive.egg-info/PKG-INFO
+chive.egg-info/SOURCES.txt
+chive.egg-info/dependency_links.txt
+chive.egg-info/top_level.txt
