@@ -1,0 +1,17 @@
+astropy
+numpy
+pandas
+requests
+scipy
+matplotlib
+
+[docs]
+sphinx-astropy
+nbsphinx
+ipython
+
+[test]
+pytest-astropy
+requests-mock
+tox
+mypy
