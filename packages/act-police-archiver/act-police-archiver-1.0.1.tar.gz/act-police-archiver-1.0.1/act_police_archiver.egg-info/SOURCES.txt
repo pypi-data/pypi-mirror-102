@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+act_police_archiver/__init__.py
+act_police_archiver/__main__.py
+act_police_archiver/errors.py
+act_police_archiver.egg-info/PKG-INFO
+act_police_archiver.egg-info/SOURCES.txt
+act_police_archiver.egg-info/dependency_links.txt
+act_police_archiver.egg-info/top_level.txt
