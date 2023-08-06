@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: micropython-httpota
+Version: 0.1.25
+Summary: MicroPython library for OTA updates using HTTP
+Home-page: https://github.com/leprechaun/micropython-http-ota
+Author: Leprechaun
+Author-email: leprechaun@gmail.com
+Maintainer: Leprechaun
+Maintainer-email: leprechaun@gmail.com
+License: MIT
+Description: this library lets you periodically ping an HTTP server for a manifest and pointer to a package
+Keywords: micropython OTA http
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst
