@@ -1,0 +1,11 @@
+dataclassy/__init__.py,sha256=7qWMTjjXC7QXNnzcAW9siQY3BoLymL--SewwFAVMX-I,699
+dataclassy/dataclass.py,sha256=Tfe1tuSUI-3-VfxGwhiPiQ5ItciVtwKtFI1hQZlaydQ,9633
+dataclassy/decorator.py,sha256=JJD90ftz_UrWmKfiHJ4Dg1bfXLje2dwCWMUMCq55Pl0,2156
+dataclassy/functions.py,sha256=LThcaJF4kZXUfLZ1KMoldxriyAfaOXKHtYzupmxONO0,3701
+dataclassy/mypy.py,sha256=DbpmeEe7vGY-cYKs0jHIvYzzc3UtdockLuIHRUXAKow,7780
+dataclassy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataclassy-0.8.2.dist-info/LICENSE.md,sha256=TVEVWzXkyAQ2W0yKEzrtY0q1IClsnlWb0MkRKJgMyx0,15581
+dataclassy-0.8.2.dist-info/METADATA,sha256=aV6IeEc6o3qss9brSHV4Pvvsn4qE85oCMeQVVG14kYs,19859
+dataclassy-0.8.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataclassy-0.8.2.dist-info/top_level.txt,sha256=Lktz5J3agYBz-jeM5Qv8uOO3bIJVmeSkg2yI3X8a3IY,11
+dataclassy-0.8.2.dist-info/RECORD,,
