@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
+ruby1.9.1_dev.egg-info/PKG-INFO
+ruby1.9.1_dev.egg-info/SOURCES.txt
+ruby1.9.1_dev.egg-info/dependency_links.txt
+ruby1.9.1_dev.egg-info/entry_points.txt
+ruby1.9.1_dev.egg-info/requires.txt
+ruby1.9.1_dev.egg-info/top_level.txt
