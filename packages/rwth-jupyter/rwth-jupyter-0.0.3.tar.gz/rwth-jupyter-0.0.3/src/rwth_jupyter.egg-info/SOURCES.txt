@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+src/rwth_jupyter/__init__.py
+src/rwth_jupyter/main.py
+src/rwth_jupyter.egg-info/PKG-INFO
+src/rwth_jupyter.egg-info/SOURCES.txt
+src/rwth_jupyter.egg-info/dependency_links.txt
+src/rwth_jupyter.egg-info/entry_points.txt
+src/rwth_jupyter.egg-info/requires.txt
+src/rwth_jupyter.egg-info/top_level.txt
