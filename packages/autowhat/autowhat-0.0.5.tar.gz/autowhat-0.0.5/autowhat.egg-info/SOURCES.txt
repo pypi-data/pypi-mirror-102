@@ -1,0 +1,12 @@
+setup.py
+autowhat/__init__.py
+autowhat/group_creator.py
+autowhat/helper.py
+autowhat/initializer.py
+autowhat/sender.py
+autowhat/spammer.py
+autowhat.egg-info/PKG-INFO
+autowhat.egg-info/SOURCES.txt
+autowhat.egg-info/dependency_links.txt
+autowhat.egg-info/requires.txt
+autowhat.egg-info/top_level.txt

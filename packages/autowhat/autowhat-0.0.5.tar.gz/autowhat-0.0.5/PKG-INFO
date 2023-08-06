@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: autowhat
+Version: 0.0.5
+Summary: A Package which helps in easing your automations involving whatsapp
+Home-page: UNKNOWN
+Author: Giri
+Author-email: <karnatisaivenkatagiri@gmail.com>
+License: UNKNOWN
+Description: This package mainly contains 4 types of senders (text,image/video, audio, document) and 2 features spam_bot and group_creator 
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
