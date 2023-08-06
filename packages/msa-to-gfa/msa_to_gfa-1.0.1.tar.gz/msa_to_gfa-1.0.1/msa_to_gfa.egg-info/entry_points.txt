@@ -1,0 +1,3 @@
+[console_scripts]
+msa_to_gfa = msa_to_gfa.main:main
+
