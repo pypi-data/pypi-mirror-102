@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: wotragicrd
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Description
+        ===========
+        
+        document = Document() - СЃРѕР·РґР°РЅРёРµ С„Р°Р№Р»Р°
+        header(text) - РґРѕР±Р°РІР»СЏРµС‚ Р·Р°РіРѕР»РѕРІРѕРє
+        paragrapher(text) - РґРѕР±Р°РІР»СЏРµС‚ РЅРѕРІС‹Р№ Р°Р±Р·Р°С†
+        saver(name) - СЃРѕС…СЂР°РЅСЏРµС‚ С„Р°Р№Р» СЃ РІС‹Р±СЂР°РЅРЅС‹Рј РёРјРµРЅРµРј
+        
+        https://github.com/jene4kabezdar/wotragicrd
+Platform: UNKNOWN
