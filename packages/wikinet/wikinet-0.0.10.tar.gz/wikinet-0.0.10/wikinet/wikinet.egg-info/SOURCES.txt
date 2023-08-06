@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+wikinet/wikinet.egg-info/PKG-INFO
+wikinet/wikinet.egg-info/SOURCES.txt
+wikinet/wikinet.egg-info/dependency_links.txt
+wikinet/wikinet.egg-info/requires.txt
+wikinet/wikinet.egg-info/top_level.txt
