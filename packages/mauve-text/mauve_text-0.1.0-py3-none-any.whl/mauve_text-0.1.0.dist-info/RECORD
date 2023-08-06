@@ -1,0 +1,8 @@
+mauve/__init__.py,sha256=EKaJun4QrmyBX1pKkXrkV02OPZPj9Hr0LfXlx9OnxCc,70
+mauve/compute_mauve.py,sha256=pmyYih8tRKriMhvew8An7kr7uYbWx07dwuRyU2SCJeY,10465
+mauve/utils.py,sha256=N_aAo4fA6Ibuj2J1XV2HgIK9KD7T-ydDIcXfw_6rCEw,3884
+mauve_text-0.1.0.dist-info/LICENSE,sha256=Q-CgNBDVhjpDXDL0LeqpK78i_VvWYuELsM6HcnunHmA,35057
+mauve_text-0.1.0.dist-info/METADATA,sha256=rDK7Qh2fTz99JSST-TF45K6LCpDrMQdaK74FN5MxfoU,12571
+mauve_text-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mauve_text-0.1.0.dist-info/top_level.txt,sha256=95Sqdf7ufv4U_8zrxtPxnOeamb6uxnUiaNjtwM8X6Uk,6
+mauve_text-0.1.0.dist-info/RECORD,,
