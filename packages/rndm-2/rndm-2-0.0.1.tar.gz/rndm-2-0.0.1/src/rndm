@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import numpy as np 
+import os 
+import sys
+
+ini_path = os.path.join(os.path.dirname(__file__), 'params.ini')
+f = open(ini_path, 'r')
+i = int(f.read())
+print(np.random.randint(i))
