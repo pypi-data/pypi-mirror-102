@@ -1,0 +1,19 @@
+name = "pdm-pep517"
+version = "0.7.0"
+description = "A PEP 517 backend for PDM that supports PEP 621 metadata"
+requires-python = ">=3.6"
+readme = "README.md"
+keywords = [ "packaging", "PEP 517", "build",]
+dynamic = [ "version", "classifiers",]
+classifiers = [ "Development Status :: 3 - Alpha", "Topic :: Software Development :: Build Tools",]
+dependencies = []
+[[authors]]
+name = "Frost Ming"
+email = "mianghong@gmail.com"
+
+[license]
+text = "MIT"
+
+[urls]
+homepage = "https://pdm.fming.dev"
+repository = "https://github.com/frostming/pdm-pep517"
