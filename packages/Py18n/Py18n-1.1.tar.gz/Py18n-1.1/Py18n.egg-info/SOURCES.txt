@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+./py18n/__init__.py
+./py18n/extension.py
+./py18n/i18n.py
+./py18n/language.py
+Py18n.egg-info/PKG-INFO
+Py18n.egg-info/SOURCES.txt
+Py18n.egg-info/dependency_links.txt
+Py18n.egg-info/requires.txt
+Py18n.egg-info/top_level.txt
