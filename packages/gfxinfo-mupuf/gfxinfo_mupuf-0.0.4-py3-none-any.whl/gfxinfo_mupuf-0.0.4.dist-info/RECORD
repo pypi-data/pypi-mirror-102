@@ -1,0 +1,8 @@
+gfxinfo/__init__.py,sha256=fyZ42oo8tSxa7xGxPkI1dhReacGbS9wpEUDEnApLfTA,2694
+gfxinfo/amdgpu.py,sha256=ZUU8cQeGkh_6j45YLZjGJ26JV3moEDtsTR_XckR_R7g,5868
+gfxinfo/gfxinfo_vulkan.py,sha256=ZgWQMxcoKMWHVod9og-1BcrZL0WR28c1CV8kXI9kFOI,8992
+gfxinfo_mupuf-0.0.4.dist-info/LICENSE,sha256=0xHp_As_zhrb4WdfRykeuwOZwOGbWsiIPd1QxxSXSCs,1061
+gfxinfo_mupuf-0.0.4.dist-info/METADATA,sha256=sqJ44PNml3rBXfCORaphIk8kfmRUNZJqwDxN_X0p2yo,1004
+gfxinfo_mupuf-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gfxinfo_mupuf-0.0.4.dist-info/top_level.txt,sha256=V-KRcsaH2LeuhyIaSwlmvbOLWXRnY6mx0Q2H9CSWV7U,8
+gfxinfo_mupuf-0.0.4.dist-info/RECORD,,
