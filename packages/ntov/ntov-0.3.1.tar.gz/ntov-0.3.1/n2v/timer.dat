@@ -1,0 +1,383 @@
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:13:49 2021
+Timers Off: Mon Apr 12 13:13:51 2021
+
+Wall Time:        2.41 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:14:15 2021
+Timers Off: Mon Apr 12 13:14:17 2021
+
+Wall Time:        1.75 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:14:56 2021
+Timers Off: Mon Apr 12 13:14:58 2021
+
+Wall Time:        1.80 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:15:17 2021
+Timers Off: Mon Apr 12 13:15:19 2021
+
+Wall Time:        1.99 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:15:35 2021
+Timers Off: Mon Apr 12 13:15:36 2021
+
+Wall Time:        1.76 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:33:15 2021
+Timers Off: Mon Apr 12 13:33:17 2021
+
+Wall Time:        1.71 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:33:26 2021
+Timers Off: Mon Apr 12 13:33:27 2021
+
+Wall Time:        1.76 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:34:10 2021
+Timers Off: Mon Apr 12 13:34:12 2021
+
+Wall Time:        1.69 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:34:35 2021
+Timers Off: Mon Apr 12 13:34:37 2021
+
+Wall Time:        1.70 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:34:44 2021
+Timers Off: Mon Apr 12 13:34:46 2021
+
+Wall Time:        1.74 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:37:31 2021
+Timers Off: Mon Apr 12 13:37:32 2021
+
+Wall Time:        1.74 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:38:09 2021
+Timers Off: Mon Apr 12 13:38:10 2021
+
+Wall Time:        1.72 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:38:53 2021
+Timers Off: Mon Apr 12 13:38:54 2021
+
+Wall Time:        1.53 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 13:39:04 2021
+Timers Off: Mon Apr 12 13:39:05 2021
+
+Wall Time:        1.53 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Sun Apr 11 22:25:34 2021
+Timers Off: Mon Apr 12 14:04:15 2021
+
+Wall Time:    56320.70 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.033u      0.017s      0.033w      9 calls
+Libint2ERI::Libint2ERI              :      4.867u      0.333s      0.637w    571 calls
+DFH: initialize()                   :      2.000u      0.283s      0.196w      9 calls
+DFH: AO Construction                :      0.250u      0.000s      0.018w      9 calls
+DFH: AO-Met. Contraction            :      0.100u      0.000s      0.005w      9 calls
+HF: Form core H                     :      5.150u      0.317s      0.356w     14 calls
+HF: Form S/X                        :      1.167u      0.050s      0.076w     14 calls
+HF: Guess                           :      0.600u      0.033s      0.039w     14 calls
+HF: Form G                          :      6.033u      0.233s      0.379w    145 calls
+JK: D                               :      0.450u      0.033s      0.026w    604 calls
+JK: USO2AO                          :      0.083u      0.017s      0.008w    604 calls
+JK: JK                              :     53.867u      2.167s      5.148w    604 calls
+DFH: compute_JK()                   :      3.767u      0.167s      0.235w     94 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w     94 calls
+DFH: compute_J                      :      1.717u      0.100s      0.112w     94 calls
+DFH: compute_K                      :      1.133u      0.033s      0.071w     94 calls
+PK computes JK                      :     50.050u      2.000s      4.910w    510 calls
+JK: AO2USO                          :      0.017u      0.000s      0.001w    604 calls
+HF: Form F                          :      1.300u      0.083s      0.084w    145 calls
+HF: DIIS                            :      9.233u      0.450s      0.601w    145 calls
+DIISManager::add_entry              :      1.900u      0.100s      0.134w    145 calls
+DIISManager::extrapolate            :      0.783u      0.017s      0.053w    145 calls
+bMatrix setup                       :      0.317u      0.000s      0.027w    145 calls
+bMatrix pseudoinverse               :      0.217u      0.000s      0.011w    145 calls
+New vector                          :      0.250u      0.017s      0.014w    145 calls
+HF: Form C                          :      4.583u      0.183s      0.293w    145 calls
+HF: Form D                          :      0.083u      0.000s      0.003w    145 calls
+Total PK formation time             :     61.267u      1.283s      4.189w     23 calls
+CIWave: MCSCF integral transform    :    240.467u     15.900s     17.802w     75 calls
+CIWave: CIvect write                :      3.017u      0.233s      0.326w   6232 calls
+CIWave: CIvect read                 :      6.933u      0.817s      0.735w  40636 calls
+CIWave: s2                          :      6.867u      0.650s      0.729w    819 calls
+CIWave: s3                          :     25.983u      1.133s      2.769w    833 calls
+CIWave: s3_mt                       :      0.017u      0.000s      0.000w    170 calls
+CIWave: opdm                        :      3.967u      0.250s      0.413w     80 calls
+CIWave: TPDM                        :     92.133u      2.400s      9.470w     75 calls
+CIWave: TPDM Block                  :     91.933u      2.400s      9.454w     75 calls
+CIWave: TPDM Reorder                :      0.083u      0.000s      0.007w     75 calls
+SOMCSCF: Compute Gradient           :     34.300u      1.483s      4.009w     67 calls
+SOMCSCF: Q matrix                   :      8.267u      0.533s      1.016w     67 calls
+SOMCSCF: Approximate hessian        :      0.000u      0.000s      0.002w     67 calls
+V: Grid                             :      2.200u      0.117s      0.138w     10 calls
+CIWave: s1                          :      0.000u      0.000s      0.000w     18 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.033u      0.017s      0.033w      9 calls
+| Libint2ERI::Libint2ERI            :      0.017u      0.017s      0.013w      9 calls
+DFH: initialize()                   :      2.000u      0.283s      0.196w      9 calls
+| Libint2ERI::Libint2ERI            :      0.300u      0.033s      0.030w     99 calls
+| DFH: AO Construction              :      0.250u      0.000s      0.018w      9 calls
+| DFH: AO-Met. Contraction          :      0.100u      0.000s      0.005w      9 calls
+HF: Form core H                     :      5.150u      0.317s      0.356w     14 calls
+HF: Form S/X                        :      1.167u      0.050s      0.076w     14 calls
+HF: Guess                           :      0.600u      0.033s      0.039w     14 calls
+HF: Form G                          :      6.033u      0.233s      0.379w    145 calls
+| JK: D                             :      0.117u      0.000s      0.010w    145 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.001w    145 calls
+| JK: JK                            :      5.567u      0.233s      0.348w    145 calls
+| | DFH: compute_JK()               :      3.767u      0.167s      0.235w     94 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     94 calls
+| | | DFH: compute_J                :      1.717u      0.100s      0.112w     94 calls
+| | | DFH: compute_K                :      1.133u      0.033s      0.071w     94 calls
+| | PK computes JK                  :      1.800u      0.067s      0.112w     51 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w    145 calls
+HF: Form F                          :      1.300u      0.083s      0.084w    145 calls
+HF: DIIS                            :      9.233u      0.450s      0.601w    145 calls
+| DIISManager::add_entry            :      1.900u      0.100s      0.134w    145 calls
+| DIISManager::extrapolate          :      0.783u      0.017s      0.053w    145 calls
+| | bMatrix setup                   :      0.317u      0.000s      0.027w    145 calls
+| | bMatrix pseudoinverse           :      0.217u      0.000s      0.011w    145 calls
+| | New vector                      :      0.250u      0.017s      0.014w    145 calls
+HF: Form C                          :      4.583u      0.183s      0.293w    145 calls
+HF: Form D                          :      0.083u      0.000s      0.003w    145 calls
+Libint2ERI::Libint2ERI              :      3.867u      0.183s      0.326w    210 calls
+Total PK formation time             :     61.267u      1.283s      4.189w     23 calls
+| Libint2ERI::Libint2ERI            :      0.683u      0.100s      0.268w    253 calls
+CIWave: MCSCF integral transform    :    240.467u     15.900s     17.802w     75 calls
+| JK: D                             :      0.000u      0.000s      0.001w     75 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.001w     75 calls
+| JK: JK                            :      2.600u      0.167s      0.281w     75 calls
+| | PK computes JK                  :      2.600u      0.167s      0.281w     75 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     75 calls
+CIWave: CIvect write                :      3.017u      0.233s      0.326w   6232 calls
+CIWave: CIvect read                 :      6.817u      0.817s      0.727w  40326 calls
+CIWave: s2                          :      6.867u      0.650s      0.729w    819 calls
+CIWave: s3                          :     25.983u      1.133s      2.769w    833 calls
+| CIWave: s3_mt                     :      0.017u      0.000s      0.000w    170 calls
+CIWave: opdm                        :      3.967u      0.250s      0.413w     80 calls
+| CIWave: CIvect read               :      0.067u      0.000s      0.004w    160 calls
+CIWave: TPDM                        :     92.133u      2.400s      9.470w     75 calls
+| CIWave: CIvect read               :      0.050u      0.000s      0.004w    150 calls
+| CIWave: TPDM Block                :     91.933u      2.400s      9.454w     75 calls
+| CIWave: TPDM Reorder              :      0.083u      0.000s      0.007w     75 calls
+SOMCSCF: Compute Gradient           :     34.300u      1.483s      4.009w     67 calls
+| JK: D                             :      0.033u      0.017s      0.002w     67 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.001w     67 calls
+| JK: JK                            :     25.600u      0.900s      2.943w     67 calls
+| | PK computes JK                  :     25.600u      0.900s      2.943w     67 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     67 calls
+| SOMCSCF: Q matrix                 :      8.267u      0.533s      1.016w     67 calls
+SOMCSCF: Approximate hessian        :      0.000u      0.000s      0.002w     67 calls
+JK: D                               :      0.300u      0.017s      0.013w    317 calls
+JK: USO2AO                          :      0.067u      0.017s      0.005w    317 calls
+JK: JK                              :     20.100u      0.867s      1.576w    317 calls
+| PK computes JK                    :     20.050u      0.867s      1.574w    317 calls
+JK: AO2USO                          :      0.017u      0.000s      0.001w    317 calls
+V: Grid                             :      2.200u      0.117s      0.138w     10 calls
+CIWave: s1                          :      0.000u      0.000s      0.000w     18 calls
+
+**************************************************************************************
+
+Host: QUADRAXIS
+
+Timers On : Mon Apr 12 14:38:08 2021
+Timers Off: Tue Apr 13 14:55:49 2021
+
+Wall Time:    87460.46 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.017u      0.000s      0.004w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.001w      3 calls
+DFH: initialize()                   :      0.017u      0.000s      0.011w      1 calls
+DFH: AO Construction                :      0.000u      0.000s      0.000w      1 calls
+DFH: AO-Met. Contraction            :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.017u      0.000s      0.019w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.000u      0.000s      0.000w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.001w      4 calls
+JK: D                               :      0.000u      0.000s      0.000w      4 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      4 calls
+JK: JK                              :      0.000u      0.000s      0.000w      4 calls
+DFH: compute_JK()                   :      0.000u      0.000s      0.000w      4 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      4 calls
+DFH: compute_J                      :      0.000u      0.000s      0.000w      4 calls
+DFH: compute_K                      :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      4 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      4 calls
+HF: DIIS                            :      0.017u      0.000s      0.014w      4 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.007w      4 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.001w      4 calls
+bMatrix setup                       :      0.000u      0.000s      0.000w      4 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.001w      4 calls
+New vector                          :      0.000u      0.000s      0.000w      4 calls
+HF: Form C                          :      0.000u      0.017s      0.001w      4 calls
+HF: Form D                          :      0.000u      0.000s      0.001w      4 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.017u      0.000s      0.004w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.001w      1 calls
+DFH: initialize()                   :      0.017u      0.000s      0.011w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      2 calls
+| DFH: AO Construction              :      0.000u      0.000s      0.000w      1 calls
+| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.017u      0.000s      0.019w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.000u      0.000s      0.000w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.001w      4 calls
+| JK: D                             :      0.000u      0.000s      0.000w      4 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      4 calls
+| JK: JK                            :      0.000u      0.000s      0.000w      4 calls
+| | DFH: compute_JK()               :      0.000u      0.000s      0.000w      4 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w      4 calls
+| | | DFH: compute_J                :      0.000u      0.000s      0.000w      4 calls
+| | | DFH: compute_K                :      0.000u      0.000s      0.000w      4 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      4 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      4 calls
+HF: DIIS                            :      0.017u      0.000s      0.014w      4 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.007w      4 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.001w      4 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.000w      4 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.001w      4 calls
+| | New vector                      :      0.000u      0.000s      0.000w      4 calls
+HF: Form C                          :      0.000u      0.017s      0.001w      4 calls
+HF: Form D                          :      0.000u      0.000s      0.001w      4 calls
+
+**************************************************************************************
