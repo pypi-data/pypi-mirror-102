@@ -1,0 +1,10 @@
+README.md
+setup.py
+bmwwAPI/__init__.py
+bmwwAPI/users.py
+bmwwAPI/work.py
+bmww_api.egg-info/PKG-INFO
+bmww_api.egg-info/SOURCES.txt
+bmww_api.egg-info/dependency_links.txt
+bmww_api.egg-info/requires.txt
+bmww_api.egg-info/top_level.txt
