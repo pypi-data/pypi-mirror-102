@@ -1,0 +1,10 @@
+attrs>=20.1.0
+qrules
+numpy>=1.16
+sympy
+
+[:python_version < "3.8.0"]
+typing-extensions
+
+[viz]
+graphviz
