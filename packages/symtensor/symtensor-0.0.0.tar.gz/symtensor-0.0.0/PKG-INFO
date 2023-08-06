@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: symtensor
+Version: 0.0.0
+Summary: symtensor
+Home-page: http://github.com/symtensor/symtensor/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+License: UNKNOWN
+Description: symtensor: A Symbolic Toolbox for Tensor Calculation
+        =======================
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
