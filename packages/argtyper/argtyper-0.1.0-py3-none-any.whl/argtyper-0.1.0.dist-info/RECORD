@@ -1,0 +1,9 @@
+argtyper/__init__.py,sha256=LG2jIm5HjCGnOXBvACD7dyljv0UiQfn55dPMOylXU3c,17094
+argtyper/actions.py,sha256=7wAyVOyMUy1f--gWnnv53gQDqjl6eTTku3Z6T1--FVE,4257
+argtyper/base.py,sha256=Z1h8n0mFaTwYeWS6NS-a6gzIcbHSq3BKWecgi-ZlB30,19289
+argtyper/exceptions.py,sha256=fwzRWSy_fgXx7mMa3Nay7hig5jheRM26RsnOQ3sC_gA,1549
+argtyper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argtyper-0.1.0.dist-info/LICENSE,sha256=jPncEZ6OJnnJ-mwKtoyXnVEpH_YqfiF2rA8t8uAE0wY,1058
+argtyper-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+argtyper-0.1.0.dist-info/METADATA,sha256=ymI4hnBMLjy-BvNOPqkbJkJN_QNo0HJe07a5nelhVR0,921
+argtyper-0.1.0.dist-info/RECORD,,
