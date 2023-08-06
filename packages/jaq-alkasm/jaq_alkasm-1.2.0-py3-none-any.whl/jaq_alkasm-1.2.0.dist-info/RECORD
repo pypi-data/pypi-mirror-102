@@ -1,0 +1,8 @@
+jaq/__init__.py,sha256=MTS4XHXwv6Ws7jLTzSlCgFBpf41wKGC2ZERSlykN9ng,132
+jaq/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaq/queues.py,sha256=IGNMTlPdBs5jh2wPqkxyNchL7nTJDIW1136-sFOEG_s,4600
+jaq/store.py,sha256=x48esF0k7NfLs18qj91l2tXBMCYI1-V4FefxDzbs9bg,5856
+jaq/threads.py,sha256=QLgZvqRpUIdBpUyU4c05lXcRlOYzWRyY3USIq3O8p5U,2056
+jaq_alkasm-1.2.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+jaq_alkasm-1.2.0.dist-info/METADATA,sha256=lGL3sSk6ZfPnxx31Dp9f7PgE9dz3z0YFjhkGbiXeqVA,901
+jaq_alkasm-1.2.0.dist-info/RECORD,,
