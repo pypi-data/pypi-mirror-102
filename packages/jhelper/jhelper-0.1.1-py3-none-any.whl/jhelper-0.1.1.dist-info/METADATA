@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jhelper
+Version: 0.1.1
+Summary: Juminfo Jenkins Upload Helper
+Author: ssfdust
+Author-email: ssfdust@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: filesplit (>=3.0.2,<4.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)

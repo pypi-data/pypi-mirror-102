@@ -1,0 +1,3 @@
+[console_scripts]
+jhelper=jhelper.main:main
+
