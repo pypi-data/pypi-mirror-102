@@ -1,0 +1,10 @@
+megasdkrestclient/__init__.py,sha256=v0Au-4fd9OewSRbHMng9h2A-yHbaozkHygkGDPVRSmc,88
+megasdkrestclient/async_client.py,sha256=MiBnJvzkklEBh54TrbQ9kIFDHUwgYHQEFLiaR4nhyCw,1692
+megasdkrestclient/client.py,sha256=9JxRiuKdVslBo96vf3lvm6FbdK0XB6ISjFbCGFOHaII,1240
+megasdkrestclient/constants.py,sha256=2tO-6xneDUOen26pJhYT7itNIiTzZv4Y6D3xN9Z6W38,531
+megasdkrestclient/errors.py,sha256=9WrZrQzkdhgd7I3GuZeCLHK9PkB9A9d7nkcNiGdYFuA,112
+megasdkrestclient/utils.py,sha256=rBoGu749-dJWgsWRx5bznXlpsgr5-jC9Bfvynf2Jv-U,307
+megasdkrestclient-0.1.1.dist-info/METADATA,sha256=nSeTrNt9uDeavrGslHF_f06waUqGzxvt9mYjeDfPyaA,664
+megasdkrestclient-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+megasdkrestclient-0.1.1.dist-info/top_level.txt,sha256=5yMfAVjx1Upb76oFqTldUT6PiOMgngrvCWT4D8bYaVM,18
+megasdkrestclient-0.1.1.dist-info/RECORD,,
