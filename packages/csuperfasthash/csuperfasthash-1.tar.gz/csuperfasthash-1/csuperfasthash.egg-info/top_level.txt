@@ -1,0 +1,2 @@
+csuperfasthash
+superfasthash

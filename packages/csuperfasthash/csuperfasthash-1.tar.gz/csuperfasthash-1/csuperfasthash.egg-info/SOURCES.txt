@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+csuperfasthash.egg-info/PKG-INFO
+csuperfasthash.egg-info/SOURCES.txt
+csuperfasthash.egg-info/dependency_links.txt
+csuperfasthash.egg-info/requires.txt
+csuperfasthash.egg-info/top_level.txt
+superfasthash/src/superfasthash.c

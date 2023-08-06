@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: csuperfasthash
+Version: 1
+Summary: Cython port of SuperHash
+Home-page: https://gitlab.com/lifelover/superfasthash
+Author: JUAN MENDEZ
+Author-email: vpsink@gmail.com
+License: LGPL
+Download-URL: https://gitlab.com/lifelover/superfasthash/-/archive/master/superfasthash-master.tar.gz
+Description: UNKNOWN
+Keywords: superfasthash,cython,python
+Platform: UNKNOWN
