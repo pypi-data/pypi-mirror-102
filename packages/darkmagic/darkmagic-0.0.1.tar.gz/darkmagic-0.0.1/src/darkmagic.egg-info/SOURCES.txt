@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/darkmagic.egg-info/PKG-INFO
+src/darkmagic.egg-info/SOURCES.txt
+src/darkmagic.egg-info/dependency_links.txt
+src/darkmagic.egg-info/top_level.txt
