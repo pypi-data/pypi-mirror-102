@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: act-police-archiver
+Version: 1.0.2
+Summary: Archive ACT Policing Media Releases
+Author: king-millez
+Author-email: Millez.Dev@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
