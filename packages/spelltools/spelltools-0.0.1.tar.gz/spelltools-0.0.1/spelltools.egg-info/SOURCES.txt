@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dcpoc/__init__.py
+dcpoc/prime_numbers.py
+spelltools.egg-info/PKG-INFO
+spelltools.egg-info/SOURCES.txt
+spelltools.egg-info/dependency_links.txt
+spelltools.egg-info/top_level.txt
