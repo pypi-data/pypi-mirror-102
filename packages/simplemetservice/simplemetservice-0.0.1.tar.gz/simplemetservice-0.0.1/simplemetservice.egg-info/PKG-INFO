@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: simplemetservice
+Version: 0.0.1
+Summary: A simple python package for accessing MetService data, partly based on the project pymetservice
+Home-page: https://pypi.org/project/simplemetservice
+Author: d_man223
+Author-email: kitclone@icloud.com
+License: UNKNOWN
+Description: # *simplemetservice*
+        
+        *A simple Python package for accessing MetService data. Designed to be simple and easy to use. Based in part off the project 'pymetservice'.* 
+        
+        ## Setup 
+        
+        ### Dependencies
+        
+        *This package requires the 'requests' python package.*
+        
+        ### Installation
+        
+        ```pip install simplemetservice```
+        
+        ### Getting started
+        
+        *To use the package after installation:*
+        
+        ```(in python) import simplemetservice```
+        
+        ## Demo
+        
+        ```
+        import simplemetservice
+        print(getForecast("Auckland"))
+        ```
+        
+        ## Errors and bugs
+        
+        If something isn't behaving as intended  or you have any suggestions please contact me at kitclone@icloud.com.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

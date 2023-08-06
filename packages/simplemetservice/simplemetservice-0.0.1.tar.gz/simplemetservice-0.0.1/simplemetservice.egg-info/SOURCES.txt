@@ -1,0 +1,8 @@
+README.md
+setup.py
+simplemetservice/__init__.py
+simplemetservice.egg-info/PKG-INFO
+simplemetservice.egg-info/SOURCES.txt
+simplemetservice.egg-info/dependency_links.txt
+simplemetservice.egg-info/requires.txt
+simplemetservice.egg-info/top_level.txt
