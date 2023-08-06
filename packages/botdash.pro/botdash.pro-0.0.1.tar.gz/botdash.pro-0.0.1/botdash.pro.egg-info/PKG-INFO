@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: botdash.pro
+Version: 0.0.1
+Summary: API wrapper for BotDash
+Home-page: UNKNOWN
+Author: Seer#6054
+Author-email: admin@seer-software.com
+License: MIT
+Description: # BotDash.pro
+        
+        ```py
+        
+        import botdash
+        
+        client = botdash.Client('<BOTDASH-TOKEN>')
+        
+        object = client.get_value("<GUILDID>", "<DATA-VALUE>")
+        print(object.data) # Get the actual data
+        
+        ```
+Keywords: BotDash,discord,dashboard,official
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

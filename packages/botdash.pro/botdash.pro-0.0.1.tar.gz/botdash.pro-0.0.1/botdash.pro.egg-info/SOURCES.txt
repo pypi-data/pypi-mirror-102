@@ -1,0 +1,13 @@
+README.md
+setup.py
+botdash/__init__.py
+botdash/client.py
+botdash.pro.egg-info/PKG-INFO
+botdash.pro.egg-info/SOURCES.txt
+botdash.pro.egg-info/dependency_links.txt
+botdash.pro.egg-info/requires.txt
+botdash.pro.egg-info/top_level.txt
+botdash/lib/__init__.py
+botdash/lib/util/__init__.py
+botdash/lib/util/exceptions.py
+botdash/lib/util/objects.py
