@@ -1,0 +1,17 @@
+django_huey/__init__.py,sha256=ZOmNzbJyvWRY9b_aEAFpwog3uvBNwq-mICzxfy6kWsA,3419
+django_huey/config.py,sha256=mlMteG0d7dzKZmCFKOqW_tJGIUhb6Lx3BIFPdRoox2k,1982
+django_huey/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_huey/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_huey/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_huey/management/commands/run_djangohuey.py,sha256=LWlOMScCEM55t8gsUK3K-o2xMwCy5LYqpXgzjd86_TY,3611
+django_huey/tests/__init__.py,sha256=sLpR-EX9uriuHkKGR-lOc_3uudCRkiszbkCoJshGXkc,109
+django_huey/tests/settings.py,sha256=SfgZIcGERDP5zFrWhTKKN_XP4KfE7jQv4p1dnI0hZrU,344
+django_huey/tests/tests_config.py,sha256=U2R0gLXT8w_5bBx5uGDoDnXFzbeD_7Nsa5rjO2jfLus,3481
+tests/__init__.py,sha256=sLpR-EX9uriuHkKGR-lOc_3uudCRkiszbkCoJshGXkc,109
+tests/settings.py,sha256=Ik3jRpicjeZD-SSGUXa6CHp-qEjdavro0scRAR7X8ww,363
+tests/tests_config.py,sha256=qLJzM_3hdkRiykxESaVjj1dXhqsDI5gbqB2KRDUkeRk,3361
+django_huey-0.2.0.dist-info/LICENCE,sha256=eC8srEJiuvhc6JvR_n50m33sn_PPFRiOAW7A_9_Dxlw,1083
+django_huey-0.2.0.dist-info/METADATA,sha256=oMdV_zUlYZoQP8-3eQ3l2kk5It2dHF7lffFpY0tB5Kk,2538
+django_huey-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_huey-0.2.0.dist-info/top_level.txt,sha256=5AXFPpK5T73T0gKG8ogiIMpRpeyYsV9kTBtQ1J7ASCU,18
+django_huey-0.2.0.dist-info/RECORD,,
