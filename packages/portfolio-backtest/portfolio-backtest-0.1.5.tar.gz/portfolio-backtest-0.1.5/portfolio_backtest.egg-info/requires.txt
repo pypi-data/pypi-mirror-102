@@ -1,0 +1,4 @@
+yfinance
+matplotlib
+pyportfolioopt
+scikit-learn
