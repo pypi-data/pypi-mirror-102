@@ -1,0 +1,9 @@
+README.rst
+setup.py
+glowseeds/__init__.py
+glowseeds/glowseeds.py
+glowseeds.egg-info/PKG-INFO
+glowseeds.egg-info/SOURCES.txt
+glowseeds.egg-info/dependency_links.txt
+glowseeds.egg-info/requires.txt
+glowseeds.egg-info/top_level.txt
