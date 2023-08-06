@@ -1,0 +1,15 @@
+sqlglot/__init__.py,sha256=z5nZVWn1kZk98BeWeYNd4gPbQgabhyBUwNkCdLmZTwE,523
+sqlglot/__main__.py,sha256=7qpKuKIGYm5Fxv1WImM8NxGkSRS0KcOvhFD2q6QBzDY,114
+sqlglot/dialects.py,sha256=Tm2KPXqQZo4yaD6VdZ3RDnHXFtJa7Grsv8UMXGekIas,9303
+sqlglot/errors.py,sha256=oQ_jLmH-eVPFu7jAMVCtdVj9r-LMKCZCHTYPXtI-L_Q,275
+sqlglot/expressions.py,sha256=QtjBRly6zwuYHZZviewXPOAl2KtHG8VsN9nsM9o0u5M,8391
+sqlglot/generator.py,sha256=l68_WtGq5GAh5llGEoyszQBDz8x693NJFHay-L-t23s,13484
+sqlglot/helper.py,sha256=3GmXn-UutklNAirikGCxlSf9kkkpSrnuA9HJxC25QWc,568
+sqlglot/parser.py,sha256=a7rO9XjeJwTEwdxHOYatbGDVv31ShHN6C-540TejVp0,21176
+sqlglot/rewriter.py,sha256=kgEVR5mCQv7PW0QVVxPytoR6SzD0BQNzJbjEwAKqBwA,1375
+sqlglot/tokens.py,sha256=Y4uA_RFcgbRFogNu6XWLno-0wDefffNZM3aMLLnE2wM,11154
+sqlglot-0.13.0.dist-info/LICENSE,sha256=p208OXrLf_dMcvuRHpcinfsJdihCqKWbqtFXpw4kyW0,1065
+sqlglot-0.13.0.dist-info/METADATA,sha256=Ny6cQr6f_44ZxoG6l14Y1TNsiGcW0DTa59uonNSHoXI,5335
+sqlglot-0.13.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sqlglot-0.13.0.dist-info/top_level.txt,sha256=5kRskCGA_gVADF9rSfSzPdLHXqvfMusDYeHePfNY2nQ,8
+sqlglot-0.13.0.dist-info/RECORD,,
