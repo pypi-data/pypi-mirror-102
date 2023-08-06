@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: msg2apps
+Version: 1.0
+Summary: A module for sending messages to communication apps
+Home-page: https://github.com/daksim/msg2apps
+Author: Daksimz
+Author-email: daksimzhang@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: requests
+Requires: json
