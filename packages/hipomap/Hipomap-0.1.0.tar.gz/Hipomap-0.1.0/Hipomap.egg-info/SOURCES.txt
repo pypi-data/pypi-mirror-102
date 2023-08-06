@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Hipomap.egg-info/PKG-INFO
+Hipomap.egg-info/SOURCES.txt
+Hipomap.egg-info/dependency_links.txt
+Hipomap.egg-info/requires.txt
+Hipomap.egg-info/top_level.txt
+hipomap/Hipomap.py
+hipomap/__init__.py
+hipomap/hipoClassify.py
+hipomap/model_rep.py
