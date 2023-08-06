@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+elstargo/__init__.py
+elstargo/flow.py
+elstargo/myfunctions.py
+elstargo.egg-info/PKG-INFO
+elstargo.egg-info/SOURCES.txt
+elstargo.egg-info/dependency_links.txt
+elstargo.egg-info/top_level.txt
