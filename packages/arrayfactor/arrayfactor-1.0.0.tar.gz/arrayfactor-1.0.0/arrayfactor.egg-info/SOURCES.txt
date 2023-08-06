@@ -1,0 +1,5 @@
+setup.py
+arrayfactor.egg-info/PKG-INFO
+arrayfactor.egg-info/SOURCES.txt
+arrayfactor.egg-info/dependency_links.txt
+arrayfactor.egg-info/top_level.txt
