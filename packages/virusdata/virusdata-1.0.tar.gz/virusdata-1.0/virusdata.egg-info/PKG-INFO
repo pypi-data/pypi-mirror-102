@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: virusdata
+Version: 1.0
+Summary: Get Details about COVID Cases
+Home-page: https://github.com/GNVageesh/covidata
+Author: GN Vageesh
+Author-email: vageeshgn2005@gmail.com
+License: MIT
+Download-URL: https://github.com/GNVageesh/gnv
+Description: UNKNOWN
+Keywords: python,python3,virus,corona,COVID,covid,COVID19,pandemic,cli
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable

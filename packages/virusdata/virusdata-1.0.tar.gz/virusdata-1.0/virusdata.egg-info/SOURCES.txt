@@ -1,0 +1,9 @@
+setup.py
+src/__init__.py
+src/main.py
+virusdata.egg-info/PKG-INFO
+virusdata.egg-info/SOURCES.txt
+virusdata.egg-info/dependency_links.txt
+virusdata.egg-info/entry_points.txt
+virusdata.egg-info/requires.txt
+virusdata.egg-info/top_level.txt
