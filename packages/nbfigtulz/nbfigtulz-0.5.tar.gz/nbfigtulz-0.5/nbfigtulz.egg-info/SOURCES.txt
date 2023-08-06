@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nbfigtulz.egg-info/PKG-INFO
+nbfigtulz.egg-info/SOURCES.txt
+nbfigtulz.egg-info/dependency_links.txt
+nbfigtulz.egg-info/requires.txt
+nbfigtulz.egg-info/top_level.txt

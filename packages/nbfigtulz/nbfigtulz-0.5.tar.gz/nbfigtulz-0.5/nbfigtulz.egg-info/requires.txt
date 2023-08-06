@@ -1,0 +1,6 @@
+matplotlib
+ipython
+Pillow
+
+[jupyterlab]
+jupyterlab
