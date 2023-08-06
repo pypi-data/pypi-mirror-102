@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LISENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+joecalc.egg-info/PKG-INFO
+joecalc.egg-info/SOURCES.txt
+joecalc.egg-info/dependency_links.txt
+joecalc.egg-info/top_level.txt
