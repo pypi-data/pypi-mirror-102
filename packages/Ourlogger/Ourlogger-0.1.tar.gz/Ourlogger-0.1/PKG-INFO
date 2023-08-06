@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Ourlogger
+Version: 0.1
+Summary: Creat logger object in order to push him to logs table - d_digital_data.models_logs
+Home-page: https://github.com/peleg525/Ourlogger.git
+Author: Peleg Wurzel
+Author-email: Peleg525@gmail.com
+License: MIT
+Download-URL: https://github.com/peleg525/Ourlogger/archive/refs/tags/V_04.tar.gz
+Description: UNKNOWN
+Keywords: logs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
