@@ -1,0 +1,9 @@
+cdtea/__init__.py,sha256=sC3wUNzDl42OEbiNhjCVB89tNUYNYiw1bFFz0NYylxk,338
+cdtea/simplicial.py,sha256=p0xMjyu5VuYqP8kYna-G38NA8DPfl1iEd8drmJTuGxM,239
+cdtea/tests/__init__.py,sha256=xua8Ml1SPfpDtupv25cDznrfe8K_ceSN50wFeEminhY,264
+cdtea/tests/test_simplicial.py,sha256=EIQBHnwg1RPJRV_DiR3Kf6QYNqaufYfQEOlf_Kjs6lY,247
+cdtea-0.0.1.dist-info/LICENSE,sha256=X4LfsNRvU8kAtHgFdfqD4rDiZcdE-tvtHduqrW8P9pU,1073
+cdtea-0.0.1.dist-info/METADATA,sha256=QOc_48jfuI2E7rnZe9VNVfY59xNCC9qxl6iiKg8Ljjs,1571
+cdtea-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdtea-0.0.1.dist-info/top_level.txt,sha256=vnOLtQjNdHU6jTG5RcwP8CuGOMsiFhiqigXyX7QMWuE,6
+cdtea-0.0.1.dist-info/RECORD,,
