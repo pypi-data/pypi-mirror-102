@@ -1,0 +1,9 @@
+README.md
+setup.py
+objectscriber/__init__.py
+objectscriber/scriber.py
+objectscriber.egg-info/PKG-INFO
+objectscriber.egg-info/SOURCES.txt
+objectscriber.egg-info/dependency_links.txt
+objectscriber.egg-info/requires.txt
+objectscriber.egg-info/top_level.txt
