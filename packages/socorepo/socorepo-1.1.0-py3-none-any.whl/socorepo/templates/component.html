@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+
+
+{% block title %}{{ project.label }} &middot; {{ component.qualifier.name }} {{ component.version }}{% endblock %}
+
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="component.css") }}"/>
+{% endblock %}
+
+
+{% block breadcrumb %}
+    <a href="{{ url_for("project_list") }}">{{ _("project_list.title") }}</a>
+    &rightarrow; <a href="{{ url_for("project", project_id=project.id) }}">{{ project.label }}</a>
+    &rightarrow; {{ component.version }}
+{% endblock %}
+
+
+{% block api_link %}
+    {{ url_for("api_asset_list", project_id=project.id, version=component.version) }}
+{% endblock %}
+
+
+{% block content %}
+    {% if component.assets|length != 0 %}
+        <p>{{ _("component.comes_with_assets") }}</p>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th>{{ _("component.asset_type") }}</th>
+                    <th>{{ _("component.asset_filename") }}</th>
+                    {% if has_file_size_column %}
+                        <th>{{ _("component.asset_size") }}</th>
+                    {% endif %}
+                    {% if has_checksums_column %}
+                        <th>{{ _("component.asset_checksums") }}</th>
+                    {% endif %}
+                </tr>
+                </thead>
+                {% for asset in component.assets %}
+                    <tr class="{{ component.qualifier.color if asset.featured }}">
+                        <td>{{ asset.type }}</td>
+                        <td>
+                            {% if asset.filename|length > 30 %}
+                                <div class="tooltip">
+                                    {{ asset.filename|truncate(25, leeway=5) }}
+                                    <div class="tooltip-content">{{ asset.filename }}</div>
+                                </div>
+                            {% else %}
+                                {{ asset.filename }}
+                            {% endif %}
+                        </td>
+                        {% if has_file_size_column %}
+                            <td>{{ asset.file_size|filesizeformat if asset.file_size }}</td>
+                        {% endif %}
+                        {% if has_checksums_column %}
+                            <td>
+                                {% for algo, checksum in asset.checksums.items() %}
+                                    <div class="tooltip">
+                                        {{ algo|upper }}
+                                        <div class="tooltip-content">{{ algo|upper }}: {{ checksum }}</div>
+                                    </div>
+                                {% endfor %}
+                            </td>
+                        {% endif %}
+                        <td>
+                            <a href="{{ asset.url }}" {{ "class=boxlink" if asset.featured }}
+                               style="white-space: nowrap;">
+                                <b>&DownArrowBar;</b> {{ _("component.download_asset") }}
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% else %}
+        <p>{{ _("component.no_assets") }}</p>
+    {% endif %}
+
+    <p style="margin-top: 3em;">{{ _("component.sourced_from") }}</p>
+    <div class="table-wrapper">
+        <table>
+            {% for row_th, row_td in component_info_table.items() %}
+                <tr>
+                    <th>{{ row_th }}</th>
+                    <td>{{ row_td }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}

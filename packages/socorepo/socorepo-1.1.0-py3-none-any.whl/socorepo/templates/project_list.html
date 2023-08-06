@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+
+{% block title %}{{ _("project_list.title") }}{% endblock %}
+
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="project_list.css") }}"/>
+{% endblock %}
+
+
+{% block breadcrumb %}{{ _("project_list.title") }}{% endblock %}
+
+
+{% block api_link %}
+    {{ url_for("api_project_list") }}
+{% endblock %}
+
+
+{% block content %}
+    {{ homepage }}
+
+    <div id="project-list">
+        {% for project in projects %}
+            <a href="{{ url_for("project", project_id=project.id) }}" class="boxlink">
+                {{ project.label }}
+            </a>
+        {% endfor %}
+    </div>
+{% endblock %}
