@@ -1,0 +1,15 @@
+tethys_cdsapi/__init__.py,sha256=J3m5cpZQtarO_S7MykL3mP70LhIThJ1r4VhZmZXsYvQ,91
+tethys_cdsapi/downloader.py,sha256=ZcOD1PDf0reXtnkqaJNsRdKK-DBqtfAgF0V4s4yw_bk,7176
+tethys_cdsapi/era5_mappings.csv,sha256=8FgjG5rW75Scc5A4NdPnVEOiB991dG9a7qCNIwXdGoE,2018
+tethys_cdsapi/tethys.py,sha256=nfBROlwsSWvcndljJ5o4_HPNeOKBZEvS7D0xnDy5_jA,12077
+tethys_cdsapi/utils.py,sha256=-Uwzk48hzHD8dGTZUd4edLEISPVg9LdlNFhFUJuXtf8,3224
+tethys_cdsapi/virtual_parameters.py,sha256=l4nBFsWFjGjJx4-gpgJhGpV8pLtqTK7KOVAnMVbe1jk,4641
+tethys_cdsapi/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+tethys_cdsapi/tests/testing.py,sha256=pP1Si7gn3hDUEXsswOZ27QvnYnxdwOFZyD90JMhzD28,884
+tethys_cdsapi/tests/utest_downloader.py,sha256=Krgh3HH3xpo-nJwQ8qN0C-Rnv-0pfXPqb5u2G-q9a8M,842
+tethys_cdsapi/tests/utest_era5.py,sha256=9jpDsaDme-jBuWBEJfjAByZ286NBW-gzMd9W84IeCMI,1627
+tethys_cdsapi-0.0.20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tethys_cdsapi-0.0.20.dist-info/METADATA,sha256=0yX7f3m8vima5Sz8sMwJ9qC0UgJlBydJ6Y7b6_ObL7Y,703
+tethys_cdsapi-0.0.20.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+tethys_cdsapi-0.0.20.dist-info/top_level.txt,sha256=dcEc47Ujv3O3191qQRi9hoaR2iquF7ftzfeLlu2E-JE,14
+tethys_cdsapi-0.0.20.dist-info/RECORD,,
