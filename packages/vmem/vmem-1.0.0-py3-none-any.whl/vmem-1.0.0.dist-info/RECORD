@@ -1,0 +1,9 @@
+vmem/__init__.py,sha256=F-3shTAHiHoTrqG6j15BNjaDozzBsx4Z-gWT2R5FagI,128
+vmem/posix.py,sha256=yheG0mRVQvKK7FP9XnhW-3EaE-Uo3BTTdyMrUxDmD04,5006
+vmem/utils.py,sha256=-V7ZOwNPzj0euEREmLVprcJOoUvoc3a9mG1w3Hg6WTg,426
+vmem/windows.py,sha256=FrQKUQtMw3Ilzf7SOhHA8TGVYwCfNK-vyG1e2RvX0Lc,1074
+vmem-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vmem-1.0.0.dist-info/METADATA,sha256=pJ0nu8G7tjS8ga7Su8l1-DwLxwpwAAOcfn1lFlrPJVM,849
+vmem-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vmem-1.0.0.dist-info/top_level.txt,sha256=lkKLf2ZDGhgVWnedPt5IpOG6brKsOVEYdZiibvlpzs0,5
+vmem-1.0.0.dist-info/RECORD,,
