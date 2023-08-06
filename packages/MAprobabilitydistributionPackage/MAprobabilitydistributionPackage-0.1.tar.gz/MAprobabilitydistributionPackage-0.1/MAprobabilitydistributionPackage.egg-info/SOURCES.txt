@@ -1,0 +1,10 @@
+setup.py
+MAprobabilitydistributionPackage/Binomialdistribution.py
+MAprobabilitydistributionPackage/Gaussiandistribution.py
+MAprobabilitydistributionPackage/Generaldistribution.py
+MAprobabilitydistributionPackage/__init__.py
+MAprobabilitydistributionPackage.egg-info/PKG-INFO
+MAprobabilitydistributionPackage.egg-info/SOURCES.txt
+MAprobabilitydistributionPackage.egg-info/dependency_links.txt
+MAprobabilitydistributionPackage.egg-info/not-zip-safe
+MAprobabilitydistributionPackage.egg-info/top_level.txt
