@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: static-view-berk_erdemoglu
+Version: 0.0.2
+Summary: A package for opening HTML files on a local server
+Home-page: https://github.com/berkerdemoglu/static_view
+Author: Berk Erdemoglu
+Author-email: berkerdemoglu1120@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/berkerdemoglu/static_view/issues
+Description: # static_view
+        
+        A package for opening HTML files on a local server.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
