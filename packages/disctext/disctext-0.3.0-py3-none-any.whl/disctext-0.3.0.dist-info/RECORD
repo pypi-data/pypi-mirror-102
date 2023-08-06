@@ -1,0 +1,12 @@
+disctext/__init__.py,sha256=Xv8hKC1H6Bi8AuI1_yghITA8thVkNBqqOv0vVZ6jddE,204
+disctext/canvas.py,sha256=D3tl8Ufvo4L9NU_5RdmqLHRX0YUEZVdvIAWXK4-ZPq4,2823
+disctext/capture.py,sha256=uSp5WIl-sXhJqrU53OGvQHaGol0MUr8aWJdFu-pDHYY,1037
+disctext/models.py,sha256=ovhkoTzgtiQbfduUszYbxb8vXbcLr7fFllhmZaWzh3Y,3779
+disctext/session.py,sha256=6k8UEM3Sc1k18xcQnHlrptrpvXJ0U4rczh7kZPQsF28,4729
+disctext/settings.py,sha256=nln6U7inUR7opB8samwLDlhEr0gEBHncqfy0EBjM5PI,125
+disctext/video.py,sha256=tOjyk-FFTQP0ZStybyDVDaBrYbR8s01S-6mq8rhkYNI,5864
+disctext-0.3.0.dist-info/METADATA,sha256=WGTHZTbkvLTFpyS5y2yHeQ9h8V3S8_tGZGXyw1I2qrQ,456
+disctext-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+disctext-0.3.0.dist-info/entry_points.txt,sha256=X4Lva6s2qeI47elujZbYK0c_Pbbo06v9yRVQJuyuylc,52
+disctext-0.3.0.dist-info/top_level.txt,sha256=WRJZuv4UIRPAymiWeUcsOf3cTRvTFvwINHlaQ_vleJc,9
+disctext-0.3.0.dist-info/RECORD,,
