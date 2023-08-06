@@ -1,0 +1,6 @@
+aiohttp
+lxml
+requests
+zyf>=0.6
+tqdm
+pandas

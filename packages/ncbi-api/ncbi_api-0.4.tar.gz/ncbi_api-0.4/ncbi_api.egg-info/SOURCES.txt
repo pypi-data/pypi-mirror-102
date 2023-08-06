@@ -1,0 +1,10 @@
+README.md
+setup.py
+ncbi_api/__init__.py
+ncbi_api/compress.py
+ncbi_api/geo.py
+ncbi_api.egg-info/PKG-INFO
+ncbi_api.egg-info/SOURCES.txt
+ncbi_api.egg-info/dependency_links.txt
+ncbi_api.egg-info/requires.txt
+ncbi_api.egg-info/top_level.txt
