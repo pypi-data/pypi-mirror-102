@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/quickAI.egg-info/PKG-INFO
+src/quickAI.egg-info/SOURCES.txt
+src/quickAI.egg-info/dependency_links.txt
+src/quickAI.egg-info/top_level.txt
+src/quickai/__init__.py
