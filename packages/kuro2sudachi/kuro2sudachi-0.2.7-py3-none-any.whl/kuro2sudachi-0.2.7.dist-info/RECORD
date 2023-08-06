@@ -1,0 +1,8 @@
+kuro2sudachi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kuro2sudachi/core.py,sha256=xtNZFFxq6s13F98oOUvzn2mSChkne_T3G71z3cMpAfU,4441
+kuro2sudachi/normalizer.py,sha256=8bobeq1ysdCOEqnFt024Wt5F1n9lCAu3Nky7-WIk-MQ,2736
+kuro2sudachi/rewrite.def,sha256=piu2ryITYzEiXQX7z5W5eTnj8jb-7aIkDtWWQaBHDRw,5426
+kuro2sudachi-0.2.7.dist-info/entry_points.txt,sha256=Bdwz6h4FNfvPgf2GBSgXxefPzRgnQEr9Z10CPIGQIZ8,54
+kuro2sudachi-0.2.7.dist-info/WHEEL,sha256=uvv1AQW2KofoDi40QrELRF14CCscf7j9E3GsqyAEk-s,85
+kuro2sudachi-0.2.7.dist-info/METADATA,sha256=7x1M_UQenVCdGi8vkmevGRE15AAKlgfTkAn1r4WeYgw,2667
+kuro2sudachi-0.2.7.dist-info/RECORD,,
