@@ -1,0 +1,13 @@
+LCExtract/LCExtract.py,sha256=V5PD5CMxis6HCjmhUg21mbnlKTbNKUCVlseDL3loCys,1533
+LCExtract/PanSTARRS.py,sha256=mkXUXEPrflngNv_UVDDQVtVZG4ki4g14bRQ-21iUsuc,8985
+LCExtract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LCExtract/config.py,sha256=iFwge-JifcEIRsUrgsxLfrWW31LYBin6mar_1EYgumU,1171
+LCExtract/coord.py,sha256=TclDnFMEYBfwXPFTt61g_xvM1Ks9hANhi7ac0acLoOw,829
+LCExtract/dataretrieve.py,sha256=5hirebFwbRJK4aoXilXwlC6n11gEx8wk4gwpWv2H1nw,17128
+LCExtract/entry.py,sha256=XtqIdwwU3cDbSVz5yMMqX5hIRFU2aN102PHhOn9Qw8Y,4453
+LCExtract/utilities.py,sha256=YSQqRC3Ur7X4FtxzCf2QZcms31TAut8xptrX03aicRI,1016
+LCExtract-0.1.6.dist-info/LICENSE,sha256=yp6DXvIzN3V6Xgx6t7q-oDFMU-k7vZxjuRfm7PXkXhw,1071
+LCExtract-0.1.6.dist-info/METADATA,sha256=4BUthafGtFnPpuSanqlFp0GYB4wLg66pF1GoDiiFUtM,2272
+LCExtract-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LCExtract-0.1.6.dist-info/top_level.txt,sha256=AIE7CzLkesOPu6E38floc26Gngo1V1WhQKkNhQNHWQ0,10
+LCExtract-0.1.6.dist-info/RECORD,,
