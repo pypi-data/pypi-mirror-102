@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pydaily
+Version: 0.4.4
+Summary: Daily python utility functions.
+Home-page: https://github.com/PingjunChen/pydaily
+Author: Pingjun Chen
+Author-email: pingjunchen@ieee.org
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
