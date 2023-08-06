@@ -1,0 +1,58 @@
+1618354759.744 : radical.utils        : 9789  : 140211861522240 : DEBUG    : lm new manager
+1618354759.745 : radical.utils        : 9789  : 140211781924608 : DEBUG    : lm create  pool   for pool1 (<class 'str'>) (<radical.utils.lease_manager.LeaseManager object at 0x7f85997b0880>)
+1618354759.745 : radical.utils        : 9789  : 140211781924608 : DEBUG    : lm create  object for pool1
+1618354759.745 : radical.utils        : 9789  : 140211781924608 : DEBUG    : lm create  object for pool1
+1618354759.745 : radical.utils        : 9789  : 140211781924608 : DEBUG    : lm create  object for pool1
+1618354759.745 : radical.utils        : 9789  : 140211773531904 : DEBUG    : lm create  pool   for pool2 (<class 'str'>) (<radical.utils.lease_manager.LeaseManager object at 0x7f85997b0880>)
+1618354759.745 : radical.utils        : 9789  : 140211773531904 : DEBUG    : lm create  object for pool2
+1618354759.745 : radical.utils        : 9789  : 140211773531904 : DEBUG    : lm create  object for pool2
+1618354759.745 : radical.utils        : 9789  : 140211773531904 : DEBUG    : lm create  object for pool2
+1618354759.746 : radical.utils        : 9789  : 140211682010880 : DEBUG    : lm create  object for pool2
+1618354759.746 : radical.utils        : 9789  : 140211682010880 : DEBUG    : lm create  object for pool2
+1618354759.746 : radical.utils        : 9789  : 140211682010880 : DEBUG    : lm create  object for pool2
+1618354759.746 : radical.utils        : 9789  : 140211690403584 : DEBUG    : lm create  object for pool1
+1618354759.746 : radical.utils        : 9789  : 140211673618176 : DEBUG    : lm create  object for pool1
+1618354759.746 : radical.utils        : 9789  : 140211673618176 : DEBUG    : lm create  object for pool1
+1618354759.746 : radical.utils        : 9789  : 140211673618176 : DEBUG    : lm create  object for pool1
+1618354759.746 : radical.utils        : 9789  : 140211690403584 : DEBUG    : lm create  object for pool1
+1618354759.746 : radical.utils        : 9789  : 140211690403584 : DEBUG    : lm create  object for pool1
+1618354765.447 : radical.utils        : 9829  : 140323669006144 : INFO     : loading plugins for namespace radical.utils
+1618354765.448 : radical.utils        : 9829  : 140323669006144 : DEBUG    : loading plugin /mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_2/plugin_unittests_default_2.py
+1618354765.448 : radical.utils        : 9829  : 140323669006144 : INFO     : loading plugin /radical/utils/plugins/unittests_2/plugin_unittests_default_2.py
+1618354765.448 : radical.utils        : 9829  : 140323669006144 : ERROR    : loading plugin /radical/utils/plugins/unittests_2/plugin_unittests_default_1.py failed
+Traceback (most recent call last):
+  File "/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugin_manager.py", line 193, in load_plugins
+    spec.loader.exec_module(plugin)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_2/plugin_unittests_default_1.py", line 7, in <module>
+    import does_not_exist as nope                       # noqa pylint: disable=F0401
+ModuleNotFoundError: No module named 'does_not_exist'
+1618354765.448 : radical.utils        : 9829  : 140323669006144 : DEBUG    : loading plugin /mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_1/plugin_unittests_default_2.py
+1618354765.449 : radical.utils        : 9829  : 140323669006144 : INFO     : loading plugin /radical/utils/plugins/unittests_1/plugin_unittests_default_2.py
+1618354765.449 : radical.utils        : 9829  : 140323669006144 : ERROR    : loading plugin /radical/utils/plugins/unittests_1/plugin_unittests_default_1.py failed
+Traceback (most recent call last):
+  File "/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugin_manager.py", line 193, in load_plugins
+    spec.loader.exec_module(plugin)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_1/plugin_unittests_default_1.py", line 7, in <module>
+    import does_not_exist as nope                       # noqa pylint: disable=F0401
+ModuleNotFoundError: No module named 'does_not_exist'
+1618354765.450 : radical.utils        : 9829  : 140323669006144 : DEBUG    : plugins: 
+{'unittests_1': {'default_2': {'class': 'PLUGIN_CLASS',
+                               'description': 'this is an empty test which '
+                                              'basically does nothing.',
+                               'instance': None,
+                               'name': 'default_2',
+                               'plugin': <module 'radical.utils.plugins.unittests_1.plugin_unittests_default_2' from '/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_1/plugin_unittests_default_2.py'>,
+                               'type': 'unittests_1',
+                               'version': '0.1'}},
+ 'unittests_2': {'default_2': {'class': 'PLUGIN_CLASS',
+                               'description': 'this is a test which basically '
+                                              'does nothing.',
+                               'instance': None,
+                               'name': 'default_2',
+                               'plugin': <module 'radical.utils.plugins.unittests_2.plugin_unittests_default_2' from '/mnt/home/merzky/radical/radical.pilot.work/ve3/lib/python3.8/site-packages/radical/utils/plugins/unittests_2/plugin_unittests_default_2.py'>,
+                               'type': 'unittests_2',
+                               'version': '0.1'}}}

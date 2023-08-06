@@ -1,0 +1,39 @@
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: echo: <bound method Server._request_echo of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: fail: <bound method Server._request_fail of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: put: <bound method Registry.put of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: get: <bound method Registry.get of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: keys: <bound method Registry.keys of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : add handler: del: <bound method Registry.delitem of <radical.utils.zmq.registry.Registry object at 0x7fc76d2cc940>>
+1618354786.295 : server.0000          : 9959  : 140494586054464 : INFO     : start bridge server.0000
+1618354786.295 : server.0000          : 9959  : 140494504109824 : DEBUG    : try url tcp://*:10000
+1618354786.296 : server.0000          : 9959  : 140494504109824 : DEBUG    : success
+1618354786.296 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'put', 'arg': ['foo.bar.buz', {'biz': 42}]}
+1618354786.296 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': None}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo']}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': {'bar': {'buz': {'biz': 42}}}}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo.bar.buz.biz']}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': 42}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo.bar.buz.biz.boz']}
+1618354786.297 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': None}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo']}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': {'bar': {'buz': {'biz': 42}}}}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo.bar.buz.biz']}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': 42}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo']}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': {'bar': {'buz': {'biz': 42}}}}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'get', 'arg': ['foo.bar.buz.biz.boz']}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': None}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'keys', 'arg': None}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': ['foo']}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'keys', 'arg': None}
+1618354786.298 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': ['foo']}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'del', 'arg': ['foo']}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': None}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'keys', 'arg': None}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': []}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : req: {'cmd': 'keys', 'arg': None}
+1618354786.299 : server.0000          : 9959  : 140494504109824 : DEBUG    : rep: {'err': None, 'exc': None, 'res': []}
+1618354786.299 : server.0000          : 9959  : 140494586054464 : INFO     : stop bridge server.0000
+1618354786.299 : server.0000          : 9959  : 140494586054464 : INFO     : wait bridge server.0000
+1618354786.399 : server.0000          : 9959  : 140494504109824 : DEBUG    : term
+1618354786.400 : server.0000          : 9959  : 140494586054464 : INFO     : wait bridge server.0000
