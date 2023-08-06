@@ -1,0 +1,3 @@
+[console_scripts]
+p-forth = p_unity.cli:ide_stdio
+
