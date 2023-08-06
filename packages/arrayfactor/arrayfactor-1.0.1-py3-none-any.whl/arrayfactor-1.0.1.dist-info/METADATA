@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: arrayfactor
+Version: 1.0.1
+Summary: Array Factor Calculator
+Home-page: UNKNOWN
+Author: Merve Tascioglu
+Author-email: <merve.tascioglu@barkhauseninstitut.org>
+License: UNKNOWN
+Keywords: python,antenna array,array factor
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+./README.md
+
+
