@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cleanrl
+Version: 0.4.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: gym_all
+Provides-Extra: atari
+Provides-Extra: box2d
+Provides-Extra: pybullet
+Provides-Extra: pysc2
+Provides-Extra: procgen
+Provides-Extra: cloud
+Provides-Extra: gym_microrts
+Provides-Extra: all
