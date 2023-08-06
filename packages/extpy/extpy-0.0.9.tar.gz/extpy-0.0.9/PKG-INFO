@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: extpy
+Version: 0.0.9
+Summary: 自用基础扩展库
+Home-page: https://vip.kingdee.com/people/zuiqingquan-2147424412
+Author: ilamy
+Author-email: xethan@qq.com
+License: UNKNOWN
+Description: # extpy 扩展库
+        
+        
+        
+        - 引用
+        ```py
+        import extpy
+        ```
+        
+        - Methods
+        ```py
+        genQRCode
+        genLogger
+        genChromeHeaders
+        ```
+        
+        - Classes
+        ```py
+        Ithread
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
