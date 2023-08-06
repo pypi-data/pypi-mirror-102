@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jupyter2clipboard/__init__.py
+jupyter2clipboard/jupyter2clipboard.py
+jupyter2clipboard.egg-info/PKG-INFO
+jupyter2clipboard.egg-info/SOURCES.txt
+jupyter2clipboard.egg-info/dependency_links.txt
+jupyter2clipboard.egg-info/requires.txt
+jupyter2clipboard.egg-info/top_level.txt
