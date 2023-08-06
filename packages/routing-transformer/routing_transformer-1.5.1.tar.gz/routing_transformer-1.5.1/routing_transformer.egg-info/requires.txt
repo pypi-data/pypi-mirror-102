@@ -1,0 +1,5 @@
+einops
+local-attention>=1.4.0
+mixture-of-experts>=0.2.0
+product-key-memory
+torch
