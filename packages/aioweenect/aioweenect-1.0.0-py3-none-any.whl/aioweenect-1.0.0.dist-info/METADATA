@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: aioweenect
+Version: 1.0.0
+Summary: Asynchronous Python client for the weenect API.
+Home-page: http://github.com/eifinger/aioweenect
+Author: eifinger
+Author-email: k.eifinger@googlemail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: aiohttp==3.7.4
+Requires-Dist: aresponses==2.1.4 ; extra == "test"
+Requires-Dist: pytest==6.2.3 ; extra == "test"
+Requires-Dist: pytest-cov==2.11.1 ; extra == "test"
+Requires-Dist: pytest-asyncio==0.14.0 ; extra == "test"
+Requires-Dist: pylint==2.7.4 ; extra == "test"
+Requires-Dist: tox==3.23.0 ; extra == "test"
+Requires-Dist: codecov==2.1.11 ; extra == "test"
+Requires-Dist: flake8==3.9.0 ; extra == "test"
+Requires-Dist: mypy==0.812 ; extra == "test"
+Requires-Dist: pre-commit==2.12.0 ; extra == "test"
+Requires-Dist: black==20.8b1 ; extra == "test"
+Provides-Extra: test
+
+# aioweenect
+
+Asynchronous Python client for the weenect API
+
+[![GitHub Actions](https://github.com/eifinger/aioweenect/workflows/Python%20package/badge.svg)](https://github.com/eifinger/aioweenect/actions?workflow=Python+package)
+[![PyPi](https://img.shields.io/pypi/v/aioweenect.svg)](https://pypi.python.org/pypi/aioweenect)
+[![PyPi](https://img.shields.io/pypi/l/aioweenect.svg)](https://github.com/eifinger/aioweenect/blob/master/LICENSE)
+[![codecov](https://codecov.io/gh/eifinger/aioweenect/branch/master/graph/badge.svg)](https://codecov.io/gh/eifinger/aioweenect)
+[![Downloads](https://pepy.tech/badge/aioweenect)](https://pepy.tech/project/aioweenect)
+
+## Installation
+
+```bash
+$ pip install aioweenect
+```
+
+## Usage
+
+```python
+
+```
+
