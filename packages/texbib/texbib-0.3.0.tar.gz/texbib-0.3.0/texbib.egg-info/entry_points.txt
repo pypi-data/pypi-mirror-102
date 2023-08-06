@@ -1,0 +1,3 @@
+[console_scripts]
+bib = texbib.cli:cli
+
