@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aiogram_store/__init__.py
+src/aiogram_store/main.py
+src/aiogram_store.egg-info/PKG-INFO
+src/aiogram_store.egg-info/SOURCES.txt
+src/aiogram_store.egg-info/dependency_links.txt
+src/aiogram_store.egg-info/entry_points.txt
+src/aiogram_store.egg-info/top_level.txt

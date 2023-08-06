@@ -1,0 +1,3 @@
+[console_scripts]
+aiogram_store = src.aiogram_store.main:main
+
