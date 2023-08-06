@@ -1,0 +1,5 @@
+setup.py
+translapi.egg-info/PKG-INFO
+translapi.egg-info/SOURCES.txt
+translapi.egg-info/dependency_links.txt
+translapi.egg-info/top_level.txt
