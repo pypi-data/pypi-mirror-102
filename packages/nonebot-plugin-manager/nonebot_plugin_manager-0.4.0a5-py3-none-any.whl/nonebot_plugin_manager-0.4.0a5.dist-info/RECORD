@@ -1,0 +1,10 @@
+nonebot_plugin_manager/__init__.py,sha256=UY5zERZjiT0zeuHkNaFw7dL-x4wQDacfQFYzSfp9mi0,2180
+nonebot_plugin_manager/_pip.py,sha256=YJX6ECgCtn_lpvSkaE4fETXvrkxPNpymNp5jvQh6T54,668
+nonebot_plugin_manager/data.py,sha256=sMct_FepaMcc0BTZ2DRqrhDIkqnIA0_p684PhfylECc,4491
+nonebot_plugin_manager/handle.py,sha256=uzOi9Bd4QMAyaBccl1G_rsRUlDM0WI2mJ9HRkwMlNRQ,6363
+nonebot_plugin_manager/parser.py,sha256=7yzpG2Uihbr8HxuJsymCeXuYNk5mnszawnj9tzhdmTk,2831
+nonebot_plugin_manager/plugin.py,sha256=ZB2eH5AZvtaQUXN8Tz5ii27ZFqrmvy_dqdm2XltpRBQ,1357
+nonebot_plugin_manager-0.4.0a5.dist-info/LICENSE,sha256=9zwZpdcakBlCpw7_Q0F5_Sp78Jc3xU5pXkDzLd1Pvtg,1084
+nonebot_plugin_manager-0.4.0a5.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+nonebot_plugin_manager-0.4.0a5.dist-info/METADATA,sha256=PQ4_VyTSkS1wBeQmrKtcQhSp16y7n-euIhDAg5b4EA4,7923
+nonebot_plugin_manager-0.4.0a5.dist-info/RECORD,,
