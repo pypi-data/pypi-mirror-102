@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+from gcd.hdl import Client
+from gcd.nms import Names
+from gcd.obj import cfg, opts
+from gcd.trm import exec
+from gcd.zzz import shutil, unittest
+
+import gcd.trc
+import gcd.url
+
+class Test(Client):
+
+    def raw(self, txt):
+        if opts("v"):
+            print(txt)
+
+def main():
+    if os.path.exists(".genocide"):
+        shutil.rmtree(".genocide")
+    Names.walk("genocide")
+    gcd.url.debug = True
+    cfg.wd = ".genocide"
+    c = Test()
+    c.boot()
+    c.start()
+    pat = "test_%s*" % "*"
+    suite = unittest.loader.TestLoader().discover("test", pattern=pat)
+    unittest.TextTestRunner(verbosity=3).run(suite)
+
+exec(main)
+for e in gcd.trc.exc:
+    print(e)
