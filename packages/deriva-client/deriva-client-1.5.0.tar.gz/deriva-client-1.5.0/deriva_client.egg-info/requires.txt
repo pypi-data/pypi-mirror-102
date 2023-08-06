@@ -1,0 +1,9 @@
+bdbag[boto,globus]==1.6.1
+fair-research-login==0.2.0
+fair-identifiers-client==0.4.1
+deriva==1.5.0
+deriva-qt==1.5.0
+deriva-catalog-manage==0.9.0
+deriva-workbench==0.1.0
+bdbag_gui==1.1.0
+PyQtWebEngine==5.15.4
