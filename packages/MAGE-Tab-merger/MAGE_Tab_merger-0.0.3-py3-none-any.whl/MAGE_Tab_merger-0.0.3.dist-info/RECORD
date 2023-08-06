@@ -1,0 +1,13 @@
+IDF/__init__.py,sha256=evkPnmO60gqmM_-j1-iXte7YjkWQwEmxUeVm__G6-Po,310
+MAGE_Tab_merger-0.0.3.data/scripts/merge_baseline_configuration_xmls.py,sha256=hh0Jh3xIxphyS7bylPK3gO5yw3OY8Ms0Pu_xzmb3zUI,5053
+MAGE_Tab_merger-0.0.3.data/scripts/merge_condensed_sdrfs.py,sha256=popw6biUYKIFFi-meZzz0g0ELWFiE7NClqIOoXrr5Ac,10470
+MAGE_Tab_merger-0.0.3.data/scripts/merge_data.py,sha256=5Ms78nfAPguIfz_ZHG1vV6G3eFpSQdoeg_np0OZzQSI,5044
+MAGE_Tab_merger-0.0.3.data/scripts/merge_sdrfs.py,sha256=WpMWVeLJYN-YqZpNEyWEUvdfq_Gew6BUyVn2pr4oIg0,2534
+SDRF/__init__.py,sha256=hvaNAZskcKtrPUbGatEVX6OTvf-IeRxO6R5aEKuaIGk,24944
+SDRF/sdrfcol_enum_tests.py,sha256=MIEuEYhYrbtMSzv68YHEd_Wv0BtsRWLHsQgR9SkZHf0,623
+SDRF/tests.py,sha256=f8UF4NxNDNUX9RXfL1MoeDsJhAx0VgeH6dnz4hR82yQ,1791
+test_util/__init__.py,sha256=VqGo5Sbw7Ad3-psJJx_GqpU0lXpZw0P7t_ihbq4jy2Q,308
+MAGE_Tab_merger-0.0.3.dist-info/METADATA,sha256=7WuIK3l4GGkLvEWfF6g2Mk8z4zC0PMjPqHWUnJT_jhc,8715
+MAGE_Tab_merger-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MAGE_Tab_merger-0.0.3.dist-info/top_level.txt,sha256=F2L3lj-0w8bcfNM5zNLpzlnrUfKKYGBtDeztRpEyDew,19
+MAGE_Tab_merger-0.0.3.dist-info/RECORD,,
