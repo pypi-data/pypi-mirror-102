@@ -1,0 +1,6 @@
+README.md
+setup.py
+bharathpdf.egg-info/PKG-INFO
+bharathpdf.egg-info/SOURCES.txt
+bharathpdf.egg-info/dependency_links.txt
+bharathpdf.egg-info/top_level.txt
