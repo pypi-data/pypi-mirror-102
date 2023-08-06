@@ -1,0 +1,9 @@
+fibsem_metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fibsem_metadata/class_metadata_collection.py,sha256=iy1Gdvw2CRKSzSvWvSN9Um8FB2Wy-eDRQ9hJM_IlSnU,14450
+fibsem_metadata/dataset_index.py,sha256=GDABIre-ur15NKPOzmbP-7HrrNM59F3kYO-fZ4m-UDQ,2041
+fibsem_metadata/dataset_metadata.py,sha256=aJ51NfBYToCP7KUzc5qga7xJTShnlg-ArfDsaHtn5gI,865
+fibsem_metadata/multiscale/cosem_metadata.py,sha256=eefJ9HQo_e-PevHLsA3417lE8-r6CJCyf8HfrmyrGVA,1348
+fibsem_metadata/multiscale/neuroglancer_metadata.py,sha256=MK3YOzZCcLNpHV6AoWsSHlXR4BFiJAxQQtPswisgSnw,1007
+fibsem_metadata-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+fibsem_metadata-0.1.0.dist-info/METADATA,sha256=NsGjo3k85BN1C1crBImtNSKxrNl9k5JTynGyC_l_hDI,501
+fibsem_metadata-0.1.0.dist-info/RECORD,,
