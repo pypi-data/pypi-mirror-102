@@ -1,0 +1,12 @@
+mmcc_framework/__init__.py,sha256=Ki0Jw5uJPkhx9y_INdt-deNjPbEzY87m3iJxwtWzX1Y,389
+mmcc_framework/activity.py,sha256=yv1VBN_D3n_s_STNpobD6oUxk5v0p1j8E0VtJ4aKCaI,5907
+mmcc_framework/exceptions.py,sha256=Lucc_uMIXFMpMQSM2jvyAVcfX3vnHW8JWzbO1r4WA94,1323
+mmcc_framework/framework.py,sha256=fO7FYbF82IOZa0P4TKY2eSFxgEb_gjfcg5mWTwu8CWo,14956
+mmcc_framework/nlu_adapters.py,sha256=PGJ40oSoaYjbi2bjUjKj4w7z6mH2hI36sTLHmXsVrx8,4856
+mmcc_framework/process.py,sha256=xK4TskqvYr-UEeaipRGRvfBC4ppdS-5AMvutQBf8Hl0,5846
+mmcc_framework/validation.py,sha256=8Y38bgh_FOFHq2385BM7VmR_9pC_UeDkmKNFzw2DwtA,2828
+mmcc_framework-0.2.0.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+mmcc_framework-0.2.0.dist-info/METADATA,sha256=9BMPsaUPA-tVw1lzdVbqhZphJ067g4t-g4FCvIX4KpU,12233
+mmcc_framework-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mmcc_framework-0.2.0.dist-info/top_level.txt,sha256=pwGwsa40hBx-SldnVDArp2G0J0DzRTuTjDDEqRlwfLI,15
+mmcc_framework-0.2.0.dist-info/RECORD,,
