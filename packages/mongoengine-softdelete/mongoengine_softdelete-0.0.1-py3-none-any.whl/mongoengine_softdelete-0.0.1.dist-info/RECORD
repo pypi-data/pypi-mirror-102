@@ -1,0 +1,7 @@
+mongoengine_softdelete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongoengine_softdelete/document.py,sha256=PnQRb4VLiE2-q2deAWUjmsragR1p2w61MWR_bSyk2mA,3913
+mongoengine_softdelete/queryset.py,sha256=9MmpOFS82rpvj41RTh7RBDHK7suMXcqZaj7XbIRAQ3k,3973
+mongoengine_softdelete/signals.py,sha256=ocO_TyyK-xDPLqEGgY98-kxI_j0gGOCuAT7FcZLPtpA,266
+mongoengine_softdelete-0.0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+mongoengine_softdelete-0.0.1.dist-info/METADATA,sha256=lKG7HPtGkgzK3hf_jPaDMf6541YFHTdYWetnKENjuBI,2401
+mongoengine_softdelete-0.0.1.dist-info/RECORD,,
