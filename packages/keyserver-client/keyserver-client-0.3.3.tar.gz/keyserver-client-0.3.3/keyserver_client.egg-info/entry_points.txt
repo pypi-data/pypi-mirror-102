@@ -1,0 +1,3 @@
+[console_scripts]
+keyserver-client = keyserver_client.command_line:main
+
