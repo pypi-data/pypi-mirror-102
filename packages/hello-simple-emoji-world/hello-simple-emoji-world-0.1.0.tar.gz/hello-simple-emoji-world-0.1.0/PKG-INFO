@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hello-simple-emoji-world
+Version: 0.1.0
+Summary: An attempt to create and publish a cross-platform cli app
+License: MIT
+Author: Kishan B
+Author-email: kishancs46@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire (>=0.4.0,<0.5.0)
