@@ -1,0 +1,6 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.5.2 - 22Oct2017 -64bit-Window
+$# Created on Apr-16-2021 (23:59:47)
+open keyword "C:\Users\danieltm\OneDrive - NTNU\Python_Github\tessToPy\tests\tess_files\n10-id1.key"
+Message 1
+save keywordoutversion 9
+Message 0
