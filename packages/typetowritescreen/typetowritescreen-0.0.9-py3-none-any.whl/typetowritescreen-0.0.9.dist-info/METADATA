@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: typetowritescreen
+Version: 0.0.9
+Summary: Type To Write API that may help you easier to make a writing apps without making it from scratch
+Home-page: https://github.com/will702/typetowritescreen
+Author: Greg(GREGORIUS WILLSON)
+Author-email: willson2016pos@gmail.com
+License: MIT
+Keywords: python,writing,writing api,writing gui,kivygui,writing kivy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: kivy
+Requires-Dist: kivymd
+Requires-Dist: gingerit
+Requires-Dist: pillow
+
+Installation:
+To install just hit pip install typetowritescreen
+for linux or macosx pip3 install typetowrite sceen
+Usage:
+In your main.kv file 
+
+
+
+:#:import TypeToWriteScreen typetowritescreen.typetowritescreen.TypeToWriteScreen
+TypeToWriteScreen:
+
+    id:typetowritescreen
+    name:"typetowritescreen"
+to change the Background in your main.py self.screen.ids.typetowritescreen.background = 'background.jpg'
+
+
+
