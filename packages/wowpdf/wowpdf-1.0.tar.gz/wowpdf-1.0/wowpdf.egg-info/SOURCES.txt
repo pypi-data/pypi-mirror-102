@@ -1,0 +1,6 @@
+README.md
+setup.py
+wowpdf.egg-info/PKG-INFO
+wowpdf.egg-info/SOURCES.txt
+wowpdf.egg-info/dependency_links.txt
+wowpdf.egg-info/top_level.txt
