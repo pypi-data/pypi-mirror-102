@@ -1,0 +1,606 @@
+Metadata-Version: 2.1
+Name: ito
+Version: 0.0.2
+Summary: A domain specific language for the description of financial derivatives.
+Home-page: https://github.com/rexsutton/vollab
+Author: Rex Sutton
+Author-email: noreply@nospam.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rexsutton/vollab/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+- [<span class="toc-section-number">1</span>
+    Introduction](#introduction)
+  - [<span class="toc-section-number">2</span> Exotic Derivative
+    Example](#exotic-derivative-example)
+  - [<span class="toc-section-number">3</span> Basic
+    Facilities](#basic-facilities)
+      - [<span class="toc-section-number">3.1</span> Special
+        Characters](#special-characters)
+      - [<span class="toc-section-number">3.2</span>
+        Keywords](#keywords)
+      - [<span class="toc-section-number">3.3</span> White
+        Space](#white-space)
+      - [<span class="toc-section-number">3.4</span>
+        Comments](#comments)
+      - [<span class="toc-section-number">3.5</span> Basic
+        Types](#basic-types)
+      - [<span class="toc-section-number">3.6</span> Arithmetic
+        Operators](#arithmetic-operators)
+      - [<span class="toc-section-number">3.7</span> Comparison
+        Operators](#comparison-operators)
+      - [<span class="toc-section-number">3.8</span> Logical
+        Operators](#logical-operators)
+      - [<span class="toc-section-number">3.9</span> If](#if)
+      - [<span class="toc-section-number">3.10</span> Lists](#lists)
+  - [<span class="toc-section-number">4</span>
+    Definitions](#definitions)
+      - [<span class="toc-section-number">4.1</span>
+        Functions](#functions)
+          - [<span class="toc-section-number">4.1.1</span>
+            Binding](#binding)
+      - [<span class="toc-section-number">4.2</span> Payment
+        Flows](#payment-flows)
+  - [<span class="toc-section-number">5</span> Built In
+    Functions](#built-in-functions)
+      - [<span class="toc-section-number">5.1</span> Observe](#observe)
+      - [<span class="toc-section-number">5.2</span> Boolean
+        Functions](#boolean-functions)
+      - [<span class="toc-section-number">5.3</span> Numerical
+        Functions](#numerical-functions)
+      - [<span class="toc-section-number">5.4</span> Key
+        Functions](#key-functions)
+      - [<span class="toc-section-number">5.5</span> Date
+        Functions](#date-functions)
+      - [<span class="toc-section-number">5.6</span> List
+        Functions](#list-functions)
+      - [<span class="toc-section-number">5.7</span> Infix
+        Operators](#infix-operators)
+  - [<span class="toc-section-number">6</span> Known
+    Issues](#known-issues)
+      - [<span class="toc-section-number">6.1</span> Type Checks Do Not
+        Propagate](#type-checks-do-not-propagate)
+      - [<span class="toc-section-number">6.2</span> Partial Function
+        Definitions with Multiple Floating
+        Arguments](#partial-function-definitions-with-multiple-floating-arguments)
+      - [<span class="toc-section-number">6.3</span> List Definition
+        Without All Constructors Can Give A Runtime
+        Error](#list-definition-without-all-constructors-can-give-a-runtime-error)
+      - [<span class="toc-section-number">6.4</span> Ordering of List
+        Definitions](#ordering-of-list-definitions)
+
+# Introduction
+
+Ito is an interpreter for a domain specific language, for the
+description of financial derivatives with a relatively simple structure.
+Ito is free to use for individual or academic research. In a commercial
+setting you are recommended to consult with the author. Ito is named in
+honour of Kiyoshi Itô, a Japanese mathematician who made fundamental
+contributions to the theory of stochastic processes.
+
+In Ito a financial derivative is defined by a document that contains a
+list of definitions. In particular a definition can be used to define
+payment flows. Typically payment flows are defined as functions of
+financial observables such as interest rates, foreign exchange rates,
+inflation indices, or the prices of stocks or commodities.
+
+Payment flows are also described by a date, currency and direction. The
+date on which the flow has the potential to occur and the currency in
+which money changes hands. The direction is used to indicate the
+expected direction of money, either towards the writer of the document
+or away to the other counterparty.
+
+Financial observables are identified by ‘keys’. Their value at a given
+date is sampled using the built in ‘observe’ function. There are other
+built in functions for common calculations and it is possible to define
+new functions.
+
+Functions are composed of expressions, combining their arguments with
+operations and other potentially user defined functions.
+
+Using Ito, a definition can be queried for a list of dependent
+observables and by providing a suitable ordered array of their values,
+payments flows can be evaluated.
+
+This functionality is useful when running an analysis based on Monte
+Carlo simulation as the specifics of the financial derivative can be
+decoupled from the Monte Carlo simulation.
+
+The following sections describe the Ito language in more detail.
+
+# Exotic Derivative Example
+
+The listing below gives an example of an exotic equity derivative
+defined in Ito. This product was taken from the discussion in chapter
+10, Exotic Cliquets, The volatility surface: a practitioner’s guide. The
+product is described as a "Locally Capped Globally Floored Cliquet". Ito
+allows the description of this product in a few lines.
+
+    #
+    underlying = "STOXX";
+    #
+    minCoupon = 0.02;
+    #
+    currency = "EUR";
+    #
+    notionalAmount = 1.0;
+    #
+    get notionalAmount * coupon[1] in currency on couponDates[1];
+    get notionalAmount * coupon[2] in currency on couponDates[2];
+    get notionalAmount * coupon[3] in currency on couponDates[3];
+    #
+    coupon[c] = max[sumReturns[c], minCoupon];
+    #
+    sumReturns[c] = sum[resetReturns[endDates[c], startDates[c]]];
+    #
+    resetReturns[{}, {}] = {};
+    resetReturns[t:ts, tm:tms] = min[max[r[t, tm], -0.01],  0.01] : resetReturns[ts, tms];
+    #
+    r[t, tMinus] = performance[s[t], s[tMinus]];
+    #
+    performance[st,stMinus] = (st - stMinus) / stMinus;
+    #
+    s[t] = Observe[underlying, t];
+    #
+    startDates[c] = dropTail[resetDates[c]];
+    #
+    endDates[c] = dropHead[resetDates[c]];
+    #
+    couponDates[1] = '2002-12-02';
+    couponDates[2] = '2003-12-02';
+    couponDates[3] = '2004-12-02';
+    #
+    resetDates[1] = {
+    '2002-01-02',
+    '2002-02-02',
+    '2002-03-02',
+    '2002-04-02',
+    '2002-05-02',
+    '2002-06-02',
+    '2002-07-02',
+    '2002-08-02',
+    '2002-09-02',
+    '2002-10-02',
+    '2002-11-02',
+    '2002-11-25'};
+    #
+    resetDates[2] = {
+    '2003-01-02',
+    '2003-02-02',
+    '2003-03-02',
+    '2003-04-02',
+    '2003-05-02',
+    '2003-06-02',
+    '2003-07-02',
+    '2003-08-02',
+    '2003-09-02',
+    '2003-10-02',
+    '2003-11-02',
+    '2003-11-25'
+    };
+    #
+    resetDates[3] = {
+    '2004-01-02',
+    '2004-02-02',
+    '2004-03-02',
+    '2004-04-02',
+    '2004-05-02',
+    '2004-06-02',
+    '2004-07-02',
+    '2004-08-02',
+    '2004-09-02',
+    '2004-10-02',
+    '2004-11-02',
+    '2004-11-25'
+    };
+    #
+    # remove the head (first entry) from the list
+    dropHead[{}] = {};
+    dropHead[{x}] = {};
+    dropHead[x:xs] = xs;
+    # remove the tail (last entry) from the list
+    dropTail[{}] = {};
+    dropTail[{x}] = {};
+    dropTail[x:xs] = x : dropTail[xs];
+    # minimum of two numbers.
+    min[x,y] = if x < y then x else y endif;
+    # maximum of two numbers.
+    max[x,y] = if x < y then y else x endif;
+    # sum of a list of numbers
+    sum[{}] = 0;
+    sum[{x}] = x;
+    sum[x:xs] = x + sum[xs];
+    """
+
+# Basic Facilities
+
+## Special Characters
+
+The character ‘;’ is used to mark the end of definitions. The character
+‘=’ is used to introduce a definition. The square brackets ‘\[’ and
+‘\]’ are used to define and call functions. See the section on
+definitions for more information.
+
+Standard characters such as \(+\) and \(<\) are used to represent
+operations on floating point numbers, for more information see the
+section on infix operators.
+
+The character ‘:’ is used to prepend to lists see the section
+[3.10](#lists).
+
+## Keywords
+
+The tokens, ‘if’, ‘then’, ‘elseif‘ and ‘endif’ are used in if
+statements, see the section [3.9](#if). The tokens ‘get’ and ‘pay’ are
+used to define payments.
+
+## White Space
+
+A new line, space or tab may be placed anywhere in a definition to
+improve the readability of the definition.
+
+## Comments
+
+Comments are written using the hash character, ‘\#’. All characters on
+the same line beyond the hash character are ignored.
+
+## Basic Types
+
+The language has the following basic types:-
+
+  - Floating point numbers.
+
+  - Booleans, truth values.
+
+  - Dates.
+
+  - Keys.
+
+Basic types have literal representations; see the listing below for
+examples. Boolean types have one of the possible literal values ‘true’
+and ‘false’. Dates are enclosed with single quotes in ‘YYYY-MM-DD’
+format. Keys are enclosed in double quotes and may consist of an
+arbitrary length of alpha-numeric characters and the character ‘.’ .
+
+    # Literal examples.
+    #
+    # Floating point numbers
+        notional = 100.0;
+    #
+    # Booleans
+        physicalDelivery = true;
+    #
+    # Dates
+        expiryDate = '2013-07-21';
+    #
+    # Keys
+        ftse = ".FTSE";
+
+## Arithmetic Operators
+
+The standard arithmetic operators for floating point numbers are
+available, \(+\), \(-\), \(*\), \(/\) for addition, subtraction,
+multiply and divide respectively. The operator order and precedence is
+as ‘expected’ and brackets, \((\), \()\), are available. Negation is
+carried out by prefix with the \(-\) character.
+
+## Comparison Operators
+
+The operators \(<\), \(>\), \(<=\) and \(>=\) are available for floating
+point numbers and have the meanings, “less than ”, “greater than”, “less
+than or equal” and “greater than or equal” respectively. The operators
+evaluate to the boolean type, ‘true’ or ‘false’ values.
+
+## Logical Operators
+
+The operators to test for equality and in-equality are available for
+floating point numbers, they are denoted with \(==\) and \(!=\)
+characters respectively. Both operators evaluate to a boolean type. Note
+a succession of two “equals” characters should not be confused with a
+single “equals” character which has another meaning described in section
+[4](#definitions).
+
+The logical operators “and” and “or” are available for boolean types,
+represented by the characters \(\&\&\) and \(||\) respectively and they
+have their usual meanings. Both operators evaluate to a boolean type.
+
+Logical negation is carried out by prefix with the \(!\) character.
+
+## If
+
+Expressions that resolve to boolean type may be used to perform
+branching using the keywords “if”, “then”, “else”, “elseif” and “endif’.
+See the listing below for an example.
+
+    # If example.
+    #
+    # The maximum of two numbers
+        max[a,b] = if a < b then b else a endif;
+    #
+    # The sign of a floating point number.
+        signum[x] = 
+            if x<0 then
+                -1
+            elseif x > 0
+                1
+            else
+                0
+            endif;
+
+## Lists
+
+Lists may be constructed in two ways, either as a comma separated list
+of literals enclosed in curly brackets. \(\{\), \(\}\), or using the
+prefix operator \(:\). An empty list is denoted by the an empty pair of
+curly braces \({}\). Lists can be viewed as a sequence of prefix
+operations, terminated by the empty list. All elements of a list must
+have the same type. See the listing below for an example.
+
+    # List example.
+    # The empty list
+        emptyList = {};
+    # Some integers
+        someIntegers = {1,2,3};
+    # Cons operator
+        someMoreIntegers = 1 : {2,3};
+
+Note the prefix operator takes on the left hand side, an item whose type
+should equal that of the elements of the list on the right hand side.
+
+# Definitions
+
+A definition may be used to define aliases for constant basic types,
+introduce new functions and payment flows. There are two parts to a
+definition, the left hand-side of the definition and the right hand
+side, which appear on the left hand side of the definition operator and
+the right hand side respectively. The definition operator is identified
+by the character \(=\).
+
+The left hand side of a definition introduces an identifier into the
+document. An identifier is a sequence of letters from the alphabet. An
+identifier is accessible from all points in the document and hence there
+cannot be two definitions with the same left hand side. It is not
+necessary, or indeed always possible, to introduce identifiers in the
+order they are used, although this may improve readability (however see
+known issues).
+
+## Functions
+
+Functions are introduced using the definition operator. The left hand
+side of the definition takes the form of an identifier, followed by a
+comma delimited list of function argument enclosed in square brackets,
+\([\), \(]\). The right hand side of the definition is an expression
+combining the arguments with operations and other user defined functions
+or built in functions. See the listing for simple examples.
+
+Function arguments on the right hand side may be identifiers, literals
+or a list formed using the concatenation operator. Functions can be
+formed by a sequence of definitions with unique literal or list
+arguments. Such definitions are referred to as partial function
+definitions. In particular function arguments of the form of a
+concatenated list can be used to define divide and conquer style
+algorithms. For an example see the listing below.
+
+    # List function example
+        minElement[{x}] = x;
+        minElement[x:xs] = min[x, minElement[xs] ];
+
+Function argument identifiers must be unique on the left-hand side of
+the definition and take precedence in the right hand side over
+identifiers with the same name defined in other parts of the document.
+
+Functions can be recursive for an example see the listing below.
+
+    # Recursive function example
+        factorial[1] = 1;
+        factorial[x] = x * factorial[x-1];
+
+Functions may take other functions as arguments, for an example see the
+listing below.
+
+    # Function as argument examples
+    #
+    # A function that builds a list, by applying a function to each member.
+    apply[f,{}] = {};
+    apply[f,x:xs] = f[x] : apply[f,xs];
+
+### Binding
+
+New functions may be constructed by binding, that is for functions of
+more than one argument, fixing the value of an argument. A function is
+bound by writing the function identifier followed by the application
+operator ‘@’ and a literal or an identifier. Arguments can be bound from
+left to right in sequence. For an example see the listing below.
+
+    # Function binding examples
+    # map applies a function to each list member
+    map[f,{}] = {};
+    map[f,x:xs] = f[x] : map[f,xs];
+    # expression to add 2 to each member of a list.
+    map[Add@2, {1,2,3}];
+
+## Payment Flows
+
+Payment flows are defined using the the keywords “get” or “pay”, for an
+example see the listing below. Payment flows may result in zero money
+changing hands and therefore can be viewed as indicating the potential
+for a payment to occur on a given date in a given currency.
+
+    # Payment Examples
+    #
+    # Fixed payment.
+    pay 100 in "EUR" on '2013-07-01';
+    #
+    # call option payment
+    get max[Observe["index1",'2013-07-01']-100,0] in "EUR" on '2013-07-01';
+
+# Built In Functions
+
+## Observe
+
+The observe function is used to record the value of financial observable
+identified by a key on at particular point in time, identified by a
+date. The function behaves in a way which removes the units and
+currency, if any, from the observable being observed. The first argument
+is the key that refers to the observable, the second is the date that
+defines when the observable is observed. See the listing below for an
+example.
+
+    # Observe Examples
+    #
+    Observe[".FTSE",'2013-01-01']
+
+## Boolean Functions
+
+The table below lists built in functions with boolean operands, see the
+section [5.7](#infix-operators) for equivalent infix operators.
+
+| **<span>Identifier</span>** | **<span>Function Type</span>** | **<span>Comment</span>** |
+| :-------------------------- | :----------------------------: | :----------------------- |
+| Not                         |             Unary              | Logical not operator.    |
+| And                         |             Binary             | Logical and operator.    |
+| Or                          |             Binary             | Logical or operator.     |
+
+## Numerical Functions
+
+The table below lists built in functions with floating point number
+operands, see the section [5.7](#infix-operators) for infix operators if
+applicable.
+
+| **<span>Identifier</span>** | **<span>Function Type</span>** | **<span>Comment</span>**                        |
+| :-------------------------- | :----------------------------: | :---------------------------------------------- |
+| Neg                         |             Unary              | Negation.                                       |
+| Add                         |             Binary             | Addition.                                       |
+| Sub                         |             Binary             | Subtraction.                                    |
+| Mul                         |             Binary             | Multiplication.                                 |
+| Div                         |             Binary             | Division.                                       |
+| Equal                       |            Bin Pred            | Equality.                                       |
+| NotEqual                    |            Bin Pred            | Inequality.                                     |
+| LessThan                    |            Bin Pred            | Less than.                                      |
+| GreaterThan                 |            Bin Pred            | Greater than.                                   |
+| LessThanOrEqual             |            Bin Pred            | Less than or equal.                             |
+| GreaterThanOrEqual          |            Bin Pred            | Greater than or equal.                          |
+| Pow                         |             Binary             | Raise first operand to power of second operand. |
+| Sqrt                        |             Unary              | Square root of operand.                         |
+| Fabs                        |             Unary              | Absolute value of operand.                      |
+| Exp                         |             Unary              | Exponential of operand.                         |
+| Log                         |             Unary              | Natural logarithm of operand.                   |
+| LogTen                      |             Unary              | Base ten logarithm of operand.                  |
+
+## Key Functions
+
+The table below lists built in functions with key operands.
+
+| **<span>Identifier</span>** | **<span>Function Type</span>** | **<span>Comment</span>** |
+| :-------------------------- | :----------------------------: | :----------------------- |
+| StringEqual                 |            Bin Pred            | Equality.                |
+| StringNotEqual              |            Bin Pred            | Inequality.              |
+
+## Date Functions
+
+The table below lists built in functions with date operands.
+
+| **<span>Identifier</span>** | **<span>Function Type</span>** | **<span>Comment</span>** |
+| :-------------------------- | :----------------------------: | :----------------------- |
+| DateEqual                   |            Bin Pred            | Equality.                |
+| DateNotEqual                |            Bin Pred            | Inequality.              |
+| DateLessThan                |            Bin Pred            | Less than.               |
+| DateGreaterThan             |            Bin Pred            | Greater than.            |
+| DateLessThanOrEqual         |            Bin Pred            | Less than or equal.      |
+| DateGreaterThanOrEqual      |            Bin Pred            | Greater than or equal.   |
+
+## List Functions
+
+The table below lists built in functions with list operands.
+
+| **<span>Identifier</span>** | **<span>Function Type</span>** | **<span>Comment</span>** |
+| :-------------------------- | :----------------------------: | :----------------------- |
+| Cons                        |             Lists              | Prepend to list.         |
+
+## Infix Operators
+
+The table below lists built in functions that have equivalent infix
+operators.
+
+| **<span>Identifier</span>** | **<span>Operand Type</span>** | **<span>Operator Type</span>** | **<span>Operator</span>** |
+| :-------------------------- | :---------------------------: | :----------------------------: | :-----------------------: |
+| Not                         |             Bool              |             Unary              |           \(!\)           |
+| And                         |             Bool              |             Binary             |         \(\&\&\)          |
+| Or                          |             Bool              |             Binary             |          \(\|\)           |
+| Neg                         |             Float             |             Unary              |           \(-\)           |
+| Add                         |             Float             |             Binary             |           \(+\)           |
+| Sub                         |             Float             |             Binary             |           \(-\)           |
+| Mul                         |             Float             |             Binary             |           \(*\)           |
+| Div                         |             Float             |             Binary             |           \(/\)           |
+| Equal                       |             Float             |           Bin Pred.            |          \(==\)           |
+| NotEqual                    |             Float             |           Bin Pred.            |          \(==\)           |
+| LessThan                    |             Float             |           Bin Pred.            |           \(<\)           |
+| GreaterThan                 |             Float             |           Bin Pred.            |           \(>\)           |
+| LessThanOrEqual             |             Float             |           Bin Pred.            |          \(<=\)           |
+| GreaterThanOrEqual          |             Float             |           Bin Pred.            |          \(>=\)           |
+| Cons                        |             Lists             |         List prepend.          |           \(:\)           |
+
+# Known Issues
+
+Ito is intended for research purposes, whilst most features are tested
+and work, there are some known issues which can be worked around. Please
+report any new issues to the author.
+
+## Type Checks Do Not Propagate
+
+Ito is type-checked, however type errors are not currently propagated.
+The example in the listing below illustrates this issue.
+
+    observeDate = {'2001-01-01', '2002-01-01'};
+    # replacing the line above with the commented lines below,
+    # passes a date rather than a list of dates to observe
+    # head[{}] = {};
+    # head[x:xs] = x;
+    # observeDate = head[{'2001-01-01', '2002-01-01'}];
+    pay Observe["FTSE", observeDate] in "GBP" on '2011-09-03';
+
+## Partial Function Definitions with Multiple Floating Arguments
+
+It is possible to define functions using partial definitions. Where
+there is more than one argument, and all those arguments are floating
+point values, an error will be raised. The example in the listing below
+illustrates this issue.
+
+    f[1, 1] = 100.0;
+    f[1, 2] = 10.0;
+    pay f[1,1] in "GBP" on '2011-09-03';
+
+## List Definition Without All Constructors Can Give A Runtime Error
+
+If definitions are defined for a list, and not all list constructors are
+handled, a runtime error is emitted, without propagating useful
+information. This issue can interact with the issue below. The example
+in the listing below illustrates this issue.
+
+    head[{}] = 0.0;
+    get head[{100.0}] in "GBP" on '2011-09-03';
+
+## Ordering of List Definitions
+
+Piecewise definitions involving lists are sensitive to the order the
+definitions are introduced in. In some circumstances this can lead to an
+unexpected runtime error. The example in the listing below illustrates
+this issue.
+
+    dropTail[x:xs] = x : dropTail[xs];
+    dropTail[{x}] = {};
+    # re-ordering as in the comment below fixes the definition of drop tail.
+    # dropTail[{x}] = {};
+    # dropTail[x:xs] = x : dropTail[xs];
+    # you might think the addition of the line below would fix things but it doesn't.
+    # dropTail[{}] = {};
+    len[{}] = 0;
+    len[x:xs] = 1 + len[xs];
+    get len[dropTail[{1,2,3}]] * Observe["FTSE", '2001-02-02'] in "GBP" on '2011-09-03';
+
+

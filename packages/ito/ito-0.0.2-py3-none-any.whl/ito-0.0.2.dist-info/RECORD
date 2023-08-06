@@ -1,0 +1,10 @@
+ito/__init__.py,sha256=tnIAAH64FFYARSRVtNA6yz5_2zMYg-To8ICpT2KNNuc,1598
+ito/itolib.py,sha256=L4RGvjj1bTLTLdYmbhdUrRug9D8Y6I1WywaFsG-skGM,24256
+ito/itosdk.py,sha256=9wxKeWKtb3yBb7ehgOPI4R_MBRtGjm6bW0Cuu8VEhtI,8090
+ito/libitosdk.dll,sha256=o2S-c5iNo7-g2fJwECUpXNEUtMRQaeGe7Jf3eT2-Re4,15132260
+ito/libitosdk.so,sha256=c-osm329oZ5rDY2e6CWTN3tTA6yF65JeTikvrJT0Y4A,1526008
+ito-0.0.2.dist-info/LICENSE,sha256=eFxc8kwhFINJd-UQeLVnjd3q1yAZhQl3RdE9pev_MFQ,1523
+ito-0.0.2.dist-info/METADATA,sha256=2uePNhmRlcHLWmSk103jo32gsCZy4AceZgkX_aQd_Ns,25375
+ito-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ito-0.0.2.dist-info/top_level.txt,sha256=pJCTyF2wqKXeefmFVkszQmwd2ffVqd6C4aGAf9HdNCc,4
+ito-0.0.2.dist-info/RECORD,,
