@@ -1,0 +1,9 @@
+bearlib/__init__.py,sha256=XYOjbxdA-PhiWynP0DrrRhTqaTslcIVpPgyF1RBzp4E,17
+bearlib/logging/core.py,sha256=p4n4Z3Y-7ZDJN_f083vDziWyv9J_wbzi9DYCoqS6bSc,7274
+bearlib/logging/webhooks.py,sha256=9Z1LHyR5_ATrPiEsuxjNpiZAWLgHxwC1Rr1E8m6bbdQ,8788
+bearlib/notifiers/email.py,sha256=oBBNXO50sh9UcevoTQNcZEhbP6Sn3X9XJCmqv_bSL_Y,1952
+bearlib/oracle/factories.py,sha256=8522yGX1_r8fq5L1896lbp7W99hDCIrtJx5DS8vaybY,601
+bearlib_py-0.3.6.dist-info/LICENSE,sha256=xgxEj-WYVviNkl7YqIMuKVJu3Jy4ar1d5BAOgJZ_W6g,35065
+bearlib_py-0.3.6.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bearlib_py-0.3.6.dist-info/METADATA,sha256=w2AswEAL-2dN5d3vSuzZlgfsGDXlpc_-SK27kYcj61o,650
+bearlib_py-0.3.6.dist-info/RECORD,,
