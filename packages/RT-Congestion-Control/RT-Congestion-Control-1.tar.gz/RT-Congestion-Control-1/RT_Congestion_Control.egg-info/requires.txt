@@ -1,0 +1,8 @@
+pandapower
+flake8
+matplotlib
+osqp
+tqdm
+scipy
+joblib
+numba
