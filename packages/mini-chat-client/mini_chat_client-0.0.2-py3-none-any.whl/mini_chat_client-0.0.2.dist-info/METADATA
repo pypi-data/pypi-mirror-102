@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mini-chat-client
+Version: 0.0.2
+Summary: mini_chat_client
+Home-page: UNKNOWN
+Author: Evgeniy Sarmanov
+Author-email: esarmanov@noname.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Cryptodome.Cipher
+Requires-Dist: Cryptodome.PublicKey
+Requires-Dist: PyQt5
+Requires-Dist: PyQt5.QtCore
+Requires-Dist: PyQt5.QtGui
+Requires-Dist: PyQt5.QtWidgets
+Requires-Dist: argparse
+Requires-Dist: base64
+Requires-Dist: binascii
+Requires-Dist: configparser
+Requires-Dist: dataclasses
+Requires-Dist: datetime
+Requires-Dist: dis
+Requires-Dist: hashlib
+Requires-Dist: hmac
+Requires-Dist: inspect
+Requires-Dist: json
+Requires-Dist: logging
+Requires-Dist: logs.config-client-log
+Requires-Dist: logs.config-server-log
+Requires-Dist: os
+Requires-Dist: socket
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlalchemy.orm
+Requires-Dist: sqlalchemy.sql
+Requires-Dist: sqlite3
+Requires-Dist: sys
+Requires-Dist: threading
+Requires-Dist: time
+
+UNKNOWN
+
+
