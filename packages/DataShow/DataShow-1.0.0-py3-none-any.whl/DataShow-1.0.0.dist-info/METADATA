@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: DataShow
+Version: 1.0.0
+Summary: a tool for displaying CAN-Frames
+Home-page: UNKNOWN
+Author: Andy.Yang
+Author-email: andy.yang@deftech.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: wheel
+Requires-Dist: numpy
+Requires-Dist: PyQt5
+Requires-Dist: PyQtChart
+Requires-Dist: opencv-python
+Requires-Dist: PyQt5-sip
+Requires-Dist: pyqtgraph
+Requires-Dist: python-can
+Requires-Dist: scipy
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: windows-curses
+Requires-Dist: wrapt
+
+# data_replay
+>author: andy.yang, lan.zhang
+>
+>email: andy.yang@deftech.com.cn lan.zhang@deftech.com.cn
+
+show the data(include detections-mem, targets-mem, warning-signal) in one ui, and
+also display the camera at the same time in the future.
+
+
+## environment and dependencies
+- python: 3.7.9
+- os: win10(not test in linux, but this software should be cross-platform).
+- see ./requrements.txt which is generated with the command: pip freeze > requirements.txt
+
+Besides, i use Peakcan(not can-use box) to get the data from radar.
+So in order to show data by CAN-BUS(inline or record), you also need to install Peakcan driver.
+See link: https://www.peak-system.com/
+
+
+## develop in virtual environment
+comply the commands below:
+
+1. python3 -m venv env
+2. set the above virtual environment as your work environment
+3. pip install -r requirements.txt
+4. create a file which its type(or suffix) should be ".pth" in ./env/Lib/site-packages.For example, the file names my.pth.
+5. fill the above file with the path of this project.For example, "C:\\Projects\\data_replay" in my PC.
+6. enjoy yourself.
+
