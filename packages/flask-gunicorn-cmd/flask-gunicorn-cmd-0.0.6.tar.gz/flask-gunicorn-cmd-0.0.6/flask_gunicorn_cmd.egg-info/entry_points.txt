@@ -1,0 +1,3 @@
+[console_scripts]
+flask-gunicorn-cmd = flask_gunicorn_cmd.main:run
+
