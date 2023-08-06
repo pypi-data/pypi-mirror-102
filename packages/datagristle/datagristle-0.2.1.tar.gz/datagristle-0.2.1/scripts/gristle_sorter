@@ -1,0 +1,143 @@
+#!/usr/bin/env python
+"""
+Gristle_sorter is a csv dialect-aware file sorting utility.  Unlike the unix sort utility, it
+will properly handle a csv with newlines or delimiters within quoted strings, or doublequotes
+or escapechars for escaping quotes and delimiters.
+
+Usage: gristle_sorter --long-help for detailed usage and help
+
+
+{see: helpdoc.HELP_SECTION}
+
+
+Main Options:
+   -i, --infiles [INFILES [INFILES ...]]
+                        Input filenames or default to '-' for stdin.
+   -o, --outfile  OUTFILE
+                        Output filename or '-' for stdout (the default).
+   -k, --keys KEYS [KEYS ...]
+                        The 3-part sort key consisting of offset|type|order.
+                        Each key specified consists of three values:
+                            1) position (0-offset),
+                            2) type (s=string, i=integer, f=float),
+                            3) order (f=forward, r=reverse).
+                        All 3 values are required for each key. Multiple keys can be specified
+                        by separating groups of 3 with a comma or including all within quotes and
+                        separating the groups with a space.
+                        For example: -k 0sf will sort the 0 column as a string with a forward order.
+   -D, --dedupe         Removes duplicates.
+                        Directs program to remove duplicates - based on the key separately
+                        provided. Note that this will treat 0 and 0.0 the same if the keys are
+                        specified as numeric.  However, case differences will not be ignored.
+
+
+{see: helpdoc.CSV_SECTION}
+
+
+{see: helpdoc.CONFIG_SECTION}
+
+
+Examples:
+    $ gristle_sorter -i foo.csv -o foo_sorted.csv -k '3sf,1ir,2ir'
+    $ gristle_sorter -i foo.csv -o foo_sorted.csv -k '3sf,1ir,2ir' -d '|' --quotechar
+    $ gristle_sorter -i dialect_quoteall_escaped_delimiter.csv -k 0sf \
+                     -d ',' --quoting quote_all --escapechar '\' --has-header
+      This example sorts a file with escaped delimiters within a quoted string
+    Many more examples can be found here:
+        https://github.com/kenfar/DataGristle/tree/master/examples/gristle_sorter
+
+
+Licensing and Further Info:
+    This source code is protected by the BSD license.  See the file "LICENSE"
+    in the source code root directory for the full language or refer to it here:
+        http://opensource.org/licenses/BSD-3-Clause
+    Copyright 2011-2021 Ken Farmer
+    Home Page:  https://github.com/kenfar/DataGristle
+"""
+
+import errno
+from os.path import basename
+from pprint import pprint as pp
+from signal import signal, SIGPIPE, SIG_DFL
+import sys
+from typing import Dict, Any
+
+import datagristle.common as comm
+import datagristle.configulator as conf
+import datagristle.file_sorter as file_sorter
+import datagristle.helpdoc as helpdoc
+
+#--- Ignore SIG_PIPE and don't throw exceptions on it
+#--- (http://docs.python.org/library/signal.html)
+signal(SIGPIPE, SIG_DFL)
+
+NAME = basename(__file__)
+LONG_HELP = helpdoc.expand_long_help(__doc__)
+SHORT_HELP = helpdoc.get_short_help_from_long(LONG_HELP)
+
+
+
+def main() -> int:
+    """
+    """
+    try:
+        config_manager = ConfigManager(NAME, SHORT_HELP, LONG_HELP)
+        nconfig, _ = config_manager.get_config()
+    except EOFError:
+        sys.exit(errno.ENODATA) # 61: empty file
+
+    sorter = file_sorter.CSVPythonSorter(nconfig.infiles[0],
+                                         nconfig.outfile,
+                                         nconfig.sort_keys,
+                                         nconfig.dialect,
+                                         nconfig.dedupe)
+
+    sorter.sort_file()
+    sorter.close()
+    return 0
+
+
+
+class ConfigManager(conf.Config):
+
+
+    def define_user_config(self) -> None:
+        """ Defines the user config or metadata.
+
+        Does not get the user input.
+        """
+
+        self.add_standard_metadata('infiles')
+        self.add_standard_metadata('outfile')
+
+        self.add_custom_metadata(name='keys',
+                                 short_name='k',
+                                 type=str,
+                                 required=True,
+                                 nargs='+')
+
+        self.add_custom_metadata(name='dedupe',
+                                 short_name='D',
+                                 action='store_const',
+                                 const=True,
+                                 default=False,
+                                 type=bool)
+
+        self.add_standard_metadata('verbosity')
+        self.add_all_config_configs()
+        self.add_all_csv_configs()
+        self.add_all_help_configs()
+
+
+
+    def extend_config(self) -> None:
+        """ Add derrived attributes to our config so they're all in one place.
+        """
+        self.generate_csv_dialect_config()
+        self.update_config('sort_keys',
+                           file_sorter.SortKeysConfig(self.nconfig.keys)) # type: ignore # pylint: disable=no-member
+
+
+
+if __name__ == '__main__':
+    sys.exit(main())
