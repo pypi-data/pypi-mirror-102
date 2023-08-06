@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: glowseeds
+Version: 0.1.2
+Summary: Counting glowing seeds
+Home-page: https://github.com/TeamMacLean/glowseeds
+Author: Dan MacLean
+Author-email: dan.maclean@tsl.ac.uk
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
