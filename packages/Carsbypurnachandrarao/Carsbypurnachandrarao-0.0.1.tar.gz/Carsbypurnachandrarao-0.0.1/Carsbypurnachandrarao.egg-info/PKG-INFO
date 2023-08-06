@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Carsbypurnachandrarao
+Version: 0.0.1
+Summary: Python package on numbers
+Home-page: UNKNOWN
+Author: Purna Chandra Rao
+Author-email: gpurna96@gmail.com
+License: UNKNOWN
+Description: Python package on numbers with a slightly longer description
+Keywords: Python,numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
