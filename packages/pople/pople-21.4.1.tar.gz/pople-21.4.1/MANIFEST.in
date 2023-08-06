@@ -1,0 +1,2 @@
+include pople/basis/*
+include pople/tests/test*/*.*
