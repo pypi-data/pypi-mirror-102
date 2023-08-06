@@ -1,0 +1,79 @@
+$def with (entries)
+$var title: Recent
+
+<article class=h-feed>
+
+<div id=recent>
+$for entry in entries:
+    $ e = entry["resource"]
+    $ type = discover_post_type(e)
+    <div class=h-entry>
+    $if type == "note":
+        <p><big class=p-content>$e["content"]</big></p>
+    $elif type == "like":
+        $ like = e["like-of"][0]
+        <p><big>Liked <a class=u-like-of
+        href=$like["url"]>$like["name"]</a></big></p>
+    $elif type == "bookmark":
+        $ bookmark = e["bookmark-of"][0]
+        <p><big>Bookmarked <a class=u-bookmark-of
+        href=$bookmark["url"]>$bookmark["name"]</a></big></p>
+    $elif type == "identification":
+        $ identification = e["identification-of"][0]
+        <p><big>Identified <a class=u-identification-of
+        href=$identification["url"]>$identification["name"]</a></big></p>
+    $elif type == "follow":
+        $ follow = e["follow-of"][0]
+        <p><big>Followed <a class=u-follow-of
+        href=$follow["url"]>$follow["name"]</a></big></p>
+    $elif type == "rsvp":
+        $ event = e["in-reply-to"][0]
+        <p><big>RSVP'd <code>$e["rsvp"]</code> <a class=u-in-reply-to
+        href=$event["url"]>$event["name"]</a></big></p>
+    $ published = e["published"]
+    <p><small><a class=u-url href=$e["url"]><time class=dt-published
+    datetime=$published.isoformat()>\
+    $published.format("dddd MMMM Do, YYYY [at] h:mm A")</time></a></small></p>
+    </div>
+</div>
+
+</article>
+
+$def head():
+    <script>
+    // TODO root('/', { entries: [] }, {}, (data) => {
+    // TODO   // TODO iterate through entries, add
+    // TODO   var recent = document.querySelector('#recent')
+    // TODO   var entry = document.createElement('div')
+    // TODO   entry.classList.add('h-entry')
+    // TODO   entry.innerHTML = `<p><big class=p-name>$${body.name}</big></p>`
+    // TODO   recent.insertBefore(entry, recent.firstChild)
+    // TODO })
+    document.addEventListener('DOMContentLoaded', function() {
+      const setRecent = (el, op, path, body, data) => {
+        if (op === 'add') {
+          li = document.createElement('LI')
+          li.appendChild(document.createTextNode(body))
+          el.appendChild(li)
+        }
+      }
+      root('/', {
+        '/recent': ['recent', () => {}, setRecent]
+      })
+    })
+    </script>
+    
+    <style>
+    #mood {
+      display: grid;
+      float: right;
+      grid-template-columns: auto auto;
+      height: 15em;
+      width: 30em; }
+    #mood .display {
+      height: 5em;
+      width: 5em; }
+    #mood input {
+      width: 8em; }
+    </style>
+$var head = head
