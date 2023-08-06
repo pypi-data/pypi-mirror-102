@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PingF
+Version: 1.0.1
+Summary: SSHI AH !
+Home-page: UNKNOWN
+Author: PingF
+Author-email: ping01@ruu.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Example
+```
+from PingF import PingF
+PingF.Sshi_ah(token='Bot TOKEN', channel='Channel ID')
+
+- if you want commanf on all channel, you nedd set [ channel = all ]
+
+
