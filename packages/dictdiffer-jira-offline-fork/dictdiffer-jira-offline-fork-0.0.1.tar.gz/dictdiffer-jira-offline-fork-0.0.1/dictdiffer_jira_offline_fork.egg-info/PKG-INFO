@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dictdiffer-jira-offline-fork
+Version: 0.0.1
+Summary: Dictdiffer is a library that helps you to diff and patch dictionaries.
+Home-page: https://github.com/mafrosis/dictdiffer
+Author: Invenio Collaboration
+Author-email: info@inveniosoftware.org
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/mafrosis/dictdifferblob/master/CHANGES
+Project-URL: Docs, https://dictdiffer.rtfd.io/
+Description: ============
+         Dictdiffer
+        ============
+        
+        About
+        =====
+        
+        **DO NOT USE THIS PACKAGE**. This is a forked release of [https://pypi.org/project/dictdiffer](https://pypi.org/project/dictdiffer), which exists to work around [this "bug" in Pypi](https://github.com/pypa/warehouse/issues/9404).
+        
+        
+        Installation
+        ============
+        
+            pip install dictdiffer-jira-offline-fork
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: numpy
+Provides-Extra: tests
+Provides-Extra: all
