@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: python-bol-retailer-api
+Version: 0.1
+Summary: Wrapper for the bol.com Retailer API (v5)
+Home-page: https://github.com/alexanderlhsglobal/python-bol-retailer-api
+Author: Alexander Schillemans
+Author-email: alexander.schillemans@lhs.global
+License: GPL-3.0-or-later
+Download-URL: https://github.com/alexanderlhsglobal/python-bol-retailer-api/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: bol.com,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
