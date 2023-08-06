@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: bear-model
+Version: 0.1.0
+Summary: Python package implementing the BEAR generative sequence model.
+Home-page: https://github.com/ala243/BEAR
+Author: Marks Lab
+Author-email: alanamin@g.harvard.edu
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: dill
+Requires-Dist: datetime
+Requires-Dist: argparse
+Requires-Dist: configparser
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-probability (==0.11.1)
+Requires-Dist: tensorflow-io-nightly (==0.15.0.dev20201020163742)
+
+====
+BEAR
+====
+
+.. image:: https://travis-ci.com/AlanNawzadAmin/BEAR.svg?branch=master
+        :target: https://travis-ci.com/AlanNawzadAmin/BEAR
+
+.. image:: https://img.shields.io/pypi/v/BEAR.svg
+        :target: https://pypi.python.org/pypi/BEAR
+
+
+Python package implementing the BEAR generative sequence model.
+
+* Free software: 3-clause BSD license
+* Documentation: https://AlanNawzadAmin.github.io/BEAR.
+
