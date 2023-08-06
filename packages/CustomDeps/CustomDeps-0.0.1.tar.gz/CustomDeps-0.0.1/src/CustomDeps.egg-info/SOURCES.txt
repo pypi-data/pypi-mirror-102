@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/CustomDeps.egg-info/PKG-INFO
+src/CustomDeps.egg-info/SOURCES.txt
+src/CustomDeps.egg-info/dependency_links.txt
+src/CustomDeps.egg-info/requires.txt
+src/CustomDeps.egg-info/top_level.txt
+src/custom_deps/__init__.py
