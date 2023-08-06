@@ -1,0 +1,3 @@
+Wagtail<3,>=2.4
+TPOT>=0.11
+wagtail-generic-chooser>=0.1.0
