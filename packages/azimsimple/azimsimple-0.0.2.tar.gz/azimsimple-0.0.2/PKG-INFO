@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: azimsimple
+Version: 0.0.2
+Summary: A very simple library
+Home-page: UNKNOWN
+Author: Abdul Azim
+Author-email: abdulazim0402@gmail.com
+License: MIT
+Description: This is a very simple use to print user defined strings.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.2 (18-04-2021)
+        ------------------
+        
+        - Second Release
+        
+Keywords: hello world
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
