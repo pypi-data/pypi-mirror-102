@@ -1,0 +1,5 @@
+include assets/*
+include assets/css/*
+include assets/data/*
+include assets/images/*
+include assets/templates/*
