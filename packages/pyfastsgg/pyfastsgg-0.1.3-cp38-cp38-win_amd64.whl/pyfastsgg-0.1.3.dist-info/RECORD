@@ -1,0 +1,11 @@
+pyfastsgg.cp38-win_amd64.pyd,sha256=8sFON_nYVSGkVcFAbbLYiosmbsZlWi0-Ug6mECS7xo0,309248
+PyFastSgg/__init__.py,sha256=J-zUnbn_-My4YdBzemRFzVknFLSiQ3nkV47dxCosqGw,87
+PyFastSgg/schema.py,sha256=9u0BCKMPuJAMqBrfGVWVuZCxb25KfQW26LJdDKcKXPM,579
+PyFastSgg/wrapper.py,sha256=lkLJPJuP9BTy_znPukIPD7vFRNRvGkS8GWKvqM5lbgg,12131
+PyFastSgg/utils/__init__.py,sha256=haJ4hnBpwVgCR3mUjafXC8evGN-DT4wqCFckngJxWx0,217
+PyFastSgg/utils/basic_statistics.py,sha256=5uIQgShmTlxwa6VJJalcvf4EuPxcEWF5lTpO2tm_SbE,23641
+pyfastsgg-0.1.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pyfastsgg-0.1.3.dist-info/METADATA,sha256=LXlN9EVxgnM7dyvOrX31s891J3wvVxEyIkb8ZDU8pPA,192
+pyfastsgg-0.1.3.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+pyfastsgg-0.1.3.dist-info/top_level.txt,sha256=dsUqLiAI4xTLQCeck8uzxjeq8HOBv_Sqw1uKUoNY2rY,20
+pyfastsgg-0.1.3.dist-info/RECORD,,
