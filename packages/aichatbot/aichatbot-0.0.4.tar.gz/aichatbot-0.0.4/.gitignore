@@ -1,0 +1,14 @@
+# Directories
+conola
+aichatbot.egg-info
+dist
+build
+
+## Files
+bash_intents.json
+
+## TEMP Files
+__pycache__
+.vscode
+.ipynb_checkpoints
+.idea

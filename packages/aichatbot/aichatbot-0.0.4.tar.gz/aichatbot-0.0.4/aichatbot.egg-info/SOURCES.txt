@@ -1,0 +1,34 @@
+.gitignore
+LICENSE
+PYPI_README.md
+README.md
+index.html
+requirements.txt
+setup.py
+test.py
+aichatbot/__init__.py
+aichatbot/chatbot.py
+aichatbot/speech2text.py
+aichatbot/utils.py
+aichatbot.egg-info/PKG-INFO
+aichatbot.egg-info/SOURCES.txt
+aichatbot.egg-info/dependency_links.txt
+aichatbot.egg-info/requires.txt
+aichatbot.egg-info/top_level.txt
+aichatbot/techniques/__init__.py
+aichatbot/techniques/bert.py
+aichatbot/techniques/bow.py
+aichatbot/techniques/lstm.py
+data/bash_intents.json
+data/basic_intents.json
+data/conola/conala-test.json
+data/conola/conala-train.json
+datasets/basic_intents.json
+dumps/model.h5
+dumps/tags.pkl
+dumps/words.pkl
+static/demo.gif
+static/icon.png
+static/css/styles.css
+tests/Package Tester.ipynb
+tests/Python Add Interactivity to Jupyter Notebooks with ipywidgets.ipynb
