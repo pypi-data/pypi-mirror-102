@@ -1,0 +1,16 @@
+SimExLite/DiffractionData.py,sha256=7l-oj3Ffm25e3OlVuW20AuFpdktlQb33HCbl_DoUG8E,23573
+SimExLite/PhotonBeamData.py,sha256=QN9VD2K7uioduh0i1ULWYt2x6nLBCXvYxO360t-OR0o,5556
+SimExLite/SampleData.py,sha256=kH6YH1da6uiUk7Aozs7WZOzL_M0W6pLLvkAFlP5HJyM,8101
+SimExLite/SimExLite.py,sha256=cqlNWXZCnxkPDUl4WMNjNGm61dt1OvK_CofR7oxIfnk,269
+SimExLite/__init__.py,sha256=wdN8B9Vw2mN4_fZZt3a_SjtNjpQbp1II4CwSHZW01I0,751
+SimExLite/cli.py,sha256=AC-pkmsXowxh9ITb0P_xoCPQ9vOcsqBRHWm3S1I0cng,687
+SimExLite/utils.py,sha256=nzOYBG41bzF3aoQHz9R-Pc16_PKga2AZbqkFFb3SznM,3362
+SimExLite/DetectorCalculators/__init__.py,sha256=8m3JY3RRU3HuIhscnO42xgyYbPwUFZ5jF_gkoCLgDEg,333
+SimExLite/DetectorCalculators/gaussianNoiseCalculator.py,sha256=4-TnczdX8IYD55xls6GKs0sfOQrZa_pMpm6O1EGpEwU,2729
+SimEx_Lite-0.2.1.dist-info/AUTHORS.rst,sha256=8BUnLEzZealb44oIsq0wfyNIYP5M2g3kPKbYRZkOoM4,276
+SimEx_Lite-0.2.1.dist-info/LICENSE,sha256=boMFY4xzzvSpVFfKhUdpCwpzK0yERIj_vRiRLYx6JP4,1601
+SimEx_Lite-0.2.1.dist-info/METADATA,sha256=-Dn72mljaADt5CyIDJWdeuSmwtlHsKTDGUr35zrS8w4,3768
+SimEx_Lite-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+SimEx_Lite-0.2.1.dist-info/entry_points.txt,sha256=26Kb-LyWDfIXqWKKhDNRimeIMDkzm9pwoR1QQXhoIi8,50
+SimEx_Lite-0.2.1.dist-info/top_level.txt,sha256=nAtLgvZOv9PO68v8uvt1N3RENjGXdbgPrizHEYKYmis,10
+SimEx_Lite-0.2.1.dist-info/RECORD,,
