@@ -1,0 +1,5 @@
+PyGLM
+numpy
+keyboard
+glfw
+PyOpenGL
