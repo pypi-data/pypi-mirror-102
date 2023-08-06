@@ -1,0 +1,8 @@
+README.md
+setup.py
+history_search_results_scraper/__init__.py
+history_search_results_scraper.egg-info/PKG-INFO
+history_search_results_scraper.egg-info/SOURCES.txt
+history_search_results_scraper.egg-info/dependency_links.txt
+history_search_results_scraper.egg-info/requires.txt
+history_search_results_scraper.egg-info/top_level.txt
