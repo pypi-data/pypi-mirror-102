@@ -1,0 +1,13 @@
+numpy
+torch
+torchvision
+nibabel
+scikit-image
+pydicom
+pycuda
+pyvista
+scipy
+pyvista
+
+[gpu]
+pycuda
