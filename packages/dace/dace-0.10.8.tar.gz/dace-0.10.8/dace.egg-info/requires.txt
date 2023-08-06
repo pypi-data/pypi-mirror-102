@@ -1,0 +1,24 @@
+numpy
+networkx>=2.2
+astunparse
+sympy
+pyyaml
+ply
+websockets
+requests
+flask
+scikit-build
+cmake
+aenum
+dill
+pyreadline
+
+[:python_version < "3.7"]
+dataclasses
+
+[testing]
+coverage
+pytest-cov
+scipy
+absl-py
+opt_einsum
