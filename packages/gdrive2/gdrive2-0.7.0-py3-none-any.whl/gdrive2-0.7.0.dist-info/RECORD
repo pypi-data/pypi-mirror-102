@@ -1,0 +1,11 @@
+gdrive2/__init__.py,sha256=N1hUR53VgmOd7DAw-5O-ZRpSoWq68AaXYgfo4-uxoD0,180
+gdrive2/auth_util.py,sha256=15NZnWEnoSk1vJODdwjLAifT7T-l5DSFgFb4M1HejHo,7020
+gdrive2/drive_util.py,sha256=Vn1MYsGJN9-Z_D96lOvAurZOkxVyLjZN1S3w_rqkZZU,45002
+gdrive2/gd,sha256=EPv35elp3Di45lq734Alzazyg4EDAEN91Djx1Jfwyn8,69408
+gdrive2/gd.py,sha256=EPv35elp3Di45lq734Alzazyg4EDAEN91Djx1Jfwyn8,69408
+gdrive2/paths.py,sha256=TWf2W0IwSO9-6kkZhyhqgxACa2qh9StnZdmk9YTsAOI,929
+gdrive2-0.7.0.dist-info/LICENSE,sha256=T9nXYVlhIq2YABVYPnoBEjuCTNRaLfW3ns7vCTNKF3w,1099
+gdrive2-0.7.0.dist-info/METADATA,sha256=YyVS_oTmbKRq49Wxo_P9XgsyWDtxN__GZqcKOSZ9PuQ,6527
+gdrive2-0.7.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+gdrive2-0.7.0.dist-info/top_level.txt,sha256=30ZJu5YszKfxZmt6ATg-ciswsjkBTmDvQ84r66C-IzM,8
+gdrive2-0.7.0.dist-info/RECORD,,
