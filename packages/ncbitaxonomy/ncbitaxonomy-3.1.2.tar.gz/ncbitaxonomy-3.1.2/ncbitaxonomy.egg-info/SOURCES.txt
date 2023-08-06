@@ -1,0 +1,9 @@
+README.md
+setup.py
+ncbitaxonomy/__init__.py
+ncbitaxonomy/citation.py
+ncbitaxonomy/utils.py
+ncbitaxonomy.egg-info/PKG-INFO
+ncbitaxonomy.egg-info/SOURCES.txt
+ncbitaxonomy.egg-info/dependency_links.txt
+ncbitaxonomy.egg-info/top_level.txt
