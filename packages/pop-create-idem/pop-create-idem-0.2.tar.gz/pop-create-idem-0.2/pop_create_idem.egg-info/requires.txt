@@ -1,0 +1,6 @@
+idem
+jsonnet
+openapi3
+pop>=16
+pop-create>=2.1
+textwrap3

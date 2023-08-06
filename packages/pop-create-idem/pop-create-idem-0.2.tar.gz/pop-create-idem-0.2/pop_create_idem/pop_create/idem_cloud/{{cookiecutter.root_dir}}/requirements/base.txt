@@ -1,0 +1,3 @@
+aiohttp
+pop>=17.1
+idem>=11
