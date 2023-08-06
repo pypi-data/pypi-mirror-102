@@ -1,0 +1,5 @@
+[console_scripts]
+polybuild = polytracker.build:main
+polybuild++ = polytracker.build:main_plus_plus
+polytracker = polytracker.__main__:main
+
