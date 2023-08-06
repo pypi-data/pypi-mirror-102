@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/pyshn/__init__.py
+src/pyshn/__main__.py
+src/pyshn/cli.py
+src/pyshn/cnpj.py
+src/pyshn/cpf.py
+src/pyshn.egg-info/PKG-INFO
+src/pyshn.egg-info/SOURCES.txt
+src/pyshn.egg-info/dependency_links.txt
+src/pyshn.egg-info/entry_points.txt
+src/pyshn.egg-info/top_level.txt
