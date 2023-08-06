@@ -1,0 +1,11 @@
+metashovel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metashovel/cli.py,sha256=prYWMPH5LOVextWEzbwhkqwk72j8flMdsqpDlxXldU0,6736
+metashovel/client.py,sha256=3W9E5uavZaS4T-UIRlKBftwnHcscgHlhK6VsE59gBsU,8458
+metashovel/helpers.py,sha256=jd-sa7gX_Cx0puLLI1esYeb13pdPGZFw5b9re_7fRk4,584
+metashovel/metabase_io.py,sha256=8SqjvWu08oKzKYMNYFAkmfAQk_GFZEPLB_RjZ5KrtDI,44916
+metashovel/splitter.py,sha256=IynfRZQqRuTwrMWfB9-2a5Rf6qFUrw5wLrGsPLjeY6o,5121
+metashovel-0.3.0.dist-info/METADATA,sha256=n9dwncOtvIjO1mcVsXiMBvUQ6abwGwqfRQKCb7Crefo,3396
+metashovel-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+metashovel-0.3.0.dist-info/entry_points.txt,sha256=05rQaoO1sWTgYN42ZUJGitTCsZdlH4UD44n4BZ-efAY,51
+metashovel-0.3.0.dist-info/top_level.txt,sha256=5i2b2lkC7zFgn0t8WQoEJTcjqpQxTjfcA8gY_BA6_ko,11
+metashovel-0.3.0.dist-info/RECORD,,
