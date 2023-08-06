@@ -1,0 +1,11 @@
+turbofunc/__init__.py,sha256=NUNLQKwZiqInXH2FqHVdHYeorNbNTsYfvG8t_Sl7qBo,2926
+turbofunc/clearscreen.py,sha256=ptkTuhLRFsHQrU173l8mvq0Rf9chHKGu0j17gnZDtUQ,1035
+turbofunc/multiprint.py,sha256=hRQI7pYDtwPBFgVWG8Yaz7HA7q18ueD5czhbX9L2kPY,927
+turbofunc/pressanykey.py,sha256=36wiIB28P8lRZmKD8vPweKjCZdbI1N8OVgIfF7X9NZw,867
+turbofunc/sanitiseinput.py,sha256=FWTG5YHkkaKux57H_uE7ktekRHWOF56wUuOFO3dTbL4,819
+turbofunc/standtextout.py,sha256=eaTqO_Noe3rNBAuuM50aMXQHqGtPpVJz0LvSRimF9cY,1169
+turbofunc-1.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+turbofunc-1.5.dist-info/METADATA,sha256=7EI9b6WM-v73zjxxyoFDtFZtyZmCHLHnlIXVJL4Bq20,922
+turbofunc-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+turbofunc-1.5.dist-info/top_level.txt,sha256=bsYanxsPID9HHLfA-Y3YxmqJUe7eh6b-qiIM7C5eDzc,10
+turbofunc-1.5.dist-info/RECORD,,
