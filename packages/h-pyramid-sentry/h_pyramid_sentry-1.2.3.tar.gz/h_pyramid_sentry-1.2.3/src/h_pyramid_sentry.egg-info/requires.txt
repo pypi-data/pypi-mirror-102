@@ -1,0 +1,12 @@
+pyramid
+sentry-sdk
+
+[tests]
+celery
+coverage
+h-matchers>=1.2.5
+pyramid
+pyramid_retry
+pytest
+sentry-sdk
+sqlalchemy
