@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+"""
+Publishes static web content to RStudio Connect
+"""
+
+import argparse
+import os
+import sys
+
+import webconnect
+
+
+def main():
+    """ main """
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-d", "--dir", help="name of the directory to publish", required=True
+    )
+    parser.add_argument(
+        "-n",
+        "--name",
+        help="name of the content - alphanumeric and underscores only",
+        required=True,
+    )
+    parser.add_argument("-p", "--pretty", help="pretty name", required=True)
+    parser.add_argument("-s", "--server", help="RStudio Connect URL", required=True)
+    parser.add_argument("-k", "--key", help="Connect API key", required=True)
+    argv = parser.parse_args()
+
+    if not os.path.isdir(argv.dir):
+        print("Error: Directory not found: {}".format(argv.dir))
+        sys.exit(1)
+
+    if not os.path.isfile(argv.dir + "/index.html"):
+        print("Error: No index.html in directory: {}".format(argv.dir))
+        sys.exit(1)
+
+    if os.path.exists(argv.dir + "/manifest.json"):
+        print("Error: manifest.json already exists in directory: {}".format(argv.dir))
+        sys.exit(1)
+
+    webconnect.pub_rsconnect(
+        argv.dir,
+        argv.name,
+        argv.pretty,
+        argv.server,
+        argv.key,
+    )
+    os.remove(argv.dir + "/manifest.json")
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

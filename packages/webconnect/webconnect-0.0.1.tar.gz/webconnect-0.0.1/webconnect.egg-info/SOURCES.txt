@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bin/webconnectcli
+webconnect/__init__.py
+webconnect.egg-info/PKG-INFO
+webconnect.egg-info/SOURCES.txt
+webconnect.egg-info/dependency_links.txt
+webconnect.egg-info/requires.txt
+webconnect.egg-info/top_level.txt
