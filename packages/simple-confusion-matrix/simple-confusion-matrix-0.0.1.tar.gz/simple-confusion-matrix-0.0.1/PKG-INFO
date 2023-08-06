@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: simple-confusion-matrix
+Version: 0.0.1
+Summary: Python3 library for generating confusion matrices.
+Home-page: https://github.com/waikato-datamining/simple-confusion-matrix
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: MIT License
+Description: Python library for generating a confusion matrix from actual and predicted labels.
+        
+        Changelog
+        =========
+        
+        0.0.1 (2021-04-16)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3

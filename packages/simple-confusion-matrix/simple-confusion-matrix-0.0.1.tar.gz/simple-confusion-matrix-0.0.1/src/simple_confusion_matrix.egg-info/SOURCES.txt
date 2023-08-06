@@ -1,0 +1,14 @@
+CHANGES.rst
+DESCRIPTION.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/scm/__init__.py
+src/scm/generate.py
+src/scm/matrix.py
+src/simple_confusion_matrix.egg-info/PKG-INFO
+src/simple_confusion_matrix.egg-info/SOURCES.txt
+src/simple_confusion_matrix.egg-info/dependency_links.txt
+src/simple_confusion_matrix.egg-info/entry_points.txt
+src/simple_confusion_matrix.egg-info/top_level.txt

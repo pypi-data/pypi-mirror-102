@@ -1,0 +1,3 @@
+[console_scripts]
+scm-gen = scm.generate:sys_main
+
