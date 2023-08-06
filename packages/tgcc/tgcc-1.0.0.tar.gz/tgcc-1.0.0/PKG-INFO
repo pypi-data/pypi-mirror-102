@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tgcc
+Version: 1.0.0
+Summary: TechGeeks Compiler Collections
+Home-page: https://github.com/TechGeeks-Dev/tgcc
+Author: TechGeeks
+Author-email: TGCompilers@tgeeks.cf
+Maintainer: Rajdeep Malakar
+Maintainer-email: Rajdeep@tgeeks.cf
+License: UNKNOWN
+Description: ![Logo](assets/favicon.png)<br>
+        # TGCC
+        [![PyPI Release Create](https://github.com/TechGeeks-Dev/tgcc/actions/workflows/Release-Create.yaml/badge.svg)](https://github.com/TechGeeks-Dev/tgcc/actions/workflows/Release-Create.yaml)<br>
+        
+        ## Installation
+        
+        ```shell
+        pip install tgcc
+        ```
+        
+        ## Usage
+        
+        First create a `tgcc.json` file with a **`compiler`** key:
+        ```json
+        {
+            "compiler": "compiler.json"
+        }
+        ```
+        You can replace `compiler.json` with anything else and create that file with the value of:
+        
+        ```json
+        {
+            "file": "file.md",
+            "Content-Type": "text/markdown",
+            "to": "html"
+        }
+        ```
+        
+        Then run:
+        ```shell
+        tgcc start
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

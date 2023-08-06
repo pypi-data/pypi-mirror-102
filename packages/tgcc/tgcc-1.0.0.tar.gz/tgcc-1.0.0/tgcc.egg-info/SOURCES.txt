@@ -1,0 +1,11 @@
+README.md
+setup.py
+tgcc/__init__.py
+tgcc/cli.py
+tgcc/md.py
+tgcc.egg-info/PKG-INFO
+tgcc.egg-info/SOURCES.txt
+tgcc.egg-info/dependency_links.txt
+tgcc.egg-info/entry_points.txt
+tgcc.egg-info/requires.txt
+tgcc.egg-info/top_level.txt
