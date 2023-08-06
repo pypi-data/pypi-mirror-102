@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-mail-office
+Version: 0.9.1
+Summary: 
+License: MIT
+Author: mikki
+Author-email: mikki@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2,<4.0)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
