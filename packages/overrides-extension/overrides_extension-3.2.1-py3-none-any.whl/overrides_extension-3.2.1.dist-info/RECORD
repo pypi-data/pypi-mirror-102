@@ -1,0 +1,17 @@
+LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+README.rst,sha256=648V8BWMMjVYMzHK188UKZeVSEytV58MzNsWwvWyb-I,3603
+overrides_extension/__init__.py,sha256=OfYe9ejz0Fiwsv9aLn__0HSonMww3AQul0qSvmvll6w,164
+overrides_extension/enforce.py,sha256=j3092yTioDetwj6moP2a2bBy-iPeETTWmdOiFXA3jOA,2582
+overrides_extension/final.py,sha256=MqNWc8dXfCjE3KhAu3HPVzeT_fOLEDmGDc5eOujLQcg,1484
+overrides_extension/override.py,sha256=0cQtC-WN2fWsadNztEqXvygTQiIwdfSX--KNi4_OiYE,4851
+tests/test_decorator_params.py,sha256=4VoP2bwX-UA3dB6y4rpzj_uYyjgtbx0xAHPRCpeVbTo,573
+tests/test_enforce.py,sha256=KFcyUSKXSr31MtqGvHTk8RUcH5McY1IxjYv7Ggr_S5w,2879
+tests/test_final.py,sha256=At_kX1YrZvemSYaC_yGgQy-n_lyuXL2DMBdmiO91p1M,4071
+tests/test_override.py,sha256=j1B2Ow1FysaFxpMeWjXvjfp-Ff0UbZcCMssq4Neymc0,2524
+tests/test_somefinalpackage.py,sha256=gEtwaP_Rw_uoQ8L6u9yRfgzk0Em0xJ7Npk6g4zMpJ5E,235
+tests/test_somepackage.py,sha256=Z2rFmbyph_5956ShOKe3SvewFYMiSeUNBPle4aFqfOw,107
+tox.ini,sha256=Ua6QTbxgM6yG4OOXky-cQPWvHkdsuLNmZf3pFHwtnZc,504
+overrides_extension-3.2.1.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+overrides_extension-3.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+overrides_extension-3.2.1.dist-info/METADATA,sha256=1HZrnB7Chy-keuDs5SAf4qGUeRaXJOyFe2M0_niEUag,4449
+overrides_extension-3.2.1.dist-info/RECORD,,
