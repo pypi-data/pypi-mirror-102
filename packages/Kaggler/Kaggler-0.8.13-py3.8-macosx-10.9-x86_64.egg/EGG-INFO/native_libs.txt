@@ -1,0 +1,7 @@
+kaggler/util.cpython-38-darwin.so
+kaggler/online_model/_tree.cpython-38-darwin.so
+kaggler/online_model/fm.cpython-38-darwin.so
+kaggler/online_model/ftrl.cpython-38-darwin.so
+kaggler/online_model/nn.cpython-38-darwin.so
+kaggler/online_model/nn_h2.cpython-38-darwin.so
+kaggler/online_model/sgd.cpython-38-darwin.so
