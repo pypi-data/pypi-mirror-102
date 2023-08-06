@@ -1,0 +1,6 @@
+solid: '-'
+longdash: (0, (5, 10)))
+dash: '--'
+dashdot: '-.'
+dot: ':'
+none: ''
