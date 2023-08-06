@@ -1,0 +1,13 @@
+fastapiwee/__init__.py,sha256=4PBvfkUA37YYeEkMmxKTkZZFxSYe-JFIMOyoiUWCTPQ,56
+fastapiwee/pwpd.py,sha256=WWHCIOXaD3iTA5P21CxuGJ-SnHKoPZPuLo0mD5rBC80,5591
+fastapiwee/crud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapiwee/crud/_base.py,sha256=0ldjpLloQBOH9MfIc26_amnPtUlPBjHVsy_w0nt-TQc,3364
+fastapiwee/crud/views.py,sha256=JEUhtpG9t4o4CfT1JrMC4WLZQp5DPeRsn-oqiTQdVyg,1374
+fastapiwee/crud/viewsets.py,sha256=wsR_voYHq6xW9G0qNjgrk6Q4tLetQanK2ba-oPvsUDA,2513
+fastapiwee/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapiwee/tests/test_pwpd.py,sha256=zD9LOIIo1gtrUuSuXvvbXgjx67N6SURzt2AQrZkghIQ,7114
+FastAPIwee-0.0.1.dist-info/LICENSE,sha256=A4lxjPKUkK5iq9HnrNVzup-rs-HY336xuekqMRjxzwY,1074
+FastAPIwee-0.0.1.dist-info/METADATA,sha256=Zooc8BR55bJ9ghYqXPWp20-eQLC_3vrVgLk1mf0fE2Q,775
+FastAPIwee-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+FastAPIwee-0.0.1.dist-info/top_level.txt,sha256=dSUXF5-cpc8ZtjDJMlPqfAaxDg-QFbyDCX5ojS3b1RE,11
+FastAPIwee-0.0.1.dist-info/RECORD,,
