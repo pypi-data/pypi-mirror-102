@@ -1,0 +1,9 @@
+cdk_s3bucket_ng/__init__.py,sha256=KL8kSbhoBJ7Ahqgn_7vP9uNTpzBkwUawCjKT-JAh6Hk,9932
+cdk_s3bucket_ng/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_s3bucket_ng/_jsii/__init__.py,sha256=dnabnpXYDQPLPxfCREPu9dfkqEIeQVfATQY0_wFCN1k,527
+cdk_s3bucket_ng/_jsii/cdk-s3bucket-ng@1.1.23.jsii.tgz,sha256=6c1cyq_QFq1e16xAT26QTOkz6V6_FYSsY1fVoCgiLN4,3688755
+cdk_s3bucket_ng-1.1.23.dist-info/LICENSE,sha256=DxvOPxLjD3Hi67VMJbEXuRFC3eyLbMPn1AhUtTbUbM8,11339
+cdk_s3bucket_ng-1.1.23.dist-info/METADATA,sha256=Z1AScl97asXXz-90UaCxvwR2Po3EFOo9wnN3frcTTNg,3666
+cdk_s3bucket_ng-1.1.23.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdk_s3bucket_ng-1.1.23.dist-info/top_level.txt,sha256=N4zeMbY1sMPm0MvOMO9S32eB1-NK-09kvKCeiuCLMeo,16
+cdk_s3bucket_ng-1.1.23.dist-info/RECORD,,
