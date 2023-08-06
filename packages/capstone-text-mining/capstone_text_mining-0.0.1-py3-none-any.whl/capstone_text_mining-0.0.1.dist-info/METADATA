@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: capstone-text-mining
+Version: 0.0.1
+Summary: Capstone Text Mining Techniques
+Home-page: https://github.com/mfligiel/Capstone_Text_Mining
+Author: Matt Fligiel, Carmin Ballou, Zain Jafri
+Author-email: matthewfligiel@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+Requires-Dist: multiprocessing
+Requires-Dist: string
+Requires-Dist: nltk
+Requires-Dist: vaderSentiment
+
+# Capstone_Text_Mining
+Our capstone on improving search engine ad performance via text mining.
+
+
