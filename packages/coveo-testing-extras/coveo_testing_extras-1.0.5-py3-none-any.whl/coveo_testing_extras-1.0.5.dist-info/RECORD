@@ -1,0 +1,7 @@
+coveo_testing_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coveo_testing_extras/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coveo_testing_extras/temporary_resource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coveo_testing_extras/temporary_resource/docker_container.py,sha256=HBd8WDK6HMj4XIcwkBBJuqt4nVLLLW-fjGSb0nfaRuo,10790
+coveo_testing_extras-1.0.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+coveo_testing_extras-1.0.5.dist-info/METADATA,sha256=wMLLxA44l4r8d0CAE_tjNlOB1i3bLSa_62XE0nJkXck,2482
+coveo_testing_extras-1.0.5.dist-info/RECORD,,
