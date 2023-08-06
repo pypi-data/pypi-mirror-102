@@ -1,0 +1,6 @@
+setup.py
+StockFast/StockFast.egg-info/PKG-INFO
+StockFast/StockFast.egg-info/SOURCES.txt
+StockFast/StockFast.egg-info/dependency_links.txt
+StockFast/StockFast.egg-info/requires.txt
+StockFast/StockFast.egg-info/top_level.txt
