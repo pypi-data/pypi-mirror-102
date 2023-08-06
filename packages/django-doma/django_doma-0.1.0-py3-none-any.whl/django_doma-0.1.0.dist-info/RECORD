@@ -1,0 +1,13 @@
+doma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doma/apps.py,sha256=YIvVQPQLhPbR2ESCOsm7VWQXQv8dpy9ObnIBJdd5MGA,140
+doma/migrations/0001_initial.py,sha256=Eha0zfwS8W6qbyQb5NnQE6ubgUSJ2K32aG1AhQK98xY,2662
+doma/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doma/models.py,sha256=4gJev-4ZJYR1KpyMcFrKBzZ5sBeSzW8wRsf-H59Tw3E,1742
+doma/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doma/tests/document.pdf,sha256=kFnQ0kdVE82i1TL6iLa8Blmc3RwFgUJk7xMm_70SwXI,10491
+doma/tests/factories.py,sha256=Xnce4B6mIRBi_7x7oPLt82dcSMnLCRcYr78vAEe8U60,564
+doma/tests/settings.py,sha256=J8wBYypSrBiBMC_TQK9qWgV9JaKwis8wF0IA3No1MQ4,290
+doma/tests/tests.py,sha256=ljafRXQJwMXWQPyFkuaLFgq-cq9eoljVXy3TfptuMTM,756
+django_doma-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+django_doma-0.1.0.dist-info/METADATA,sha256=xbfEMNWNh5XlbS3gJLiCvpnMPc2ElmYP-zTzoIDK1OM,453
+django_doma-0.1.0.dist-info/RECORD,,
