@@ -1,0 +1,9 @@
+vermon/__about__.py,sha256=VxP2SWnAHM00_oJJzeSZHZ0Q2DEF2eEf9WxH5U4upJA,275
+vermon/__init__.py,sha256=HWSpA1PavsEqzQc4fwu_TvDf6D7eZ93ZdVRl2FIP0rw,582
+vermon/core.py,sha256=pU69ofkak-h-KNAWgLdum6bYU5lPXc4taYi5aVPRax8,5169
+vermon/exceptions.py,sha256=qkoRazq-9bem4LxDjlnH_erCTH2IRIrQyUWJz_cWNBo,428
+vermon-0.1.0.dist-info/LICENSE,sha256=YpiOoTSkOstQQf_h7nk8jVPie6h71xnFWrq2ay13dW8,1092
+vermon-0.1.0.dist-info/METADATA,sha256=x1wOIKtuQeioDcXCSCn5STnEAUbtK5Wdc_hsMLTNVAU,5214
+vermon-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vermon-0.1.0.dist-info/top_level.txt,sha256=0J-7PEWTQhXGoqK67ES-H14FoL2OE3-PB6IK1lfWQbk,7
+vermon-0.1.0.dist-info/RECORD,,
