@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+enigma_quantum.egg-info/PKG-INFO
+enigma_quantum.egg-info/SOURCES.txt
+enigma_quantum.egg-info/dependency_links.txt
+enigma_quantum.egg-info/top_level.txt
