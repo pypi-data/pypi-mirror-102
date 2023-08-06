@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+s2reader3/__init__.py
+s2reader3/exceptions.py
+s2reader3/s2reader3.py
+s2reader3.egg-info/PKG-INFO
+s2reader3.egg-info/SOURCES.txt
+s2reader3.egg-info/dependency_links.txt
+s2reader3.egg-info/entry_points.txt
+s2reader3.egg-info/requires.txt
+s2reader3.egg-info/top_level.txt
+s2reader3/cli/__init__.py
+s2reader3/cli/inspect.py
+s2reader3/cli/transform.py

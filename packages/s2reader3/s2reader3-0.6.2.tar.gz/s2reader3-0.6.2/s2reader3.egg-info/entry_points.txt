@@ -1,0 +1,4 @@
+[console_scripts]
+s2_inspect = s2reader3.cli.inspect:main
+s2_transform = s2reader3.cli.transform:main
+
