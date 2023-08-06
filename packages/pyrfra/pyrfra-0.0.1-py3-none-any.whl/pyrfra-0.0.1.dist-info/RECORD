@@ -1,0 +1,12 @@
+pyrfra/__init__.py,sha256=5FjVgTc7isVOrrso9qDknE9eDWJXQVCgaafDHkoj6Mg,68
+pyrfra/functional/__init__.py,sha256=YYhpaHLPyfSig160PnOCcft_EkubrdLpp5eQ9o2Enrw,506
+pyrfra/functional/iterators.py,sha256=8iTlIsAWL1mpQy2tY8GfPZoloOJPHSonG7QhaFdLVSY,1116
+pyrfra/remote/__init__.py,sha256=yy7Fg6BCi6crD1Q01wpb0XXPK6b8RgIb_jgT2-CwOqQ,1455
+pyrfra/remote/wrapper.py,sha256=MzS4oZiBqGnOP-TykCeLk9Uf2i39mfMv89KNbiFP-ow,664
+pyrfra/utils/__init__.py,sha256=Ic9oCzU19-ff8hHRPRCKS6VvVHAk4R18RvR--NC2XQ4,41
+pyrfra/utils/files.py,sha256=vw368yvb3Rhd5QWO12NzckliSW8jPRpZf2bjnFm5ljg,1109
+pyrfra/utils/shell.py,sha256=LmOhnL6rpjQPCqBLcXwdI4SKl3h700KLz1dxrC_ItGA,2277
+pyrfra-0.0.1.dist-info/METADATA,sha256=Safbzf5nV8tODRfbXk9xco1jO2e8KB7IJ3_bbynERTs,437
+pyrfra-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyrfra-0.0.1.dist-info/top_level.txt,sha256=fAvJ5t2gxnC5sTx0w-vr81JmeDeSpxnKmpldPzznMIs,7
+pyrfra-0.0.1.dist-info/RECORD,,
