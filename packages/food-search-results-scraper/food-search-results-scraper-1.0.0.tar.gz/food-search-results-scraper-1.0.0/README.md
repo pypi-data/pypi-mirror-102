@@ -1,0 +1,64 @@
+Food-Search-Results-Scraper is a python library to search keyword on food and get search results automatically using browser automation. 
+It currently runs only on windows.
+
+### Example1
+In this example we first import library, then we search keyword and get search results.
+```sh
+from food_search_results_scraper import *
+food.search(keyword='pasta')
+
+response=food.search_results()
+search_results=response['body']
+
+```
+
+### Example2:- Get Search Results by calling function 5 times, as it scrolls and loads more data
+In this example we first import library, then we search keyword and get search results by loading data 5 times.
+```sh
+from food_search_results_scraper import *
+food.search(keyword='pasta')
+
+for i in range(0,5):
+	response=food.search_results()
+	search_results=response['body']
+```
+
+This module depends on the following python modules
+* [requests](https://pypi.org/project/requests/)
+* [bot_studio](https://pypi.org/project/bot_studio/)
+
+#### BotStudio
+[bot_studio](https://pypi.org/project/bot_studio/) is needed for browser automation. As soon as this library is imported in code, automated browser will open up in which search will be done.
+
+
+### Installation
+
+```sh
+pip install food-search-results-scraper
+```
+
+### Import
+```sh
+from food_search_results_scraper import *
+```
+
+### Search keyword
+```sh
+food.search(keyword='pasta')
+```
+
+### Get search results
+```sh
+response=food.search_results()
+search_results=response['body']
+```
+
+### Send Feedback to Developers
+```sh
+bot_studio.send_feedback(feedback="Need help with this ......")
+```
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+* [Website](https://datakund.com)
+
