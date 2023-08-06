@@ -1,0 +1,13 @@
+termite_toolkit/__init__.py,sha256=U8x-Gn7WxQQiV0XQTStcKJs8sxZJn5R8bmNiJH7WNnw,71
+termite_toolkit/docstore.py,sha256=zkaaVFPpB0jpRornsO3KVsDclSD8ugre1BgeOyAY3vA,10865
+termite_toolkit/prep.py,sha256=qRAEcakYC1ETE50YEIHAkOcCLpyqlo8NsHpEODSoedc,11117
+termite_toolkit/scibiteai.py,sha256=mIib7EzgxlKrNlRtRxOzTWStFqdfsWSPRXdGTTO_nLE,39710
+termite_toolkit/termite.py,sha256=AOSndGYQ-gBFpP0SK88GYgCQytvnpNSPpCDffZsba9k,23508
+termite_toolkit/texpress.py,sha256=2fu4LBUV7quqAgBcVsX8Ch6Nfb80Dm4AXv5nq9j8O1M,17863
+termite_toolkit/utilities.py,sha256=gIQ2CrURA-RpRM8n-Gj5EbWOmVkgq0TpWWqmPhkQ4gM,3945
+termite_toolkit-0.3.9.data/data/LICENSE.txt,sha256=Km7JzwVlVLc9hQ4-FhqBoblqp4vSYAvGOvAa7vScQNE,329
+termite_toolkit-0.3.9.dist-info/LICENSE.txt,sha256=Km7JzwVlVLc9hQ4-FhqBoblqp4vSYAvGOvAa7vScQNE,329
+termite_toolkit-0.3.9.dist-info/METADATA,sha256=wgLAwazO_LdghU199hZncd_mN8qxPcPownrjwPuNnZE,2921
+termite_toolkit-0.3.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+termite_toolkit-0.3.9.dist-info/top_level.txt,sha256=EST5Ov3fI8NIc1KiAb7FKR1dtQxgUrOj_Iby6HPue40,16
+termite_toolkit-0.3.9.dist-info/RECORD,,
