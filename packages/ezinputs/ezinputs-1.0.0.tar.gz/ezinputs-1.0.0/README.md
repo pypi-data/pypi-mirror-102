@@ -1,0 +1,175 @@
+# EzInputs
+
+EzInputs is built to get rid of the need to put while loops and try/except blocks around your type cast input() calls
+
+#### The old way
+
+<pre><code>
+    while True:
+
+        num = input("Enter a number: ")
+
+        try:
+
+            num = int(num)
+
+            break
+
+        except ValueError:
+
+            print("Invalid integer, try again")
+
+</code></pre>
+
+#### **The EzInputs way**
+
+<pre><code>
+    import ezinputs
+
+    num = ezinputs.int_input()
+
+</code></pre>
+
+Depending on how you measure it, ezinputs is about 10 times better!
+
+### Docs & Useage
+
+Before we begin, these functions are all in the ezinputs.py file that ships in this package. Therein, full documentation is given for each function.
+
+#### Primitive types
+
+In this section we will look at the 4 primitive input types ezinputs has to offer.
+
+All basic input types have two optional arguments;
+
+<code>prompt</code> - the input prompt shown to the user (function-specific default)
+
+<code>error</code> - the message displayed when an invalid value is entered (function-specific default)
+
+###### Integer input
+
+<pre><code>
+    >>> ezinputs.int_input()
+    
+    Enter an integer: 5
+
+    (returns)
+    5
+
+</code></pre>
+
+###### Float input
+
+<pre><code>
+    >>> ezinputs.float_input()
+    
+    Enter a float: 12.23
+
+    (returns)
+    12.23
+
+</code></pre>
+
+###### Boolean input
+
+<pre><code>
+    >>> ezinputs.bool_input()
+    
+    Enter boolean: True
+
+    (returns)
+    True
+
+</code></pre>
+
+###### String input
+
+Please just use the builtin python input(), this str_input() function is extremely redundant!
+
+<pre><code>
+    >>> ezinputs.str_input()
+    
+    Enter a string: hello world!
+
+    (returns)
+    'hello world!'
+
+</code></pre>
+
+#### Collection types
+
+In this section we will look at the 4 collection input types ezinputs has to offer
+
+The collection inputs have additional optional arguments on top of the besic input arguments;
+
+<code>astype</code> - the datatype required for values (defaults to str)
+
+<code>count</code> - the number of items to retrieve (defaults to 1)
+
+###### List input
+
+<pre><code>
+    >>> ezinputs.list_input(count=2, astype=int)
+    
+    Enter item 1: 5
+    Enter item 2: 12
+
+    (returns)
+    [5, 12]
+
+</code></pre>
+
+###### Set input
+
+<pre><code>
+    >>> ezinputs.set_input(count=3, astype=float)
+    
+    Enter item 1: 7.6
+    Enter item 2: 2
+    Enter item 3: 4
+
+    (returns)
+    {2.0, 4.0, 7.6}
+
+</code></pre>
+
+###### Tuple input
+
+<pre><code>
+    >>> ezinputs.tuple_input(count=3, astype=bool)
+
+    Enter item 1: a
+    Enter item 2: 1
+    Enter item 3: True
+
+    (returns)
+    (True, True, True)
+
+</code></pre>
+
+###### Dictionary input
+
+<pre><code>
+    >>> ezinputs.dict_input(count=3)
+    
+    Enter key 1: sugar
+    Enter str value for sugar: 150g
+    Enter key 2: flour
+    Enter str value for flour: 400g
+    Enter key 3: insert_cake_ingredient_here
+    Enter str value for insert_cake_ingredient_here: some
+
+    (returns)
+    {'sugar': '150g', 'flour': '400g', 'insert_cake_ingredient_here': 'some'}
+
+</code></pre>
+
+###### Author
+
+Will Johnson
+
+Discord: \_\_wcj\_\_#3111
+
+Email: 277willjohnson@gmail.com
+
+Website: https://heyteach.co.uk/
