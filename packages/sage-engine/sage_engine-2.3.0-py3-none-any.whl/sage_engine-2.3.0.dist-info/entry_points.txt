@@ -1,0 +1,14 @@
+[console_scripts]
+sage=sage.cli.http_server:start_sage_server
+sage-debug=sage.cli.debug:sage_query_debug
+sage-grpc=sage.cli.grpc_server:start_grpc_server
+sage-hbase-init=sage.cli.hbase:init_hbase
+sage-hbase-put=sage.cli.hbase:put_hbase
+sage-postgres-index=sage.cli.postgres:index_postgres
+sage-postgres-init=sage.cli.postgres:init_postgres
+sage-postgres-put=sage.cli.postgres:put_postgres
+sage-query=sage.cli.commons:sage_query
+sage-sqlite-index=sage.cli.sqlite:index_sqlite
+sage-sqlite-init=sage.cli.sqlite:init_sqlite
+sage-sqlite-put=sage.cli.sqlite:put_sqlite
+
