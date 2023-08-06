@@ -1,0 +1,145 @@
+# AsyncRemoteShell
+
+## Description
+This package implement 4 tools for asynchronous remote commands :
+- ReverseShellClient
+- ReverseShellServer
+- ShellClient
+- ShellServer
+
+## Requirements
+This package require :
+- python3
+- python3 Standard Library
+
+## Installation
+
+```bash
+pip install AsyncRemoteShell
+```
+
+## Usages
+
+### Commands
+
+#### ReverseShell
+
+```bash
+ReverseShellClient
+ReverseShellClient --interface=127.0.0.1 --port=45678
+ReverseShellServer
+ReverseShellServer -i=localhost -p=45678
+```
+
+#### Shell
+
+```bash
+ShellClient
+ShellClient -i=10.0.0.2 --port=56789
+ShellServer
+ShellServer --interface= -p=56789
+```
+
+### Python package commands
+
+```bash
+python3 -m AsyncRemoteShell ShellServer
+python3 -m AsyncRemoteShell ShellClient
+
+python3 -m AsyncRemoteShell ShellServer -i=localhost -p=3456
+python3 -m AsyncRemoteShell ShellClient --interface=localhost --port=3456
+
+python3 -m AsyncRemoteShell.ShellServer
+python3 -m AsyncRemoteShell.ShellClient
+
+python3 -m AsyncRemoteShell.ShellServer --interface=localhost --port=3456
+python3 -m AsyncRemoteShell.ShellClient -i=localhost -p=3456
+
+python3 -m AsyncRemoteShell ReverseShellServer
+python3 -m AsyncRemoteShell ReverseShellClient
+
+python3 -m AsyncRemoteShell ReverseShellServer -i=localhost -p=3456
+python3 -m AsyncRemoteShell ReverseShellClient --interface=localhost --port=3456
+
+python3 -m AsyncRemoteShell.ReverseShellServer
+python3 -m AsyncRemoteShell.ReverseShellClient
+
+python3 -m AsyncRemoteShell.ReverseShellServer --interface=localhost --port=3456
+python3 -m AsyncRemoteShell.ReverseShellClient -i=localhost -p=3456
+```
+
+### Python executable
+
+Same commands than python package `python3 -m AsyncRemoteShell <MODULE> [OPTIONS]`.
+
+```bash
+python3 AsyncRemoteShell.pyz ShellServer
+
+chmod u+x AsyncRemoteShell.pyz
+./AsyncRemoteShell.pyz ShellClient -i=localhost --port=45678
+```
+
+### Python3
+
+#### ReverseShell
+
+Client:
+```python
+from AsyncRemoteShell import ReverseShellClient
+import asyncore
+ReverseShellClient("10.0.0.2", 45678) # host and port is required
+asyncore.loop()
+```
+
+Server:
+```python
+from AsyncRemoteShell import ReverseShellServer
+import asyncore
+ReverseShellServer("", 45678) # interface and port is required
+asyncore.loop()
+```
+
+#### Shell
+
+Client:
+```python 
+from AsyncRemoteShell import ShellClient
+import asyncore
+ShellClient("10.0.0.2", 45678) # host and port is required
+asyncore.loop()
+```
+
+Server:
+```python 
+from AsyncRemoteShell import ShellServer
+import asyncore
+ShellServer("", 45678) # interface and port is required
+asyncore.loop()
+```
+
+## Why Asynchronous Shell
+
+You can install this package on Windows and execute this script:
+```python
+from time import perf_counter
+from os import system
+t1 = perf_counter(); system('powershell -c "Get-PSDrive" & netstat & systeminfo'); t2 = perf_counter()
+print(f"Execution time : {t2 - t1} s")
+```
+
+Launch `ShellServer` with command line and launch `ShellClient -i=localhost -p=45678` and write: `powershell -c "Get-PSDrive" & netstat & systeminfo`.
+
+Compare execution time.
+
+## Links
+ - [AsyncRemoteShell Github Page](https://github.com/mauricelambert/AsyncRemoteShell)
+ - [ReverseShellServer Documentation](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell/ReverseShellServer.html)
+ - [ReverseShellClient Documentation](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell/ReverseShellClient.html)
+ - [ShellServer Documentation](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell/ShellServer.html)
+ - [ShellClient Documentation](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell/ShellClient.html)
+ - [commons Documentation](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell/commons.html)
+ - [Download as python executable](https://mauricelambert.github.io/info/python/security/AsyncRemoteShell.pyz)
+ - [Pypi package](https://pypi.org/project/AsyncRemoteShell/)
+
+## Licence
+Licensed under the [GPL, version 3](https://www.gnu.org/licenses/).
