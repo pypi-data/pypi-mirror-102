@@ -1,0 +1,16 @@
+baguette/__init__.py,sha256=gBykFhKfUaIWF2flFo1Wgo0NgTk9OW3eU3G0JCYZjTM,451
+baguette/app.py,sha256=D327oeIUQCOVdbVlgrlKrfCb83GpmXZny-kHxC1Nlo0,4546
+baguette/headers.py,sha256=n22mECYU68r83qqAAopmn6M-XoDIWQooFqDc6Bts6ao,2118
+baguette/httpexceptions.py,sha256=_ecXzjSidYCLngz_XCiTW1cI0TqCBWc5XpKSmP-LQsk,27314
+baguette/request.py,sha256=J-9kwmas_zKcKJnJEI03MenSA6PJXWTzuKTIy5orcNw,1706
+baguette/response.py,sha256=UlTYer-wuJntiHIdOHH-uYyCmFWD-ZqiUD2nSpfRe1Q,1995
+baguette/router.py,sha256=U0DYC2PfLEjHaJ26NZhDBbLZQbuTva690cMAQa6MFVg,1134
+baguette/testing.py,sha256=FPsF44-yyZnJ1iuR_QEWuKeu2FQNceCOmxPRHQW-U6w,4392
+baguette/types.py,sha256=fms5hmq_k7jIJgPwuUAKoVBeMXJXLfGIlYac0HGBQqA,733
+baguette/utils.py,sha256=nIzYoN46Dja6vXKW2cjZDb2nzBVHmc1lQ9NKCbWluIA,398
+baguette/view.py,sha256=twDjB5h_mLnXTyT84c4fI-qvOQ9WUs3hY9UNR9KG4oU,816
+baguette-0.0.3.dist-info/LICENSE,sha256=eSKNxitgI8YanXQfzAfWVHtY4bdV4sw-7z-TQoRa-B8,1062
+baguette-0.0.3.dist-info/METADATA,sha256=EZzCrMqzN-tTpjDV7I3vbLKQvkP5Fykl6r4qVBZUh7k,3983
+baguette-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+baguette-0.0.3.dist-info/top_level.txt,sha256=Yj7eA9qLaXvsJKjj__4FYGzbWR5EIYt4tcApEReEFrQ,9
+baguette-0.0.3.dist-info/RECORD,,
