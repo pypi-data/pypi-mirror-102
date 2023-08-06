@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: marshmallow_mongoengine_query_schema
+Version: 1.1
+Summary: Marshmallow schema for generating mongoengine filters in url query.
+Home-page: https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema
+Author: Damian Komorowski
+Author-email: verdequar@gmail.com
+License: MIT
+Download-URL: https://github.com/VerdeQuar/marshmallow_mongoengine_query_schema/archive/refs/tags/v1.1.tar.gz
+Description: UNKNOWN
+Keywords: mongoengine,marshmallow,schema
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
