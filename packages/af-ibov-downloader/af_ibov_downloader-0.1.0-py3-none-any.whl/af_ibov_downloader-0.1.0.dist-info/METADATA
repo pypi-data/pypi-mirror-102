@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: af-ibov-downloader
+Version: 0.1.0
+Summary: A CLI tool to download market data from ibovespa
+Home-page: https://af-ibov-downloader.readthedocs.io/en/latest/
+License: MIT
+Author: Leonardo Rossetti
+Author-email: me@lrossetti.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://gitlab.com/aerofin/tooling/af-ibov-downloader
+Description-Content-Type: text/markdown
+
+# Aerfin Ibov Downloaders
+
+A CLI that downloads archives from the ibovespa website.
+
+## Requirements
+
+* python >= 3.6
+* asyncio
+* typing (type hints)
+
+## Installation
+
+Intalling from gitlab:
+
+```bash
+pip install -u git+https://gitlab.com/aerofin/tooling/af-ibov-downloader.git@master
+```
+
+Installing from pypi:
+
+```bash
+pip install -u af-ibov-downloader
+```
+
+## Usage
+
+Once installed, the CLi will be available as `af-ibov-downloader`.
+
+Run `af-ibov-downloader --help` for commands or check the [docs website](https://af-ibov-archive.readthedocs.org).
+
+## Development
+
+A `Makefile` is provided for common tasks, such as running tests.
+
+The project uses poetry ad "project tooling" but `requirements` files for both prod and dev are provided for convenience.
+
+A `setup.py` file is generated using `dephell`.
+
+Tests are based on `pytest` but they can be used by running `make test`.
+
+The project also depends on `mypy` in strict mode which is used before running the actual tests.
+
+## License
+
+MIT
+

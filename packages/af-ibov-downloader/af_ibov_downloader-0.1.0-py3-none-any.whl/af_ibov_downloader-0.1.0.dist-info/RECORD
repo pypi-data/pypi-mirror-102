@@ -1,0 +1,12 @@
+af_ibov_downloader/__init__.py,sha256=58behJ19XmdkeUN4fnqELGx6ELJ99wVRsquOCbHtiwc,54
+af_ibov_downloader/archive.py,sha256=bPAs2xqSeKoz-4VG7U5GWjr8Kx_nKvdG0n7Vg6RuUVk,1477
+af_ibov_downloader/cli.py,sha256=BEx6hN7RgKDBbhKC9d3mgXyq6Fp1-o_D-6DroM3lwzs,1826
+af_ibov_downloader/download.py,sha256=__EfZZ9O04q1OLnBDf8eZqz_gbcyVgf9pg60UJt4tU8,1503
+af_ibov_downloader/errors.py,sha256=X6HVFwU0ciKPnLI8NKYInueHHPlQFS_noTfB9xOngjk,670
+af_ibov_downloader/handlers.py,sha256=3yDOwQiNXBbUL28CGNy46OvSZBGnpejslzv1GYxPigk,1596
+af_ibov_downloader/version.py,sha256=pDl9RlXm-DR0K8ZPeu9vodA1SBwZMK0lvTskw3eadOY,136
+af_ibov_downloader-0.1.0.dist-info/entry_points.txt,sha256=DY0NLh236e3YRNWevHmkEkDHAJ1_m29i-RGr7tXfyfw,66
+af_ibov_downloader-0.1.0.dist-info/LICENSE.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+af_ibov_downloader-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+af_ibov_downloader-0.1.0.dist-info/METADATA,sha256=mfeZ_lrPSWKSFKtLlrUVWZv2BRtO_CHOe_f-w5RAn_I,1590
+af_ibov_downloader-0.1.0.dist-info/RECORD,,
