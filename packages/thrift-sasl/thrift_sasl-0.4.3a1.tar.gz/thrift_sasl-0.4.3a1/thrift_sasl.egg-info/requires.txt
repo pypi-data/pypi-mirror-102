@@ -1,0 +1,13 @@
+six>=1.13.0
+
+[:python_version < "3.0"]
+thrift>=0.9.3
+
+[:python_version >= "3.0"]
+thrift>=0.10.0
+
+[:sys_platform != "win32" and sys_platform != "cygwin"]
+sasl>=0.3a1
+
+[:sys_platform == "win32" or sys_platform == "cygwin"]
+pure-sasl>=0.3.0
