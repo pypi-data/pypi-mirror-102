@@ -1,0 +1,101 @@
+def get_{{ contract_name }}_analytics(
+        universe,
+        fields=None,
+        pricing_params=None,
+        outputs=None,
+        on_response=None,
+        closure=None,
+        session=None
+):
+    result = FinancialContracts.get_{{ contract_name }}_analytics(
+        universe=universe,
+        fields=fields,
+        pricing_params=pricing_params,
+        outputs=outputs,
+        on_response=on_response,
+        closure=closure,
+        session=session
+    )
+
+    if result.is_success and result.data and result.data.df is not None:
+        retval = result.data.df
+    else:
+        ContentFactory._last_error_status = result.status
+        retval = None
+
+    ContentFactory._last_result = result
+
+    return retval
+
+
+
+
+
+
+
+    @staticmethod
+    def get_{{ contract_name }}_analytics(
+            universe,
+            fields=None,
+            pricing_params=None,
+            outputs=None,
+            on_response=None,
+            closure=None,
+            session=None
+    ):
+        universe = FinancialContracts._check_{{ contract_name }}_universe(universe)
+        _ipa = FinancialContracts(session=session, on_response=on_response)
+        result = _ipa.get_instrument_analytics(
+            universe=universe,
+            fields=fields,
+            pricing_params=pricing_params,
+            outputs=outputs,
+            closure=closure
+        )
+        return result
+
+    @staticmethod
+    async def get_{{ contract_name }}_analytics_async(
+            universe,
+            fields=None,
+            pricing_params=None,
+            outputs=None,
+            on_response=None,
+            closure=None,
+            session=None
+    ):
+        universe = FinancialContracts._check_{{ contract_name }}_universe(universe)
+        _ipa = FinancialContracts(session=session, on_response=on_response)
+        result = await _ipa._get_instrument_analytics_async(
+            universe=universe,
+            fields=fields,
+            pricing_params=pricing_params,
+            outputs=outputs,
+            closure=closure
+        )
+        return result
+
+
+
+
+
+
+    @staticmethod
+    def _check_{{ contract_name }}_universe(universe):
+        from refinitiv.dataplatform.content.ipa.contracts.{{ contract_name }} import Definition
+        from refinitiv.dataplatform.content.ipa.contracts.{{ contract_name }} import PricingParams
+
+        if not isinstance(universe, list):
+            universe = [universe]
+
+        universe = [Definition(instrument_tag=item) if isinstance(item, str) else item
+                    for item in universe]
+
+        if not all(isinstance({{ contract_name }}, Definition)
+                   or (type({{ contract_name }}) == tuple
+                       and len({{ contract_name }}) == 2
+                       and isinstance({{ contract_name }}[0], Definition)
+                       and isinstance({{ contract_name }}[1], PricingParams))
+                   for {{ contract_name }} in universe):
+            raise ValueError("All universe instruments must be {{ contract_name }} Definition")
+        return universe

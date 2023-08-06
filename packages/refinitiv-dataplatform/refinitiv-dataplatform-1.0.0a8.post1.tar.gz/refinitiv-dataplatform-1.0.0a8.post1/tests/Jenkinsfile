@@ -1,0 +1,138 @@
+pipeline {
+
+    environment {
+        TEST_AGENT = "EAPI-testagent-${JOB_BASE_NAME}-py"
+
+        NPM_AUTH = credentials('npm_auth')
+        NPM_EMAIL = credentials('npm_email')
+        GIT_CI_CREDENTIALS = credentials('git_ci_credentials')
+
+        DOCKER_NETWORK_NAME = "ealp-${UUID.randomUUID().toString()}-py"
+        DOCKER_EIKON = "ealp-eikon-${UUID.randomUUID().toString()}-py"
+
+        PROXY_UNIT_DOCKER_ID = "unit-tests-ealj-node10-${UUID.randomUUID().toString()}-py"
+
+        EDP_USERNAME = credentials('RDP_LOGIN-1855')
+        EDP_PASSWORD = credentials('RDP_PASSWORD-1855')
+        DESKTOP_APP_KEY = credentials('APP_KEY-1855')
+    }
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+        // MS Teams Notification
+        office365ConnectorWebhooks([[
+            name: 'Jenkins ' + env.JOB_NAME,
+            url: env.TEAMS_WEBHOOK_URL,
+            startNotification: true,
+            notifySuccess: true,
+            notifyAborted: true,
+            notifyNotBuilt: true,
+            notifyUnstable: true,
+            notifyFailure: true,
+            notifyBackToNormal: true,
+            notifyRepeatedFailure: true,
+            timeout: 30000
+        ]])
+    }
+
+    agent {label 'slave3'}
+
+    stages {
+
+        stage('Update related projects') {
+            steps {
+                script {
+                    docker.withRegistry('https://bams-aws.refinitiv.com:5001/', 'DOCKER_BAMS_CREDENTIALS') {
+                        def eikonDocker = docker.image('ramen-team/at-eikon-5-api-proxy:0.12')
+
+                        eikonDocker.pull()
+                    }
+                    dir('jenkins_build') {
+                        // clone scripting proxy core
+                        sh 'test -e "ScriptingProxyCore" || git clone https://${GIT_CI_CREDENTIALS}@git.sami.int.thomsonreuters.com/DAPI-Proxy/ScriptingProxyCore.git'
+
+                        dir('ScriptingProxyCore') {
+                            sh 'git reset --hard && git clean -f -d'
+                            sh 'git pull https://${GIT_CI_CREDENTIALS}@git.sami.int.thomsonreuters.com/DAPI-Proxy/ScriptingProxyCore develop'
+
+                            docker.image("node:12.14.0").inside("--name ${PROXY_UNIT_DOCKER_ID} -u 0") {
+                                sh "echo strict-ssl=true > .npmrc"
+                                sh "echo registry=https://bams-aws.refinitiv.com/artifactory/api/npm/default.npm.global >> .npmrc"
+                                sh "echo _auth=${NPM_AUTH} >> .npmrc"
+                                sh "echo email=${NPM_EMAIL} >> .npmrc"
+
+                                // sh 'npm update'
+                                sh 'npm i'
+                                sh 'npm run clean && npm run fix && npm run build'
+
+                                dir('build') {
+                                    sh 'npm pack > pack.txt'
+                                    sh 'cp "$(cat pack.txt | tail -1)" latest.tgz'
+
+                                    // Api proxy to be injected into eikon 5 container
+                                    env.PACKAGE_PATH = sh (
+                                        script: 'pwd',
+                                        returnStdout: true
+                                    ).trim()
+                                }
+
+                                sh 'rm -rf .npmrc'
+                            }
+                        }
+
+                        sh "docker network create ${DOCKER_NETWORK_NAME}"
+                        sh '''
+                            docker run \
+                            --net ${DOCKER_NETWORK_NAME} \
+                            -d \
+                            --name ${DOCKER_EIKON} \
+                            -w $WORKSPACE \
+                            -v "$WORKSPACE":"$WORKSPACE":rw,z \
+                            -e "NPM_AUTH=${NPM_AUTH}" \
+                            -e "NPM_EMAIL=${NPM_EMAIL}" \
+                            -e "PASSWORD=E1kon_P@ssword" \
+                            -e "USERNAME=test.user12@refinitiv.com" \
+                            -e "PROXY_SOURCE=${PACKAGE_PATH}/latest.tgz" \
+                            bams-aws.refinitiv.com:5001/ramen-team/at-eikon-5-api-proxy:0.12
+                        '''
+                    }
+                }
+            }
+        }
+
+        stage('Run Unit, Integration, BDD tests') {
+            steps {
+                script {
+                    docker.image("python:${PY_VER}").inside("--name ${TEST_AGENT} --net ${DOCKER_NETWORK_NAME} -v /var/run/docker.sock:/var/run/docker.sock -u 0") {
+                        sh 'apt-get update'
+                        sh 'apt-get -y install socat'
+                        sh 'nohup socat TCP4-LISTEN:9000,fork "TCP4:${DOCKER_EIKON}:9001" &'
+                        sh 'pip3 install --user tox'
+                        dir('dataplatform_project/') {
+                            sh 'rm *.log || true'
+                            sh 'python3 -m tox -e tests-nix'
+                            sh 'chmod -R o+rw ./allure-results'
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            sh "sudo chmod -R a+rwx ${WORKSPACE}"
+            sh "docker rm -vf ${DOCKER_EIKON} || true"
+            sh "docker network rm ${DOCKER_NETWORK_NAME} || true"
+
+            allure([
+                includeProperties: false,
+                jdk: '',
+                properties: [],
+                reportBuildPolicy: 'ALWAYS',
+                results: [[path: 'dataplatform_project/allure-results/']],
+                report: 'dataplatform_project/allure-report/'
+            ])
+        }
+    }
+}

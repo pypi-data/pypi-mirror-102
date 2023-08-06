@@ -1,0 +1,91 @@
+{
+  "happy_path": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    "request_response": {
+      "Fields": {
+        "ACVOL_1": 8719016,
+        "ADJUST_CLS": 392.8,
+        "ASK": 9000,
+        "ASKSIZE": 1,
+        "BID": 0.01,
+        "BIDSIZE": 1
+      },
+      "ID": "",
+      "Key": {
+        "Name": "",
+        "Service": ""
+      },
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "All is well"
+      },
+      "Type": "Refresh"
+    },
+    "update_message": {
+      "Fields": {
+        "ACVOL_1": 8719016,
+        "ADJUST_CLS": 392.8,
+        "ASK": 9000,
+        "ASKSIZE": 1,
+        "BID": 0.01,
+        "BIDSIZE": 1
+      },
+      "ID": "",
+      "Key": {
+        "Name": "",
+        "Service": ""
+      },
+      "Type": "Update",
+      "UpdateType": "Quote"
+    }
+  },
+  "login_rejected": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Stream": "Closed",
+        "Data": "Suspect",
+        "Code": "UserAccessToAppDenied",
+        "Text": "TREP authentication failed (1026, Request for token validation failed:Authentication server did not contain active in response)."
+      },
+      "Type": "Status"
+    }
+  },
+  "wrong_item": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    "request_response": {
+      "ID": "",
+      "Type": "Status",
+      "Key": {
+        "Service": "",
+        "Name": ""
+      },
+      "State": {
+        "Stream": "Closed",
+        "Data": "Suspect",
+        "Code": "NotFound",
+        "Text": "*The record could not be found"
+      }
+    }
+  }
+}

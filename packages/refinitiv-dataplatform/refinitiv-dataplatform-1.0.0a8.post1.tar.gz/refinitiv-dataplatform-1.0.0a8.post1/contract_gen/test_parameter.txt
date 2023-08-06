@@ -1,0 +1,1850 @@
+# test_bond_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bond_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": BondDefinition,
+        "pricing_parameters": BondPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_bond_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bond_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "instrument_code": "instrument_code",
+        "end_date": "end_date",
+        "direction": Direction,
+        "interest_type": InterestType,
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 7.7,
+        "fixed_rate_percent": 8.8,
+        "spread_bp": 9.9,
+        "interest_payment_frequency": Frequency,
+        "interest_calculation_method": DayCountBasis,
+        "accrued_calculation_method": DayCountBasis,
+        "payment_business_day_convention": Convention,
+        "payment_roll_convention": PaymentRollConvention,
+        "index_reset_frequency": Frequency,
+        "index_fixing_lag": 16,
+        "first_regular_payment_date": "first_regular_payment_date",
+        "last_regular_payment_date": "last_regular_payment_date",
+        "amortization_schedule": AmortizationItem,
+        "payment_business_days": "payment_business_days",
+        "adjust_interest_to_payment_date": AdjustInterestToPaymentDate,
+        "index_compounding_method": IndexCompoundingMethod,
+        "interest_payment_delay": 23,
+        "stub_rule": StubRule,
+        "issue_date": "issue_date",
+        "first_accrual_date": "first_accrual_date",
+        "index_fixing_ric": "index_fixing_ric",
+        "is_perpetual": bool,
+        "template": "template",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_amortization_item.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_amortization_item():
+    kwargs = {
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "amortization_frequency": AmortizationFrequency,
+        "amortization_type": AmortizationType,
+        "remaining_notional": 5.5,
+        "amount": 6.6,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_bond_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bond_pricing_parameters():
+    kwargs = {
+        "trade_date": "trade_date",
+        "benchmark_yield_selection_mode": BenchmarkYieldSelectionMode,
+        "fx_price_side": PriceSide,
+        "price_side": PriceSide,
+        "projected_index_calculation_method": ProjectedIndexCalculationMethod,
+        "quote_fallback_logic": QuoteFallbackLogic,
+        "redemption_date_type": RedemptionDateType,
+        "rounding_parameters": BondRoundingParameters,
+        "yield_type": YieldType,
+        "adjusted_clean_price": 10.10,
+        "adjusted_dirty_price": 11.11,
+        "adjusted_yield_percent": 12.12,
+        "apply_tax_to_full_pricing": bool,
+        "asset_swap_spread_bp": 14.14,
+        "benchmark_at_issue_price": 15.15,
+        "benchmark_at_issue_ric": "benchmark_at_issue_ric",
+        "benchmark_at_issue_spread_bp": 17.17,
+        "benchmark_at_issue_yield_percent": 18.18,
+        "benchmark_at_redemption_price": 19.19,
+        "benchmark_at_redemption_spread_bp": 20.20,
+        "benchmark_at_redemption_yield_percent": 21.21,
+        "cash_amount": 22.22,
+        "clean_price": 23.23,
+        "concession_fee": 24.24,
+        "current_yield_percent": 25.25,
+        "dirty_price": 26.26,
+        "discount_margin_bp": 27.27,
+        "discount_percent": 28.28,
+        "edsf_benchmark_curve_yield_percent": 29.29,
+        "edsf_spread_bp": 30.30,
+        "efp_benchmark_price": 31.31,
+        "efp_benchmark_ric": "efp_benchmark_ric",
+        "efp_benchmark_yield_percent": 33.33,
+        "efp_spread_bp": 34.34,
+        "gov_country_benchmark_curve_price": 35.35,
+        "gov_country_benchmark_curve_yield_percent": 36.36,
+        "gov_country_spread_bp": 37.37,
+        "government_benchmark_curve_price": 38.38,
+        "government_benchmark_curve_yield_percent": 39.39,
+        "government_spread_bp": 40.40,
+        "issuer_benchmark_curve_yield_percent": 41.41,
+        "issuer_spread_bp": 42.42,
+        "market_value_in_deal_ccy": 43.43,
+        "market_value_in_report_ccy": 44.44,
+        "net_price": 45.45,
+        "neutral_yield_percent": 46.46,
+        "ois_zc_benchmark_curve_yield_percent": 47.47,
+        "ois_zc_spread_bp": 48.48,
+        "option_adjusted_spread_bp": 49.49,
+        "price": 50.50,
+        "quoted_price": 51.51,
+        "rating_benchmark_curve_yield_percent": 52.52,
+        "rating_spread_bp": 53.53,
+        "redemption_date": "redemption_date",
+        "sector_rating_benchmark_curve_yield_percent": 55.55,
+        "sector_rating_spread_bp": 56.56,
+        "settlement_convention": "settlement_convention",
+        "simple_margin_bp": 58.58,
+        "strip_yield_percent": 59.59,
+        "swap_benchmark_curve_yield_percent": 60.60,
+        "swap_spread_bp": 61.61,
+        "tax_on_capital_gain_percent": 62.62,
+        "tax_on_coupon_percent": 63.63,
+        "tax_on_price_percent": 64.64,
+        "tax_on_yield_percent": 65.65,
+        "use_settlement_date_from_quote": bool,
+        "user_defined_benchmark_price": 67.67,
+        "user_defined_benchmark_yield_percent": 68.68,
+        "user_defined_spread_bp": 69.69,
+        "valuation_date": "valuation_date",
+        "yield_percent": 71.71,
+        "z_spread_bp": 72.72,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_bond_rounding_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bond_rounding_parameters():
+    kwargs = {
+        "accrued_rounding": Rounding,
+        "accrued_rounding_type": RoundingType,
+        "price_rounding": Rounding,
+        "price_rounding_type": RoundingType,
+        "spread_rounding": Rounding,
+        "spread_rounding_type": RoundingType,
+        "yield_rounding": Rounding,
+        "yield_rounding_type": RoundingType,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cap_floor_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cap_floor_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": CapFloorDefinition,
+        "pricing_parameters": CapFloorPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cap_floor_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cap_floor_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 6.6,
+        "index_name": "index_name",
+        "index_tenor": "index_tenor",
+        "interest_payment_frequency": Frequency,
+        "interest_calculation_method": DayCountBasis,
+        "payment_business_day_convention": Convention,
+        "payment_roll_convention": PaymentRollConvention,
+        "index_reset_frequency": Frequency,
+        "index_reset_type": IndexResetType,
+        "index_fixing_lag": 15,
+        "amortization_schedule": AmortizationItem,
+        "adjust_interest_to_payment_date": AdjustInterestToPaymentDate,
+        "stub_rule": StubRule,
+        "buy_sell": BuySell,
+        "cap_strike_percent": 20.20,
+        "floor_strike_percent": 21.21,
+        "index_fixing_ric": "index_fixing_ric",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cap_floor_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cap_floor_pricing_parameters():
+    kwargs = {
+        "index_convexity_adjustment_integration_method": IndexConvexityAdjustmentIntegrationMethod,
+        "index_convexity_adjustment_method": IndexConvexityAdjustmentMethod,
+        "market_value_in_deal_ccy": 3.3,
+        "report_ccy": "report_ccy",
+        "skip_first_cap_floorlet": bool,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cds_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cds_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": CdsDefinition,
+        "pricing_parameters": CdsPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cds_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cds_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "instrument_code": "instrument_code",
+        "cds_convention": CdsConvention,
+        "trade_date": "trade_date",
+        "step_in_date": "step_in_date",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "start_date_moving_convention": Convention,
+        "end_date_moving_convention": Convention,
+        "adjust_to_isda_end_date": bool,
+        "protection_leg": ProtectionLegDefinition,
+        "premium_leg": PremiumLegDefinition,
+        "accrued_begin_date": "accrued_begin_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_premium_leg_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_premium_leg_definition():
+    kwargs = {
+        "direction": Direction,
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 3.3,
+        "fixed_rate_percent": 4.4,
+        "interest_payment_frequency": Frequency,
+        "interest_calculation_method": DayCountBasis,
+        "accrued_calculation_method": DayCountBasis,
+        "payment_business_day_convention": Convention,
+        "first_regular_payment_date": "first_regular_payment_date",
+        "last_regular_payment_date": "last_regular_payment_date",
+        "payment_business_days": "payment_business_days",
+        "stub_rule": StubRule,
+        "accrued_paid_on_default": bool,
+        "interest_payment_ccy": "interest_payment_ccy",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_protection_leg_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_protection_leg_definition():
+    kwargs = {
+        "direction": Direction,
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 3.3,
+        "doc_clause": DocClause,
+        "seniority": Seniority,
+        "index_factor": 6.6,
+        "index_series": 7,
+        "recovery_rate": 8.8,
+        "recovery_rate_percent": 9.9,
+        "reference_entity": "reference_entity",
+        "settlement_convention": "settlement_convention",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cds_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cds_pricing_parameters():
+    kwargs = {
+        "cash_amount_in_deal_ccy": 1.1,
+        "clean_price_percent": 2.2,
+        "conventional_spread_bp": 3.3,
+        "upfront_amount_in_deal_ccy": 4.4,
+        "upfront_percent": 5.5,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "instrument_code": "instrument_code",
+        "end_date": "end_date",
+        "asian_definition": EtiOptionFixingInfo,
+        "barrier_definition": EtiOptionBarrierDefinition,
+        "binary_definition": EtiOptionBinaryDefinition,
+        "buy_sell": BuySell,
+        "call_put": CallPut,
+        "cbbc_definition": EtiOptionCBBCDefinition,
+        "double_barriers_definition": EtiOptionDoubleBarriersDefinition,
+        "exercise_style": ExerciseStyle,
+        "underlying_definition": EtiUnderlyingDefinition,
+        "underlying_type": UnderlyingType,
+        "deal_contract": 14,
+        "lot_size": 15.15,
+        "strike": 16.16,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_fixing_info.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_fixing_info():
+    kwargs = {
+        "average_type": AverageType,
+        "fixing_frequency": FixingFrequency,
+        "average_so_far": 3.3,
+        "fixing_calendar": "fixing_calendar",
+        "fixing_end_date": "fixing_end_date",
+        "fixing_start_date": "fixing_start_date",
+        "include_holidays": bool,
+        "include_week_ends": bool,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_barrier_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_barrier_definition():
+    kwargs = {
+        "barrier_style": BarrierStyle,
+        "in_or_out": InOrOut,
+        "up_or_down": UpOrDown,
+        "level": 4.4,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_binary_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_binary_definition():
+    kwargs = {
+        "notional_amount": 1.1,
+        "binary_type": BinaryType,
+        "up_or_down": UpOrDown,
+        "level": 4.4,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_cbbc_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_cbbc_definition():
+    kwargs = {
+        "conversion_ratio": 1.1,
+        "level": 2.2,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_option_double_barriers_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_option_double_barriers_definition():
+    kwargs = {
+        "barriers_definition": EtiOptionBarrierDefinition,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_eti_underlying_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_eti_underlying_definition():
+    kwargs = {
+        "instrument_code": "instrument_code",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_financial_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_financial_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_cross_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_cross_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": FxCrossDefinition,
+        "pricing_parameters": FxCrossPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_cross_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_cross_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "legs": FxCrossLegDefinition,
+        "fx_cross_type": FxCrossType,
+        "fx_cross_code": "fx_cross_code",
+        "ndf_fixing_settlement_ccy": "ndf_fixing_settlement_ccy",
+        "reference_spot_rate": 6.6,
+        "traded_cross_rate": 7.7,
+        "traded_swap_points": 8.8,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_cross_leg_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_cross_leg_definition():
+    kwargs = {
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "leg_tag": "leg_tag",
+        "deal_ccy_buy_sell": BuySell,
+        "fx_leg_type": FxLegType,
+        "contra_amount": 7.7,
+        "contra_ccy": "contra_ccy",
+        "deal_amount": 9.9,
+        "deal_ccy": "deal_ccy",
+        "start_tenor": "start_tenor",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_cross_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_cross_pricing_parameters():
+    kwargs = {
+        "deposit_ccy1": FxPoint,
+        "deposit_ccy2": FxPoint,
+        "fx_swap_calculation_method": FxSwapCalculationMethod,
+        "fx_swaps_ccy1": FxPoint,
+        "fx_swaps_ccy2": FxPoint,
+        "price_side": PriceSide,
+        "user_turn_dates": string,
+        "calc_end_from_fwd_start": bool,
+        "calc_end_from_pre_spot_start": bool,
+        "ignore_ref_ccy_holidays": bool,
+        "ignore_usd_holidays": bool,
+        "one_day_values": "one_day_values",
+        "roll_over_time_policy": "roll_over_time_policy",
+        "spread_margin_in_bp": 14.14,
+        "turns_calibration": "turns_calibration",
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_point.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_point():
+    kwargs = {
+        "bid": 1.1,
+        "ask": 2.2,
+        "mid": 3.3,
+        "status": Status,
+        "instrument": "instrument",
+        "processing_information": "processing_information",
+        "spot_decimals": "spot_decimals",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 5.5,
+        "asian_definition": FxOptionAverageInfo,
+        "barrier_definition": FxOptionBarrierDefinition,
+        "binary_definition": FxOptionBinaryDefinition,
+        "buy_sell": BuySell,
+        "call_put": CallPut,
+        "double_barrier_definition": FxOptionDoubleBarrierDefinition,
+        "double_binary_definition": FxOptionDoubleBinaryDefinition,
+        "dual_currency_definition": FxDualCurrencyDefinition,
+        "exercise_style": ExerciseStyle,
+        "forward_start_definition": FxOptionForwardStart,
+        "underlying_definition": FxUnderlyingDefinition,
+        "underlying_type": UnderlyingType,
+        "delivery_date": "delivery_date",
+        "strike": 19.19,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_average_info.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_average_info():
+    kwargs = {
+        "average_type": AverageType,
+        "fixing_frequency": FixingFrequency,
+        "average_so_far": 3.3,
+        "fixing_ric_source": "fixing_ric_source",
+        "fixing_start_date": "fixing_start_date",
+        "include_holidays": bool,
+        "include_week_ends": bool,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_barrier_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_barrier_definition():
+    kwargs = {
+        "barrier_mode": BarrierMode,
+        "in_or_out": InOrOut,
+        "up_or_down": UpOrDown,
+        "level": 4.4,
+        "rebate_amount": 5.5,
+        "window_end_date": "window_end_date",
+        "window_start_date": "window_start_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_binary_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_binary_definition():
+    kwargs = {
+        "binary_type": FxBinaryType,
+        "settlement_type": SettlementType,
+        "payout_amount": 3.3,
+        "payout_ccy": "payout_ccy",
+        "trigger": 5.5,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_double_barrier_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_double_barrier_definition():
+    kwargs = {
+        "barrier_down": FxOptionDoubleBarrierInfo,
+        "barrier_mode": BarrierMode,
+        "barrier_up": FxOptionDoubleBarrierInfo,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_double_barrier_info.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_double_barrier_info():
+    kwargs = {
+        "in_or_out": InOrOut,
+        "level": 2.2,
+        "rebate_amount": 3.3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_double_binary_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_double_binary_definition():
+    kwargs = {
+        "double_binary_type": DoubleBinaryType,
+        "settlement_type": SettlementType,
+        "payout_amount": 3.3,
+        "payout_ccy": "payout_ccy",
+        "trigger_down": 5.5,
+        "trigger_up": 6.6,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_dual_currency_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_dual_currency_definition():
+    kwargs = {
+        "deposit_start_date": "deposit_start_date",
+        "margin_percent": 2.2,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_option_forward_start.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_option_forward_start():
+    kwargs = {
+        "forward_start_date": "forward_start_date",
+        "forward_start_tenor": "forward_start_tenor",
+        "strike_percent": 3.3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_fx_underlying_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_fx_underlying_definition():
+    kwargs = {
+        "fx_cross_code": "fx_cross_code",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_option_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_option_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": OptionDefinition,
+        "pricing_parameters": OptionPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_option_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_option_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "end_date": "end_date",
+        "buy_sell": BuySell,
+        "call_put": CallPut,
+        "exercise_style": ExerciseStyle,
+        "underlying_type": UnderlyingType,
+        "strike": 7.7,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_option_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_option_pricing_parameters():
+    kwargs = {
+        "atm_volatility_object": BidAskMid,
+        "butterfly10_d_object": BidAskMid,
+        "butterfly25_d_object": BidAskMid,
+        "domestic_deposit_rate_percent_object": BidAskMid,
+        "foreign_deposit_rate_percent_object": BidAskMid,
+        "forward_points_object": BidAskMid,
+        "fx_spot_object": BidAskMid,
+        "fx_swap_calculation_method": FxSwapCalculationMethod,
+        "implied_volatility_object": BidAskMid,
+        "interpolation_weight": InterpolationWeight,
+        "option_price_side": PriceSide,
+        "option_time_stamp": TimeStamp,
+        "payout_custom_dates": string,
+        "payout_scaling_interval": PayoutScaling,
+        "price_side": PriceSide,
+        "pricing_model_type": PricingModelType,
+        "risk_reversal10_d_object": BidAskMid,
+        "risk_reversal25_d_object": BidAskMid,
+        "underlying_price_side": PriceSide,
+        "underlying_time_stamp": TimeStamp,
+        "volatility_model": VolatilityModel,
+        "volatility_type": VolatilityType,
+        "compute_payout_chart": bool,
+        "compute_volatility_payout": bool,
+        "cutoff_time": "cutoff_time",
+        "cutoff_time_zone": "cutoff_time_zone",
+        "market_value_in_deal_ccy": 27.27,
+        "report_ccy_rate": 28.28,
+        "risk_free_rate_percent": 29.29,
+        "underlying_price": 30.30,
+        "valuation_date": "valuation_date",
+        "volatility_percent": 32.32,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_bid_ask_mid.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bid_ask_mid():
+    kwargs = {
+        "bid": 1.1,
+        "ask": 2.2,
+        "mid": 3.3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_interpolation_weight.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_interpolation_weight():
+    kwargs = {
+        "days_list": DayWeight,
+        "holidays": 2.2,
+        "week_days": 3.3,
+        "week_ends": 4.4,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_day_weight.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_day_weight():
+    kwargs = {
+        "date": "date",
+        "weight": 2.2,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_payout_scaling.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_payout_scaling():
+    kwargs = {
+        "maximum": 1.1,
+        "minimum": 2.2,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": RepoDefinition,
+        "pricing_parameters": RepoPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "day_count_basis": DayCountBasis,
+        "underlying_instruments": RepoUnderlyingContract,
+        "is_coupon_exchanged": bool,
+        "repo_rate_percent": 8.8,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_underlying_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_underlying_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": BondDefinition,
+        "pricing_parameters": RepoUnderlyingPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_underlying_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_underlying_pricing_parameters():
+    kwargs = {
+        "pricing_parameters_at_end": BondPricingParameters,
+        "pricing_parameters_at_start": BondPricingParameters,
+        "repo_parameters": RepoParameters,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_parameters():
+    kwargs = {
+        "coupon_paid_at_horizon": bool,
+        "haircut_rate_percent": 2.2,
+        "initial_margin_percent": 3.3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_repo_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_repo_pricing_parameters():
+    kwargs = {
+        "repo_curve_type": RepoCurveType,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_reverse_convertible_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_reverse_convertible_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": ReverseConvertibleInstrumentDefinition,
+        "pricing_parameters": ReverseConvertiblePricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_reverse_convertible_instrument_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_reverse_convertible_instrument_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "notional_amount": 4.4,
+        "interest_payment_frequency": Frequency,
+        "underlyings": BasketItem,
+        "coupon_rate_percent": 7.7,
+        "currency": "currency",
+        "floor_price_percent": 9.9,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_basket_item.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_basket_item():
+    kwargs = {
+        "instrument_code": "instrument_code",
+        "currency": "currency",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_reverse_convertible_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_reverse_convertible_pricing_parameters():
+    kwargs = {
+        "cross_asset": CrossAsset,
+        "dupire_model": EquityDupireModel,
+        "funding_spread_method": FundingSpreadMethod,
+        "numeraire_type": NumeraireType,
+        "numerical_method": NumericalMethod,
+        "correlation_multiplier": 6.6,
+        "discount_curve": "discount_curve",
+        "discount_curve_foreign": "discount_curve_foreign",
+        "force_decreasing_discount_factor": bool,
+        "funding_spread_in_bp": 10.10,
+        "include_cash_flows_at_valuation_date": bool,
+        "reference_coefficient": 12.12,
+        "use_basis_swap": bool,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_cross_asset.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_cross_asset():
+    kwargs = {
+        "funding_spread_method": FundingSpreadMethod,
+        "numeraire_type": NumeraireType,
+        "c_fs_at_pricing_date": bool,
+        "correlation_multiplier": 4.4,
+        "d_f_dsc_construction": "d_f_dsc_construction",
+        "discount_curve": "discount_curve",
+        "discount_curve_foreign": "discount_curve_foreign",
+        "force_decreasing_discount_factor": bool,
+        "funding_spread_in_bp": 9.9,
+        "include_cash_flows_at_valuation_date": bool,
+        "reference_coefficient": 11.11,
+        "use_basis_swap": bool,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_equity_dupire_model.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_equity_dupire_model():
+    kwargs = {
+        "dupire_model_parameters": EquityDupireModelParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_equity_dupire_model_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_equity_dupire_model_parameters():
+    kwargs = {
+        "calibration_strategy": CalibrationStrategy,
+        "dividend_extrapolation": DividendExtrapolation,
+        "dividend_type": DividendType,
+        "forward_compute_method": ForwardComputeMethod,
+        "forward_extrapolation": ForwardExtrapolation,
+        "input_forward_type": InputForwardType,
+        "interest_rate": array,
+        "local_volatility_method": LocalVolatilityMethod,
+        "option_type_for_implied_vol_surface": VolType,
+        "volatility_source": VolatilitySource,
+        "adjust_forwards": bool,
+        "apply_most_probable_path": bool,
+        "basis_strike": 13.13,
+        "dividend_end_date": "dividend_end_date",
+        "dividend_growth": 15.15,
+        "dividend_start_date": "dividend_start_date",
+        "forward_growth_coefficient": 17.17,
+        "smooth_dividends": bool,
+        "smooth_vol_surface": bool,
+        "use_dividend": bool,
+        "use_historical_dividend": bool,
+        "volatility_bump": 22.22,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_numerical_method.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_numerical_method():
+    kwargs = {
+        "american_monte_carlo_parameters": AmericanMonteCarloParameters,
+        "method": Method,
+        "pde_parameters": PdeParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_american_monte_carlo_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_american_monte_carlo_parameters():
+    kwargs = {
+        "american_monte_carlo_method": AmericanMonteCarloMethod,
+        "additional_points": 2,
+        "all_the_time_points_per_year": 3,
+        "iteration_number": 4,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_pde_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_pde_parameters():
+    kwargs = {
+        "pde_space_step_number": 1,
+        "pde_standard_deviation": 2,
+        "pde_time_step_number": 3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swap_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swap_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": SwapDefinition,
+        "pricing_parameters": SwapPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swap_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swap_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "instrument_code": "instrument_code",
+        "trade_date": "trade_date",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "legs": SwapLegDefinition,
+        "is_non_deliverable": bool,
+        "settlement_ccy": "settlement_ccy",
+        "template": "template",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swap_leg_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swap_leg_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "leg_tag": "leg_tag",
+        "direction": Direction,
+        "interest_type": InterestType,
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 6.6,
+        "fixed_rate_percent": 7.7,
+        "index_name": "index_name",
+        "index_tenor": "index_tenor",
+        "spread_bp": 10.10,
+        "interest_payment_frequency": Frequency,
+        "interest_calculation_method": DayCountBasis,
+        "accrued_calculation_method": DayCountBasis,
+        "payment_business_day_convention": Convention,
+        "payment_roll_convention": PaymentRollConvention,
+        "index_reset_frequency": Frequency,
+        "index_reset_type": IndexResetType,
+        "index_fixing_lag": 18,
+        "first_regular_payment_date": "first_regular_payment_date",
+        "last_regular_payment_date": "last_regular_payment_date",
+        "amortization_schedule": AmortizationItem,
+        "payment_business_days": "payment_business_days",
+        "notional_exchange": NotionalExchange,
+        "adjust_interest_to_payment_date": AdjustInterestToPaymentDate,
+        "index_compounding_method": IndexCompoundingMethod,
+        "interest_payment_delay": 26,
+        "stub_rule": StubRule,
+        "index_fixing_ric": "index_fixing_ric",
+        "upfront_amount": 29.29,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swap_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swap_pricing_parameters():
+    kwargs = {
+        "index_convexity_adjustment_integration_method": IndexConvexityAdjustmentIntegrationMethod,
+        "index_convexity_adjustment_method": IndexConvexityAdjustmentMethod,
+        "discounting_ccy": "discounting_ccy",
+        "discounting_tenor": "discounting_tenor",
+        "market_value_in_deal_ccy": 5.5,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swaption_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swaption_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": SwaptionDefinition,
+        "pricing_parameters": SwaptionPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swaption_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swaption_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "bermudan_swaption_definition": BermudanSwaptionDefinition,
+        "buy_sell": BuySell,
+        "call_put": CallPut,
+        "exercise_style": ExerciseStyle,
+        "settlement_type": SwaptionSettlementType,
+        "underlying_definition": SwapDefinition,
+        "strike_percent": 10.10,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_bermudan_swaption_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_bermudan_swaption_definition():
+    kwargs = {
+        "exercise_schedule": string,
+        "exercise_schedule_type": ExerciseScheduleType,
+        "notification_days": 3,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swaption_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swaption_pricing_parameters():
+    kwargs = {
+        "market_data_rule": SwaptionMarketDataRule,
+        "market_value_in_deal_ccy": 2.2,
+        "nb_iterations": 3,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_swaption_market_data_rule.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_swaption_market_data_rule():
+    kwargs = {
+        "discount": "discount",
+        "forward": "forward",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_term_deposit_contract.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_term_deposit_contract():
+    kwargs = {
+        "instrument_type": "instrument_type",
+        "instrument_definition": TermDepositDefinition,
+        "pricing_parameters": TermDepositPricingParameters,
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_term_deposit_definition.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_term_deposit_definition():
+    kwargs = {
+        "instrument_tag": "instrument_tag",
+        "instrument_code": "instrument_code",
+        "start_date": "start_date",
+        "end_date": "end_date",
+        "tenor": "tenor",
+        "notional_ccy": "notional_ccy",
+        "notional_amount": 7.7,
+        "fixed_rate_percent": 8.8,
+        "payment_business_day_convention": Convention,
+        "payment_roll_convention": PaymentRollConvention,
+        "year_basis": DayCountBasis,
+        "calendar": "calendar",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+# test_term_deposit_pricing_parameters.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter_term_deposit_pricing_parameters():
+    kwargs = {
+        "price_side": PriceSide,
+        "income_tax_percent": 2.2,
+        "valuation_date": "valuation_date",
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+

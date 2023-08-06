@@ -1,0 +1,25 @@
+document.addEventListener('DOMContentLoaded', function(){
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart_{{ title }});
+});
+
+function drawChart_{{ title }}() {
+  var data = google.visualization.arrayToDataTable({{ array }});
+
+  var view = new google.visualization.DataView(data);
+  view.setColumns([0, 1]);
+
+  var options = {
+    title: "{{ title }}",
+    bar: { groupWidth: "5%" },
+    legend: { position: "none" },
+    vAxis : { minValue: 0}
+  };
+
+  var div = document.createElement('div');
+  div.id = "chart-{{ chart_id }}";
+  document.body.appendChild(div);
+
+  var chart = new google.visualization.ColumnChart(div);
+  chart.draw(view, options);
+}

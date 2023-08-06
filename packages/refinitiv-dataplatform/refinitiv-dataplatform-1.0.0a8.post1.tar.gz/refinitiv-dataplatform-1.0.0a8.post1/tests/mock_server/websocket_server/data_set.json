@@ -1,0 +1,984 @@
+{
+  "streaming_chain": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Elements": {
+        "MaxMsgSize": 61440,
+        "PingTimeout": 30
+      },
+      "Type": "Refresh"
+    },
+    "0#.DJI": {
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 9569,
+          "RDNDISPLAY": 187,
+          "DSPLY_NAME": "DJ INDU AVERAGE",
+          "RDN_EXCHID": "   ",
+          "CURRENCY": "USD",
+          "REF_COUNT": 14,
+          "RECORDTYPE": 120,
+          "LONGLINK1": ".DJI",
+          "LONGLINK2": "AAPL.OQ",
+          "LONGLINK3": "AXP.N",
+          "LONGLINK4": "BA.N",
+          "LONGLINK5": "CAT.N",
+          "LONGLINK6": "CSCO.OQ",
+          "LONGLINK7": "CVX.N",
+          "LONGLINK8": "DIS.N",
+          "LONGLINK9": "DOW.N",
+          "LONGLINK10": "GS.N",
+          "LONGLINK11": "HD.N",
+          "LONGLINK12": "IBM.N",
+          "LONGLINK13": "INTC.OQ",
+          "LONGLINK14": "JNJ.N",
+          "LONGPREVLR": "",
+          "LONGNEXTLR": "1#.DJI",
+          "PREF_LINK": "1#.DJI",
+          "RDN_EXCHD2": "DJI",
+          "CONTEXT_ID": 2883,
+          "DDS_DSO_ID": 8292,
+          "SPS_SP_RIC": ".[SPSCMEIVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "LONGLINK14": "INTC.OQ",
+          "LONGLINK13": "JNJ.N"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "1#.DJI": {
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 9569,
+          "RDNDISPLAY": 187,
+          "DSPLY_NAME": "DJ INDU AVERAGE",
+          "DN_EXCHID": "   ",
+          "CURRENCY": "USD",
+          "REF_COUNT": 14,
+          "RECORDTYPE": 120,
+          "LONGLINK1": "JPM.N",
+          "LONGLINK2": "KO.N",
+          "LONGLINK3": "MCD.N",
+          "LONGLINK4": "MMM.N",
+          "LONGLINK5": "MRK.N",
+          "LONGLINK6": "MSFT.OQ",
+          "LONGLINK7": "NKE.N",
+          "LONGLINK8": "PFE.N",
+          "LONGLINK9": "PG.N",
+          "LONGLINK10": "TRV.N",
+          "LONGLINK11": "UNH.N",
+          "LONGLINK12": "UTX.N",
+          "LONGLINK13": "V.N",
+          "LONGLINK14": "VZ.N",
+          "LONGPREVLR": "0#.DJI",
+          "LONGNEXTLR": "2#.DJI",
+          "PREF_LINK": "2#.DJI",
+          "RDN_EXCHD2": "DJI",
+          "CONTEXT_ID": 2883,
+          "DDS_DSO_ID": 8292,
+          "SPS_SP_RIC": ".[SPSCMEIVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "LONGLINK14": "V.N",
+          "LONGLINK13": "VZ.N"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "2#.DJI": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 9569,
+          "RDNDISPLAY": 187,
+          "DSPLY_NAME": "DJ INDU AVERAGE",
+          "RDN_EXCHID": "   ",
+          "CURRENCY": "USD",
+          "REF_COUNT": 3,
+          "RECORDTYPE": 120,
+          "LONGLINK1": "WBA.OQ",
+          "LONGLINK2": "WMT.N",
+          "LONGLINK3": "XOM.N",
+          "LONGLINK4": "",
+          "LONGLINK5": "",
+          "LONGLINK6": "",
+          "LONGLINK7": "",
+          "LONGLINK8": "",
+          "LONGLINK9": "",
+          "LONGLINK10": "",
+          "LONGLINK11": "",
+          "LONGLINK12": "",
+          "LONGLINK13": "",
+          "LONGLINK14": "",
+          "LONGPREVLR": "1#.DJI",
+          "LONGNEXTLR": "",
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "DJI",
+          "CONTEXT_ID": 2883,
+          "DDS_DSO_ID": 8292,
+          "SPS_SP_RIC": ".[SPSCMEIVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "LONGLINK1": "BK"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_invalid": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    "AD.FTSE": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 44,
+          "RDNDISPLAY": 170,
+          "DSPLY_NAME": "FTSE 100 Index",
+          "RDN_EXCHID": "LSE",
+          "TIMACT": "05:11:19",
+          "ACTIV_DATE": "2020-01-03",
+          "NUM_MOVES": 4,
+          "OFFCL_CODE": "0",
+          "TOT_VOLUME": 8000,
+          "VOLUME_ADV": "",
+          "VOLUME_DEC": "",
+          "VOLUME_UNC": 8000,
+          "ISSUES_ADV": "",
+          "ISSUES_DEC": "",
+          "ISSUES_UNC": 8,
+          "MOVES_ADV": "",
+          "MOVES_DEC": "",
+          "MOVES_UNC": 8,
+          "TURNOVER": 800000,
+          "NEW_LOWS": "",
+          "TOT_ISSUES": 8,
+          "NEW_HIGHS": "",
+          "TOT_MOVES": 8,
+          "RECORDTYPE": 117,
+          "SALTIM": "05:11:19",
+          "OFFC_CODE2": "",
+          "RDN_EXCHD2": "LSE",
+          "MKT_STRN": "",
+          "MKT_WEAK": "",
+          "MKT_VOLT": "",
+          "TIMACT1": "05:11:19",
+          "CONTEXT_ID": 3484,
+          "DDS_DSO_ID": 12385,
+          "SPS_SP_RIC": ".[SPSLSEGTPVAE2",
+          "VOLADV_UNS": "",
+          "VOLDEC_UNS": "",
+          "VOLUNC_UNS": 8000,
+          "TRNOVR_UNS": 0,
+          "ACVOL_UNS": 8000
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_Japan_EQ_32_char_link_field": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    "0#JP-EQ": {
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 3121,
+          "RDNDISPLAY": 230,
+          "DSPLY_NAME": "Equity Japan    ",
+          "RDN_EXCHID": "RCT",
+          "TIMACT": "",
+          "CURRENCY": "   ",
+          "ACTIV_DATE": "",
+          "NUM_MOVES": "",
+          "REF_COUNT": 7,
+          "RECORDTYPE": 40,
+          "ROW80_2": "                                                                                ",
+          "ROW80_3": "                                                                                ",
+          "ROW80_4": "                                                                                ",
+          "ROW80_5": "                                                                                ",
+          "ROW80_6": "                                                                                ",
+          "BCAST_REF": "          ",
+          "BR_LINK1": ".TOPXC",
+          "BR_LINK2": ".TSEI",
+          "BR_LINK3": "0#JP-SECTORS",
+          "BR_LINK4": "0#JP-MKTSTAT",
+          "BR_LINK5": "0#JP-TOP10",
+          "BR_LINK6": "0#JP-INDICES",
+          "BR_LINK7": "0#JP-MSCISECT",
+          "BR_LINK8": "",
+          "BR_LINK9": "",
+          "BR_LINK10": "",
+          "BR_LINK11": "",
+          "BR_LINK12": "",
+          "BR_LINK13": "",
+          "BR_LINK14": "",
+          "BR_PREVLR": "",
+          "BR_NEXTLR": "",
+          "CTBTR_1": "",
+          "CTBTR_2": "",
+          "CTBTR_3": "",
+          "CTBTR_4": "",
+          "CTBTR_5": "",
+          "CTB_LOC1": "",
+          "CTB_LOC2": "",
+          "CTB_LOC3": "",
+          "CTB_LOC4": "",
+          "CTB_LOC5": "",
+          "CTB_PAGE1": "",
+          "CTB_PAGE2": "",
+          "CTB_PAGE3": "",
+          "CTB_PAGE4": "",
+          "CTB_PAGE5": "",
+          "VALUE_DT1": "",
+          "VALUE_DT2": "",
+          "VALUE_DT3": "",
+          "VALUE_DT4": "",
+          "VALUE_DT5": "",
+          "CTBTR_BKGD": "",
+          "GEN_TEXT16": "",
+          "VALUE_TS1": "",
+          "VALUE_TS2": "",
+          "VALUE_TS3": "",
+          "VALUE_TS4": "",
+          "VALUE_TS5": "",
+          "GN_TXT16_2": "",
+          "PREF_DISP": "",
+          "PREF_LINK": "",
+          "GN_TXT32_1": "",
+          "GN_TXT32_2": "",
+          "DSPLY_NMLL": "                                ",
+          "SEG_FORW17": "",
+          "SEG_BACK17": "",
+          "RDN_EXCHD2": "",
+          "INSTU_NAME": "     ",
+          "TILE_DESC": "      ",
+          "ALIAS": "",
+          "PREV_DISP": 0,
+          "MSG_VER": "    ",
+          "CURVE_TYPE": "                  ",
+          "CRV_UNIT": "            ",
+          "CONTEXT_ID": 2705,
+          "DDS_DSO_ID": 12337,
+          "SPS_SP_RIC": ".[SPSDC4",
+          "RCS_AS_CL2": ""
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {},
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_.AV.O_10_char_link_field": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    ".AV.O": {
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 14,
+          "RECORDTYPE": 117,
+          "LINK_1": "INPX.O",
+          "LINK_2": "FCEL.O",
+          "LINK_3": "ONTX.O",
+          "LINK_4": "AMD.O",
+          "LINK_5": "AAPL.O",
+          "LINK_6": "NVCN.O",
+          "LINK_7": "CRON.O",
+          "LINK_8": "MSFT.O",
+          "LINK_9": "QQQ.O",
+          "LINK_10": "SVRA.O",
+          "LINK_11": "CSCO.O",
+          "LINK_12": "OCGN.O",
+          "LINK_13": "ONCY.O",
+          "LINK_14": "INTC.O",
+          "PREV_LR": "",
+          "NEXT_LR": "",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {},
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_top_volume": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    ".AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 14,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "INPX.O",
+          "LONGLINK2": "FCEL.O",
+          "LONGLINK3": "ONTX.O",
+          "LONGLINK4": "AMD.O",
+          "LONGLINK5": "AAPL.O",
+          "LONGLINK6": "NVCN.O",
+          "LONGLINK7": "CRON.O",
+          "LONGLINK8": "MSFT.O",
+          "LONGLINK9": "QQQ.O",
+          "LONGLINK10": "SVRA.O",
+          "LONGLINK11": "CSCO.O",
+          "LONGLINK12": "OCGN.O",
+          "LONGLINK13": "ONCY.O",
+          "LONGLINK14": "INTC.O",
+          "LONGPREVLR": "",
+          "LONGNEXTLR": "1#.AV.O",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "1#.AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 11,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "CMCSA.O",
+          "LONGLINK2": "ROKU.O",
+          "LONGLINK3": "MU.O",
+          "LONGLINK4": "LK.O",
+          "LONGLINK5": "OAS.O",
+          "LONGLINK6": "SIRI.O",
+          "LONGLINK7": "SQQQ.O",
+          "LONGLINK8": "TLT.O",
+          "LONGLINK9": "TQQQ.O",
+          "LONGLINK10": "DFFN.O",
+          "LONGLINK11": "GRPN.O",
+          "LONGLINK12": "",
+          "LONGLINK13": "",
+          "LONGLINK14": "",
+          "LONGPREVLR": ".AV.O",
+          "LONGNEXTLR": "",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "LONGLINK10": "GRPN.O",
+          "LONGLINK11": "DFFN.O"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "2#.AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Close",
+          "Text": "NotFound"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_top_volume_remove": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    ".AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 14,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "INPX.O",
+          "LONGLINK2": "FCEL.O",
+          "LONGLINK3": "ONTX.O",
+          "LONGLINK4": "AMD.O",
+          "LONGLINK5": "AAPL.O",
+          "LONGLINK6": "NVCN.O",
+          "LONGLINK7": "CRON.O",
+          "LONGLINK8": "MSFT.O",
+          "LONGLINK9": "QQQ.O",
+          "LONGLINK10": "SVRA.O",
+          "LONGLINK11": "CSCO.O",
+          "LONGLINK12": "OCGN.O",
+          "LONGLINK13": "ONCY.O",
+          "LONGLINK14": "INTC.O",
+          "LONGPREVLR": "",
+          "LONGNEXTLR": "1#.AV.O",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "1#.AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 11,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "CMCSA.O",
+          "LONGLINK2": "ROKU.O",
+          "LONGLINK3": "MU.O",
+          "LONGLINK4": "LK.O",
+          "LONGLINK5": "OAS.O",
+          "LONGLINK6": "SIRI.O",
+          "LONGLINK7": "SQQQ.O",
+          "LONGLINK8": "TLT.O",
+          "LONGLINK9": "TQQQ.O",
+          "LONGLINK10": "DFFN.O",
+          "LONGLINK11": "GRPN.O",
+          "LONGLINK12": "",
+          "LONGLINK13": "",
+          "LONGLINK14": "",
+          "LONGPREVLR": ".AV.O",
+          "LONGNEXTLR": "",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "REF_COUNT": 10,
+          "LONGLINK11": ""
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  },
+  "streaming_chain_top_volume_add": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    ".AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 14,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "INPX.O",
+          "LONGLINK2": "FCEL.O",
+          "LONGLINK3": "ONTX.O",
+          "LONGLINK4": "AMD.O",
+          "LONGLINK5": "AAPL.O",
+          "LONGLINK6": "NVCN.O",
+          "LONGLINK7": "CRON.O",
+          "LONGLINK8": "MSFT.O",
+          "LONGLINK9": "QQQ.O",
+          "LONGLINK10": "SVRA.O",
+          "LONGLINK11": "CSCO.O",
+          "LONGLINK12": "OCGN.O",
+          "LONGLINK13": "ONCY.O",
+          "LONGLINK14": "INTC.O",
+          "LONGPREVLR": "",
+          "LONGNEXTLR": "1#.AV.O",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "1#.AV.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "request_response": {
+        "Fields": {
+          "PROD_PERM": 74,
+          "RDNDISPLAY": 173,
+          "DSPLY_NAME": "TOP 25 BY VOLUME",
+          "RDN_EXCHID": "   ",
+          "TIMACT": "01:00:13",
+          "ACTIV_DATE": "2020-01-01",
+          "NUM_MOVES": 3543,
+          "REF_COUNT": 11,
+          "RECORDTYPE": 117,
+          "LONGLINK1": "CMCSA.O",
+          "LONGLINK2": "ROKU.O",
+          "LONGLINK3": "MU.O",
+          "LONGLINK4": "LK.O",
+          "LONGLINK5": "OAS.O",
+          "LONGLINK6": "SIRI.O",
+          "LONGLINK7": "SQQQ.O",
+          "LONGLINK8": "TLT.O",
+          "LONGLINK9": "TQQQ.O",
+          "LONGLINK10": "DFFN.O",
+          "LONGLINK11": "GRPN.O",
+          "LONGLINK12": "",
+          "LONGLINK13": "",
+          "LONGLINK14": "",
+          "LONGPREVLR": ".AV.O",
+          "LONGNEXTLR": "",
+          "PREF_DISP": 0,
+          "PREF_LINK": "",
+          "RDN_EXCHD2": "NAQ",
+          "PREV_DISP": 0,
+          "TIMACT1": "01:00:13",
+          "CONTEXT_ID": 3339,
+          "DDS_DSO_ID": 8288,
+          "SPS_SP_RIC": ".[SPSNSDQVAE1"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "All is well"
+        },
+        "Type": "Refresh"
+      },
+      "update_message": {
+        "Fields": {
+          "REF_COUNT": 12,
+          "LONGLINK12": "LSE.L"
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  }
+}

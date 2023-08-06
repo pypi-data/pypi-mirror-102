@@ -1,0 +1,8 @@
+{{ file_name }}.py
+"""
+{% for prop_name, prop_type, prop_desc in class_props %}
+:param {{ camel_to_snake(prop_name) }}: {{ prop_type }}
+{% endfor %}
+"""
+
+

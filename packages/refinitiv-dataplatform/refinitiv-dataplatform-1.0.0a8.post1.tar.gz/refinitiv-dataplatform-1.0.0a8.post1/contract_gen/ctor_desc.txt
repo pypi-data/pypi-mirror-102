@@ -1,0 +1,856 @@
+_bond_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: BondDefinition
+:param pricing_parameters: BondPricingParameters
+"""
+
+_bond_definition.py
+"""
+:param instrument_tag: str
+:param instrument_code: str
+:param end_date: str
+:param direction: Direction
+:param interest_type: InterestType
+:param notional_ccy: str
+:param notional_amount: float
+:param fixed_rate_percent: float
+:param spread_bp: float
+:param interest_payment_frequency: Frequency
+:param interest_calculation_method: DayCountBasis
+:param accrued_calculation_method: DayCountBasis
+:param payment_business_day_convention: Convention
+:param payment_roll_convention: PaymentRollConvention
+:param index_reset_frequency: Frequency
+:param index_fixing_lag: int
+:param first_regular_payment_date: str
+:param last_regular_payment_date: str
+:param amortization_schedule: AmortizationItem
+:param payment_business_days: str
+:param adjust_interest_to_payment_date: AdjustInterestToPaymentDate
+:param index_compounding_method: IndexCompoundingMethod
+:param interest_payment_delay: int
+:param stub_rule: StubRule
+:param issue_date: str
+:param first_accrual_date: str
+:param index_fixing_ric: str
+:param is_perpetual: bool
+:param template: str
+"""
+
+_amortization_item.py
+"""
+:param start_date: str
+:param end_date: str
+:param amortization_frequency: AmortizationFrequency
+:param amortization_type: AmortizationType
+:param remaining_notional: float
+:param amount: float
+"""
+
+_bond_pricing_parameters.py
+"""
+:param trade_date: str
+:param benchmark_yield_selection_mode: BenchmarkYieldSelectionMode
+:param fx_price_side: PriceSide
+:param price_side: PriceSide
+:param projected_index_calculation_method: ProjectedIndexCalculationMethod
+:param quote_fallback_logic: QuoteFallbackLogic
+:param redemption_date_type: RedemptionDateType
+:param rounding_parameters: BondRoundingParameters
+:param yield_type: YieldType
+:param adjusted_clean_price: float
+:param adjusted_dirty_price: float
+:param adjusted_yield_percent: float
+:param apply_tax_to_full_pricing: bool
+:param asset_swap_spread_bp: float
+:param benchmark_at_issue_price: float
+:param benchmark_at_issue_ric: str
+:param benchmark_at_issue_spread_bp: float
+:param benchmark_at_issue_yield_percent: float
+:param benchmark_at_redemption_price: float
+:param benchmark_at_redemption_spread_bp: float
+:param benchmark_at_redemption_yield_percent: float
+:param cash_amount: float
+:param clean_price: float
+:param concession_fee: float
+:param current_yield_percent: float
+:param dirty_price: float
+:param discount_margin_bp: float
+:param discount_percent: float
+:param edsf_benchmark_curve_yield_percent: float
+:param edsf_spread_bp: float
+:param efp_benchmark_price: float
+:param efp_benchmark_ric: str
+:param efp_benchmark_yield_percent: float
+:param efp_spread_bp: float
+:param gov_country_benchmark_curve_price: float
+:param gov_country_benchmark_curve_yield_percent: float
+:param gov_country_spread_bp: float
+:param government_benchmark_curve_price: float
+:param government_benchmark_curve_yield_percent: float
+:param government_spread_bp: float
+:param issuer_benchmark_curve_yield_percent: float
+:param issuer_spread_bp: float
+:param market_value_in_deal_ccy: float
+:param market_value_in_report_ccy: float
+:param net_price: float
+:param neutral_yield_percent: float
+:param ois_zc_benchmark_curve_yield_percent: float
+:param ois_zc_spread_bp: float
+:param option_adjusted_spread_bp: float
+:param price: float
+:param quoted_price: float
+:param rating_benchmark_curve_yield_percent: float
+:param rating_spread_bp: float
+:param redemption_date: str
+:param sector_rating_benchmark_curve_yield_percent: float
+:param sector_rating_spread_bp: float
+:param settlement_convention: str
+:param simple_margin_bp: float
+:param strip_yield_percent: float
+:param swap_benchmark_curve_yield_percent: float
+:param swap_spread_bp: float
+:param tax_on_capital_gain_percent: float
+:param tax_on_coupon_percent: float
+:param tax_on_price_percent: float
+:param tax_on_yield_percent: float
+:param use_settlement_date_from_quote: bool
+:param user_defined_benchmark_price: float
+:param user_defined_benchmark_yield_percent: float
+:param user_defined_spread_bp: float
+:param valuation_date: str
+:param yield_percent: float
+:param z_spread_bp: float
+"""
+
+_bond_rounding_parameters.py
+"""
+:param accrued_rounding: Rounding
+:param accrued_rounding_type: RoundingType
+:param price_rounding: Rounding
+:param price_rounding_type: RoundingType
+:param spread_rounding: Rounding
+:param spread_rounding_type: RoundingType
+:param yield_rounding: Rounding
+:param yield_rounding_type: RoundingType
+"""
+
+_cap_floor_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: CapFloorDefinition
+:param pricing_parameters: CapFloorPricingParameters
+"""
+
+_cap_floor_definition.py
+"""
+:param instrument_tag: str
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param notional_ccy: str
+:param notional_amount: float
+:param index_name: str
+:param index_tenor: str
+:param interest_payment_frequency: Frequency
+:param interest_calculation_method: DayCountBasis
+:param payment_business_day_convention: Convention
+:param payment_roll_convention: PaymentRollConvention
+:param index_reset_frequency: Frequency
+:param index_reset_type: IndexResetType
+:param index_fixing_lag: int
+:param amortization_schedule: AmortizationItem
+:param adjust_interest_to_payment_date: AdjustInterestToPaymentDate
+:param stub_rule: StubRule
+:param buy_sell: BuySell
+:param cap_strike_percent: float
+:param floor_strike_percent: float
+:param index_fixing_ric: str
+"""
+
+_cap_floor_pricing_parameters.py
+"""
+:param index_convexity_adjustment_integration_method: IndexConvexityAdjustmentIntegrationMethod
+:param index_convexity_adjustment_method: IndexConvexityAdjustmentMethod
+:param market_value_in_deal_ccy: float
+:param report_ccy: str
+:param skip_first_cap_floorlet: bool
+:param valuation_date: str
+"""
+
+_cds_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: CdsDefinition
+:param pricing_parameters: CdsPricingParameters
+"""
+
+_cds_definition.py
+"""
+:param instrument_tag: str
+:param instrument_code: str
+:param cds_convention: CdsConvention
+:param trade_date: str
+:param step_in_date: str
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param start_date_moving_convention: Convention
+:param end_date_moving_convention: Convention
+:param adjust_to_isda_end_date: bool
+:param protection_leg: ProtectionLegDefinition
+:param premium_leg: PremiumLegDefinition
+:param accrued_begin_date: str
+"""
+
+_premium_leg_definition.py
+"""
+:param direction: Direction
+:param notional_ccy: str
+:param notional_amount: float
+:param fixed_rate_percent: float
+:param interest_payment_frequency: Frequency
+:param interest_calculation_method: DayCountBasis
+:param accrued_calculation_method: DayCountBasis
+:param payment_business_day_convention: Convention
+:param first_regular_payment_date: str
+:param last_regular_payment_date: str
+:param payment_business_days: str
+:param stub_rule: StubRule
+:param accrued_paid_on_default: bool
+:param interest_payment_ccy: str
+"""
+
+_protection_leg_definition.py
+"""
+:param direction: Direction
+:param notional_ccy: str
+:param notional_amount: float
+:param doc_clause: DocClause
+:param seniority: Seniority
+:param index_factor: float
+:param index_series: int
+:param recovery_rate: float
+:param recovery_rate_percent: float
+:param reference_entity: str
+:param settlement_convention: str
+"""
+
+_cds_pricing_parameters.py
+"""
+:param cash_amount_in_deal_ccy: float
+:param clean_price_percent: float
+:param conventional_spread_bp: float
+:param upfront_amount_in_deal_ccy: float
+:param upfront_percent: float
+:param valuation_date: str
+"""
+
+_eti_option_definition.py
+"""
+:param instrument_tag: str
+:param instrument_code: str
+:param end_date: str
+:param asian_definition: EtiOptionFixingInfo
+:param barrier_definition: EtiOptionBarrierDefinition
+:param binary_definition: EtiOptionBinaryDefinition
+:param buy_sell: BuySell
+:param call_put: CallPut
+:param cbbc_definition: EtiOptionCBBCDefinition
+:param double_barriers_definition: EtiOptionDoubleBarriersDefinition
+:param exercise_style: ExerciseStyle
+:param underlying_definition: EtiUnderlyingDefinition
+:param underlying_type: UnderlyingType
+:param deal_contract: int
+:param lot_size: float
+:param strike: float
+"""
+
+_eti_option_fixing_info.py
+"""
+:param average_type: AverageType
+:param fixing_frequency: FixingFrequency
+:param average_so_far: float
+:param fixing_calendar: str
+:param fixing_end_date: str
+:param fixing_start_date: str
+:param include_holidays: bool
+:param include_week_ends: bool
+"""
+
+_eti_option_barrier_definition.py
+"""
+:param barrier_style: BarrierStyle
+:param in_or_out: InOrOut
+:param up_or_down: UpOrDown
+:param level: float
+"""
+
+_eti_option_binary_definition.py
+"""
+:param notional_amount: float
+:param binary_type: BinaryType
+:param up_or_down: UpOrDown
+:param level: float
+"""
+
+_eti_option_cbbc_definition.py
+"""
+:param conversion_ratio: float
+:param level: float
+"""
+
+_eti_option_double_barriers_definition.py
+"""
+:param barriers_definition: EtiOptionBarrierDefinition
+"""
+
+_eti_underlying_definition.py
+"""
+:param instrument_code: str
+"""
+
+_financial_contract.py
+"""
+:param instrument_type: str
+"""
+
+_fx_cross_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: FxCrossDefinition
+:param pricing_parameters: FxCrossPricingParameters
+"""
+
+_fx_cross_definition.py
+"""
+:param instrument_tag: str
+:param legs: FxCrossLegDefinition
+:param fx_cross_type: FxCrossType
+:param fx_cross_code: str
+:param ndf_fixing_settlement_ccy: str
+:param reference_spot_rate: float
+:param traded_cross_rate: float
+:param traded_swap_points: float
+"""
+
+_fx_cross_leg_definition.py
+"""
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param leg_tag: str
+:param deal_ccy_buy_sell: BuySell
+:param fx_leg_type: FxLegType
+:param contra_amount: float
+:param contra_ccy: str
+:param deal_amount: float
+:param deal_ccy: str
+:param start_tenor: str
+"""
+
+_fx_cross_pricing_parameters.py
+"""
+:param deposit_ccy1: FxPoint
+:param deposit_ccy2: FxPoint
+:param fx_swap_calculation_method: FxSwapCalculationMethod
+:param fx_swaps_ccy1: FxPoint
+:param fx_swaps_ccy2: FxPoint
+:param price_side: PriceSide
+:param user_turn_dates: string
+:param calc_end_from_fwd_start: bool
+:param calc_end_from_pre_spot_start: bool
+:param ignore_ref_ccy_holidays: bool
+:param ignore_usd_holidays: bool
+:param one_day_values: str
+:param roll_over_time_policy: str
+:param spread_margin_in_bp: float
+:param turns_calibration: str
+:param valuation_date: str
+"""
+
+_fx_point.py
+"""
+:param bid: float
+:param ask: float
+:param mid: float
+:param status: Status
+:param instrument: str
+:param processing_information: str
+:param spot_decimals: str
+"""
+
+_fx_option_definition.py
+"""
+:param instrument_tag: str
+:param end_date: str
+:param tenor: str
+:param notional_ccy: str
+:param notional_amount: float
+:param asian_definition: FxOptionAverageInfo
+:param barrier_definition: FxOptionBarrierDefinition
+:param binary_definition: FxOptionBinaryDefinition
+:param buy_sell: BuySell
+:param call_put: CallPut
+:param double_barrier_definition: FxOptionDoubleBarrierDefinition
+:param double_binary_definition: FxOptionDoubleBinaryDefinition
+:param dual_currency_definition: FxDualCurrencyDefinition
+:param exercise_style: ExerciseStyle
+:param forward_start_definition: FxOptionForwardStart
+:param underlying_definition: FxUnderlyingDefinition
+:param underlying_type: UnderlyingType
+:param delivery_date: str
+:param strike: float
+"""
+
+_fx_option_average_info.py
+"""
+:param average_type: AverageType
+:param fixing_frequency: FixingFrequency
+:param average_so_far: float
+:param fixing_ric_source: str
+:param fixing_start_date: str
+:param include_holidays: bool
+:param include_week_ends: bool
+"""
+
+_fx_option_barrier_definition.py
+"""
+:param barrier_mode: BarrierMode
+:param in_or_out: InOrOut
+:param up_or_down: UpOrDown
+:param level: float
+:param rebate_amount: float
+:param window_end_date: str
+:param window_start_date: str
+"""
+
+_fx_option_binary_definition.py
+"""
+:param binary_type: FxBinaryType
+:param settlement_type: SettlementType
+:param payout_amount: float
+:param payout_ccy: str
+:param trigger: float
+"""
+
+_fx_option_double_barrier_definition.py
+"""
+:param barrier_down: FxOptionDoubleBarrierInfo
+:param barrier_mode: BarrierMode
+:param barrier_up: FxOptionDoubleBarrierInfo
+"""
+
+_fx_option_double_barrier_info.py
+"""
+:param in_or_out: InOrOut
+:param level: float
+:param rebate_amount: float
+"""
+
+_fx_option_double_binary_definition.py
+"""
+:param double_binary_type: DoubleBinaryType
+:param settlement_type: SettlementType
+:param payout_amount: float
+:param payout_ccy: str
+:param trigger_down: float
+:param trigger_up: float
+"""
+
+_fx_dual_currency_definition.py
+"""
+:param deposit_start_date: str
+:param margin_percent: float
+"""
+
+_fx_option_forward_start.py
+"""
+:param forward_start_date: str
+:param forward_start_tenor: str
+:param strike_percent: float
+"""
+
+_fx_underlying_definition.py
+"""
+:param fx_cross_code: str
+"""
+
+_option_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: OptionDefinition
+:param pricing_parameters: OptionPricingParameters
+"""
+
+_option_definition.py
+"""
+:param instrument_tag: str
+:param end_date: str
+:param buy_sell: BuySell
+:param call_put: CallPut
+:param exercise_style: ExerciseStyle
+:param underlying_type: UnderlyingType
+:param strike: float
+"""
+
+_option_pricing_parameters.py
+"""
+:param atm_volatility_object: BidAskMid
+:param butterfly10_d_object: BidAskMid
+:param butterfly25_d_object: BidAskMid
+:param domestic_deposit_rate_percent_object: BidAskMid
+:param foreign_deposit_rate_percent_object: BidAskMid
+:param forward_points_object: BidAskMid
+:param fx_spot_object: BidAskMid
+:param fx_swap_calculation_method: FxSwapCalculationMethod
+:param implied_volatility_object: BidAskMid
+:param interpolation_weight: InterpolationWeight
+:param option_price_side: PriceSide
+:param option_time_stamp: TimeStamp
+:param payout_custom_dates: string
+:param payout_scaling_interval: PayoutScaling
+:param price_side: PriceSide
+:param pricing_model_type: PricingModelType
+:param risk_reversal10_d_object: BidAskMid
+:param risk_reversal25_d_object: BidAskMid
+:param underlying_price_side: PriceSide
+:param underlying_time_stamp: TimeStamp
+:param volatility_model: VolatilityModel
+:param volatility_type: VolatilityType
+:param compute_payout_chart: bool
+:param compute_volatility_payout: bool
+:param cutoff_time: str
+:param cutoff_time_zone: str
+:param market_value_in_deal_ccy: float
+:param report_ccy_rate: float
+:param risk_free_rate_percent: float
+:param underlying_price: float
+:param valuation_date: str
+:param volatility_percent: float
+"""
+
+_bid_ask_mid.py
+"""
+:param bid: float
+:param ask: float
+:param mid: float
+"""
+
+_interpolation_weight.py
+"""
+:param days_list: DayWeight
+:param holidays: float
+:param week_days: float
+:param week_ends: float
+"""
+
+_day_weight.py
+"""
+:param date: str
+:param weight: float
+"""
+
+_payout_scaling.py
+"""
+:param maximum: float
+:param minimum: float
+"""
+
+_repo_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: RepoDefinition
+:param pricing_parameters: RepoPricingParameters
+"""
+
+_repo_definition.py
+"""
+:param instrument_tag: str
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param day_count_basis: DayCountBasis
+:param underlying_instruments: RepoUnderlyingContract
+:param is_coupon_exchanged: bool
+:param repo_rate_percent: float
+"""
+
+_repo_underlying_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: BondDefinition
+:param pricing_parameters: RepoUnderlyingPricingParameters
+"""
+
+_repo_underlying_pricing_parameters.py
+"""
+:param pricing_parameters_at_end: BondPricingParameters
+:param pricing_parameters_at_start: BondPricingParameters
+:param repo_parameters: RepoParameters
+:param valuation_date: str
+"""
+
+_repo_parameters.py
+"""
+:param coupon_paid_at_horizon: bool
+:param haircut_rate_percent: float
+:param initial_margin_percent: float
+"""
+
+_repo_pricing_parameters.py
+"""
+:param repo_curve_type: RepoCurveType
+:param valuation_date: str
+"""
+
+_reverse_convertible_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: ReverseConvertibleInstrumentDefinition
+:param pricing_parameters: ReverseConvertiblePricingParameters
+"""
+
+_reverse_convertible_instrument_definition.py
+"""
+:param instrument_tag: str
+:param start_date: str
+:param end_date: str
+:param notional_amount: float
+:param interest_payment_frequency: Frequency
+:param underlyings: BasketItem
+:param coupon_rate_percent: float
+:param currency: str
+:param floor_price_percent: float
+"""
+
+_basket_item.py
+"""
+:param instrument_code: str
+:param currency: str
+"""
+
+_reverse_convertible_pricing_parameters.py
+"""
+:param cross_asset: CrossAsset
+:param dupire_model: EquityDupireModel
+:param funding_spread_method: FundingSpreadMethod
+:param numeraire_type: NumeraireType
+:param numerical_method: NumericalMethod
+:param correlation_multiplier: float
+:param discount_curve: str
+:param discount_curve_foreign: str
+:param force_decreasing_discount_factor: bool
+:param funding_spread_in_bp: float
+:param include_cash_flows_at_valuation_date: bool
+:param reference_coefficient: float
+:param use_basis_swap: bool
+:param valuation_date: str
+"""
+
+_cross_asset.py
+"""
+:param funding_spread_method: FundingSpreadMethod
+:param numeraire_type: NumeraireType
+:param c_fs_at_pricing_date: bool
+:param correlation_multiplier: float
+:param d_f_dsc_construction: str
+:param discount_curve: str
+:param discount_curve_foreign: str
+:param force_decreasing_discount_factor: bool
+:param funding_spread_in_bp: float
+:param include_cash_flows_at_valuation_date: bool
+:param reference_coefficient: float
+:param use_basis_swap: bool
+"""
+
+_equity_dupire_model.py
+"""
+:param dupire_model_parameters: EquityDupireModelParameters
+"""
+
+_equity_dupire_model_parameters.py
+"""
+:param calibration_strategy: CalibrationStrategy
+:param dividend_extrapolation: DividendExtrapolation
+:param dividend_type: DividendType
+:param forward_compute_method: ForwardComputeMethod
+:param forward_extrapolation: ForwardExtrapolation
+:param input_forward_type: InputForwardType
+:param interest_rate: array
+:param local_volatility_method: LocalVolatilityMethod
+:param option_type_for_implied_vol_surface: VolType
+:param volatility_source: VolatilitySource
+:param adjust_forwards: bool
+:param apply_most_probable_path: bool
+:param basis_strike: float
+:param dividend_end_date: str
+:param dividend_growth: float
+:param dividend_start_date: str
+:param forward_growth_coefficient: float
+:param smooth_dividends: bool
+:param smooth_vol_surface: bool
+:param use_dividend: bool
+:param use_historical_dividend: bool
+:param volatility_bump: float
+"""
+
+_numerical_method.py
+"""
+:param american_monte_carlo_parameters: AmericanMonteCarloParameters
+:param method: Method
+:param pde_parameters: PdeParameters
+"""
+
+_american_monte_carlo_parameters.py
+"""
+:param american_monte_carlo_method: AmericanMonteCarloMethod
+:param additional_points: int
+:param all_the_time_points_per_year: int
+:param iteration_number: int
+"""
+
+_pde_parameters.py
+"""
+:param pde_space_step_number: int
+:param pde_standard_deviation: int
+:param pde_time_step_number: int
+"""
+
+_swap_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: SwapDefinition
+:param pricing_parameters: SwapPricingParameters
+"""
+
+_swap_definition.py
+"""
+:param instrument_tag: str
+:param instrument_code: str
+:param trade_date: str
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param legs: SwapLegDefinition
+:param is_non_deliverable: bool
+:param settlement_ccy: str
+:param template: str
+"""
+
+_swap_leg_definition.py
+"""
+:param instrument_tag: str
+:param leg_tag: str
+:param direction: Direction
+:param interest_type: InterestType
+:param notional_ccy: str
+:param notional_amount: float
+:param fixed_rate_percent: float
+:param index_name: str
+:param index_tenor: str
+:param spread_bp: float
+:param interest_payment_frequency: Frequency
+:param interest_calculation_method: DayCountBasis
+:param accrued_calculation_method: DayCountBasis
+:param payment_business_day_convention: Convention
+:param payment_roll_convention: PaymentRollConvention
+:param index_reset_frequency: Frequency
+:param index_reset_type: IndexResetType
+:param index_fixing_lag: int
+:param first_regular_payment_date: str
+:param last_regular_payment_date: str
+:param amortization_schedule: AmortizationItem
+:param payment_business_days: str
+:param notional_exchange: NotionalExchange
+:param adjust_interest_to_payment_date: AdjustInterestToPaymentDate
+:param index_compounding_method: IndexCompoundingMethod
+:param interest_payment_delay: int
+:param stub_rule: StubRule
+:param index_fixing_ric: str
+:param upfront_amount: float
+"""
+
+_swap_pricing_parameters.py
+"""
+:param index_convexity_adjustment_integration_method: IndexConvexityAdjustmentIntegrationMethod
+:param index_convexity_adjustment_method: IndexConvexityAdjustmentMethod
+:param discounting_ccy: str
+:param discounting_tenor: str
+:param market_value_in_deal_ccy: float
+:param valuation_date: str
+"""
+
+_swaption_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: SwaptionDefinition
+:param pricing_parameters: SwaptionPricingParameters
+"""
+
+_swaption_definition.py
+"""
+:param instrument_tag: str
+:param end_date: str
+:param tenor: str
+:param bermudan_swaption_definition: BermudanSwaptionDefinition
+:param buy_sell: BuySell
+:param call_put: CallPut
+:param exercise_style: ExerciseStyle
+:param settlement_type: SwaptionSettlementType
+:param underlying_definition: SwapDefinition
+:param strike_percent: float
+"""
+
+_bermudan_swaption_definition.py
+"""
+:param exercise_schedule: string
+:param exercise_schedule_type: ExerciseScheduleType
+:param notification_days: int
+"""
+
+_swaption_pricing_parameters.py
+"""
+:param market_data_rule: SwaptionMarketDataRule
+:param market_value_in_deal_ccy: float
+:param nb_iterations: int
+:param valuation_date: str
+"""
+
+_swaption_market_data_rule.py
+"""
+:param discount: str
+:param forward: str
+"""
+
+_term_deposit_contract.py
+"""
+:param instrument_type: str
+:param instrument_definition: TermDepositDefinition
+:param pricing_parameters: TermDepositPricingParameters
+"""
+
+_term_deposit_definition.py
+"""
+:param instrument_tag: str
+:param instrument_code: str
+:param start_date: str
+:param end_date: str
+:param tenor: str
+:param notional_ccy: str
+:param notional_amount: float
+:param fixed_rate_percent: float
+:param payment_business_day_convention: Convention
+:param payment_roll_convention: PaymentRollConvention
+:param year_basis: DayCountBasis
+:param calendar: str
+"""
+
+_term_deposit_pricing_parameters.py
+"""
+:param price_side: PriceSide
+:param income_tax_percent: float
+:param valuation_date: str
+"""
+

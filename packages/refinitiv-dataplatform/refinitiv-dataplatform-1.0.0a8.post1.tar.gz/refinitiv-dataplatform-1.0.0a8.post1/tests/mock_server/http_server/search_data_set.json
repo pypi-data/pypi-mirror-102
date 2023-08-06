@@ -1,0 +1,109 @@
+{
+  "simple_search_people_cto_microsoft": {
+    "request_response": {
+      "requset_method": "POST",
+      "response_code": 200,
+      "response_data": {
+        "Total": 3,
+        "Hits": [
+          {
+            "BusinessEntity": "PERSON",
+            "DocumentTitle": "Kevin  Scott - Microsoft Corp - Executive Vice President, Chief Technology Officer",
+            "PermID": "34415125003",
+            "PI": "34415125003"
+          },
+          {
+            "BusinessEntity": "PERSON",
+            "DocumentTitle": "Ifeanyi  Amah - Microsoft Corp - Ex-Chief Technology Officer",
+            "PermID": "34422288801",
+            "PI": "34422288801"
+          },
+          {
+            "BusinessEntity": "PERSON",
+            "DocumentTitle": "Bjorn  Olstad - Microsoft Development Center Norway AS - Ex-Chief Technology Officer",
+            "PermID": "34413468000",
+            "PI": "34413468000"
+          }
+        ]
+      }
+    }
+  },
+  "simple_lookup": {
+    "request_response": {
+      "requset_method": "POST",
+      "response_code": 200,
+      "response_data": {
+        "Matches": {
+          "MSFT.O": {
+            "BusinessEntity": "INSTRUMENTxEQUITY",
+            "DocumentTitle": "Microsoft Corp, Ordinary Share",
+            "CUSIP": "594918104"
+          },
+          "AAPL.O": {
+            "BusinessEntity": "INSTRUMENTxEQUITY",
+            "DocumentTitle": "Apple Inc, Ordinary Share",
+            "CUSIP": "037833100"
+          },
+          "GOOG.O": {
+            "BusinessEntity": "INSTRUMENTxEQUITY",
+            "DocumentTitle": "Alphabet Inc, Ordinary Share",
+            "CUSIP": "02079K107"
+          },
+          "KBANK.BK": {
+            "BusinessEntity": "INSTRUMENTxEQUITY",
+            "DocumentTitle": "Kasikornbank PCL, Ordinary Share",
+            "SEDOL": "6888783"
+          }
+        }
+      }
+    }
+  },
+  "simple_non-streaming_chain": {
+    "request_response": {
+      "requset_method": "GET",
+      "response_code": 200,
+      "response_data": {
+        "data": {
+          "constituents": [
+                              ".DJI",
+                              "AAPL.OQ",
+                              "AXP.N",
+                              "BA.N",
+                              "CAT.N",
+                              "CSCO.OQ",
+                              "CVX.N",
+                              "DIS.N",
+                              "DOW.N",
+                              "GS.N",
+                              "HD.N",
+                              "IBM.N",
+                              "INTC.OQ",
+                              "JNJ.N",
+                              "JPM.N",
+                              "KO.N",
+                              "MCD.N",
+                              "MMM.N",
+                              "MRK.N",
+                              "MSFT.OQ",
+                              "NKE.N",
+                              "PFE.N",
+                              "PG.N",
+                              "TRV.N",
+                              "UNH.N",
+                              "UTX.N",
+                              "V.N",
+                              "VZ.N",
+                              "WBA.OQ",
+                              "WMT.N",
+                              "XOM.N"
+                          ]
+          },
+          "universe": {
+            "ric": "0#.DJI",
+            "displayName": "DJ INDU AVERAGE",
+            "serviceName": "ERT_FD3_LF1"
+          }
+      }
+    }
+  }
+}

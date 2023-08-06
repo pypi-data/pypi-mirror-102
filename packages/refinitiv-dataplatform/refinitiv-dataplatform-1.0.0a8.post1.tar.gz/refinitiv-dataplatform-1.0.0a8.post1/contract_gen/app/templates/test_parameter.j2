@@ -1,0 +1,32 @@
+# test{{ file_name }}.py
+from refinitiv.dataplatform.content.ipa import *
+from refinitiv.dataplatform.content.ipa.models import *
+from refinitiv.dataplatform.content.ipa.enum_types import *
+from inspect import signature
+
+def test_parameter{{ file_name }}():
+    kwargs = {
+{% for prop_name, prop_type, prop_desc in class_props %}
+        "{{ camel_to_snake(prop_name) }}": 
+{%- if prop_type == 'str' %}
+ "{{ camel_to_snake(prop_name) }}",
+{%- elif prop_type == 'float' %}
+ {{ loop.index }}.{{ loop.index }},
+{%- elif prop_type == 'int' %}
+ {{ loop.index }},
+{%- else %}
+ {{ prop_type }},
+{%- endif %}
+
+{% endfor %}
+    }
+
+    inst = Definition(**kwargs)
+    s = signature(Definition.__init__)
+
+    assert len(s.parameters) == (len(kwargs.keys()) + 1)  # +1 for (self)
+    for k, v in kwargs.items():
+        attr = getattr(inst, k)
+        assert attr == v, k
+
+

@@ -1,0 +1,100 @@
+pipeline {
+     environment {
+        EDP_USERNAME = credentials('RDP_LOGIN-1855')
+        EDP_PASSWORD = credentials('RDP_PASSWORD-1855')
+        DESKTOP_APP_KEY = credentials('APP_KEY-1855')
+        TEST_AGENT = "EAPI-benchmarkagent-${JOB_BASE_NAME}-py"
+    }
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+        // MS Teams Notification
+        office365ConnectorWebhooks([[
+            name: 'Jenkins ' + env.JOB_NAME,
+            url: env.TEAMS_WEBHOOK_URL,
+            startNotification: true,
+            notifySuccess: true,
+            notifyAborted: true,
+            notifyNotBuilt: true,
+            notifyUnstable: true,
+            notifyFailure: true,
+            notifyBackToNormal: true,
+            notifyRepeatedFailure: true,
+            timeout: 30000
+        ]])
+    }
+
+    agent any
+
+    stages {
+
+        stage('Run benchmarks') {
+            when { environment name: 'INTERFACE', value: 'run' }
+            steps {
+                script {
+                    docker.image("python:${PY_VER}").inside("--name ${TEST_AGENT} -u 0") {
+                        sh 'pip3 install --user tox'
+                        dir('dataplatform_project/benchmark') {
+                            sh 'python3 -m tox -e run-nix'
+                            sh 'python3 -m tox -e reporting'
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Run benchmark-cli') {
+            when { environment name: 'INTERFACE', value: 'cli' }
+            steps {
+                script {
+                    command = "time --timeit"
+                    if (env.COMMAND) {
+                        command = env.COMMAND
+                    }
+                    docker.image("python:${PY_VER}").inside("--name ${TEST_AGENT} -u 0") {
+                        sh 'pip3 install --user tox'
+                        dir('dataplatform_project/benchmark') {
+                            sh 'python3 -m tox -e benchmark-cli-nix -- ' + command
+                            sh 'python3 -m tox -e reporting'
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Run benchmark-cli simple') {
+            when { environment name: 'INTERFACE', value: 'clisimple' }
+            steps {
+                script {
+                    command = "time --timeit"
+                    if (env.COMMAND) {
+                        command = env.COMMAND
+                    }
+                    docker.image("python:${PY_VER}").inside("--name ${TEST_AGENT} -u 0") {
+                        sh 'pip3 install --user tox'
+                        dir('dataplatform_project/benchmark') {
+                            sh 'python3 -m tox -e clisimple-nix -- ' + command
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    //post {
+    //    always {
+    //
+    //        publishHTML([
+    //            allowMissing: false,
+    //            alwaysLinkToLastBuild: false,
+    //            keepAll: false,
+    //            reportDir: env.WORKSPACE + '/dataplatform_project/benchmark/benchmark/public/',
+    //            reportFiles: 'index.html',
+    //            reportName: 'Report',
+    //            reportTitles: ''
+    //        ])
+    //    }
+    //}
+}

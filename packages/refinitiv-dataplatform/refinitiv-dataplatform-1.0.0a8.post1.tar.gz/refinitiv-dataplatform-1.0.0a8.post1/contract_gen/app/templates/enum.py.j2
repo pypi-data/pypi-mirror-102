@@ -1,0 +1,30 @@
+# coding: utf8
+# contract_gen {{ now() }}
+
+__all__ = ["{{ class_name }}"]
+
+from enum import Enum, unique
+from .common_tools import _convert_to_str, _normalize
+
+
+@unique
+class {{ class_name }}(Enum):
+    {% for item in items %}
+    {{ camel_to_snake(item, upper=True) }} = "{{ item }}"
+    {% endfor %}
+    
+    @staticmethod
+    def convert_to_str(some):
+        return _convert_to_str({{ class_name }}, _{{ camel_to_snake(class_name, upper=True) }}_VALUES, some)
+
+    @staticmethod
+    def normalize(some):
+        return _normalize(_{{ camel_to_snake(class_name, upper=True) }}_VALUES_IN_LOWER_BY_{{ camel_to_snake(class_name, upper=True) }}, some)
+
+
+_{{ camel_to_snake(class_name, upper=True) }}_VALUES = tuple(t.value for t in {{ class_name }})
+_{{ camel_to_snake(class_name, upper=True) }}_VALUES_IN_LOWER_BY_{{ camel_to_snake(class_name, upper=True) }} = {
+    name.lower(): item
+    for name, item in {{ class_name }}.__members__.items()
+}
+{%+ if True %}{% endif %}

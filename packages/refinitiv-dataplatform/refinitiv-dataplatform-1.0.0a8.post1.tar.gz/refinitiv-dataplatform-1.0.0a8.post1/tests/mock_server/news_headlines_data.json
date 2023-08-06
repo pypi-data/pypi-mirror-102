@@ -1,0 +1,1591 @@
+{
+  "data": [
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wo5nu:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWR2"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:DATMTR",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:DATMTR",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:DATMTR",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "R:4388.T"
+            },
+            {
+              "_qcode": "R:AAPL.O"
+            },
+            {
+              "_qcode": "B:104"
+            },
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:162"
+            },
+            {
+              "_qcode": "B:167"
+            },
+            {
+              "_qcode": "B:172"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:1769"
+            },
+            {
+              "_qcode": "B:1796"
+            },
+            {
+              "_qcode": "B:202"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:259"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:279"
+            },
+            {
+              "_qcode": "B:281"
+            },
+            {
+              "_qcode": "B:282"
+            },
+            {
+              "_qcode": "B:284"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:92"
+            },
+            {
+              "_qcode": "B:98"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:6S"
+            },
+            {
+              "_qcode": "E:J"
+            },
+            {
+              "_qcode": "E:R"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:41"
+            },
+            {
+              "_qcode": "G:6"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "G:K"
+            },
+            {
+              "_qcode": "G:S"
+            },
+            {
+              "_qcode": "M:1NN"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:1YE"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:NL"
+            },
+            {
+              "_qcode": "M:V"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "P:4295905573"
+            },
+            {
+              "_qcode": "P:4297698700"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T23:55:06.929Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T23:55:06.929Z"
+          },
+          "title": [
+            {
+              "$": "Apple Plans to Acquire Drive.ai"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wnr5p:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWR2"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:GLOBML",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:GLOBML",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:GLOBML",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "B:106"
+            },
+            {
+              "_qcode": "B:107"
+            },
+            {
+              "_qcode": "B:108"
+            },
+            {
+              "_qcode": "B:111"
+            },
+            {
+              "_qcode": "B:112"
+            },
+            {
+              "_qcode": "B:114"
+            },
+            {
+              "_qcode": "B:122"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:87"
+            },
+            {
+              "_qcode": "B:89"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:6S"
+            },
+            {
+              "_qcode": "G:8W"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1NN"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1T"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WK"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:1WP"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:I4"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T22:29:32.500Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T22:29:32.500Z"
+          },
+          "title": [
+            {
+              "$": "A New York slice, on the Prairies Canadian pizza makers inspired by the Big Apple are whipping up pies worth salivating over"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wnqb7:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWR2"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:ZACKSC",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:ZACKSC",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:ZACKSC",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "R:AAPL.O"
+            },
+            {
+              "_qcode": "R:DS.N"
+            },
+            {
+              "_qcode": "B:104"
+            },
+            {
+              "_qcode": "B:1429"
+            },
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:162"
+            },
+            {
+              "_qcode": "B:167"
+            },
+            {
+              "_qcode": "B:172"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:1769"
+            },
+            {
+              "_qcode": "B:202"
+            },
+            {
+              "_qcode": "B:234"
+            },
+            {
+              "_qcode": "B:248"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:259"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:279"
+            },
+            {
+              "_qcode": "B:281"
+            },
+            {
+              "_qcode": "B:282"
+            },
+            {
+              "_qcode": "B:284"
+            },
+            {
+              "_qcode": "B:34"
+            },
+            {
+              "_qcode": "B:56"
+            },
+            {
+              "_qcode": "B:65"
+            },
+            {
+              "_qcode": "B:66"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:71"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:87"
+            },
+            {
+              "_qcode": "B:91"
+            },
+            {
+              "_qcode": "B:92"
+            },
+            {
+              "_qcode": "B:98"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:6S"
+            },
+            {
+              "_qcode": "E:G"
+            },
+            {
+              "_qcode": "E:R"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1NN"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WK"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:GL"
+            },
+            {
+              "_qcode": "M:H"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "P:4295902050"
+            },
+            {
+              "_qcode": "P:4295905573"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T22:23:37.649Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T22:23:37.649Z"
+          },
+          "title": [
+            {
+              "$": "Apple's Rumored Drive.ai Buyout to Aid Driverless Car Project"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nRTV28b0J:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:RCNBC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:CNBC",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:CNBC",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:CNBC",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "A:1"
+            },
+            {
+              "_qcode": "G:1"
+            },
+            {
+              "_qcode": "G:6"
+            },
+            {
+              "_qcode": "G:B1"
+            },
+            {
+              "_qcode": "G:C1"
+            },
+            {
+              "_qcode": "G:D"
+            },
+            {
+              "_qcode": "G:K"
+            },
+            {
+              "_qcode": "G:S"
+            },
+            {
+              "_qcode": "G:V"
+            },
+            {
+              "_qcode": "M:1Q1"
+            },
+            {
+              "_qcode": "M:1QD"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T22:20:36.911Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T22:20:36.911Z"
+          },
+          "title": [
+            {
+              "$": "Reuters Insider - Managing a winning trade: Big Apple rebound"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wnf6u:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:DALMOR",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:DALMOR",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:DALMOR",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "R:DS.N"
+            },
+            {
+              "_qcode": "B:1429"
+            },
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:172"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:234"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:34"
+            },
+            {
+              "_qcode": "B:56"
+            },
+            {
+              "_qcode": "B:65"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:71"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:87"
+            },
+            {
+              "_qcode": "B:91"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:50"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WK"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:1YE"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:NL"
+            },
+            {
+              "_qcode": "M:V"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "P:4295902050"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T21:49:46.095Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T21:49:46.095Z"
+          },
+          "title": [
+            {
+              "$": "Why Apple wants to buy a self-driving startup that ran tests in North Texas"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wnewz:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWR2"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "R:AAPL.O"
+            },
+            {
+              "_qcode": "B:104"
+            },
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:162"
+            },
+            {
+              "_qcode": "B:167"
+            },
+            {
+              "_qcode": "B:172"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:1769"
+            },
+            {
+              "_qcode": "B:198"
+            },
+            {
+              "_qcode": "B:202"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:256"
+            },
+            {
+              "_qcode": "B:257"
+            },
+            {
+              "_qcode": "B:259"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:279"
+            },
+            {
+              "_qcode": "B:281"
+            },
+            {
+              "_qcode": "B:282"
+            },
+            {
+              "_qcode": "B:284"
+            },
+            {
+              "_qcode": "B:285"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:75"
+            },
+            {
+              "_qcode": "B:78"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:92"
+            },
+            {
+              "_qcode": "B:98"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:40"
+            },
+            {
+              "_qcode": "E:6Q"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1NN"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WK"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "P:4295905573"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T21:34:24.531Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T21:34:24.531Z"
+          },
+          "title": [
+            {
+              "$": "RHA launches a new earphone for Apple iPhone users"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nNRA8wnez0:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:NWR1"
+            },
+            {
+              "_qcode": "NP:NWR2"
+            },
+            {
+              "_qcode": "NP:NWRM"
+            },
+            {
+              "_qcode": "NP:W2VEC"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:TIMIND",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:162"
+            },
+            {
+              "_qcode": "B:198"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:256"
+            },
+            {
+              "_qcode": "B:257"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:279"
+            },
+            {
+              "_qcode": "B:282"
+            },
+            {
+              "_qcode": "B:285"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:75"
+            },
+            {
+              "_qcode": "B:78"
+            },
+            {
+              "_qcode": "B:81"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:40"
+            },
+            {
+              "_qcode": "E:G"
+            },
+            {
+              "_qcode": "G:A"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WK"
+            },
+            {
+              "_qcode": "M:3"
+            },
+            {
+              "_qcode": "M:A"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:ES"
+            },
+            {
+              "_qcode": "M:FG"
+            },
+            {
+              "_qcode": "M:GL"
+            },
+            {
+              "_qcode": "M:I4"
+            },
+            {
+              "_qcode": "M:N1"
+            },
+            {
+              "_qcode": "M:NL"
+            },
+            {
+              "_qcode": "M:QQ"
+            },
+            {
+              "_qcode": "M:S"
+            },
+            {
+              "_qcode": "M:V"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T21:34:23.824Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T21:34:23.824Z"
+          },
+          "title": [
+            {
+              "$": "Google reveals pricing and more details of it's Apple Arcade rival, Stadia at E3 2019"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nVMNg8tDya:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:VMN"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:CMNW",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:CMNW",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:CMNW",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "A:1"
+            },
+            {
+              "_qcode": "B:104"
+            },
+            {
+              "_qcode": "B:161"
+            },
+            {
+              "_qcode": "B:162"
+            },
+            {
+              "_qcode": "B:167"
+            },
+            {
+              "_qcode": "B:172"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:1769"
+            },
+            {
+              "_qcode": "B:202"
+            },
+            {
+              "_qcode": "B:255"
+            },
+            {
+              "_qcode": "B:259"
+            },
+            {
+              "_qcode": "B:278"
+            },
+            {
+              "_qcode": "B:279"
+            },
+            {
+              "_qcode": "B:281"
+            },
+            {
+              "_qcode": "B:282"
+            },
+            {
+              "_qcode": "B:284"
+            },
+            {
+              "_qcode": "B:69"
+            },
+            {
+              "_qcode": "B:86"
+            },
+            {
+              "_qcode": "B:92"
+            },
+            {
+              "_qcode": "B:98"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1NN"
+            },
+            {
+              "_qcode": "M:1P2"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:1WN"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "R:AAPL.O"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:2X"
+            },
+            {
+              "_qcode": "E:4A"
+            },
+            {
+              "_qcode": "E:57"
+            },
+            {
+              "_qcode": "E:7"
+            },
+            {
+              "_qcode": "E:E"
+            },
+            {
+              "_qcode": "M:1QQ"
+            },
+            {
+              "_qcode": "M:1S3"
+            },
+            {
+              "_qcode": "M:1S9"
+            },
+            {
+              "_qcode": "M:1V0"
+            },
+            {
+              "_qcode": "M:1W0"
+            },
+            {
+              "_qcode": "M:1Y6"
+            },
+            {
+              "_qcode": "M:1YL"
+            },
+            {
+              "_qcode": "M:1Z9"
+            },
+            {
+              "_qcode": "P:4295905573"
+            },
+            {
+              "_qcode": "P:5012798565"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T20:14:24.823Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T20:14:24.823Z"
+          },
+          "title": [
+            {
+              "$": "SHAREHOLDER ALERT: Pomerantz Law Firm Reminds Shareholders with Losses on their Investment in Apple, Inc. of Class Action Lawsuit and Upcoming Deadline AAPL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nGNXbThfC8:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [
+            {
+              "_qcode": "NP:CNR"
+            },
+            {
+              "_qcode": "NP:GNWN"
+            }
+          ],
+          "creator": [
+            {
+              "_qcode": "NS:GNW",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:GNW",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:GNW",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:57"
+            },
+            {
+              "_qcode": "E:7"
+            },
+            {
+              "_qcode": "E:E"
+            },
+            {
+              "_qcode": "G:4"
+            },
+            {
+              "_qcode": "G:6J"
+            },
+            {
+              "_qcode": "G:9"
+            },
+            {
+              "_qcode": "M:1QD"
+            },
+            {
+              "_qcode": "M:1WJ"
+            },
+            {
+              "_qcode": "M:1WL"
+            },
+            {
+              "_qcode": "M:32"
+            },
+            {
+              "_qcode": "M:E7"
+            },
+            {
+              "_qcode": "M:ES"
+            },
+            {
+              "_qcode": "B:104"
+            },
+            {
+              "_qcode": "B:167"
+            },
+            {
+              "_qcode": "B:174"
+            },
+            {
+              "_qcode": "B:1769"
+            },
+            {
+              "_qcode": "B:92"
+            },
+            {
+              "_qcode": "E:4A"
+            },
+            {
+              "_qcode": "M:1QQ"
+            },
+            {
+              "_qcode": "M:1S3"
+            },
+            {
+              "_qcode": "M:1S9"
+            },
+            {
+              "_qcode": "M:1V0"
+            },
+            {
+              "_qcode": "M:1W0"
+            },
+            {
+              "_qcode": "M:1Y6"
+            },
+            {
+              "_qcode": "M:1YL"
+            },
+            {
+              "_qcode": "M:1Z9"
+            },
+            {
+              "_qcode": "M:1ZN"
+            },
+            {
+              "_qcode": "M:Z"
+            },
+            {
+              "_qcode": "R:AAPL.O"
+            },
+            {
+              "_qcode": "P:4295905573"
+            },
+            {
+              "_qcode": "P:5012798565"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T19:50:12.115Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T19:50:12.115Z"
+          },
+          "title": [
+            {
+              "$": "SHAREHOLDER ALERT:  Pomerantz Law Firm Reminds Shareholders with Losses on their Investment in Apple, Inc. of Class Action Lawsuit and Upcoming Deadline – AAPL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "storyId": "urn:newsml:reuters.com:20190607:nDjcsXPk3:1",
+      "newsItem": {
+        "_version": 1,
+        "contentMeta": {
+          "audience": [],
+          "creator": [
+            {
+              "_qcode": "NS:DJCP",
+              "_role": "sRole:source"
+            }
+          ],
+          "infoSource": [
+            {
+              "_qcode": "NS:DJCP",
+              "_role": "sRole:source"
+            },
+            {
+              "_qcode": "NS:DJCP",
+              "_role": "sRole:origProv"
+            }
+          ],
+          "language": [
+            {
+              "_tag": "en"
+            }
+          ],
+          "subject": [
+            {
+              "_qcode": "NewsSource:PMZN"
+            },
+            {
+              "_qcode": "M:1YL"
+            },
+            {
+              "_qcode": "M:1Z9"
+            },
+            {
+              "_qcode": "E:2X"
+            },
+            {
+              "_qcode": "M:1QQ"
+            },
+            {
+              "_qcode": "M:1Y6"
+            },
+            {
+              "_qcode": "E:7"
+            },
+            {
+              "_qcode": "E:57"
+            },
+            {
+              "_qcode": "M:1V0"
+            },
+            {
+              "_qcode": "M:1W0"
+            },
+            {
+              "_qcode": "E:1"
+            },
+            {
+              "_qcode": "E:E"
+            },
+            {
+              "_qcode": "E:4A"
+            },
+            {
+              "_qcode": "M:1S3"
+            },
+            {
+              "_qcode": "M:1S9"
+            }
+          ],
+          "urgency": {
+            "$": 3
+          }
+        },
+        "itemMeta": {
+          "firstCreated": {
+            "$": "2019-06-07T00:00:00.000Z"
+          },
+          "versionCreated": {
+            "$": "2019-06-07T19:49:00.000Z"
+          },
+          "title": [
+            {
+              "$": "SHAREHOLDER ALERT: Pomerantz Law Firm Reminds Shareholders with Losses on their Investment in Apple, Inc. of Class Action Lawsuit and Upcoming Deadline -- AAPL"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "pageLimit": 1,
+    "next": "eyJxdWVyeSI6eyJjYXRlZ29yeSI6Ik9wZXJhdG9yIiwiZ3JvdXAiOiJPcGVyYXRvciIsImlkIjoiQU5EIiwibGFiZWwiOiJBTkQiLCJyZWFkYWJsZSI6IkFORCIsInJlYWx0aW1lRmlsdGVyIjoiQU5EIiwicmVhbHRpbWVDYXBhYmlsaXRpZXMiOltdLCJuZXdzd2lyZSI6InZhbHVlIiwibmV3c3Jvb20iOiJ2YWx1ZSIsIndlYm5ld3MiOiJ2YWx1ZSIsImZpbHRlciI6InZhbHVlIiwiaXNSZWNvbW1lbmRlZCI6ZmFsc2UsImhhc0NoaWxkcmVuIjpmYWxzZSwiY2hpbGRyZW4iOlt7ImlucHV0IjoiQXBwbGUiLCJjYXRlZ29yeSI6IkZyZWVUZXh0IiwiZ3JvdXAiOiJPdGhlckVudGl0aWVzIiwiaWQiOiJcIkFwcGxlXCIiLCJsYWJlbCI6IkFwcGxlIiwicmVhZGFibGUiOiJcIkFwcGxlXCIiLCJyZWFsdGltZUZpbHRlciI6IlwiQXBwbGVcIiIsInJlYWx0aW1lRmlsdGVycyI6WyJcIkFwcGxlXCIiXSwicmVhbHRpbWVDYXBhYmlsaXRpZXMiOltdLCJuZXdzd2lyZSI6InZhbHVlIiwibmV3c3Jvb20iOiJ2YWx1ZSIsIndlYm5ld3MiOiJ2YWx1ZSIsImZpbHRlciI6InZhbHVlIiwiaXNSZWNvbW1lbmRlZCI6ZmFsc2UsImhhc0NoaWxkcmVuIjpmYWxzZX0seyJpbnB1dCI6ImRhdGVyYW5nZTpcIjIwMTktMDYtMDEsMjAxOS0wNi0wN1wiIiwiY2F0ZWdvcnkiOiJEYXRlUmFuZ2UiLCJncm91cCI6Ik90aGVyRW50aXRpZXMiLCJpZCI6IjIwMTktMDYtMDFUMDA6MDA6MDAuMDAwWi8yMDE5LTA2LTA3VDIzOjU5OjU5LjAwMFoiLCJsYWJlbCI6ImJldHdlZW4gMjAxOS0wNi0wMSBhbmQgMjAxOS0wNi0wNyAyMzo1OTo1OSAoVVRDKSIsInJlYWRhYmxlIjoiMjAxOS0wNi0wMVQwMDowMDowMC4wMDBaLzIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInJlYWx0aW1lRmlsdGVyIjoiMjAxOS0wNi0wMVQwMDowMDowMC4wMDBaLzIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInJlYWx0aW1lQ2FwYWJpbGl0aWVzIjpbXSwibmV3c3dpcmUiOiJ2YWx1ZSIsIm5ld3Nyb29tIjoidmFsdWUiLCJ3ZWJuZXdzIjoidmFsdWUiLCJmaWx0ZXIiOiJ2YWx1ZSIsImlzUmVjb21tZW5kZWQiOmZhbHNlLCJoYXNDaGlsZHJlbiI6ZmFsc2V9XX0sInBhcmFtIjp7InJlcG9zaXRvcmllcyI6WyJOZXdzV2lyZSJdLCJkYXRlRnJvbSI6IjIwMTktMDYtMDFUMDA6MDA6MDAuMDAwWiIsImRhdGVUbyI6IjIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInNlYXJjaEluIjoiSGVhZGxpbmVPbmx5IiwibnVtYmVyIjoxMCwicmVzZWFyY2hSZXN1bHRzIjpmYWxzZSwic25pcHBldHMiOmZhbHNlLCJzb3J0T3JkZXIiOiJuZXdUb09sZCIsImFyY2hpdmUiOmZhbHNlLCJ0cmFja2luZyI6ImF1dG8iLCJzZW50aW1lbnQiOmZhbHNlLCJyZWxldmFuY2UiOiJIaWdoIn0sInBpdm90Ijp7InNvcnRPcmRlciI6Im5ld1RvT2xkIiwibmV3c3Jvb21Db250ZXh0IjpudWxsLCJuZXdzcm9vbU9mZnNldCI6MCwibmV3c3dpcmVQaXZvdCI6eyJkYXRldGltZSI6IjIwMTktMDYtMDdUMTk6NDk6MDAuMDAwWiIsInBuYWMiOiJuRGpjc1hQazMifSwiZmVkZXJhdGVkQ29udGV4dCI6bnVsbCwiaW5pdGlhbFNvcnRPcmRlciI6Im5ld1RvT2xkIn19",
+    "prev": "eyJxdWVyeSI6eyJjYXRlZ29yeSI6Ik9wZXJhdG9yIiwiZ3JvdXAiOiJPcGVyYXRvciIsImlkIjoiQU5EIiwibGFiZWwiOiJBTkQiLCJyZWFkYWJsZSI6IkFORCIsInJlYWx0aW1lRmlsdGVyIjoiQU5EIiwicmVhbHRpbWVDYXBhYmlsaXRpZXMiOltdLCJuZXdzd2lyZSI6InZhbHVlIiwibmV3c3Jvb20iOiJ2YWx1ZSIsIndlYm5ld3MiOiJ2YWx1ZSIsImZpbHRlciI6InZhbHVlIiwiaXNSZWNvbW1lbmRlZCI6ZmFsc2UsImhhc0NoaWxkcmVuIjpmYWxzZSwiY2hpbGRyZW4iOlt7ImlucHV0IjoiQXBwbGUiLCJjYXRlZ29yeSI6IkZyZWVUZXh0IiwiZ3JvdXAiOiJPdGhlckVudGl0aWVzIiwiaWQiOiJcIkFwcGxlXCIiLCJsYWJlbCI6IkFwcGxlIiwicmVhZGFibGUiOiJcIkFwcGxlXCIiLCJyZWFsdGltZUZpbHRlciI6IlwiQXBwbGVcIiIsInJlYWx0aW1lRmlsdGVycyI6WyJcIkFwcGxlXCIiXSwicmVhbHRpbWVDYXBhYmlsaXRpZXMiOltdLCJuZXdzd2lyZSI6InZhbHVlIiwibmV3c3Jvb20iOiJ2YWx1ZSIsIndlYm5ld3MiOiJ2YWx1ZSIsImZpbHRlciI6InZhbHVlIiwiaXNSZWNvbW1lbmRlZCI6ZmFsc2UsImhhc0NoaWxkcmVuIjpmYWxzZX0seyJpbnB1dCI6ImRhdGVyYW5nZTpcIjIwMTktMDYtMDEsMjAxOS0wNi0wN1wiIiwiY2F0ZWdvcnkiOiJEYXRlUmFuZ2UiLCJncm91cCI6Ik90aGVyRW50aXRpZXMiLCJpZCI6IjIwMTktMDYtMDFUMDA6MDA6MDAuMDAwWi8yMDE5LTA2LTA3VDIzOjU5OjU5LjAwMFoiLCJsYWJlbCI6ImJldHdlZW4gMjAxOS0wNi0wMSBhbmQgMjAxOS0wNi0wNyAyMzo1OTo1OSAoVVRDKSIsInJlYWRhYmxlIjoiMjAxOS0wNi0wMVQwMDowMDowMC4wMDBaLzIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInJlYWx0aW1lRmlsdGVyIjoiMjAxOS0wNi0wMVQwMDowMDowMC4wMDBaLzIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInJlYWx0aW1lQ2FwYWJpbGl0aWVzIjpbXSwibmV3c3dpcmUiOiJ2YWx1ZSIsIm5ld3Nyb29tIjoidmFsdWUiLCJ3ZWJuZXdzIjoidmFsdWUiLCJmaWx0ZXIiOiJ2YWx1ZSIsImlzUmVjb21tZW5kZWQiOmZhbHNlLCJoYXNDaGlsZHJlbiI6ZmFsc2V9XX0sInBhcmFtIjp7InJlcG9zaXRvcmllcyI6WyJOZXdzV2lyZSJdLCJkYXRlRnJvbSI6IjIwMTktMDYtMDFUMDA6MDA6MDAuMDAwWiIsImRhdGVUbyI6IjIwMTktMDYtMDdUMjM6NTk6NTkuMDAwWiIsInNlYXJjaEluIjoiSGVhZGxpbmVPbmx5IiwibnVtYmVyIjoxMCwicmVzZWFyY2hSZXN1bHRzIjpmYWxzZSwic25pcHBldHMiOmZhbHNlLCJzb3J0T3JkZXIiOiJuZXdUb09sZCIsImFyY2hpdmUiOmZhbHNlLCJ0cmFja2luZyI6ImF1dG8iLCJzZW50aW1lbnQiOmZhbHNlLCJyZWxldmFuY2UiOiJIaWdoIn0sInBpdm90Ijp7InNvcnRPcmRlciI6Im9sZFRvTmV3IiwibmV3c3Jvb21Db250ZXh0IjpudWxsLCJuZXdzcm9vbU9mZnNldCI6MCwibmV3c3dpcmVQaXZvdCI6eyJkYXRldGltZSI6IjIwMTktMDYtMDdUMjM6NTU6MDYuOTI5WiIsInBuYWMiOiJuTlJBOHdvNW51In0sImZlZGVyYXRlZENvbnRleHQiOm51bGwsImluaXRpYWxTb3J0T3JkZXIiOiJuZXdUb09sZCJ9fQ=="
+  }
+}

@@ -1,0 +1,2141 @@
+{
+  "newsItem": {
+    "_conformance": "power",
+    "_guid": "tag:reuters.com,2019:newsml_L2N237053",
+    "_standard": "NewsML-G2",
+    "_standardversion": "2.18",
+    "_version": 12,
+    "_xml:lang": "en",
+    "catalogRef": [
+      {
+        "_href": "http://xml.media.reuters.com/g2-standards/catalogs/ReutersMedia_G2-Standards-Catalog_v1.xml"
+      }
+    ],
+    "rightsInfo": [
+      {
+        "copyrightHolder": {
+          "_literal": "Thomson Reuters"
+        },
+        "copyrightNotice": [
+          {
+            "$": "(c) Copyright Thomson Reuters 2019. Click For Restrictions - https://agency.reuters.com/en/copyright.html"
+          }
+        ],
+        "usageTerms": [
+          {
+            "$": "This file is provided for Reuters internal consumers only; its structure and detail are defined by the Reuters Strategic Format XSD (https://thehub.thomsonreuters.com/docs/DOC-768400)."
+          }
+        ]
+      }
+    ],
+    "itemMeta": {
+      "itemMetaExtProperty": [
+        {
+          "_id": "mdx1",
+          "_rel": "extCptRel:hasMduMinorVersion",
+          "_value": "4",
+          "_valuedatatype": "xs:positiveInteger",
+          "_creator": "sys:Swift",
+          "related": [
+            {
+              "_rel": "extCptRel:hasRelatedTimestamp",
+              "_value": "2019-05-31T19:13:06.949Z",
+              "_valuedatatype": "xs:dateTime"
+            }
+          ]
+        }
+      ],
+      "itemClass": {
+        "_qcode": "ninat:text",
+        "_rtr:msgType": "R"
+      },
+      "provider": {
+        "_literal": "reuters.com"
+      },
+      "versionCreated": {
+        "$": "2019-05-31T08:41:59Z"
+      },
+      "firstCreated": {
+        "$": "2019-05-31T05:35:05Z"
+      },
+      "pubStatus": {
+        "_qcode": "stat:usable"
+      },
+      "role": {
+        "_qcode": "itemRole:N"
+      },
+      "fileName": {
+        "$": "2019-05-31T084159Z_12_L2N237053_RTRLYNXT_0_USA-TRADE-MEXICO.XML"
+      },
+      "generator": [
+        {
+          "_versioninfo": "1.0.0.21",
+          "$": "LYNX:autRepub:001"
+        }
+      ],
+      "profile": {
+        "_versioninfo": "00.00.01",
+        "$": "SNI-Text"
+      },
+      "service": [
+        {
+          "_qcode": "svc:RTR_TNS"
+        }
+      ],
+      "title": [
+        {
+          "$": "WRAPUP 2-Trump vows rapid, high tariffs on Mexico unless illegal immigration ends"
+        }
+      ],
+      "signal": [
+        {
+          "_qcode": "edStat:U"
+        },
+        {
+          "_qcode": "prodId:TXT"
+        },
+        {
+          "_qcode": "pmt:text"
+        },
+        {
+          "_qcode": "var:itemTrans"
+        },
+        {
+          "_qcode": "sic:CPX"
+        }
+      ],
+      "link": [
+        {
+          "_contenttype": "application/vnd.iptc.g2.newsitem+xml",
+          "_rel": "irel:translatedFrom",
+          "_residref": "tag:reuters.com,2019:newsml_L2N2370BR",
+          "_rtr:id": "L2N2370BR",
+          "_rtr:type": "idType:USN",
+          "_version": 1
+        },
+        {
+          "_contenttype": "application/vnd.iptc.g2.newsitem+xml",
+          "_rel": "irelEd:translationOf",
+          "_residref": "e51e75b3-9783-e911-4fa0-2150569300bb",
+          "_rtr:id": "e51e75b3-9783-e911-4fa0-2150569300bb",
+          "_rtr:type": "idType:EAID",
+          "_version": 1
+        },
+        {
+          "_contenttype": "application/vnd.iptc.g2.newsitem+xml",
+          "_rel": "irel:previousVersion",
+          "_residref": "tag:reuters.com,2019:newsml_L2N237053",
+          "_rtr:id": "L2N237053",
+          "_rtr:type": "idType:USN",
+          "_version": 6
+        },
+        {
+          "_contenttype": "application/vnd.iptc.g2.newsitem+xml",
+          "_rel": "irelEd:wrapupOf",
+          "_residref": "45d2d206-6283-e911-e49a-215056933aa7",
+          "_rtr:id": "45d2d206-6283-e911-e49a-215056933aa7",
+          "_rtr:type": "idType:EAID",
+          "_version": 1
+        },
+        {
+          "_how": "howextr:tool",
+          "_rel": "irel:wasPackagedIn",
+          "_residref": "urn:newsml:reuters.com:20030314:SPDOC_75442142003",
+          "_why": "why:inferred",
+          "instanceOf": [
+            {
+              "_qcode": "RR:3222",
+              "_type": "cptType:12"
+            }
+          ],
+          "genre": [
+            {
+              "_qcode": "M:3Z"
+            }
+          ]
+        },
+        {
+          "_how": "howextr:tool",
+          "_rel": "irel:wasPackagedIn",
+          "_residref": "urn:newsml:reuters.com:20020924:SPDOC_56007242002",
+          "_why": "why:inferred",
+          "instanceOf": [
+            {
+              "_qcode": "RR:1302",
+              "_type": "cptType:12"
+            }
+          ],
+          "genre": [
+            {
+              "_qcode": "M:3Z"
+            }
+          ]
+        },
+        {
+          "_how": "howextr:tool",
+          "_rel": "irel:wasPackagedIn",
+          "_residref": "urn:newsml:reuters.com:20020924:SPDOC_55977242002",
+          "_why": "why:inferred",
+          "instanceOf": [
+            {
+              "_qcode": "RR:1305",
+              "_type": "cptType:12"
+            }
+          ],
+          "genre": [
+            {
+              "_qcode": "M:3Z"
+            }
+          ]
+        },
+        {
+          "_how": "howextr:tool",
+          "_rel": "irel:wasPackagedIn",
+          "_residref": "urn:newsml:reuters.com:20020924:SPDOC_56045242002",
+          "_why": "why:inferred",
+          "instanceOf": [
+            {
+              "_qcode": "RR:8999",
+              "_type": "cptType:12"
+            }
+          ],
+          "genre": [
+            {
+              "_qcode": "M:3Z"
+            }
+          ]
+        },
+        {
+          "_how": "howextr:tool",
+          "_rel": "irel:wasPackagedIn",
+          "_residref": "urn:newsml:reuters.com:20090513:SPDOC_1788511320091",
+          "_why": "why:inferred",
+          "instanceOf": [
+            {
+              "_qcode": "RR:5847",
+              "_type": "cptType:12"
+            }
+          ],
+          "genre": [
+            {
+              "_qcode": "M:3Z"
+            }
+          ]
+        }
+      ],
+      "rtr:internal": {
+        "itemMetaExtProperty": [
+          {
+            "_rel": "extCptRel:hasRsfVersion",
+            "_value": "1.6.2",
+            "_valuedatatype": "xs:string"
+          }
+        ]
+      },
+      "rtr:versionedId": [
+        {
+          "_guid": "tag:reuters.com,2019:newsml_L2N237053:12"
+        }
+      ]
+    },
+    "contentMeta": {
+      "creditline": [
+        {
+          "$": "Reuters"
+        }
+      ],
+      "keyword": [
+        {
+          "_id": "s1m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Andrés Manuel López Obrador"
+        },
+        {
+          "_id": "s2m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Canada–United States trade relations"
+        },
+        {
+          "_id": "s3m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Contents"
+        },
+        {
+          "_id": "s4m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Donald Trump"
+        },
+        {
+          "_id": "s5m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Economy of North America"
+        },
+        {
+          "_id": "s6m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Free trade agreements of Canada"
+        },
+        {
+          "_id": "s7m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Free trade areas"
+        },
+        {
+          "_id": "s8m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "International relations"
+        },
+        {
+          "_id": "s9m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "International trade"
+        },
+        {
+          "_id": "s10m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "North American Free Trade Agreement"
+        },
+        {
+          "_id": "s11m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "Trade blocs"
+        },
+        {
+          "_id": "s12m160",
+          "_role": "descRole:socialTag",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "$": "United States–Mexico–Canada Agreement"
+        },
+        {
+          "$": "USA"
+        },
+        {
+          "$": "TRADE"
+        },
+        {
+          "$": "MEXICO"
+        },
+        {
+          "$": "WRAPUP"
+        },
+        {
+          "$": "2,"
+        },
+        {
+          "$": "PIX"
+        }
+      ],
+      "subject": [
+        {
+          "_id": "s1m930",
+          "_qcode": "M:1RS",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_id": "s3m130",
+          "_qcode": "M:1YI",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_id": "s1m173",
+          "_qcode": "M:2B",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:1",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:2V",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:6J",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:B1",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:G",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "G:K",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:1L",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:1R7",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:4",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:AJ",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:D7",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:E7",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:LK",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:N",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:R",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:RE",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "M:RF",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 80,
+          "_how": "howextr:assisted",
+          "_qcode": "M:1RT",
+          "_relevance": 80,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 96,
+          "_how": "howextr:tool",
+          "_qcode": "G:4",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 70,
+          "_how": "howextr:tool",
+          "_qcode": "G:41",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 33,
+          "_how": "howextr:tool",
+          "_qcode": "G:8W",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 23,
+          "_how": "howextr:tool",
+          "_qcode": "M:8N",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 73,
+          "_how": "howextr:tool",
+          "_qcode": "M:C",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 98,
+          "_how": "howextr:tool",
+          "_qcode": "M:EG",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 73,
+          "_how": "howextr:tool",
+          "_qcode": "M:M0",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 84,
+          "_how": "howextr:tool",
+          "_qcode": "M:M2",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 57,
+          "_how": "howextr:tool",
+          "_qcode": "M:N5",
+          "_relevance": 0,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "G:7",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "G:9",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "G:6",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "G:S",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "M:MR",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "M:DU",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "M:EL",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 60,
+          "_how": "howextr:assisted",
+          "_qcode": "M:I4",
+          "_relevance": 60,
+          "_why": "why:ancestor"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "R:MXN=",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "R:US10YT=RR",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "a1312cat:w",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_qcode": "M:1QD"
+        }
+      ],
+      "language": [
+        {
+          "_tag": "en"
+        }
+      ],
+      "creator": [
+        {
+          "_qcode": "NS:RTRS",
+          "_role": "cRole:source"
+        }
+      ],
+      "urgency": {
+        "$": 3
+      },
+      "infoSource": [
+        {
+          "_qcode": "NS:RTRS",
+          "_role": "cRole:source"
+        },
+        {
+          "_qcode": "NS:RTRS",
+          "_role": "cRole:origProv"
+        }
+      ],
+      "contributor": [
+        {
+          "_qcode": "NS:RTRS",
+          "_role": "cRole:enhancer",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_qcode": "mailto:Steve.a.holland@thomsonreuters.com",
+          "_role": "cRole:rep"
+        },
+        {
+          "_qcode": "mailto:frank.daniel@thomsonreuters.com",
+          "_role": "cRole:rep"
+        }
+      ],
+      "audience": [
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:C",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:D",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:E",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:M",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:O",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:T",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:U",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:OIL",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:NAT",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:UKI",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:GRO",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:MTL",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:SOF",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "NP:G",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "NP:USDN",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:person",
+          "_qcode": "NP:Z",
+          "_relevance": 100,
+          "_why": "why:direct"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:PSC",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:RNP",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:DNP",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        },
+        {
+          "_confidence": 100,
+          "_how": "howextr:assisted",
+          "_qcode": "NP:PGE",
+          "_relevance": 100,
+          "_why": "why:inferred"
+        }
+      ],
+      "altId": [
+        {
+          "_rtr:isOriginal": 1,
+          "_type": "idType:USN",
+          "$": "L2N237053"
+        },
+        {
+          "_rtr:isOriginal": 1,
+          "_type": "idType:EAID",
+          "$": "7ab50258-7e83-e911-1583-315056b4621e"
+        }
+      ],
+      "slugline": [
+        {
+          "_id": "s1m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 3,
+          "_role": "newslineRole:auto",
+          "_confidence": 56,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-IMMIGRATION/MEXICO"
+        },
+        {
+          "_id": "s2m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 1,
+          "_role": "newslineRole:auto",
+          "_confidence": 58,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-IMMIGRATION/TRUMP"
+        },
+        {
+          "_id": "s3m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 5,
+          "_role": "newslineRole:auto",
+          "_confidence": 54,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-IMMIGRATION/TRUMP-BORDER"
+        },
+        {
+          "_id": "s4m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 2,
+          "_role": "newslineRole:auto",
+          "_confidence": 56,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-IMMIGRATION/TRUMP-MEXICO"
+        },
+        {
+          "_id": "s5m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 8,
+          "_role": "newslineRole:auto",
+          "_confidence": 52,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-IMMIGRATION/TRUMP-TARIFFS"
+        },
+        {
+          "_id": "s6m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 6,
+          "_role": "newslineRole:auto",
+          "_confidence": 53,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-TRADE/CHINA"
+        },
+        {
+          "_id": "s7m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 7,
+          "_role": "newslineRole:auto",
+          "_confidence": 53,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-TRADE/CHINA-TRUMP"
+        },
+        {
+          "_id": "s8m960",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_rank": 4,
+          "_role": "newslineRole:auto",
+          "_confidence": 54,
+          "_separator": "-",
+          "_creator": "sys:Swift",
+          "$": "USA-TRADE/MEXICO"
+        },
+        {
+          "_separator": "-",
+          "$": "USA-TRADE/MEXICO (WRAPUP 2, PIX)"
+        }
+      ],
+      "headline": [
+        {
+          "$": "WRAPUP 2<span class=\"tr-nl-sep\">-</span>Trump vows rapid, high tariffs on Mexico unless illegal immigration ends"
+        }
+      ],
+      "dateline": [
+        {
+          "$": "WASHINGTON/MEXICO CITY, May 31 (Reuters)"
+        }
+      ],
+      "by": [
+        {
+          "$": "By <inline qcode=\"mailto:Steve.a.holland@thomsonreuters.com\">Steve Holland</inline> and <inline qcode=\"mailto:frank.daniel@thomsonreuters.com\">Frank Jack Daniel</inline>"
+        }
+      ],
+      "contentMetaExtProperty": [
+        {
+          "_id": "s1m5",
+          "_rel": "extCptRel:hasDedupeKey",
+          "_qcode": "dedupeKey:strict:-5d7f32674cf589ab2b4eb69adb638772a8ea572b",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "related": [
+            {
+              "_rel": "extCptRel:hasDedupeKeyType",
+              "_qcode": "dedupeKeyType:strict",
+              "_why": "why:inferred",
+              "_how": "howextr:tool",
+              "_creator": "sys:Swift"
+            }
+          ]
+        },
+        {
+          "_id": "s1m23",
+          "_rel": "extCptRel:hasDedupeKey",
+          "_qcode": "dedupeKey:eaid:7ab50258-7e83-e911-1583-315056b4621e",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift",
+          "related": [
+            {
+              "_rel": "extCptRel:hasDedupeKeyType",
+              "_qcode": "dedupeKeyType:eaid",
+              "_why": "why:inferred",
+              "_how": "howextr:tool",
+              "_creator": "sys:Swift"
+            }
+          ]
+        },
+        {
+          "_id": "s1m951",
+          "_rel": "extCptRel:hasSentimentPositive",
+          "_value": "0.0701932",
+          "_valuedatatype": "xs:decimal",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_id": "s1m952",
+          "_rel": "extCptRel:hasSentimentNegative",
+          "_value": "0.79308",
+          "_valuedatatype": "xs:decimal",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_id": "s1m953",
+          "_rel": "extCptRel:hasSentimentNeutral",
+          "_value": "0.136726",
+          "_valuedatatype": "xs:decimal",
+          "_why": "why:inferred",
+          "_how": "howextr:tool",
+          "_creator": "sys:Swift"
+        },
+        {
+          "_rel": "extCptRel:hasRestrictedHeadlineLang",
+          "_value": "en",
+          "_valuedatatype": "xs:string"
+        },
+        {
+          "_rel": "extCptRel:hasRestrictedContentLang",
+          "_value": "en",
+          "_valuedatatype": "xs:string"
+        }
+      ],
+      "rtr:internal": {
+        "audience": [
+          {
+            "_qcode": "T1NP:RT",
+            "related": [
+              {
+                "_qcode": "T1SubNP:NAW",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RNA",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTD",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTE",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTF",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTG",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTM",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTO",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTT",
+                "_rel": "extCptRel:hasT1SubProductId"
+              },
+              {
+                "_qcode": "T1SubNP:RTX",
+                "_rel": "extCptRel:hasT1SubProductId"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "derivedFrom": [
+      {
+        "_idrefs": "s1m5 mdx1 s1m23",
+        "broader": [
+          {
+            "_qcode": "mduAction:enrichMetadata"
+          }
+        ],
+        "related": [
+          {
+            "_rel": "extCptRel:hasWorker",
+            "related": [
+              {
+                "_rel": "skos:broader",
+                "_qcode": "sys:Swift"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_idrefs": "s1m160 s2m160 s3m160 s4m160 s5m160 s6m160 s7m160 s8m160 s9m160 s3m130 s10m160 s11m160 s1m960 s2m960 s3m960 s4m960 s5m960 s6m960 s7m960 s8m960 s12m160",
+        "broader": [
+          {
+            "_qcode": "mduAction:enrichMetadata"
+          }
+        ],
+        "related": [
+          {
+            "_rel": "extCptRel:hasWorker",
+            "related": [
+              {
+                "_rel": "skos:broader",
+                "_qcode": "sys:oneCalais"
+              },
+              {
+                "_rel": "extCptRel:hasWorkerDetail",
+                "_qcode": "oneCalaisWorker:allMetadataProfileSwift"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_idrefs": "s1m930",
+        "broader": [
+          {
+            "_qcode": "mduAction:enrichMetadata"
+          }
+        ],
+        "related": [
+          {
+            "_rel": "extCptRel:hasWorker",
+            "related": [
+              {
+                "_rel": "skos:broader",
+                "_qcode": "sys:Swift"
+              },
+              {
+                "_rel": "extCptRel:hasWorkerDetail",
+                "_qcode": "swiftWorker:magenta"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_idrefs": "s1m173",
+        "broader": [
+          {
+            "_qcode": "mduAction:enrichMetadata"
+          }
+        ],
+        "related": [
+          {
+            "_rel": "extCptRel:hasWorker",
+            "related": [
+              {
+                "_rel": "skos:broader",
+                "_qcode": "sys:Swift"
+              },
+              {
+                "_rel": "extCptRel:hasWorkerDetail",
+                "_qcode": "swiftWorker:altProdRicTopNewsRules"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_idrefs": "s1m951 s1m952 s1m953",
+        "broader": [
+          {
+            "_qcode": "mduAction:enrichMetadata"
+          }
+        ],
+        "related": [
+          {
+            "_rel": "extCptRel:hasWorker",
+            "related": [
+              {
+                "_rel": "skos:broader",
+                "_qcode": "sys:TRNA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "assert": [
+      {
+        "_qcode": "M:1RS",
+        "_why": "why:inferred",
+        "_how": "howextr:tool",
+        "_creator": "sys:Swift",
+        "sameAs": [
+          {
+            "_qcode": "N2:MOSTRD"
+          }
+        ],
+        "name": [
+          {
+            "$": "Most Read"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:1YI",
+        "_why": "why:inferred",
+        "_how": "howextr:tool",
+        "_creator": "sys:Swift",
+        "sameAs": [
+          {
+            "_qcode": "N2:CTRYR"
+          }
+        ],
+        "name": [
+          {
+            "$": "Country Risk"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:78"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:2B",
+        "_why": "why:inferred",
+        "_how": "howextr:tool",
+        "_creator": "sys:Swift",
+        "sameAs": [
+          {
+            "_qcode": "N2:SIG"
+          }
+        ],
+        "name": [
+          {
+            "$": "Significant Company News"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "mailto:Steve.a.holland@thomsonreuters.com",
+        "name": [
+          {
+            "$": "Steve Holland"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:9"
+          }
+        ],
+        "personDetails": [
+          {
+            "contactInfo": [
+              {
+                "email": [
+                  {
+                    "$": "Steve.a.holland@thomsonreuters.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_qcode": "mailto:frank.daniel@thomsonreuters.com",
+        "name": [
+          {
+            "$": "Frank Jack Daniel"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:9"
+          }
+        ],
+        "personDetails": [
+          {
+            "contactInfo": [
+              {
+                "email": [
+                  {
+                    "$": "frank.daniel@thomsonreuters.com"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_qcode": "P:4295876746",
+        "name": [
+          {
+            "$": "Toyota Motor Corp"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ],
+        "organisationDetails": [
+          {
+            "hasInstrument": [
+              {
+                "_symbol": "7203.T",
+                "_symbolsrc": "symSrc:TR",
+                "_type": "symType:RIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_qcode": "P:4295877341",
+        "name": [
+          {
+            "$": "Nissan Motor Co Ltd"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ],
+        "organisationDetails": [
+          {
+            "hasInstrument": [
+              {
+                "_symbol": "7201.T",
+                "_symbolsrc": "symSrc:TR",
+                "_type": "symType:RIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_qcode": "P:5000058303",
+        "name": [
+          {
+            "$": "Honda Motor Co Ltd"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ],
+        "organisationDetails": [
+          {
+            "hasInstrument": [
+              {
+                "_symbol": "7267.T",
+                "_symbolsrc": "symSrc:TR",
+                "_type": "symType:RIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_qcode": "P:4295877318",
+        "name": [
+          {
+            "$": "Mazda Motor Corp"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ],
+        "organisationDetails": [
+          {
+            "hasInstrument": [
+              {
+                "_symbol": "7261.T",
+                "_symbolsrc": "symSrc:TR",
+                "_type": "symType:RIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_literal": "ESv1",
+        "name": [
+          {
+            "$": "ESv1"
+          }
+        ]
+      },
+      {
+        "_literal": "US10YT=RR",
+        "name": [
+          {
+            "$": "US10YT=RR"
+          }
+        ]
+      },
+      {
+        "_literal": "MXN=",
+        "name": [
+          {
+            "$": "MXN="
+          }
+        ]
+      },
+      {
+        "_qcode": "USN:nL4N2364TQ",
+        "sameAs": [
+          {
+            "_qcode": "PNAC:nnL4N2364TQ"
+          }
+        ]
+      },
+      {
+        "_qcode": "USN:nT9N22K01Z",
+        "sameAs": [
+          {
+            "_qcode": "PNAC:nnT9N22K01Z"
+          }
+        ]
+      },
+      {
+        "_qcode": "USN:L4N23713E",
+        "sameAs": [
+          {
+            "_qcode": "PNAC:nL4N23713E"
+          }
+        ]
+      },
+      {
+        "_qcode": "USN:L4N2370ML",
+        "sameAs": [
+          {
+            "_qcode": "PNAC:nL4N2370ML"
+          }
+        ]
+      },
+      {
+        "_qcode": "NS:RTRS",
+        "name": [
+          {
+            "$": "Reuters"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:41"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:1",
+        "sameAs": [
+          {
+            "_qcode": "N2:EMRG"
+          }
+        ],
+        "name": [
+          {
+            "$": "Emerging Market Countries"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:2V",
+        "sameAs": [
+          {
+            "_qcode": "N2:MX"
+          }
+        ],
+        "name": [
+          {
+            "$": "Mexico"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:6J",
+        "sameAs": [
+          {
+            "_qcode": "N2:US"
+          }
+        ],
+        "name": [
+          {
+            "$": "United States"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:B1",
+        "sameAs": [
+          {
+            "_qcode": "N2:CN"
+          }
+        ],
+        "name": [
+          {
+            "$": "China (PRC)"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:G",
+        "sameAs": [
+          {
+            "_qcode": "N2:LATAM"
+          }
+        ],
+        "name": [
+          {
+            "$": "South America / Central America"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:K",
+        "sameAs": [
+          {
+            "_qcode": "N2:ASIA"
+          }
+        ],
+        "name": [
+          {
+            "$": "Asia / Pacific"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:1L",
+        "sameAs": [
+          {
+            "_qcode": "N2:NEWS1"
+          }
+        ],
+        "name": [
+          {
+            "$": "Major News"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:1R7",
+        "sameAs": [
+          {
+            "_qcode": "N2:POTUS"
+          }
+        ],
+        "name": [
+          {
+            "$": "US President"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:4",
+        "sameAs": [
+          {
+            "_qcode": "N2:IMM"
+          }
+        ],
+        "name": [
+          {
+            "$": "Asylum / Immigration / Refugees"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:AJ",
+        "sameAs": [
+          {
+            "_qcode": "N2:WASH"
+          }
+        ],
+        "name": [
+          {
+            "$": "US Government News"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:D7",
+        "sameAs": [
+          {
+            "_qcode": "N2:PXP"
+          }
+        ],
+        "name": [
+          {
+            "$": "Picture Available"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:E7",
+        "sameAs": [
+          {
+            "_qcode": "N2:GEN"
+          }
+        ],
+        "name": [
+          {
+            "$": "General News"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:LK",
+        "sameAs": [
+          {
+            "_qcode": "N2:SECUR"
+          }
+        ],
+        "name": [
+          {
+            "$": "International / National Security"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:N",
+        "sameAs": [
+          {
+            "_qcode": "N2:POL"
+          }
+        ],
+        "name": [
+          {
+            "$": "Government / Politics"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:R",
+        "sameAs": [
+          {
+            "_qcode": "N2:TRD"
+          }
+        ],
+        "name": [
+          {
+            "$": "International Trade"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:RE",
+        "sameAs": [
+          {
+            "_qcode": "N2:SEN"
+          }
+        ],
+        "name": [
+          {
+            "$": "US Senate"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:RF",
+        "sameAs": [
+          {
+            "_qcode": "N2:HREP"
+          }
+        ],
+        "name": [
+          {
+            "$": "US House of Representatives"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:1RT",
+        "sameAs": [
+          {
+            "_qcode": "N2:TOPNWS"
+          }
+        ],
+        "name": [
+          {
+            "$": "Reuters Top News"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:4",
+        "sameAs": [
+          {
+            "_qcode": "N2:AMERS"
+          }
+        ],
+        "name": [
+          {
+            "$": "Americas"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:41",
+        "sameAs": [
+          {
+            "_qcode": "N2:JP"
+          }
+        ],
+        "name": [
+          {
+            "$": "Japan"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:8W",
+        "sameAs": [
+          {
+            "_qcode": "N2:CA"
+          }
+        ],
+        "name": [
+          {
+            "$": "Canada"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:8N",
+        "sameAs": [
+          {
+            "_qcode": "N2:UN1"
+          }
+        ],
+        "name": [
+          {
+            "$": "United Nations"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:8"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:C",
+        "sameAs": [
+          {
+            "_qcode": "N2:DIP"
+          }
+        ],
+        "name": [
+          {
+            "$": "Diplomacy / Foreign Policy"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:EG",
+        "sameAs": [
+          {
+            "_qcode": "N2:TRF"
+          }
+        ],
+        "name": [
+          {
+            "$": "Tariffs"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:M0",
+        "sameAs": [
+          {
+            "_qcode": "N2:HRGT"
+          }
+        ],
+        "name": [
+          {
+            "$": "Human Rights / Civil Rights"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:M2",
+        "sameAs": [
+          {
+            "_qcode": "N2:RACR"
+          }
+        ],
+        "name": [
+          {
+            "$": "Race Relations / Ethnic Issues"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:N5",
+        "sameAs": [
+          {
+            "_qcode": "N2:CIV"
+          }
+        ],
+        "name": [
+          {
+            "$": "Fundamental Rights / Civil Liberties"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:7",
+        "sameAs": [
+          {
+            "_qcode": "N2:CAMER"
+          }
+        ],
+        "name": [
+          {
+            "$": "Central America"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:9",
+        "sameAs": [
+          {
+            "_qcode": "N2:NAMER"
+          }
+        ],
+        "name": [
+          {
+            "$": "North America"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:6",
+        "sameAs": [
+          {
+            "_qcode": "N2:EASIA"
+          }
+        ],
+        "name": [
+          {
+            "$": "East Asia"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "G:S",
+        "sameAs": [
+          {
+            "_qcode": "N2:ASXPAC"
+          }
+        ],
+        "name": [
+          {
+            "$": "Asia"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:5"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:MR",
+        "sameAs": [
+          {
+            "_qcode": "N2:TOPCMB"
+          }
+        ],
+        "name": [
+          {
+            "$": "Top News"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:40"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:DU",
+        "sameAs": [
+          {
+            "_qcode": "N2:INTAG"
+          }
+        ],
+        "name": [
+          {
+            "$": "International Agencies / Treaty Groups"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:EL",
+        "sameAs": [
+          {
+            "_qcode": "N2:CWP"
+          }
+        ],
+        "name": [
+          {
+            "$": "Conflicts / War / Peace"
+          }
+        ]
+      },
+      {
+        "_qcode": "M:I4",
+        "sameAs": [
+          {
+            "_qcode": "N2:SOCI"
+          }
+        ],
+        "name": [
+          {
+            "$": "Society / Social Issues"
+          }
+        ]
+      },
+      {
+        "_qcode": "R:MXN=",
+        "name": [
+          {
+            "$": "MXN="
+          }
+        ]
+      },
+      {
+        "_qcode": "R:US10YT=RR",
+        "name": [
+          {
+            "$": "US10YT=RR"
+          }
+        ]
+      },
+      {
+        "_qcode": "a1312cat:w",
+        "name": [
+          {
+            "$": "Washington datelined general news"
+          }
+        ],
+        "type": [
+          {
+            "_qcode": "cptType:17"
+          }
+        ]
+      }
+    ],
+    "inlineRef": [
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x1",
+        "_qcode": "P:4295876746",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x2",
+        "_qcode": "P:4295877341",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x3",
+        "_qcode": "P:5000058303",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x4",
+        "_qcode": "P:4295877318",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x5",
+        "_literal": "ESv1",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x6",
+        "_literal": "US10YT=RR",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x7",
+        "_literal": "MXN=",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x8",
+        "_qcode": "USN:nL4N2364TQ",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x9",
+        "_qcode": "USN:nT9N22K01Z",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x10",
+        "_qcode": "USN:L4N23713E",
+        "_why": "why:direct"
+      },
+      {
+        "_how": "howextr:person",
+        "_idrefs": "x11",
+        "_qcode": "USN:L4N2370ML",
+        "_why": "why:direct"
+      }
+    ],
+    "contentSet": {
+      "inlineXML": [
+        {
+          "_contenttype": "application/xhtml+xml",
+          "$": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>WRAPUP 2-Trump vows rapid, high tariffs on Mexico unless illegal immigration ends</title></head><body><p class=\"tr-advisory\">Adds Chinese comment</p><p class=\"tr-by\">By Steve Holland and Frank Jack Daniel</p><p class=\"tr-story-p1\"><span class=\"tr-dateline\">WASHINGTON/MEXICO CITY, May 31 (Reuters)</span><span class=\"tr-dl-sep\"> - </span>U.S. President Donald Trump, responding to a surge of illegal immigrants across the southern border, vowed on Thursday to impose a tariff on all goods coming from Mexico, starting at 5% and ratcheting much higher until the flow of people ceases.</p><p>Trump&apos;s move dramatically escalates his battle to control a wave of tens of thousands of asylum seekers, including many Central American families fleeing poverty and violence, that has swelled alongside his promises to make it harder to get U.S. refuge and his efforts to build a wall on the Mexican border.</p><p>The announcement rattled investors who feared that worsening trade friction could hurt the global economy. The Mexican peso, U.S. stock index futures and Asian stock markets tumbled on the news, including the shares of Japanese automakers who ship cars from Mexico to the United States. <span class=\"tr-pnac\" id=\"x8\">nnL4N2364TQ</span></p><p>The president&apos;s decision, announced on Twitter and in a subsequent statement, was a direct challenge to Mexican President Andres Manuel Lopez Obrador and took the Mexican government by surprise on a day when it had started a formal process to ratify a trade deal with the United States and Canada (USMCA). </p><p>It raised the risk of devastating economic relations with the biggest U.S. trade partner for goods. Mexico, heavily dependent on cross-border trade, rose to that ranking as a result of Trump&apos;s trade war with China. </p><p>The measures against Mexico open up a new front on trade and if implemented are bound to trigger retaliation that would hit heartland, Trump-supporting farming and industrial states.</p><p>Higher tariffs will start at 5% on June 10 and increase monthly up to 25% on Oct. 1, unless Mexico takes immediate action, he said.</p><p>&quot;If the illegal migration crisis is alleviated through effective actions taken by Mexico, to be determined in our sole discretion and judgment, the tariffs will be removed,&quot; Trump said.</p><p>Lopez Obrador responded in a letter he posted on Twitter, calling Trump&apos;s policy of America First &quot;a fallacy&quot; and accusing him of turning the United States into a &quot;ghetto,&quot; that stigmatized and mistreated migrants.</p><p>&quot;President Trump, social problems are not resolved with taxes or coercive measures,&quot; he wrote, adding that a delegation led by Foreign Minister Marcelo Ebrard would travel to Washington on Friday. He did not threaten to retaliate, saying he wanted to avoid confrontation.</p><p>Lopez Obrador pushed back against Trump&apos;s assertion that Mexico let immigration happen through &quot;passive cooperation,&quot; saying: &quot;you know we are fulfilling our responsibility to stop (migrants) moving through our country, as much as possible and without violating human rights.&quot; </p><p>Determined to avoid a break down in Mexico&apos;s most important bilateral relationship, since Trump threatened to close the world&apos;s busiest land border over the migrant surge, Lopez Obrador&apos;s government has drastically tightened controls on the movement of migrants, detaining and deporting thousands in recent months, while calling for U.S. aid to tackle root causes.</p><p>&quot;We&apos;re in a good moment building a good relationship (with the United States) and this comes like a cold shower,&quot; said Mexico&apos;s deputy foreign minister for North America, Jesus Seade, who had been in Mexico&apos;s Senate delivering the USMCA trade deal for ratification shortly before the news broke.</p><p><span class=\"tr-strong\">In Beijing, Chinese foreign ministry spokesman Geng Shuang expressed sympathy with Mexico.</span></p><p><span class=\"tr-strong\">&quot;The United States has repeatedly taken trade bullying action. China is not the only victim,&quot; Geng told reporters.</span></p><p><br/></p><p>SIDING WITH HAWKS</p><p>Despite Trump&apos;s assertion that Mexico could easily end Central American immigration, its relatively small security forces, also struggling with a record level of gang violence and homicide, are having a hard time controlling the flows. </p><p>In the biggest migrant surge on the U.S-Mexican border in a decade, U.S. officials say 80,000 people are being held in custody with an average of 4,500 mostly Central American migrants arriving daily, overwhelming the ability of border patrol officials to handle them.<br/>A senior White House official said Trump was particularly concerned that U.S. border agents apprehended a group of 1,036 migrants as they illegally crossed the border from Mexico on Wednesday. Officials said it was the largest single group since October. Before unveiling the tariff threat, Trump posted a video purporting to be of the crossing on his Twitter feed. </p><p>A source close to Trump said there had been a debate inside the White House over whether to go forward with the new policy, with immigration hawks fighting for it and others urging a more diplomatic approach. Trump sided with the hawks.</p><p>&quot;The last thing he wants is to look weak,&quot; said the source, who spoke on condition of anonymity.</p><p>Trump’s directive also spelled the potential for chaos for his efforts to get the U.S. Congress to approve the USMCA deal, which he negotiated as a replacement to the North American Free Trade Agreement between the United States, Mexico and Canada.</p><p>Doug Ducey, the governor of Arizona, which shares a 370-mile (595-km) border with Mexico, said on Twitter that he spoke to the White House and it was time for Congress to act on border security and the United States-Mexico-Canada Agreement.</p><p>&quot;Everyone knows I am opposed to tariffs and deeply value Arizona’s relationship with Mexico. I prioritize national security and a solution to our humanitarian crisis at the border above commerce,&quot; he said on Twitter.</p><p>Trump said he was acting under the powers granted to him by the International Emergency Economic Powers Act. He campaigned for election in 2016 on a vow to crack down on immigration.</p><p>Jaime Serra, Mexico’s former trade minister who negotiated the original NAFTA, told Reuters the announcement was unacceptable and &quot;in total violation of NAFTA.” Another negotiator said Trump risked violating World Trade Organization rules.</p><p/><p>WHITE HOUSE WANTS ACTION &apos;TONIGHT&apos;</p><p>White House acting chief of staff Mick Mulvaney, asked in a conference call with reporters which products from Mexico could be affected by the tariffs, said: &quot;All of them.&quot;</p><p>Mulvaney added, &quot;We are interested in seeing the Mexican government act tonight, tomorrow.&quot;</p><p>Shares in Toyota Motor Corp <span class=\"tr-ric\" id=\"x1\">7203.T</span>, Nissan Motor Co <span class=\"tr-ric\" id=\"x2\">7201.T</span> and Honda Motor Co <span class=\"tr-ric\" id=\"x3\">7267.T</span> all fell around 3% or more, while Mazda Motor Co <span class=\"tr-ric\" id=\"x4\">7261.T</span> fell nearly 7%. All four operate vehicle assembly plants in Mexico. <span class=\"tr-pnac\" id=\"x9\">nnT9N22K01Z</span></p><p>&quot;Mexico is the U.S.&apos;s largest trading partner and a flare-up in trade tensions was definitely not on the market radar,&quot; said Sean Callow, a senior currency analyst at Westpac.</p><p>The benchmark S&amp;P 500 e-mini futures <span class=\"tr-legacy-usage-quote\" id=\"x5\">ESv1</span> dropped 0.82% to the lowest the contract has traded since early March. Investors scooped up safe assets, driving the yield on the 10-year U.S. Treasury note <span class=\"tr-legacy-usage-quote\" id=\"x6\">US10YT=RR</span> to 2.18%, the lowest since September 2017. </p><p>The dollar surged more than 2.5 percent against the Mexican peso <span class=\"tr-legacy-usage-quote\" id=\"x7\">MXN=</span>.</p><p><br/></p><div class=\"tr-sandwichbox\"><p>FACTBOX-Tariff wars: duties imposed by Trump and U.S. trading partners<span class=\"tr-pnac\" id=\"x10\">ID:nL4N23713E</span></p><p>GRAPHIC - Cross border trade between Mexico and the United States<a class=\"tr-link\" href=\"https://tmsnrt.rs/2V59n2R\">https://tmsnrt.rs/2V59n2R</a></p><p>BREAKINGVIEWS - One trade front too many<span class=\"tr-pnac\" id=\"x11\">ID:nL4N2370ML</span></p></div><p class=\"tr-signoff\"> (Reporting by Steve Holland, Eric Beech and Mohammed Zargham; additional reporting by Mica Rosenberg in New York,Noe Torres and Anthony Esposito in Mexico City, and Cate Cadell in Beijing<br/>Editing by Grant McCool and Clarence Fernandez)</p><p class=\"tr-contactinfo\"> ((<a class=\"tr-link tr-link-email\" href=\"mailto:M.Brice@thomsonreuters.com\">M.Brice@thomsonreuters.com</a>; +1-202-310-5675; ;))</p></body></html>"
+        }
+      ],
+      "inlineData": [
+        {
+          "_contenttype": "text/plain",
+          "_width": 64,
+          "_widthunit": "dimensionunit:characters",
+          "$": " (Adds Chinese comment)\n    By Steve Holland and Frank Jack Daniel\n    WASHINGTON/MEXICO CITY, May 31 (Reuters) - U.S. President\nDonald Trump, responding to a surge of illegal immigrants across\nthe southern border, vowed on Thursday to impose a tariff on all\ngoods coming from Mexico, starting at 5% and ratcheting much\nhigher until the flow of people ceases.\n    Trump's move dramatically escalates his battle to control a\nwave of tens of thousands of asylum seekers, including many\nCentral American families fleeing poverty and violence, that has\nswelled alongside his promises to make it harder to get U.S.\nrefuge and his efforts to build a wall on the Mexican border.\n    The announcement rattled investors who feared that worsening\ntrade friction could hurt the global economy. The Mexican peso,\nU.S. stock index futures and Asian stock markets tumbled on the\nnews, including the shares of Japanese automakers who ship cars\nfrom Mexico to the United States. [nnL4N2364TQ]\n    The president's decision, announced on Twitter and in a\nsubsequent statement, was a direct challenge to Mexican\nPresident Andres Manuel Lopez Obrador and took the Mexican\ngovernment by surprise on a day when it had started a formal\nprocess to ratify a trade deal with the United States and Canada\n(USMCA). \n    It raised the risk of devastating economic relations with\nthe biggest U.S. trade partner for goods. Mexico, heavily\ndependent on cross-border trade, rose to that ranking as a\nresult of Trump's trade war with China. \n    The measures against Mexico open up a new front on trade and\nif implemented are bound to trigger retaliation that would hit\nheartland, Trump-supporting farming and industrial states.\n    Higher tariffs will start at 5% on June 10 and increase\nmonthly up to 25% on Oct. 1, unless Mexico takes immediate\naction, he said.\n    \"If the illegal migration crisis is alleviated through\neffective actions taken by Mexico, to be determined in our sole\ndiscretion and judgment, the tariffs will be removed,\" Trump\nsaid.\n    Lopez Obrador responded in a letter he posted on Twitter,\ncalling Trump's policy of America First \"a fallacy\" and accusing\nhim of turning the United States into a \"ghetto,\" that\nstigmatized and mistreated migrants.\n    \"President Trump, social problems are not resolved with\ntaxes or coercive measures,\" he wrote, adding that a delegation\nled by Foreign Minister Marcelo Ebrard would travel to\nWashington on Friday. He did not threaten to retaliate, saying\nhe wanted to avoid confrontation.\n    Lopez Obrador pushed back against Trump's assertion that\nMexico let immigration happen through \"passive cooperation,\"\nsaying: \"you know we are fulfilling our responsibility to stop\n(migrants) moving through our country, as much as possible and\nwithout violating human rights.\" \n    Determined to avoid a break down in Mexico's most important\nbilateral relationship, since Trump threatened to close the\nworld's busiest land border over the migrant surge, Lopez\nObrador's government has drastically tightened controls on the\nmovement of migrants, detaining and deporting thousands in\nrecent months, while calling for U.S. aid to tackle root causes.\n    \"We're in a good moment building a good relationship (with\nthe United States) and this comes like a cold shower,\" said\nMexico's deputy foreign minister for North America, Jesus Seade,\nwho had been in Mexico's Senate delivering the USMCA trade deal\nfor ratification shortly before the news broke.\n    In Beijing, Chinese foreign ministry spokesman Geng Shuang\nexpressed sympathy with Mexico.\n    \"The United States has repeatedly taken trade bullying\naction. China is not the only victim,\" Geng told reporters.\n    \n    SIDING WITH HAWKS\n    Despite Trump's assertion that Mexico could easily end\nCentral American immigration, its relatively small security\nforces, also struggling with a record level of gang violence and\nhomicide, are having a hard time controlling the flows. \n    In the biggest migrant surge on the U.S-Mexican border in a\ndecade, U.S. officials say 80,000 people are being held in\ncustody with an average of 4,500 mostly Central American\nmigrants arriving daily, overwhelming the ability of border\npatrol officials to handle them.\n    A senior White House official said Trump was particularly\nconcerned that U.S. border agents apprehended a group of 1,036\nmigrants as they illegally crossed the border from Mexico on\nWednesday. Officials said it was the largest single group since\nOctober. Before unveiling the tariff threat, Trump posted a\nvideo purporting to be of the crossing on his Twitter feed. \n    A source close to Trump said there had been a debate inside\nthe White House over whether to go forward with the new policy,\nwith immigration hawks fighting for it and others urging a more\ndiplomatic approach. Trump sided with the hawks.\n    \"The last thing he wants is to look weak,\" said the source,\nwho spoke on condition of anonymity.\n    Trump’s directive also spelled the potential for chaos for\nhis efforts to get the U.S. Congress to approve the USMCA deal,\nwhich he negotiated as a replacement to the North American Free\nTrade Agreement between the United States, Mexico and Canada.\n    Doug Ducey, the governor of Arizona, which shares a 370-mile\n(595-km) border with Mexico, said on Twitter that he spoke to\nthe White House and it was time for Congress to act on border\nsecurity and the United States-Mexico-Canada Agreement.\n    \"Everyone knows I am opposed to tariffs and deeply value\nArizona’s relationship with Mexico. I prioritize national\nsecurity and a solution to our humanitarian crisis at the border\nabove commerce,\" he said on Twitter.\n    Trump said he was acting under the powers granted to him by\nthe International Emergency Economic Powers Act. He campaigned\nfor election in 2016 on a vow to crack down on immigration.\n    Jaime Serra, Mexico’s former trade minister who negotiated\nthe original NAFTA, told Reuters the announcement was\nunacceptable and \"in total violation of NAFTA.” Another\nnegotiator said Trump risked violating World Trade Organization\nrules.\n        \n    WHITE HOUSE WANTS ACTION 'TONIGHT'\n    White House acting chief of staff Mick Mulvaney, asked in a\nconference call with reporters which products from Mexico could\nbe affected by the tariffs, said: \"All of them.\"\n    Mulvaney added, \"We are interested in seeing the Mexican\ngovernment act tonight, tomorrow.\"\n    Shares in Toyota Motor Corp <7203.T>, Nissan Motor Co\n<7201.T> and Honda Motor Co <7267.T> all fell around 3% or more,\nwhile Mazda Motor Co <7261.T> fell nearly 7%. All four operate\nvehicle assembly plants in Mexico. [nnT9N22K01Z]\n    \"Mexico is the U.S.'s largest trading partner and a flare-up\nin trade tensions was definitely not on the market radar,\" said\nSean Callow, a senior currency analyst at Westpac.\n    The benchmark S&P 500 e-mini futures <ESv1> dropped 0.82% to\nthe lowest the contract has traded since early March. Investors\nscooped up safe assets, driving the yield on the 10-year U.S.\nTreasury note <US10YT=RR> to 2.18%, the lowest since September\n2017. \n    The dollar surged more than 2.5 percent against the Mexican\npeso <MXN=>.\n\n    <^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFACTBOX-Tariff wars: duties imposed by Trump and U.S. trading\npartners    [ID:nL4N23713E]\nGRAPHIC - Cross border trade between Mexico and the United\nStates    https://tmsnrt.rs/2V59n2R\nBREAKINGVIEWS - One trade front too many    [ID:nL4N2370ML]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^>\n (Reporting by Steve Holland, Eric Beech and Mohammed Zargham;\nadditional reporting by Mica Rosenberg in New York,Noe Torres\nand Anthony Esposito in Mexico City, and Cate Cadell in Beijing\nEditing by Grant McCool and Clarence Fernandez)\n ((mailto:M.Brice@thomsonreuters.com; +1-202-310-5675; ;))"
+        }
+      ]
+    }
+  },
+  "topNewsMetadata": null
+}

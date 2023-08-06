@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+{% for report in reports %}
+<script type="text/javascript" src="{{ report.src_js }}"></script>
+{% endfor %}
+</body>
+</html>

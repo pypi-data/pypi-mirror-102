@@ -1,0 +1,1911 @@
+1.BondContract
+	 instrumentDefinition:BondDefinition	(object)
+		 accruedCalculationMethod:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 adjustInterestToPaymentDate:string:enum
+			 ['Adjusted', 'Unadjusted']	(enum)
+		 amortizationSchedule:array:AmortizationItemDefinition	(items)
+			 amortizationFrequency:string:enum
+				 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+			 amortizationType:string:enum
+				 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+			 amount:number
+				 double	(format)
+			 endDate:string
+				 date	(format)
+			 remainingNotional:number
+				 double	(format)
+			 startDate:string
+				 date	(format)
+		 direction:string:enum
+			 ['Paid', 'Received']	(enum)
+		 endDate:string
+			 date-time	(format)
+		 firstAccrualDate:string
+			 date-time	(format)
+		 firstRegularPaymentDate:string
+			 date-time	(format)
+		 fixedRatePercent:number
+			 double	(format)
+		 indexCompoundingMethod:string:enum
+			 ['AdjustedCompounded', 'Average', 'Compounded', 'Constant', 'MexicanCompounded']	(enum)
+		 indexFixingLag:integer
+			 int32	(format)
+		 indexFixingRic:string
+		 indexResetFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 instrumentCode:string
+		 instrumentTag:string
+		 interestCalculationMethod:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 interestPaymentDelay:integer
+			 int32	(format)
+		 interestPaymentFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 interestType:string:enum
+			 ['Fixed', 'Float', 'Stepped']	(enum)
+		 isPerpetual:boolean
+		 issueDate:string
+			 date-time	(format)
+		 lastRegularPaymentDate:string
+			 date-time	(format)
+		 notionalAmount:number
+			 double	(format)
+		 notionalCcy:string
+		 paymentBusinessDayConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 paymentBusinessDays:string
+		 paymentRollConvention:string:enum
+			 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+		 spreadBp:number
+			 double	(format)
+		 stubRule:string:enum
+			 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+		 template:string
+	 instrumentType:string
+	 pricingParameters:BondPricingParameters	(object)
+		 adjustedCleanPrice:number
+			 double	(format)
+		 adjustedDirtyPrice:number
+			 double	(format)
+		 adjustedYieldPercent:number
+			 double	(format)
+		 applyTaxToFullPricing:boolean
+		 assetSwapSpreadBp:number
+			 double	(format)
+		 benchmarkAtIssuePrice:number
+			 double	(format)
+		 benchmarkAtIssueRic:string
+		 benchmarkAtIssueSpreadBp:number
+			 double	(format)
+		 benchmarkAtIssueYieldPercent:number
+			 double	(format)
+		 benchmarkAtRedemptionPrice:number
+			 double	(format)
+		 benchmarkAtRedemptionSpreadBp:number
+			 double	(format)
+		 benchmarkAtRedemptionYieldPercent:number
+			 double	(format)
+		 benchmarkYieldSelectionMode:string:enum
+			 ['Interpolate', 'Nearest']	(enum)
+		 cashAmount:number
+			 double	(format)
+		 cleanPrice:number
+			 double	(format)
+		 concessionFee:number
+			 double	(format)
+		 currentYieldPercent:number
+			 double	(format)
+		 dirtyPrice:number
+			 double	(format)
+		 discountMarginBp:number
+			 double	(format)
+		 discountPercent:number
+			 double	(format)
+		 edsfBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 edsfSpreadBp:number
+			 double	(format)
+		 efpBenchmarkPrice:number
+			 double	(format)
+		 efpBenchmarkRic:string
+		 efpBenchmarkYieldPercent:number
+			 double	(format)
+		 efpSpreadBp:number
+			 double	(format)
+		 fxPriceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 govCountryBenchmarkCurvePrice:number
+			 double	(format)
+		 govCountryBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 govCountrySpreadBp:number
+			 double	(format)
+		 governmentBenchmarkCurvePrice:number
+			 double	(format)
+		 governmentBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 governmentSpreadBp:number
+			 double	(format)
+		 issuerBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 issuerSpreadBp:number
+			 double	(format)
+		 marketValueInDealCcy:number
+			 double	(format)
+		 marketValueInReportCcy:number
+			 double	(format)
+		 netPrice:number
+			 double	(format)
+		 neutralYieldPercent:number
+			 double	(format)
+		 oisZcBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 oisZcSpreadBp:number
+			 double	(format)
+		 optionAdjustedSpreadBp:number
+			 double	(format)
+		 price:number
+			 double	(format)
+		 priceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 projectedIndexCalculationMethod:string:enum
+			 ['ConstantIndex', 'ForwardIndex']	(enum)
+		 quoteFallbackLogic:string:enum
+			 ['BestField', 'None']	(enum)
+		 quotedPrice:number
+			 double	(format)
+		 ratingBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 ratingSpreadBp:number
+			 double	(format)
+		 redemptionDate:string
+			 date-time	(format)
+		 redemptionDateType:string:enum
+			 ['RedemptionAtAverageLife', 'RedemptionAtBestDate', 'RedemptionAtCallDate', 'RedemptionAtCustomDate', 'RedemptionAtMakeWholeCallDate', 'RedemptionAtMaturityDate', 'RedemptionAtNextDate', 'RedemptionAtParDate', 'RedemptionAtPartialCallDate', 'RedemptionAtPartialPutDate', 'RedemptionAtPerpetuity', 'RedemptionAtPremiumDate', 'RedemptionAtPutDate', 'RedemptionAtSinkDate', 'RedemptionAtWorstDate']	(enum)
+		 roundingParameters:BondRoundingParameters	(object)
+			 accruedRounding:string:enum
+				 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+			 accruedRoundingType:string:enum
+				 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+			 priceRounding:string:enum
+				 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+			 priceRoundingType:string:enum
+				 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+			 spreadRounding:string:enum
+				 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+			 spreadRoundingType:string:enum
+				 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+			 yieldRounding:string:enum
+				 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+			 yieldRoundingType:string:enum
+				 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+		 sectorRatingBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 sectorRatingSpreadBp:number
+			 double	(format)
+		 settlementConvention:string
+		 simpleMarginBp:number
+			 double	(format)
+		 stripYieldPercent:number
+			 double	(format)
+		 swapBenchmarkCurveYieldPercent:number
+			 double	(format)
+		 swapSpreadBp:number
+			 double	(format)
+		 taxOnCapitalGainPercent:number
+			 double	(format)
+		 taxOnCouponPercent:number
+			 double	(format)
+		 taxOnPricePercent:number
+			 double	(format)
+		 taxOnYieldPercent:number
+			 double	(format)
+		 tradeDate:string
+			 date-time	(format)
+		 useSettlementDateFromQuote:boolean
+		 userDefinedBenchmarkPrice:number
+			 double	(format)
+		 userDefinedBenchmarkYieldPercent:number
+			 double	(format)
+		 userDefinedSpreadBp:number
+			 double	(format)
+		 valuationDate:string
+			 date-time	(format)
+		 yieldPercent:number
+			 double	(format)
+		 yieldType:string:enum
+			 ['Annual_Equivalent', 'Bond_Actual_364', 'Braess_Fangmeyer', 'Discount_Actual_360', 'Discount_Actual_365', 'Euroland', 'Isma', 'Japanese_Compounded', 'Japanese_Simple', 'MoneyMarket_Actual_360', 'MoneyMarket_Actual_365', 'MoneyMarket_Actual_Actual', 'Moosmueller', 'Native', 'Quarterly_Equivalent', 'Semiannual_Equivalent', 'TurkishCompounded', 'UsGovt', 'UsTBills', 'Weekend']	(enum)
+		 zSpreadBp:number
+			 double	(format)
+2.CapFloorContract
+	 instrumentDefinition:CapFloorDefinition	(object)
+		 adjustInterestToPaymentDate:string:enum
+			 ['Adjusted', 'Unadjusted']	(enum)
+		 amortizationSchedule:array:AmortizationItemDefinition	(items)
+			 amortizationFrequency:string:enum
+				 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+			 amortizationType:string:enum
+				 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+			 amount:number
+				 double	(format)
+			 endDate:string
+				 date	(format)
+			 remainingNotional:number
+				 double	(format)
+			 startDate:string
+				 date	(format)
+		 buySell:string:enum
+			 ['Buy', 'Sell']	(enum)
+		 capStrikePercent:number
+			 double	(format)
+		 endDate:string
+			 date-time	(format)
+		 floorStrikePercent:number
+			 double	(format)
+		 indexFixingLag:integer
+			 int32	(format)
+		 indexFixingRic:string
+		 indexName:string
+		 indexResetFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 indexResetType:string:enum
+			 ['InAdvance', 'InArrears']	(enum)
+		 indexTenor:string
+		 instrumentTag:string
+		 interestCalculationMethod:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 interestPaymentFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 notionalAmount:number
+			 double	(format)
+		 notionalCcy:string
+		 paymentBusinessDayConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 paymentRollConvention:string:enum
+			 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+		 startDate:string
+			 date-time	(format)
+		 stubRule:string:enum
+			 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+		 tenor:string
+	 instrumentType:string
+	 pricingParameters:CapFloorPricingParameters	(object)
+		 indexConvexityAdjustmentIntegrationMethod:string:enum
+			 ['RiemannSum', 'RungeKutta']	(enum)
+		 indexConvexityAdjustmentMethod:string:enum
+			 ['BlackScholes', 'LinearSwapModel', 'None', 'Replication']	(enum)
+		 marketValueInDealCcy:number
+			 double	(format)
+		 reportCcy:string
+		 skipFirstCapFloorlet:boolean
+		 valuationDate:string
+			 date-time	(format)
+3.CdsContract
+	 instrumentDefinition:CdsDefinition	(object)
+		 accruedBeginDate:string
+			 date-time	(format)
+		 adjustToIsdaEndDate:boolean
+		 cdsConvention:string:enum
+			 ['ISDA', 'UserDefined']	(enum)
+		 endDate:string
+			 date-time	(format)
+		 endDateMovingConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 instrumentCode:string
+		 instrumentTag:string
+		 premiumLeg:PremiumLegDefinition	(object)
+			 accruedCalculationMethod:string:enum
+				 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+			 accruedPaidOnDefault:boolean
+			 direction:string:enum
+				 ['Paid', 'Received']	(enum)
+			 firstRegularPaymentDate:string
+				 date-time	(format)
+			 fixedRatePercent:number
+				 double	(format)
+			 interestCalculationMethod:string:enum
+				 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+			 interestPaymentCcy:string
+			 interestPaymentFrequency:string:enum
+				 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+			 lastRegularPaymentDate:string
+				 date-time	(format)
+			 notionalAmount:number
+				 double	(format)
+			 notionalCcy:string
+			 paymentBusinessDayConvention:string:enum
+				 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+			 paymentBusinessDays:string
+			 stubRule:string:enum
+				 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+		 protectionLeg:ProtectionLegDefinition	(object)
+			 direction:string:enum
+				 ['Paid', 'Received']	(enum)
+			 docClause:string:enum
+				 ['CumRestruct03', 'CumRestruct14', 'ExRestruct03', 'ExRestruct14', 'ModModRestruct03', 'ModModRestruct14', 'ModifiedRestruct03', 'ModifiedRestruct14', 'None']	(enum)
+			 indexFactor:number
+				 double	(format)
+			 indexSeries:integer
+				 int32	(format)
+			 notionalAmount:number
+				 double	(format)
+			 notionalCcy:string
+			 recoveryRate:number
+				 double	(format)
+			 recoveryRatePercent:number
+				 double	(format)
+			 referenceEntity:string
+			 seniority:string:enum
+				 ['JuniorSubordinated', 'None', 'Preference', 'Secured', 'SeniorUnsecured', 'Subordinated']	(enum)
+			 settlementConvention:string
+		 startDate:string
+			 date-time	(format)
+		 startDateMovingConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 stepInDate:string
+			 date-time	(format)
+		 tenor:string
+		 tradeDate:string
+			 date-time	(format)
+	 instrumentType:string
+	 pricingParameters:CdsPricingParameters	(object)
+		 cashAmountInDealCcy:number
+			 double	(format)
+		 cleanPricePercent:number
+			 double	(format)
+		 conventionalSpreadBp:number
+			 double	(format)
+		 upfrontAmountInDealCcy:number
+			 double	(format)
+		 upfrontPercent:number
+			 double	(format)
+		 valuationDate:string
+			 date-time	(format)
+4.EtiOptionDefinition
+	 asianDefinition:EtiOptionFixingInfo	(object)
+		 averageSoFar:number
+			 double	(format)
+		 averageType:string:enum
+			 ['ArithmeticRate', 'ArithmeticStrike', 'GeometricRate', 'GeometricStrike']	(enum)
+		 fixingCalendar:string
+		 fixingEndDate:string
+			 date-time	(format)
+		 fixingFrequency:string:enum
+			 ['Annual', 'BiWeekly', 'Daily', 'Monthly', 'Quaterly', 'SemiAnnual', 'Weekly']	(enum)
+		 fixingStartDate:string
+			 date-time	(format)
+		 includeHolidays:boolean
+		 includeWeekEnds:boolean
+	 barrierDefinition:EtiOptionBarrierDefinition	(object)
+		 barrierStyle:string:enum
+			 ['American', 'European', 'None']	(enum)
+		 inOrOut:string:enum
+			 ['In', 'Out']	(enum)
+		 level:number
+			 double	(format)
+		 upOrDown:string:enum
+			 ['Down', 'Up']	(enum)
+	 binaryDefinition:EtiOptionBinaryDefinition	(object)
+		 binaryType:string:enum
+			 ['Digital', 'NoTouch', 'None', 'OneTouch']	(enum)
+		 level:number
+			 double	(format)
+		 notionalAmount:number
+			 double	(format)
+		 upOrDown:string:enum
+			 ['Down', 'Up']	(enum)
+	 buySell:string:enum
+		 ['Buy', 'Sell']	(enum)
+	 callPut:string:enum
+		 ['CALL', 'None', 'PUT']	(enum)
+	 cbbcDefinition:EtiOptionCBBCDefinition	(object)
+		 conversionRatio:number
+			 double	(format)
+		 level:number
+			 double	(format)
+	 dealContract:integer
+		 int32	(format)
+	 doubleBarriersDefinition:EtiOptionDoubleBarriersDefinition	(object)
+		 barriersDefinition:array:EtiOptionBarrierDefinition	(items)
+			 barrierStyle:string:enum
+				 ['American', 'European', 'None']	(enum)
+			 inOrOut:string:enum
+				 ['In', 'Out']	(enum)
+			 level:number
+				 double	(format)
+			 upOrDown:string:enum
+				 ['Down', 'Up']	(enum)
+	 endDate:string
+		 date-time	(format)
+	 exerciseStyle:string:enum
+		 ['AMER', 'BERM', 'EURO']	(enum)
+	 instrumentCode:string
+	 instrumentTag:string
+	 lotSize:number
+		 double	(format)
+	 strike:number
+		 double	(format)
+	 underlyingDefinition:EtiUnderlyingDefinition	(object)
+		 instrumentCode:string
+	 underlyingType:string:enum
+		 ['Eti', 'Fx']	(enum)
+5.FinancialContract
+	 instrumentType:string
+6.FxCrossContract
+	 instrumentDefinition:FxCrossDefinition	(object)
+		 fxCrossCode:string
+		 fxCrossType:string:enum
+			 ['FxForward', 'FxNonDeliverableForward', 'FxSpot', 'FxSwap', 'FxTimeOptionForward', 'MultiLeg']	(enum)
+		 instrumentTag:string
+		 legs:array:FxCrossLegDefinition	(items)
+			 contraAmount:number
+				 double	(format)
+			 contraCcy:string
+			 dealAmount:number
+				 double	(format)
+			 dealCcy:string
+			 dealCcyBuySell:string:enum
+				 ['Buy', 'Sell']	(enum)
+			 endDate:string
+				 date-time	(format)
+			 fxLegType:string:enum
+				 ['FxForward', 'FxNonDeliverableForward', 'FxSpot', 'SwapFar', 'SwapNear']	(enum)
+			 legTag:string
+			 startDate:string
+				 date-time	(format)
+			 startTenor:string
+			 tenor:string
+		 ndfFixingSettlementCcy:string
+		 referenceSpotRate:number
+			 double	(format)
+		 tradedCrossRate:number
+			 double	(format)
+		 tradedSwapPoints:number
+			 double	(format)
+	 instrumentType:string
+	 pricingParameters:FxCrossPricingParameters	(object)
+		 calcEndFromFwdStart:boolean
+		 calcEndFromPreSpotStart:boolean
+		 depositCcy1:FxPoint	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 instrument:string
+			 mid:number
+				 double	(format)
+			 processingInformation:string
+			 spotDecimals:string
+			 status:string:enum
+				 ['Computed', 'Data', 'Error', 'None', 'NotApplicable', 'User']	(enum)
+		 depositCcy2:FxPoint	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 instrument:string
+			 mid:number
+				 double	(format)
+			 processingInformation:string
+			 spotDecimals:string
+			 status:string:enum
+				 ['Computed', 'Data', 'Error', 'None', 'NotApplicable', 'User']	(enum)
+		 fxSwapCalculationMethod:string:enum
+			 ['DepositCcy1ImpliedFromFxSwap', 'DepositCcy2ImpliedFromFxSwap', 'FxSwap', 'FxSwapImpliedFromDeposit']	(enum)
+		 fxSwapsCcy1:FxPoint	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 instrument:string
+			 mid:number
+				 double	(format)
+			 processingInformation:string
+			 spotDecimals:string
+			 status:string:enum
+				 ['Computed', 'Data', 'Error', 'None', 'NotApplicable', 'User']	(enum)
+		 fxSwapsCcy2:FxPoint	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 instrument:string
+			 mid:number
+				 double	(format)
+			 processingInformation:string
+			 spotDecimals:string
+			 status:string:enum
+				 ['Computed', 'Data', 'Error', 'None', 'NotApplicable', 'User']	(enum)
+		 ignoreRefCcyHolidays:boolean
+		 ignoreUSDHolidays:boolean
+		 oneDayValues:string
+		 priceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 rollOverTimePolicy:string
+		 spreadMarginInBp:number
+			 double	(format)
+		 turnsCalibration:string
+		 userTurnDates:array:string	(items)
+		 valuationDate:string
+			 date-time	(format)
+7.FxOptionDefinition
+	 asianDefinition:FxOptionAverageInfo	(object)
+		 averageSoFar:number
+			 double	(format)
+		 averageType:string:enum
+			 ['ArithmeticRate', 'ArithmeticStrike', 'GeometricRate', 'GeometricStrike']	(enum)
+		 fixingFrequency:string:enum
+			 ['Annual', 'BiWeekly', 'Daily', 'Monthly', 'Quaterly', 'SemiAnnual', 'Weekly']	(enum)
+		 fixingRicSource:string
+		 fixingStartDate:string
+			 date-time	(format)
+		 includeHolidays:boolean
+		 includeWeekEnds:boolean
+	 barrierDefinition:FxOptionBarrierDefinition	(object)
+		 barrierMode:string:enum
+			 ['American', 'EarlyEndWindow', 'European', 'ForwardStartWindow', 'Undefined']	(enum)
+		 inOrOut:string:enum
+			 ['In', 'Out']	(enum)
+		 level:number
+			 double	(format)
+		 rebateAmount:number
+			 double	(format)
+		 upOrDown:string:enum
+			 ['Down', 'Up']	(enum)
+		 windowEndDate:string
+			 date	(format)
+		 windowStartDate:string
+			 date	(format)
+	 binaryDefinition:FxOptionBinaryDefinition	(object)
+		 binaryType:string:enum
+			 ['Digital', 'NoTouch', 'None', 'OneTouchDeferred', 'OneTouchImmediate']	(enum)
+		 payoutAmount:number
+			 double	(format)
+		 payoutCcy:string
+		 settlementType:string:enum
+			 ['Asset', 'Cash', 'Undefined']	(enum)
+		 trigger:number
+			 double	(format)
+	 buySell:string:enum
+		 ['Buy', 'Sell']	(enum)
+	 callPut:string:enum
+		 ['CALL', 'None', 'PUT']	(enum)
+	 deliveryDate:string
+		 date-time	(format)
+	 doubleBarrierDefinition:FxOptionDoubleBarrierDefinition	(object)
+		 barrierDown:FxOptionDoubleBarrierInfo	(object)
+			 inOrOut:string:enum
+				 ['In', 'Out']	(enum)
+			 level:number
+				 double	(format)
+			 rebateAmount:number
+				 double	(format)
+		 barrierMode:string:enum
+			 ['American', 'EarlyEndWindow', 'European', 'ForwardStartWindow', 'Undefined']	(enum)
+		 barrierUp:FxOptionDoubleBarrierInfo	(object)
+			 inOrOut:string:enum
+				 ['In', 'Out']	(enum)
+			 level:number
+				 double	(format)
+			 rebateAmount:number
+				 double	(format)
+	 doubleBinaryDefinition:FxOptionDoubleBinaryDefinition	(object)
+		 doubleBinaryType:string:enum
+			 ['DoubleNoTouch', 'None']	(enum)
+		 payoutAmount:number
+			 double	(format)
+		 payoutCcy:string
+		 settlementType:string:enum
+			 ['Asset', 'Cash', 'Undefined']	(enum)
+		 triggerDown:number
+			 double	(format)
+		 triggerUp:number
+			 double	(format)
+	 dualCurrencyDefinition:FxDualCurrencyDefinition	(object)
+		 depositStartDate:string
+			 date	(format)
+		 marginPercent:number
+			 double	(format)
+	 endDate:string
+		 date-time	(format)
+	 exerciseStyle:string:enum
+		 ['AMER', 'BERM', 'EURO']	(enum)
+	 forwardStartDefinition:FxOptionForwardStart	(object)
+		 forwardStartDate:string
+			 date	(format)
+		 forwardStartTenor:string
+		 strikePercent:number
+			 double	(format)
+	 instrumentTag:string
+	 notionalAmount:number
+		 double	(format)
+	 notionalCcy:string
+	 strike:number
+		 double	(format)
+	 tenor:string
+	 underlyingDefinition:FxUnderlyingDefinition	(object)
+		 fxCrossCode:string
+	 underlyingType:string:enum
+		 ['Eti', 'Fx']	(enum)
+8.OptionContract
+	 instrumentDefinition:OptionDefinition	(object)
+		 buySell:string:enum
+			 ['Buy', 'Sell']	(enum)
+		 callPut:string:enum
+			 ['CALL', 'None', 'PUT']	(enum)
+		 endDate:string
+			 date-time	(format)
+		 exerciseStyle:string:enum
+			 ['AMER', 'BERM', 'EURO']	(enum)
+		 instrumentTag:string
+		 strike:number
+			 double	(format)
+		 underlyingType:string:enum
+			 ['Eti', 'Fx']	(enum)
+	 instrumentType:string
+	 pricingParameters:OptionPricingParameters	(object)
+		 atmVolatilityObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 butterfly10DObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 butterfly25DObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 computePayoutChart:boolean
+		 computeVolatilityPayout:boolean
+		 cutoffTime:string
+		 cutoffTimeZone:string
+		 domesticDepositRatePercentObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 foreignDepositRatePercentObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 forwardPointsObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 fxSpotObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 fxSwapCalculationMethod:string:enum
+			 ['DepositCcy1ImpliedFromFxSwap', 'DepositCcy2ImpliedFromFxSwap', 'FxSwap', 'FxSwapImpliedFromDeposit']	(enum)
+		 impliedVolatilityObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 interpolationWeight:InterpolationWeight	(object)
+			 daysList:array:DayWeight	(items)
+				 date:string
+					 date	(format)
+				 weight:number
+					 double	(format)
+			 holidays:number
+				 double	(format)
+			 weekDays:number
+				 double	(format)
+			 weekEnds:number
+				 double	(format)
+		 marketValueInDealCcy:number
+			 double	(format)
+		 optionPriceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 optionTimeStamp:string:enum
+			 ['Close', 'Default', 'Open', 'Settle']	(enum)
+		 payoutCustomDates:array:string	(items)
+		 payoutScalingInterval:PayoutScaling	(object)
+			 maximum:number
+				 double	(format)
+			 minimum:number
+				 double	(format)
+		 priceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 pricingModelType:string:enum
+			 ['Binomial', 'BlackScholes', 'CEV', 'Continuous', 'LocalVolatility', 'Trinomial', 'VannaVolga', 'Whaley']	(enum)
+		 reportCcyRate:number
+			 double	(format)
+		 riskFreeRatePercent:number
+			 double	(format)
+		 riskReversal10DObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 riskReversal25DObject:BidAskMid	(object)
+			 ask:number
+				 double	(format)
+			 bid:number
+				 double	(format)
+			 mid:number
+				 double	(format)
+		 underlyingPrice:number
+			 double	(format)
+		 underlyingPriceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 underlyingTimeStamp:string:enum
+			 ['Close', 'Default', 'Open', 'Settle']	(enum)
+		 valuationDate:string
+			 date-time	(format)
+		 volatilityModel:string:enum
+			 ['CubicSpline', 'SABR', 'SVI', 'TwinLognormal']	(enum)
+		 volatilityPercent:number
+			 double	(format)
+		 volatilityType:string:enum
+			 ['Implied', 'SVISurface']	(enum)
+9.OptionDefinition
+	 buySell:string:enum
+		 ['Buy', 'Sell']	(enum)
+	 callPut:string:enum
+		 ['CALL', 'None', 'PUT']	(enum)
+	 endDate:string
+		 date-time	(format)
+	 exerciseStyle:string:enum
+		 ['AMER', 'BERM', 'EURO']	(enum)
+	 instrumentTag:string
+	 strike:number
+		 double	(format)
+	 underlyingType:string:enum
+		 ['Eti', 'Fx']	(enum)
+10.RepoContract
+	 instrumentDefinition:RepoDefinition	(object)
+		 dayCountBasis:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 endDate:string
+			 date	(format)
+		 instrumentTag:string
+		 isCouponExchanged:boolean
+		 repoRatePercent:number
+			 double	(format)
+		 startDate:string
+			 date	(format)
+		 tenor:string
+		 underlyingInstruments:array:RepoUnderlyingContract	(items)
+			 instrumentDefinition:BondDefinition	(object)
+				 accruedCalculationMethod:string:enum
+					 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+				 adjustInterestToPaymentDate:string:enum
+					 ['Adjusted', 'Unadjusted']	(enum)
+				 amortizationSchedule:array:AmortizationItemDefinition	(items)
+					 amortizationFrequency:string:enum
+						 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+					 amortizationType:string:enum
+						 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+					 amount:number
+						 double	(format)
+					 endDate:string
+						 date	(format)
+					 remainingNotional:number
+						 double	(format)
+					 startDate:string
+						 date	(format)
+				 direction:string:enum
+					 ['Paid', 'Received']	(enum)
+				 endDate:string
+					 date-time	(format)
+				 firstAccrualDate:string
+					 date-time	(format)
+				 firstRegularPaymentDate:string
+					 date-time	(format)
+				 fixedRatePercent:number
+					 double	(format)
+				 indexCompoundingMethod:string:enum
+					 ['AdjustedCompounded', 'Average', 'Compounded', 'Constant', 'MexicanCompounded']	(enum)
+				 indexFixingLag:integer
+					 int32	(format)
+				 indexFixingRic:string
+				 indexResetFrequency:string:enum
+					 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+				 instrumentCode:string
+				 instrumentTag:string
+				 interestCalculationMethod:string:enum
+					 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+				 interestPaymentDelay:integer
+					 int32	(format)
+				 interestPaymentFrequency:string:enum
+					 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+				 interestType:string:enum
+					 ['Fixed', 'Float', 'Stepped']	(enum)
+				 isPerpetual:boolean
+				 issueDate:string
+					 date-time	(format)
+				 lastRegularPaymentDate:string
+					 date-time	(format)
+				 notionalAmount:number
+					 double	(format)
+				 notionalCcy:string
+				 paymentBusinessDayConvention:string:enum
+					 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+				 paymentBusinessDays:string
+				 paymentRollConvention:string:enum
+					 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+				 spreadBp:number
+					 double	(format)
+				 stubRule:string:enum
+					 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+				 template:string
+			 instrumentType:string
+			 pricingParameters:RepoUnderlyingPricingParameters	(object)
+				 pricingParametersAtEnd:BondPricingParameters	(object)
+					 adjustedCleanPrice:number
+						 double	(format)
+					 adjustedDirtyPrice:number
+						 double	(format)
+					 adjustedYieldPercent:number
+						 double	(format)
+					 applyTaxToFullPricing:boolean
+					 assetSwapSpreadBp:number
+						 double	(format)
+					 benchmarkAtIssuePrice:number
+						 double	(format)
+					 benchmarkAtIssueRic:string
+					 benchmarkAtIssueSpreadBp:number
+						 double	(format)
+					 benchmarkAtIssueYieldPercent:number
+						 double	(format)
+					 benchmarkAtRedemptionPrice:number
+						 double	(format)
+					 benchmarkAtRedemptionSpreadBp:number
+						 double	(format)
+					 benchmarkAtRedemptionYieldPercent:number
+						 double	(format)
+					 benchmarkYieldSelectionMode:string:enum
+						 ['Interpolate', 'Nearest']	(enum)
+					 cashAmount:number
+						 double	(format)
+					 cleanPrice:number
+						 double	(format)
+					 concessionFee:number
+						 double	(format)
+					 currentYieldPercent:number
+						 double	(format)
+					 dirtyPrice:number
+						 double	(format)
+					 discountMarginBp:number
+						 double	(format)
+					 discountPercent:number
+						 double	(format)
+					 edsfBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 edsfSpreadBp:number
+						 double	(format)
+					 efpBenchmarkPrice:number
+						 double	(format)
+					 efpBenchmarkRic:string
+					 efpBenchmarkYieldPercent:number
+						 double	(format)
+					 efpSpreadBp:number
+						 double	(format)
+					 fxPriceSide:string:enum
+						 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+					 govCountryBenchmarkCurvePrice:number
+						 double	(format)
+					 govCountryBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 govCountrySpreadBp:number
+						 double	(format)
+					 governmentBenchmarkCurvePrice:number
+						 double	(format)
+					 governmentBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 governmentSpreadBp:number
+						 double	(format)
+					 issuerBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 issuerSpreadBp:number
+						 double	(format)
+					 marketValueInDealCcy:number
+						 double	(format)
+					 marketValueInReportCcy:number
+						 double	(format)
+					 netPrice:number
+						 double	(format)
+					 neutralYieldPercent:number
+						 double	(format)
+					 oisZcBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 oisZcSpreadBp:number
+						 double	(format)
+					 optionAdjustedSpreadBp:number
+						 double	(format)
+					 price:number
+						 double	(format)
+					 priceSide:string:enum
+						 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+					 projectedIndexCalculationMethod:string:enum
+						 ['ConstantIndex', 'ForwardIndex']	(enum)
+					 quoteFallbackLogic:string:enum
+						 ['BestField', 'None']	(enum)
+					 quotedPrice:number
+						 double	(format)
+					 ratingBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 ratingSpreadBp:number
+						 double	(format)
+					 redemptionDate:string
+						 date-time	(format)
+					 redemptionDateType:string:enum
+						 ['RedemptionAtAverageLife', 'RedemptionAtBestDate', 'RedemptionAtCallDate', 'RedemptionAtCustomDate', 'RedemptionAtMakeWholeCallDate', 'RedemptionAtMaturityDate', 'RedemptionAtNextDate', 'RedemptionAtParDate', 'RedemptionAtPartialCallDate', 'RedemptionAtPartialPutDate', 'RedemptionAtPerpetuity', 'RedemptionAtPremiumDate', 'RedemptionAtPutDate', 'RedemptionAtSinkDate', 'RedemptionAtWorstDate']	(enum)
+					 roundingParameters:BondRoundingParameters	(object)
+						 accruedRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 accruedRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 priceRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 priceRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 spreadRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 spreadRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 yieldRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 yieldRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+					 sectorRatingBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 sectorRatingSpreadBp:number
+						 double	(format)
+					 settlementConvention:string
+					 simpleMarginBp:number
+						 double	(format)
+					 stripYieldPercent:number
+						 double	(format)
+					 swapBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 swapSpreadBp:number
+						 double	(format)
+					 taxOnCapitalGainPercent:number
+						 double	(format)
+					 taxOnCouponPercent:number
+						 double	(format)
+					 taxOnPricePercent:number
+						 double	(format)
+					 taxOnYieldPercent:number
+						 double	(format)
+					 tradeDate:string
+						 date-time	(format)
+					 useSettlementDateFromQuote:boolean
+					 userDefinedBenchmarkPrice:number
+						 double	(format)
+					 userDefinedBenchmarkYieldPercent:number
+						 double	(format)
+					 userDefinedSpreadBp:number
+						 double	(format)
+					 valuationDate:string
+						 date-time	(format)
+					 yieldPercent:number
+						 double	(format)
+					 yieldType:string:enum
+						 ['Annual_Equivalent', 'Bond_Actual_364', 'Braess_Fangmeyer', 'Discount_Actual_360', 'Discount_Actual_365', 'Euroland', 'Isma', 'Japanese_Compounded', 'Japanese_Simple', 'MoneyMarket_Actual_360', 'MoneyMarket_Actual_365', 'MoneyMarket_Actual_Actual', 'Moosmueller', 'Native', 'Quarterly_Equivalent', 'Semiannual_Equivalent', 'TurkishCompounded', 'UsGovt', 'UsTBills', 'Weekend']	(enum)
+					 zSpreadBp:number
+						 double	(format)
+				 pricingParametersAtStart:BondPricingParameters	(object)
+					 adjustedCleanPrice:number
+						 double	(format)
+					 adjustedDirtyPrice:number
+						 double	(format)
+					 adjustedYieldPercent:number
+						 double	(format)
+					 applyTaxToFullPricing:boolean
+					 assetSwapSpreadBp:number
+						 double	(format)
+					 benchmarkAtIssuePrice:number
+						 double	(format)
+					 benchmarkAtIssueRic:string
+					 benchmarkAtIssueSpreadBp:number
+						 double	(format)
+					 benchmarkAtIssueYieldPercent:number
+						 double	(format)
+					 benchmarkAtRedemptionPrice:number
+						 double	(format)
+					 benchmarkAtRedemptionSpreadBp:number
+						 double	(format)
+					 benchmarkAtRedemptionYieldPercent:number
+						 double	(format)
+					 benchmarkYieldSelectionMode:string:enum
+						 ['Interpolate', 'Nearest']	(enum)
+					 cashAmount:number
+						 double	(format)
+					 cleanPrice:number
+						 double	(format)
+					 concessionFee:number
+						 double	(format)
+					 currentYieldPercent:number
+						 double	(format)
+					 dirtyPrice:number
+						 double	(format)
+					 discountMarginBp:number
+						 double	(format)
+					 discountPercent:number
+						 double	(format)
+					 edsfBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 edsfSpreadBp:number
+						 double	(format)
+					 efpBenchmarkPrice:number
+						 double	(format)
+					 efpBenchmarkRic:string
+					 efpBenchmarkYieldPercent:number
+						 double	(format)
+					 efpSpreadBp:number
+						 double	(format)
+					 fxPriceSide:string:enum
+						 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+					 govCountryBenchmarkCurvePrice:number
+						 double	(format)
+					 govCountryBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 govCountrySpreadBp:number
+						 double	(format)
+					 governmentBenchmarkCurvePrice:number
+						 double	(format)
+					 governmentBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 governmentSpreadBp:number
+						 double	(format)
+					 issuerBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 issuerSpreadBp:number
+						 double	(format)
+					 marketValueInDealCcy:number
+						 double	(format)
+					 marketValueInReportCcy:number
+						 double	(format)
+					 netPrice:number
+						 double	(format)
+					 neutralYieldPercent:number
+						 double	(format)
+					 oisZcBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 oisZcSpreadBp:number
+						 double	(format)
+					 optionAdjustedSpreadBp:number
+						 double	(format)
+					 price:number
+						 double	(format)
+					 priceSide:string:enum
+						 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+					 projectedIndexCalculationMethod:string:enum
+						 ['ConstantIndex', 'ForwardIndex']	(enum)
+					 quoteFallbackLogic:string:enum
+						 ['BestField', 'None']	(enum)
+					 quotedPrice:number
+						 double	(format)
+					 ratingBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 ratingSpreadBp:number
+						 double	(format)
+					 redemptionDate:string
+						 date-time	(format)
+					 redemptionDateType:string:enum
+						 ['RedemptionAtAverageLife', 'RedemptionAtBestDate', 'RedemptionAtCallDate', 'RedemptionAtCustomDate', 'RedemptionAtMakeWholeCallDate', 'RedemptionAtMaturityDate', 'RedemptionAtNextDate', 'RedemptionAtParDate', 'RedemptionAtPartialCallDate', 'RedemptionAtPartialPutDate', 'RedemptionAtPerpetuity', 'RedemptionAtPremiumDate', 'RedemptionAtPutDate', 'RedemptionAtSinkDate', 'RedemptionAtWorstDate']	(enum)
+					 roundingParameters:BondRoundingParameters	(object)
+						 accruedRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 accruedRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 priceRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 priceRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 spreadRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 spreadRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+						 yieldRounding:string:enum
+							 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+						 yieldRoundingType:string:enum
+							 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+					 sectorRatingBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 sectorRatingSpreadBp:number
+						 double	(format)
+					 settlementConvention:string
+					 simpleMarginBp:number
+						 double	(format)
+					 stripYieldPercent:number
+						 double	(format)
+					 swapBenchmarkCurveYieldPercent:number
+						 double	(format)
+					 swapSpreadBp:number
+						 double	(format)
+					 taxOnCapitalGainPercent:number
+						 double	(format)
+					 taxOnCouponPercent:number
+						 double	(format)
+					 taxOnPricePercent:number
+						 double	(format)
+					 taxOnYieldPercent:number
+						 double	(format)
+					 tradeDate:string
+						 date-time	(format)
+					 useSettlementDateFromQuote:boolean
+					 userDefinedBenchmarkPrice:number
+						 double	(format)
+					 userDefinedBenchmarkYieldPercent:number
+						 double	(format)
+					 userDefinedSpreadBp:number
+						 double	(format)
+					 valuationDate:string
+						 date-time	(format)
+					 yieldPercent:number
+						 double	(format)
+					 yieldType:string:enum
+						 ['Annual_Equivalent', 'Bond_Actual_364', 'Braess_Fangmeyer', 'Discount_Actual_360', 'Discount_Actual_365', 'Euroland', 'Isma', 'Japanese_Compounded', 'Japanese_Simple', 'MoneyMarket_Actual_360', 'MoneyMarket_Actual_365', 'MoneyMarket_Actual_Actual', 'Moosmueller', 'Native', 'Quarterly_Equivalent', 'Semiannual_Equivalent', 'TurkishCompounded', 'UsGovt', 'UsTBills', 'Weekend']	(enum)
+					 zSpreadBp:number
+						 double	(format)
+				 repoParameters:RepoParameters	(object)
+					 couponPaidAtHorizon:boolean
+					 haircutRatePercent:number
+						 double	(format)
+					 initialMarginPercent:number
+						 double	(format)
+				 valuationDate:string
+					 date-time	(format)
+	 instrumentType:string
+	 pricingParameters:RepoPricingParameters	(object)
+		 repoCurveType:string:enum
+			 ['DepositCurve', 'LiborFixing', 'RepoCurve']	(enum)
+		 valuationDate:string
+			 date-time	(format)
+11.RepoUnderlyingContract
+	 instrumentDefinition:BondDefinition	(object)
+		 accruedCalculationMethod:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 adjustInterestToPaymentDate:string:enum
+			 ['Adjusted', 'Unadjusted']	(enum)
+		 amortizationSchedule:array:AmortizationItemDefinition	(items)
+			 amortizationFrequency:string:enum
+				 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+			 amortizationType:string:enum
+				 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+			 amount:number
+				 double	(format)
+			 endDate:string
+				 date	(format)
+			 remainingNotional:number
+				 double	(format)
+			 startDate:string
+				 date	(format)
+		 direction:string:enum
+			 ['Paid', 'Received']	(enum)
+		 endDate:string
+			 date-time	(format)
+		 firstAccrualDate:string
+			 date-time	(format)
+		 firstRegularPaymentDate:string
+			 date-time	(format)
+		 fixedRatePercent:number
+			 double	(format)
+		 indexCompoundingMethod:string:enum
+			 ['AdjustedCompounded', 'Average', 'Compounded', 'Constant', 'MexicanCompounded']	(enum)
+		 indexFixingLag:integer
+			 int32	(format)
+		 indexFixingRic:string
+		 indexResetFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 instrumentCode:string
+		 instrumentTag:string
+		 interestCalculationMethod:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+		 interestPaymentDelay:integer
+			 int32	(format)
+		 interestPaymentFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 interestType:string:enum
+			 ['Fixed', 'Float', 'Stepped']	(enum)
+		 isPerpetual:boolean
+		 issueDate:string
+			 date-time	(format)
+		 lastRegularPaymentDate:string
+			 date-time	(format)
+		 notionalAmount:number
+			 double	(format)
+		 notionalCcy:string
+		 paymentBusinessDayConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 paymentBusinessDays:string
+		 paymentRollConvention:string:enum
+			 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+		 spreadBp:number
+			 double	(format)
+		 stubRule:string:enum
+			 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+		 template:string
+	 instrumentType:string
+	 pricingParameters:RepoUnderlyingPricingParameters	(object)
+		 pricingParametersAtEnd:BondPricingParameters	(object)
+			 adjustedCleanPrice:number
+				 double	(format)
+			 adjustedDirtyPrice:number
+				 double	(format)
+			 adjustedYieldPercent:number
+				 double	(format)
+			 applyTaxToFullPricing:boolean
+			 assetSwapSpreadBp:number
+				 double	(format)
+			 benchmarkAtIssuePrice:number
+				 double	(format)
+			 benchmarkAtIssueRic:string
+			 benchmarkAtIssueSpreadBp:number
+				 double	(format)
+			 benchmarkAtIssueYieldPercent:number
+				 double	(format)
+			 benchmarkAtRedemptionPrice:number
+				 double	(format)
+			 benchmarkAtRedemptionSpreadBp:number
+				 double	(format)
+			 benchmarkAtRedemptionYieldPercent:number
+				 double	(format)
+			 benchmarkYieldSelectionMode:string:enum
+				 ['Interpolate', 'Nearest']	(enum)
+			 cashAmount:number
+				 double	(format)
+			 cleanPrice:number
+				 double	(format)
+			 concessionFee:number
+				 double	(format)
+			 currentYieldPercent:number
+				 double	(format)
+			 dirtyPrice:number
+				 double	(format)
+			 discountMarginBp:number
+				 double	(format)
+			 discountPercent:number
+				 double	(format)
+			 edsfBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 edsfSpreadBp:number
+				 double	(format)
+			 efpBenchmarkPrice:number
+				 double	(format)
+			 efpBenchmarkRic:string
+			 efpBenchmarkYieldPercent:number
+				 double	(format)
+			 efpSpreadBp:number
+				 double	(format)
+			 fxPriceSide:string:enum
+				 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+			 govCountryBenchmarkCurvePrice:number
+				 double	(format)
+			 govCountryBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 govCountrySpreadBp:number
+				 double	(format)
+			 governmentBenchmarkCurvePrice:number
+				 double	(format)
+			 governmentBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 governmentSpreadBp:number
+				 double	(format)
+			 issuerBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 issuerSpreadBp:number
+				 double	(format)
+			 marketValueInDealCcy:number
+				 double	(format)
+			 marketValueInReportCcy:number
+				 double	(format)
+			 netPrice:number
+				 double	(format)
+			 neutralYieldPercent:number
+				 double	(format)
+			 oisZcBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 oisZcSpreadBp:number
+				 double	(format)
+			 optionAdjustedSpreadBp:number
+				 double	(format)
+			 price:number
+				 double	(format)
+			 priceSide:string:enum
+				 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+			 projectedIndexCalculationMethod:string:enum
+				 ['ConstantIndex', 'ForwardIndex']	(enum)
+			 quoteFallbackLogic:string:enum
+				 ['BestField', 'None']	(enum)
+			 quotedPrice:number
+				 double	(format)
+			 ratingBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 ratingSpreadBp:number
+				 double	(format)
+			 redemptionDate:string
+				 date-time	(format)
+			 redemptionDateType:string:enum
+				 ['RedemptionAtAverageLife', 'RedemptionAtBestDate', 'RedemptionAtCallDate', 'RedemptionAtCustomDate', 'RedemptionAtMakeWholeCallDate', 'RedemptionAtMaturityDate', 'RedemptionAtNextDate', 'RedemptionAtParDate', 'RedemptionAtPartialCallDate', 'RedemptionAtPartialPutDate', 'RedemptionAtPerpetuity', 'RedemptionAtPremiumDate', 'RedemptionAtPutDate', 'RedemptionAtSinkDate', 'RedemptionAtWorstDate']	(enum)
+			 roundingParameters:BondRoundingParameters	(object)
+				 accruedRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 accruedRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 priceRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 priceRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 spreadRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 spreadRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 yieldRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 yieldRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+			 sectorRatingBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 sectorRatingSpreadBp:number
+				 double	(format)
+			 settlementConvention:string
+			 simpleMarginBp:number
+				 double	(format)
+			 stripYieldPercent:number
+				 double	(format)
+			 swapBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 swapSpreadBp:number
+				 double	(format)
+			 taxOnCapitalGainPercent:number
+				 double	(format)
+			 taxOnCouponPercent:number
+				 double	(format)
+			 taxOnPricePercent:number
+				 double	(format)
+			 taxOnYieldPercent:number
+				 double	(format)
+			 tradeDate:string
+				 date-time	(format)
+			 useSettlementDateFromQuote:boolean
+			 userDefinedBenchmarkPrice:number
+				 double	(format)
+			 userDefinedBenchmarkYieldPercent:number
+				 double	(format)
+			 userDefinedSpreadBp:number
+				 double	(format)
+			 valuationDate:string
+				 date-time	(format)
+			 yieldPercent:number
+				 double	(format)
+			 yieldType:string:enum
+				 ['Annual_Equivalent', 'Bond_Actual_364', 'Braess_Fangmeyer', 'Discount_Actual_360', 'Discount_Actual_365', 'Euroland', 'Isma', 'Japanese_Compounded', 'Japanese_Simple', 'MoneyMarket_Actual_360', 'MoneyMarket_Actual_365', 'MoneyMarket_Actual_Actual', 'Moosmueller', 'Native', 'Quarterly_Equivalent', 'Semiannual_Equivalent', 'TurkishCompounded', 'UsGovt', 'UsTBills', 'Weekend']	(enum)
+			 zSpreadBp:number
+				 double	(format)
+		 pricingParametersAtStart:BondPricingParameters	(object)
+			 adjustedCleanPrice:number
+				 double	(format)
+			 adjustedDirtyPrice:number
+				 double	(format)
+			 adjustedYieldPercent:number
+				 double	(format)
+			 applyTaxToFullPricing:boolean
+			 assetSwapSpreadBp:number
+				 double	(format)
+			 benchmarkAtIssuePrice:number
+				 double	(format)
+			 benchmarkAtIssueRic:string
+			 benchmarkAtIssueSpreadBp:number
+				 double	(format)
+			 benchmarkAtIssueYieldPercent:number
+				 double	(format)
+			 benchmarkAtRedemptionPrice:number
+				 double	(format)
+			 benchmarkAtRedemptionSpreadBp:number
+				 double	(format)
+			 benchmarkAtRedemptionYieldPercent:number
+				 double	(format)
+			 benchmarkYieldSelectionMode:string:enum
+				 ['Interpolate', 'Nearest']	(enum)
+			 cashAmount:number
+				 double	(format)
+			 cleanPrice:number
+				 double	(format)
+			 concessionFee:number
+				 double	(format)
+			 currentYieldPercent:number
+				 double	(format)
+			 dirtyPrice:number
+				 double	(format)
+			 discountMarginBp:number
+				 double	(format)
+			 discountPercent:number
+				 double	(format)
+			 edsfBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 edsfSpreadBp:number
+				 double	(format)
+			 efpBenchmarkPrice:number
+				 double	(format)
+			 efpBenchmarkRic:string
+			 efpBenchmarkYieldPercent:number
+				 double	(format)
+			 efpSpreadBp:number
+				 double	(format)
+			 fxPriceSide:string:enum
+				 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+			 govCountryBenchmarkCurvePrice:number
+				 double	(format)
+			 govCountryBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 govCountrySpreadBp:number
+				 double	(format)
+			 governmentBenchmarkCurvePrice:number
+				 double	(format)
+			 governmentBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 governmentSpreadBp:number
+				 double	(format)
+			 issuerBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 issuerSpreadBp:number
+				 double	(format)
+			 marketValueInDealCcy:number
+				 double	(format)
+			 marketValueInReportCcy:number
+				 double	(format)
+			 netPrice:number
+				 double	(format)
+			 neutralYieldPercent:number
+				 double	(format)
+			 oisZcBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 oisZcSpreadBp:number
+				 double	(format)
+			 optionAdjustedSpreadBp:number
+				 double	(format)
+			 price:number
+				 double	(format)
+			 priceSide:string:enum
+				 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+			 projectedIndexCalculationMethod:string:enum
+				 ['ConstantIndex', 'ForwardIndex']	(enum)
+			 quoteFallbackLogic:string:enum
+				 ['BestField', 'None']	(enum)
+			 quotedPrice:number
+				 double	(format)
+			 ratingBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 ratingSpreadBp:number
+				 double	(format)
+			 redemptionDate:string
+				 date-time	(format)
+			 redemptionDateType:string:enum
+				 ['RedemptionAtAverageLife', 'RedemptionAtBestDate', 'RedemptionAtCallDate', 'RedemptionAtCustomDate', 'RedemptionAtMakeWholeCallDate', 'RedemptionAtMaturityDate', 'RedemptionAtNextDate', 'RedemptionAtParDate', 'RedemptionAtPartialCallDate', 'RedemptionAtPartialPutDate', 'RedemptionAtPerpetuity', 'RedemptionAtPremiumDate', 'RedemptionAtPutDate', 'RedemptionAtSinkDate', 'RedemptionAtWorstDate']	(enum)
+			 roundingParameters:BondRoundingParameters	(object)
+				 accruedRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 accruedRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 priceRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 priceRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 spreadRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 spreadRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+				 yieldRounding:string:enum
+					 ['Default', 'Eight', 'Five', 'Four', 'One', 'Seven', 'Six', 'Three', 'Two', 'Unrounded', 'Zero']	(enum)
+				 yieldRoundingType:string:enum
+					 ['Ceil', 'Default', 'Down', 'FaceDown', 'FaceNear', 'FaceUp', 'Floor', 'Near', 'Up']	(enum)
+			 sectorRatingBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 sectorRatingSpreadBp:number
+				 double	(format)
+			 settlementConvention:string
+			 simpleMarginBp:number
+				 double	(format)
+			 stripYieldPercent:number
+				 double	(format)
+			 swapBenchmarkCurveYieldPercent:number
+				 double	(format)
+			 swapSpreadBp:number
+				 double	(format)
+			 taxOnCapitalGainPercent:number
+				 double	(format)
+			 taxOnCouponPercent:number
+				 double	(format)
+			 taxOnPricePercent:number
+				 double	(format)
+			 taxOnYieldPercent:number
+				 double	(format)
+			 tradeDate:string
+				 date-time	(format)
+			 useSettlementDateFromQuote:boolean
+			 userDefinedBenchmarkPrice:number
+				 double	(format)
+			 userDefinedBenchmarkYieldPercent:number
+				 double	(format)
+			 userDefinedSpreadBp:number
+				 double	(format)
+			 valuationDate:string
+				 date-time	(format)
+			 yieldPercent:number
+				 double	(format)
+			 yieldType:string:enum
+				 ['Annual_Equivalent', 'Bond_Actual_364', 'Braess_Fangmeyer', 'Discount_Actual_360', 'Discount_Actual_365', 'Euroland', 'Isma', 'Japanese_Compounded', 'Japanese_Simple', 'MoneyMarket_Actual_360', 'MoneyMarket_Actual_365', 'MoneyMarket_Actual_Actual', 'Moosmueller', 'Native', 'Quarterly_Equivalent', 'Semiannual_Equivalent', 'TurkishCompounded', 'UsGovt', 'UsTBills', 'Weekend']	(enum)
+			 zSpreadBp:number
+				 double	(format)
+		 repoParameters:RepoParameters	(object)
+			 couponPaidAtHorizon:boolean
+			 haircutRatePercent:number
+				 double	(format)
+			 initialMarginPercent:number
+				 double	(format)
+		 valuationDate:string
+			 date-time	(format)
+12.ReverseConvertibleContract
+	 instrumentDefinition:ReverseConvertibleInstrumentDefinition	(object)
+		 couponRatePercent:number
+			 double	(format)
+		 currency:string
+		 endDate:string
+			 date-time	(format)
+		 floorPricePercent:number
+			 double	(format)
+		 instrumentTag:string
+		 interestPaymentFrequency:string:enum
+			 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+		 notionalAmount:number
+			 double	(format)
+		 startDate:string
+			 date-time	(format)
+		 underlyings:array:BasketItem	(items)
+			 currency:string
+			 instrumentCode:string
+	 instrumentType:string
+	 pricingParameters:ReverseConvertiblePricingParameters	(object)
+		 correlationMultiplier:number
+			 double	(format)
+		 crossAsset:CrossAsset	(object)
+			 cFs_at_PricingDate:boolean
+			 correlationMultiplier:number
+				 double	(format)
+			 dF_DscConstruction:string
+			 discountCurve:string
+			 discountCurveForeign:string
+			 forceDecreasingDiscountFactor:boolean
+			 fundingSpreadInBp:number
+				 double	(format)
+			 fundingSpreadMethod:string:enum
+				 ['CDSSpread', 'LiquiditySpread', 'PPZSpread', 'ParallelCurveShift', 'RiskyDFs', 'UseCDSSpreads', 'UseZSpread', 'ZSpread']	(enum)
+			 includeCashFlowsAtValuationDate:boolean
+			 numeraireType:string:enum
+				 ['Cash', 'RollingEvent', 'RollingPayment', 'TerminalEventZc', 'TerminalZc']	(enum)
+			 referenceCoefficient:number
+				 double	(format)
+			 useBasisSwap:boolean
+		 discountCurve:string
+		 discountCurveForeign:string
+		 dupireModel:EquityDupireModel	(object)
+			 dupireModelParameters:EquityDupireModelParameters	(object)
+				 adjustForwards:boolean
+				 applyMostProbablePath:boolean
+				 basisStrike:number
+					 double	(format)
+				 calibrationStrategy:string:enum
+					 ['AllMaturity', 'Default', 'MGBCalibration', 'MaturityByMaturity']	(enum)
+				 dividendEndDate:string
+					 date	(format)
+				 dividendExtrapolation:string:enum
+					 ['Cst_Extrapol', 'Linear_Extrapol', 'PowerGrowth_Extrapol']	(enum)
+				 dividendGrowth:number
+					 double	(format)
+				 dividendStartDate:string
+					 date	(format)
+				 dividendType:string:enum
+					 ['Default', 'Discrete', 'Yield']	(enum)
+				 forwardComputeMethod:string:enum
+					 ['UseDividendsOnly', 'UseForwardCrv', 'UseForwardCrvAndDividends']	(enum)
+				 forwardExtrapolation:string:enum
+					 ['Cst_Extrapol', 'Linear_Extrapol', 'PowerGrowth_Extrapol', 'UseDividendExtrapol']	(enum)
+				 forwardGrowthCoefficient:number
+					 double	(format)
+				 inputForwardType:string:enum
+					 ['ImpliedForward', 'MarketFuture']	(enum)
+				 interestRate:array:string	(items)
+				 localVolatilityMethod:string:enum
+					 ['BestSmile', 'ConvexSmile', 'ParabolaSmooth', 'ParabolaWithoutExtrapol', 'RationalSmooth', 'RationalWithoutExtrapol']	(enum)
+				 optionTypeForImpliedVolSurface:string:enum
+					 ['Call', 'Put']	(enum)
+				 smoothDividends:boolean
+				 smoothVolSurface:boolean
+				 useDividend:boolean
+				 useHistoricalDividend:boolean
+				 volatilityBump:number
+					 double	(format)
+				 volatilitySource:string:enum
+					 ['MarketPrice', 'MarketVolatility']	(enum)
+		 forceDecreasingDiscountFactor:boolean
+		 fundingSpreadInBp:number
+			 double	(format)
+		 fundingSpreadMethod:string:enum
+			 ['CDSSpread', 'LiquiditySpread', 'PPZSpread', 'ParallelCurveShift', 'RiskyDFs', 'UseCDSSpreads', 'UseZSpread', 'ZSpread']	(enum)
+		 includeCashFlowsAtValuationDate:boolean
+		 numeraireType:string:enum
+			 ['Cash', 'RollingEvent', 'RollingPayment', 'TerminalEventZc', 'TerminalZc']	(enum)
+		 numericalMethod:NumericalMethod	(object)
+			 americanMonteCarloParameters:AmericanMonteCarloParameters	(object)
+				 additionalPoints:integer
+					 int32	(format)
+				 allTheTimePointsPerYear:integer
+					 int32	(format)
+				 americanMonteCarloMethod:string:enum
+					 ['Andersen', 'LongstaffSchwartz']	(enum)
+				 iterationNumber:integer
+					 int32	(format)
+			 method:string:enum
+				 ['AmericanMonteCarlo', 'Analytic', 'MonteCarlo', 'PDE', 'Tree']	(enum)
+			 pdeParameters:PdeParameters	(object)
+				 pdeSpaceStepNumber:integer
+					 int32	(format)
+				 pdeStandardDeviation:integer
+					 int32	(format)
+				 pdeTimeStepNumber:integer
+					 int32	(format)
+		 referenceCoefficient:number
+			 double	(format)
+		 useBasisSwap:boolean
+		 valuationDate:string
+			 date-time	(format)
+13.SwapContract
+	 instrumentDefinition:SwapDefinition	(object)
+		 endDate:string
+			 date-time	(format)
+		 instrumentCode:string
+		 instrumentTag:string
+		 isNonDeliverable:boolean
+		 legs:array:SwapLegDefinition	(items)
+			 accruedCalculationMethod:string:enum
+				 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+			 adjustInterestToPaymentDate:string:enum
+				 ['Adjusted', 'Unadjusted']	(enum)
+			 amortizationSchedule:array:AmortizationItemDefinition	(items)
+				 amortizationFrequency:string:enum
+					 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+				 amortizationType:string:enum
+					 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+				 amount:number
+					 double	(format)
+				 endDate:string
+					 date	(format)
+				 remainingNotional:number
+					 double	(format)
+				 startDate:string
+					 date	(format)
+			 direction:string:enum
+				 ['Paid', 'Received']	(enum)
+			 firstRegularPaymentDate:string
+				 date-time	(format)
+			 fixedRatePercent:number
+				 double	(format)
+			 indexCompoundingMethod:string:enum
+				 ['AdjustedCompounded', 'Average', 'Compounded', 'Constant', 'MexicanCompounded']	(enum)
+			 indexFixingLag:integer
+				 int32	(format)
+			 indexFixingRic:string
+			 indexName:string
+			 indexResetFrequency:string:enum
+				 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+			 indexResetType:string:enum
+				 ['InAdvance', 'InArrears']	(enum)
+			 indexTenor:string
+			 instrumentTag:string
+			 interestCalculationMethod:string:enum
+				 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+			 interestPaymentDelay:integer
+				 int32	(format)
+			 interestPaymentFrequency:string:enum
+				 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+			 interestType:string:enum
+				 ['Fixed', 'Float', 'Stepped']	(enum)
+			 lastRegularPaymentDate:string
+				 date-time	(format)
+			 legTag:string
+			 notionalAmount:number
+				 double	(format)
+			 notionalCcy:string
+			 notionalExchange:string:enum
+				 ['Both', 'End', 'EndAdjustment', 'None', 'Start']	(enum)
+			 paymentBusinessDayConvention:string:enum
+				 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+			 paymentBusinessDays:string
+			 paymentRollConvention:string:enum
+				 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+			 spreadBp:number
+				 double	(format)
+			 stubRule:string:enum
+				 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+			 upfrontAmount:number
+				 double	(format)
+		 settlementCcy:string
+		 startDate:string
+			 date-time	(format)
+		 template:string
+		 tenor:string
+		 tradeDate:string
+			 date-time	(format)
+	 instrumentType:string
+	 pricingParameters:SwapPricingParameters	(object)
+		 discountingCcy:string
+		 discountingTenor:string
+		 indexConvexityAdjustmentIntegrationMethod:string:enum
+			 ['RiemannSum', 'RungeKutta']	(enum)
+		 indexConvexityAdjustmentMethod:string:enum
+			 ['BlackScholes', 'LinearSwapModel', 'None', 'Replication']	(enum)
+		 marketValueInDealCcy:number
+			 double	(format)
+		 valuationDate:string
+			 date-time	(format)
+14.SwaptionContract
+	 instrumentDefinition:SwaptionDefinition	(object)
+		 bermudanSwaptionDefinition:BermudanSwaptionDefinition	(object)
+			 exerciseSchedule:array:string	(items)
+			 exerciseScheduleType:string:enum
+				 ['FixedLeg', 'FloatLeg', 'UserDefined']	(enum)
+			 notificationDays:integer
+				 int32	(format)
+		 buySell:string:enum
+			 ['Buy', 'Sell']	(enum)
+		 callPut:string:enum
+			 ['CALL', 'None', 'PUT']	(enum)
+		 endDate:string
+			 date-time	(format)
+		 exerciseStyle:string:enum
+			 ['AMER', 'BERM', 'EURO']	(enum)
+		 instrumentTag:string
+		 settlementType:string:enum
+			 ['Cash', 'Physical']	(enum)
+		 strikePercent:number
+			 double	(format)
+		 tenor:string
+		 underlyingDefinition:SwapDefinition	(object)
+			 endDate:string
+				 date-time	(format)
+			 instrumentCode:string
+			 instrumentTag:string
+			 isNonDeliverable:boolean
+			 legs:array:SwapLegDefinition	(items)
+				 accruedCalculationMethod:string:enum
+					 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+				 adjustInterestToPaymentDate:string:enum
+					 ['Adjusted', 'Unadjusted']	(enum)
+				 amortizationSchedule:array:AmortizationItemDefinition	(items)
+					 amortizationFrequency:string:enum
+						 ['Every12thCoupon', 'Every2ndCoupon', 'Every3rdCoupon', 'Every4thCoupon', 'EveryCoupon']	(enum)
+					 amortizationType:string:enum
+						 ['Annuity', 'Linear', 'None', 'Schedule']	(enum)
+					 amount:number
+						 double	(format)
+					 endDate:string
+						 date	(format)
+					 remainingNotional:number
+						 double	(format)
+					 startDate:string
+						 date	(format)
+				 direction:string:enum
+					 ['Paid', 'Received']	(enum)
+				 firstRegularPaymentDate:string
+					 date-time	(format)
+				 fixedRatePercent:number
+					 double	(format)
+				 indexCompoundingMethod:string:enum
+					 ['AdjustedCompounded', 'Average', 'Compounded', 'Constant', 'MexicanCompounded']	(enum)
+				 indexFixingLag:integer
+					 int32	(format)
+				 indexFixingRic:string
+				 indexName:string
+				 indexResetFrequency:string:enum
+					 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+				 indexResetType:string:enum
+					 ['InAdvance', 'InArrears']	(enum)
+				 indexTenor:string
+				 instrumentTag:string
+				 interestCalculationMethod:string:enum
+					 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+				 interestPaymentDelay:integer
+					 int32	(format)
+				 interestPaymentFrequency:string:enum
+					 ['Annual', 'BiMonthly', 'Every14Days', 'Every180Days', 'Every182Days', 'Every183Days', 'Every184Days', 'Every28Days', 'Every30Days', 'Every364Days', 'Every365Days', 'Every4Months', 'Every7Days', 'Every90Days', 'Every91Days', 'Every92Days', 'Every93Days', 'Everyday', 'Monthly', 'Quarterly', 'R2', 'R4', 'SemiAnnual', 'Zero']	(enum)
+				 interestType:string:enum
+					 ['Fixed', 'Float', 'Stepped']	(enum)
+				 lastRegularPaymentDate:string
+					 date-time	(format)
+				 legTag:string
+				 notionalAmount:number
+					 double	(format)
+				 notionalCcy:string
+				 notionalExchange:string:enum
+					 ['Both', 'End', 'EndAdjustment', 'None', 'Start']	(enum)
+				 paymentBusinessDayConvention:string:enum
+					 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+				 paymentBusinessDays:string
+				 paymentRollConvention:string:enum
+					 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+				 spreadBp:number
+					 double	(format)
+				 stubRule:string:enum
+					 ['Issue', 'LongFirstFull', 'Maturity', 'ShortFirstFull', 'ShortFirstProRata', 'ShortLastProRata']	(enum)
+				 upfrontAmount:number
+					 double	(format)
+			 settlementCcy:string
+			 startDate:string
+				 date-time	(format)
+			 template:string
+			 tenor:string
+			 tradeDate:string
+				 date-time	(format)
+	 instrumentType:string
+	 pricingParameters:SwaptionPricingParameters	(object)
+		 marketDataRule:SwaptionMarketDataRule	(object)
+			 discount:string
+			 forward:string
+		 marketValueInDealCcy:number
+			 double	(format)
+		 nbIterations:integer
+			 int32	(format)
+		 valuationDate:string
+			 date-time	(format)
+15.TermDepositContract
+	 instrumentDefinition:TermDepositDefinition	(object)
+		 calendar:string
+		 endDate:string
+			 date	(format)
+		 fixedRatePercent:number
+			 double	(format)
+		 instrumentCode:string
+		 instrumentTag:string
+		 notionalAmount:number
+			 double	(format)
+		 notionalCcy:string
+		 paymentBusinessDayConvention:string:enum
+			 ['BbswModifiedFollowing', 'ModifiedFollowing', 'NextBusinessDay', 'NoMoving', 'PreviousBusinessDay']	(enum)
+		 paymentRollConvention:string:enum
+			 ['Last', 'Last28', 'Same', 'Same28']	(enum)
+		 startDate:string
+			 date	(format)
+		 tenor:string
+		 yearBasis:string:enum
+			 ['Dcb_30E_360_ISMA', 'Dcb_30_360', 'Dcb_30_360_German', 'Dcb_30_360_ISDA', 'Dcb_30_360_US', 'Dcb_30_365_Brazil', 'Dcb_30_365_German', 'Dcb_30_365_ISDA', 'Dcb_30_Actual', 'Dcb_30_Actual_German', 'Dcb_30_Actual_ISDA', 'Dcb_ActualLeapDay_360', 'Dcb_ActualLeapDay_365', 'Dcb_Actual_360', 'Dcb_Actual_364', 'Dcb_Actual_365', 'Dcb_Actual_36525', 'Dcb_Actual_365L', 'Dcb_Actual_365P', 'Dcb_Actual_365_CanadianConvention', 'Dcb_Actual_Actual', 'Dcb_Actual_Actual_AFB', 'Dcb_Actual_Actual_ISDA', 'Dcb_Constant', 'Dcb_WorkingDays_252']	(enum)
+	 instrumentType:string
+	 pricingParameters:TermDepositPricingParameters	(object)
+		 incomeTaxPercent:number
+			 double	(format)
+		 priceSide:string:enum
+			 ['Ask', 'Bid', 'Last', 'Mid']	(enum)
+		 valuationDate:string
+			 date-time	(format)

@@ -1,0 +1,18 @@
+# coding: utf-8
+# contract_gen {{ now() }}
+
+{% for import_name in import_names %}
+from .{{ import_name }} import *
+{% endfor %}
+
+{% if delete_refs %}
+from refinitiv.dataplatform.tools import _module_helper
+{% endif %}
+
+{% for ref_name in delete_refs %}
+_module_helper.delete_reference_from_module(__name__, '{{ ref_name }}')
+{% endfor %}
+
+{% if delete_refs %}
+_module_helper.delete_reference_from_module(__name__, '_module_helper')
+{% endif %}

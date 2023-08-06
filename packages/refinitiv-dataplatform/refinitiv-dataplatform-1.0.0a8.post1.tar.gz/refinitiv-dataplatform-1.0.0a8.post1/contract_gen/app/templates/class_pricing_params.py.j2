@@ -1,0 +1,68 @@
+# coding: utf8
+# contract_gen {{ now() }}
+
+
+__all__ = ["PricingParams"]
+
+from ..instrument import InstrumentPricingParams
+{% for item in import_enums %}
+from ..enum_types.{{ item.file_name }} import {{ item.class_name }}
+{% endfor %}
+{% for item in import_models %}
+from .{{ item.file_path }} import {{ item.class_name }}
+{% endfor %}
+
+
+class PricingParams(InstrumentPricingParams):
+
+    {% if props_names %}
+    def __init__(
+            self,
+            {% for prop_name in props_names %}
+            {% if loop.last %}
+            {{ camel_to_snake(prop_name) }}=None
+    ):
+            {% else %}
+            {{ camel_to_snake(prop_name) }}=None,
+            {% endif %}{% endfor %}
+    {% else %}
+    def __init__(self):
+    {% endif %}
+        super().__init__()
+        {% for prop_name in props_names %}
+        self.{{ camel_to_snake(prop_name) }} = {{ camel_to_snake(prop_name) }}
+        {% endfor %}
+
+    {% for prop_name, prop_class, prop_type, prop_desc in complex_props %}
+    @property
+    def {{ camel_to_snake(prop_name) }}(self):
+        """
+        {% if prop_desc %}
+{{ indent(prop_desc, '        ') }}
+        {% endif %}
+        :return: {{ prop_type }} {{ prop_class }}
+        """
+        return self._get_{{ prop_type }}_parameter({{ prop_class }}, "{{ prop_name }}")
+
+    @{{ camel_to_snake(prop_name) }}.setter
+    def {{ camel_to_snake(prop_name) }}(self, value):
+        self._set_{{ prop_type }}_parameter({{ prop_class }}, "{{ prop_name }}", value)
+
+    {% endfor %}
+    {% for prop_name, py_prop_type, prop_desc in simple_props %}
+    @property
+    def {{ camel_to_snake(prop_name) }}(self):
+        """
+        {% if prop_desc %}
+{{ indent(prop_desc, '        ') }}
+        {% endif %}
+        :return: {{ py_prop_type }}
+        """
+        return self._get_parameter("{{ prop_name }}")
+
+    @{{ camel_to_snake(prop_name) }}.setter
+    def {{ camel_to_snake(prop_name) }}(self, value):
+        self._set_parameter("{{ prop_name }}", value)
+
+    {% endfor %}
+{%+ if True %}{% endif %}

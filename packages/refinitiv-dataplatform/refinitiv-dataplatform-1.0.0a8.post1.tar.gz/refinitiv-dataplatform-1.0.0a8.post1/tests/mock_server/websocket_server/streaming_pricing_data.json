@@ -1,0 +1,550 @@
+{
+  "streaming_prices": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    },
+    "MSFT.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "__mock__": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "GOOG.O": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "IBM.N": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "CAD=": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "GBP=": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "JPY=": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    },
+    "EUR=": {
+      "login_response": {
+        "ID": "",
+        "Domain": "Login",
+        "State": {
+          "Data": "Ok",
+          "Stream": "Open",
+          "Text": "Login accepted"
+        },
+        "Type": "Refresh"
+      },
+      "refresh_response": {
+        "ID": 5,
+        "Type": "Refresh",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "State": {
+          "Stream": "Open",
+          "Data": "Ok",
+          "Text": "*All is well"
+        },
+        "Qos": {
+          "Timeliness": "Realtime",
+          "Rate": "JitConflated"
+        },
+        "PermData": "AwEBUmw=",
+        "SeqNumber": 56030,
+        "Fields": {
+          "BID": 1.2924,
+          "ASK": 1.2928,
+          "BID_NET_CH": -0.008,
+          "IRGPRC": -0.62
+        }
+      },
+      "request_response": {
+        "ID": 5,
+        "Type": "Update",
+        "UpdateType": "Unspecified",
+        "DoNotConflate": "True",
+        "Key": {
+          "Service": "ELEKTRON_DD",
+          "Name": "GBP="
+        },
+        "SeqNumber": 41182,
+        "Fields": {
+          "BID": 1.2938,
+          "ASK": 1.2942,
+          "BID_NET_CH": -0.0066
+        }
+      },
+      "update_message": {
+        "Fields": {
+          "BID": 1.0867,
+          "ASK": 1.0871,
+          "BID_NET_CH": -0.0012
+        },
+        "ID": "",
+        "Key": {
+          "Name": "",
+          "Service": ""
+        },
+        "Type": "Update",
+        "UpdateType": "Quote"
+      }
+    }
+  }
+}

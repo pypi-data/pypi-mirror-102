@@ -1,0 +1,21 @@
+document.addEventListener('DOMContentLoaded', function(){
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart_{{ chart_id }});
+});
+
+function drawChart_{{ chart_id }}() {
+    var data = google.visualization.arrayToDataTable({{ array }});
+
+    var options = {
+      title: '{{ title }}',
+      curveType: 'function',
+      legend: { position: 'bottom' }
+    };
+
+    var div = document.createElement('div');
+    div.id = "chart-{{ chart_id }}";
+    document.body.appendChild(div);
+
+    var chart = new google.visualization.LineChart(div);
+    chart.draw(data, options);
+}

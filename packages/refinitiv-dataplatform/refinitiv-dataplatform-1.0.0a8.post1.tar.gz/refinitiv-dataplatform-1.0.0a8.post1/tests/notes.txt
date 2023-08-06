@@ -1,0 +1,15 @@
+#   run unittest
+python -m unittest discover -s dataplatform_project/refinitiv/dataplatform/tests/content/streaming/chain/
+
+#   setup environemnt
+export PYTHONPATH=`pwd`/../:${PYTHONPATH}
+
+
+#   run for desktop session 
+#       RDP BETA
+pytest --rootdir=dataplatform_project/tests/jupyter_notebooks/ --traceconfig -q -ra dataplatform_project/tests/jupyter_notebooks/functions/desktop_session/*.py --app_key=$BETA_REFINITIV_APP_KEY
+
+#       WORKSPACE BETA
+pytest --rootdir=dataplatform_project/tests/jupyter_notebooks/ --traceconfig -q -ra dataplatform_project/tests/jupyter_notebooks/functions/desktop_session/test_symbology.py --app_key=$ALPHA_BETA_REFINITIV_APP_KEY  --timeout=300 
+
+

@@ -1,0 +1,14 @@
+{
+  "login": {
+    "login_response": {
+      "ID": "",
+      "Domain": "Login",
+      "State": {
+        "Data": "Ok",
+        "Stream": "Open",
+        "Text": "Login accepted"
+      },
+      "Type": "Refresh"
+    }
+  }
+}

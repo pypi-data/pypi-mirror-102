@@ -1,0 +1,2816 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Calculates curves and volatility surfaces.",
+        "title": "Curves and Surfaces",
+        "contact": {},
+        "version": "1.0.27"
+    },
+    "basePath": "/data/quantitative-analytics-curves-and-surfaces/v1",
+    "paths": {
+        "/curves/zcCurveDefinitions": {
+            "x-summary": "Returns the definitions of the available Zero Coupon curves for the filters selected (e.g. currency, index…).",
+            "post": {
+                "description": "Returns the definitions of the available Zero Coupon curves for the filters selected (e.g. currency, index…)",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "tags": [
+                    "Curves"
+                ],
+                "summary": "Returns the definitions of the available Zero Coupon curves for the filters selected (e.g. currency, index…)",
+                "operationId": "zcCurveDefinitionsUsingPOST",
+                "parameters": [
+                    {
+                        "description": "search by curve's id or curve's currency, index name, source and valuation date",
+                        "name": "swapZcCurveGetDefinitionsRequest",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/ZcCurveDefinitionRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/SwapZcCurveGetDefinitionsResponse"
+                        }
+                    }
+                }
+            },
+            "options": {
+                "responses": {
+                    "200": {
+                        "description": "Generic OPTIONS response"
+                    }
+                }
+            }
+        },
+        "/curves/zcCurves": {
+            "x-summary": "Generates the Zero Coupon curves for the definitions provided.",
+            "post": {
+                "description": "Generates the zero coupon curves for the definitions provided",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "tags": [
+                    "Curves"
+                ],
+                "summary": "Generates the zero coupon curves for the definitions provided",
+                "operationId": "zcCurvesUsingPOST",
+                "parameters": [
+                    {
+                        "description": "price a swap zero coupon with or without a collateral currency",
+                        "name": "swapZcCurveGetCurveRequest",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/ZcCurveRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/ZcCurveResponse"
+                        }
+                    }
+                }
+            },
+            "options": {
+                "responses": {
+                    "200": {
+                        "description": "Generic OPTIONS response"
+                    }
+                }
+            }
+        },
+        "/surfaces": {
+            "x-summary": "Generates volatility surfaces for various instuments and asset classes.",
+            "post": {
+                "description": "API endpoint that can be used to generate volatility surfaces for various instuments and asset classes. \r\nThe resulting volatilities are returned as points, slices, or full surface either in a list of in a matrix format.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json",
+                    "text/plain"
+                ],
+                "tags": [
+                    "VolatilitySurfaces"
+                ],
+                "summary": "API endpoint that can be used to generate volatility surfaces for various instuments and asset classes. \r\nThe resulting volatilities are returned as points, slices, or full surface either in a list of in a matrix format.",
+                "operationId": "getVolatilitySurfaces",
+                "parameters": [
+                    {
+                        "description": "Contains the parameters of the request: surface types, definitions and parameters, and specifies how to return the surface data in response.",
+                        "name": "volatilitySurfaceRequest",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#/definitions/VolatilitySurfaceRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "$ref": "#/definitions/VolatilitySurfaceResponse"
+                        }
+                    }
+                }
+            },
+            "options": {
+                "responses": {
+                    "200": {
+                        "description": "Generic OPTIONS response"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "BidAskMid": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "mid": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "CapVolatility": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "capTenor": {
+                    "type": "string"
+                },
+                "couponRate": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "iborDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "iborDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "indexTenor": {
+                    "type": "string"
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "maturityDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "oisDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "oisDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "shift": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "strikePercent": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "strikeSurfaceRank": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "swaptionTenor": {
+                    "type": "string"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "AtmStrike",
+                        "Smile",
+                        "AtmVol",
+                        "MeanReversion"
+                    ]
+                },
+                "volModel": {
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "LogNormalVolatility",
+                        "NormalizedVolatility"
+                    ]
+                }
+            }
+        },
+        "CapVolatilitySurfaceRequestItem": {
+            "type": "object",
+            "properties": {
+                "instrumentType": {
+                    "description": "The type of instrument being defined.",
+                    "type": "string"
+                },
+                "surfaceLayout": {
+                    "description": "The section that contains the properties that define how the volatility surface is returned",
+                    "$ref": "#/definitions/SurfaceOutput"
+                },
+                "surfaceParameters": {
+                    "$ref": "#/definitions/IIrVolModelPricingParameters"
+                },
+                "surfaceTag": {
+                    "description": "A user defined string to describe the volatility surface",
+                    "type": "string"
+                },
+                "underlyingDefinition": {
+                    "$ref": "#/definitions/IIrVolModelDefinition"
+                },
+                "underlyingType": {
+                    "description": "The type of the underlying used to generate the volatility surface",
+                    "type": "string",
+                    "enum": [
+                        "Eti",
+                        "Fx",
+                        "Swaption",
+                        "Cap"
+                    ]
+                }
+            }
+        },
+        "ConvexityAdjustment": {
+            "description": "Description of Convexity Adjustment...",
+            "type": "object",
+            "properties": {
+                "meanReversionPercent": {
+                    "description": "Reversion speed rate, expressed in percents, used to calculate the convexity adjustment",
+                    "type": "number",
+                    "format": "double"
+                },
+                "volatilityPercent": {
+                    "description": "Reversion flat volatility, expressed in percents, used to calculate the convexity adjustment",
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "CreditCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "chainRic": {
+                    "type": "string"
+                },
+                "contributor": {
+                    "type": "string"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "docClause": {
+                    "type": "string",
+                    "enum": [
+                        "CumRestruct14",
+                        "ModifiedRestruct14",
+                        "ModModRestruct14",
+                        "ExRestruct14",
+                        "CumRestruct03",
+                        "ModifiedRestruct03",
+                        "ModModRestruct03",
+                        "ExRestruct03",
+                        "None"
+                    ]
+                },
+                "indexSeries": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "indexTranche": {
+                    "type": "string",
+                    "enum": [
+                        "FirstLoss",
+                        "JuniorMezzanine",
+                        "SeniorMezzanine",
+                        "Senior",
+                        "SuperSenior",
+                        "SuperSuperSenior"
+                    ]
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "referenceEntity": {
+                    "type": "string"
+                },
+                "seniority": {
+                    "type": "string",
+                    "enum": [
+                        "Secured",
+                        "SeniorUnsecured",
+                        "Subordinated",
+                        "JuniorSubordinated",
+                        "Preference",
+                        "None"
+                    ]
+                }
+            }
+        },
+        "CreditCurveParameters": {
+            "type": "object",
+            "properties": {
+                "extrapolationMode": {
+                    "description": "Flag to define whether extrapolation is allowed.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "Constant",
+                        "Linear"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method for the curve.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "Log",
+                        "Constant",
+                        "VolatilityCurve",
+                        "Hermite",
+                        "AkimaMethod",
+                        "FritschButlandMethod",
+                        "KrugerMethod",
+                        "MonotonicCubicNaturalSpline",
+                        "MonotonicHermiteCubic",
+                        "TensionSpline",
+                        "BrazilianDebenture",
+                        "ForwardMonotoneConvex"
+                    ]
+                }
+            }
+        },
+        "Curve": {
+            "type": "object",
+            "properties": {
+                "curvePoints": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/CurvePoint"
+                    }
+                },
+                "isDiscountCurve": {
+                    "type": "boolean"
+                },
+                "structure": {
+                    "type": "string"
+                }
+            }
+        },
+        "CurveFixing": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "couponRate": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "fixingLag": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "fixingUsage": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "SwapFixing",
+                            "SwapZc"
+                        ]
+                    }
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "maturityDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "CurvePoint": {
+            "type": "object",
+            "properties": {
+                "discountFactor": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "endDate": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "instrument": {
+                    "type": "string"
+                },
+                "ratePercent": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "startDate": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "tenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "CurveUnderlyingInstrument": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "couponRate": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "maturityDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "DayWeight": {
+            "type": "object",
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "weight": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "DepositCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "description": "The currency code of the deposit curve.\nMandatory.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "The source of the market date : composite, the mnemonic of the contributor. For ontributor a specific entitlement may be required. \r\nOptional. By default composite data is returned",
+                    "type": "string"
+                }
+            }
+        },
+        "DepositCurveParameters": {
+            "type": "object",
+            "properties": {
+                "extrapolationMode": {
+                    "description": "Flag to define whether extrapolation is allowed.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "Constant",
+                        "Linear"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method for the curve.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "Log",
+                        "Constant",
+                        "VolatilityCurve",
+                        "Hermite",
+                        "AkimaMethod",
+                        "FritschButlandMethod",
+                        "KrugerMethod",
+                        "MonotonicCubicNaturalSpline",
+                        "MonotonicHermiteCubic",
+                        "TensionSpline",
+                        "BrazilianDebenture",
+                        "ForwardMonotoneConvex"
+                    ]
+                }
+            }
+        },
+        "DividendCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "optionRic": {
+                    "type": "string"
+                },
+                "ric": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "ForecastTable",
+                        "HistoricalYield",
+                        "ForecastYield",
+                        "ImpliedYield",
+                        "ImpliedTable"
+                    ]
+                },
+                "underlyingRic": {
+                    "type": "string"
+                }
+            }
+        },
+        "DividendCurveParameters": {
+            "type": "object",
+            "properties": {
+                "structure": {
+                    "type": "string"
+                }
+            }
+        },
+        "EquitySpotDefinition": {
+            "type": "object",
+            "properties": {
+                "equityCode": {
+                    "type": "string"
+                },
+                "source": {
+                    "description": "The source of the market date : composite, the mnemonic of the contributor. For ontributor a specific entitlement may be required. \r\nOptional. By default composite data is returned",
+                    "type": "string"
+                }
+            }
+        },
+        "ErrorResponse": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "description": "Error code.",
+                    "type": "string",
+                    "readOnly": true
+                },
+                "id": {
+                    "description": "Internal sub-request id used for diagnostic purposes.",
+                    "type": "string",
+                    "readOnly": true
+                },
+                "message": {
+                    "description": "Error message.",
+                    "type": "string",
+                    "readOnly": true
+                },
+                "status": {
+                    "description": "Status of this surface.",
+                    "type": "string",
+                    "readOnly": true
+                }
+            }
+        },
+        "EtiSurfaceDefinition": {
+            "description": "The volatility surface definition for a listed instrument (e.g. equity, indices)",
+            "type": "object",
+            "properties": {
+                "cleanInstrumentCode": {
+                    "type": "string",
+                    "readOnly": true
+                },
+                "exchange": {
+                    "description": "Specifies the exchange to be used to retrieve the underlying data.",
+                    "type": "string"
+                },
+                "instrumentCode": {
+                    "description": "The code (RIC for equities and indices and RICROOT for Futures.) that represents the instrument.\nThe format for equities and indices is xxx@RIC (Example: VOD.L@RIC)\nThe format for Futures is xx@RICROOT (Example: CL@RICROOT)",
+                    "type": "string"
+                },
+                "isCommoUnderlying": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "EtiSurfaceParameters": {
+            "description": "The parameters needed to define the volatility surface for a listed instrument (e.g. equity, indices)",
+            "type": "object",
+            "properties": {
+                "calculationDate": {
+                    "description": "The date the volatility surface is generated.",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "inputVolatilityType": {
+                    "description": "Specifies the type of volatility used as an input of the model (calculated Implied Volatility, Settlement)\n\n - Settle: The service uses the settlement volatility to build the volatility surface\n\n - Implied: The service internally calculates implied volatilities for the option universe before building the surface",
+                    "type": "string",
+                    "enum": [
+                        "Implied",
+                        "Settle"
+                    ]
+                },
+                "priceSide": {
+                    "description": "Specifies whether bid, ask or mid is used to build the surface.",
+                    "type": "string",
+                    "enum": [
+                        "Mid",
+                        "Bid",
+                        "Ask",
+                        "Last"
+                    ]
+                },
+                "timeStamp": {
+                    "description": "Define how the timestamp is selected:\n- Open: the opening value of the valuationDate or if not available the close of the previous day is used.\n- Default: the latest snapshot is used when valuationDate is today, the close price when valuationDate is in the past.",
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "Open",
+                        "Close",
+                        "Settle",
+                        "Last"
+                    ]
+                },
+                "volatilityModel": {
+                    "description": "The quantitative model used to generate the volatility surface. This may depend on the asset class.\nFor Fx Volatility Surface, we currently support the SVI model.",
+                    "type": "string",
+                    "enum": [
+                        "SVI",
+                        "SSVI"
+                    ]
+                },
+                "xAxis": {
+                    "description": "Specifies the unit for the x axis (e.g. Date, Tenor)",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                },
+                "yAxis": {
+                    "description": "Specifies the unit for the y axis (e.g. Strike, Delta). This may depend on the asset class.\nFor Fx Volatility Surface, we support both Delta and Strike.",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                }
+            }
+        },
+        "EtiVolatilitySurface": {
+            "type": "object",
+            "properties": {
+                "surfaceParameters": {
+                    "$ref": "#/definitions/EtiVolatilitySurfaceParameters"
+                },
+                "underlyingDefinition": {
+                    "$ref": "#/definitions/EtiVolatilitySurfaceDefinition"
+                }
+            }
+        },
+        "EtiVolatilitySurfaceDefinition": {
+            "type": "object",
+            "properties": {
+                "instrumentCode": {
+                    "description": "The code (RIC for equities and indices and RICROOT for Futures.) that represents the instrument.\nCan be equal to '*' to design every instrument",
+                    "type": "string"
+                }
+            }
+        },
+        "EtiVolatilitySurfaceParameters": {
+            "type": "object",
+            "properties": {
+                "weights": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/MoneynessWeight"
+                    }
+                }
+            }
+        },
+        "EtiVolatilitySurfaceRequestItem": {
+            "type": "object",
+            "properties": {
+                "surfaceLayout": {
+                    "description": "The section that contains the properties that define how the volatility surface is returned",
+                    "$ref": "#/definitions/SurfaceOutput"
+                },
+                "surfaceParameters": {
+                    "description": "The section that contains the properties that define how the volatility surface is generated",
+                    "$ref": "#/definitions/EtiSurfaceParameters"
+                },
+                "surfaceTag": {
+                    "description": "A user defined string to describe the volatility surface",
+                    "type": "string"
+                },
+                "underlyingDefinition": {
+                    "description": "The section that contains the properties that define the underlying instrument",
+                    "$ref": "#/definitions/EtiSurfaceDefinition"
+                },
+                "underlyingType": {
+                    "description": "The type of the underlying used to generate the volatility surface",
+                    "type": "string",
+                    "enum": [
+                        "Eti",
+                        "Fx",
+                        "Swaption",
+                        "Cap"
+                    ]
+                }
+            }
+        },
+        "Fixing": {
+            "type": "object",
+            "properties": {
+                "couponType": {
+                    "type": "string",
+                    "enum": [
+                        "Dcb_30_360",
+                        "Dcb_30_360_US",
+                        "Dcb_30_360_German",
+                        "Dcb_30_360_ISDA",
+                        "Dcb_30_365_ISDA",
+                        "Dcb_30_365_German",
+                        "Dcb_30_365_Brazil",
+                        "Dcb_30_Actual_German",
+                        "Dcb_30_Actual",
+                        "Dcb_30_Actual_ISDA",
+                        "Dcb_30E_360_ISMA",
+                        "Dcb_Actual_360",
+                        "Dcb_Actual_364",
+                        "Dcb_Actual_365",
+                        "Dcb_Actual_Actual",
+                        "Dcb_Actual_Actual_ISDA",
+                        "Dcb_Actual_Actual_AFB",
+                        "Dcb_WorkingDays_252",
+                        "Dcb_Actual_365L",
+                        "Dcb_Actual_365P",
+                        "Dcb_ActualLeapDay_365",
+                        "Dcb_ActualLeapDay_360",
+                        "Dcb_Actual_36525",
+                        "Dcb_Actual_365_CanadianConvention",
+                        "Dcb_Constant"
+                    ]
+                },
+                "fixingDefinition": {
+                    "$ref": "#/definitions/FixingDefinition"
+                },
+                "fixingPoints": {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                "fixingRic": {
+                    "type": "string"
+                },
+                "fixingTenor": {
+                    "type": "string"
+                },
+                "fixingType": {
+                    "type": "string",
+                    "enum": [
+                        "SWAPRATE",
+                        "LIBOR",
+                        "COMMOFIXING",
+                        "FX",
+                        "EQUITYSPOT"
+                    ]
+                },
+                "projectionCurvePoints": {
+                    "type": "array",
+                    "items": {
+                        "type": "object"
+                    }
+                },
+                "value": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "valueDate": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            }
+        },
+        "FixingDefinition": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "FormulaParameter": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "instrumentType": {
+                    "type": "string",
+                    "enum": [
+                        "BOND",
+                        "BOND_FUTURES",
+                        "CBS",
+                        "DEPOSIT",
+                        "FIXING",
+                        "FRA",
+                        "FUTURES",
+                        "FX_FORWARD",
+                        "FX_SPOT",
+                        "SWAP",
+                        "BASIS_SWAP",
+                        "OIS",
+                        "TENOR_BASIS_SWAP"
+                    ]
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "ForwardCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "forwardCurveTag": {
+                    "type": "string",
+                    "example": "SpotForward"
+                },
+                "forwardCurveTenors": {
+                    "description": "Defines expected forward rate surface tenor/slices",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "example": [
+                        "6M",
+                        "1Y",
+                        "5Y"
+                    ]
+                },
+                "forwardStartDate": {
+                    "description": "Defines the forward start date by date format",
+                    "type": "string",
+                    "format": "date",
+                    "example": "2019-03-26"
+                },
+                "forwardStartTenor": {
+                    "description": "Defines the forward start date by tenor format: \"Spot\" / \"1M\" / ...",
+                    "type": "string",
+                    "example": "Spot"
+                },
+                "indexTenor": {
+                    "type": "string",
+                    "example": "3M"
+                }
+            }
+        },
+        "ForwardCurveItem": {
+            "type": "object",
+            "properties": {
+                "curvePoints": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/CurvePoint"
+                    }
+                },
+                "forwardCurveTag": {
+                    "type": "string"
+                },
+                "forwardStart": {
+                    "type": "string"
+                },
+                "indexTenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "ForwardCurveRequest": {
+            "type": "object",
+            "properties": {
+                "outputs": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Constituents",
+                            "Curves"
+                        ]
+                    }
+                },
+                "universe": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ForwardCurveRequestItem"
+                    }
+                }
+            }
+        },
+        "ForwardCurveRequestItem": {
+            "type": "object",
+            "properties": {
+                "curveDefinition": {
+                    "$ref": "#/definitions/SwapZcCurveDefinition"
+                },
+                "curveParameters": {
+                    "$ref": "#/definitions/SwapZcCurveParameters"
+                },
+                "curveTag": {
+                    "type": "string",
+                    "example": "tag1"
+                },
+                "forwardCurveDefinitions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ForwardCurveDefinition"
+                    }
+                },
+                "swapZcConstituents": {
+                    "$ref": "#/definitions/QpsSwapZcConstituents"
+                }
+            }
+        },
+        "ForwardCurveResponse": {
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ForwardCurveResponseItem"
+                    }
+                }
+            }
+        },
+        "ForwardCurveResponseItem": {
+            "type": "object",
+            "properties": {
+                "curveDefinition": {
+                    "$ref": "#/definitions/SwapZcCurveDefinition"
+                },
+                "curveParameters": {
+                    "$ref": "#/definitions/SwapZcCurveParameters"
+                },
+                "curveTag": {
+                    "type": "string"
+                },
+                "forwardCurves": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ForwardCurveItem"
+                    }
+                },
+                "instrumentType": {
+                    "type": "string"
+                },
+                "requestId": {
+                    "type": "string"
+                }
+            }
+        },
+        "FxCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "fxCrossCode": {
+                    "description": "Cross currency code",
+                    "type": "string"
+                },
+                "referenceCcy": {
+                    "description": "Reference currency used as a pivot currency.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "Source of the market data : composite or the mnemonic of the contributor. For contributor a specific entitlement may be required. \r\nOptional. By default composite data is returned",
+                    "type": "string"
+                }
+            }
+        },
+        "FxCurveParameters": {
+            "type": "object",
+            "properties": {
+                "extrapolationMode": {
+                    "description": "Flag to define whether extrapolation is allowed.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "Constant",
+                        "Linear"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method for the curve.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "Log",
+                        "Constant",
+                        "VolatilityCurve",
+                        "Hermite",
+                        "AkimaMethod",
+                        "FritschButlandMethod",
+                        "KrugerMethod",
+                        "MonotonicCubicNaturalSpline",
+                        "MonotonicHermiteCubic",
+                        "TensionSpline",
+                        "BrazilianDebenture",
+                        "ForwardMonotoneConvex"
+                    ]
+                }
+            }
+        },
+        "FxSpotDefinition": {
+            "type": "object",
+            "properties": {
+                "fxCrossCode": {
+                    "description": "The cross currency code",
+                    "type": "string"
+                },
+                "referenceCcy": {
+                    "description": "The reference currency used as a pivot currency.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "The source of the market date : composite, the mnemonic of the contributor. For ontributor a specific entitlement may be required. \r\nOptional. By default composite data is returned",
+                    "type": "string"
+                }
+            }
+        },
+        "FxSpotParameters": {
+            "type": "object"
+        },
+        "FxSurfaceParameters": {
+            "type": "object",
+            "properties": {
+                "atmVolatilityObject": {
+                    "description": "At the money volatility at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "butterfly10DObject": {
+                    "description": "BF 10 Days at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "butterfly25DObject": {
+                    "description": "BF 25 Days at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "calculationDate": {
+                    "description": "The date the volatility surface is generated.",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "domesticDepositRatePercentObject": {
+                    "description": "Domestic Deposit Rate at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "foreignDepositRatePercentObject": {
+                    "description": "Foreign Deposit Rate at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "forwdardPointsObject": {
+                    "description": "Forward Points at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "fxSpotObject": {
+                    "description": "Spot Price",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "fxSwapCalculationMethod": {
+                    "description": "The method we chose to price outrights using or not implied deposits. Possible values are:\n\n FxSwap (compute outrights using swap points),\n\n DepositCcy1ImpliedFromFxSwap (compute currency1 deposits using swap points),\n\n DepositCcy2ImpliedFromFxSwap (compute currency2 deposits using swap points).\n\n Optional. Defaults to 'FxSwap'.",
+                    "type": "string",
+                    "enum": [
+                        "FxSwap",
+                        "FxSwapImpliedFromDeposit",
+                        "DepositCcy1ImpliedFromFxSwap",
+                        "DepositCcy2ImpliedFromFxSwap"
+                    ]
+                },
+                "impliedVolatilityObject": {
+                    "description": "Implied Volatility at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "interpolationWeight": {
+                    "description": "Vol Term Structure Interpolation",
+                    "$ref": "#/definitions/InterpolationWeight"
+                },
+                "priceSide": {
+                    "description": "Specifies whether bid, ask or mid is used to build the surface.",
+                    "type": "string",
+                    "enum": [
+                        "Mid",
+                        "Bid",
+                        "Ask",
+                        "Last"
+                    ]
+                },
+                "riskReversal10DObject": {
+                    "description": "RR 10 Days at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "riskReversal25DObject": {
+                    "description": "RR 25 Days at Expiry",
+                    "$ref": "#/definitions/BidAskMid"
+                },
+                "timeStamp": {
+                    "description": "Define how the timestamp is selected:\n- Open: the opening value of the valuationDate or if not available the close of the previous day is used.\n- Default: the latest snapshot is used when valuationDate is today, the close price when valuationDate is in the past.",
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "Open",
+                        "Close",
+                        "Settle",
+                        "Last"
+                    ]
+                },
+                "volatilityModel": {
+                    "description": "The quantitative model used to generate the volatility surface. This may depend on the asset class.\nFor Fx Volatility Surface, we currently support the SVI model.",
+                    "type": "string",
+                    "enum": [
+                        "SVI",
+                        "SABR",
+                        "CubicSpline",
+                        "TwinLognormal"
+                    ]
+                },
+                "xAxis": {
+                    "description": "Specifies the unit for the x axis (e.g. Date, Tenor)",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                },
+                "yAxis": {
+                    "description": "Specifies the unit for the y axis (e.g. Strike, Delta). This may depend on the asset class.\nFor Fx Volatility Surface, we support both Delta and Strike.",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                }
+            }
+        },
+        "FxVolatilitySurfaceDefinition": {
+            "type": "object",
+            "properties": {
+                "fxCrossCode": {
+                    "description": "The ISO code of the cross currency (e.g. 'EURCHF').\nMandatory.",
+                    "type": "string"
+                }
+            }
+        },
+        "FxVolatilitySurfaceRequestItem": {
+            "type": "object",
+            "properties": {
+                "surfaceLayout": {
+                    "description": "The section that contains the properties that define how the volatility surface is returned",
+                    "$ref": "#/definitions/SurfaceOutput"
+                },
+                "surfaceParameters": {
+                    "description": "The section that contains the properties that define how the volatility surface is generated",
+                    "$ref": "#/definitions/FxSurfaceParameters"
+                },
+                "surfaceTag": {
+                    "description": "A user defined string to describe the volatility surface",
+                    "type": "string"
+                },
+                "underlyingDefinition": {
+                    "description": "The section that contains the properties that define the underlying instrument",
+                    "$ref": "#/definitions/FxVolatilitySurfaceDefinition"
+                },
+                "underlyingType": {
+                    "description": "The type of the underlying used to generate the volatility surface",
+                    "type": "string",
+                    "enum": [
+                        "Eti",
+                        "Fx",
+                        "Swaption",
+                        "Cap"
+                    ]
+                }
+            }
+        },
+        "HullWhiteCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "description": "The currency code of the interest rate curve.\nMandatory.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the interest rate curve.\nMandatory.",
+                    "type": "string"
+                }
+            }
+        },
+        "IIrVolModelDefinition": {
+            "type": "object",
+            "properties": {
+                "discountingType": {
+                    "description": "the discounting type of the IR vol model: OisDiscounting, or BorDiscounting (default)",
+                    "type": "string",
+                    "enum": [
+                        "OisDiscounting",
+                        "LiborDiscounting"
+                    ]
+                },
+                "instrumentCode": {
+                    "description": "The currency of the stripped cap surface, vol cube, or interest rate vol model",
+                    "type": "string"
+                }
+            }
+        },
+        "IIrVolModelPricingParameters": {
+            "type": "object",
+            "properties": {
+                "inputVolatilityType": {
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "LogNormalVolatility",
+                        "NormalizedVolatility"
+                    ]
+                },
+                "marketDataDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "shiftPercent": {
+                    "description": "Shift value to use in calibration(Strike/Forward). Default: 0.0",
+                    "type": "number",
+                    "format": "double"
+                },
+                "source": {
+                    "description": "Requested volatility data contributor.",
+                    "type": "string"
+                },
+                "valuationDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "volatilityAdjustmentType": {
+                    "description": "Volatility Adjustment method for stripping: ConstantCaplet, ConstantCap, ShiftedCap, NormalizedCap, NormalizedCaplet",
+                    "type": "string",
+                    "enum": [
+                        "PbUndefined",
+                        "ConstantCaplet",
+                        "NormalizedCaplet",
+                        "ConstantCap",
+                        "NormalizedCap",
+                        "ShiftedCap"
+                    ]
+                },
+                "xAxis": {
+                    "description": "Specifies the unit for the x axis (e.g. Date, Tenor)",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                },
+                "yAxis": {
+                    "description": "Specifies the unit for the y axis (e.g. Strike, Delta). This may depend on the asset class.\nFor Fx Volatility Surface, we support both Delta and Strike.",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                },
+                "zAxis": {
+                    "description": "Specifies the unit for the z axis (e.g. Strike, Tenor, Expiries). This applies on Ir SABR Volatility Cube.",
+                    "type": "string",
+                    "enum": [
+                        "Date",
+                        "Strike",
+                        "Tenor",
+                        "Delta",
+                        "Moneyness"
+                    ]
+                }
+            }
+        },
+        "InterestRateCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "chainRic": {
+                    "description": "The chain ric of the interest rate curve.\nMandatory.",
+                    "type": "string"
+                },
+                "currency": {
+                    "description": "The currency code of the interest rate curve.\nMandatory.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the interest rate curve.\nMandatory.",
+                    "type": "string"
+                }
+            }
+        },
+        "InterestRateCurveParameters": {
+            "type": "object",
+            "properties": {
+                "dayCountBasis": {
+                    "description": "Day count basis used to compute the rates of the curve points",
+                    "type": "string",
+                    "enum": [
+                        "Dcb_30_360",
+                        "Dcb_30_360_US",
+                        "Dcb_30_360_German",
+                        "Dcb_30_360_ISDA",
+                        "Dcb_30_365_ISDA",
+                        "Dcb_30_365_German",
+                        "Dcb_30_365_Brazil",
+                        "Dcb_30_Actual_German",
+                        "Dcb_30_Actual",
+                        "Dcb_30_Actual_ISDA",
+                        "Dcb_30E_360_ISMA",
+                        "Dcb_Actual_360",
+                        "Dcb_Actual_364",
+                        "Dcb_Actual_365",
+                        "Dcb_Actual_Actual",
+                        "Dcb_Actual_Actual_ISDA",
+                        "Dcb_Actual_Actual_AFB",
+                        "Dcb_WorkingDays_252",
+                        "Dcb_Actual_365L",
+                        "Dcb_Actual_365P",
+                        "Dcb_ActualLeapDay_365",
+                        "Dcb_ActualLeapDay_360",
+                        "Dcb_Actual_36525",
+                        "Dcb_Actual_365_CanadianConvention",
+                        "Dcb_Constant"
+                    ]
+                },
+                "extrapolationMode": {
+                    "description": "Flag to define whether extrapolation is allowed.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "Constant",
+                        "Linear"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method for the curve.\nOptional.",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "Log",
+                        "Constant",
+                        "VolatilityCurve",
+                        "Hermite",
+                        "AkimaMethod",
+                        "FritschButlandMethod",
+                        "KrugerMethod",
+                        "MonotonicCubicNaturalSpline",
+                        "MonotonicHermiteCubic",
+                        "TensionSpline",
+                        "BrazilianDebenture",
+                        "ForwardMonotoneConvex"
+                    ]
+                }
+            }
+        },
+        "InterestRateVolatilitySurface": {
+            "type": "object",
+            "properties": {
+                "instrumentTag": {
+                    "type": "string"
+                },
+                "surfaceParameters": {
+                    "$ref": "#/definitions/InterestRateVolatilitySurfaceParameters"
+                },
+                "underlyingDefinition": {
+                    "$ref": "#/definitions/InterestRateVolatilitySurfaceDefinition"
+                },
+                "underlyingType": {
+                    "type": "string"
+                }
+            }
+        },
+        "InterestRateVolatilitySurfaceDefinition": {
+            "type": "object",
+            "properties": {
+                "underlyingCode": {
+                    "type": "string"
+                },
+                "underlyingCurrency": {
+                    "type": "string"
+                },
+                "underlyingName": {
+                    "type": "string"
+                }
+            }
+        },
+        "InterestRateVolatilitySurfaceParameters": {
+            "type": "object",
+            "properties": {
+                "atmInterpolation": {
+                    "type": "string"
+                },
+                "atmVolBasis": {
+                    "type": "string"
+                },
+                "calculationDate": {
+                    "type": "string"
+                },
+                "dayCount": {
+                    "type": "string"
+                },
+                "discountingType": {
+                    "type": "string",
+                    "enum": [
+                        "OisDiscounting",
+                        "LiborDiscounting"
+                    ]
+                },
+                "inputVolatilityType": {
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "LogNormalVolatility",
+                        "NormalizedVolatility"
+                    ]
+                },
+                "priceSide": {
+                    "type": "string"
+                },
+                "smileInterpolation": {
+                    "type": "string"
+                },
+                "smileStrikeBasis": {
+                    "type": "string"
+                },
+                "smileStrikeType": {
+                    "type": "string"
+                },
+                "smileVolBasis": {
+                    "type": "string"
+                },
+                "source": {
+                    "type": "string"
+                },
+                "volSmileType": {
+                    "type": "string"
+                },
+                "volatilityModel": {
+                    "type": "string"
+                },
+                "volatilityQuotationType": {
+                    "type": "string"
+                }
+            }
+        },
+        "InterpolationWeight": {
+            "type": "object",
+            "properties": {
+                "daysList": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/DayWeight"
+                    }
+                },
+                "holidays": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "weekDays": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "weekEnds": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "MoneynessWeight": {
+            "type": "object",
+            "properties": {
+                "maxMoneyness": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "minMoneyness": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "weight": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "QpsCurveUnderlyingInstrument": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "formula": {
+                    "type": "string"
+                },
+                "formulaParameters": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/FormulaParameter"
+                    }
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "periodCode": {
+                    "type": "string"
+                },
+                "statusMessage": {
+                    "type": "string"
+                },
+                "structure": {
+                    "type": "string"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                }
+            }
+        },
+        "QpsSwapCurveConstituents": {
+            "type": "object",
+            "properties": {
+                "deposits": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "fixings": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "fras": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "futures": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "ois": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "swaps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "tenorBasisSwaps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                }
+            }
+        },
+        "QpsSwapZcConstituents": {
+            "type": "object",
+            "properties": {
+                "swapCurves": {
+                    "type": "object",
+                    "additionalProperties": true
+                },
+                "xCcyBasisCurves": {
+                    "type": "object",
+                    "additionalProperties": true
+                }
+            }
+        },
+        "QpsXCcyBasisCurveConstituents": {
+            "type": "object",
+            "properties": {
+                "cbs": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "fxForwards": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                    }
+                },
+                "fxSpot": {
+                    "$ref": "#/definitions/QpsCurveUnderlyingInstrument"
+                }
+            }
+        },
+        "Regex": {
+            "type": "object",
+            "properties": {
+                "matchTimeout": {
+                    "type": "string",
+                    "readOnly": true
+                },
+                "options": {
+                    "type": "string",
+                    "enum": [
+                        "None",
+                        "IgnoreCase",
+                        "Multiline",
+                        "ExplicitCapture",
+                        "Compiled",
+                        "Singleline",
+                        "IgnorePatternWhitespace",
+                        "RightToLeft",
+                        "ECMAScript",
+                        "CultureInvariant"
+                    ],
+                    "readOnly": true
+                },
+                "rightToLeft": {
+                    "type": "boolean",
+                    "readOnly": true
+                }
+            }
+        },
+        "Step": {
+            "description": "Description of Step...",
+            "type": "object",
+            "properties": {
+                "stepDate": {
+                    "description": "EffectiveDate: effective date of the rate step",
+                    "type": "string",
+                    "format": "date"
+                },
+                "stepRatePercent": {
+                    "description": "RatePercent: stepped rate expressed in percent",
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "SurfaceOutput": {
+            "type": "object",
+            "properties": {
+                "dataPoints": {
+                    "description": "Specifies the list of specific data points to be returned.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/VolatilitySurfacePoint"
+                    }
+                },
+                "format": {
+                    "description": "Specifies whether the calculated volatilities are returned as a list or a matrix.",
+                    "type": "string",
+                    "enum": [
+                        "Matrix",
+                        "List",
+                        "NDimensionalArray"
+                    ]
+                },
+                "xPointCount": {
+                    "description": "Specifies the number of values that will be generated along the x-axis. \r\nThese values will distributed depending on the available input data and the type of volatility.",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "xValues": {
+                    "description": "Specifies a list of discrete values for the x-axis.",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "yPointCount": {
+                    "description": "Specifies the number of values that will be generated along the y-axis.\nThese values will distributed depending on the available input data and the type of volatility.",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "yValues": {
+                    "description": "Specifies a list of discrete values for the y-axis.",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "SwapZcCurveDefinition": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "type": "string",
+                    "example": "EUR"
+                },
+                "discountingTenor": {
+                    "type": "string",
+                    "example": "3M"
+                },
+                "id": {
+                    "description": "Id of the curve definition to get",
+                    "type": "string"
+                },
+                "indexName": {
+                    "type": "string",
+                    "example": "EURIBOR"
+                },
+                "indexTenors": {
+                    "description": "Defines expected rate surface tenor/slices\nDefaults to the tenors available, based on provided market data",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "example": [
+                        "1M",
+                        "3M"
+                    ]
+                },
+                "mainConstituentAssetClass": {
+                    "type": "string",
+                    "enum": [
+                        "Swap",
+                        "Futures"
+                    ]
+                },
+                "name": {
+                    "type": "string"
+                },
+                "riskType": {
+                    "type": "string",
+                    "enum": [
+                        "InterestRate"
+                    ]
+                },
+                "source": {
+                    "type": "string",
+                    "example": "Refinitiv"
+                }
+            }
+        },
+        "SwapZcCurveDefinitions": {
+            "type": "object",
+            "properties": {
+                "curveDefinitions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ZcCurveDefinition"
+                    }
+                },
+                "curveTag": {
+                    "type": "string"
+                }
+            }
+        },
+        "SwapZcCurveGetDefinitionsResponse": {
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/SwapZcCurveDefinitions"
+                    }
+                }
+            }
+        },
+        "SwapZcCurveParameters": {
+            "type": "object",
+            "properties": {
+                "convexityAdjustment": {
+                    "$ref": "#/definitions/ConvexityAdjustment"
+                },
+                "extrapolationMode": {
+                    "description": "\"Yes\" / \"No\"Default value is: \"No\"",
+                    "type": "string"
+                },
+                "interestCalculationMethod": {
+                    "description": "Day count basis of the calculated zero coupon rates.\nDefault value is: Dcb_Actual_Actual",
+                    "type": "string",
+                    "enum": [
+                        "Dcb_30_360",
+                        "Dcb_30_360_US",
+                        "Dcb_30_360_German",
+                        "Dcb_30_360_ISDA",
+                        "Dcb_30_365_ISDA",
+                        "Dcb_30_365_German",
+                        "Dcb_30_365_Brazil",
+                        "Dcb_30_Actual_German",
+                        "Dcb_30_Actual",
+                        "Dcb_30_Actual_ISDA",
+                        "Dcb_30E_360_ISMA",
+                        "Dcb_Actual_360",
+                        "Dcb_Actual_364",
+                        "Dcb_Actual_365",
+                        "Dcb_Actual_Actual",
+                        "Dcb_Actual_Actual_ISDA",
+                        "Dcb_Actual_Actual_AFB",
+                        "Dcb_WorkingDays_252",
+                        "Dcb_Actual_365L",
+                        "Dcb_Actual_365P",
+                        "Dcb_ActualLeapDay_365",
+                        "Dcb_ActualLeapDay_360",
+                        "Dcb_Actual_36525",
+                        "Dcb_Actual_365_CanadianConvention",
+                        "Dcb_Constant"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method used in swap zero curve bootstrap.\nDefault value is: CubicSpline\n\nCubicDiscount: local cubic interpolation of discount factors\nCubicRate: local cubic interpolation of rates\nCubicSpline: a natural cubic spline\nLinear: linear interpolation\nForwardMonotoneConvex",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "ForwardMonotoneConvex"
+                    ]
+                },
+                "priceSide": {
+                    "description": "Defines which data is used for the rate surface computation.\nDefault value is: Mid",
+                    "type": "string",
+                    "enum": [
+                        "Bid",
+                        "Ask",
+                        "Mid"
+                    ],
+                    "example": "Ask"
+                },
+                "referenceTenor": {
+                    "description": "Root tenor(s) for the xIbor dependencies",
+                    "type": "string",
+                    "example": "3M"
+                },
+                "steps": {
+                    "description": "Use to calculate the swap rate surface discount curve, when OIS is selected as discount curve.\nThe steps can specify overnight index stepped dates or/and rates.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Step"
+                    }
+                },
+                "turns": {
+                    "description": "Used to include end period rates/turns when calculating swap rate surfaces",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Turn"
+                    }
+                },
+                "useConvexityAdjustment": {
+                    "description": "false / true\nDefault value is: true.\nIt indicates if the system needs to retrieve the convexity adjustment",
+                    "type": "boolean"
+                },
+                "useSteps": {
+                    "description": "false / true\nDefault value is: false.\nIt indicates if the system needs to retrieve the overnight index stepped dates or/and rates",
+                    "type": "boolean"
+                },
+                "valuationDate": {
+                    "description": "The valuation date\nDefault value is the current date",
+                    "type": "string",
+                    "format": "date",
+                    "example": "2019-08-21"
+                }
+            }
+        },
+        "SwaptionInstrument": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "couponRate": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "iborDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "iborDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "maturityDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "oisDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "oisDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "shift": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "spreadVsAtm": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "strikePercent": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "swapTenor": {
+                    "type": "string"
+                },
+                "swaptionTenor": {
+                    "type": "string"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "AtmStrike",
+                        "Smile",
+                        "AtmVol",
+                        "MeanReversion"
+                    ]
+                },
+                "volModel": {
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "LogNormalVolatility",
+                        "NormalizedVolatility"
+                    ]
+                }
+            }
+        },
+        "SwaptionVolatilitySurfaceRequestItem": {
+            "type": "object",
+            "properties": {
+                "instrumentType": {
+                    "description": "The type of instrument being defined.",
+                    "type": "string"
+                },
+                "surfaceLayout": {
+                    "description": "The section that contains the properties that define how the volatility surface is returned",
+                    "$ref": "#/definitions/SurfaceOutput"
+                },
+                "surfaceParameters": {
+                    "$ref": "#/definitions/IIrVolModelPricingParameters"
+                },
+                "surfaceTag": {
+                    "description": "A user defined string to describe the volatility surface",
+                    "type": "string"
+                },
+                "underlyingDefinition": {
+                    "$ref": "#/definitions/IIrVolModelDefinition"
+                },
+                "underlyingType": {
+                    "description": "The type of the underlying used to generate the volatility surface",
+                    "type": "string",
+                    "enum": [
+                        "Eti",
+                        "Fx",
+                        "Swaption",
+                        "Cap"
+                    ]
+                }
+            }
+        },
+        "Turn": {
+            "description": "Description of Turn...",
+            "type": "object",
+            "properties": {
+                "month": {
+                    "description": "Month of the turn period",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "turnRatePercent": {
+                    "description": "Turn rate expressed in percents",
+                    "type": "number",
+                    "format": "double"
+                },
+                "year": {
+                    "description": "Year of the turn period",
+                    "type": "integer",
+                    "format": "int32"
+                }
+            }
+        },
+        "ValueTuple[Double,Double]": {
+            "type": "object",
+            "properties": {
+                "item1": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "item2": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        },
+        "VolatilityInstrument": {
+            "type": "object",
+            "properties": {
+                "ask": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "basis": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bid": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "couponRate": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "iborDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "iborDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "instrumentCode": {
+                    "type": "string"
+                },
+                "maturityDate": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "oisDiscBpVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "oisDiscLognormalVol": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "shift": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "strikePercent": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "swaptionTenor": {
+                    "type": "string"
+                },
+                "template": {
+                    "type": "string"
+                },
+                "tenor": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "AtmStrike",
+                        "Smile",
+                        "AtmVol",
+                        "MeanReversion"
+                    ]
+                },
+                "volModel": {
+                    "type": "string",
+                    "enum": [
+                        "Default",
+                        "LogNormalVolatility",
+                        "NormalizedVolatility"
+                    ]
+                }
+            }
+        },
+        "VolatilitySurfacePoint": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "description": "The coordinate of the volatility data point on the x-axis",
+                    "type": "string"
+                },
+                "y": {
+                    "description": "The coordinate of the volatility data point on the y-axis",
+                    "type": "string"
+                }
+            }
+        },
+        "VolatilitySurfaceRequest": {
+            "type": "object",
+            "properties": {
+                "outputs": {
+                    "description": "The Requested ouputs.\nOptional. By default only data are returned.",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Headers",
+                            "DataType",
+                            "Data",
+                            "Statuses",
+                            "ForwardCurve",
+                            "Dividends",
+                            "InterestRateCurve",
+                            "GoodnessOfFit",
+                            "UnderlyingSpot",
+                            "DiscountCurve",
+                            "MoneynessStrike"
+                        ]
+                    }
+                },
+                "universe": {
+                    "description": "The list of Volatility Surface Definitions",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/VolatilitySurfaceRequestItem"
+                    }
+                }
+            }
+        },
+        "VolatilitySurfaceRequestItem": {
+            "type": "object",
+            "required": [
+                "underlyingType"
+            ],
+            "properties": {
+                "surfaceLayout": {
+                    "description": "The section that contains the properties that define how the volatility surface is returned",
+                    "$ref": "#/definitions/SurfaceOutput"
+                },
+                "surfaceTag": {
+                    "description": "A user defined string to describe the volatility surface",
+                    "type": "string"
+                },
+                "underlyingType": {
+                    "description": "The type of the underlying used to generate the volatility surface",
+                    "type": "string",
+                    "enum": [
+                        "Eti",
+                        "Fx",
+                        "Swaption",
+                        "Cap"
+                    ]
+                }
+            },
+            "discriminator": "underlyingType"
+        },
+        "VolatilitySurfaceResponse": {
+            "type": "object",
+            "properties": {
+                "volatilitySurfaces": {
+                    "description": "The list of volatility surfaces that have been generated based on the request.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/VolatilitySurfaceResponseItem"
+                    }
+                }
+            }
+        },
+        "VolatilitySurfaceResponseItem": {
+            "type": "object",
+            "properties": {
+                "discountCurve": {
+                    "description": "The discount curve",
+                    "type": "object"
+                },
+                "dividends": {
+                    "description": "The dividends",
+                    "type": "object"
+                },
+                "error": {
+                    "description": "An object that contains either:\n\n    - the description properties of an error.\n\n    - or Null when no error is returned.",
+                    "$ref": "#/definitions/ErrorResponse"
+                },
+                "forwardCurve": {
+                    "description": "The forward curve",
+                    "type": "object"
+                },
+                "goodnessOfFit": {
+                    "description": "The goodness of fit for VolSurface",
+                    "type": "object"
+                },
+                "headers": {
+                    "description": "The list of column headers that describe the columns returned in the case of a \"List\" format",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "interestRateCurve": {
+                    "description": "The Interest rate curve",
+                    "type": "object"
+                },
+                "moneynessStrike": {
+                    "description": "The strike level associated to the moneyness level for VolSurface",
+                    "type": "object"
+                },
+                "surface": {
+                    "description": "The actual volatility surface",
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "type": "object"
+                        }
+                    }
+                },
+                "surfaceTag": {
+                    "description": "The user-defined tag provided in the request or a generated one if no tag were provided.",
+                    "type": "string"
+                },
+                "underlyingSpot": {
+                    "description": "The Underlying Spot",
+                    "type": "object"
+                }
+            }
+        },
+        "ZcCurveDefinition": {
+            "description": "ZC curve definition",
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "type": "string",
+                    "example": "EUR"
+                },
+                "discountingTenor": {
+                    "type": "string",
+                    "example": "3M"
+                },
+                "id": {
+                    "description": "Id of the curve definition to get",
+                    "type": "string"
+                },
+                "indexName": {
+                    "type": "string",
+                    "example": "EURIBOR"
+                },
+                "mainConstituentAssetClass": {
+                    "type": "string",
+                    "enum": [
+                        "Swap",
+                        "Futures"
+                    ]
+                },
+                "name": {
+                    "type": "string"
+                },
+                "riskType": {
+                    "type": "string",
+                    "enum": [
+                        "InterestRate"
+                    ]
+                },
+                "source": {
+                    "type": "string",
+                    "example": "Refinitiv"
+                }
+            }
+        },
+        "ZcCurveDefinitionRequest": {
+            "type": "object",
+            "properties": {
+                "universe": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ZcCurveDefinitionRequestItem"
+                    }
+                }
+            }
+        },
+        "ZcCurveDefinitionRequestItem": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "type": "string",
+                    "example": "EUR"
+                },
+                "curveTag": {
+                    "description": "User defined string to identify the curve. It can be used to link output results to the curve definition.\nOnly alphabetic, numeric and '- _.#=@' characters are supported.\nOptional.",
+                    "type": "string",
+                    "example": "tag1"
+                },
+                "id": {
+                    "description": "Id of the curve definition to get",
+                    "type": "string"
+                },
+                "indexName": {
+                    "type": "string",
+                    "example": "EURIBOR"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "source": {
+                    "type": "string",
+                    "example": "Refinitiv"
+                },
+                "valuationDate": {
+                    "type": "string",
+                    "format": "date",
+                    "example": "2019-08-21"
+                }
+            }
+        },
+        "ZcCurveMainDefinition": {
+            "type": "object",
+            "properties": {
+                "currency": {
+                    "type": "string",
+                    "example": "EUR"
+                },
+                "discountingTenor": {
+                    "type": "string",
+                    "example": "3M"
+                },
+                "id": {
+                    "description": "Id of the curve definition to get",
+                    "type": "string"
+                },
+                "indexName": {
+                    "type": "string",
+                    "example": "EURIBOR"
+                },
+                "indexTenors": {
+                    "description": "Defines expected rate surface tenor/slices\nDefaults to the tenors available, based on provided market data",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "example": [
+                        "1M",
+                        "3M"
+                    ]
+                },
+                "mainConstituentAssetClass": {
+                    "type": "string",
+                    "enum": [
+                        "Swap",
+                        "Futures"
+                    ]
+                },
+                "name": {
+                    "type": "string"
+                },
+                "pivotCurveDefinition": {
+                    "$ref": "#/definitions/ZcCurveDefinition"
+                },
+                "referenceCurveDefinition": {
+                    "$ref": "#/definitions/ZcCurveDefinition"
+                },
+                "riskType": {
+                    "type": "string",
+                    "enum": [
+                        "InterestRate"
+                    ]
+                },
+                "source": {
+                    "type": "string",
+                    "example": "Refinitiv"
+                }
+            }
+        },
+        "ZcCurveMainParameters": {
+            "type": "object",
+            "properties": {
+                "convexityAdjustment": {
+                    "$ref": "#/definitions/ConvexityAdjustment"
+                },
+                "extrapolationMode": {
+                    "description": "\"Yes\" / \"No\"Default value is: \"No\"",
+                    "type": "string"
+                },
+                "interestCalculationMethod": {
+                    "description": "Day count basis of the calculated zero coupon rates.\nDefault value is: Dcb_Actual_Actual",
+                    "type": "string",
+                    "enum": [
+                        "Dcb_30_360",
+                        "Dcb_30_360_US",
+                        "Dcb_30_360_German",
+                        "Dcb_30_360_ISDA",
+                        "Dcb_30_365_ISDA",
+                        "Dcb_30_365_German",
+                        "Dcb_30_365_Brazil",
+                        "Dcb_30_Actual_German",
+                        "Dcb_30_Actual",
+                        "Dcb_30_Actual_ISDA",
+                        "Dcb_30E_360_ISMA",
+                        "Dcb_Actual_360",
+                        "Dcb_Actual_364",
+                        "Dcb_Actual_365",
+                        "Dcb_Actual_Actual",
+                        "Dcb_Actual_Actual_ISDA",
+                        "Dcb_Actual_Actual_AFB",
+                        "Dcb_WorkingDays_252",
+                        "Dcb_Actual_365L",
+                        "Dcb_Actual_365P",
+                        "Dcb_ActualLeapDay_365",
+                        "Dcb_ActualLeapDay_360",
+                        "Dcb_Actual_36525",
+                        "Dcb_Actual_365_CanadianConvention",
+                        "Dcb_Constant"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method used in swap zero curve bootstrap.\nDefault value is: CubicSpline\n\nCubicDiscount: local cubic interpolation of discount factors\nCubicRate: local cubic interpolation of rates\nCubicSpline: a natural cubic spline\nLinear: linear interpolation\nForwardMonotoneConvex",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "ForwardMonotoneConvex"
+                    ]
+                },
+                "pivotCurveParameters": {
+                    "$ref": "#/definitions/ZcCurveParameters"
+                },
+                "priceSide": {
+                    "description": "Defines which data is used for the rate surface computation.\nDefault value is: Mid",
+                    "type": "string",
+                    "enum": [
+                        "Bid",
+                        "Ask",
+                        "Mid"
+                    ],
+                    "example": "Ask"
+                },
+                "referenceCurveParameters": {
+                    "description": "referenceCurveParameters notes...",
+                    "$ref": "#/definitions/ZcCurveParameters"
+                },
+                "referenceTenor": {
+                    "description": "Root tenor(s) for the xIbor dependencies",
+                    "type": "string",
+                    "example": "3M"
+                },
+                "steps": {
+                    "description": "Use to calculate the swap rate surface discount curve, when OIS is selected as discount curve.\nThe steps can specify overnight index stepped dates or/and rates.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Step"
+                    }
+                },
+                "turns": {
+                    "description": "Used to include end period rates/turns when calculating swap rate surfaces",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Turn"
+                    }
+                },
+                "useConvexityAdjustment": {
+                    "description": "false / true\nDefault value is: true.\nIt indicates if the system needs to retrieve the convexity adjustment",
+                    "type": "boolean"
+                },
+                "useSteps": {
+                    "description": "false / true\nDefault value is: false.\nIt indicates if the system needs to retrieve the overnight index stepped dates or/and rates",
+                    "type": "boolean"
+                },
+                "valuationDate": {
+                    "description": "The valuation date\nDefault value is the current date",
+                    "type": "string",
+                    "format": "date",
+                    "example": "2019-08-21"
+                }
+            }
+        },
+        "ZcCurveParameters": {
+            "description": "The pricing parameters to apply to the zero curve",
+            "type": "object",
+            "properties": {
+                "convexityAdjustment": {
+                    "$ref": "#/definitions/ConvexityAdjustment"
+                },
+                "extrapolationMode": {
+                    "description": "\"Yes\" / \"No\"Default value is: \"No\"",
+                    "type": "string"
+                },
+                "interestCalculationMethod": {
+                    "description": "Day count basis of the calculated zero coupon rates.\nDefault value is: Dcb_Actual_Actual",
+                    "type": "string",
+                    "enum": [
+                        "Dcb_30_360",
+                        "Dcb_30_360_US",
+                        "Dcb_30_360_German",
+                        "Dcb_30_360_ISDA",
+                        "Dcb_30_365_ISDA",
+                        "Dcb_30_365_German",
+                        "Dcb_30_365_Brazil",
+                        "Dcb_30_Actual_German",
+                        "Dcb_30_Actual",
+                        "Dcb_30_Actual_ISDA",
+                        "Dcb_30E_360_ISMA",
+                        "Dcb_Actual_360",
+                        "Dcb_Actual_364",
+                        "Dcb_Actual_365",
+                        "Dcb_Actual_Actual",
+                        "Dcb_Actual_Actual_ISDA",
+                        "Dcb_Actual_Actual_AFB",
+                        "Dcb_WorkingDays_252",
+                        "Dcb_Actual_365L",
+                        "Dcb_Actual_365P",
+                        "Dcb_ActualLeapDay_365",
+                        "Dcb_ActualLeapDay_360",
+                        "Dcb_Actual_36525",
+                        "Dcb_Actual_365_CanadianConvention",
+                        "Dcb_Constant"
+                    ]
+                },
+                "interpolationMode": {
+                    "description": "Interpolation method used in swap zero curve bootstrap.\nDefault value is: CubicSpline\n\nCubicDiscount: local cubic interpolation of discount factors\nCubicRate: local cubic interpolation of rates\nCubicSpline: a natural cubic spline\nLinear: linear interpolation\nForwardMonotoneConvex",
+                    "type": "string",
+                    "enum": [
+                        "CubicDiscount",
+                        "CubicRate",
+                        "CubicSpline",
+                        "Linear",
+                        "ForwardMonotoneConvex"
+                    ]
+                },
+                "priceSide": {
+                    "description": "Defines which data is used for the rate surface computation.\nDefault value is: Mid",
+                    "type": "string",
+                    "enum": [
+                        "Bid",
+                        "Ask",
+                        "Mid"
+                    ],
+                    "example": "Ask"
+                },
+                "referenceTenor": {
+                    "description": "Root tenor(s) for the xIbor dependencies",
+                    "type": "string",
+                    "example": "3M"
+                },
+                "steps": {
+                    "description": "Use to calculate the swap rate surface discount curve, when OIS is selected as discount curve.\nThe steps can specify overnight index stepped dates or/and rates.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Step"
+                    }
+                },
+                "turns": {
+                    "description": "Used to include end period rates/turns when calculating swap rate surfaces",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Turn"
+                    }
+                },
+                "useConvexityAdjustment": {
+                    "description": "false / true\nDefault value is: true.\nIt indicates if the system needs to retrieve the convexity adjustment",
+                    "type": "boolean"
+                },
+                "useSteps": {
+                    "description": "false / true\nDefault value is: false.\nIt indicates if the system needs to retrieve the overnight index stepped dates or/and rates",
+                    "type": "boolean"
+                }
+            }
+        },
+        "ZcCurveRequest": {
+            "type": "object",
+            "properties": {
+                "outputs": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "Constituents",
+                            "Curves"
+                        ]
+                    }
+                },
+                "universe": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ZcCurveRequestItem"
+                    }
+                }
+            }
+        },
+        "ZcCurveRequestItem": {
+            "type": "object",
+            "properties": {
+                "curveDefinition": {
+                    "$ref": "#/definitions/ZcCurveMainDefinition"
+                },
+                "curveParameters": {
+                    "$ref": "#/definitions/ZcCurveMainParameters"
+                },
+                "curveTag": {
+                    "type": "string",
+                    "example": "tag1"
+                },
+                "swapZcConstituents": {
+                    "$ref": "#/definitions/QpsSwapZcConstituents"
+                }
+            }
+        },
+        "ZcCurveResponse": {
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ZcCurveResponseItem"
+                    }
+                }
+            }
+        },
+        "ZcCurveResponseItem": {
+            "type": "object",
+            "properties": {
+                "curveDefinition": {
+                    "$ref": "#/definitions/ZcCurveMainDefinition"
+                },
+                "curveParameters": {
+                    "$ref": "#/definitions/ZcCurveMainParameters"
+                },
+                "curveTag": {
+                    "type": "string"
+                },
+                "curves": {
+                    "type": "object",
+                    "additionalProperties": true
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "sts_auth": {
+            "type": "oauth2",
+            "flow": "password",
+            "tokenUrl": "https://api.refinitiv.com/auth/oauth2/beta1/token",
+            "scopes": {
+                "trapi.data.quantitative-analytics.read": "default scope"
+            }
+        }
+    },
+    "security": [
+        {
+            "sts_auth": [
+                "trapi.data.quantitative-analytics.read"
+            ]
+        }
+    ]
+}
