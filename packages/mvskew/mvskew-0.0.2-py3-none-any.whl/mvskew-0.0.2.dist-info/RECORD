@@ -1,0 +1,9 @@
+mvskew/__init__.py,sha256=NY6d7ZqYJE5iMqW3NXIoZX673KnpbuWcfau80bVtUuQ,338
+mvskew/_mv_samplers_utils.py,sha256=4C4oihSBdgVfGsR7GJqGxv75mq7qeuXxPEh8Ce4Vmoc,15600
+mvskew/mv_samplers.py,sha256=6cTmYJ_gSWz5S5OxBW5z76JvSgeBCxcphCk5r30j5G8,20147
+mvskew/mv_samplers_dev.py,sha256=vj5OinWSMHeS0yCKi9ggabW-sZ1JvoMCH6XmM_vtg50,48833
+mvskew-0.0.2.dist-info/LICENSE,sha256=QiNFgCr4cv8PcWkQEUMEJ5mDpLnH8GtyZYM5iA5zRf8,1070
+mvskew-0.0.2.dist-info/METADATA,sha256=zdB_sNkvLpGnu0r64ibRim_WJVqIR7RyWxFA2fDxpbs,1855
+mvskew-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mvskew-0.0.2.dist-info/top_level.txt,sha256=ydh5BpLQifKA5Ltx1Rem2MJT3qBRAjAKnOYMfTaEMjg,7
+mvskew-0.0.2.dist-info/RECORD,,
