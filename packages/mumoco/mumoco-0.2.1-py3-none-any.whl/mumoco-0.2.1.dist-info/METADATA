@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mumoco
+Version: 0.2.1
+Summary: This is tool helps to work with multiple conan modules simultaneously.
+Home-page: https://github.com/disroop/mumoco
+Author: michel
+Author-email: michel.meyer@disroop.ch
+License: LICENSE.txt
+Platform: UNKNOWN
+Requires-Dist: conan
+
+UNKNOWN
+
+
