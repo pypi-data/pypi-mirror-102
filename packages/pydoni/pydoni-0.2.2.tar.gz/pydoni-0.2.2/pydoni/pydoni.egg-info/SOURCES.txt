@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pydoni/pydoni.egg-info/PKG-INFO
+pydoni/pydoni.egg-info/SOURCES.txt
+pydoni/pydoni.egg-info/dependency_links.txt
+pydoni/pydoni.egg-info/requires.txt
+pydoni/pydoni.egg-info/top_level.txt
