@@ -1,0 +1,6 @@
+setup.py
+cspeech_lib.egg-info/PKG-INFO
+cspeech_lib.egg-info/SOURCES.txt
+cspeech_lib.egg-info/dependency_links.txt
+cspeech_lib.egg-info/not-zip-safe
+cspeech_lib.egg-info/top_level.txt
