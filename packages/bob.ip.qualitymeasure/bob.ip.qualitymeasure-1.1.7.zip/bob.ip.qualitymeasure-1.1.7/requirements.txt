@@ -1,0 +1,7 @@
+setuptools
+bob.extension
+bob.blitz
+bob.ip.base
+bob.ip.color
+numpy
+scipy
