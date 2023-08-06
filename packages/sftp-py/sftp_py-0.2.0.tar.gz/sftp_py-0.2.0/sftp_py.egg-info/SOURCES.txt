@@ -1,0 +1,16 @@
+AUTHORS.md
+CONTRIBUTING.md
+HISTORY.md
+LICENSE
+MANIFEST.in
+README
+README.md
+setup.py
+sftp_py/__init__.py
+sftp_py/transfer.py
+sftp_py.egg-info/PKG-INFO
+sftp_py.egg-info/SOURCES.txt
+sftp_py.egg-info/dependency_links.txt
+sftp_py.egg-info/not-zip-safe
+sftp_py.egg-info/requires.txt
+sftp_py.egg-info/top_level.txt

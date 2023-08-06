@@ -1,0 +1,5 @@
+https://pypi.org/project/mocksftp/  #use something like this for testing
+
+https://stackoverflow.com/questions/29121348/file-permissions-changed-during-sftp-in-paramiko-python  #permissions and timestamps not preserved
+"scp / sftp copy file content - they don't deal with file metadata, such as ownership or permissions.
+If you want to preserve those, you'll need to use rsync or create a tar archive."
