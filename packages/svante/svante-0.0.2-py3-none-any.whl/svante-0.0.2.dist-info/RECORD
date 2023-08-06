@@ -1,0 +1,12 @@
+svante/__init__.py,sha256=YcAXw7e_L7wb_xA57UMkliXaF4NhQ-Ly8_3XgA5V2Pw,233
+svante/__main__.py,sha256=9LnDCNypxWBo4CDAktnMfzfHgusEpxqmBAGeXxoVBvs,2041
+svante/combine.py,sha256=7MMHbS7OSXGzlktlA8y_IfF7Wt2uwLlH_Azk_gD1qs8,2500
+svante/common.py,sha256=uXjjelAuPsVF8xb5U6s3QgZW_vM9wdmUZhd0coSoT04,753
+svante/plot.py,sha256=QQ2WjxAznrdcjRIbtdwva1F1pUaDF_CRQUEitfqSFhU,5731
+svante/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svante/stat_dict.py,sha256=0MTg-gIIuXBZu20QJCCcJcPiToMEvaFrZiILJ4HhKk8,3289
+svante-0.0.2.dist-info/entry_points.txt,sha256=0ePHDQ40FlJFJ-K1XAXLIf8GX68KgdrWJ4A8v0eP5hM,47
+svante-0.0.2.dist-info/LICENSE.rst,sha256=fra3RM64f33zhNFsiCJu7u0mjbl5O2-Ozrfs50yVyPk,1979
+svante-0.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+svante-0.0.2.dist-info/METADATA,sha256=ZwZKwWr3DI04pnoARCI70Gi2wXQXt_H-RzuN5ARZkOk,4275
+svante-0.0.2.dist-info/RECORD,,
