@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pykuwahara
+Version: 0.2
+Summary: Kuwahara filter in python
+Home-page: https://github.com/yoch/pykuwahara
+Author: J. Melka
+Author-email: yoch.melka@gmail.com
+License: GPL3
+Description: # pykuwahara
+        
+        Kuwahara filter in Python (numpy + OpenCV).
+        
+        > The Kuwahara filter is a non-linear smoothing filter used in image processing for adaptive noise reduction. It is able to apply smoothing on the image while preserving the edges.
+        > Source: [Wikipedia](https://en.wikipedia.org/wiki/Kuwahara_filter)
+        
+        This implementation provide two variants of the filter:
+        - The classic one, using a uniform kernel to compute the window mean.
+        - A gaussian based filter, by computing the window gaussian mean. This is inspired by the [ImageMagick](http://www.fmwconcepts.com/imagemagick/kuwahara/index.php) approach.
+        
+        ## Installation
+        
+        `pip install pykuwahara`
+        
+        ## Usage
+        
+        ```
+        import cv2
+        from pykuwahara import kuwahara
+        
+        image = cv2.imread('lena.jpg')
+        
+        filtered1 = kuwahara(image, radius=3, method='mean')    # default
+        filtered2 = kuwahara(image, radius=3, method='gaussian')
+        
+        cv2.imwrite('lena-filtered1.jpg', filtered1)
+        cv2.imwrite('lena-filtered2.jpg', filtered2)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Description-Content-Type: text/markdown
