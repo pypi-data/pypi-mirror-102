@@ -1,0 +1,3 @@
+[console_scripts]
+outsider = dataoutsider.__main__:main
+
