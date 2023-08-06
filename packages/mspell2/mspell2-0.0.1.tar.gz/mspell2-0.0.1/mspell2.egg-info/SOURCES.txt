@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dcpoc/__init__.py
+dcpoc/prime_numbers.py
+mspell2.egg-info/PKG-INFO
+mspell2.egg-info/SOURCES.txt
+mspell2.egg-info/dependency_links.txt
+mspell2.egg-info/top_level.txt
