@@ -1,0 +1,4 @@
+[console_scripts]
+baguette = BaguetteSenpai:baguette
+senpai = BaguetteSenpai:senpai
+
