@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/qimpy/__init__.py
+src/qimpy.egg-info/PKG-INFO
+src/qimpy.egg-info/SOURCES.txt
+src/qimpy.egg-info/dependency_links.txt
+src/qimpy.egg-info/top_level.txt
