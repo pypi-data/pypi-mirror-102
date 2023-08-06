@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: scrapeasaurus
+Version: 0.0.1
+Summary: Tools for scraping the web with Python.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.*
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
