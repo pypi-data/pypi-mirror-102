@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: translapi
+Version: 1.0.2
+Summary: Google Translate API
+Home-page: UNKNOWN
+Author: Adam Jenca
+Author-email: jenca.a@gjh.sk
+License: UNKNOWN
+Description: 
+        Google Translate API and Google TTS
+        ```python
+        from translapi import translate
+        print(translate('en','haw','To be or not to be').result)
+        ```
+        For Google TTS:
+        ```python
+        from translapi import translate
+        print(translate('en','de','To be or not to be').say())
+        ```)
+Platform: UNKNOWN
