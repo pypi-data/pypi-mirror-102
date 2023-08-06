@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: fileward
+Version: 0.0.1
+Summary: Gerenciamento de arquivos em diretórios locais
+Home-page: https://github.com/ThiagoPanini/pylearn
+Author: Thiago Panini
+Author-email: thipanini94@gmail.com
+License: MIT
+Keywords: Packages,Components,Machine Learning,Auto ML,Viz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <strong>Gerenciando arquivos em diretórios locais</strong>
+</div>
+<br/>
+
