@@ -1,0 +1,13 @@
+include ModelOpt/AutoYOLO/*.txt
+include ModelOpt/AutoYOLO/*.sh
+include ModelOpt/AutoYOLO/*.md
+include ModelOpt/AutoYOLO/Dockerfile
+include ModelOpt/AutoYOLO/.dockerignore
+include ModelOpt/AutoYOLO/utils/*.sh
+include ModelOpt/AutoYOLO/prune_config/*.yaml
+include ModelOpt/AutoYOLO/cfg/*.cfg
+include ModelOpt/AutoYOLO/model_pruned/.gitkeep
+include ModelOpt/AutoYOLO/model_retrained/.gitkeep
+include ModelOpt/AutoYOLO/weights/*.shpip
+recursive-include data *.txt *.data *.sh 
+ 
