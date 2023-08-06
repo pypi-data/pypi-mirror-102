@@ -1,0 +1,7 @@
+opentelemetry/propagators/ot_trace/__init__.py,sha256=58BXQ8tQ6uTg2eNxfaoijGH2bp4V5f3iqGXNqHwK_O0,4998
+opentelemetry/propagators/ot_trace/version.py,sha256=6PgAiFRw0DfrOeR35QIC8GhFtiqMnLrk5tiasdqSSAI,608
+opentelemetry_propagator_ot_trace-0.20b0.dist-info/METADATA,sha256=C5nNvN-tPDQ8ox2PiI-W7fv8XDqSdFgb1F7L-flFOrQ,3474
+opentelemetry_propagator_ot_trace-0.20b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opentelemetry_propagator_ot_trace-0.20b0.dist-info/entry_points.txt,sha256=yAtJcdrweszCudrvC4e14VO-jHiJEf3PXIghXVggIro,82
+opentelemetry_propagator_ot_trace-0.20b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_propagator_ot_trace-0.20b0.dist-info/RECORD,,
