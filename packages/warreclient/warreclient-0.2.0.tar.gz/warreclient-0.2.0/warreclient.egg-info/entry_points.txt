@@ -1,0 +1,13 @@
+[openstack.cli.extension]
+warre = warreclient.osc.plugin
+
+[openstack.warre.v1]
+warre flavor create = warreclient.osc.v1.flavors:CreateFlavor
+warre flavor list = warreclient.osc.v1.flavors:ListFlavors
+warre flavor set = warreclient.osc.v1.flavors:UpdateFlavor
+warre flavor show = warreclient.osc.v1.flavors:ShowFlavor
+warre reservation create = warreclient.osc.v1.reservations:CreateReservation
+warre reservation delete = warreclient.osc.v1.reservations:DeleteReservation
+warre reservation list = warreclient.osc.v1.reservations:ListReservations
+warre reservation show = warreclient.osc.v1.reservations:ShowReservation
+
