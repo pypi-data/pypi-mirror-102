@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: msg2apps
+Version: 1.0.1
+Summary: A module for sending messages to communication apps
+Home-page: https://github.com/daksim/msg2apps
+Author: Daksimz
+Author-email: daksimzhang@gmail.com
+License: MIT
+Description: # msg2apps
+        
+        A module for sending messages to communication apps
+        
+        ## Support apps
+        
+        ### Wechat
+        
+        Send a message(text only now) to Wocom.
+        
+        - Args:
+        
+          msg, corpid, secret, agentid
+        
+        - Returns:
+        
+          Return information from web api or error infomation.
+        
+        ### Telegram(TODU)
+        
+        ### Others
+Platform: UNKNOWN
+Requires: requests
+Requires: json
+Description-Content-Type: text/markdown
