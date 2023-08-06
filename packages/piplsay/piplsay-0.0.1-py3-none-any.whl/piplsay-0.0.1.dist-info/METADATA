@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: piplsay
+Version: 0.0.1
+Summary: piplsay analysis engine
+Home-page: UNKNOWN
+Author: SAGNIK BANERJEE
+Author-email: <Sagnik.Banerjee@SchlesingerGroup.com>
+License: UNKNOWN
+Requires-Dist: pandas
+
+
+piplsay analysis engine: Necessary imports is only pandas package.
+
