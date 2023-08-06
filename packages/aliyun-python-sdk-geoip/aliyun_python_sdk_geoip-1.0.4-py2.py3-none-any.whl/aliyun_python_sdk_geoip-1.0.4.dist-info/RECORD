@@ -1,0 +1,15 @@
+aliyunsdkgeoip/__init__.py,sha256=Oi2b5pm3sFbESQW0xgj8kqwDPX_Hxmx4gNILYpLzYqI,21
+aliyunsdkgeoip/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkgeoip/request/v20200101/DescribeGeoipInstanceDataInfosRequest.py,sha256=MgKccm7WN5Gj9D3FaO2VWOMXejJqBbN99Gbc9oWbXH8,1552
+aliyunsdkgeoip/request/v20200101/DescribeGeoipInstanceDataUrlRequest.py,sha256=gA0cLU1EGwE2GR7zEqJi3sdsRBkSPkRcsZRres3W_Y0,1500
+aliyunsdkgeoip/request/v20200101/DescribeGeoipInstanceRequest.py,sha256=Ig-EQJ3aSH22PN1gkkTp8GEmzzTl8ktjSSI3HuZo3-Q,1326
+aliyunsdkgeoip/request/v20200101/DescribeGeoipInstanceStatisticsRequest.py,sha256=h2NZeGf2OhMsG7YW0-O_Zx4v6v8C7sOj9G2_mkmA_a8,1666
+aliyunsdkgeoip/request/v20200101/DescribeGeoipInstancesRequest.py,sha256=UT_bTmqIGHSomXtaTmvhOATXStGgJwRGK0U0nFleWao,1156
+aliyunsdkgeoip/request/v20200101/DescribeIpv4LocationRequest.py,sha256=ymqXncbnNdpF591L4KJLIxqckwrM-xE8QJrYmLsLqO8,1276
+aliyunsdkgeoip/request/v20200101/DescribeIpv6LocationRequest.py,sha256=a8GocnyaEKTJ8BU-8jNh4Xf72NQIYti7K_pAw8xSMnI,1276
+aliyunsdkgeoip/request/v20200101/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_geoip-1.0.4.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_geoip-1.0.4.dist-info/METADATA,sha256=ThaB7Vtlt-h9etC9C3fsWgtTqPwP5pbYeisQg3vYW5Y,1465
+aliyun_python_sdk_geoip-1.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aliyun_python_sdk_geoip-1.0.4.dist-info/top_level.txt,sha256=I_VRgaIyzHO32gKgD_VHy1q7bBflmKRFw4vuF4jfJXY,15
+aliyun_python_sdk_geoip-1.0.4.dist-info/RECORD,,
