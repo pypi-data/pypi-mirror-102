@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+GTAN_OC_PAC/Binomialdistribution.py
+GTAN_OC_PAC/Gaussiandistribution.py
+GTAN_OC_PAC/Generaldistribution.py
+GTAN_OC_PAC/__init__.py
+GTAN_OC_PAC/main.py
+GTAN_OC_PAC.egg-info/PKG-INFO
+GTAN_OC_PAC.egg-info/SOURCES.txt
+GTAN_OC_PAC.egg-info/dependency_links.txt
+GTAN_OC_PAC.egg-info/not-zip-safe
+GTAN_OC_PAC.egg-info/top_level.txt
