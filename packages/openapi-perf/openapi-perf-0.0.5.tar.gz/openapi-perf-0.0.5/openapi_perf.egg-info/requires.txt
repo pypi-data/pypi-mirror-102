@@ -1,0 +1,7 @@
+requests
+hypothesis
+matplotlib
+pandas
+numpy
+scipy
+cycler
