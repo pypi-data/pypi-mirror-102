@@ -1,0 +1,8 @@
+setup.py
+test_cs/__init__.py
+test_cs/__main__.py
+test_cs/cs_test.py
+test_cs.egg-info/PKG-INFO
+test_cs.egg-info/SOURCES.txt
+test_cs.egg-info/dependency_links.txt
+test_cs.egg-info/top_level.txt
