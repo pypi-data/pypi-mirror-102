@@ -1,0 +1,11 @@
+setup.py
+translapi/__init__.py
+translapi.egg-info/PKG-INFO
+translapi.egg-info/SOURCES.txt
+translapi.egg-info/dependency_links.txt
+translapi.egg-info/requires.txt
+translapi.egg-info/top_level.txt
+translapi/speech/__init__.py
+translapi/speech/exporter.py
+translapi/speech/optim_wav.py
+translapi/speech/tts.py
