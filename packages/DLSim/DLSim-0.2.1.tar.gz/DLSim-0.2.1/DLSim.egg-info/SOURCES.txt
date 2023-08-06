@@ -1,0 +1,8 @@
+README.md
+setup.py
+DLSim/DLSim.py
+DLSim.egg-info/PKG-INFO
+DLSim.egg-info/SOURCES.txt
+DLSim.egg-info/dependency_links.txt
+DLSim.egg-info/requires.txt
+DLSim.egg-info/top_level.txt
