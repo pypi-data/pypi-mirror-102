@@ -1,0 +1,3 @@
+[console_scripts]
+rwth-jupyter = rwth_jupyter.main:main
+
