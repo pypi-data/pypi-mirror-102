@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/quran/__init__.py
+src/quran/ajza.py
+src/quran/chapters.py
+src/quran/translation.py
+src/quran/verses.py
+src/quran.py.egg-info/PKG-INFO
+src/quran.py.egg-info/SOURCES.txt
+src/quran.py.egg-info/dependency_links.txt
+src/quran.py.egg-info/requires.txt
+src/quran.py.egg-info/top_level.txt
