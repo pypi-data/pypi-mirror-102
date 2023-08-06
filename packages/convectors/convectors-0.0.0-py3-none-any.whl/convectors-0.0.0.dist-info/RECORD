@@ -1,0 +1,12 @@
+convectors/__init__.py,sha256=qk3RNJCmHTyfZEzXE0McspE4tMy0h-YOeH2nHSlyVFc,4894
+convectors/layers.py,sha256=ZF2RgzY_mh77DkegpcWEf11KBWh0wAT_WUlifGlNhWM,394
+convectors/utils.py,sha256=0QspMiAEq8XRQtfijsBOEPSetN2i-yN6oMVo0FP0vpU,738
+convectors/classifier/__init__.py,sha256=lsx_56xqmjh9UPv8WwSsl3uC4P9OkIETraY-JvDKAl4,2426
+convectors/embedding/__init__.py,sha256=iIFpWFy-l1lsludnd7R0xvJ7LBNU4jjixz1T_mTLJoQ,7487
+convectors/linguistics/__init__.py,sha256=n0DuO2zUjyBZZyFFI5LpiDk-EtBa-p56zsYbDEKL34Y,5969
+convectors/linguistics/stopwords.py,sha256=phHD12KjjDnSdTRdGuYwfmuYOne5btIQFAvQ8vAsH9Y,15081
+convectors/reduction/__init__.py,sha256=_DRVJ9KbYPbkBcknJLL-UFAVQ1QO7iSAheU3TyVg-mI,2312
+convectors-0.0.0.dist-info/METADATA,sha256=q1Fi4XhAOG1DQJJlDqpdIzic_LfHaCR3gTUmOTpZKBM,306
+convectors-0.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+convectors-0.0.0.dist-info/top_level.txt,sha256=-NAZAq5yrImZHDoMdlyst1IfbA7iHzE-qYaVf4n3to0,11
+convectors-0.0.0.dist-info/RECORD,,
