@@ -1,0 +1,11 @@
+fire
+click
+pandas
+loguru
+delegator.py
+pybedtools
+numpy
+attrs
+jinja2
+typer
+vcfpy
