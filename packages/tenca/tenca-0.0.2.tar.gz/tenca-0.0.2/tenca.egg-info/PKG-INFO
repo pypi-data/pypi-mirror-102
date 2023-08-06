@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tenca
+Version: 0.0.2
+Summary: An eemaill-like interface for mailman3.
+Home-page: https://github.com/tzwenn/tenca
+Author: Sven Koehler
+Author-email: tenca@svenkoehler.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tzwenn/tenca/issues
+Description: # Tenca
+        
+        -- Quenya: *A writing directed or sent to a person or group of people*
+        
+        Fooling around with the [Mailman3 REST API](https://docs.mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/rest.html) towards an [eemaill](https://eemaill.org/)-inspired interface.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
