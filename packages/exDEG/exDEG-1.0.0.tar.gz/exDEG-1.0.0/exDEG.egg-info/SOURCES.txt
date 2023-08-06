@@ -1,0 +1,14 @@
+README.md
+setup.py
+ClassifyGene.egg-info/PKG-INFO
+ClassifyGene.egg-info/SOURCES.txt
+ClassifyGene.egg-info/dependency_links.txt
+ClassifyGene.egg-info/requires.txt
+ClassifyGene.egg-info/top_level.txt
+exDEG/Classify.py
+exDEG/__init__.py
+exDEG.egg-info/PKG-INFO
+exDEG.egg-info/SOURCES.txt
+exDEG.egg-info/dependency_links.txt
+exDEG.egg-info/requires.txt
+exDEG.egg-info/top_level.txt
