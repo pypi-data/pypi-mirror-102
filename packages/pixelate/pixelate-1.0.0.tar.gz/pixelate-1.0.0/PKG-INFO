@@ -1,0 +1,83 @@
+Metadata-Version: 1.1
+Name: pixelate
+Version: 1.0.0
+Summary: The library / CLI-utility provides pixelation of images
+Home-page: https://github.com/useless-tools/pixelate
+Author: Georgy Bazhukov
+Author-email: georgy.bazhukov@gmail.com
+License: BSD
+Description: pixelate
+        ========
+        
+        .. figure:: https://travis-ci.org/useless-tools/pixelate.svg?branch=master
+        
+        
+        Make your photos even worse. But it's like pixel art.
+        
+        Works with Python ≥ 3.2. Use version 0.4 for Python 2.* projects.
+        
+        Installation
+        ------------
+        
+        .. code:: bash
+        
+            pip install pixelate
+        
+        Usage
+        -----
+        
+        From CLI:
+        
+        .. code:: bash
+        
+            pixelate --input=img/bps.jpg --output=img/bps.png --pixel-size=10
+        
+        
+        `pixelate` arguments:
+        
+        - `--input` – string – path to input image.
+        - `--output` – string – path to output image.
+        - `--pixel-size` – integer – pixel size.
+        
+        From Python code:
+        
+        .. code:: python
+        
+            from pixelate import pixelate
+            
+            pixelate('img/bps.jpg', 'img/bps.png', 10)
+        
+        Args:
+        
+        - input_file_path: the path to the source image file to be processed.
+        - output_file_path: the path to the result file.
+        - pixel_size: pixel size.
+        
+        From this:
+        
+        .. image:: ./img/bps.jpg
+          :alt: original bps
+        
+        To this:
+        
+        .. image:: ./img/bps.png
+          :alt: pixeated bps
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires: wheel
+Requires: pillow

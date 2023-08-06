@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bin/pixelate
+pixelate/__init__.py
+pixelate.egg-info/PKG-INFO
+pixelate.egg-info/SOURCES.txt
+pixelate.egg-info/dependency_links.txt
+pixelate.egg-info/not-zip-safe
+pixelate.egg-info/requires.txt
+pixelate.egg-info/top_level.txt
+test/test_pixelate_run.py
