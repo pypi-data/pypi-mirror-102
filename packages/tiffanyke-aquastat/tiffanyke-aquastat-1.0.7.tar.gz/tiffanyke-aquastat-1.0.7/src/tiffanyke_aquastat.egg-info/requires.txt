@@ -1,0 +1,9 @@
+pandas
+seaborn
+numpy
+
+[dev]
+matplotlib
+
+[test]
+pytest

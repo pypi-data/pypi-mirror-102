@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tiffanyke_aquastat.egg-info/PKG-INFO
+src/tiffanyke_aquastat.egg-info/SOURCES.txt
+src/tiffanyke_aquastat.egg-info/dependency_links.txt
+src/tiffanyke_aquastat.egg-info/requires.txt
+src/tiffanyke_aquastat.egg-info/top_level.txt
+src/tke_aquastat/__init__.py
+src/tke_aquastat/aquastat.csv.gzip
+src/tke_aquastat/plotfunctions.py
+src/tke_aquastat/slicefunctions.py
+src/tke_aquastat/time_series_functions.py
+src/tke_aquastat/utils.py
