@@ -1,0 +1,9 @@
+libsvm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libsvm/clib.cp37-win_amd64.pyd,sha256=8vPkTMrGTISXvnpS0y0JVYghLDx-oD554sTwhtFuMks,67072
+libsvm/commonutil.py,sha256=Od-D2Ak8vNLAIPwBmiuGgp1tz0QpPUsxoDIdC8lXIWY,6376
+libsvm/svm.py,sha256=8X1JuWnveIs7T1lxa1LCXz3WVJ4FOChWJQTtHY4VBm8,16494
+libsvm/svmutil.py,sha256=L-uj40QozNnG2U1Qzd3S3kUTsRldmoA5AGER5ZuD-0Y,10861
+libsvm_official-3.25.0.dist-info/METADATA,sha256=rqvRX9FdPD-fSZDZElRArXnsL7a6x5X8LGNsBgapOw4,17427
+libsvm_official-3.25.0.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+libsvm_official-3.25.0.dist-info/top_level.txt,sha256=qleZAga5JwQJ0R6Hpu6gS1zOiXc0JkW42oN42NrCrYw,7
+libsvm_official-3.25.0.dist-info/RECORD,,
