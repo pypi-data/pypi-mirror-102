@@ -1,0 +1,7 @@
+distortion/__init__.py,sha256=0nHejCZJNR9ieiAoTOIFWMO9JmEg7heVsgGyBBhHQDE,208
+distortion/distortion.py,sha256=kmL1-ZjSRyKd0TF8WLMwk7XATGbHJ1wnozPnpysq-WU,10828
+distortion/distortion_test.py,sha256=u2aIHU5BXboMo14CvNjoCNabPMZszAafYZsZZMrr5MI,2243
+distortion-0.1.20.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+distortion-0.1.20.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+distortion-0.1.20.dist-info/METADATA,sha256=veSvHl-_cxnYFIw5HouLuxl4nwBLQkioajFXPyqfyd4,616
+distortion-0.1.20.dist-info/RECORD,,
