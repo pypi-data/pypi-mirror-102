@@ -1,0 +1,7 @@
+numpy
+pandas
+seaborn
+tqdm
+sklearn
+nltk
+vaderSentiment
