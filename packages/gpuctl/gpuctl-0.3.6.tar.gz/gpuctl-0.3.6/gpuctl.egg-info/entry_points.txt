@@ -1,0 +1,4 @@
+[console_scripts]
+ethctl = gpuctl.eth_main:run
+gpuctl = gpuctl.gpu_main:run
+
