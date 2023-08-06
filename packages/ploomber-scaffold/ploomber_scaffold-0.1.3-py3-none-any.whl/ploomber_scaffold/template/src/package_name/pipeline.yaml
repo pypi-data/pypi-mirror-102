@@ -1,0 +1,23 @@
+meta:
+  # load all task.source relative to src/package_name/. If removed, relative
+  # paths in task.source will be so to the parent directory of this file.
+  source_loader:
+    module: package_name
+
+  import_tasks_from: pipeline-features.yaml
+
+
+# functions return outputs directly and the serializer saves them to files
+serializer: package_name.io.serialize
+# files are unserialized before calling functions
+unserializer: package_name.io.unserialize
+
+tasks:
+  # {{cwd}} expands to the current working directory
+  - source: package_name.tasks.raw.get
+    product: "{{cwd}}/products/raw/get.parquet"
+
+  - source: notebooks/fit.py
+    product:
+      nb: "{{cwd}}/products/report.html"
+      model: "{{cwd}}/products/model.pickle"
