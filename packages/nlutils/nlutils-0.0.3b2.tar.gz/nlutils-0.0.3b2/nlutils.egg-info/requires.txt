@@ -1,0 +1,6 @@
+coloredlog
+torch
+tqdm
+matplotlib
+pandas
+pymongo
