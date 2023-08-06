@@ -1,0 +1,3 @@
+[console_scripts]
+jrd=jailrootdetector.main:main
+
