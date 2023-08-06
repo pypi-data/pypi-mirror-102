@@ -1,0 +1,15 @@
+README.rst
+setup.py
+bin/foamState
+src/casefoam/__init__.py
+src/casefoam/core.py
+src/casefoam/loadData.py
+src/casefoam/mkCases.py
+src/casefoam/postFunctions.py
+src/casefoam/utility.py
+src/casefoam.egg-info/PKG-INFO
+src/casefoam.egg-info/SOURCES.txt
+src/casefoam.egg-info/dependency_links.txt
+src/casefoam.egg-info/not-zip-safe
+src/casefoam.egg-info/requires.txt
+src/casefoam.egg-info/top_level.txt
