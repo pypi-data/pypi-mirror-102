@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jundo
+Version: 0.1.1
+Summary: A general purpose library to help implement undo.
+Home-page: https://github.com/justvanrossum/jundo
+Author: Just van Rossum
+Author-email: justvanrossum@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+UNKNOWN
+
+
