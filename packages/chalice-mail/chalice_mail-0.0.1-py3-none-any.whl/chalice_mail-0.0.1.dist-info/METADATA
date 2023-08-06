@@ -1,0 +1,288 @@
+Metadata-Version: 2.1
+Name: chalice-mail
+Version: 0.0.1
+Summary: SMTP and SES mail integration with AWS Chalice
+Home-page: https://github.com/marktennyson/chalice-mail
+Author: Aniket Sarkar
+Author-email: aniketsarkar@yahoo.com
+License: MIT
+Keywords: chalice,email,smtp mail,aws,ses
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: attrs (==20.3.0)
+Requires-Dist: blessed (==1.17.6)
+Requires-Dist: blessings (==1.7)
+Requires-Dist: boto3 (==1.17.52)
+Requires-Dist: botocore (==1.20.52)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chalice (==1.22.3)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: codecov (==2.1.11)
+Requires-Dist: coloredlogs (==15.0)
+Requires-Dist: colour-runner (==0.1.1)
+Requires-Dist: coverage (==5.5)
+Requires-Dist: deepdiff (==5.2.3)
+Requires-Dist: distlib (==0.3.1)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: humanfriendly (==9.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: inquirer (==2.7.0)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: ordered-set (==4.0.2)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: Pygments (==2.8.1)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: readchar (==2.0.1)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: rootpath (==0.1.1)
+Requires-Dist: s3transfer (==0.3.7)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tox (==3.23.0)
+Requires-Dist: urllib3 (==1.26.4)
+Requires-Dist: virtualenv (==20.4.3)
+Requires-Dist: wcwidth (==0.2.5)
+
+<h1>One of the most basic functions in a web application is the ability to send emails to your users fully serverlessly.</h1>
+# Maintainers wanted
+<!-- [Apply within](https://github.com/github-tools/github/issues/539) -->
+
+# Chalice-Mail
+
+<!-- [![Downloads per month](https://img.shields.io/npm/dm/github-api.svg?maxAge=2592000)][npm-package]
+[![Latest version](https://img.shields.io/npm/v/github-api.svg?maxAge=3600)][npm-package]
+[![Gitter](https://img.shields.io/gitter/room/github-tools/github.js.svg?maxAge=2592000)][gitter]
+[![Travis](https://img.shields.io/travis/github-tools/github.svg?maxAge=60)][travis-ci]
+[![Codecov](https://img.shields.io/codecov/c/github/github-tools/github.svg?maxAge=2592000)][codecov] -->
+
+The `Chalice-Mail` extension provides a simple interface to set up SMTP and AWS SES(Simple Email Service) with your Chalice application and to send messages from your views and scripts.
+source code available at: <a href="https://github.com/marktennyson/chalice-mail">Github Repo</a>
+
+## Usage
+##### Using SMTP => TLS Encryption
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+
+app = Chalice(app_name='chalice-mail-test1')
+mail = Mail(app)
+mail.is_smtp = True
+mail.smtp_using_tls = True
+mail.username = "someone@example.com"
+mail.password = "world's_top_secret_password"
+mail.smtp_server = 'smtp.example.com'
+mail.smtp_port = 587
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    msg.plain = "This is the email body."
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+##### Using SMTP => SSL Encryption
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+
+app = Chalice(app_name='chalice-mail-test1')
+mail = Mail(app)
+mail.is_smtp = True
+mail.smtp_using_ssl = True
+mail.username = "someone@example.com"
+mail.password = "world's_top_secret_password"
+mail.smtp_server = 'smtp.example.com'
+mail.smtp_port = 465
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    msg.plain = "This is the email body."
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+##### Using SES(Simple Email Service)
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+
+app = Chalice(app_name='chalice-mail-test1')
+mail = Mail(app)
+mail.username = "someone@example.com"
+mail.aws_region = "ap-south-1"
+"""
+please provide the value of 'mail.aws_secret_id' 
+and 'mail.aws_secret_key' if you want to set the AWS 
+Iam user manually.
+"""
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    msg.plain = "This is the email body."
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+##### Using SMTP => Email with HTML
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+
+app = Chalice(app_name='chalice-mail-test1')
+mail = Mail(app)
+mail.is_smtp = True
+mail.smtp_using_tls = True
+mail.username = "someone@example.com"
+mail.password = "world's_top_secret_password"
+mail.smtp_server = 'smtp.example.com'
+mail.smtp_port = 587
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    """ 
+    Simply pass the html value to the html variable of Message instance.
+    """
+    msg.html = "<h1>This is the email body.</h1>"
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+##### Using SMTP => Email with HTML rendering
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+from pathlib import Path
+from os import path
+
+app = Chalice(app_name='chalice-mail-test1')
+_baseDir = Path(path.realpath(__file__)).parent
+mail = Mail(app)
+mail.is_smtp = True
+mail.smtp_using_tls = True
+mail.username = "someone@example.com"
+mail.password = "world's_top_secret_password"
+mail.smtp_server = 'smtp.example.com'
+mail.smtp_port = 587
+mail.template_dir = _baseDir/'templates' # required if using template rendering.
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    context={}
+    """
+    This package comes with the jinja2 based template rendering system.
+    Simpley use the 'render_template()' function to rend the html file.
+        'render_template()' functions takes the html file name as arguments 
+    and the context as well as.
+    """
+    msg.html = mail.render_template('index.html', context)
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+##### Using SMTP => Email with attachments
+```python
+from chalice import Chalice
+from chalice_mail import Mail, Message
+from pathlib import Path
+from os import path
+
+app = Chalice(app_name='chalice-mail-test1')
+_baseDir = Path(path.realpath(__file__)).parent
+mail = Mail(app)
+mail.is_smtp = True
+mail.smtp_using_tls = True
+mail.username = "someone@example.com"
+mail.password = "world's_top_secret_password"
+mail.smtp_server = 'smtp.example.com'
+mail.smtp_port = 587
+mail.attachment_dir = _baseDir/'attachments' # required if using attachments.
+mail.login()
+
+@app.route('/send-smtp-mail')
+def send_smtp_mail():
+    msg = Message(mail)
+    msg.subject = "this is the subject"
+    msg.add_recipient("aniketsarkar@yahoo.com")
+    msg.plain = "This is the email body."
+    """
+    Use the 'add_attachments()' function to add the attachments 
+    with the message instance. Don't forget to put the attachments 
+    on the attachments folder.
+        'add_attachments()' function basically takes list or str data 
+    type as argument. If you want to add only one attachment just pass 
+    the attachment name. If you want to add more than one attachments use a list.
+    """
+    msg.add_attachments(['python.png', 'README.rst'])
+    mail.send_email(msg)
+    return {'message':'email sended successfully'}
+
+```
+
+## Installation
+`chalice-mail` is available from `pypi`.
+#### install using pip
+```shell
+pip install chalice-mail
+```
+#### install from source code
+```shell
+git clone https://github.com/marktennyson/chalice-mail && cd chalice-mail
+python setup.py install --user
+```
+
+## Compatibility
+`chalice-mail` is compatiable with python3.6 and higher versions.
+Not compatiable for Python version 2.
+
+
+## Contributing
+
+We welcome contributions of all types!
+

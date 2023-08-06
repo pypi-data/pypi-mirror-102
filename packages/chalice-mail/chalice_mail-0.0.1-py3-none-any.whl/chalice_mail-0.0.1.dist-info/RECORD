@@ -1,0 +1,10 @@
+chalice_mail/__init__.py,sha256=yTWEhNgJ9ATp6-F02XBPfMclnz0hjny-FFxrOb2GwPo,119
+chalice_mail/_errors.py,sha256=ALVXoA0VWkCwd8Z69fg_XiEc7Lmp3th5TnAyYkZwqtQ,1371
+chalice_mail/errors.py,sha256=ALVXoA0VWkCwd8Z69fg_XiEc7Lmp3th5TnAyYkZwqtQ,1371
+chalice_mail/mail.py,sha256=oTuGhlJjSVgcrdiPUPUQpsBGmXY3m9t57_YWTBgW04c,5525
+chalice_mail/message.py,sha256=b9M8XnKsaHoaObztrh2UoHsmgYaVqtg-2taRY-OvmPc,4751
+chalice_mail/render_template.py,sha256=_Yo-nmgXA2RphMXcrF2Lev_WJoHMLAe-hLa65VRMhQM,451
+chalice_mail-0.0.1.dist-info/METADATA,sha256=34FVopmhZL4pUvGkqXtGnPeYQwjlzmH_Bb1JsD7srjA,9371
+chalice_mail-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chalice_mail-0.0.1.dist-info/top_level.txt,sha256=5Q_xAfSL15Kymf7yVg9WK287ejKdfP8iymmKGms319c,13
+chalice_mail-0.0.1.dist-info/RECORD,,
