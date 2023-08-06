@@ -1,0 +1,9 @@
+README.md
+setup.py
+autotds/__init__.py
+autotds.egg-info/PKG-INFO
+autotds.egg-info/SOURCES.txt
+autotds.egg-info/dependency_links.txt
+autotds.egg-info/entry_points.txt
+autotds.egg-info/requires.txt
+autotds.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: autotds
+Version: 0.0.4
+Summary: Generate Towards Data Science (TDS) quality articles
+Home-page: https://github.com/microprediction/autotds
+Author: microprediction
+Author-email: pcotton@intechinvestments.com
+License: MIT
+Description: # autotds
+        
+        Pronounced "Auto-tedious"
+        
+        Automatically generates "Towards Data Science" quality articles
+        
+        
+        Yeah I'm joking. 
+        
+        
+        Or am I?
+        
+        
+        
+        ![](https://i.imgur.com/bEMpVEM.jpg)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
