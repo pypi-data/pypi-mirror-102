@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Adam-tanhx
+Version: 0.0.5
+Summary: Adam_tanhx:An optimizer with better performance than Adam in CIFAR-10 and CIFAR-100.
+Home-page: https://github.com/junjunjun-learner/Adam_tanhx
+Author: junjunjun
+Author-email: 996001302@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Adam_tanhx:An optimizer with better performance than Adam in CIFAR-10 and CIFAR-100.
+
+## Use methods:
+```
+pip install Adam_tanhx
+```
+
+```python
+import Adam_tanhx
+optimizer = Adam_tanhx.Adam_tanhx(net.parameters())
+```
+
