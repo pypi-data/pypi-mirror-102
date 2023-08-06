@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: data-dashboard
+Version: 0.0.2
+Summary: Dashboard to explore the data and to create baseline Machine Learning model.
+Home-page: https://github.com/maciek3000/data_dashboard
+Author: Maciej Dowgird
+Author-email: dowgird.maciej@gmail.com
+License: UNKNOWN
+Project-URL: Github, https://github.com/maciek3000/data_dashboard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: scipy (>=1.6.1)
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+Requires-Dist: scikit-learn (>=0.24.1)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: bokeh (>=2.3.0)
+Requires-Dist: Jinja2 (>=2.11.3)
+Requires-Dist: xgboost (>=1.3.3)
+Requires-Dist: lightgbm (>=3.2.0)
+
+## data_dashboard
+
+Creates a simple static HTML dashboard with provided X, y data to help 
+users see what's going on in their data, help make decisions regarding 
+features and finds the best "baseline" model to predict y.
+
+
