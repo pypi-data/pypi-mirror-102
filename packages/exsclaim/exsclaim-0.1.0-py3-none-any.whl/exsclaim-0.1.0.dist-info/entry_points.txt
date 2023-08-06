@@ -1,0 +1,3 @@
+[console_scripts]
+exsclaim = exsclaim.command_line:main
+
