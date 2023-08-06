@@ -1,0 +1,42 @@
+from wsit.main.pyx.xml.rpc.holders.big_integer_editor import BigIntegerEditor
+import unittest
+
+from wsit.test.pyx.xml.rpc.holders.big_integer_holder_test import TestBigIntegerHolder
+
+class TestBigIntegerEditor(unittest.TestCase):
+
+    def test_init(self):
+        big_integer_editor = BigIntegerEditor()
+        self.assertTrue(big_integer_editor.get_value() == 0) 
+
+    def test_private_field(self):
+        big_integer_editor = BigIntegerEditor()
+        with self.assertRaises(AttributeError):
+            big_integer_editor.value = 123
+
+    def test_set_value(self):
+        big_integer_editor = BigIntegerEditor()
+        for tested_value in TestBigIntegerHolder.valid_values:
+            big_integer_editor.set_value(tested_value)
+            self.assertTrue(tested_value == big_integer_editor.get_value()) 
+
+    def test_set_value_exception(self):
+        big_integer_editor = BigIntegerEditor()
+        for tested_value in TestBigIntegerHolder.exception_values:
+            with self.assertRaises(Exception):
+                big_integer_editor.set_value(tested_value)
+
+    def test_set_as_text(self):
+        big_integer_editor = BigIntegerEditor()
+        for tested_value in TestBigIntegerHolder.valid_values:
+            big_integer_editor.set_as_text(str(tested_value))
+            self.assertTrue(str(tested_value).__eq__(big_integer_editor.get_as_text())) 
+
+    def test_set_as_text_exception(self):
+        big_integer_editor = BigIntegerEditor()
+        for tested_value in TestBigIntegerHolder.exception_text_values:
+            with self.assertRaises(Exception):
+                big_integer_editor.set_as_text(tested_value)
+
+if __name__ == '__main__':
+    unittest.main()
