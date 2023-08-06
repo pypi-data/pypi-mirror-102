@@ -1,0 +1,12 @@
+pferret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pferret/wrapper.py,sha256=O-kyCj1XDSTknUPUpRrPqE6dB-NINiDptWusXASTZ2k,1046
+pythonferret-0.1.0.data/data/go-file/main.go,sha256=lQL1_EX4-WuwHpDZ5RpuQmo8RbNVZn8TgyYWC0JGfVU,1799
+pythonferret-0.1.0.data/data/go-mod-file/go.mod,sha256=-uBcvrWABOvpL0H_fF7tyM-be1n-ofcrNkAKZfqO6zQ,96
+pythonferret-0.1.0.data/data/go-sum-file/go.sum,sha256=WAFsDozIsMkgsoP8o3YQB3tssfeOV_zAkmhmsQ_u4Po,12067
+pythonferret-0.1.0.data/data/header-file/libferret.h,sha256=MA9xTVLr5P53HnSKteTjESoUx6YpSsoqpkRdncyHAy4,1652
+pythonferret-0.1.0.data/data/so-file/libferret.so,sha256=DbD5Vre1xONeVMu64yOE9qkf9BAl3omr2uOwc1FVLF8,20696808
+pythonferret-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pythonferret-0.1.0.dist-info/METADATA,sha256=rXf-GEZzVeVrOpl8fW8mtcIwWmMK9T944auvzVyLoUE,614
+pythonferret-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pythonferret-0.1.0.dist-info/top_level.txt,sha256=9bwhJqEioOe-VbjZily_4maPaaw93eNOj-pSl7cUEfw,8
+pythonferret-0.1.0.dist-info/RECORD,,
