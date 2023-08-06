@@ -1,0 +1,2 @@
+from simpleicons.icon import Icon
+icon= Icon(title='Highly', slug='highly', hex='FF3C00', source='https://highly.co/', svg="""<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Highly icon</title><path d="M10.2 20.4H13.799999999999999V24H10.2zM9 0H15V18H9z"/></svg>""", guidelines=None, license=None)

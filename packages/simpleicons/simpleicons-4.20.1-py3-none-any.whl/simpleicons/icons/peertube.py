@@ -1,0 +1,2 @@
+from simpleicons.icon import Icon
+icon= Icon(title='PeerTube', slug='peertube', hex='F1680D', source='https://github.com/Chocobozzz/PeerTube/tree/develop/client/src/assets/images', svg="""<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>PeerTube icon</title><path d="M12 6.545v10.91L20.727 12M3.273 12v12L12 17.455M3.273 0v12L12 6.545"/></svg>""", guidelines=None, license=None)
