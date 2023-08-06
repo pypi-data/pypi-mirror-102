@@ -1,0 +1,4 @@
+jupyterlab==3.*,>=3.0.0rc13
+sos-notebook>=0.22.3
+sos>=0.22.4
+transient-display-data>=0.4.0
