@@ -1,0 +1,17 @@
+askoclics/__init__.py,sha256=73KofVCoK_cxouF1THNoc4Pv3v4CYpuEWStccDvnSns,2528
+askoclics/askolib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+askoclics/askolib/client.py,sha256=Y8X8-b3iR9eil36f8TMM4lVk-zmA-Kb7kA3vzm30FXA,3021
+askoclics/askolib/exceptions.py,sha256=GINYEXdZ_mkI0bVo7St18jhdd7dolPtyryOXH1NyQto,757
+askoclics/askolib/dataset/__init__.py,sha256=42-kJ1c_QSLhpfyoHrqyV0V1DrOMhSfecYvj1FLo_eI,1006
+askoclics/askolib/file/__init__.py,sha256=SeJ8BMlLPIHs2NLr09u6YaLaCVJobD_5FyL83hc7ers,10687
+askoclics/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+askoclics/cli/cli.py,sha256=YvSMPQoezFjgTI3aWDZ4-qxK8dR80-yz3tASYt6UaNo,4043
+askoclics/cli/config.py,sha256=dR6AMGbOpfcNlSud0skxPFWNsdHZDQtVskpQjlOYJMM,1482
+askoclics/cli/decorators.py,sha256=kMoeHZL_vDxraHOXxo9bfTDN88FWyGkoV-Fk19CTXKc,1417
+askoclics/cli/io.py,sha256=72EQ_lRhdobREmNdAl21i8F5tq0iVHcGjDVXwKoP_KM,474
+askoclics-0.0.2.dist-info/LICENSE,sha256=HZfK-_BdjSMn1YYiw9Q31_LTESegXjhgOi9wMNaYy-o,1064
+askoclics-0.0.2.dist-info/METADATA,sha256=1ehWK4epLBmsioc50EBJwQbeq6044-wSEHbXbr_V94A,624
+askoclics-0.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+askoclics-0.0.2.dist-info/entry_points.txt,sha256=qGvtYD89d2KJU7WfJCZieGwyyKDiztvPmJzLGorYNUI,77
+askoclics-0.0.2.dist-info/top_level.txt,sha256=GBJeL6nnDRyAnepwQ2ou-d7jX_WkNKiLWRjvYhYjbQ0,10
+askoclics-0.0.2.dist-info/RECORD,,
