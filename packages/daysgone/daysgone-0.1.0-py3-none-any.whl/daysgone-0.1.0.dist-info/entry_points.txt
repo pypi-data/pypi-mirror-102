@@ -1,0 +1,3 @@
+[console_scripts]
+daysgone=daysgone.main:app
+
