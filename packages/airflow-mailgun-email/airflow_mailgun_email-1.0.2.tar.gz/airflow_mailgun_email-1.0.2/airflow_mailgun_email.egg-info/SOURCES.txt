@@ -1,0 +1,9 @@
+README.md
+setup.py
+airflow_mailgun_email/__init__.py
+airflow_mailgun_email/email_mailgun.py
+airflow_mailgun_email.egg-info/PKG-INFO
+airflow_mailgun_email.egg-info/SOURCES.txt
+airflow_mailgun_email.egg-info/dependency_links.txt
+airflow_mailgun_email.egg-info/requires.txt
+airflow_mailgun_email.egg-info/top_level.txt

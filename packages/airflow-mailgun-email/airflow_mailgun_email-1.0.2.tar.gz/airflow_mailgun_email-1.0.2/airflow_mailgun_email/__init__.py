@@ -1,0 +1,1 @@
+from airflow_mailgun_email import email_mailgun
