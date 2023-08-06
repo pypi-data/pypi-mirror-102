@@ -1,0 +1,21 @@
+pyalmanac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalmanac/__main__.py,sha256=1446J4XVTGODjVyfq2ivP04-rfN6GYvS6tfYJwDrLY0,9706
+pyalmanac/data/A4chartNorth_P.pdf,sha256=bn4YQeAn3Cjym3SE8sbCe6eWuX00TwJE-xQiF6FOr3w,142277
+pyalmanac/data/A4chartSouth_P.pdf,sha256=pK6fYqtgzodRamebLzLZZHIzMvfsGnn46EsAbEpDBaw,132655
+pyalmanac/data/Ra.jpg,sha256=bQoKmBawxUTvaVQmmeafPURZtwEIxZrqf21h-AKYLek,24577
+pyalmanac/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalmanac/docs/Explanation.pdf,sha256=HAn5FOOXJ4SvKZ4LM-Kt3mcAiv3aUIiwb_0vhOW0e04,1743971
+pyalmanac/docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalmanac/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalmanac/lib/alma_ephem - Copy.py,sha256=pgB1yjvCY67m3xkrZEx2iQax6aUMGFrbmrJwxG4P87k,39828
+pyalmanac/lib/alma_ephem.py,sha256=tRwsaAvVeS6XjHG3JLlUrdsbWKrR5959aFbZhRElM4c,40639
+pyalmanac/lib/config.py,sha256=Z5V7OEkZ8J8dvuFb2CErJnaKvQBeXktaEM0dBx7PEYE,1866
+pyalmanac/lib/eventtables.py,sha256=m6QEJyzXwCt848OXhtCNrzr2yu3jTwqfGpjrC2Uwz7s,12052
+pyalmanac/lib/increments.py,sha256=Z2xtlTNfVwIag_YTNtpCKGdnNK7byn5OWsAzgiDFbn0,11445
+pyalmanac/lib/suntables.py,sha256=GLniBi4onQLixOJqxzdX7V_Ta6KFHqTKf6DQLHuthHI,17463
+pyalmanac/lib/tables.py,sha256=LoatYY8AS899phGT0wAq132BYRxNH3oDhuxxQpQSGqc,40776
+pyalmanac-1.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+pyalmanac-1.1.dist-info/METADATA,sha256=OFf479nQ1gsbZ8Bww-GjPJjC_RspgXto_30T5XrucFA,5833
+pyalmanac-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyalmanac-1.1.dist-info/top_level.txt,sha256=Gj_iG7NWW7JAuJCgY9o3S_O5JFrdagj-LHja6oBzTUw,10
+pyalmanac-1.1.dist-info/RECORD,,
