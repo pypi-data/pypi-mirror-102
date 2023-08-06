@@ -1,0 +1,11 @@
+gcscontents/__init__.py,sha256=R_d7RN7-NkGnXSEq6B9J4GF1vuDm4DULZLeUD1Vra-Q,110
+gcscontents/chunks.py,sha256=RaY4ezHCcimQgKeHj_fmaP2zZMhO1Tc6vRcxUeUVQCM,1601
+gcscontents/gcloudmanager.py,sha256=c9pV2cGwui8mOobAPYpt1v3LBYMqDcG8AXYc-weL5ys,1378
+gcscontents/generic_fs.py,sha256=DPRBsIintEXSvpMtir6mNzxFRBRMehCPozM1S8q2Hgg,8866
+gcscontents/genericfsmanager.py,sha256=dVw1cUVn7D1Dgc8KjbAz4aHcQbrztXEEGnx7j1NyCwc,14861
+gcscontents/nbimports.py,sha256=aVyNj8-dGZQZg9rOtBW24RU2og3lHKSPBiTMPgW6m3w,1849
+gcscontents-0.0.1.dist-info/LICENSE,sha256=6448lv-AYRuAqBsqaki57p20Qs5GCeKQSRsIgCA3--4,1068
+gcscontents-0.0.1.dist-info/METADATA,sha256=EkHlLah3JgekQKFFzMb9MHbfX6z-eoJ8_S7dn2JU0Xg,1564
+gcscontents-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gcscontents-0.0.1.dist-info/top_level.txt,sha256=lKiL2Wb1nYqL5rcOoJ_JRIuW5hts_Ys5H0i_LDlbOAM,12
+gcscontents-0.0.1.dist-info/RECORD,,
