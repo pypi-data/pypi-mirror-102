@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pymkup/__init__.py
+pymkup/pymkup.py
+pymkup/test.py
+pymkup.egg-info/PKG-INFO
+pymkup.egg-info/SOURCES.txt
+pymkup.egg-info/dependency_links.txt
+pymkup.egg-info/requires.txt
+pymkup.egg-info/top_level.txt
