@@ -1,0 +1,14 @@
+0.1.0: First version on GitHUB
+
+0.2.0: First version on PyPI
+    Full implementation of a Set and a Mapping using either an AVL or
+    a Red-Black binary Tree.
+    Coverage > 90%
+    Uses pyproject.toml
+
+0.2.1: Cosmetic changes
+
+0.3.0: Add Travis-CI integration
+    A bunch of fixes...
+    Limit code duplication by using a 2-list for children
+    Test usage on Python >= 3.5
