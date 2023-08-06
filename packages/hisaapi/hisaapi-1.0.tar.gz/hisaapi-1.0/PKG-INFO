@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: hisaapi
+Version: 1.0
+Summary: Unofficial API for accessing current stock prices converted to Euros
+Home-page: https://github.com/hassansalehe/hisaapi
+Author: Hassan Salehe Matar
+Author-email: hassansalehe@gmail.com
+License: MIT
+Download-URL: https://github.com/hassansalehe/hisaapi/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: Hisa,API,Stock,Share
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
