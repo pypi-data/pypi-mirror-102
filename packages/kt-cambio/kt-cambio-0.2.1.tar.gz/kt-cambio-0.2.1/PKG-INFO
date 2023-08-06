@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: kt-cambio
+Version: 0.2.1
+Summary: Conversor de moedas
+Home-page: https://github.com/vfranca/kt-cambio
+License: GPL-2.0-only
+Keywords: cli,trading
+Author: Valmir Franca
+Author-email: vfranca3@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Project-URL: Repository, https://github.com/vfranca/kt-cambio
+Description-Content-Type: text/markdown
+
+# kt-cambio
+Conversor de moedas.  
+  
+## Pré-requisitos
+  Python instalado e disponível no terminal de comandos.  
+    
+## Instalação
+```cmd
+pip install kt-cambio
+```
+
+## Uso
+
+```cmd
+brlusd [--cambio <CAMBIO>] <REAL>
+```
+Onde:  
+REAL Valor em real.  
+--cambio, -c Càmbio do dólar.  
+Exemplo:  
+```cmd
+brlusd 5000.00
+909.09
+```
+  
+```cmd
+usdbrl [--cambio <CAMBIO>] <DOLAR>
+```
+Onde:  
+DOLAR Valor em dólar.  
+--cambio, -c Càmbio do dólar.  
+Exemplo:  
+```cmd
+usdbrl 909.09
+4999.99
+```
+
