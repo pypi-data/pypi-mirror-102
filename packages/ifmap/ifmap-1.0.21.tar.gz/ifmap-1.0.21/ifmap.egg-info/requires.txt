@@ -1,0 +1,4 @@
+simple_utils
+template_manager
+paramiko
+boto3
