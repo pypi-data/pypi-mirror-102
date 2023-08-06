@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: ycecream
+Version: 1.3.3.8
+Summary: ycecream
+Home-page: https://github.com/salabim/ycecream
+Author: Ruud van der Ham
+Author-email: info@salabim.org
+License: UNKNOWN
+Download-URL: https://github.com/salabim/ycecream
+Description: Do you ever use ``print()`` or ``log()`` to debug your code? If so,
+        ycecream, or ``y`` for short, will make printing debug information a lot
+        sweeter. And on top of that, you get some basic benchmarking
+        functionality.
+        
+        Installation
+        ============
+        
+        Installing ycecream with pip is easy.
+        
+        ::
+        
+            $ pip install ycecream
+        
+        
+Keywords: debugging,utility,tool,benchmarking
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
