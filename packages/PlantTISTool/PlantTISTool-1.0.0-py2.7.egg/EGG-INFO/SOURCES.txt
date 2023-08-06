@@ -1,0 +1,6 @@
+setup.py
+PlantTISTool.egg-info/PKG-INFO
+PlantTISTool.egg-info/SOURCES.txt
+PlantTISTool.egg-info/dependency_links.txt
+PlantTISTool.egg-info/not-zip-safe
+PlantTISTool.egg-info/top_level.txt
