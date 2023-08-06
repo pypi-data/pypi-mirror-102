@@ -1,0 +1,6 @@
+
+[spamfilter]
+TracSpamFilter>=1.4dev
+
+[tags]
+TracTags>=0.11
