@@ -1,0 +1,9 @@
+README.md
+setup.py
+scripts/slg-install-nginx
+slg_dev_ops/__init__.py
+slg_dev_ops/install_nginx.py
+slg_dev_ops.egg-info/PKG-INFO
+slg_dev_ops.egg-info/SOURCES.txt
+slg_dev_ops.egg-info/dependency_links.txt
+slg_dev_ops.egg-info/top_level.txt
