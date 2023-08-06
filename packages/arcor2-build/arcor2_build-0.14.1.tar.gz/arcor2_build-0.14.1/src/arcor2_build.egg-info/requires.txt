@@ -1,0 +1,5 @@
+Flask==1.1.1
+arcor2_build_data~=0.9.0
+arcor2~=0.14.1
+dataclasses-jsonschema[apispec,fast-validation]==2.14.1
+pyhumps==1.6.1
