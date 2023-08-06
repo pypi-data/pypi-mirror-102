@@ -1,0 +1,7 @@
+hackedu_cli-0.1.5.data/scripts/hackedu,sha256=RD-UoMiW-OkB0_ggSXUWvyNr19PUgQDzyxdVIm7OJ1U,11846
+integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+integrations/sonarqube.py,sha256=8yNfzrkdrk8Qw37DBjjabgBq0kSj7DfVN3IaxcXDfiM,3318
+hackedu_cli-0.1.5.dist-info/METADATA,sha256=IkyHFQj4ufiOfbP_x4wx7ojcINxXTrupxk8VUAq3mps,2376
+hackedu_cli-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hackedu_cli-0.1.5.dist-info/top_level.txt,sha256=z--C6GM6eXMOHJsVCXv5bM-rljtQQDbGFlNoo44fd70,13
+hackedu_cli-0.1.5.dist-info/RECORD,,
