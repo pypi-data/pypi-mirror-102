@@ -1,0 +1,4 @@
+appdirs>=1.4.3
+
+[:platform_system == "Linux"]
+python-libtorrent-bin>=2.0.2
