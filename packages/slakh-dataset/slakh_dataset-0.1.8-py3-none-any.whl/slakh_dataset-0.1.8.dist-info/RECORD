@@ -1,0 +1,13 @@
+slakh_dataset/__init__.py,sha256=dTHS7vQA03y3kXlSPZ3jXxzYEexl1-74DIbDjsl_wwo,60
+slakh_dataset/constants.py,sha256=SN_8nEikSRuqF4uwNKO5J2b9q5TaMlhg8EAxA_HXfhU,335
+slakh_dataset/data_classes.py,sha256=E4olIhY8mGRFoQ-WBq65hITjBdve-SfLc_wNNHfxcBs,568
+slakh_dataset/dataset.py,sha256=UJ02ZPcTqVlNSSBQ2BYerNptbuBmYv4-TiujY29PFO4,12837
+slakh_dataset/midi.py,sha256=fNe75dXvFK9dFrBFCTXpzC9UGWG311nBdaN6FACovdM,1102
+slakh_dataset/splits/original.json,sha256=92VE6AjVI7nB2SIUtjnlWHbf_yCyegbKz6gtFdX5Gfc,37857
+slakh_dataset/splits/pitch_bend_info.json,sha256=Z7JuFqPm1Z_f1olDzqTta43SD0E4mYOnSTr75y-W9xo,1058114
+slakh_dataset/splits/redux.json,sha256=p4ApWMCu65s1gD4hm6JEKFKiKsM_2olUdrCir6UZack,37873
+slakh_dataset/splits/splits_v2.json,sha256=K1CfVk-hg4X2wlYCRcCJ-teGp0vyoS0_3lB4kStOSqQ,37857
+slakh_dataset-0.1.8.dist-info/LICENSE,sha256=RJd3o2WwPSh1NjwqDIKOdQXgjRyq4n9aJuilKji4ZYE,1072
+slakh_dataset-0.1.8.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+slakh_dataset-0.1.8.dist-info/METADATA,sha256=V7gYOntR8g_lfyYCd4CnttkB_4R10HtmrDjQMVyI8EA,2829
+slakh_dataset-0.1.8.dist-info/RECORD,,
