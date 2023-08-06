@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rpi_shtx_influx"
+version = "1.2"
+description = "Check temperature using Raspberry Pi and SHT4 sensor, logging to InfluxDB 2.0"
+authors = ["Nathaniel Waisbrot <code@waisbrot.net>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+adafruit-circuitpython-si7021 = "^3.3.3"
+influxdb-client = "^1.16.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+rpi_shtx_influx = "rpi_shtx_influx.tool:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
