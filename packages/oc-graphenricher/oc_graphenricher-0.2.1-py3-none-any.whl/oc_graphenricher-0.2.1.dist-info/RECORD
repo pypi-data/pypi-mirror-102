@@ -1,0 +1,14 @@
+oc_graphenricher/APIs/__init__.py,sha256=9nOnXXRArB929RCdpK4cRUJxY3ytK7EjnvpKF_ltxKQ,27317
+oc_graphenricher/APIs/stopwords-it.txt,sha256=PIDdSxtLztm5tUu480ndgZFFLqPlNLOAyAXFE7NIBjI,4113
+oc_graphenricher/APIs/test_queryinterface.py,sha256=RVgq384TC_o_iS7sOOHanQBfQp293GFPaB9yAeuY7sE,2944
+oc_graphenricher/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+oc_graphenricher/enricher/__init__.py,sha256=Jl3uDsMUXamwhSO8dC9O2C8UdZcgmmKuzO9Iwu7yRe8,14543
+oc_graphenricher/instancematching/__init__.py,sha256=8-1qM311ApHJ5LC34zQyVSHNLA5UUv2biTJkob94om8,19776
+oc_graphenricher/instancematching/generate_test_graphset.py,sha256=LpjU5zyLwfruz3_752cChNk5jkHGkJUO8alIskKWpFY,4344
+oc_graphenricher/instancematching/test_instancematching.py,sha256=6XEUHiF-82H3rnBbKfZmsjRQVr2d6sOOyyZylchfZ6c,4710
+oc_graphenricher/instancematching/test_merge_br.rdf,sha256=9rQfEYWfne47kiU_gDMRGe24jOd0db8kwDwNWMJ7Xrg,16745
+oc_graphenricher-0.2.1.dist-info/entry_points.txt,sha256=d-DgzOMENNfQ2VNMOztEgFpFxFffuOcwGl6KXc-ThuA,37
+oc_graphenricher-0.2.1.dist-info/LICENSE,sha256=NVySCZYlpkdRzmT7cugJBLwNx_y558JpuwW-h8jYDFI,757
+oc_graphenricher-0.2.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+oc_graphenricher-0.2.1.dist-info/METADATA,sha256=Pbzm5Zug7vSaY9ZNU0zVPvCBE358P2mq34Y4SaAkho4,9181
+oc_graphenricher-0.2.1.dist-info/RECORD,,
