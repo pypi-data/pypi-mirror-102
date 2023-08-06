@@ -1,0 +1,13 @@
+pyacorn/__init__.py,sha256=2iUaMbwaBRJObrBc9WwCIfLXnMzzYiUK8txrBHVwvRk,199
+pyacorn/__main__.py,sha256=PtIfh_h0zXD7Qf6LG8DA8CK5EO-aSlp8VttebXp522Y,443
+pyacorn/client.py,sha256=Wv8Lev8FCOclpKg-B3d0WJL1r0VkkSfXj_Jkn_SN70s,29839
+pyacorn/tasks.json.j2,sha256=uMOTXDZEkgZw3U10XxZZKBYVrCsSRealsODdUFQNplw,2722
+pyacorn/templates/launch.json.j2,sha256=5CsWzPZb0RnL1pM2tprV-CJbKSP9WUF_lfao4EwjLs8,675
+pyacorn/templates/settings.json.j2,sha256=0JTTjnqLouGR_hN2fn0q80weHiBcQOdEXs3NT9sh9tY,259
+pyacorn/templates/tasks.json.j2,sha256=X_wh7umuqMbGsbCfpKMvee9TKkr-N1gIzpkuKnOoziI,4327
+pyacorn-0.0.16.dist-info/LICENSE.txt,sha256=x290DRUhub7ZynoErVJsMQSTxiYhsTQdYjtDFzZTOzA,16725
+pyacorn-0.0.16.dist-info/METADATA,sha256=_BHmaTOgqCe89Bq5DSJoWgaJa3ybV2ML39adhVcZYk0,1771
+pyacorn-0.0.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyacorn-0.0.16.dist-info/entry_points.txt,sha256=Rma_2nM0HI1rh8XQE8MDNwCrFFJ_p19qmL5HhcJoE90,48
+pyacorn-0.0.16.dist-info/top_level.txt,sha256=Wpjvqb2-qBt4qHah_iiZLa1acMehVawrjUTQDuFi8Fs,8
+pyacorn-0.0.16.dist-info/RECORD,,
