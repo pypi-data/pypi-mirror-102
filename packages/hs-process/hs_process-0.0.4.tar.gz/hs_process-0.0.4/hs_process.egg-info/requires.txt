@@ -1,0 +1,4 @@
+geopandas
+seaborn
+spectral
+tqdm
