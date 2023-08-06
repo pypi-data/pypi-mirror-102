@@ -1,0 +1,77 @@
+- name: find driver package train only
+  find:
+    path:
+      - "{{ resources_dir }}/run_from_zip_dir"
+      - "{{ resources_dir }}"
+      - "{{ resources_dir }}/CANN"
+    recurse: no
+    file_type: file
+    use_regex: yes
+    patterns:
+      - "npu-driver.*{{ ansible_distribution.lower() }}{{ os_version }}.*{{ ansible_architecture }}.run"
+  register: driver_pkg
+  when: ansible_local.npu_info.scene == 'train'
+
+- set_fact: driver_run={{driver_pkg.files[0].path}}
+  when:
+    - not 'skipped' in driver_pkg
+    - driver_pkg.matched > 0
+
+- name: find driver package common
+  find:
+    path:
+      - "{{ resources_dir }}/run_from_zip_dir"
+      - "{{ resources_dir }}"
+      - "{{ resources_dir }}/CANN"
+    recurse: no
+    file_type: file
+    use_regex: yes
+    patterns:
+      - "{{ npu_product }}.*driver.*linux.*{{ ansible_architecture }}.run"
+  register: driver_pkg
+
+- set_fact: driver_run={{driver_pkg.files[0].path}}
+  when: driver_pkg.matched > 0
+
+- name: find driver package specific os
+  find:
+    path:
+      - "{{ resources_dir }}/run_from_zip_dir"
+      - "{{ resources_dir }}"
+      - "{{ resources_dir }}/CANN"
+    recurse: no
+    file_type: file
+    use_regex: yes
+    patterns:
+      - "{{ npu_product }}.*driver.*{{ ansible_distribution.lower() }}{{ os_version }}.*{{ ansible_architecture }}.run"
+  register: driver_pkg
+
+- set_fact: driver_run={{driver_pkg.files[0].path}}
+  when: driver_pkg.matched > 0
+
+- name: install driver
+  shell: "bash {{driver_run}} --full --quiet --install-username={{user}} --install-usergroup={{group}}"
+  environment:
+    PATH: /opt/rh/devtoolset-8/root/usr/bin/:/usr/sbin/:/sbin:{{ ansible_env.PATH }}
+  register: driver_result
+  failed_when: driver_result.rc == 1
+  when: (driver_run is defined) and (driver_run|length > 0)
+  become: yes
+
+- name: message
+  debug:
+    msg:
+      - "can not find driver package, driver install skipped"
+  when: (driver_run is not defined) or (driver_run|length == 0)
+
+- name: message
+  debug:
+    msg:
+      - "{{ driver_result | default('NOT DEFINED') }}"
+  when: driver_result.changed
+
+- name: service host_sys_init start
+  shell: service host_sys_init start
+  become: yes
+  failed_when: false
+  when: driver_result.changed
