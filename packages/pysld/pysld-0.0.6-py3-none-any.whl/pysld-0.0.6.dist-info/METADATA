@@ -1,0 +1,211 @@
+Metadata-Version: 2.1
+Name: pysld
+Version: 0.0.6
+Summary: Package for SLD generator
+Home-page: https://github.com/iamtekson/pysld
+Author: Tek Kshetri
+Author-email: iamtekson@gmail.com
+License: MIT License
+Keywords: pysld,sld,style,cartography,geoserver
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: jenkspy (==0.2.0)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: matplotlib (==3.2.0)
+Requires-Dist: numpy (==1.20.2)
+Requires-Dist: pandas (==1.2.3)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: psycopg2 (==2.8.6)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: scipy (==1.6.2)
+Requires-Dist: seaborn (==0.11.1)
+Requires-Dist: six (==1.15.0)
+Provides-Extra: dev
+Requires-Dist: bleach (==3.3.0) ; extra == 'dev'
+Requires-Dist: certifi (==2020.12.5) ; extra == 'dev'
+Requires-Dist: chardet (==4.0.0) ; extra == 'dev'
+Requires-Dist: colorama (==0.4.4) ; extra == 'dev'
+Requires-Dist: cycler (==0.10.0) ; extra == 'dev'
+Requires-Dist: docutils (==0.17) ; extra == 'dev'
+Requires-Dist: idna (==2.10) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==3.10.0) ; extra == 'dev'
+Requires-Dist: jenkspy (==0.2.0) ; extra == 'dev'
+Requires-Dist: keyring (==23.0.1) ; extra == 'dev'
+Requires-Dist: kiwisolver (==1.3.1) ; extra == 'dev'
+Requires-Dist: matplotlib (==3.2.0) ; extra == 'dev'
+Requires-Dist: numpy (==1.20.2) ; extra == 'dev'
+Requires-Dist: packaging (==20.9) ; extra == 'dev'
+Requires-Dist: pandas (==1.2.3) ; extra == 'dev'
+Requires-Dist: Pillow (==8.2.0) ; extra == 'dev'
+Requires-Dist: pkginfo (==1.7.0) ; extra == 'dev'
+Requires-Dist: psycopg2 (==2.8.6) ; extra == 'dev'
+Requires-Dist: Pygments (==2.8.1) ; extra == 'dev'
+Requires-Dist: pyparsing (==2.4.7) ; extra == 'dev'
+Requires-Dist: python-dateutil (==2.8.1) ; extra == 'dev'
+Requires-Dist: pytz (==2021.1) ; extra == 'dev'
+Requires-Dist: pywin32-ctypes (==0.2.0) ; extra == 'dev'
+Requires-Dist: readme-renderer (==29.0) ; extra == 'dev'
+Requires-Dist: requests (==2.25.1) ; extra == 'dev'
+Requires-Dist: requests-toolbelt (==0.9.1) ; extra == 'dev'
+Requires-Dist: rfc3986 (==1.4.0) ; extra == 'dev'
+Requires-Dist: scipy (==1.6.2) ; extra == 'dev'
+Requires-Dist: seaborn (==0.11.1) ; extra == 'dev'
+Requires-Dist: six (==1.15.0) ; extra == 'dev'
+Requires-Dist: tqdm (==4.60.0) ; extra == 'dev'
+Requires-Dist: twine (==3.4.1) ; extra == 'dev'
+Requires-Dist: urllib3 (==1.26.4) ; extra == 'dev'
+Requires-Dist: webencodings (==0.5.1) ; extra == 'dev'
+Requires-Dist: zipp (==3.4.1) ; extra == 'dev'
+
+[![Downloads](https://pepy.tech/badge/pysld)](https://pepy.tech/project/pysld) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# Documentation
+
+The library is useful for generating the [SLD](https://www.ogc.org/standards/sld) file for raster as well as vector datasets. The package can generate the 4 types of styles,
+
+1. Simple style
+2. Categorized style
+3. Classified style
+4. Raster style
+
+The library is the small version of [QGIS symbology](https://docs.qgis.org/2.8/en/docs/training_manual/basic_map/symbology.html). This library is very useful for the visual appearance on the map.
+
+The package is available in official PyPI: https://pypi.org/project/pysld/
+
+The complete documentation of this library is found here: https://pysld.readthedocs.io
+
+# Installation
+
+```python
+pip install pysld
+```
+
+# Some example
+
+```python
+# Import library
+from pysld.style import StyleSld
+
+# Simple style for polygon feature
+simple_sld = StyleSld(style_name='polygonStyle', geom_type='polygon', fill_color='#ffffff', stroke_color='#333333')
+simple_sld_style = simple_sld.generate_simple_style()
+print(simple_sld_style)
+
+# Categorized style for polygon feature
+categorized_sld = StyleSld(
+            style_name='polygonStyle',
+            geom_type='polygon',
+            attribute_name='USE',
+            values=['Agriculture', 'Residential', 'Restaurant', 'Storehouse'],
+            color_palette='Spectral_r')
+categorized_sld_style = categorized_sld.generate_categorized_style()
+print(categorized_sld_style)
+
+# Classified style for polygon feature
+classified_sld = StyleSld(
+            style_name='polygonStyle',
+            geom_type='polygon',
+            attribute_name='USE',
+            values=[1,2,3,34,23,122,12,2,3,21,23,32,1,23,42,1,23,1,1,23,4,3,54,6,768,8,554,3,43,543,6,657,7,75,4,4],
+            number_of_class=5,
+            classification_method='natural_break',
+            color_palette='Spectral_r')
+classified_sld_style = classified_sld.generate_classified_style()
+print(classified_sld_style)
+
+# Raster style
+raster_style = StyleSld(style_name='polygonStyle',color_palette='Spectral_r',continuous_legend=True)
+raster_sld_style = raster_sld.generate_raster_style(max_value=100, min_value=0)
+
+# Categorized style for PostGIS data
+categorized_sld = StyleSld(
+            style_name='polygonStyle',
+            geom_type='polygon',
+            attribute_name='USE',
+            color_palette='Spectral_r',
+            # Postgres connection parameters
+            dbname='postgres',
+            user='postgres',
+            password='admin',
+            host='localhost',
+            port='5432',
+            schema='public',
+            pg_table_name='postgres_table_name')
+print(categorized.values) # It will print the unique values from postgres_table_name table
+categorized_style_sld = categorized.generate_categorized_style()
+```
+
+### Generated SLD file example
+
+##### Simple SLD
+
+```xml
+<StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <NamedLayer>
+        <Name>style</Name>
+        <UserStyle>
+        <Title>style</Title>
+        <FeatureTypeStyle>
+    <Rule>
+        <PolygonSymbolizer>
+            <Fill>
+                <CssParameter name="fill">#ffffff</CssParameter>
+                <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+            <Stroke>
+                <CssParameter name="stroke">#333333</CssParameter>
+                <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+        </PolygonSymbolizer>
+    </Rule>
+        </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>
+```
+
+##### Raster SLD
+
+```xml
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" version="1.0.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld">
+    <UserLayer>
+        <sld:LayerFeatureConstraints>
+        <sld:FeatureTypeConstraint/>
+        </sld:LayerFeatureConstraints>
+        <sld:UserStyle>
+        <sld:Name>polygonStyle</sld:Name>
+        <sld:FeatureTypeStyle>
+            <sld:Rule>
+            <sld:RasterSymbolizer>
+                <Opacity>1</Opacity>
+                <sld:ChannelSelection>
+                <sld:GrayChannel>
+                    <sld:SourceChannelName>1</sld:SourceChannelName>
+                </sld:GrayChannel>
+                </sld:ChannelSelection>
+                <sld:ColorMap type="range">
+                    <sld:ColorMapEntry color="#54aead" label=" 0.0" quantity="0.0"/>
+                    <sld:ColorMapEntry color="#bfe5a0" label=" 25.0" quantity="25.0"/>
+                    <sld:ColorMapEntry color="#fffebe" label=" 50.0" quantity="50.0"/>
+                    <sld:ColorMapEntry color="#fdbf6f" label=" 75.0" quantity="75.0"/>
+                    <sld:ColorMapEntry color="#e95c47" label=" 100.0" quantity="100.0"/>
+                </sld:ColorMap>
+            </sld:RasterSymbolizer>
+            </sld:Rule>
+        </sld:FeatureTypeStyle>
+        </sld:UserStyle>
+    </UserLayer>
+</StyledLayerDescriptor>
+```
+
+
