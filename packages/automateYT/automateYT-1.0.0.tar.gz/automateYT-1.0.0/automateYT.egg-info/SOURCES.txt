@@ -1,0 +1,10 @@
+README.md
+setup.py
+automateYT/__init__.py
+automateYT/__main__.py
+automateYT/exceptions.py
+automateYT.egg-info/PKG-INFO
+automateYT.egg-info/SOURCES.txt
+automateYT.egg-info/dependency_links.txt
+automateYT.egg-info/requires.txt
+automateYT.egg-info/top_level.txt
