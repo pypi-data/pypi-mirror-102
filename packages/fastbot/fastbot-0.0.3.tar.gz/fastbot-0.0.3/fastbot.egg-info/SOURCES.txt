@@ -1,0 +1,17 @@
+.gitignore
+README.md
+setup.py
+.github/workflows/publish-to-test-pypi.yml
+fastbot/__init__.py
+fastbot/_version.py
+fastbot/core.py
+fastbot/json.py
+fastbot/main.py
+fastbot/memcached.py
+fastbot/redis.py
+fastbot/responses.py
+fastbot.egg-info/PKG-INFO
+fastbot.egg-info/SOURCES.txt
+fastbot.egg-info/dependency_links.txt
+fastbot.egg-info/requires.txt
+fastbot.egg-info/top_level.txt
