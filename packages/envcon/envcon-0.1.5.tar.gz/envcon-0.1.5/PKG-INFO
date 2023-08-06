@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: envcon
+Version: 0.1.5
+Summary: 
+Home-page: https://github.com/neriat/envcon
+License: MIT
+Keywords: environment,variables,configuration,12factor,twelve-factor
+Author: Neria
+Author-email: me@neria.dev
+Maintainer: Neria
+Maintainer-email: me@neria.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: python-dotenv (>=0.17.0,<0.18.0)
+Project-URL: Repository, https://github.com/neriat/envcon
+Description-Content-Type: text/markdown
+
+# envcon: simplified environment variable parsing
+
+
+**envcon**. easy environment variables parsing.
+envcon allows you to store configuration separated from your code, like 
+[The Twelve-Factor App](https://12factor.net/config) suggests.
+
+## Contents
+
+- [Features](#features)
+- [Install](#install)
+- [Basic usage](#basic-usage)
+- [Supported types](#supported-types)
+- [Reading .env files](#reading-env-files)
+- [Handling prefixes](#handling-prefixes)
+- [Why...?](#why)
+  - [Why environment variables?](#why-environment-variables)
+  - [Why not os.environ?](#why-not-osenviron)
+  - [Why use envcon](#why-use-envcon)
+- [License](#license)
+
+## Features
+
+- Type-casting
+- Parse `.env` files as well as environment variables (`os.environ`) (useful for development)
+- Default values
+
+## Install
+
+    pip install envcon
+
+## Basic usage
+
+Assuming these environment variables are set (or written in .env file)
+
+```bash
+export MONGO_USER=myMongoUser
+export MONGO_PASSWORD=shh_its_a_secret
+export SECRET_NUMBER=0.42
+export ONE_TO_TEN=1,2,3,4,5,6,7,8,9,10
+export IS_ENABLED=true
+export URL=http://www.google.com
+```
+
+Parse them with envcon...
+
+```python3
+from envcon import environment_configuration
+
+@environment_configuration
+class Configs:
+    SECRET_NUMBER: float
+    IS_ENABLED: bool
+    ONE_TO_TEN: list[int] # in python 3.8 use List[int] (from typing import List) 
+
+print(Configs.SECRET_NUMBER) # 0,42
+print(type(Configs.SECRET_NUMBER)) # <class 'float'>
+print(Configs.IS_ENABLED) # True
+print(type(Configs.IS_ENABLED)) # <class 'bool'>
+print(type(Configs.ONE_TO_TEN[0])) # <class 'int'> 
+
+@environment_configuration(prefix="MONGO_")
+class MongoConfiguration:
+    USER: str
+    PASSWORD: str
+
+print(MongoConfiguration.USER) # myMongoUser
+    
+```
+
+## Supported types
+
+The following types hints are supported
+
+Builtins and from `typing`:
+- `str`
+- `bool`
+- `int`
+- `float`
+- `list`
+- `dict` 
+- `List`
+- `List[T]`
+- `Dict`
+- `Optional[T]`
+
+## Reading `.env` files
+TODO
+
+## Handling prefixes
+
+```python
+TODO
+```
+
+
+For local development, use a `.env` file to override the default
+configuration.
+
+```bash
+# .env
+DEBUG=true
+SECRET_KEY="not so secret"
+```
+
+
+## Why...?
+
+### Why environment variables?
+
+See [The 12-factor App](http://12factor.net/config) section on
+[configuration](http://12factor.net/config).
+
+### Why not `os.environ`?
+
+envcon will help you
+
+- cast environment variables to the correct type
+- specify required environment vars
+- define default values
+- parse list and dict values
+- serialize your configuration
+
+### Why use envcon?
+TODO
+
+## License
+
+MIT licensed. 
