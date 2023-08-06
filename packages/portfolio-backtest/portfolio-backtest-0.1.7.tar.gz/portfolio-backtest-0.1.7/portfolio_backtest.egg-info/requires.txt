@@ -1,0 +1,5 @@
+cython
+yfinance
+matplotlib
+pyportfolioopt
+scikit-learn
