@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+DESfiddle/utils.py
+DESfiddle/DESfiddle.egg-info/PKG-INFO
+DESfiddle/DESfiddle.egg-info/SOURCES.txt
+DESfiddle/DESfiddle.egg-info/dependency_links.txt
+DESfiddle/DESfiddle.egg-info/top_level.txt
