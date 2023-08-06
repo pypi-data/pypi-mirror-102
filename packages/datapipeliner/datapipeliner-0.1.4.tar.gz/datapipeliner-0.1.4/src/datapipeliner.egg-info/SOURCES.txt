@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/datapipeliner/__init__.py
+src/datapipeliner/datapipeliner.py
+src/datapipeliner/exceptions.py
+src/datapipeliner.egg-info/PKG-INFO
+src/datapipeliner.egg-info/SOURCES.txt
+src/datapipeliner.egg-info/dependency_links.txt
+src/datapipeliner.egg-info/requires.txt
+src/datapipeliner.egg-info/top_level.txt
