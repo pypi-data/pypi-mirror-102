@@ -1,0 +1,11 @@
+scidatalib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scidatalib/cli.py,sha256=g7fuqEZsBtN07tmjEK5-M3RCqJvCBH1RfD3ja-9rUek,1133
+scidatalib/scidata.py,sha256=6DbtqdeJxZK-mn9d6nSDG7wB15FHB4baGYvAOZ8R5YQ,28837
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=RFCyZW-XZu6yBL4Qm5V0kMU1lpwX86eMil4xdsdjiZY,1682
+tests/test_scidata.py,sha256=F1CfSUSYMfW2rQhQSaJzjNmRLNNPrm9wrzzG55o4SQc,7258
+SciDataLib-0.2.dist-info/LICENSE.txt,sha256=hE5yLax33aCNAj5B8tQ0r1PRSVyLbhTqW-GFztdkAe8,1087
+SciDataLib-0.2.dist-info/METADATA,sha256=G58MF8z9kv8P6DG4Hy66gXG3a8W18Jw3lQdWQeaCkO0,8454
+SciDataLib-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SciDataLib-0.2.dist-info/top_level.txt,sha256=5soaa9SLxIvjiXcJ7ops1rzgtgF8hOqGieKAJosXrJM,17
+SciDataLib-0.2.dist-info/RECORD,,
