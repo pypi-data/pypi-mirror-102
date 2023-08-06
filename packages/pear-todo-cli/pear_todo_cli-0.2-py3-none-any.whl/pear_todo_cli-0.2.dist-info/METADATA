@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pear-todo-cli
+Version: 0.2
+Summary: A cli todo list
+Home-page: https://github.com/g3rrit/todo_cli
+Author: Gerrit Proessl
+Author-email: grproessl@web.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+# CLI TODO LIST
+
+This project is WIP
+
