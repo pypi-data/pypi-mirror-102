@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: statementhelper
+Version: 0.0.1
+Summary: Definitions and examples for common Python statements.
+Home-page: UNKNOWN
+Author: Ryan Chou
+Author-email: UNKNOWN
+License: MIT
+Description: This is a helper package for beginners starting out in Python.
+        You can retrieve examples and definitions for if statements, for statements, while statements, dictionaries, lists, tuples, and functions by just typing one line.
+        
+        Change Log
+        ============================================================
+        
+        0.0.1 (15/4/2021)
+        ===================================
+        - First Version
+Keywords: help
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

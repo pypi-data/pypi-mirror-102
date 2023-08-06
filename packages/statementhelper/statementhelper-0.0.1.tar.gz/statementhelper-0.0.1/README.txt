@@ -1,0 +1,2 @@
+This is a helper package for beginners starting out in Python.
+You can retrieve examples and definitions for if statements, for statements, while statements, dictionaries, lists, tuples, and functions by just typing one line.
