@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gcscontents
+Version: 0.0.1
+Summary: A ContentsManager for managing Google Cloud APIs.
+Home-page: https://github.com/sanskar1991/gcscontents
+Author: Sanskar Jain
+Author-email: <email@root.com>
+License: UNKNOWN
+Description: A package that allows to build a contents manager for jupyter applications.
+Keywords: python,jupyter,contents manager
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev

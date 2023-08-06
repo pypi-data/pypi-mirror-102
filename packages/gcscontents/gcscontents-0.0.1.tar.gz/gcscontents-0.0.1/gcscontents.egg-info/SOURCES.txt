@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+gcscontents/__init__.py
+gcscontents/chunks.py
+gcscontents/gcloudmanager.py
+gcscontents/generic_fs.py
+gcscontents/genericfsmanager.py
+gcscontents/nbimports.py
+gcscontents.egg-info/PKG-INFO
+gcscontents.egg-info/SOURCES.txt
+gcscontents.egg-info/dependency_links.txt
+gcscontents.egg-info/requires.txt
+gcscontents.egg-info/top_level.txt
