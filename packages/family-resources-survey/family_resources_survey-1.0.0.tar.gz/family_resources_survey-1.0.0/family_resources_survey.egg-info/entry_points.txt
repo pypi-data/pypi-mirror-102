@@ -1,0 +1,3 @@
+[console_scripts]
+frs-data = family_resources_survey.main:main
+
