@@ -1,0 +1,10 @@
+Werkzeug>=2.0.0rc4
+Jinja2>=3.0.0rc1
+itsdangerous>=2.0.0rc2
+click>=8.0.0rc1
+
+[async]
+asgiref>=3.2
+
+[dotenv]
+python-dotenv
