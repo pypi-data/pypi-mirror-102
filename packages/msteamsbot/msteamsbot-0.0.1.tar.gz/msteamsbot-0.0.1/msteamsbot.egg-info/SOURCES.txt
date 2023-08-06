@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+msteamsbot/__init__.py
+msteamsbot.egg-info/PKG-INFO
+msteamsbot.egg-info/SOURCES.txt
+msteamsbot.egg-info/dependency_links.txt
+msteamsbot.egg-info/top_level.txt
