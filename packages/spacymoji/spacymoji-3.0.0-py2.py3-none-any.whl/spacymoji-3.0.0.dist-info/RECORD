@@ -1,0 +1,9 @@
+spacymoji/__init__.py,sha256=82k_dpF_fHRm-UtMlKvPrRD7ZLb3281LFL8q6Sv8CAo,5460
+spacymoji/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacymoji/tests/test_emoji.py,sha256=SzXDpy-0Bv6By-PWlwHesmXDw6vFb0pzalmE-1G4OjE,3639
+spacymoji-3.0.0.dist-info/LICENSE,sha256=1Wip5DkbDHct3I1PglwfVs-gP8zMnqtFfXlNpTrHWfc,1102
+spacymoji-3.0.0.dist-info/METADATA,sha256=wbV4pH_CjDrt6VtBiw07khwakZPC5FMFXZnpYHcjvbo,6795
+spacymoji-3.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+spacymoji-3.0.0.dist-info/top_level.txt,sha256=jMVOfetNaSM5sZgbfhimmMCDws00gNeaES1rlPXc9Yo,10
+spacymoji-3.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spacymoji-3.0.0.dist-info/RECORD,,
