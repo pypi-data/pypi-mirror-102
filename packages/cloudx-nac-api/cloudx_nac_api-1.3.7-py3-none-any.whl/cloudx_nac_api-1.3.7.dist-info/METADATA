@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cloudx-nac-api
+Version: 1.3.7
+Summary: CloudX Digital Edge IaaS API package
+Home-page: https://github.com/cloudx/iaas-api
+Author: Umut Karabudak
+Author-email: umut.karabudak@cloudx.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Securyi Anomaly Detector Micro Service
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta aliquam nisi, in tempus risus. Nam cursus risus dictum auctor scelerisque. Mauris cursus libero tellus. In hac habitasse platea dictumst. Nullam et turpis eu orci lacinia rhoncus sed id nibh. Nullam sit amet nibh in nunc posuere laoreet ut vitae mauris. Cras commodo vulputate mi.
+
+Donec in diam laoreet, faucibus erat et, venenatis nisl. Integer vitae elit ac nulla facilisis pharetra pharetra a ex. Integer imperdiet varius elementum. Pellentesque eu urna purus. Pellentesque eu justo ac magna dictum egestas ac vel massa. Praesent pretium ut elit ultricies iaculis. Sed maximus dapibus sollicitudin. Proin varius diam quis tincidunt aliquet.
+
+```bash
+pip install cloudx_naas_api
+```
+
+Ut fermentum fringilla fermentum. Nunc ut auctor sapien. Donec pellentesque, odio sit amet venenatis dictum, dui tellus vulputate mi, id venenatis dui purus et metus. Cras mollis est in fermentum mattis. Nullam faucibus urna id posuere aliquet. Mauris ut fermentum mauris. Morbi elementum feugiat justo tempor vehicula. Fusce non enim nec turpis scelerisque maximus. In id fringilla dui. Vivamus placerat massa turpis. Nam rhoncus turpis eget tortor consequat laoreet. Pellentesque pellentesque id diam quis ullamcorper. Vestibulum ultrices magna laoreet, fermentum tortor et, venenatis nisl. Donec ullamcorper, sem et elementum bibendum, nisi sapien euismod quam, sit amet rutrum tellus risus in nisl.
+
+```bash
+make build push
+```
+
+Proin pharetra sapien mollis, efficitur turpis quis, elementum velit. Aliquam posuere lectus nisl, non rutrum libero tristique at. Duis sit amet pharetra tellus. Donec tempor est sed aliquam rutrum. Maecenas vitae metus quis tortor pellentesque imperdiet et sed dolor. Maecenas condimentum augue nec nunc imperdiet, sit amet sollicitudin ipsum aliquam. Proin lobortis mi quis eleifend dignissim. Mauris convallis semper nibh vel pretium. Sed et mattis nunc. Duis orci leo, elementum ut sapien quis, eleifend interdum enim. Suspendisse vitae diam euismod, bibendum velit iaculis, rhoncus dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque consequat consequat est, a mollis quam porttitor dignissim. Vivamus fermentum vel turpis sit amet imperdiet. Morbi eget maximus justo.
+
+Maecenas et porta metus. Nulla consequat hendrerit augue, nec gravida nunc iaculis et. Aliquam erat volutpat. Nunc consequat condimentum mauris et euismod. Donec scelerisque tincidunt elementum. Nam et imperdiet nunc, tincidunt laoreet ipsum. Maecenas pulvinar lorem sit amet enim malesuada auctor non et diam. Proin ac elit vulputate, pulvinar quam condimentum, suscipit velit. Curabitur tincidunt, tellus lobortis volutpat ultricies, dui dui cursus justo, ut consequat quam ligula elementum purus. Morbi consequat ultricies mi, quis viverra elit.
+
