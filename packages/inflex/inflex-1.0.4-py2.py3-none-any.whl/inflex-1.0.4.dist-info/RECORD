@@ -1,0 +1,15 @@
+inflex/__init__.py,sha256=9i3WFq-Iw2Z8f6uy1tvauL_L5OjjiloTEDfwVk8Mrr8,286
+inflex/adjective.py,sha256=VMJrgmsZdeWNo0CjXk-4yLUYgns6h_jTgmdG0mNNyUc,14175
+inflex/adjective_core.py,sha256=7AZCWL7uhI6tS0e9a1XEquoQhUSdZg5Uj8WNfeYLtNs,2485
+inflex/indefinite_core.py,sha256=U5QS_qlQJAczxLIDeSOAcngVU-nJdb9yjWy7vWuXXbI,3379
+inflex/noun.py,sha256=9r9V74kkKvm9fDKkyEvUBAvJVJjSp0RHvFk32FJC2Vg,26678
+inflex/noun_core.py,sha256=pXXQ9M2BSkRS3qPHy6WzRIRB4kytBqzOHMnYlksbuss,289720
+inflex/syllable.py,sha256=XXYqi_AUM92QdYlnOqm5huwSZBAy1AxqZ3LqKEtus0I,5150
+inflex/term.py,sha256=NKIciZROy_WVMzKcac0tB-HhY8OMbS2iTP2oyWY-77g,11719
+inflex/verb.py,sha256=_HMnehkR8fJTxg9oINBfRapXghxh7_GiXD_jjOxIqfI,18124
+inflex/verb_core.py,sha256=OPJXktIP4m04yoznY1hl7kwrxHQyFHEYPggCMWiWOvE,118124
+inflex-1.0.4.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+inflex-1.0.4.dist-info/METADATA,sha256=C8m0f9FzWxxjbBl5VkmJE_FQMeznfDMuCO-BrQBvqIY,1551
+inflex-1.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+inflex-1.0.4.dist-info/top_level.txt,sha256=Y4cGbUL7Y_b9tNrYeKE7Vf03_FWZ7TuDlUz_8-mV27s,7
+inflex-1.0.4.dist-info/RECORD,,
