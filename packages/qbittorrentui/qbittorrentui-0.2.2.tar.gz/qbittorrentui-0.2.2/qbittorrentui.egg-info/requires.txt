@@ -1,0 +1,7 @@
+urwid==2.1.2
+qbittorrent-api
+blinker==1.4
+urwid-utils==0.1.2
+six==1.15.0
+raccoon==3.0.0
+orderedattrdict==1.6.0
