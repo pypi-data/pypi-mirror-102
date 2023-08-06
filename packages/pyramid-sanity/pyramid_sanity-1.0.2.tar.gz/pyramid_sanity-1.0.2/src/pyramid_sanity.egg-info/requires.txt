@@ -1,0 +1,7 @@
+pyramid
+
+[tests]
+coverage
+pyramid
+pytest
+webtest
