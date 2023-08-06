@@ -1,0 +1,12 @@
+Flask
+
+[docs]
+sphinx
+pallets-sphinx-themes
+
+[pub]
+wheel
+twine
+
+[test]
+pytest
