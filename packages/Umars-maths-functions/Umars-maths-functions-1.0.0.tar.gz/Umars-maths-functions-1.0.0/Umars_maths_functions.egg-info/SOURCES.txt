@@ -1,0 +1,7 @@
+PipSetup.py
+README.md
+Umars_maths_functions.egg-info/PKG-INFO
+Umars_maths_functions.egg-info/SOURCES.txt
+Umars_maths_functions.egg-info/dependency_links.txt
+Umars_maths_functions.egg-info/entry_points.txt
+Umars_maths_functions.egg-info/top_level.txt
