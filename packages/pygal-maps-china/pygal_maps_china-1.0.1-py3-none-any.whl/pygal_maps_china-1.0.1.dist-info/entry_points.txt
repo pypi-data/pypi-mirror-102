@@ -1,0 +1,3 @@
+[pygal.maps]
+china = pygal_maps_china.maps
+
