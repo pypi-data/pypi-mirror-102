@@ -1,0 +1,2 @@
+def jaoke():
+    return "fuckoff"
