@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bmi-processor-beta
+Version: 1.0.0
+Summary: This pacakge can process ht wt to bmi and categorise bmi
+Home-page: https://github.com/ravi9989/code-20210420-raviteja
+Author: Ravi Teja
+Author-email: atmravi395@gmail.com
+License: unlicense
+Platform: UNKNOWN
+Requires-Dist: json
+Requires-Dist: functools
+Requires-Dist: bisect
+
+UNKNOWN
+
+
