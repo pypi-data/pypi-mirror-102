@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pymom
+Version: 1.0.0
+Summary: Kafka framework for Python.
+Home-page: https://github.com/patrickmay/pymom/src/master/
+Author: Patrick May
+Author-email: patrick.may@mac.com
+License: Apache 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pykafka
+
+# PyMom
+
+
+
