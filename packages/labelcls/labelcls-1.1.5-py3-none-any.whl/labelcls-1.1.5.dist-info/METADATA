@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: labelcls
+Version: 1.1.5
+Summary: Annotation tool of image classification data.
+Home-page: https://github.com/pei223/labelcls
+Author: pei223
+Author-email: peidparc@gmail.com
+License: MIT
+Keywords: image-classification annotation annotation-tool
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: eel
+Requires-Dist: Pillow
+
+## labelcls
+Image classification annotation tool.
+
+<img src="https://raw.githubusercontent.com/pei223/labelcls/master/labelcls.png">
+<br><br><br>
+
+## Functions
+- Write annotation result for CSV.
+- Load annotation result in the middle of work.
+- Write/Load label file.
+
