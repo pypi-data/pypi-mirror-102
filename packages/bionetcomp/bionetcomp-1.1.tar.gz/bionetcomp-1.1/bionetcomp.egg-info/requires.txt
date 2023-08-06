@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+networkx>=2.5
+gseapy
+requests
+scipy>=1.6.1
