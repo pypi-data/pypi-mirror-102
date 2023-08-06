@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pydocgen
+Version: 0.0.3a0
+Summary: Automatically generate docstrings and documentation files for your code!
+Home-page: https://github.com/m0bi5/pydocgen
+Author: m0bi5
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: pdoc3
+Requires-Dist: Jinja2
+
+PyDocGen
+--------
+Automatically generate docstrings and documentation for your Python modules!
+
+Installation
+--------------
+```
+pip install pydocgen
+```
+
+Usage
+-------
+Pydocgen currently will accept a Python module file, it will support packages in the near future
+```
+pydocgen --help         #View all options
+pydocgen -i file_name
+```
+
+Features
+----------
+- Easy to use, quick way to document your code
+- Input module file will automatically be decorated with docstrings (under development)
+    - Only need to fill in variable and function description
+    - Automatic type inference!
+- Documentation files will be generated automatically (current supports HTML)
+
+
