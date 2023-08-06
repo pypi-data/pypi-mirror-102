@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dodecaphony/__init__.py
+dodecaphony.egg-info/PKG-INFO
+dodecaphony.egg-info/SOURCES.txt
+dodecaphony.egg-info/dependency_links.txt
+dodecaphony.egg-info/requires.txt
+dodecaphony.egg-info/top_level.txt
