@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: deepbio
+Version: 0.0.1
+Summary: machine learning for biologics
+Home-page: https://github.com/latchai/deepbio
+Author-email: kenny@latch.ai
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pytorch-lightning (==1.2.5)
+Requires-Dist: torch (==1.8.0)
+Requires-Dist: webdataset-latch (==0.6.0)
+
+DeepBio
+----
+
+A universal API for machine learning on biologics.
+
+
+
+
