@@ -1,0 +1,2 @@
+graft pymycustomcalc/static
+graft pymycustomcalc/templates
