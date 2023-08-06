@@ -1,0 +1,16 @@
+LICENCE.md,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+csql/__init__.py,sha256=ZJXEyksejvpoaFt-fbipqjVDpjlR2kc0gwZNntSZXEY,237
+csql/api.py,sha256=p88ll1kPP73LTe-cWfg8PWg2iuwPpolEBrEzMYoY6A8,795
+csql/dialect.py,sha256=2Ry9SsnaRDqzKw2MluVCQxhJKGPVNZBR5xUCVi8G_gc,163
+csql/input/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csql/input/strparsing.py,sha256=IbQM3oYl0x0FgNLHOgvITSffETj1C4CG8FB3mSdr7FU,2124
+csql/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csql/models/dialect.py,sha256=_ZhFJWqh5S69WJgKi05LdYtzvrSHLPXr9UO4dqBbJcw,481
+csql/models/query.py,sha256=5ItHyJhqB8jFoabU4z3URGGYbFYVeT4YHchjLz-SBHc,2135
+csql/renderer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csql/renderer/parameters.py,sha256=u9tGDtWET3EXE9jgT7SamNDFitB6CuQLdP1NuprFicQ,3387
+csql/renderer/query.py,sha256=hjASa8Eu45jT6WRg6SzbGhXcLHu_uFCxu0ojaUfyapc,3124
+csql/utils.py,sha256=OLaKkZ0hUFbzgy8R4cKfOK33utb7RWdNfs-W5oSajvY,619
+csql-0.5.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+csql-0.5.0.dist-info/METADATA,sha256=4G7UzfYBmxobmI8zWNTGd6WXjpYL-vx2FqcPfSl112U,5868
+csql-0.5.0.dist-info/RECORD,,
