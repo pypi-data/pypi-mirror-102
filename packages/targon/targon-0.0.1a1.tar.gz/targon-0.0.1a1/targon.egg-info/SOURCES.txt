@@ -1,0 +1,7 @@
+README.md
+setup.py
+targon.egg-info/PKG-INFO
+targon.egg-info/SOURCES.txt
+targon.egg-info/dependency_links.txt
+targon.egg-info/requires.txt
+targon.egg-info/top_level.txt
