@@ -1,0 +1,10 @@
+pdf2doi/DOI_finders.py,sha256=aCoBHMMp0YiLWU3UNwICr1wrjlAMHLd-WnuRaFCbt9k,16505
+pdf2doi/__init__.py,sha256=b3hdRDrHzTxReEpsuI7vw4QK9rdHB7WK4JK8kgUdu1Y,90
+pdf2doi/bibtex_makers.py,sha256=75Ha3CUljMmsymVtc5Oq9jve6Yu-A0rHgfC53ssasVw,3016
+pdf2doi/config.py,sha256=mC_fy4_8pf4DmrIyMoLxWd6Gw2iXCufUo53tBCE2KhA,146
+pdf2doi/pdf2doi.py,sha256=CHZS6iBQZDcCdcogZa7SDWFZpaV7kKo4LyQoOQnFExM,7478
+pdf2doi-0.1.4a1.dist-info/METADATA,sha256=QWPJeDvLz4f95T9GsTpAS3gWeU1CxVUQiwKgQYCIN08,2648
+pdf2doi-0.1.4a1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pdf2doi-0.1.4a1.dist-info/entry_points.txt,sha256=nOZAt08mM0LN_Xz4d9K8NJCYmaXkgad3w6PGfIL7PZ8,50
+pdf2doi-0.1.4a1.dist-info/top_level.txt,sha256=mjnLRGseHZPjiQMk3YXfBDZNz-mSMVAK8GyNK1y7EuY,8
+pdf2doi-0.1.4a1.dist-info/RECORD,,
