@@ -1,0 +1,3 @@
+[console_scripts]
+codename_generator = codename_generator:main
+
