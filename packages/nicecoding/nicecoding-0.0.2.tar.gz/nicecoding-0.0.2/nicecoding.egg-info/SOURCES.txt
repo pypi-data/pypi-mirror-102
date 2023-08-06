@@ -1,0 +1,8 @@
+README
+setup.py
+nicecoding/__init__.py
+nicecoding/password_make.py
+nicecoding.egg-info/PKG-INFO
+nicecoding.egg-info/SOURCES.txt
+nicecoding.egg-info/dependency_links.txt
+nicecoding.egg-info/top_level.txt
