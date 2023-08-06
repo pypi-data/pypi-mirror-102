@@ -1,0 +1,14 @@
+openresearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openresearch/event.py,sha256=Tav34Ybb7oqTnDMiaxebNM20WhVglfUO-EUD6-AAKAA,14322
+ormigrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ormigrate/dictionary.py,sha256=VU-l5pSrPsYVZdSS1TXAdcuvSMV3aOEN3-8vHYJeYOo,1559
+ormigrate/fixer.py,sha256=FSyk7zy0ociaKoJCLT3S3oFr83XO84DK6skQ5g3-rjQ,4488
+ormigrate/issue119.py,sha256=gZ70M8I_Ddk4F7TqzbKPUgexUMhMQlwTVAb_hj1Dz8w,2188
+ormigrate/issue152.py,sha256=LC4lI3Qw02HhfqmAtG_y71AW_sPMLivNjjlMIRrshhc,1496
+ormigrate/issue163.py,sha256=i1G3m2PfuX4svUqbaEuxss3dYMr7b5UkvwSW48QPj98,1575
+ormigrate/issue71.py,sha256=V335RS_43NY0-wTWVBS_lhxEBD-HDcAxCU3n2qqL72M,1686
+ormigrate/toolbox.py,sha256=EcMax6zaeKNirOCSWdOIhZi9kWvCrkQ_LCRKXwTNezo,3227
+OpenResearchMigration-0.0.11.dist-info/METADATA,sha256=UiflDUoWjuPnVLG9kF80ZU7vBo4eMkV5j6HfvZP2QbU,3656
+OpenResearchMigration-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+OpenResearchMigration-0.0.11.dist-info/top_level.txt,sha256=HqS2OHRuXXXdCxoOXxF2X7Cbev4lQP_GZG6TxX09PC0,23
+OpenResearchMigration-0.0.11.dist-info/RECORD,,
