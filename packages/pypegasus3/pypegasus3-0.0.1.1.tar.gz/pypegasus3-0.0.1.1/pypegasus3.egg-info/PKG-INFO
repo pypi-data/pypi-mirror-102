@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pypegasus3
+Version: 0.0.1.1
+Summary: python3 client for apache/incubator-pegasus
+Home-page: https://github.com/XiaoMi/pegasus-python-client
+Author: Lai Yingchun
+Author-email: laiyingchun@xiaomi.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
