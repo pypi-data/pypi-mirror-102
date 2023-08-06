@@ -1,0 +1,8 @@
+setup.py
+helplucasoke/__init__.py
+helplucasoke/hello.py
+slootexhelp.egg-info/PKG-INFO
+slootexhelp.egg-info/SOURCES.txt
+slootexhelp.egg-info/dependency_links.txt
+slootexhelp.egg-info/requires.txt
+slootexhelp.egg-info/top_level.txt
