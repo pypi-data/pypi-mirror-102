@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pye3sm
+Version: 0.1.0
+Summary: Python for E3SM.
+Home-page: https://github.com/changliao1025/pye3sm
+Author: Chang Liao
+Author-email: chang.liao@pnnl.gov
+License: custom
+Keywords: Earth Science
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pyearth
+
+
+# PyE3SM
+
+PyE3SM is a Python library to assist E3SM model simulation.
+Currently, it only supports the land and river components.
+
+
+# Acknowledgement
+This research was supported as part of the Next Generation Ecosystem Experiments-Tropics, funded by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research at Pacific Northwest National Laboratory. The study was also partly supported by U.S. Department of Energy Office of Science Biological and Environmental Research through the Earth and Environmental System Modeling program as part of the Energy Exascale Earth System Model (E3SM) project. 
+
+# Install
+1. pip install pye3sm
+
+
+# Contact
+Please contact Chang Liao (chang.liao@pnnl.gov) if you have any questions.
+
+
+
+
