@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+h5py
+ase
+pint
+future-fstrings
+libpyvinyl
+extra-geom>=1.1
