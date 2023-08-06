@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: koronavirus
+Version: 0.0.2
+Summary: Koronavirüs (Covid-19) verilerine erişmenizi sağlayan bir Python modülü.
+Home-page: https://github.com/Dorukyum/koronavirus
+Author: Dorukyum
+Author-email: dorukyum@gmail.com
+License: MIT
+Description: # koronavirus
+        [![Ä°ndirme SayÄ±sÄ±](https://static.pepy.tech/personalized-badge/koronavirus?period=total&units=international_system&left_color=green&right_color=orange&left_text=%C4%B0ndirme%20Say%C4%B1s%C4%B1)](https://pepy.tech/project/koronavirus)
+        
+        KoronavirÃ¼s (Covid-19) verilerine eriÅŸmenizi saÄŸlayan bir Python modÃ¼lÃ¼.<br>
+        Verilerin kaynaÄŸÄ±: [NovelCOVID API](https://disease.sh/)
+        
+        PyPI: https://pypi.org/project/koronavirus/ <br>
+        GitHub: https://github.com/Dorukyum/koronavirus/
+        
+        ## Kurulum
+        **Ä°ndirmek iÃ§in:** ```pip install koronavirus```
+        ## Ã–rnek KullanÄ±m
+        ```python
+        # modÃ¼lÃ¼ iÃ§eri aktar
+        from koronavirus import *
+        
+        # TÃ¼rkiye'nin koronavirÃ¼s verilerini al
+        veriler =  korona("Turkey") # veya korona()
+        print(veriler)
+        
+        # async hÃ¢li
+        veriler = await async_korona("Turkey") # veya async_korona()
+        print(veriler)
+        ```
+        
+Keywords: API,Türkçe,Covid,Korona,Corona
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
