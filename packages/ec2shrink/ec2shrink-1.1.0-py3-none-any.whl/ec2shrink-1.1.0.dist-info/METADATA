@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ec2shrink
+Version: 1.1.0
+Summary: An easier way to reduce the storage size for EC2.
+Home-page: https://github.com/lucastliu/ec2shrink
+Author: Lucas Liu
+Author-email: lucas.liu.0000@gmail.com
+License: GPLv3
+Keywords: amazon,aws,ec2,storage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/plain
+Requires-Dist: awscli
+Requires-Dist: click
+Requires-Dist: ec2instanceconnectcli
+Requires-Dist: pexpect
+
+CLI tool intended to make shrinking EC2 EBS Storage easier
+
+
