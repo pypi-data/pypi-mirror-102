@@ -1,0 +1,132 @@
+[![pipeline status](https://gitlab.com/micro-entreprise/docker-volume-dump/badges/main/pipeline.svg)](https://gitlab.com/micro-entreprise/docker-volume-dump/)
+[![coverage report](https://gitlab.com/micro-entreprise/docker-volume-dump/badges/main/coverage.svg)](https://gitlab.com/micro-entreprise/docker-volume-dump/)
+[![Version status](https://img.shields.io/pypi/v/docker-volume-dump.svg)](https://pypi.python.org/pypi/docker-volume-dump/)
+
+
+# Docker volume dump
+
+A tool to help archive data from container running in a docker container.
+
+* Database backup support for Postgresql, Mysql/Mariadb: it create a backup in the container through docker API, then retrieves data to save
+it in a proper place.
+* `rsync` volume data: it introspect container and rsync all declared `local volume` and `bind` mount points.
+
+> **note**: at the moment it's not possible to backup a database and rsync those volumes.
+
+
+## Usage
+
+### Using docker
+
+```bash
+docker run registry.gitlab.com/micro-entreprise/docker-volume-dump archive --help
+```
+
+For instance if you want to create dumps from different postgresql container in a docker swarm environment this would looks likes:
+
+```
+docker service create \
+          -d \
+          --mode global \
+          --name pgsql-dumps \
+          --restart-condition none \
+          --mount type=bind,src=/path-to-dump-storage/,dst=/backups \
+          --mount type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
+          --mount type=bind,src=/path-to-config-directory/,dst=/etc/archiver \
+          --network sentry_internal \
+          --with-registry-auth registry.gitlab.com/micro-entreprise/docker-volume-dump \
+          archive -f /etc/archiver/logging.json -r -s '{"label": ["docker-volume-dump.project='$PROJECT'","docker-volume-dump.environment='$ENVIRONMENT'"]}'
+```
+
+This script require access to the docker daemon to query docker labels.
+It must be launched on each host using `--mode global`.
+
+### Using python
+
+```bash
+pip install docker-volume-dump
+archive --help
+```
+
+## Configuration
+
+The main idea is to tell the container how to manage its backups using docker
+labels, you can set following labels.
+
+> You can use a custom prefix if you like so using `ARCHIVER_LABEL_PREFIX`
+> env variable. For instance if you set `ARCHIVER_LABEL_PREFIX=archiver` it
+> would expect labels likes `archiver.isactive` instead of the default
+> `docker-volume-dump.isactive`.
+
+- **docker-volume-dump.driver**: Optional (`pgsql` by default) kind of data to
+  dump (could be one of `pgsql`, `mysql`, `rsync`). Only one value supported by
+  container.
+
+  > **Note**: `mysql` driver is working for mariadb as well
+
+- **docker-volume-dump.isactive**: Takes no value. Used by the default selector
+  to determine if the Archiver backups are enabled on the container.
+
+- **docker-volume-dump.project**: A project name (the container name if not set)
+
+- **docker-volume-dump.environment**: An environment (staging, production, ...)
+
+- **docker-volume-dump.prefix**: A prefix for the dump file
+
+
+
+
+### Database labels (`pgsql`/`mysql`)
+
+- **docker-volume-dump.dbname**: Required, the database name to dump.
+- **docker-volume-dump.username**: DB role used to dump the database.
+  Required with `mysql`, fallback to `postgres` if not set for `pgsql`.
+- **docker-volume-dump.password**: DB password used to dump the db.
+  Required with `mysql`, not use with `pgsql` driver
+
+This will generate a file in a tree likes
+
+`<project>/[<environment>/]<prefix><dbname><date>`
+
+
+### `rsync` labels
+
+> **note**: I've chosen to *rsync* data first because *tar/gzip*
+> *rdiff-backup* failed to compress data if other programs write content
+> at the same time. My flow is something like *data* -> *rsync* ->
+> *rdiff-backup* -> *tar/gzip* -> s3
+
+- **docker-volume-dump.rsync-params**: params to add to rsync command
+  predifined (hardcoded) params are `rsync -avhP --delete`
+- **docker-volume-dump.ro-volumes**: If set to one of those values
+  `["yes", "true", "t", "1"]` (not case sensitive) rsync read-only
+   volumes as well for the given container.
+
+This will generate a director per declared volume/bind
+
+`<project>/[<environment>/][<prefix>]<computed folder name>`
+
+Computed folder name is based on the path inside the container where
+slash (`/`) are replaced per dash (`-`). ie:
+
+- Project: test
+- Environment: dev
+- prefix: `rsynced_`
+- volume declare as `-v /some/path/on/host/machine:/path/to/data`
+- volume declare as `-v named-volume:/other/data`
+
+> **note**: if archiver is running inside a container where host
+> filesystem is mounted in `/hostfs` mind to use `--host-fs /hostfs`
+> option.
+
+Would produce:
+
+* /backups/test/dev/rsynced_path-to-data
+* /backups/test/dev/rsynced_other-data
+
+## Roadmap
+
+- [ ] pgsql/mysql: support multiple base per DBMS
+- [ ] pgsql/mysql: if dbname is not provide retreive db list to detect the DB to dump
+- [ ] wondering if the way use to query docker labels is compliant with k8s
+- [ ] In swarm investigate to launch only once container (not on each hosts)
