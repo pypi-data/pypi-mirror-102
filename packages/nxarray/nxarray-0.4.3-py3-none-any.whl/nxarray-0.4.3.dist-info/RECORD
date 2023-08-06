@@ -1,0 +1,9 @@
+nxarray/__init__.py,sha256=beQrO0Tdpv6516s-9qGPIOkQJhXz_KA31RM83qeYcTo,76
+nxarray/_accessors.py,sha256=gt0dJISztL3Sjjt2WixpvKf0VEwxFcK6zgp9vHjAWWU,4430
+nxarray/_core.py,sha256=sI3teuyfHK86Ec1bdZT66clM3cEHsIXMmUJTrXzoHn4,8233
+nxarray/_version.py,sha256=JOidg_JLDqHdPSSLMS4D5gOam06Kt8hxNtCGD7bv5bI,172
+nxarray-0.4.3.dist-info/LICENSE,sha256=OliBdVhZ_FhS_tHlOrCzKiK10sb87UEGQJr9LsljAUs,1059
+nxarray-0.4.3.dist-info/METADATA,sha256=IPYpIItfLIU-st-9Q-0jSLy54_fV9GpETz1g9eGhGlY,818
+nxarray-0.4.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nxarray-0.4.3.dist-info/top_level.txt,sha256=BYgZ0mPdOjIaxeqQyWJI31FFcD0BiS3O3BCjM5QhsG8,8
+nxarray-0.4.3.dist-info/RECORD,,
