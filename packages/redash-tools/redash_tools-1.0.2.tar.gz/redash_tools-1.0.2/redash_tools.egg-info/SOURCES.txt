@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+redash_tools/__init__.py
+redash_tools.egg-info/PKG-INFO
+redash_tools.egg-info/SOURCES.txt
+redash_tools.egg-info/dependency_links.txt
+redash_tools.egg-info/requires.txt
+redash_tools.egg-info/top_level.txt
+redash_tools/core/__init__.py
+redash_tools/core/entities.py
+redash_tools/core/session.py
