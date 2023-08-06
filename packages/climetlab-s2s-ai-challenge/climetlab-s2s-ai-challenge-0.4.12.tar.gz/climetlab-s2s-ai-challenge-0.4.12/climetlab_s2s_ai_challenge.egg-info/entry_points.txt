@@ -1,0 +1,4 @@
+[climetlab.datasets]
+s2s-ai-challenge-forecast-input = climetlab_s2s_ai_challenge.forecast_input
+s2s-ai-challenge-training-input = climetlab_s2s_ai_challenge.training_input
+
