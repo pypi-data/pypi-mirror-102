@@ -1,0 +1,30 @@
+listeners:
+  default:
+    type: tcp
+    bind: 0.0.0.0:1883
+sys_interval: 20
+
+auth:
+  allow-anonymous: true
+
+plugins:
+  - auth_file
+  - auth_anonymous
+  - amqtt_db
+
+topic-check:
+  enabled: False
+
+amqtt_db:
+  db_connection : 'sqlite:///test_topic.sqlite'
+  db_structure : amqtt_db.structure.structure:WideStructure
+
+  payload :
+    tinkershop/trh :
+      amqtt_db.payload.json_decoder.JSONDecoder :
+        amqtt_db.payload.flat_deserializer.FlatDeserializer :
+          temp : float
+          rh : float
+          press : float
+          gas : float
+          'current time' : datetime.datetime.utcfromtimestamp

@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "amqtt_db"
+version = "0.1.2"
+description = ""
+authors = ["volker <volker.jaenisch@inqbus.de>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/volkerjaenisch/amqtt_db"
+repository = "https://github.com/volkerjaenisch/amqtt_db"
+keywords = ["amqtt", "MQTT", "Persistence", "SQLAlchemy", "Database"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+amqtt = "^0.10.0-alpha.3"
+SQLAlchemy = "^1.4.1"
+aiounittest = "^1.4.0"
+psycopg2 = "^2.8.6"
+PyYAML = "^5.4.1"
+sqlalchemy-migrate = "^0.13.0"
+Sphinx = "^3.5.3"
+sphinx-rtd-theme = "^0.5.2"
+coverage = "^5.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.plugins."amqtt.broker.plugins"]
+amqtt_db = "amqtt_db.plugin:DBPlugin"
