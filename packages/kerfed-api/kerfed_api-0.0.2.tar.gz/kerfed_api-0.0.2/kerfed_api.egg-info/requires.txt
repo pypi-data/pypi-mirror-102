@@ -1,0 +1,7 @@
+requests
+
+[all]
+trimesh[easy]
+pandas
+openpyxl
+webcolors
