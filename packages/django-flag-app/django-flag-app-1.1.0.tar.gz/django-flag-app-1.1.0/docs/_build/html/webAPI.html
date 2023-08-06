@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Web API &mdash; Django Flag App 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Settings" href="settings.html" />
+    <link rel="prev" title="django-flag-app" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Django Flag App
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">django-flag-app</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Web API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#api-actions">API Actions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#flag-content">Flag content</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#un-flag-content">Un-Flag Content</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="style-customisation.html">Style Customization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Django Flag App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Django Flag App</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Web API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/webAPI.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="web-api">
+<h1>Web API<a class="headerlink" href="#web-api" title="Permalink to this headline">¶</a></h1>
+<p>django-flag-app uses <a class="reference external" href="https://www.django-rest-framework.org/">django-rest-framework</a> to expose a Web API that provides developers with access to the same functionality offered through the web user interface.</p>
+<p>The available actions with permitted user are as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Flag content. (authenticated users)</p></li>
+<li><p>Unflag content. (user who has previously flagged that content)</p></li>
+</ul>
+</div></blockquote>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p>To integrate the flag API into your app, just follow the instructions as mentioned <a class="reference internal" href="introduction.html#usage"><span class="std std-ref">Usage</span></a>.</p>
+</div>
+<div class="section" id="api-actions">
+<h2>API Actions<a class="headerlink" href="#api-actions" title="Permalink to this headline">¶</a></h2>
+<p>All actions can only be performed by authenticated users. Authorization must be provided as a TOKEN or USERNAME:PASSWORD.
+<code class="docutils literal notranslate"><span class="pre">POST</span></code> is the allowed method for all requests.</p>
+<p>All available actions are explained below:</p>
+<div class="section" id="flag-content">
+<h3>Flag content<a class="headerlink" href="#flag-content" title="Permalink to this headline">¶</a></h3>
+<p>This action can be performed by providing the URL with data queries related to the content type.</p>
+<p>The request requires the following parameters:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">model_name</span></code>: is the model name of the content type that have flags associated with it.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">model_id</span></code>: is the id of an object of that model</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">app_name</span></code>: is the name of the app that contains the model.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">reason</span></code>: number corresponding to the reason(e.g. 1, 2, 3).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">info</span></code>: ‘’ (This is only required if the reason is <code class="docutils literal notranslate"><span class="pre">100</span></code> (<code class="docutils literal notranslate"><span class="pre">Something</span> <span class="pre">else</span></code>))</p></li>
+</ul>
+<p>For example, to flag a content of second object (id=1) of a model (content type) called <code class="docutils literal notranslate"><span class="pre">post</span></code> inside the app(django app) <code class="docutils literal notranslate"><span class="pre">post</span></code>.
+You may do the following:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ curl -X POST -u USERNAME:PASSWORD -H <span class="s2">&quot;Content-Type: application/json&quot;</span> -d <span class="s2">&quot;{&#39;app_name&#39;: &#39;post&#39;,&#39;model_name&#39;: &#39;post&#39;, &#39;model_id&#39;: 1,&#39;reason&#39;: 1,&#39;info&#39;: &#39;&#39;}&quot;</span> http://localhost:8000/api/flag/
+</pre></div>
+</div>
+</div>
+<div class="section" id="un-flag-content">
+<h3>Un-Flag Content<a class="headerlink" href="#un-flag-content" title="Permalink to this headline">¶</a></h3>
+<p>To un-flag a <strong>FLAGGED</strong> content, set reason value to <code class="docutils literal notranslate"><span class="pre">0</span></code> or remove it from the request.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ curl -X POST -u USERNAME:PASSWORD -H <span class="s2">&quot;Content-Type: application/json&quot;</span> -d <span class="s2">&quot;{&#39;app_name&#39;: &#39;post&#39;,&#39;model_name&#39;: &#39;post&#39;, &#39;model_id&#39;: 1}&quot;</span> http://localhost:8000/api/flag/
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="settings.html" class="btn btn-neutral float-right" title="Settings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="django-flag-app" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Abhyudai.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

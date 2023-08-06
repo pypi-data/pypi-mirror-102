@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Style Customization &mdash; Django Flag App 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing to Django Flag App" href="contributing.html" />
+    <link rel="prev" title="Settings" href="settings.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Django Flag App
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">django-flag-app</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webAPI.html">Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Style Customization</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overriding-templates">Overriding templates</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#blocks">Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flag-icon">Flag Icon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Django Flag App</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Django Flag App</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Style Customization</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/style-customisation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="style-customization">
+<h1>Style Customization<a class="headerlink" href="#style-customization" title="Permalink to this headline">¶</a></h1>
+<p>The flag app has been built in a way that you can customise its look and feel completely. Most of the styles can be customised through HTML classes.</p>
+<p>In case, you feel there is some customisation that can be added, feel free to open an <a class="reference external" href="https://github.com/abhiabhi94/django-flag-app/issues">issue</a>.</p>
+<p>The template structure of the flag app looks something like this:</p>
+<blockquote>
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>├── templates
+└── flag
+    ├── flag_form.html
+    └── flag_icon.html
+</pre></div>
+</div>
+</div></blockquote>
+<div class="section" id="overriding-templates">
+<h2>Overriding templates<a class="headerlink" href="#overriding-templates" title="Permalink to this headline">¶</a></h2>
+<p>To customise a template,</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Create <code class="docutils literal notranslate"><span class="pre">flag</span></code> folder inside templates directory.</p></li>
+<li><p>Inside it, create a new template file, giving it the same name as that of the default template that needs to be overridden.</p></li>
+</ul>
+</div></blockquote>
+<p>For example, to override the HTML classes of <code class="docutils literal notranslate"><span class="pre">submit</span> <span class="pre">button</span></code></p>
+<p>create <code class="docutils literal notranslate"><span class="pre">templates/flag/flag_form.html</span></code> (assuming all your templates are placed under the directory <code class="docutils literal notranslate"><span class="pre">templates</span></code>)</p>
+<blockquote>
+<div><div class="highlight-jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">extends</span> <span class="s2">&quot;flag/flag_form.html&quot;</span> <span class="cp">%}</span><span class="x"></span>
+
+<span class="cp">{%</span> <span class="k">block</span> <span class="nv">cls_flag_modal_submit</span> <span class="cp">%}</span><span class="x"></span>
+<span class="x">my-class</span>
+<span class="cp">{%</span> <span class="k">endblock</span> <span class="nv">cls_flag_modal_submit</span> <span class="cp">%}</span><span class="x"></span>
+</pre></div>
+</div>
+</div></blockquote>
+<div class="section" id="blocks">
+<h3>Blocks<a class="headerlink" href="#blocks" title="Permalink to this headline">¶</a></h3>
+<p>Please refer to this table when using blocks to customise HTML classes</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 52%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Block</p></th>
+<th class="head"><p>Use</p></th>
+<th class="head"><p>HTML element</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag</span> <span class="pre">%}</span></code></p></td>
+<td><p>complete flag element</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span>&#160; <span class="pre">block</span> <span class="pre">cls_flag_icon_img</span> <span class="pre">%}</span></code></p></td>
+<td><p>flag icon image element</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal</span> <span class="pre">%}</span></code></p></td>
+<td><p>modal that appears when flagging</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_content</span> <span class="pre">%}</span></code></p></td>
+<td><p>modal content</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_close</span> <span class="pre">%}</span></code></p></td>
+<td><p>the cross icon(close button) inside the modal</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">span</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_form_div</span> <span class="pre">%}</span></code></p></td>
+<td><p>the <code class="docutils literal notranslate"><span class="pre">div</span></code> element containing the modal form</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_form</span> <span class="pre">%}</span></code></p></td>
+<td><p>modal form element</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">form</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_title</span> <span class="pre">%}</span></code></p></td>
+<td><p>the text containing modal title</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">div</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_reasons</span> <span class="pre">%}</span></code></p></td>
+<td><p>the element that displays reasons for flagging</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">tr</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_reason</span> <span class="pre">%}</span></code></p></td>
+<td><p>individual reasons</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">input</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_info</span> <span class="pre">%}</span></code></p></td>
+<td><p>text box which appears when <code class="docutils literal notranslate"><span class="pre">Somthing</span> <span class="pre">else</span></code> is selected</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">textarea</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">{%</span> <span class="pre">block</span> <span class="pre">cls_flag_modal_submit</span> <span class="pre">%}</span></code></p></td>
+<td><p>submit button inside the modal</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">input</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="flag-icon">
+<h3>Flag Icon<a class="headerlink" href="#flag-icon" title="Permalink to this headline">¶</a></h3>
+<p>To change the flag icon, just override the template <code class="docutils literal notranslate"><span class="pre">flag_icon.html</span></code> as explained above.
+Make sure that you add the property <code class="docutils literal notranslate"><span class="pre">class=&quot;flag-icon</span> <span class="pre">{%</span> <span class="pre">if</span> <span class="pre">has_flagged</span> <span class="pre">%}user-has-flagged{%</span> <span class="pre">else</span> <span class="pre">%}user-has-not-flagged{%</span> <span class="pre">endif</span> <span class="pre">%}&quot;</span></code> to your HTML element. These classes are used by <code class="docutils literal notranslate"><span class="pre">javascript</span></code> files.</p>
+<p>For other customisation, please refer to the <a class="reference internal" href="#blocks"><span class="std std-ref">Blocks</span></a> above</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="contributing.html" class="btn btn-neutral float-right" title="Contributing to Django Flag App" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="settings.html" class="btn btn-neutral float-left" title="Settings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Abhyudai.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
