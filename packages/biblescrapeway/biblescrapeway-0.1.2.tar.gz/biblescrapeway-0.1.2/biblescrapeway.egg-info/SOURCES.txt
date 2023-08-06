@@ -1,0 +1,15 @@
+README.md
+setup.py
+biblescrapeway/__init__.py
+biblescrapeway/cleaner.py
+biblescrapeway/cli.py
+biblescrapeway/constants.py
+biblescrapeway/errors.py
+biblescrapeway/reference.py
+biblescrapeway/scraper.py
+biblescrapeway.egg-info/PKG-INFO
+biblescrapeway.egg-info/SOURCES.txt
+biblescrapeway.egg-info/dependency_links.txt
+biblescrapeway.egg-info/entry_points.txt
+biblescrapeway.egg-info/requires.txt
+biblescrapeway.egg-info/top_level.txt
