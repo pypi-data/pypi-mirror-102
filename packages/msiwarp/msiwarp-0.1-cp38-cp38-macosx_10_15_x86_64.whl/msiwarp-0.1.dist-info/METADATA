@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: msiwarp
+Version: 0.1
+Summary: Mass alignment and pre-processing tools for MSI data
+Home-page: UNKNOWN
+Author: Jonatan O. Eriksson
+Author-email: jonatan.o.eriksson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pyimzml
+
+UNKNOWN
+
+

@@ -1,0 +1,11 @@
+msiwarp/__init__.py,sha256=BdDguA4HV-CZs69vUXv3ZIU5eY39GO9cVxdBhxPZ7rc,56
+msiwarp/msiwarp.cpython-38-darwin.so,sha256=VEc6Xa9y5XZgD4qA0eBtiLdXJoPoXpo1bdU89vYcg6g,338888
+msiwarp/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msiwarp/util/parabolic_centroid.py,sha256=UgcNAM-Vh3ACY0eT_RXKoJ_c0itmIgTcFVkYwZ-ZvoU,1223
+msiwarp/util/read_sbd.py,sha256=3eb7-mTxTK_-hCARJ-QKFbZmaREbgZvHUM7fNC4j_Ng,8543
+msiwarp/util/warp.py,sha256=dYMfxMRohJA70el7ZK_K4dhdLQCrszTh3MeeKcE06bg,6376
+msiwarp-0.1.dist-info/LICENSE,sha256=tdIkmE121_-eN1E5yIPLig7R0VbglqQTfczSGTZaXG8,1069
+msiwarp-0.1.dist-info/METADATA,sha256=9YZdPVKogKDHMEVneJFvMSpDXhfhXsT0FV-ATylhNn4,338
+msiwarp-0.1.dist-info/WHEEL,sha256=NqgkTkAaRJaCuArPZklUp2tBwn6obHN9aMIfdfLfNkU,110
+msiwarp-0.1.dist-info/top_level.txt,sha256=uwU5OAH3bl6YdjvTqUSz0ZL6BYle_Dnao3AryQ8dZ4g,28
+msiwarp-0.1.dist-info/RECORD,,
