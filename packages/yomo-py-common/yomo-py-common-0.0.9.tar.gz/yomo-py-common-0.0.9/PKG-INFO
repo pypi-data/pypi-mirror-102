@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: yomo-py-common
+Version: 0.0.9
+Summary: Define some common function for easy use
+Home-page: https://github.com/luyomo/yomo-py-common
+Author: Chunhua Zhang
+Author-email: syunka.tyo@gmail.com
+License: MIT
+Download-URL: https://github.com/luyomo/yomo-py-common/archive/refs/tags/0.0.9.tar.gz
+Description: UNKNOWN
+Keywords: postgres,wechat
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
