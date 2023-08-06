@@ -1,0 +1,12 @@
+feincms3_forms/__init__.py,sha256=8as5I6y7gLhWkx4PWi_aw4W80jOwf5XNiVcf0hBUEQo,63
+feincms3_forms/admin.py,sha256=8zjTLghKjQjcyTNIBg0_4tPESrtvEraR67A71ILDvZw,4192
+feincms3_forms/models.py,sha256=SXoTqfKzYjS2RiWvkkwclCdBLVmQXNWsvE-wAS_kcPk,10120
+feincms3_forms/renderer.py,sha256=20clfNfDNFq0MoLGt9ODmFooVxk4Y6WS87ebuLpnoD8,1198
+feincms3_forms/validation.py,sha256=5XGziZ9_WJoFxIfN5JLp1wgHV_xLADgKyD9DfNGl5XY,1215
+feincms3_forms/locale/de/LC_MESSAGES/django.mo,sha256=N-ZXhrPKfFDbJv-3yuih28ae8WOBhLAjkVsYcUxhPuw,2210
+feincms3_forms/locale/de/LC_MESSAGES/django.po,sha256=0hm2Mc8IIE02GRJAeVl5ZPBeDfK5yFvfinEhiwSfSyM,3005
+feincms3_forms-0.0.11.dist-info/LICENSE,sha256=bGCh3k7OeHrIXMDCn548Khpf-FI2HcoJkxBLDxA_n4A,1548
+feincms3_forms-0.0.11.dist-info/METADATA,sha256=D9-rCQ3zNsa-8XjhzmE2ZrURMbhLjPsNjuBkMjLvcaI,1295
+feincms3_forms-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+feincms3_forms-0.0.11.dist-info/top_level.txt,sha256=aHOg5SHqfZ_1gbCiTcoTc14mEXU2sOun5xzqhl1Btbo,15
+feincms3_forms-0.0.11.dist-info/RECORD,,
