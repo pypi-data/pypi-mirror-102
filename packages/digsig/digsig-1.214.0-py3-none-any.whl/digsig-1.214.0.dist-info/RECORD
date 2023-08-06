@@ -1,0 +1,13 @@
+digsig/__init__.py,sha256=58l9uMxiIk4P5bx82xaIOouapoDY-ik_LrJGKObigyU,88
+digsig/auto.py,sha256=bSEB_AsCc1Kh5U3KzjDTqad0Na5wTAotEnv5I-AZXOo,2985
+digsig/digsig.py,sha256=5phDKZ3vZhWIM5kP3ZBZaSGb1uM9VQ9vlt-4OI5tU1c,723
+digsig/ecdsa.py,sha256=itckVme8QAPnOG6A8PrUik6YB3N0GWqI5qlpCOf5A7A,8106
+digsig/errors.py,sha256=e2u6p6bMM-jdQX3_YkBoRLAXMHd3g_Kk0an3bADse5o,143
+digsig/hashing.py,sha256=EVzvzgQ7-k_5Pz9BS_3T7ajqNwjsQcwHQnqKufd-V_k,1601
+digsig/rsa.py,sha256=xKqV483_tHW2a63rCTYrRXiwlmJa8FQ0-uZ-uqbytUk,5678
+digsig/utils.py,sha256=jtNJG-FYys_4NSJgm8HUpjd4e6Fle0EARfveXIYnDPw,583
+digsig-1.214.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+digsig-1.214.0.dist-info/METADATA,sha256=qR3i-ssVT8KPWMRYhvBs0-ti0cOsDcgbvdTYPH92_BQ,820
+digsig-1.214.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+digsig-1.214.0.dist-info/top_level.txt,sha256=-xvAK69f1aXGW1uAUtmRJyHZlUV2Vfi_AnsoA2tYWyc,7
+digsig-1.214.0.dist-info/RECORD,,
