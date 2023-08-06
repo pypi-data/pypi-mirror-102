@@ -1,0 +1,8 @@
+django_serverless_emailer/__init__.py,sha256=xzXhTmpEqQ-sI0LXm6f_SV9W8QQTvOI9zdyn8I9g9bo,66
+django_serverless_emailer/apps.py,sha256=woTPA5sDA7nQwaRniwLaEBDgtaNm93iC7bWWprC6b9I,184
+django_serverless_emailer/core.py,sha256=AhYmV4Jezpjj1ZX5AkmlKtqVGGzLR8pYsMZC3ZEPizk,1349
+django_serverless_emailer/sources.py,sha256=IRUMsqmWGL_HZRmCv9vpslI3dnwBstC_DCfgGJMYNl0,31
+django_serverless_emailer/templates/django_serverless_emailer/step-function.html,sha256=szQ11_L39AV4PNGMSEkFMfjU9xSrklRrLYncl6_VqzI,367
+django_serverless_emailer-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_serverless_emailer-0.3.0.dist-info/METADATA,sha256=A34SCVSuVTK4_NyypJwZmPu9Z4eQlM0_THU7XO1mzMY,1700
+django_serverless_emailer-0.3.0.dist-info/RECORD,,
