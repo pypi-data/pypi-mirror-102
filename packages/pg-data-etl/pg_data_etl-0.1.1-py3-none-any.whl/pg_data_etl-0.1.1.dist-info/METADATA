@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pg-data-etl
+Version: 0.1.1
+Summary: ETL tools for postgres data, built on top of the psql and pg_dump command line tools
+Home-page: https://github.com/aaronfraint/pg-data-etl
+License: GNU v3
+Author: Aaron Fraint
+Author-email: 38364429+aaronfraint@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GeoAlchemy2 (>=0.8.5,<0.9.0)
+Requires-Dist: geopandas (>=0.9.0,<0.10.0)
+Requires-Dist: psycopg2 (>=2.8.6,<3.0.0)
+Requires-Dist: python-dotenv (>=0.17.0,<0.18.0)
+Project-URL: Repository, https://github.com/aaronfraint/pg-data-etl
+Description-Content-Type: text/markdown
+
+# pg-data-etl
+
+ETL tools for postgres data, built on top of the `psql` and `pg_dump` command line tools.
+
+## Python environment
+
+Use `conda` to create a virtual environment:
+
+```bash
+cd ~./Documents/GitHub/pg-data-etl
+conda env create -f env.yml
+```
+
