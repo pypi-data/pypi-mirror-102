@@ -1,0 +1,10 @@
+aws_cdk/aws_auditmanager/__init__.py,sha256=bX4FW5xydUJXY8RI27ZDYSQ5SjHPS2ADN8LUC_gFHks,42657
+aws_cdk/aws_auditmanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_auditmanager/_jsii/__init__.py,sha256=kYBYFqYNIBy9s2QWMTDAMOiySj6qFCZ4WzrVkjruD3Y,370
+aws_cdk/aws_auditmanager/_jsii/aws-auditmanager@1.99.0.jsii.tgz,sha256=bn50T3DvXWxDd1z9S0fTl_lVuWee36A0ndTLEeh2U78,26053
+aws_cdk.aws_auditmanager-1.99.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_auditmanager-1.99.0.dist-info/METADATA,sha256=9H80Dueb-fo6Amp4lJXSN_KcawdSDkzvsgfrTjkyA4A,1678
+aws_cdk.aws_auditmanager-1.99.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_auditmanager-1.99.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.aws_auditmanager-1.99.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_auditmanager-1.99.0.dist-info/RECORD,,
