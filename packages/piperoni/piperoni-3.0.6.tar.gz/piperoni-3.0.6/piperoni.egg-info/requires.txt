@@ -1,0 +1,4 @@
+pyyaml<6,>=5.4
+pandas<2,>=1.2
+xlrd==1.2.0
+dagre-py==0.1.6
