@@ -1,0 +1,9 @@
+README.rst
+setup.py
+osticket/__init__.py
+osticket/api_client.py
+osticket.egg-info/PKG-INFO
+osticket.egg-info/SOURCES.txt
+osticket.egg-info/dependency_links.txt
+osticket.egg-info/requires.txt
+osticket.egg-info/top_level.txt
