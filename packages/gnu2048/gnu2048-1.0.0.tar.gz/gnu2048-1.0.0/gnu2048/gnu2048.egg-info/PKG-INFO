@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gnu2048
+Version: 1.0.0
+Summary: this is an open source 2048 game
+Home-page: https://github.com/EmadDeve20/gnu2048
+Author: EmadDeve20
+Author-email: emaddeve20@gmail.com
+License: GPLv3+
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: # 2048_player
+        
+        i creating this is game for is in honor of *Richard Stallman*
+        
+        first You Need readchar lib
+        
+        ```
+        pip3 install readchar
+        ```
+        
+        how runn
+        ========
+        
+        Running this on your terminal system is a command:
+        
+        ```
+        python gnu2048.py
+        ```
+        
+        if you see a bug please reporting :D
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

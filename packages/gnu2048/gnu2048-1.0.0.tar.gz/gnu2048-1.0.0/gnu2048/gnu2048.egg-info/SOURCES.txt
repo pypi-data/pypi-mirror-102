@@ -1,0 +1,6 @@
+README.md
+setup.py
+gnu2048/gnu2048.egg-info/PKG-INFO
+gnu2048/gnu2048.egg-info/SOURCES.txt
+gnu2048/gnu2048.egg-info/dependency_links.txt
+gnu2048/gnu2048.egg-info/top_level.txt
