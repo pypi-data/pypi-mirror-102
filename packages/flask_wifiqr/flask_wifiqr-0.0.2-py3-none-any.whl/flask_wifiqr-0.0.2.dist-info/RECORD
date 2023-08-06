@@ -1,0 +1,7 @@
+flask_wifiqr/__init__.py,sha256=QxZB57RgagNfQet4qB94uC-hQ7FI8pss-FqMxqKmL2M,123
+flask_wifiqr/__main__.py,sha256=y2a8PBdhfxe-wpMp0s_dkgctdHOJ4qFf8yFphzxtVZ8,782
+flask_wifiqr/templates/index.html,sha256=FgPo_UhOlBujVxi3fvZkDhU6OCQHqS4hXgQCdcqfD5Y,165
+flask_wifiqr-0.0.2.dist-info/LICENSE,sha256=3IZyrrPE05j5K_1WD1VQJ1WxkMRIYS1W_SKcdLbtxFA,1066
+flask_wifiqr-0.0.2.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+flask_wifiqr-0.0.2.dist-info/METADATA,sha256=G2MKKsEX6aY4XW2htwsWd6F9sWfZwPG1-qHhVZnPSbE,939
+flask_wifiqr-0.0.2.dist-info/RECORD,,
