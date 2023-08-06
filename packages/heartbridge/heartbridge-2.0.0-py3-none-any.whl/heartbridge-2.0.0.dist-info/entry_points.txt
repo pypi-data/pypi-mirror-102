@@ -1,0 +1,3 @@
+[console_scripts]
+heartbridge = heartbridge.app:cli
+
