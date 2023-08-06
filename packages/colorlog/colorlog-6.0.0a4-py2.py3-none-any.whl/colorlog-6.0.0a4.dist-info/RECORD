@@ -1,0 +1,9 @@
+colorlog/__init__.py,sha256=k9sqkb0zs4ywfstOQV1LTp4uy9LZ9qRESkBda3uMq3w,1057
+colorlog/colorlog.py,sha256=xe7BZZLsYJtnCaItLk6nv85ay6rFd2h_mL6V4Bmn1Aw,7287
+colorlog/escape_codes.py,sha256=jFxDvDyWHk5gX5tHpFIMF5om52dI_jCqyTBmeMtnpxQ,2437
+colorlog/logging.py,sha256=CVBBu7EiCcv_IDhK6kOa0EDNZGmmuW4bnpulbJZucf4,1876
+colorlog-6.0.0a4.dist-info/LICENSE,sha256=sdkIK8SDYj_Vn8cnm0V_DkDZQqdkJs3iVyOeBN_kElo,1107
+colorlog-6.0.0a4.dist-info/METADATA,sha256=Ol2sBbPtoFY8d9wWScLp6bCXTppz2T4UTODPl_kxDz4,10497
+colorlog-6.0.0a4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+colorlog-6.0.0a4.dist-info/top_level.txt,sha256=CzNs7OLwLxUhbQzCCT2ore3b_ZzAXusw0tWIX79iWow,9
+colorlog-6.0.0a4.dist-info/RECORD,,
