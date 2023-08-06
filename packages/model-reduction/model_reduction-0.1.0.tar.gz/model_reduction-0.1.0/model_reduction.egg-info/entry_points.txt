@@ -1,0 +1,3 @@
+[console_scripts]
+model_reduction = model_reduction.cli:main
+
