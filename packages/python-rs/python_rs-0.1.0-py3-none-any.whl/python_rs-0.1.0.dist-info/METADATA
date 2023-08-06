@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-rs
+Version: 0.1.0
+Summary: Python to Rust transpiler.
+Home-page: http://github.com/konchunas/pyrs
+Author: Julian Konchunas
+Author-email: konchunas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0.0
+
+
+Python to Rust transpiler
+
+This project started as Python to Rust syntax converter. It is not
+aimed at producing ready-to-compile code, but some basic stuff can be
+compiled easily.
+
+It generates unidiomatic non-optimized code with unnecessary
+allocations, but can reduce amount of edits you have to do when
+porting Python projects.
+
+Only basic subset of Python is supported right now and the end goal is
+to support common cases at least as a placeholders.
+
+The project is in experimental, so it may crash or silently skip some
+statements, so be careful.
+
+Based on Lukas Martinelli Py14
+(https://github.com/lukasmartinelli/py14) and Py14/python-3
+(https://github.com/ProgVal/py14/tree/python-3) branch by Valentin
+Lorentz.
+
+
