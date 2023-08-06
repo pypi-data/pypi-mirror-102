@@ -1,0 +1,11 @@
+README.md
+setup.py
+zephyr_uploader/__init__.py
+zephyr_uploader/__main__.py
+zephyr_uploader/zephyr_service.py
+zephyr_uploader/zephyr_uploader.py
+zephyr_uploader.egg-info/PKG-INFO
+zephyr_uploader.egg-info/SOURCES.txt
+zephyr_uploader.egg-info/dependency_links.txt
+zephyr_uploader.egg-info/requires.txt
+zephyr_uploader.egg-info/top_level.txt
