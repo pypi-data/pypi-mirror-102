@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+opensslpy/__init__.py
+opensslpy/asym.py
+opensslpy/sym.py
+opensslpy.egg-info/PKG-INFO
+opensslpy.egg-info/SOURCES.txt
+opensslpy.egg-info/dependency_links.txt
+opensslpy.egg-info/top_level.txt
