@@ -1,0 +1,6 @@
+jinja2
+pandas
+requests
+requests_cache
+pyyaml
+squad-client>=0.14
