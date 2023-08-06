@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/ganondorf/__init__.py
+src/ganpy.egg-info/PKG-INFO
+src/ganpy.egg-info/SOURCES.txt
+src/ganpy.egg-info/dependency_links.txt
+src/ganpy.egg-info/requires.txt
+src/ganpy.egg-info/top_level.txt

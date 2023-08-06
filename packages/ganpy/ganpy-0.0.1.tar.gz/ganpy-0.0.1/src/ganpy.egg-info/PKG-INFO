@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: ganpy
+Version: 0.0.1
+Summary: A Gan Medical Image Segmentation Federated Learning Framework
+Home-page: UNKNOWN
+Author: James Calo
+Author-email: jamesafcalo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: !=3.9.*,>=3.8
