@@ -1,0 +1,5 @@
+query speechToText($input: String!) {
+  result: callSpeechToText(input: $input) {
+    transcript: result
+  }
+}
