@@ -1,0 +1,11 @@
+{% extends ctx.module + "/base.j2" %}
+{% set title = "Logging" %}
+
+{% block body -%}
+<div class="container">
+  <ul>
+    {%- for module, level in loggers %}
+    <li>{{ module }}: {{ level }}</li>
+    {%- endfor %}
+</div>
+{%- endblock %}
