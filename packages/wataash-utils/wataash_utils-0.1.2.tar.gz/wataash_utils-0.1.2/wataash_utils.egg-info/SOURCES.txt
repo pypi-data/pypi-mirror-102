@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wataash_utils/__init__.py
+wataash_utils/logger.py
+wataash_utils/pycharm.py
+wataash_utils/str.py
+wataash_utils.egg-info/PKG-INFO
+wataash_utils.egg-info/SOURCES.txt
+wataash_utils.egg-info/dependency_links.txt
+wataash_utils.egg-info/requires.txt
+wataash_utils.egg-info/top_level.txt
