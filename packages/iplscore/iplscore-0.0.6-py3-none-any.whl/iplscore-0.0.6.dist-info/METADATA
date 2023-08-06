@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: iplscore
+Version: 0.0.6
+Summary: It Displays Cricket Score
+Home-page: UNKNOWN
+Author: Chiranjeev Mishra(chirrumishra)
+Author-email: chirrumishra@gmail.com
+License: UNKNOWN
+Keywords: python,cricket,ipl,iplscore
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests
+
+# IPLSCORE
+
+This is a library which is made for fun and getting ipl score while working 
+
+Developed by Chiranjeev Mishra
+
+## Example of How to use it 
+
+```python
+import iplscore
+//create an object of class score and here you go 
+a = iplscore.score()
+```
+
+Open for pull requests
+checkout : https://github.com/chirrumishra/iplscore
+
+
+
+
