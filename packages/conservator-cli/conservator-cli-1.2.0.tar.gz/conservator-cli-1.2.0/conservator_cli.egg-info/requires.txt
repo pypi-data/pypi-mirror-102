@@ -1,0 +1,9 @@
+sgqlc
+click>=7
+tqdm
+requests
+Pillow
+jsonschema
+
+[:python_version < "3.7"]
+dataclasses
