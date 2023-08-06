@@ -1,0 +1,11 @@
+learnosity_sdk>=0.3
+click>=7
+pygments>=2
+
+[dev]
+setuptools
+twine
+wheel
+
+[test]
+pytest<6.0,>=4.6.6
