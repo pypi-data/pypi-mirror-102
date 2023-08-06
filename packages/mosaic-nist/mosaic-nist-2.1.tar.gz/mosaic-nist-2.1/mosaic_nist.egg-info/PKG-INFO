@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: mosaic-nist
+Version: 2.1
+Summary: A Modular Single-Molecule Analysis Interface.
+Home-page: https://pages.nist.gov/mosaic/
+Author: National Institute of Standards and Technologh (NIST)
+Author-email: arvind.balijepalli@nist.gov
+Maintainer: Arvind Balijepalli
+Maintainer-email: arvind.balijepalli@nist.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: MacOS
+Platform: Windows
+Platform: Linux

@@ -1,0 +1,30 @@
+{
+    "adept2State": {
+        "FitIters": "50000",
+        "FitTol": "1.e-7",
+        "LinkRCConst": "0"
+    },
+    "eventSegment": {
+        "blockSizeSec": 0.5,
+        "driftThreshold": -1,
+        "eventPad": 50,
+        "eventThreshold": 4.000441696113075,
+        "maxDriftRate": -1,
+        "meanOpenCurr": 136.251,
+        "minEventLength": 5,
+        "parallelProc": 0,
+        "reserveNCPU": 3,
+        "sdOpenCurr": 6.792,
+        "slopeOpenCurr": -1,
+        "writeEventTS": 1,
+        "trackBaseline": 0
+    },
+    "qdfTrajIO": {
+        "Cfb": 1.07e-12,
+        "Rfb": 9100000000,
+        "dcOffset": 0,
+        "end": -1,
+        "filter": "*.qdf",
+        "start": 0
+    }
+}
