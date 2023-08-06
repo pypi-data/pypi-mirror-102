@@ -1,0 +1,14 @@
+aiotrino/__init__.py,sha256=BCqymG6n4669pBprEHD3SlFEY4FV9Lo9q9vkOMsNyjA,634
+aiotrino/auth.py,sha256=byC5BuELvrt8QKm5S_qDKRjgVs9CX6z-TCm9A1wuNho,4068
+aiotrino/client.py,sha256=LmGhWlpYA4d2jFPTkud4N1MPX0a_knI0d_XVsONJOpc,21715
+aiotrino/constants.py,sha256=jeR_yiE59wZkwhrGHAA7FfuHHBPiw2c0ogCqVL04n6w,2089
+aiotrino/dbapi.py,sha256=JrLh71AUF_TqZpqqo7kgegucT_r2fCiZ_GUNIFGN9w0,17431
+aiotrino/exceptions.py,sha256=wrVxQsSbcXCZDUklG1zPh6WwprYKSKyyHnny_BvDcOk,5198
+aiotrino/logging.py,sha256=SURBHgjtl662ViSSipad25QLmBr0IQO22bN3b7d3ePo,765
+aiotrino/transaction.py,sha256=sfwGlCascbz3f3sAUh5a32pjmfdSpddwizy5J8BBI4Y,3580
+aiotrino/utils.py,sha256=CMfxHtQ21W2ix-g6kj5xeeC6aNmWnKZJKH-b-uvNnyo,431
+aiotrino-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aiotrino-0.1.0.dist-info/METADATA,sha256=D-TrsdkgaMEuSz5jLg407EJkFxTnBUT8T-78pHlYuOg,7587
+aiotrino-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aiotrino-0.1.0.dist-info/top_level.txt,sha256=3IDhvKMHMD697oxg_Gw_VAJ5W1aIT7_skxZWyFUfbu0,9
+aiotrino-0.1.0.dist-info/RECORD,,
