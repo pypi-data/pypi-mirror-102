@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pmtw
+Version: 0.1.1
+Summary: Python Moderator Toolbox Wrapper for reddit
+Home-page: https://github.com/adhesivecheese/pmtw
+Author: AdhesiveCheese
+Author-email: adhesiveCheese@gmail.com
+License: GPL-3
+Download-URL: https://github.com/adhesivecheese/pmtw/archive/refs/tags/V0_1.tar.gz
+Description: UNKNOWN
+Keywords: Reddit,Moderator_Toolbox,Web Wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.6
