@@ -1,0 +1,23 @@
+[bob.cli]
+pad = bob.pad.base.script.pad:pad
+
+[bob.pad.cli]
+cross = bob.pad.base.script.cross:cross
+det = bob.pad.base.script.pad_commands:det
+epc = bob.pad.base.script.pad_commands:epc
+evaluate = bob.pad.base.script.pad_commands:evaluate
+finalize-scores = bob.pad.base.script.finalize_scores:finalize_scores
+gen = bob.pad.base.script.pad_commands:gen
+hist = bob.pad.base.script.pad_commands:hist
+metrics = bob.pad.base.script.pad_commands:metrics
+multi-metrics = bob.pad.base.script.pad_commands:multi_metrics
+roc = bob.pad.base.script.pad_commands:roc
+vanilla-pad = bob.pad.base.script.vanilla_pad:vanilla_pad
+
+[bob.pad.database]
+dummy = bob.pad.base.test.dummy.database:database
+dummysql = bob.pad.base.test.dummy.database_sql:database
+
+[console_scripts]
+spoof.py = bob.pad.base.script.spoof:main
+
