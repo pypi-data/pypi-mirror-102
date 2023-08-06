@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "inputs": [
+        {
+            "id": "NAME",
+            "type": "promptString",
+            "description": "What's your name?",
+            "default": "world"
+        }
+    ],
+    "configurations": [
+        {
+            "name": "FastAPI app",
+            "type": "python",
+            "request": "launch",
+            "program": "app",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--debug",
+                "start",
+                "--reload"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "CLI (hello)",
+            "type": "python",
+            "request": "launch",
+            "program": "${PROJECT_NAME}",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--debug",
+                "hello",
+                "${input:NAME}"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug Tests",
+            "type": "python",
+            "request": "test",
+            "console": "internalConsole",
+            "env": {
+                "PYTEST_ADDOPTS": "--no-cov -n0 --capture=no"
+            }
+        }
+    ]
+}
