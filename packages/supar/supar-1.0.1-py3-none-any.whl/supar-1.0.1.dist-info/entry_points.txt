@@ -1,0 +1,9 @@
+[console_scripts]
+biaffine-dependency = supar.cmds.biaffine_dependency:main
+biaffine-semantic-dependency = supar.cmds.biaffine_semantic_dependency:main
+crf-constituency = supar.cmds.crf_constituency:main
+crf-dependency = supar.cmds.crf_dependency:main
+crf2o-dependency = supar.cmds.crf2o_dependency:main
+crfnp-dependency = supar.cmds.crfnp_dependency:main
+vi-semantic-dependency = supar.cmds.vi_semantic_dependency:main
+
