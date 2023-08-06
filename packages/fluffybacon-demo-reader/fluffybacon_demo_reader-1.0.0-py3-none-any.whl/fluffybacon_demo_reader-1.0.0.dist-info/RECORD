@@ -1,0 +1,12 @@
+demo_reader/__init__.py,sha256=_SJbnTKkj4mnqxsQZ67zUkahOzJNmvLPixv08Iu8jzU,79
+demo_reader/__main__.py,sha256=2iPIhOvaKe6AFr83cRbHxXH6rzbDB0_ZByV48TRn5wo,276
+demo_reader/multireader.py,sha256=2fB4fW34KkWDDn7y6Gbcbnsyghjq4zQSHCsnHlMsFjw,424
+demo_reader/compressed/__init__.py,sha256=V2-Co5G5MkoCIXPJuXe58zf0z_TqB1xtJx8YQSVFK9I,102
+demo_reader/compressed/bzipped.py,sha256=QcdBnRyP_CyVs_DvmxviIoDeIGSOoHzEcVmFxWTYAqQ,107
+demo_reader/compressed/gzipped.py,sha256=CmbMy0JpoqvifXgXShkTXVQRiDXtO0Zn03QfauwJEyM,111
+demo_reader/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo_reader/util/writer.py,sha256=djPQp5KXvSILtUqMMFAM3GoQ7lTC-EZyJFELTBxRkZU,120
+fluffybacon_demo_reader-1.0.0.dist-info/METADATA,sha256=63aHveeIqeS0bii9r0XcUyTgLLb_iDWyTL2HxbPCAko,218
+fluffybacon_demo_reader-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fluffybacon_demo_reader-1.0.0.dist-info/top_level.txt,sha256=dKARnB9iow1jVYGGPeGEuNl7FBeMsGTyDKJ6cEmK4Ng,12
+fluffybacon_demo_reader-1.0.0.dist-info/RECORD,,
