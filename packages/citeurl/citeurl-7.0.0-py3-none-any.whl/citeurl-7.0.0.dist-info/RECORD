@@ -1,0 +1,17 @@
+citeurl/__init__.py,sha256=a1VykJxoDkMzDhdYW_4QlR5hE54wlpyVMojvsthmHrs,38733
+citeurl/__init__.sync-conflict-20210204-123421-4WXMJFU.py,sha256=fVKwcV65umeLRuVq_DSDiMmbWl21xx-43avPplc5lVE,36144
+citeurl/__main__.py,sha256=0kFmzhOnPOGcBYCugYQyNG_Ls_-scnqA5rxFW5l5lEU,5844
+citeurl/builtin-templates.yaml,sha256=avoz8kCBlU7wILgO4jsFe2uEO3uVxkWlpy77tuULQfk,84879
+citeurl/citeurl.js,sha256=qGtRNdhW7-u5qtJCLi4kCzED0xSj1VIGlOddLxSQrPM,10474
+citeurl/cli.py,sha256=-bxYksgpVEAkhzSRkOJ8JShKCiNFkSWkERtHSkxEB0U,5944
+citeurl/default-schemas.sync-conflict-20210204-123421-4WXMJFU.yaml,sha256=OVFlvNJiic51l1rz5ZI944012QhZswj4Uh37i3acOkc,28102
+citeurl/default-schemas.yaml,sha256=avoz8kCBlU7wILgO4jsFe2uEO3uVxkWlpy77tuULQfk,84879
+citeurl/make_js.py,sha256=RFk4_N7pM1l-wTHv7P6zLB1B_luR0MGI6w33pvCftEM,5335
+citeurl/makejs.py,sha256=aaqw6zjU0Frcu9CP04z6ptjPyMDm302DxpzHswarovY,4819
+citeurl/mdx.py,sha256=k_wGUbFPlACMuWCstWETlt5XL0vYeQga4GWJjbpDhZw,3243
+citeurl-7.0.0.dist-info/LICENSE.md,sha256=T6b3vscLORAeVZWYfYDSVFuKq1X-gA6wOQsuYJfXtiU,1065
+citeurl-7.0.0.dist-info/METADATA,sha256=IPIFLVuXSsojERu5MOPYSw3uDwd89yVBkU845yqc_7k,5198
+citeurl-7.0.0.dist-info/WHEEL,sha256=gm79cMopkncyn0iSnI0vQNiDJ8t9on0H4_iz-CrpXMk,92
+citeurl-7.0.0.dist-info/entry_points.txt,sha256=QosI3aQdkrIB_Hcn3EQJkP0jd-IALpFsyeR9zT2aMzc,145
+citeurl-7.0.0.dist-info/top_level.txt,sha256=WgpwPvgcGWJgfkw4r3EKesIT33CQEKoU50D4InqJams,8
+citeurl-7.0.0.dist-info/RECORD,,
