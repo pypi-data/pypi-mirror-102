@@ -1,0 +1,6 @@
+python_soql_parser/__init__.py,sha256=P5ZYid8Z19hN8QlD7PvCF19uJzCwkGkE3Wc4FlNgaCk,41
+python_soql_parser/core.py,sha256=ZzGmTBpG-U8VIMCpJ1PdbRUuGsd0yZDRX3qrVNfkUNQ,1769
+python_soql_parser/parse.py,sha256=BIE4IF-E0VluxY85TWa7Zs469YQKTAWQ75wAJV2NYFs,2928
+python_soql_parser-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+python_soql_parser-0.1.0.dist-info/METADATA,sha256=jihLTcIF_vm0r3Ya9wVKzIEpWH4iVkbLrG7sK57hSGI,1896
+python_soql_parser-0.1.0.dist-info/RECORD,,
