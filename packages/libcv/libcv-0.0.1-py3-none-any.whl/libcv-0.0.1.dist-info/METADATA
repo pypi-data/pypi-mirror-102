@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: libcv
+Version: 0.0.1
+Summary: personal package on computer vision
+Home-page: https://github.com/JPlin/libcv.git
+Author: jplin
+Author-email: jplinforever@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: opencv-python
+Requires-Dist: scipy (>=0.17.0)
+Requires-Dist: scikit-image
+Requires-Dist: face-alignment
+
+# lib4cv
+useful library for computer vision
+
+## comm
+
+io_utils: read image, save image, preprocess image
+
+## DeomoFaceMorph
+
+## detection
+face detection based on SFD, DLIB, and [RetinaFace][1], and [FaceBoxes][2]
+
+Uages:
+
+    from libcv import facedetect
+
+
+## pytorch
+
+## example
+
+[1]: https://github.com/JPlin/face-detection
+[2]: https://github.com/cleardusk/3DDFA_V2/tree/master/FaceBoxes
+
