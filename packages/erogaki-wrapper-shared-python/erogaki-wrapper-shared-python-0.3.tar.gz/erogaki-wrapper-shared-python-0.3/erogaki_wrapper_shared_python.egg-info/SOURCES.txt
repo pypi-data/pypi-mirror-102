@@ -1,0 +1,7 @@
+LICENSE
+setup.cfg
+erogaki_wrapper_shared_python/AbstractErogakiWrapperConfig.py
+erogaki_wrapper_shared_python.egg-info/PKG-INFO
+erogaki_wrapper_shared_python.egg-info/SOURCES.txt
+erogaki_wrapper_shared_python.egg-info/dependency_links.txt
+erogaki_wrapper_shared_python.egg-info/top_level.txt
