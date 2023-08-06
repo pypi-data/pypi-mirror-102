@@ -1,0 +1,10 @@
+README.md
+setup.py
+actorname/__init__.py
+actorname/__main__.py
+actorname/english.py
+actorname.egg-info/PKG-INFO
+actorname.egg-info/SOURCES.txt
+actorname.egg-info/dependency_links.txt
+actorname.egg-info/entry_points.txt
+actorname.egg-info/top_level.txt

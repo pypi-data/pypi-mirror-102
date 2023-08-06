@@ -1,0 +1,3 @@
+[console_scripts]
+actorname = actorname.__main__:main
+
