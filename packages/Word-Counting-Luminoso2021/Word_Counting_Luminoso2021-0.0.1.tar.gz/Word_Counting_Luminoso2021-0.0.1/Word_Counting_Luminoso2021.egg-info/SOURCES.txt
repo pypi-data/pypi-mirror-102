@@ -1,0 +1,11 @@
+setup.py
+Word_Count/__init__.py
+Word_Count/count.py
+Word_Count/word_count.py
+Word_Count/tests/__init__.py
+Word_Count/tests/test.py
+Word_Counting_Luminoso2021.egg-info/PKG-INFO
+Word_Counting_Luminoso2021.egg-info/SOURCES.txt
+Word_Counting_Luminoso2021.egg-info/dependency_links.txt
+Word_Counting_Luminoso2021.egg-info/requires.txt
+Word_Counting_Luminoso2021.egg-info/top_level.txt
