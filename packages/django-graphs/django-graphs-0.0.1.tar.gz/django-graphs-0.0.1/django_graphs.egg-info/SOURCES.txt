@@ -1,0 +1,5 @@
+setup.py
+django_graphs.egg-info/PKG-INFO
+django_graphs.egg-info/SOURCES.txt
+django_graphs.egg-info/dependency_links.txt
+django_graphs.egg-info/top_level.txt
