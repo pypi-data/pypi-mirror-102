@@ -1,0 +1,12 @@
+gpstime/__init__.py,sha256=QubBsYAwkO-579YhbEeFruWsZ3q6XaFVTCu2ZcivB6w,7111
+gpstime/__main__.py,sha256=AzhgwV0mNTfBv5Wd1SCo4hsfLHOh4Ke8CfpesUKRq0c,2719
+gpstime/__version__.py,sha256=jMc7UM2pASY9F8z0XMALQbSXxGCAxWPyeXQlarwD0VI,22
+gpstime/leaps.py,sha256=Nmm2aV8VT4r0wkXfP1541CuFWJ_0bMo5KwGTcQExv20,4188
+gpstime/test.py,sha256=MF9H8Md6gSJWglTvC5_vIDR5CpH63HMkxAqJpEOwGqQ,4916
+gpstime-0.4.5.data/scripts/gpstime,sha256=9Z6x169QFZWff3M_okxf8oZH-m1okacVpe171yuqfBI,50
+gpstime-0.4.5.dist-info/COPYING,sha256=kD3Y57xS042kgHR4KTOzNOiOHLxiOtxwe2gomX6l0cM,1724
+gpstime-0.4.5.dist-info/COPYING-GPL-3,sha256=_ILKi2_bGNTj6Fz9irWNG80_Gymr54KJWr2R1kdj-Oc,35068
+gpstime-0.4.5.dist-info/METADATA,sha256=-eQT5WxrN6TcWgQRwwG4bZ8K3VpgpNh-0V264vehFz4,1525
+gpstime-0.4.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gpstime-0.4.5.dist-info/top_level.txt,sha256=LJlZJoesrJMc-u-T2IuSXd6udNzp1TaVD6aJa5Zwj54,8
+gpstime-0.4.5.dist-info/RECORD,,
