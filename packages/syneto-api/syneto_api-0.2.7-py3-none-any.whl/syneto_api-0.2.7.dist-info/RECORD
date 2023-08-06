@@ -1,0 +1,10 @@
+syneto_api/__init__.py,sha256=yoakZFKF4i0XoWnMySQgiVRSxYRQYhCcAmIyKjnYQ70,183
+syneto_api/api_client.py,sha256=mDCA11tr42rUykKcHL_ol3Wkw7MRC6FpD1Uy4JMotPg,5359
+syneto_api/auth_api.py,sha256=kjboPjAkZtmmb1b-tD5JMRTdxcVMQmprpveuJ7S0FyA,385
+syneto_api/protection_api.py,sha256=S9313jSJ1efpDt0TMGy9SYDj8spkzXGJTv6nbaV50qo,2042
+syneto_api/settings.py,sha256=ALOE5GD4HZglTaR5YEVZrPtA9IlQESLG1mdZ5vB9YYk,1207
+syneto_api/storage_api.py,sha256=CQE6bxuUyZRodIWRppEH54Gt1QGo6AB_X2-1snguPbo,6197
+syneto_api/virt_api.py,sha256=cSmMvKI6ySmxWeEMblyKTWp1lQ1Ul0_uhhzxhYD0dp4,2961
+syneto_api-0.2.7.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+syneto_api-0.2.7.dist-info/METADATA,sha256=9X6NuyLAonfzwjJM2ulYwVSvnybH3JT8AwXvihI90IE,2087
+syneto_api-0.2.7.dist-info/RECORD,,
