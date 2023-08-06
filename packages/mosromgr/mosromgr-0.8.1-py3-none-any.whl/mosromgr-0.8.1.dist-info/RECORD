@@ -1,0 +1,15 @@
+mosromgr/__init__.py,sha256=LWjZqHjbZkP2HFJnQt2sn4egYYeO42mMwmnLJo0s6pg,141
+mosromgr/cli.py,sha256=8l5jnZ9mcRtH6Ff5VxeW4TVZu_8xNFq7vYw5ukrI-_I,12471
+mosromgr/exc.py,sha256=2QutPn9ujrI7NG6h9Jy2-0altfhYH7NTKw_y9_GcfdQ,1336
+mosromgr/moscollection.py,sha256=PeFtxNzWxwCUy--WUukGt0Vrx4kJEQNfqZ_Rg-JZ0O8,9305
+mosromgr/moselements.py,sha256=kIoNOFenBp8t4paNY5VXcBXXoiPx6QNWrrOaXG87Jjo,6351
+mosromgr/mostypes.py,sha256=yjaEp4XqbdRbY83uGuxwfI2Ut_a5x-5rfTgVsDC1PnI,64199
+mosromgr/utils/__init__.py,sha256=xgz3DoGmmaCG0bQqQIvgYa0DqN5bKP3tMwGawoN_j5Y,118
+mosromgr/utils/s3.py,sha256=rogNYLP1hBieSU3aveSpsCl-CLygy8XnCZBc_X2nPKM,1421
+mosromgr/utils/xml.py,sha256=uLMM-yrPch0yJ0udNv1DiQgE2S-opXYPkWqEgPX-9Oc,1252
+mosromgr-0.8.1.dist-info/LICENSE.txt,sha256=ul9adUa6szyTPbCI4xtcj449tmzCKc0PC3dF5EqYtAs,543
+mosromgr-0.8.1.dist-info/METADATA,sha256=_CIOkPld5ANDvYMycjDHy7kfQ6Z1J9y-KffHJoHOkBc,5898
+mosromgr-0.8.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mosromgr-0.8.1.dist-info/entry_points.txt,sha256=Dv0uBG3jK4ho8QpxT_X4y8YzThXg5pGuhT2kqzG7Pck,48
+mosromgr-0.8.1.dist-info/top_level.txt,sha256=BiVGpCCdnX9k1H0KDiZrvaDe7qn0KQtHc6qqUSEU8mA,9
+mosromgr-0.8.1.dist-info/RECORD,,
