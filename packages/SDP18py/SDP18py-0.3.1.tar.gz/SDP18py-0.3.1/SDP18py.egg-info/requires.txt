@@ -1,0 +1,5 @@
+numpy
+pandas
+pareto
+matplotlib
+numpy_indexed
