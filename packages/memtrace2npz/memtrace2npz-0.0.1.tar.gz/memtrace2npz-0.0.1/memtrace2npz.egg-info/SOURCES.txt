@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+bin/memtrace2npz
+memtrace2npz/__init__.py
+memtrace2npz.egg-info/PKG-INFO
+memtrace2npz.egg-info/SOURCES.txt
+memtrace2npz.egg-info/dependency_links.txt
+memtrace2npz.egg-info/requires.txt
+memtrace2npz.egg-info/top_level.txt
+tests/data/ABOUT.md
+tests/data/gold.npz
+tests/data/trace.zip
