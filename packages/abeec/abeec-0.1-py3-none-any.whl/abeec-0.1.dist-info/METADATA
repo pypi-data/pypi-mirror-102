@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: abeec
+Version: 0.1
+Summary: abeec: a library to perform approximate bayesian computation
+Home-page: http://github.com/nespinoza/abec
+Author: Nestor Espinoza
+Author-email: nespinoza@stsci.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+fle: README.md
+
+
