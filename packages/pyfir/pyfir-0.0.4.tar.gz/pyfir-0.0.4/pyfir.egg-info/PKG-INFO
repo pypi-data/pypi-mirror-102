@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyfir
+Version: 0.0.4
+Summary: Module to ease WSGI App testing.
+Home-page: https://github.com/Claudjos/fir
+Author: Claudjos
+Author-email: claudjosmail@gmail.com
+License: UNKNOWN
+Description: # fir
+Keywords: Web App,Testing
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
