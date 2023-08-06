@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+PyDiscordBot/__init__.py
+PyDiscordBot.egg-info/PKG-INFO
+PyDiscordBot.egg-info/SOURCES.txt
+PyDiscordBot.egg-info/dependency_links.txt
+PyDiscordBot.egg-info/requires.txt
+PyDiscordBot.egg-info/top_level.txt
