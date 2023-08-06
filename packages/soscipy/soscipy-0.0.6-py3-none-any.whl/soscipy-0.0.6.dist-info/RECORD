@@ -1,0 +1,17 @@
+socipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/analyse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/analyse/dat2csv.py,sha256=9Qqyuy12Zn11ziUoYLKf8mwfnANT4DpOatPKcZ9dq6o,359
+soscipy/process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/process/combine.py,sha256=LOvd8_-imOkKlosNlR6CW-xqUqAKsnQeNemSSKHRPc0,2730
+soscipy/process/rename_pd.py,sha256=iFIbb5KHA8VGdWGkcpWXc9OKdSYkbSqOqhuGlgAChCQ,737
+soscipy/process/xlwriter.py,sha256=rsIXg4OuL8JssNjVwtorofJULG9Y3GSGwoPy8WHdruU,810
+soscipy/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/utilities/browser.py,sha256=fGqJg9jcz3Vb-MjX_UcuhnKwT1B2Um1aB4hp-c0YSYM,1134
+soscipy/utilities/progress_bar.py,sha256=8DZNYqBF4wb9xHBMn0HoMGW3Aj4_AyYSg2_LB7qoBLY,1009
+soscipy/visualise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soscipy/visualise/plot.py,sha256=vRWya2nnNXns9ZaaMgWJbU_aE_FBkX-CDU0uSCGyttU,1612
+soscipy-0.0.6.dist-info/METADATA,sha256=BucXtas2ax0q8HO6AJq7W1N1WFOvHMYMMfyRFfTOyg8,2233
+soscipy-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+soscipy-0.0.6.dist-info/top_level.txt,sha256=3P8q2q5o0XRxEcOX6KWB4rl8VEZaDd5mSE6ceUUpOKc,8
+soscipy-0.0.6.dist-info/RECORD,,
