@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+./CHANGELOG.rst
+./README.rst
+proclets/__init__.py
+proclets/performative.py
+proclets.egg-info/PKG-INFO
+proclets.egg-info/SOURCES.txt
+proclets.egg-info/dependency_links.txt
+proclets.egg-info/requires.txt
+proclets.egg-info/top_level.txt
+proclets.egg-info/zip-safe
+proclets/test/__init__.py
+proclets/test/test_performative.py

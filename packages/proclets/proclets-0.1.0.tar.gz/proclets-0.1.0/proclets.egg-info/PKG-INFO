@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: proclets
+Version: 0.1.0
+Summary: A Lightweight Interacting Workflow library in Python.
+Home-page: https://github.com/tundish/proclets
+Author: D E Haynes
+Author-email: tundish@gigeconomy.org.uk
+License: UNKNOWN
+Description: Proclets
+        ::::::::
+        
+        A Pythonic implementation of Proclets and related structures.
+        
+        Primary reference is `Proclets: A framework for lightweight interacting workflow processes`
+        as submitted 2001 to the International Journal of Cooperative Information Systems
+        by Van der Aalst, Barthelmess, Ellis and Wainer.
+        
+        Status
+        ++++++
+        
+        This project is pre-alpha and under continuous development.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
