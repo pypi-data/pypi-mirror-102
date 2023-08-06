@@ -1,0 +1,10 @@
+deepdelta/__init__.py,sha256=hKWRd_6GML0A5zpLwcD-Q4brPIUjC4zdssl3RtC--LY,481
+deepdelta/comparator.py,sha256=ktSN1Lc_B7HIm9SRrwvKT4foRRu8Uq2stlQDQNA-zJI,13082
+deepdelta/core.py,sha256=nbWpFrn64GeP-szcD2Rdceg8XgtfC1r-E9I-lYf7yqo,27044
+deepdelta/delta_config.py,sha256=2s_b0B7nKBc_DNDsKFhhxSQ-6umz_C8L5RbD_HUDKzE,3228
+deepdelta/delta_output.py,sha256=-dc-F0Tk3qE-4750kkAiRic3hYbsbM1bVKgusfohYUI,3577
+deepdelta-1.0.1.dist-info/LICENSE,sha256=W27A8JroOPyd-Yx5NQwSFEW8YfVy-O24U2igu4o9mSc,1069
+deepdelta-1.0.1.dist-info/METADATA,sha256=3131CbXhHbWt9JKJHJAbyRW-TQhd9fKCtb1kszKyFy8,9628
+deepdelta-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deepdelta-1.0.1.dist-info/top_level.txt,sha256=xN_Qc3EQ5BNsgLlno62mG4E1sfjQrlEgIMlmREiKvgo,10
+deepdelta-1.0.1.dist-info/RECORD,,
