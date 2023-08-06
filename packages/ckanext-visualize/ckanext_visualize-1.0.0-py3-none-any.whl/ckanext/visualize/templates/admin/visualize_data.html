@@ -1,0 +1,167 @@
+<!--
+Copyright (c) 2019 Keitaro AB
+
+Use of this source code is governed by an MIT license
+that can be found in the LICENSE file or at
+https://opensource.org/licenses/MIT.
+-->
+
+{% extends 'admin/base.html' %}
+
+{% block scripts %}
+  {{ super() }}
+  {% asset 'visualize/visualize-colors-settings-add' %}
+  {% asset 'visualize/visualize-colors-settings-remove' %}
+  {% asset 'visualize/visualize-colors-settings-reset' %}
+  {% asset 'visualize/visualize-chart-type' %}
+  {% asset 'visualize/visualize-chart-icon-reset' %}
+{% endblock %}
+
+{% import 'macros/form.html' as form %}
+
+{% set action_url = h.url_for('admin_visualize.visualize_data') %}
+
+{% block primary_content_inner %}
+<form method="post" action="{{ action_url }}" enctype="multipart/form-data" novalidate>
+  <h5 for="color-pallete">Chart Colors:</h5>
+  <div class="panel panel-default panel-colors">
+    <div class="panel-body">
+      <div id="color-pallete" class="color-pallete" data-module="visualize-colors-settings-remove">
+        {% for color in data.visualize_colors %}
+        <div class="color-input">
+          {{ form.input('color_' ~ loop.index, type='color', label=_('Color #' ~ loop.index), value=color['color_' ~ loop.index], classes=['item-color']) }}
+          <button class="btn btn-sm btn-default color-remove" type="button">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="panel-footer">
+      <div class="form-actions form-actions-color">
+        <button type="button" class="btn btn-default pull-left" data-module="visualize-colors-settings-reset"><i
+            class="fa fa-sliders fa-fw" aria-hidden="true"></i>{{ _('Set Default') }}</button>
+        <button type="button" class="btn btn-default pull-right" data-module="visualize-colors-settings-add"><i
+            class="fa fa-paint-brush fa-fw" aria-hidden="true"></i>{{ _('Add') }}</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h5>Bar Chart Icon:</h5>
+      <div class="panel panel-default panel-icon">
+        <div class="panel-heading text-center">
+          <button type="button" class="btn btn-default" data-module="visualize-chart-icon-reset"
+            data-module-type="bar"><i class="fa fa-sliders fa-fw" aria-hidden="true"></i>{{ _('Set Default') }}</button>
+        </div>
+        <div class="panel-body">
+          <div id="bar-chart-icon">
+            <figure>
+              {% if data.bar_chart_icon %}
+              {% if data.bar_chart_icon.startswith('http') %}
+              {% set bar_chart_icon = data.bar_chart_icon %}
+              {% elif data.bar_chart_icon.startswith('/base/images') %}
+              {% set bar_chart_icon = data.bar_chart_icon %}
+              {% else %}
+              {% set bar_chart_icon = '/uploads/chart_icons/' + data.bar_chart_icon %}
+              {% endif %}
+              {% else %}
+              {% set bar_chart_icon = '/base/images/Bar-symbol.png' %}
+              {% endif %}
+              <img src="{{ bar_chart_icon }}" class="img-responsive center-block img-icon"
+                alt="Visualization Type Icon">
+            </figure>
+          </div>
+        </div>
+        <div class="panel-footer" data-module="visualize-chart-type" data-module-type="bar">
+          {{ form.image_upload(data, {}, is_upload_enabled=true, field_url='bar_chart', field_upload='bar_chart_upload', field_clear='bar_chart_clear_upload') }}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h5>Line Chart Icon:</h5>
+      <div class="panel panel-default panel-icon">
+        <div class="panel-heading text-center">
+          <button type="button" class="btn btn-default" data-module="visualize-chart-icon-reset"
+            data-module-type="line"><i class="fa fa-sliders fa-fw"
+              aria-hidden="true"></i>{{ _('Set Default') }}</button>
+        </div>
+        <div class="panel-body">
+          <div id="line-chart-icon">
+            <figure>
+              {% if data.line_chart_icon %}
+              {% if data.line_chart_icon.startswith('http') %}
+              {% set line_chart_icon = data.line_chart_icon %}
+              {% elif data.line_chart_icon.startswith('/base/images') %}
+              {% set line_chart_icon = data.line_chart_icon %}
+              {% else %}
+              {% set line_chart_icon = '/uploads/chart_icons/' + data.line_chart_icon %}
+              {% endif %}
+              {% else %}
+              {% set line_chart_icon = '/base/images/Line-symbol.png' %}
+              {% endif %}
+              <img src="{{ line_chart_icon }}" class="img-responsive center-block img-icon"
+                alt="Visualization Type Icon">
+            </figure>
+          </div>
+        </div>
+        <div class="panel-footer" data-module="visualize-chart-type" data-module-type="line">
+          {{ form.image_upload(data, {}, is_upload_enabled=true, field_url='line_chart', field_upload='line_chart_upload', field_clear='line_chart_clear_upload') }}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h5>Point Chart Icon:</h5>
+      <div class="panel panel-default panel-icon">
+        <div class="panel-heading text-center">
+          <button type="button" class="btn btn-default" data-module="visualize-chart-icon-reset"
+            data-module-type="point"><i class="fa fa-sliders fa-fw"
+              aria-hidden="true"></i>{{ _('Set Default') }}</button>
+        </div>
+        <div class="panel-body">
+          <div id="point-chart-icon">
+            <figure>
+              {% if data.point_chart_icon %}
+              {% if data.point_chart_icon.startswith('http') %}
+              {% set point_chart_icon = data.point_chart_icon %}
+              {% elif data.point_chart_icon.startswith('/base/images') %}
+              {% set point_chart_icon = data.point_chart_icon %}
+              {% else %}
+              {% set point_chart_icon = '/uploads/chart_icons/' + data.point_chart_icon %}
+              {% endif %}
+              {% else %}
+              {% set point_chart_icon = '/base/images/Point-symbol.png' %}
+              {% endif %}
+              <img src="{{ point_chart_icon }}" class="img-responsive center-block img-icon"
+                alt="Visualization Type Icon">
+            </figure>
+          </div>
+        </div>
+        <div class="panel-footer" data-module="visualize-chart-type" data-module-type="point">
+          {{ form.image_upload(data, {}, is_upload_enabled=true, field_url='point_chart', field_upload='point_chart_upload', field_clear='point_chart_clear_upload') }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-actions global-btn-group">
+    <hr>
+    <a href="{{ action_url + '?reset=true' }}" class="btn btn-danger pull-left" data-module="confirm-action"
+      data-module-content="{{ _('Are you sure you want to reset the config?') }}">{{ _('Reset') }}</a>
+    <button type="submit" class="btn btn-primary" name="save">{{ _('Save') }}</button>
+  </div>
+</form>
+{% endblock %}
+{% block secondary_content %}
+<div class="module module-narrow module-shallow">
+  <h2 class="module-heading">
+    <i class="fa fa-info-circle"></i>
+    {{ _('Visualize options') }}
+  </h2>
+  <div class="module-content">
+    {% block admin_form_help %}
+    <span>Help tips for options go here</span>
+    {% endblock %}
+  </div>
+</div>
+{% endblock %}
+
