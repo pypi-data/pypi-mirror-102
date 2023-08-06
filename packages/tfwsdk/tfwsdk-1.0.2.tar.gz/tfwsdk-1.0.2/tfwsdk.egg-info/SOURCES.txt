@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tfwsdk/__init__.py
+tfwsdk/sdk.py
+tfwsdk/zmq_connector.py
+tfwsdk.egg-info/PKG-INFO
+tfwsdk.egg-info/SOURCES.txt
+tfwsdk.egg-info/dependency_links.txt
+tfwsdk.egg-info/requires.txt
+tfwsdk.egg-info/top_level.txt
