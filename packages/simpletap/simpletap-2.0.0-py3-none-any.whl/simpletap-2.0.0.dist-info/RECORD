@@ -1,0 +1,13 @@
+simpletap/__init__.py,sha256=WrF_mS_qslNE0NTDDXP4q2Ea1MAbFilj7Rq1wpr0ma8,3763
+simpletap/__main__.py,sha256=QYrlm1WFAMFhg35W_eAvwSkF4uhXoLLC9gE0S0zyi3Y,312
+simpletap/result.py,sha256=tkFMQtfAqpAz4L7NF6QqVzZxzNPbuFLPYTpgiie15Hw,6553
+simpletap/runner.py,sha256=RLVIt5NM6E1ewy_J5OfQEax0cFt2z09K0OyBxP4iuNo,1956
+simpletap/version.py,sha256=YEnwGzgfMhTlTexeD1Mtf6mjWo3UiXEP38RC6I7ZluE,76
+simpletap/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpletap/tests/test_api.py,sha256=z6rRbQ7Caj9EIipHcvQLIM7wGiHBUjKPmyT7WCvopbs,9553
+simpletap/tests/test_runner.py,sha256=wmP_ciMPVuCmuUu9g7_37TCMS0ECKSw0XpxiThznDcE,9202
+simpletap-2.0.0.dist-info/LICENSE,sha256=-8ZWyVN2JdGWS3qia6MrrP6Q00llPATaTCKBB6GSwqQ,1120
+simpletap-2.0.0.dist-info/METADATA,sha256=Tpoea2tT915-gOWtnksdRst8Ll1raRxystUEHY96HFM,4377
+simpletap-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simpletap-2.0.0.dist-info/top_level.txt,sha256=G74w2b_3zpph4gHKtrZgP6-6u44e_VxHIw57oOJn8vc,10
+simpletap-2.0.0.dist-info/RECORD,,
