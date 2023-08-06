@@ -1,0 +1,16 @@
+taxoniq/tax_dump_readers.py,sha256=JntV2SL-JKElgw3CfVyS5PxMz8ieqB6D5yisKI3k3KE,7337
+taxoniq/util.py,sha256=ux2cxFGKQF4gxTulYRLW8_g22djdJPf9q-JdMjdP4K8,1054
+taxoniq/cli.py,sha256=4iUeE2SSUBkfD8bmSkMmdl4qdb9Fze-04L6S3ZTQtUU,4966
+taxoniq/build.py,sha256=Xzc_RxrGxiVjTKkpXJDANjvn6YFzpxXd936zmylbgt8,24249
+taxoniq/__init__.py,sha256=09TScT5daPT3uM17kto8M9Z3SO-0PeJMXdEJLoHVXgA,14851
+taxoniq/version.py,sha256=CBY3jsC-9HCm7eZ6CKD-sYLCejqOJ1pYWPQM4LGIXcI,22
+taxoniq/vendored/marisa_trie.cpython-38-aarch64-linux-gnu.so,sha256=gnrjWticzz4f1zxoXFoGjH7B1Qtrst6KSRjuqKuRXXk,4677056
+taxoniq/vendored/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxoniq-0.6.0.dist-info/RECORD,,
+taxoniq-0.6.0.dist-info/WHEEL,sha256=IwQrWLNiLCjPP8vG6_XLMNFzMgovxBNWbRQhme5U9CE,112
+taxoniq-0.6.0.dist-info/entry_points.txt,sha256=EmCYSTI5IWf5kVrfq_MuMWyma0OA0QoJUmVQqxpntwY,45
+taxoniq-0.6.0.dist-info/LICENSE.NCBI,sha256=WoYwfyS2PWaNpPvdztXIvTSCZJvnQyYDo9HN9_54Sgg,1054
+taxoniq-0.6.0.dist-info/METADATA,sha256=coDCpsVgwkM5dkFvSfqjeCzzFvGPVZzWJEH2lF4MoVU,12928
+taxoniq-0.6.0.dist-info/top_level.txt,sha256=Qy0n0RnHocrwsIV_IdWPLxszKj3uBcS52hvHzQgY7nI,8
+taxoniq-0.6.0.dist-info/LICENSE,sha256=7DX3rtEeyFqOh9e5zyGveq1qsGvQz9navFCNJQyo14o,1083
+taxoniq-0.6.0.dist-info/LICENSE.WIKIPEDIA,sha256=P5QbO4nPe4Nwzrg8x20hINRxtYc12MpgI4p1GkjX9y8,22240
