@@ -1,0 +1,12 @@
+fntom/Constants.py,sha256=8IWDw35pSnmLS2a6CVjtZhplgT7U2Mx8npvnkedoK34,1313
+fntom/Counter.py,sha256=K0tSyTkzqu-oX-euVGuiO8gCOnx11iUxd7tQE6QTpLg,3048
+fntom/Error.py,sha256=Tlep8P8FgjqSIuoo-qECoUE89jWRKeoHBM34i6nobpE,2070
+fntom/FNTOMonoid.py,sha256=mxfn4g3pca80griDZ_S2CcZnYuceqlfE4pww1yZlcGw,36214
+fntom/LevelEquivalence.py,sha256=iMgK8AyQJnRSX0IkOcysmyyhMH8ugykzhUEgji8tJTg,31970
+fntom/Utils.py,sha256=cqHFLxUPQE-UFQVHXm9xGjku0Oe3jUIkNe7gRteMzjY,18197
+fntom/__init__.py,sha256=sgoL-6-YmDwu1HFwbOGkWI3Flxtc2JHu0gmjqAm8oR0,14200
+fntom-0.1.0.dist-info/LICENSE,sha256=K5pNoyW2DNLZpqo3Yj5ctuQtSpSH-z59difiMm328pY,35081
+fntom-0.1.0.dist-info/METADATA,sha256=iYazKtmIrmvOEQ1tgSFm0DCpanPz_itrEbu0cMgkc6Q,4404
+fntom-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fntom-0.1.0.dist-info/top_level.txt,sha256=QWZp6TQxUIGn4WJ7R6utq_Y50lh1kMlL-FsMI86l954,6
+fntom-0.1.0.dist-info/RECORD,,
