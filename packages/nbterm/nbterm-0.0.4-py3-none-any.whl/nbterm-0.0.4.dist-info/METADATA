@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nbterm
+Version: 0.0.4
+Summary: A tool for viewing, editing and executing Jupyter Notebooks in the terminal
+Home-page: https://github.com/davidbrochart/nbterm.git
+Author: David Brochart
+Author-email: david.brochart@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: prompt-toolkit (>=3.0.16)
+Requires-Dist: typer
+Requires-Dist: pygments
+Requires-Dist: rich
+Requires-Dist: kernel-driver
+Provides-Extra: test
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: ipykernel ; extra == 'test'
+
+UNKNOWN
+
+
