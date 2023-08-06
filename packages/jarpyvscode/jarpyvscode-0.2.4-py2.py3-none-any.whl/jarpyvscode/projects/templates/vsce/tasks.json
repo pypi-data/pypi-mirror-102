@@ -1,0 +1,60 @@
+{
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "VSCE_COMMAND",
+            "description": "Select vsce command!",
+            "options": [
+                "pack",
+                "publish",
+                "unpublish"
+            ],
+            "default": "publish"
+        }
+    ],
+    "tasks": [
+        {
+            "label": "VSCE",
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "jarpyvscode.vsce",
+                    "--verbose",
+                    "--verbose",
+                    "${input:VSCE_COMMAND}"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "jarpyvscode.vsce",
+                    "--verbose",
+                    "--verbose",
+                    "${input:VSCE_COMMAND}"
+                ]
+            },
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "jarpyvscode.vsce",
+                    "--verbose",
+                    "--verbose",
+                    "${input:VSCE_COMMAND}"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}
