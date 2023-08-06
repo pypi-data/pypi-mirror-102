@@ -1,0 +1,13 @@
+iopenscad/__init__.py,sha256=34ZEpFvvDlJxT3CmA4cPC28lw6BrGk4T_9z3HbuQlv4,82
+iopenscad/__main__.py,sha256=IVYchSqaHf4zzGcRVoncAUfV9yPoKRRZbMVd6Ocsixk,156
+iopenscad/install.py,sha256=vDHImYKhojlcrStWPRQ3z8WpasiPmvORSXXHTYfUhsE,692
+iopenscad/kernel.py,sha256=ILAGtVMGckL3kWFCIyON57Wc2To7L6fOjdtZAix7bEI,5421
+iopenscad/parser.py,sha256=5yv4HkGgfq78VnQoMylhBAPoKHfRu2JqvWcmlOpDe0g,18596
+iopenscad/scanner.py,sha256=w4shPKmwcYixnFTmhih9XQlUuWKRypawZM-WgqXikOc,2292
+iopenscad/openscad/kernel.json,sha256=B-LWTp_NuuujgtkLoM74uznbwmCuHN7nquJtNE1ZLv4,202
+iopenscad/openscad/logo-32x32.png,sha256=HWFp3zgynLf2wECqBpzSqggLvesqXa283HzD7ll4qko,3425
+iopenscad/openscad/logo-64x64.png,sha256=JluCjIL5CjGkkMEfVrizkIkVfOr1P8yeNAih7RF0r6c,10757
+jupyter_openscad_kernel-1.0.14.dist-info/METADATA,sha256=mLmc-NGkYOa3rDN7ZTYvEStsunw4Qz6hnk6SjktcoQA,2315
+jupyter_openscad_kernel-1.0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyter_openscad_kernel-1.0.14.dist-info/top_level.txt,sha256=kZ97BZTLsqzQlEC2rVUt5OuLgSV4zHWd-lS4Pt38q_Y,10
+jupyter_openscad_kernel-1.0.14.dist-info/RECORD,,
