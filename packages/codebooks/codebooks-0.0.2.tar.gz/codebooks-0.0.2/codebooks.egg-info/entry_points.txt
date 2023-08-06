@@ -1,0 +1,3 @@
+[console_scripts]
+codebooks = codebooks.__main__:main
+
