@@ -1,0 +1,9 @@
+bridgebots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bridgebots/deal.py,sha256=MGjpXIVfitttY_UaDcB3txwCFVeSjm1WZtQIZHiX_34,6892
+bridgebots/deal_enums.py,sha256=deGkY0JVV5wx4rli3mDkKVZavRbzdCPGei3uYGOAaNI,2762
+bridgebots/double_dummy.py,sha256=jGSjr8v6mrHhum0ZRLbYW7WzdS4U5V0efGuUXbOOerk,3484
+bridgebots/pbn.py,sha256=mKmb3NQjFvl_u1jRfgoLo4gOBS06d0ok5IQcnSuI75s,5264
+bridgebots/table_record.py,sha256=fZSIAXZ2keLs8eDhTq9joEPMuN5bBL3EjmjKwnhvn3g,912
+bridgebots-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bridgebots-0.0.1.dist-info/METADATA,sha256=cIU-ibuguDzfOq2amuUjnXNKhzaoArOL59fStboIg08,488
+bridgebots-0.0.1.dist-info/RECORD,,
