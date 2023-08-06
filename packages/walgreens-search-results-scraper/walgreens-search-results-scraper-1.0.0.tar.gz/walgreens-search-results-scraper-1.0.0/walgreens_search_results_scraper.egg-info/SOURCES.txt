@@ -1,0 +1,8 @@
+README.md
+setup.py
+walgreens_search_results_scraper/__init__.py
+walgreens_search_results_scraper.egg-info/PKG-INFO
+walgreens_search_results_scraper.egg-info/SOURCES.txt
+walgreens_search_results_scraper.egg-info/dependency_links.txt
+walgreens_search_results_scraper.egg-info/requires.txt
+walgreens_search_results_scraper.egg-info/top_level.txt
