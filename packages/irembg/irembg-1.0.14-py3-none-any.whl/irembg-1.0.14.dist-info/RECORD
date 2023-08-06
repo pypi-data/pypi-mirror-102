@@ -1,0 +1,15 @@
+rembg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rembg/bg.py,sha256=s1oWb4VXsyT_Oi3xVCihKFo0GDkRkfynb83tUDzx6jY,2895
+rembg/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rembg/cmd/cli.py,sha256=0EYVoOm4t8ayK-0srxkj9famxlsSyAcGwoCqSnYm9tk,3342
+rembg/cmd/server.py,sha256=KxYdrbB958XXvTqNQEHAMIVUVbJ8ynz4mouJgn4ExV0,1640
+rembg/u2net/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rembg/u2net/data_loader.py,sha256=sK-Givb793J9DAlUxWVpTv8spu_MSl0mWKSuS5ulADY,11648
+rembg/u2net/detect.py,sha256=8pXGVUE40URz0O9URIE3Ch0J2KTP4Z81JDlGEtP0OS4,3824
+rembg/u2net/u2net.py,sha256=BV55ZQxAhoVQa1xLPwl5RUgqWmssNqq5JXjGznfwG3k,15477
+irembg-1.0.14.dist-info/LICENSE.txt,sha256=kKMhUHKWj9MEZpxTifBPEnSlh6vdBQfZnerQ9VEfiZk,1069
+irembg-1.0.14.dist-info/METADATA,sha256=KCzHlNqkPP4gt6ONiphWW5ThRn9qtNHkqmBg7ZNQWhk,5837
+irembg-1.0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+irembg-1.0.14.dist-info/entry_points.txt,sha256=907wrod34F9ujqocgtXwN3u33YpJVGrsoD_xtgUwbaE,83
+irembg-1.0.14.dist-info/top_level.txt,sha256=dn_SejwIU9edjs7y-85RIaGES58zX9TQNpLz_Sw-oH0,6
+irembg-1.0.14.dist-info/RECORD,,
