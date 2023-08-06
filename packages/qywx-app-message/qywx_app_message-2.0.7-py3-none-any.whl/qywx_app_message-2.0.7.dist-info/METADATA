@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qywx-app-message
+Version: 2.0.7
+Summary: qywx_app_message
+Home-page: https://github.com/not-know/qywx_app_message
+Author: zhr
+Author-email: zhangran1033@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires: requests
+Requires-Dist: requests
+
+https://github.com/not-know/qywx_app_message
+
+
