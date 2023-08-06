@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gcptree
+Version: 0.1.0
+Summary: List your GCP Org heirachy as a tree in JSON or Text
+Home-page: http://github.com/onetwopunch/gcptree
+Author: Ryan Canty
+Author-email: onetwopunch@pm.me
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
