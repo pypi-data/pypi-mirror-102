@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+TODO.rst
+VERSION.txt
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+html2png.egg-info/PKG-INFO
+html2png.egg-info/SOURCES.txt
+html2png.egg-info/dependency_links.txt
+html2png.egg-info/entry_points.txt
+html2png.egg-info/requires.txt
+html2png.egg-info/top_level.txt
+html2png.egg-info/zip-safe

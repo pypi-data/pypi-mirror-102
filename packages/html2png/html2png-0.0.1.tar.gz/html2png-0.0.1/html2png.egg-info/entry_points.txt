@@ -1,0 +1,3 @@
+[console_scripts]
+html2png = html2png.cli:main
+
