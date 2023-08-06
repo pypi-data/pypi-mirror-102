@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: thatcookie-api
+Version: 1
+Summary: Something to make interacting with Cookie's API easy
+Home-page: https://github.com/ThatCookie
+Author: ThatCookie
+Author-email: contact.thatcookie@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Download-URL: https://github.com/ThatCookie/cookieapi-python-wrapper/archive/refs/tags/1.tar.gz
+Description: UNKNOWN
+Keywords: API,Cookie,ThatCookie
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
