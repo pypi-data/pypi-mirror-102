@@ -1,0 +1,5 @@
+# this file lists files that need to be included in packages
+include LICENSE.txt
+include README.rst
+include hanjaq/hanja.txt
+include requirements.txt
