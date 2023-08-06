@@ -1,0 +1,3 @@
+[orange.widgets]
+Thingspire_Auto_ML = thingspire_auto_ml
+

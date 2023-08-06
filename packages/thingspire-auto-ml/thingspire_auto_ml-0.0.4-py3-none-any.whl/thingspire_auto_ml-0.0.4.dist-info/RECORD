@@ -1,0 +1,12 @@
+thingspire_auto_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thingspire_auto_ml/hyperparameter_optimization.py,sha256=qs-4gx3ecif7QtEHjIoofeXP4s6_g-rLwN_5bIFQfmQ,834
+thingspire_auto_ml/owtestandscore.py,sha256=ouSpm26_C3UyUuKbloimGp3Lm0i_gGKhrBVQ0k7Y5L4,50902
+thingspire_auto_ml/icons/number.svg,sha256=aBwAtJuSgtBMnwM1G2BD1f1WJtPVjW9rkH6B2gBG428,1499
+thingspire_auto_ml/icons/plus.svg,sha256=4RTiBruYgyGN5gq4rF1ACVJzhKFyL0GIr6cGnqenaP8,735
+thingspire_auto_ml/icons/print.svg,sha256=1oKRvrDj_4XpVqFUznglZKATIvm4zL2dhqUEtcWtoRY,1096
+thingspire_auto_ml-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+thingspire_auto_ml-0.0.4.dist-info/METADATA,sha256=tSJqqiiw6nOP51WNyVGy1BGNAmvWjSq7TPqJWk_2vBc,568
+thingspire_auto_ml-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+thingspire_auto_ml-0.0.4.dist-info/entry_points.txt,sha256=Cg1HOOcVAm-t4nZN8dfJumU0V_3AnWA86Y42ZxHwJKk,58
+thingspire_auto_ml-0.0.4.dist-info/top_level.txt,sha256=Lk7IS-_fRz8CMGXQjhaSQ7vdUk5ZYysEltBGlHhocDo,19
+thingspire_auto_ml-0.0.4.dist-info/RECORD,,
