@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "pdsearch"
+author = "unuuunu"
+author-email = "000llj7@gmail.com"
+home-page = "https://github.com/unuuunu/pod-search"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+
