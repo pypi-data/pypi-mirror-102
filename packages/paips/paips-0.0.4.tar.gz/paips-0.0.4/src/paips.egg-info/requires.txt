@@ -1,0 +1,4 @@
+pyknife>=0.0.3
+kahnfigh>=0.0.2
+networkx>=2.5.1
+joblib>=1.0.1
