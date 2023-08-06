@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: disctext
+Version: 0.3.1
+Summary: A simple tool for creating ASCII art and sharing it on Discord.
+Home-page: https://github.com/akbar-amin/disctext
+Author: Akbar Amin
+Author-email: akbar.amin917@gmail.com
+License: MIT License
+Keywords: discord,ascii,art,pipeline,capture
+Platform: UNKNOWN
+Requires-Dist: eventkit
+Requires-Dist: discord.py
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
+
