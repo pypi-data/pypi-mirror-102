@@ -1,0 +1,8 @@
+README.md
+setup.py
+pythonproject2021/__init__.py
+pythonproject2021/test.py
+pythonproject2021.egg-info/PKG-INFO
+pythonproject2021.egg-info/SOURCES.txt
+pythonproject2021.egg-info/dependency_links.txt
+pythonproject2021.egg-info/top_level.txt
