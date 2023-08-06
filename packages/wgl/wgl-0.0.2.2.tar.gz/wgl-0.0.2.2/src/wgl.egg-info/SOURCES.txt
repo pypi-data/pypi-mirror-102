@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/wTermUi/__init__.py
+src/wTermUi/term.py
+src/wTermUi/wErrors.py
+src/wTermUi/widgets.py
+src/wgl.egg-info/PKG-INFO
+src/wgl.egg-info/SOURCES.txt
+src/wgl.egg-info/dependency_links.txt
+src/wgl.egg-info/top_level.txt
