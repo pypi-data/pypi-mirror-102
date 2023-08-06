@@ -1,0 +1,10 @@
+setup.py
+Binomialdistributions2021.egg-info/PKG-INFO
+Binomialdistributions2021.egg-info/SOURCES.txt
+Binomialdistributions2021.egg-info/dependency_links.txt
+Binomialdistributions2021.egg-info/not-zip-safe
+Binomialdistributions2021.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
