@@ -1,0 +1,17 @@
+novel3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novel3/novel_yunlin/__init__.py,sha256=awNjKn6IysGMRoq5nyg1VzO6cxizIL7zSvunI82RtcI,240
+novel3/novel_yunlin/file_change_to_mysql.py,sha256=AZNnqNYUxZh8BIs-jkI36iZQSZhZO5rT6dMl4fEBc4M,3185
+novel3/novel_yunlin/image_to_str_map.py,sha256=UvORotpxoOxqrR17G8cNTF0dGx6vQ8Osw6hC-yjJQr8,4494
+novel3/novel_yunlin/spider.py,sha256=B69-KUkVKkoQ8hwQqCE00dC8Uc0RUbURB8gDX6J_-Tc,948
+novel3/novel_yunlin/yun_lin_zhan_ye_scrapy.py,sha256=EwcEYO9akuOG9ATeE48lRnXeL-fecNyjlzdoSnb83wg,13080
+novel3/novel_yunlin/config/mysql.json,sha256=NfyWrr07EE65BOnD295lQ6QB58ge_ls7q7PryPP2uxs,124
+novel3/novel_yunlin/json/illegal.json,sha256=J8wBDddRxuViWjb6hdnTV1sEqG1Iq7sEquP9JHEAIkc,3335
+novel3/novel_yunlin/json/illegal_chapter_name.json,sha256=GKRPSCT8AWS13vQWqgIkT8j3uTlgSPaJwWuLv6mSz1g,244
+novel3/novel_yunlin/json/image_str.json,sha256=viYo0n71lER9V-PhF25snAmkDbUnKPKpHQ1r1pU-Sc4,21684
+novel3/novel_yunlin/sql/book.sql,sha256=4GklYGqwC8c54mZr8nqBlZ8hmhYnZvx5gIGLcWeWwCY,1032
+novel3/novel_yunlin/sql/chapter.sql,sha256=4l7hzeRzDSKmHK074qiv0hwLbAriQXzua-nBs9RXgmg,408
+novel3-0.0.4.dist-info/LICENSE.txt,sha256=RC9VYIGFgYICosCviItpATDMbDVGcmxOTkltlkVVojs,1095
+novel3-0.0.4.dist-info/METADATA,sha256=en3SZ_H9CUyzPd7OyV0PJfT3e_03zkJ9eR_7_6NoIIA,910
+novel3-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+novel3-0.0.4.dist-info/top_level.txt,sha256=idZEVec0yE6EgxblH2O9twafNunXcGsUdkuOJ9KB7HY,7
+novel3-0.0.4.dist-info/RECORD,,
