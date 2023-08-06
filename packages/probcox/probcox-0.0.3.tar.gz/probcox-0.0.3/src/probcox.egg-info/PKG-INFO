@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: probcox
+Version: 0.0.3
+Summary: Probilistic Cox Regression
+Home-page: https://github.com/alexwjung/ProbCox
+Author: Alexander Wolfgang Jung
+Author-email: alex.w.jung@googlemail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alexwjung/ProbCox/issues
+Description: ####################
+        ProbCox
+        ####################
+        
+        
+        Probabilistic Cox regression
+        
+        *************
+        Quick install
+        *************
+        
+        Via Pypi
+        ========
+        
+        To install :code:`probcox` via Pypi simply type
+        
+        .. code-block:: console
+        
+            $ pip install probcox
+        
+        into your shell.
+        
+        
+        *******
+        Credits
+        *******
+        
+        Alexander Wolfgang Jung
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
