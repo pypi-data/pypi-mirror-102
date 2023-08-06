@@ -1,0 +1,12 @@
+# special tokens
+max_vocab_size: 50000
+max_source_length: 200
+max_target_length: 200
+split_strategy: "load_split"
+overlength_strategy: "drop"
+tokenize_strategy: "by_space"
+source_language: german
+target_language: english
+source_suffix: de
+target_suffix: en
+task_type: "translation"
