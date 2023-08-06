@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "daysgone"
+version = "0.1.0"
+description = ""
+authors = ["Mr.Nobody <mrcartoonster@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.3.2"}
+rich = "^10.1.0"
+pendulum = "^2.1.2"
+
+[tool.poetry.scripts]
+daysgone = "daysgone.main:app"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+pytest-clarity = "^0.3.0-alpha.0"
+pytest-randomly = "^3.7.0"
+freezegun = "^1.1.0"
+ipython = "^7.22.0"
+pytest-pythonpath = "^0.7.3"
+pytest-emoji = "^0.2.0"
+pre-commit = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
