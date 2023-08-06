@@ -1,0 +1,1 @@
+recursive-include diff_viewer/frontend/build *
