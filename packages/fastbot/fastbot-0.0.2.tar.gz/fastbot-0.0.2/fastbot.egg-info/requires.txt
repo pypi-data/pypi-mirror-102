@@ -1,0 +1,10 @@
+
+[all]
+redis
+pymemcache
+
+[memcached]
+pymemcache
+
+[redis]
+redis
