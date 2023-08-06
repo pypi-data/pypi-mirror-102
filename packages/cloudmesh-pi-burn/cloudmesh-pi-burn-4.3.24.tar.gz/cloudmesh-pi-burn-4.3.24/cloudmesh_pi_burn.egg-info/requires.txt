@@ -1,0 +1,17 @@
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-configuration
+cloudmesh-common
+humanize
+wget
+python-hostlist
+docopt
+prompter
+pyyaml
+oyaml
+requests
+pyusb
+tqdm
+PySimpleGUI
+passlib
