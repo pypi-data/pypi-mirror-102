@@ -1,0 +1,9 @@
+README.md
+setup.py
+iplscore/__init__.py
+iplscore/iplscore.py
+iplscore.egg-info/PKG-INFO
+iplscore.egg-info/SOURCES.txt
+iplscore.egg-info/dependency_links.txt
+iplscore.egg-info/requires.txt
+iplscore.egg-info/top_level.txt
