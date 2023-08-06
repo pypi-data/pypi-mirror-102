@@ -1,0 +1,9 @@
+numpy
+pandas
+seaborn
+tqdm
+sklearn
+multiprocessing
+string
+nltk
+vaderSentiment
