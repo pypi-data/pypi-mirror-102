@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include src *.py
+recursive-include src *.pyx
+include examples/*
+
+graft docs

@@ -1,0 +1,110 @@
+
+\documentclass[10pt]{article}
+%\documentclass[10pt,letterpaper]{article}
+\usepackage[total={6.0in,9.5in},top=0.85in,left=1.25in,footskip=0.75in]{geometry}
+%\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+\usepackage{amsmath,amssymb}
+%\usepackage{changepage}
+%\usepackage[utf8x]{inputenc}
+\usepackage{textcomp,marvosym}
+\usepackage{cite}
+\usepackage{nameref,hyperref}
+\usepackage[right]{lineno}
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+\usepackage[table]{xcolor}
+\usepackage{array}
+
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Use the PLoS provided BiBTeX style
+\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+
+% Header and Footer with logo
+%\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{fancyhdr,graphicx}
+\usepackage{epstopdf}
+%\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+%\setlength{\headheight}{27.023pt}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+% herehere to enable or modify the foot rule
+%\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+% herehere foot rule shift along with the text if wanted
+%\fancyfootoffset[L]{2.25in}
+%\lfoot{\today}
+% herehere uncomment the \today above
+
+% Article specific macro definitions by hz
+% argmax as it says
+\DeclareMathOperator*{\argmax}{arg\,max}
+% makes the ++ in C++ look pretty
+\def\CPP{{C\kern-.05em\raise.23ex\hbox{+\kern-.05em+}\ }}
+
+%% END MACROS SECTION
+
+
+\begin{document}
+\vspace*{0.2in}
+%\nolinenumbers
+
+\begin{flushleft}
+{\Large
+\textbf\newline{trprimes - truncatable prime numbers}
+}
+
+\vspace{12pt}
+Truncatable prime numbers remain prime when the most significant or
+least significant digit is dropped.  For example 317 is a left truncatable
+prime because 317,17 and 7 are prime.  It is also a right truncatable 
+prime becaus 31 and 3 are prime.  It is not a both left and right
+truncatable prime because 1 is not a prime number.
+
+\vspace{12pt}
+{\it This documentation is in progress.}
+
+\end{flushleft}
+
+
+\end{document}
+
