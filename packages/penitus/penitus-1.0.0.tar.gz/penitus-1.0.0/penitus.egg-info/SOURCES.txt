@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+penitus.egg-info/PKG-INFO
+penitus.egg-info/SOURCES.txt
+penitus.egg-info/dependency_links.txt
+penitus.egg-info/requires.txt
+penitus.egg-info/top_level.txt
+src/penitus/__init__.py
+src/penitus/exceptions.py
+src/penitus/main.py
+src/penitus/__init__.py
+src/penitus/exceptions.py
+src/penitus/main.py
