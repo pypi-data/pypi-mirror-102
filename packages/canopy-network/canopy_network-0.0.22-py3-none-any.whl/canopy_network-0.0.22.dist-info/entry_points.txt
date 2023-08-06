@@ -1,0 +1,6 @@
+[console_scripts]
+loveliness=understory.loveliness:main
+
+[web.apps]
+canopy=canopy:app
+
