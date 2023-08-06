@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyredpocket/__init__.py
+src/pyredpocket/client.py
+src/pyredpocket/details.py
+src/pyredpocket.egg-info/PKG-INFO
+src/pyredpocket.egg-info/SOURCES.txt
+src/pyredpocket.egg-info/dependency_links.txt
+src/pyredpocket.egg-info/requires.txt
+src/pyredpocket.egg-info/top_level.txt
+src/pyredpocket/tests/__init__.py
+src/pyredpocket/tests/test_client.py
+src/pyredpocket/tests/test_details.py
