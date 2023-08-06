@@ -1,0 +1,5 @@
+[console_scripts]
+yata = yata.cmd_tools:main
+yata_mv = yata.cmd_tools:batch_rename
+yata_resample = yata.cmd_tools:batch_resample
+
