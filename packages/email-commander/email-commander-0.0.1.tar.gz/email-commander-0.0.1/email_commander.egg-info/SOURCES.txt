@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+email_commander.egg-info/PKG-INFO
+email_commander.egg-info/SOURCES.txt
+email_commander.egg-info/dependency_links.txt
+email_commander.egg-info/entry_points.txt
+email_commander.egg-info/not-zip-safe
+email_commander.egg-info/requires.txt
+email_commander.egg-info/top_level.txt

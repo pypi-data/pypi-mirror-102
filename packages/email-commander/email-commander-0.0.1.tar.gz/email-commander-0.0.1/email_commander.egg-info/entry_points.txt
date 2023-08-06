@@ -1,0 +1,4 @@
+[console_scripts]
+ec = email_commander.cli:main
+email-commander = email_commander.cli:main
+
