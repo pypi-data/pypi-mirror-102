@@ -1,0 +1,3 @@
+[console_scripts]
+maths-functions = functions.__main__:main
+
