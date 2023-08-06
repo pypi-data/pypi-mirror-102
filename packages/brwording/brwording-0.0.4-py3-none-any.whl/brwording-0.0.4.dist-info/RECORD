@@ -1,0 +1,12 @@
+brwording/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brwording/brwording.py,sha256=Te0sTWHlL6Gl-3Q8DBJ_Hk5_OQNbnUVWf5a8LSBQLSw,7039
+brwording/config/cloud.jpeg,sha256=VjuBiGo05Dy5loIOgjGxcLounMNz31MjlaahH_74HZU,3649
+brwording/config/lematizer.csv,sha256=zNl8cAkrZJHYjc-2csUkSegsY0dZ0ybqfnTqIDsnjTk,2706112
+brwording/config/lematizer.txt,sha256=r72l3NEuODEic8ZXoegPzyaRKHGODLCHXLTy7mu4AVA,1750488
+brwording/config/negative.csv,sha256=YWxzL3fUMKpV77rxn0HPpu1GqCBdf8H9A7esEzgO0sE,50586
+brwording/config/positive.csv,sha256=ouZHqcwoTlXIUGCwmLzo9iszdtn8cxBZ-71xyzUSuWc,8012
+brwording/config/stopwords.csv,sha256=kbrjCBXIud9WRA8fwsNOYZYRZ4AXm4-zhDOkOi2ztTM,1441
+brwording-0.0.4.dist-info/METADATA,sha256=oOXw3JfuK9Nc94si4pFTI7mRQSo92FPppqpkalhexKk,2465
+brwording-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brwording-0.0.4.dist-info/top_level.txt,sha256=KanbEC_LHkJXhI4XnU78-7ejewYQkSD2LjwB43Ftp4k,10
+brwording-0.0.4.dist-info/RECORD,,
