@@ -1,0 +1,8 @@
+README.md
+setup.py
+netkiller/__init__.py
+netkiller/firewall.py
+netkiller_firewall.egg-info/PKG-INFO
+netkiller_firewall.egg-info/SOURCES.txt
+netkiller_firewall.egg-info/dependency_links.txt
+netkiller_firewall.egg-info/top_level.txt
