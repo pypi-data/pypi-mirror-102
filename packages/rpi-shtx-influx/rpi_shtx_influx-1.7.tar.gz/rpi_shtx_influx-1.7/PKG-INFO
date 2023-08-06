@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rpi-shtx-influx
+Version: 1.7
+Summary: Check temperature using Raspberry Pi and SHT4 sensor, logging to InfluxDB 2.0
+License: AGPL-3.0-or-later
+Author: Nathaniel Waisbrot
+Author-email: code@waisbrot.net
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: adafruit-circuitpython-sht4x (>=1.0.4,<2.0.0)
+Requires-Dist: influxdb-client (>=1.16.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# rpi-temperature
+Check temperature using Raspberry Pi and SHT4 sensor
+
