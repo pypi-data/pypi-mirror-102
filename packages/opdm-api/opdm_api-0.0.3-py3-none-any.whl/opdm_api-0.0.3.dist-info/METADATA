@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: opdm-api
+Version: 0.0.3
+Summary: ENTSO-E OPDM client SOAP API implementation in python
+Home-page: https://github.com/Haigutus/OPDM
+Author: Kristjan Vilgo
+Author-email: kristjan.vilgo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: zeep
+Requires-Dist: urllib3
+Requires-Dist: lxml
+Requires-Dist: aniso8601
+
+# OPDM
+Python API for OPDM
+
+
