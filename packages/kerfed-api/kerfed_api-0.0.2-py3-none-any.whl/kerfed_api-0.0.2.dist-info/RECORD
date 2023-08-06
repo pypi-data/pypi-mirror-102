@@ -1,0 +1,10 @@
+kerfed_api/__init__.py,sha256=Ss42vc5xPyXhrIXzy1LAzFY1xDy1c5VeIAIfwH0AxsI,1557
+kerfed_api/order.py,sha256=kUsW7pQazQn7omh8_M3rG6WwFA7r8u3r5wNcqyDPz2o,3293
+kerfed_api/quote.py,sha256=NP_3nBtRi08alsPaJjYYSzu-uPzTjI7EFU8uO3YDQUA,10050
+kerfed_api/shop.py,sha256=xWSDVlJYcOfGdBP7rwUytTfuW1Jib2VnVNAkNM3vCDM,2410
+kerfed_api/version.py,sha256=miSsqPy2PFJ18TW9kocQJLcv4HFpkfQhcTzgAO-GTVE,22
+kerfed_api-0.0.2.dist-info/LICENSE,sha256=djmgEkPItD3MUb-0HF2jowfm4AsTiFYrZh1xP66KQzQ,1069
+kerfed_api-0.0.2.dist-info/METADATA,sha256=J4iL8UMl1tNfJKJsD4aXDzezNKLvg3dMJWTZ9x3Di74,1606
+kerfed_api-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kerfed_api-0.0.2.dist-info/top_level.txt,sha256=miU2-fiFAE3TOIguu22y5X57BxF6gtcpbC219EajF7o,11
+kerfed_api-0.0.2.dist-info/RECORD,,
