@@ -1,0 +1,4 @@
+[console_scripts]
+eigo=eigolingo:main
+hworld=eigolingo:hello_world
+

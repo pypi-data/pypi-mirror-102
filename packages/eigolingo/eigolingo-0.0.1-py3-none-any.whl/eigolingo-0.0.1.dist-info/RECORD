@@ -1,0 +1,10 @@
+dict70.txt,sha256=xR5ug62JhGoh6F3ZsKYd1vKnB3LpzpK0FaBDzEz8oPM,8141527
+dict80.txt,sha256=xiVV1PMRty92qTZ0dsbhWY76JEqxNw88YBUfSrvUXXo,2151794
+dict95.txt,sha256=yyarPfCS7Dg-u-ShMbuYbAiuR3R6eehnQOoMccfqPvo,3719451
+eigolingo/__init__.py,sha256=pdvKifyDmQwpo69mLLQirN1tU4P7hj85MzXKkE4dHl8,2508
+eigolingo/__main__.py,sha256=4-okFg9u1RpwmEpO1RmrNVhTw2kALqGHa7m4MkofWuU,58
+eigolingo-0.0.1.dist-info/entry_points.txt,sha256=lR-VnnJzpIFPsUu_TTNqN7es8VI4y4a0dN9KTHK9uFc,68
+eigolingo-0.0.1.dist-info/LICENSE,sha256=wffRB86ov31h0vE3WuqtlkSu6G3OHtvFOM1HoKkOaLM,1263
+eigolingo-0.0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+eigolingo-0.0.1.dist-info/METADATA,sha256=BNJ5pjYmvAL0xVX2yDBCrFdVODJb7tembBG8vu-HHdk,344
+eigolingo-0.0.1.dist-info/RECORD,,
