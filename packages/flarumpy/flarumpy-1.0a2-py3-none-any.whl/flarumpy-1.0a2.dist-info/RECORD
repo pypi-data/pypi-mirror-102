@@ -1,0 +1,11 @@
+flarumpy/__init__.py,sha256=z8QDgHBC1U2h4J3tIoGzRYjR0ATsuZuJ5BPXmPP4Td8,92
+flarumpy/flarum.py,sha256=EUiqz-qOScCVYXuEC1VVRBBeLZcXz_YJs_rtxRttgoE,987
+flarumpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flarumpy/utils.py,sha256=06fe7MQljKMe2KYZz9YWk_fF8ppBkleEpcpC_VNHkUE,209
+flarumpy/routes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flarumpy/routes/discussions.py,sha256=HuI4_eo6WWGNpCVYvJEsulNQ1WOm77sOea7Ag_S9K6U,4325
+flarumpy/routes/root.py,sha256=Zepr5RdRi1eSmZK8r6KER6jCROMjPy2I46gRVR1z0lg,1780
+flarumpy-1.0a2.dist-info/LICENSE,sha256=kAUYCUwuRrrAVqVatPscd0Lqk68RrjTtHz0S6kD7TJE,1085
+flarumpy-1.0a2.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+flarumpy-1.0a2.dist-info/METADATA,sha256=7AfpdZzMbYe3Dj2w5DjJVclU1aEzCzEJy-CCPOdrDCk,862
+flarumpy-1.0a2.dist-info/RECORD,,
