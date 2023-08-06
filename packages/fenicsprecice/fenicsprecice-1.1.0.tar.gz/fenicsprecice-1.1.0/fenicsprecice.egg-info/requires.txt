@@ -1,0 +1,4 @@
+mpi4py
+numpy>=1.13.3
+pyprecice>=2.0.0
+scipy
