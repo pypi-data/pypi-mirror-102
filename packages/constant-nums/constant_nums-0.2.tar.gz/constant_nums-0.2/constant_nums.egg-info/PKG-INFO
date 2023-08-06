@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: constant-nums
+Version: 0.2
+Summary: A final function for your constant variables
+Home-page: UNKNOWN
+Author: mejoshi
+License: UNKNOWN
+Description: # Constant
+        Whenever I think about to make that thing (intenger,float, dataframe , array) constant. it works mostly on all the languages but not in python. So, I decided to create a package for constant numbers like pi and etc. That should be easy. So, here it is.
+        #### How to use it!
+        First install library - **pip install constant_nums**
+        after that, **from constant_nums import final**
+        basic syntax should be like this only 
+         **<constant_name> = final.cons(<unit>,<constant_name>)**
+         Now here unit means anything, like int,str,dataframe and array anything. The name of the constant should be same in both the sides. Otherwise it won't a constant anymore.
+        Example : **pi = final.cons(3.14, "pi")** and voila it works.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
