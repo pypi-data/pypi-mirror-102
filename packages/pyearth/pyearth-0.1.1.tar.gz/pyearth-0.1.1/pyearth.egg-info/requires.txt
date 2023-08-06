@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+statsmodels
+pandas
+osgeo
+netCDF4
+adjustText
+jdcal
