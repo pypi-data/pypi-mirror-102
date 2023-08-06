@@ -1,0 +1,3 @@
+[console_scripts]
+vm-booking-app = api.__init__:main
+
