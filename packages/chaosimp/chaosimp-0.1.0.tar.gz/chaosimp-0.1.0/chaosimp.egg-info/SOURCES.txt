@@ -1,0 +1,8 @@
+README.md
+setup.py
+chaosimp.egg-info/PKG-INFO
+chaosimp.egg-info/SOURCES.txt
+chaosimp.egg-info/dependency_links.txt
+chaosimp.egg-info/entry_points.txt
+chaosimp.egg-info/requires.txt
+chaosimp.egg-info/top_level.txt
