@@ -1,0 +1,14 @@
+numpy
+geopandas>=0.8.1
+xarray
+pandas
+shapely
+netCDF4
+datetime
+simpledbf
+pyshp
+pysheds
+osgeo
+geovoronoi
+json5
+rasterio
