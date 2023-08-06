@@ -1,0 +1,8 @@
+misc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+misc/bayesfactorplot.py,sha256=7_lTqwQtjFcxMPqmsRilwmqDNAaA8XSIaFLj1cCTQOI,5367
+misc/cython_response_py.py,sha256=SxJZPu0mphIwoP-A2ak9uqZSJIhVoZfTzhM_6Ot99dM,5886
+blip_alpha-0.0.6.dist-info/METADATA,sha256=AP3XGbjB1zQ7rzpZFOGiiIB1pfWgcKAaShK70DHV1e8,2553
+blip_alpha-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+blip_alpha-0.0.6.dist-info/entry_points.txt,sha256=NeuEje1NeZuPKalrf6PFuAQdGJGMV8vOLevXXo43CAo,44
+blip_alpha-0.0.6.dist-info/top_level.txt,sha256=CE8upZ17JRJcQsum45r32CbLfL-dnH0L7Wa4apKdJaU,5
+blip_alpha-0.0.6.dist-info/RECORD,,
