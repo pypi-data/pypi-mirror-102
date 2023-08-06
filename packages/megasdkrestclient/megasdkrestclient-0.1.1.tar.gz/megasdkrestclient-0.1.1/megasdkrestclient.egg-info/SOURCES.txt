@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+megasdkrestclient/__init__.py
+megasdkrestclient/async_client.py
+megasdkrestclient/client.py
+megasdkrestclient/constants.py
+megasdkrestclient/errors.py
+megasdkrestclient/utils.py
+megasdkrestclient.egg-info/PKG-INFO
+megasdkrestclient.egg-info/SOURCES.txt
+megasdkrestclient.egg-info/dependency_links.txt
+megasdkrestclient.egg-info/requires.txt
+megasdkrestclient.egg-info/top_level.txt
