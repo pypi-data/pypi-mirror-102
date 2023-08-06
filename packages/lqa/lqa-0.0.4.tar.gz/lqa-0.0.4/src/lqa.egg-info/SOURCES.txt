@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lqa/__init__.py
+src/lqa/gd.py
+src/lqa.egg-info/PKG-INFO
+src/lqa.egg-info/SOURCES.txt
+src/lqa.egg-info/dependency_links.txt
+src/lqa.egg-info/top_level.txt
