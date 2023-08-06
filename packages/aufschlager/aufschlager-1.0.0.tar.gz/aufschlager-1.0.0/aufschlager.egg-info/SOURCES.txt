@@ -1,0 +1,6 @@
+README.md
+setup.py
+aufschlager.egg-info/PKG-INFO
+aufschlager.egg-info/SOURCES.txt
+aufschlager.egg-info/dependency_links.txt
+aufschlager.egg-info/top_level.txt
