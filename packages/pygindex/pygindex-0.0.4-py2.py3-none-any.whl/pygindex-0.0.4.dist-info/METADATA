@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygindex
+Version: 0.0.4
+Summary: PyGIndex - Python library/framework
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Dist: requests
+Project-URL: documentation, https://pygindex.readthedocs.io/en/latest/
+Project-URL: source, https://github.com/rytis/pygindex/
