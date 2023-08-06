@@ -1,0 +1,10 @@
+iniparser2/__init__.py,sha256=6fY7skkYtWs62kV0Ahw1yHisfDoGgFioKo6zg8QdQNI,10766
+iniparser2/api.py,sha256=kONRanLLfqt956loP5GCTBPaWofOuX0FOboQNfwTofY,3883
+iniparser2/utils.py,sha256=yaeuIPElsPcPoQpaftn4OP9y44U9UTSlKTQn_OEYkf4,2556
+iniparser2/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iniparser2/lib/binlol.py,sha256=fxFUY-DWl4rIb0q_ggZ-VglZxjHTkgodtAgbT8RFz6A,2349
+iniparser2-2.0.0.dist-info/LICENSE,sha256=KrgVX52IM5ltB1CjGioF3n5S_u9kprire03eRqMkaFg,1089
+iniparser2-2.0.0.dist-info/METADATA,sha256=gaGY8LdWjeiw7NBycI3k8GdDFSRBITgZwTb9N-5PT7c,2997
+iniparser2-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+iniparser2-2.0.0.dist-info/top_level.txt,sha256=-GEQfOYZHMjxsDa56QNZZ0ueWyThAVGuzFRffGOhCyE,11
+iniparser2-2.0.0.dist-info/RECORD,,
