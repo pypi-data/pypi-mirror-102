@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+PyPiPythonCodeThemeTest.egg-info/PKG-INFO
+PyPiPythonCodeThemeTest.egg-info/SOURCES.txt
+PyPiPythonCodeThemeTest.egg-info/dependency_links.txt
+PyPiPythonCodeThemeTest.egg-info/top_level.txt
+placeholder/__init__.py
