@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/hello/__init__.py
+src/hello/myhello.py
+src/lauanhellow.egg-info/PKG-INFO
+src/lauanhellow.egg-info/SOURCES.txt
+src/lauanhellow.egg-info/dependency_links.txt
+src/lauanhellow.egg-info/top_level.txt
