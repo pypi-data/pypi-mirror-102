@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pyslide
+Version: 0.4.5
+Summary: Python whole slide image analysis toolkit
+Home-page: https://github.com/PingjunChen/pyslide
+Author: Pingjun Chen
+Author-email: pingjunchen@ieee.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
