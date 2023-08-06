@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pepper-steam
+Version: 0.74.1
+Summary: A Steam lib for trade automation
+Home-page: https://github.com/Ambros94/steam
+Author: Luca Ambrosini
+Author-email: luca.ambro94@gmail.com
+License: MIT
+Download-URL: https://github.com/Ambros94/steam/tarball/0.74.1
+Keywords: steam,trade
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: rsa
+
+UNKNOWN
+
+
