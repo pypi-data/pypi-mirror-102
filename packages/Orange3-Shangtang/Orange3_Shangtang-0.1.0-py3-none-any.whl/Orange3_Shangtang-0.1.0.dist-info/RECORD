@@ -1,0 +1,15 @@
+Orange3_Shangtang-0.1.0-py3.7-nspkg.pth,sha256=xeeGR3TjdoVxdFeF6T-zSwZWh6Et--EYuPWu67LxL_c,574
+orangecontrib/shangtang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/shangtang/widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/shangtang/widgets/owFaceCompare.py,sha256=E7MVGC5ZXoUs237O2flxU0sBnE07JIhxmbmQTlElweY,1649
+orangecontrib/shangtang/widgets/icons/face_compare.png,sha256=AriYcQE7RXL5Hl7h6sjrMc_80xJrPKeyFQAsfYiuFvI,71588
+orangecontrib/shangtang/widgets/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orangecontrib/shangtang/widgets/utils/owShangtangApi.py,sha256=rTJV9JnMnXKNdmbOiS89-rPYO9qDwbtPxxBbleP2HdE,4504
+orangecontrib/shangtang/widgets/utils/utils.py,sha256=0IuXGIRE-riMw___kpx-AgL7POPLw713YfwW6lnOfEk,880
+Orange3_Shangtang-0.1.0.dist-info/LICENSE,sha256=rV5v0syq9jLl5kbT-Ic7Ti7IDsLrYEe2eCMVr79At3Q,334
+Orange3_Shangtang-0.1.0.dist-info/METADATA,sha256=rXLSFAzlnQpmiP4M3PSmZM4x26-LBatgT9NvIZGNVFQ,657
+Orange3_Shangtang-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Orange3_Shangtang-0.1.0.dist-info/entry_points.txt,sha256=G8u7sdTo7TLwRoYwlPJVdgSRusFOW53yNUtq0U0aE4A,118
+Orange3_Shangtang-0.1.0.dist-info/namespace_packages.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Shangtang-0.1.0.dist-info/top_level.txt,sha256=Iut-JTfT11SZHHm77_ZeszD7pZDWXcTweCbvrJpqDyQ,14
+Orange3_Shangtang-0.1.0.dist-info/RECORD,,
