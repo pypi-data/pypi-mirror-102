@@ -1,0 +1,4 @@
+[console_scripts]
+hmt-calibrate = pyHMT2D.cli:hmt_calibrate
+hmt-ras-to-srh = pyHMT2D.cli:ras_to_srh
+
