@@ -1,0 +1,17 @@
+*.so
+*.whl
+*.img
+/dist
+/build
+/*.egg-info
+target/
+*.pyc
+__pycache__
+.coverage
+.tox/
+.cache/
+.python-version
+.pytest_cache
+htmlcov/
+dive.log
+.vscode
