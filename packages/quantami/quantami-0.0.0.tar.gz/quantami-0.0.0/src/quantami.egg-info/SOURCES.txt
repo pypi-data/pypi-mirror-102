@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.cfg
+src/quantami.egg-info/PKG-INFO
+src/quantami.egg-info/SOURCES.txt
+src/quantami.egg-info/dependency_links.txt
+src/quantami.egg-info/top_level.txt
