@@ -1,0 +1,6 @@
+h5py
+objax
+pytest
+olive-oil-ml
+optax
+tqdm>=4.38
