@@ -1,0 +1,12 @@
+pysoilmap/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pysoilmap/__main__.py,sha256=0rSclCFNeAxmzjLqmXiEkPgxx1Mp07pZ_-Zx7Ui_xLE,91
+pysoilmap/shapeops.py,sha256=kXcHsHRmcH5zbKdPgQqjTfHgI56lQ9695SiLzuu2Abg,6829
+pysoilmap/cli/__init__.py,sha256=8oT9fNXTNhgtc71c6R-AcGXDuJYVIZqkRReA-zvs6ng,1122
+pysoilmap/cli/help.py,sha256=GTeJEPim1dFGTpf0brCqEsWwaOJb4UFsz2k4HothONw,338
+pysoilmap/cli/shapefile.py,sha256=toX0-Uxas2jiv9nfM12kkacEIh-JCb3-ckGBoJGe6wo,3491
+pysoilmap-0.1.0.dist-info/METADATA,sha256=U6J98YrfIuQVFFG-Fal-GujZUDfT6MSjeDV6ECFWZrY,3522
+pysoilmap-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysoilmap-0.1.0.dist-info/entry_points.txt,sha256=0fGXOK-VPMfr52OWfvmmKNLRHkFRTczppKwx4OtNyi4,50
+pysoilmap-0.1.0.dist-info/top_level.txt,sha256=lQ_5530lrmw3puTCtNu37CCX_ZzvA8O_N9QCqlkKF-Y,10
+pysoilmap-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pysoilmap-0.1.0.dist-info/RECORD,,
