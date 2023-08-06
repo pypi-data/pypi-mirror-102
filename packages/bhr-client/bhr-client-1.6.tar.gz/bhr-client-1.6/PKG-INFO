@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bhr-client
+Version: 1.6
+Summary: BHR Client
+Home-page: https://github.com/ncsa/bhr-client
+Author: Justin Azoff
+Author-email: JAzoff@illinois.edu
+License: MIT
+Description: Client for the BHR Blackhole Router site
+Keywords: bhr
+Platform: UNKNOWN
+Provides-Extra: cli
