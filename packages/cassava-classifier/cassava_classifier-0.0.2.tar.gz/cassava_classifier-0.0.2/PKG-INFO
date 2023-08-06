@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cassava_classifier
+Version: 0.0.2
+Summary: Cassava leaf disease classification using Deep neural network in Pytorch
+Home-page: https://github.com/p-s-vishnu/cassava-leaf-disease-classification
+Author: Prasanna Kumar, PS Vishnu
+License: MIT
+Description: # cassava-leaf-disease-classification
+Keywords: image classification,leaf disease classifier,pytorch
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
