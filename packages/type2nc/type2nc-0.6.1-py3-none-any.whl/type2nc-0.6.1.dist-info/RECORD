@@ -1,0 +1,12 @@
+type2nc/__init__.py,sha256=WUQGGCUOmM_dbY_e86kUdRw54eYnIZqLuak1FCgNCco,86
+type2nc/type2nc.py,sha256=iHb7_vDxGuijn2BuQ3yAjQeFwg64du07K-BjDWUlkDw,30453
+type2nc/templates/demo_pgm_template_conventional.H,sha256=OOmZ26Nz8kwqU9JYFvlUZwsNfQGZDBWSrjBZqX_mzw0,863
+type2nc/templates/demo_pgm_template_cycle.H,sha256=m0q1gnKX2OxdBJATZI3xAe8ZNleSKyF0ySSbDGrmV9A,1075
+type2nc/templates/pgm_foot_template.H,sha256=AwIlv4ku4ISCDLgOSJPnUCnQkCVoGBRgnWYoeUBS2bg,242
+type2nc/templates/pgm_head_template.H,sha256=REbKY6gwB6MmXtgaAHsDUG89y7150nJOzkv7IlPe0kA,7570
+type2nc-0.6.1.data/scripts/type2nc.py,sha256=-cvqLmmefzSFgOn4pq_q517ZnuSbuyrjK8cOvns2o9Q,30439
+type2nc-0.6.1.dist-info/LICENSE,sha256=Bk1qPqiOpKq2Ufunt5LqPikfbIKkyJkPZJhdF-fie6Q,1064
+type2nc-0.6.1.dist-info/METADATA,sha256=7Y7jG6uDf5DElOf61tLfW_f1Ro0GbRYkwk6gfOkwWSc,7538
+type2nc-0.6.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+type2nc-0.6.1.dist-info/top_level.txt,sha256=Bs4NrvH5lDaajR09r-DEZEqomICQH0cQ7KHq3CRKc3A,8
+type2nc-0.6.1.dist-info/RECORD,,
