@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ShynaBack
+Version: 0.2
+Summary: Shyna Backend functionality Package
+Home-page: UNKNOWN
+Author: Shivam Sharma
+Author-email: shivamsharma1913@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: google-speech
+Requires-Dist: jinja2
+Requires-Dist: mysql-connector-python
+Requires-Dist: nltk
+Requires-Dist: PyAudio
+Requires-Dist: sox
+
+**This is ShynaBack-end version 1.**
+
+The wheel file will be created and used to maintain the Shyna backend class available for remaining functionality.
+
+By Far we have follwing functionality at the backend:
+- Shyna_CPUInfo
+
+- Shyna_DiskInfo
+
+- Shyna_Memory_Info
+
+- ShynaTime
+
+- ShynaDB 
+
+- ShynaCheckOnline
+
+- ShynaSpeak
+
+
