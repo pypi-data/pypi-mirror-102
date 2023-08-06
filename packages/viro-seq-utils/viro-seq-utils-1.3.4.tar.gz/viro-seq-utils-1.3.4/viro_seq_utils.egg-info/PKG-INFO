@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: viro-seq-utils
+Version: 1.3.4
+Summary: Utilities modules for sequences, alignments and phylogeny from Toulouse virology laboratory.
+Home-page: http://srvhpccode.icr.local/njeanne/viro-seq-utils
+Author: Nicolas Jeanne
+Author-email: jeanne.n@chu-toulouse.fr
+License: GNU General Public License
+Project-URL: Bug Tracker, http://srvhpccode.icr.local/njeanne/viro-seq-utils/-/issues
+Description: # Sequence, alignments and phylogeny utilities
+        
+        Python package providing utilities for:
+        - sequences (nucleotides or amino acids)
+        - alignments
+        - phylogeny
+        
+Keywords: alignment sequence phylogeny
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
