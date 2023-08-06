@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PaMSClient
+Version: 0.0.1
+Summary: PaMS is a self-hosted ecosystem that allows anyone, with few resources needed, to launch a status server with an alert system. This module uses PaMS APIs to simply and easily retrieve the information you want from your PaMS status server More infos at: https://wiki.flo-x.fr/en/Software/PaMS/Introduction
+Home-page: https://wiki.flo-x.fr/en/Software/PaMS/Introduction
+Author: Asthowen
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# PaMS_Client_Python
+
+FloX PaMS Api client - Python module
+
+More Informations on the Wiki: https://wiki.flo-x.fr/en/Software/PaMS/Introduction.
+
