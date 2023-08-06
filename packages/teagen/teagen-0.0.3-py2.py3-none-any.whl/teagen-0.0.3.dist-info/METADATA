@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: teagen
+Version: 0.0.3
+Summary: The Test Equipment Automation Generator Python Package
+Home-page: https://github.com/open-traffic-generator/teagen
+Author: ajbalogh
+Author-email: andy.balogh@keysight.com
+License: MIT
+Keywords: teagen testing open traffic generator automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: jsonpath-ng
+Requires-Dist: typing
+
+### Bundler
+This repository is based on the [OpenAPI specification](
+https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md) which is a standard, language-agnostic interface to RESTful APIs. 
+
+> The `Bundler` python class attempts to bundle individual yaml files into a single file, post process extensions and validate the bundled openapi.yaml file.
+
+
