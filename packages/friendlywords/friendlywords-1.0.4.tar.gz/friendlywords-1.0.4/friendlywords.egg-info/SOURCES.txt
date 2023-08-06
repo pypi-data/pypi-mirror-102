@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+friendlywords/__init__.py
+friendlywords/friendlywords.py
+friendlywords.egg-info/PKG-INFO
+friendlywords.egg-info/SOURCES.txt
+friendlywords.egg-info/dependency_links.txt
+friendlywords.egg-info/top_level.txt
+tests/__init__.py
