@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: raydis
+Version: 0.0.2
+Summary: Python module to send Discord Message using Discord Webhooks
+Home-page: https://github.com/mdfarhaan/raydis
+Author: Mohammed Farhaan
+Author-email: farhaanm110@gmail.com
+License: MIT
+Description: This is a Python Module to send Discord Messages built on top of DiscordWebhooks Module by James Ives
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

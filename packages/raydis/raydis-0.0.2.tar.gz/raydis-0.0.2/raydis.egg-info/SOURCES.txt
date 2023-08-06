@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+raydis.py
+setup.py
+raydis.egg-info/PKG-INFO
+raydis.egg-info/SOURCES.txt
+raydis.egg-info/dependency_links.txt
+raydis.egg-info/requires.txt
+raydis.egg-info/top_level.txt
