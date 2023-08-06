@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pycci/__init__.py
+pycci/api.py
+pycci/config.py
+pycci/config.yaml
+pycci/jobtype.py
+pycci/models.py
+pycci.egg-info/PKG-INFO
+pycci.egg-info/SOURCES.txt
+pycci.egg-info/dependency_links.txt
+pycci.egg-info/requires.txt
+pycci.egg-info/top_level.txt
