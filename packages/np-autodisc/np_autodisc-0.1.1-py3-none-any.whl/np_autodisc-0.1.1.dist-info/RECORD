@@ -1,0 +1,11 @@
+np_autodisc/__init__.py,sha256=u5NxxqN30_l5VqjKC0MGsNvwFpNfn5f5Lju_ORcbsaE,801
+np_autodisc/middleware.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc/navigation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc/signals.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc/template_content.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+np_autodisc-0.1.1.dist-info/METADATA,sha256=KVw-dl8vebhRb6ZYXHsKwvPy1g0mJhm8WgS5O1uV6Fg,300
+np_autodisc-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+np_autodisc-0.1.1.dist-info/top_level.txt,sha256=dBl861QBioT3M2oC1diskERk4qKPo8qxG_HN9B20wVg,12
+np_autodisc-0.1.1.dist-info/RECORD,,
