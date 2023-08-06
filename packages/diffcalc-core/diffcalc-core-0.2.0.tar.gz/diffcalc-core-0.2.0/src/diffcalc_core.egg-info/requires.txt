@@ -1,0 +1,6 @@
+numpy>=1.14.6
+scipy>=1.4.1
+
+[:python_version < "3.7"]
+dataclasses
+typing_extensions
