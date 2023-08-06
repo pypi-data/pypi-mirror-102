@@ -1,0 +1,6 @@
+README.md
+setup.py
+cpmatch.egg-info/PKG-INFO
+cpmatch.egg-info/SOURCES.txt
+cpmatch.egg-info/dependency_links.txt
+cpmatch.egg-info/top_level.txt
