@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+pysmart_ai.egg-info/PKG-INFO
+pysmart_ai.egg-info/SOURCES.txt
+pysmart_ai.egg-info/dependency_links.txt
+pysmart_ai.egg-info/top_level.txt
