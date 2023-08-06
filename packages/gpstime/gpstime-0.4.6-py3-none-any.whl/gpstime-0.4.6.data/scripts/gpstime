@@ -1,0 +1,3 @@
+#!python
+from gpstime.__main__ import main
+main()
