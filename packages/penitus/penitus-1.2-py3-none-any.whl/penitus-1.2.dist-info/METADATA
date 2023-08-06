@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: penitus
+Version: 1.2
+Summary: Shows information about cryptocurrencies, like prices.
+Home-page: https://github.com/fckvrbd/penitus
+Author: Gino Zanella
+Author-email: iosgino@hotmail.com
+License: MIT
+Keywords: Cryptocurrency,Finances,Bitcoin,Coinpaprika,Investing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >3.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Penitus
+
+Penitus is a package used for checking cryptocurrencies, via [Coinpaprika]("https://api.coinpaprika.com/")
+
+## Installation
+```bash
+pip install penitus
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
