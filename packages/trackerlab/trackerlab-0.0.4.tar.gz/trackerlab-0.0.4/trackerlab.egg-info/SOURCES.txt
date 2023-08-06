@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+trackerlab/__init__.py
+trackerlab/__main__.py
+trackerlab/app.py
+trackerlab/app.ui
+trackerlab.egg-info/PKG-INFO
+trackerlab.egg-info/SOURCES.txt
+trackerlab.egg-info/dependency_links.txt
+trackerlab.egg-info/top_level.txt
+trackerlab/detectors/__init__.py
+trackerlab/detectors/blob_detection.py
+trackerlab/detectors/connected_components.py
+trackerlab/detectors/hough_transform.py
+trackerlab/readers/__init__.py
+trackerlab/readers/readers.py
