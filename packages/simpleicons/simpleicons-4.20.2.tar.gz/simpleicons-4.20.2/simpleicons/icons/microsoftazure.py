@@ -1,0 +1,10 @@
+from simpleicons.icon import Icon
+icon= Icon(
+    title="Microsoft Azure",
+    slug="microsoftazure",
+    hex="0089D6",
+    source="https://developer.microsoft.com",
+    svg="""<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Microsoft Azure icon</title><path d="M5.483 21.3H24L14.025 4.013l-3.038 8.347 5.836 6.938L5.483 21.3zM13.23 2.7L6.105 8.677 0 19.253h5.505v.014L13.23 2.7z"/></svg>""",
+    guidelines=None,
+    license=None,
+)
