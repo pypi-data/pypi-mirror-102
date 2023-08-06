@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: alice
+Version: 0.0.1
+Summary: A Simple and Scalable Logging Utility With a Beautiful Visualization Dashboard
+Home-page: https://github.com/geyang/alice
+Author: Ge Yang
+Author-email: ge.ike.yang@gmail.com
+License: UNKNOWN
+Keywords: alice,visualization,logging,debug,debugging
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+
+Alice, real-time piping console outputs to the web
+==================================================
+
+Examples
+--------
+
+.. code-block:: bash
+
+   python train_lstm.py | alice --path $USER/$JOB_ID
+
+now on `https://alice.io/username/job_id <under_dev>`__, you will be
+able to see the console at real time.
+
+Installation
+------------
+
+I am currently waiting for the ``pypi`` package name ``alice``.
+
+.. code-block:: bash
+
+   pip install alice
+
+before then, you can install directly from this git repo
+
+.. code-block:: bash
+
+   pip install git+https://github.com/geyang/alice.git
+
+Configurations
+--------------
+
+There are a few ways to configure ``alice``. Through command line:
+
+.. code-block:: bash
+
+   usage: alice [-h] [--path PATH] [-q] [-i IP] [--port PORT] [-d DELAY]
+                [-u USERNAME] [--token TOKEN]
+
+   optional arguments:
+     -h, --help            show this help message and exit
+     --path                specify the path to log to on the server
+     -q, --quiet           disable stdin pass-through
+     -i, --ip              host
+     --port                server port
+     -d, --delay           delay before starting to send data
+     -u, --username        username for the server
+     --token               access_token
+
+Through environment variables, you can add the following to your
+`~/.profile <~/.profile>`__.
+
+::
+
+   export ALICE_USERNAME=""
+   export ALICE_TOKEN=""
+   export ALICE_HOST=localhost
+   export ALICE_PORT=l337
+
+
