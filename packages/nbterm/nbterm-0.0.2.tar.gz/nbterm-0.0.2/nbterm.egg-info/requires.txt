@@ -1,0 +1,5 @@
+prompt-toolkit>=3
+typer
+pygments
+rich
+kernel_driver
