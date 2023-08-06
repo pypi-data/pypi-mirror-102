@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: myFramework
+Version: 0.0.2
+Summary: Python Web Framework to build APIs
+Home-page: UNKNOWN
+Author: Pablo Ruiz
+Author-email: pabloruizruiz10@gmail.com
+License: MIT
+Description: Python Web Framework to build APIs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
