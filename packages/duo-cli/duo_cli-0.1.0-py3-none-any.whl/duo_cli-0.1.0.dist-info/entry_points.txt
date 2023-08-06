@@ -1,0 +1,3 @@
+[console_scripts]
+duo=duo_cli.cli:main
+

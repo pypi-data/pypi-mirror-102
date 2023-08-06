@@ -1,0 +1,10 @@
+LICENSE,sha256=mciPONTBbC_FDD4ckMx_xZvtW7-Yd0VR5jw4hHMyUEI,1056
+duo_cli/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+duo_cli/cli.py,sha256=9EVxmFiWsAoqWJ6br1bc3BxlA71JyOQP28fUHhX2k7E,43
+duo_cli/ios_backup.py,sha256=nZDU0qAF-ny2kg0jzop_t2ko37WE5pSIqZ1CRRSU1aM,1353
+duo_cli/main.py,sha256=UW024ogCnP7txDAi71v4LiMaQlBBMOT-V2g5y4Oy4zA,9919
+duo_cli-0.1.0.dist-info/entry_points.txt,sha256=SNqNo9VtNke597HVSIR8r96PQvK53hJqUMlpBw9zXF8,40
+duo_cli-0.1.0.dist-info/LICENSE,sha256=mciPONTBbC_FDD4ckMx_xZvtW7-Yd0VR5jw4hHMyUEI,1056
+duo_cli-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+duo_cli-0.1.0.dist-info/METADATA,sha256=agNGz11LzhLQKZa24BsL1t3cLQ1NFedYbjY7kSm5Dl4,1016
+duo_cli-0.1.0.dist-info/RECORD,,
