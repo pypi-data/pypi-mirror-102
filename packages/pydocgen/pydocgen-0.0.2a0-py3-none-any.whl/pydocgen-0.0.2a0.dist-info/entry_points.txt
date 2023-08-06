@@ -1,0 +1,3 @@
+[console_scripts]
+pydocgen = pydocgen.__main__:main
+
