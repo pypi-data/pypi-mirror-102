@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <include package=".files" />
+  <include package=".gallery" />
+  <include package=".links" />
+  <include package=".text" />
+  <include package=".video" />
+
+  <browser:page
+      name="view"
+      for="imio.smartweb.core.contents.ISection"
+      class=".views.SectionView"
+      permission="zope2.View"
+      layer="imio.smartweb.core.interfaces.IImioSmartwebCoreLayer"
+      />
+
+  <subscriber
+      for="imio.smartweb.core.contents.ISection
+           zope.lifecycleevent.interfaces.IObjectAddedEvent"
+      handler=".subscriber.reindexParent"
+      />
+
+  <subscriber
+      for="imio.smartweb.core.contents.ISection
+           zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+      handler=".subscriber.reindexParent"
+      />
+
+  <subscriber
+      for="imio.smartweb.core.contents.ISection
+           zope.lifecycleevent.interfaces.IObjectRemovedEvent"
+      handler=".subscriber.reindexParent"
+      />
+
+</configure>
