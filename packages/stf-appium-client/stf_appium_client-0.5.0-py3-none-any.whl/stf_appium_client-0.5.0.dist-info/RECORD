@@ -1,0 +1,14 @@
+stf_appium_client/AdbServer.py,sha256=NemkEahpZx2llfBbut1rz8z3Ee5EmrMsrvcpdExot0c,3636
+stf_appium_client/Appium.py,sha256=l31rHRh1itQzzSyg_vKR40IudPjiTe64Ate95U3x3so,1621
+stf_appium_client/Logger.py,sha256=dqmW20JoKLfLlj79W_7B4lAbhJkLnw3VRuQ_cUPrIz8,643
+stf_appium_client/StfClient.py,sha256=lwlthNyak-5bQZUgjreM6c07JReitrd6kbC-v4EfM34,10820
+stf_appium_client/__init__.py,sha256=cVoALjEF-mSXjE5RHmV-TwGdG9oEjAKcxe4OWJAQ8SM,144
+stf_appium_client/cli.py,sha256=MKvuQIJtB7inR-0s-WdDWK1BVU72PUCuTExTZ8b9P3Y,3431
+stf_appium_client/exceptions.py,sha256=RiVJVhFKN-bS5lF3qaTmvncPwDBQHPy8zMCuFCp8nVs,260
+stf_appium_client/tools.py,sha256=FZ-j6xdoHDocHvcgL3m1gxXRNg5-jUIcfjg-kp71krM,1157
+stf_appium_client-0.5.0.dist-info/LICENSE,sha256=Qkv2mgMSm8iqvvmnUr3DUt95iX96lij5ixJAZzt8gPM,1077
+stf_appium_client-0.5.0.dist-info/METADATA,sha256=J1DZonikPGj-xegYrtA4LKaISVjkfzyMNJLb8sMjh4o,5265
+stf_appium_client-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stf_appium_client-0.5.0.dist-info/entry_points.txt,sha256=n-uzfwhyV5QgW1PExi5yZbyWOnXhN5sOwpptumTpnWA,52
+stf_appium_client-0.5.0.dist-info/top_level.txt,sha256=XO5guondjqyXnKDzaEqm3ElW1JeWKP8UsSB3WxnFHQ4,18
+stf_appium_client-0.5.0.dist-info/RECORD,,
