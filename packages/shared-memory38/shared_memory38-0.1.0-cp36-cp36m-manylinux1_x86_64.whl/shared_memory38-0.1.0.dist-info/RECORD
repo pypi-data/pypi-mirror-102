@@ -1,0 +1,10 @@
+shared_memory/shared_memory.py,sha256=aaCA7FRLL_sd9SvS8slCB70YPY-xAFEEL8kkNq8dQ2E,17468
+shared_memory/managers.py,sha256=8tIcFS7-TKtH2amizgriXeP_GOxKzMmUyQPv3Sk6nTA,7923
+shared_memory/resource_tracker.py,sha256=x24rurwiHZDODBjTTySmTzt6sAs-weJXMVts8dZhAL8,8645
+shared_memory/_posixshmem.cpython-36m-x86_64-linux-gnu.so,sha256=QEZvdZj0QBJHqKZjkV05Zp5451hOJxEB0Q-9YQltdMU,26890
+shared_memory/_winshmem.py,sha256=krJdBv2w_hXqNWj7ShP12p0lqkyH4WTrFmp1b9gHDvo,3904
+shared_memory/__init__.py,sha256=GfE2wS0AiAsw8TMnJAa3aojLROIKT8oXRsVYwHUQtG4,132
+shared_memory38-0.1.0.dist-info/RECORD,,
+shared_memory38-0.1.0.dist-info/WHEEL,sha256=IkZiJFiZiRavDHfaLV1hdVPFYe1HJNLQ8dnz1DVQgHk,109
+shared_memory38-0.1.0.dist-info/METADATA,sha256=WMqT-V-Mher7aqOKXVrrOyX9u3srvYoa-27zPD3zFCA,584
+shared_memory38-0.1.0.dist-info/top_level.txt,sha256=Bi8DSG0TzP3Nn_yzTFXFYHT0kH2ejTgVzHJZ1BGV7FU,14
