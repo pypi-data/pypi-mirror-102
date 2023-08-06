@@ -1,0 +1,17 @@
+LICENSE,sha256=Q7PqDIvUwtRvO2u2l-RkTh9E1rPIoZTskgU16TeoOas,1103
+README.md,sha256=AXZGppsi5sqk7Ja6b-wAGpk9QGyNc-ERFNenrCmG4xg,2613
+preserve/__init__.py,sha256=OoHwvIRsNAZiUF0CaO1y0XScu-zAlwilL3lGZFfFmL8,731
+preserve/cli.py,sha256=CeyhUR5_1kXowUKEUWVZbgvYAIy-rrVQM6n_JOvZEgo,3348
+preserve/connector.py,sha256=q2GZYQS89_lWfBs_-48pHF58n3VkkuibMAbRf-WWDd8,1645
+preserve/connectors/__init__.py,sha256=nfrIbosBrnpNT5223DoNyc2HPsOPvIKtFo64quvOezM,207
+preserve/connectors/memory.py,sha256=n4L0wWt3edKCHwvXdU0D0EeepE1EIXI60WSE_lnuAV4,2139
+preserve/connectors/mongo.py,sha256=hwKNJ45nuCpOoJTWbYduW7LRd0TaEobo2hTmniogKXQ,2543
+preserve/connectors/shelf.py,sha256=dYJK8gnmVISMEb66MM5dF6OXJWGFwfKkDp0X04dNBmg,2048
+preserve/preserve.py,sha256=iLaTqb0Mves3RjoyIkjKIXwWAJFll8HEj0yILfrSwB8,2864
+preserve/utils.py,sha256=mfRCSOmcqBN3He5ePTGH0CUBaOO4Gao-XBzhjTFDLuI,348
+pyproject.toml,sha256=0kW69kVaTXxxYNZLmX78BgNipm_DZKNsGGy-nm6pw8w,3104
+preserve-0.1.2a0.dist-info/entry_points.txt,sha256=mKnYRA7bESLWfetNVJmqcaiw_35vl2HPv60Si1_DHqw,45
+preserve-0.1.2a0.dist-info/LICENSE,sha256=Q7PqDIvUwtRvO2u2l-RkTh9E1rPIoZTskgU16TeoOas,1103
+preserve-0.1.2a0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+preserve-0.1.2a0.dist-info/METADATA,sha256=G4XYGGQz4KdWZf-4fIpDtfTumM0NK4Uo0fdXF4d_eqk,3881
+preserve-0.1.2a0.dist-info/RECORD,,
