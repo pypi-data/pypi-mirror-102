@@ -1,0 +1,10 @@
+PyGeometry-z6
+PyYAML
+aido-agents-daffy
+aido-protocols-daffy
+duckietown-gym-daffy
+duckietown-world-daffy
+numpy
+opencv-python
+zuper-commons-z6
+zuper-nodes-z6
