@@ -1,0 +1,11 @@
+attrs
+
+[tests]
+pytest
+
+[to_numpy]
+numpy
+
+[to_pandas]
+numpy
+pandas
