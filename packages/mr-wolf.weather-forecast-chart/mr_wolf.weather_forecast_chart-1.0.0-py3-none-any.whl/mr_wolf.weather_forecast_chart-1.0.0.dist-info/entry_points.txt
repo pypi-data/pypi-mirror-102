@@ -1,0 +1,3 @@
+[console_scripts]
+mr-wolf-weather-forecast-chart = mr_wolf.weather_forecast_chart.main:main
+
