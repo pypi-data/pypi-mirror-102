@@ -1,0 +1,5 @@
+setup.py
+mesibo/mesibo.egg-info/PKG-INFO
+mesibo/mesibo.egg-info/SOURCES.txt
+mesibo/mesibo.egg-info/dependency_links.txt
+mesibo/mesibo.egg-info/top_level.txt
