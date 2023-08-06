@@ -1,0 +1,17 @@
+hypothesis_geometry/__init__.py,sha256=MOjZNNIkejDwLfeXvoQzZuf2GscYoTLjrD-Nn42eh7o,102
+hypothesis_geometry/hints.py,sha256=1pAzTWJ37xI5iJYzUKYb8JHeiHU3z7F0Ss8hcPVfFs0,455
+hypothesis_geometry/planar.py,sha256=HCoMeB-s0u9YYypeWDCyjiXMggIfhYQnelPp01hsG58,76781
+hypothesis_geometry/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypothesis_geometry/core/base.py,sha256=cOcMXloRI1wAs4upfRo9h44JvQ9K4bUhjygvy2ArCts,43215
+hypothesis_geometry/core/constants.py,sha256=H3ZwbFfyhj0YeUBxcendNIaQ9WNtvwhAfe0-GSo2QcE,177
+hypothesis_geometry/core/contracts.py,sha256=kDYm-T0pETcGLSQTbKKezPbkZyj8xurUKYJ8iYVdrW0,5025
+hypothesis_geometry/core/factories.py,sha256=6KmJxcGS5eIWWSDx7FbtWZqNVRriCF_kg80m2wWylng,16734
+hypothesis_geometry/core/hints.py,sha256=w35v10W0e7RZI6PEMIVz4bpLGwqbON5EF-T5-y7BbJk,325
+hypothesis_geometry/core/subdivisional.py,sha256=EU4-QaGo4DmaA2mbdqjI8Gsd6g2P3ArSGIwXtU6TQ4o,4674
+hypothesis_geometry/core/triangular.py,sha256=aAz1qnoiMrPP5AsfX2O7doSweBHbobUl_gvf-fe4gk4,8478
+hypothesis_geometry/core/utils.py,sha256=YGLVxK_11CnrvNpew2UP7Q3V3KA64btnpuFz3xsng_M,1162
+hypothesis_geometry-1.4.0.dist-info/LICENSE,sha256=kb_Ykh5WQPYn_ZctWwkNTiKHmssa2CEqg2b3s7Tle9k,1090
+hypothesis_geometry-1.4.0.dist-info/METADATA,sha256=CGrXK6L13_rCrUyFGab7ftvToscMKPCxwKfE6NxAZeo,18166
+hypothesis_geometry-1.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hypothesis_geometry-1.4.0.dist-info/top_level.txt,sha256=NybbY-yEaQgb6se1RfX6s52r1SQ5jDh2xlrWlBm-sFw,20
+hypothesis_geometry-1.4.0.dist-info/RECORD,,
