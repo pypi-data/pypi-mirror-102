@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: arrayfactor
+Version: 1.0.3
+Summary: Array Factor Calculator
+Home-page: UNKNOWN
+Author: Merve Tascioglu
+Author-email: <merve.tascioglu@barkhauseninstitut.org>
+License: UNKNOWN
+Keywords: python,antenna array,array factor
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# Array Factor Calculator & AF Pattern Plot
+
+##   Installation
+```pip install arrayfactor==1.0.3```
+
+
+##  Modules
+
+The **arrayfactor** library enables to calculate the normalized array factor values
+in the range of -180 to 180 degree with respect to the array factor input
+variables which are: Inter-element spacing,frequency,steering angle,
+number of array elements,plane.
+
+The six main modules of the package are: 
+
+* ```af.af_asym_phasescannig``` : To get Array Factor of Uniform or Asymmetrically Spaced Arrays with Phase Shifting Technique
+* ```af.af_asym_timescannig```  : To get Array Factor of Uniform or Asymmetrically Spaced Arrays with True Time Delay Technique
+* ```af.af_symmetrical_phasescannig``` : To get Array Factor of Symmetrically Spaced Arrays with Phase Shifting Technique
+* ```af.af_symmetrical_timescannig```  : To get Array Factor of Symmetrically Spaced Arrays with True Time Delay Technique
+* ```af.cartesian_plot``` : To get Array Factor Pattern on 2D Cartesian plot
+* ```af.polar_plot``` : To get Array Factor Pattern on 2D Polar plot
+
+
+##  Description of Input Variables
+
+*  af.af_asym_phasescannig(```bx```,``` by```, ```bz```, ```f```, ```f0```, ```steering_angle```, ```Nx```, ```Ny```, ```Nz```, ```increase_rate```, ```plane```)
+*  af.af_asym_timescannig(```bx```,``` by```, ```bz```, ```f```, ```f0```, ```steering_angle```, ```Nx```, ```Ny```, ```Nz```, ```increase_rate```, ```plane```)
+*  af.af_symmetrical_phasescannig(```bx```,``` by```, ```bz```, ```f```, ```f0```, ```steering_angle```, ```Nx```, ```Ny```, ```Nz```, ```increase_rate```, ```plane```)
+*  af.af_symmetrical_timescannig(```bx```,``` by```, ```bz```, ```f```, ```f0```, ```steering_angle```, ```Nx```, ```Ny```, ```Nz```, ```increase_rate```, ```plane```)
+*  af.cartesian_plot(```x_axis```, ```y_axis```)
+*  af.polar_plot(```x_axis```, ```y_axis```)
+
+
+* ```bx``` : The coefficient represents the association of distance between elements along x axis and wavelength (dx=bx*lambda)
+* ```by``` : The coefficient represents the association of distance between elements along y axis and wavelength (dy=by*lambda)
+* ```bz``` : The coefficient represents the association of distance between elements along z axis and wavelength (dz=bz*lambda)
+* ```f```  : Frequency of the signal sent.
+* ```f0``` : Center Frequency.
+* ```steering_angle``` : It is desired beam steering angle. It must be written in degree.
+* ```Nx``` : Total number of elements along x axis
+* ```Ny``` : Total number of elements along y axis
+* ```Nz``` : Total number of elements along z axis
+* ```increase_rate``` : This is the amount of change of distance between two successive elements in the case of NON-UNIFORM ASYMMETRICAL OR NON-UNIFORM SYMMETRICAL spacing.
+
+**Note:** For uniform array, ```af.af_asym_phasescannig``` or ```af_asym_timescannig``` must be used and ```increase rate``` must be set as 0.
+
+For the further information about it, please refer to the link: https://github.com/Barkhausen-Institut/AntennaArraySimulator/blob/master/ArrayFactorUserInterface/Theory%20of%20Array%20Factor.pdf
+* ```plane``` : It decides if the results are obtained on E or H plane. 'E' or 'H' must be written.
+
+* ``` x_axis``` : Values of x axis of the plot.
+* ``` y_axis``` : Values of y axis of the plot.
+
+##  Outputs of Modules
+
+Output of aforementioned functions (modules) is consisting of two Numpy arrays:\
+1-First element (array) contains the values of incident angle as range from -180 to +180 degree.\
+2-Second element (array) contains the values of normalized array factor.
+
+
+##  Examples of Usage
+
+**Example 1:** Get the normalized array factor values of 16 elements broadside uniform linear array along x- axis (spacing based on half wavelength) at 10 GHz on E plane.
+
+```
+from arrayfactor import af
+result=af.af_asym_phasescannig(0.5,0,0,10e9,10e9,0,16,1,1,0,'E')
+
+#To get Cartesian Plot:
+af.cartesian_plot(result[0], result[1])
+
+#To get Polar Plot:
+af.polar_plot(result[0], result[1])
+
+```
+
+**Example 2:** Get the normalized array factor values of 8 elements symmetric linear array with the increase rate=0.1 along x- axis (spacing based on half wavelength) at 10 GHz on E plane and with 30Â° beam steering angle (by TTD technique).
+```
+from arrayfactor import af
+result=af.af_symmetrical_timescannig(0.5,0,0,10e9,10e9,0,16,1,1,0.1,'E')
+
+#To get the Cartesian Plot:
+af.cartesian_plot(result[0], result[1])
+
+#To get Polar Plot:
+af.polar_plot(result[0], result[1])
+```
+
+
+
+
