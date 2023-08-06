@@ -1,0 +1,13 @@
+numpsy/__init__.py,sha256=MOu55IMGrT4kzRIxzfajnO5PaB5PFT-SQG_pB2yssro,224
+numpsy/configuration.py,sha256=0dW1eCCrcDvS_zUzZVWnyoQ_SvGRLUuwKRnfvlwWnwc,928
+numpsy/constants.py,sha256=BxuXkbTci643UcuMgqAOpHuFV1oJYIvCe7IJ9wRoAAk,1126
+numpsy/core.py,sha256=6xgTsBQU87fkvQN519fKAZl8s2sW8MLTwHXWGom5A4w,21250
+numpsy/functions.py,sha256=q7DdopnTpbBxVGRubONgT4p22eyRsUiQmTVacBEM5wI,2394
+numpsy/helpers.py,sha256=GVs8BpjOIaYgL7LvEqaQGztusiIYMmbTvJokXZVeq0o,4210
+numpsy/printers.py,sha256=nbiOY0MyOJkzmW0zcXCu2pknKH3Va9YLQ9Z2LYAv3gk,3612
+numpsy/units.py,sha256=HebC2gMqknL9gWB7w8gTn42ioE2tweIC2Aq7uZdjLls,709
+numpsy-0.0.5.dist-info/LICENSE,sha256=NHML7i6_h9OyuKD6KQ_JcxnSGIekuQP7WC7zO8wAkWE,1087
+numpsy-0.0.5.dist-info/METADATA,sha256=_SziH80VrYlTVvOZHctij8k1HtM-E7YpNaIV-Xqj1oY,11721
+numpsy-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+numpsy-0.0.5.dist-info/top_level.txt,sha256=zX9gy4pIKkFXkg4ZwjMlSJ6vh8QosTrU6u7O4QV59oQ,7
+numpsy-0.0.5.dist-info/RECORD,,
