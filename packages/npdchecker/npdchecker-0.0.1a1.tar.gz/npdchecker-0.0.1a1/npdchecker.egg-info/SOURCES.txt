@@ -1,0 +1,7 @@
+README.md
+setup.py
+npdchecker.egg-info/PKG-INFO
+npdchecker.egg-info/SOURCES.txt
+npdchecker.egg-info/dependency_links.txt
+npdchecker.egg-info/requires.txt
+npdchecker.egg-info/top_level.txt
