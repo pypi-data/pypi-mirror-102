@@ -1,0 +1,145 @@
+<!--
+Copyright (c) 2019 Keitaro AB
+
+Use of this source code is governed by an MIT license
+that can be found in the LICENSE file or at
+https://opensource.org/licenses/MIT.
+-->
+
+{# Adds 'Visualize View' #}
+
+<div class="visualize-wrapper" data-module="visualize-data" data-module-resource-id="{{ resource_id }}"
+  data-module-resource-view="{{ h.dump_json(resource_view) }}"
+  data-module-color-palette="{{ h.dump_json(h.get_color_palette()) }}" data-module-bar-chart-icon="{{ bar_chart_icon }}"
+  data-module-line-chart-icon="{{ line_chart_icon }}" data-module-point-chart-icon="{{ point_chart_icon }}">
+  <div class="panel panel-default panel-visualize">
+    <div class="panel-heading">
+      <div class="row d-flex flex-wrap">
+        <div class="col-md-3 d-flex panel-wrap-flex pr-0">
+          <div class="panel panel-default">
+            <figure class="panel-body panel-body-h-100">
+              <img src="{{ h.url_for_static('/base/images/Chart-placeholder.png') }}" id="chart-icon"
+                class="img-responsive" alt="An icon representing visualization type" />
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-9 d-flex panel-wrap-flex">
+          <div class="panel panel-default d-flex overflow-auto-ie">
+            <div id="all-columns" class="panel-body group-items-select">
+              {% for field in fields %}
+              {% if field.type == 'text' %}
+              {% set column_color = '#332288' %}
+              {% elif field.type == 'numeric' %}
+              {% set column_color = '#117733' %}
+              {% elif field.type == 'date' %}
+              {% set column_color = '#44AA99' %}
+              {% elif field.type == 'time' %}
+              {% set column_color = '#88CCEE' %}
+              {% elif field.type == 'timestamp' %}
+              {% set column_color = '#DDCC77' %}
+              {% elif field.type == 'bool' %}
+              {% set column_color = '#CC6677' %}
+              {% elif field.type == 'int' %}
+              {% set column_color = '#AA4499' %}
+              {% elif field.type == 'float' %}
+              {% set column_color = '#882255' %}
+              {% else %}
+              {% set column_color = '#332288' %}
+              {% endif %}
+
+              <div class="list-group-item column" data-column="{{ field.value }}" data-column-type="{{ field.type }}">
+                <span class="badge-pill column-pill" style="background-color: {{ column_color }};"><i
+                    class="fa {{ h.get_icon_for_data_type(field.type) }} fa-fw" aria-hidden="true"></i><span
+                    class="pill-title" title="{{ field.value }}">{{ field.value }}</span></span>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="panel-footer">
+              <ul class="list-inline">
+                <li>
+                  <h5 class="text-muted desc-muted">Data Types</h5>
+                </li>
+                <li>
+                  <i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+                  <span>Text</span>
+                </li>
+                <li>
+                  <i class="fa fa-calculator fa-fw" aria-hidden="true"></i>
+                  <span>Numeric</span>
+                </li>
+                <li>
+                  <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>
+                  <span>Date</span>
+                </li>
+                <li>
+                  <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>
+                  <span>Time</span>
+                </li>
+                <li>
+                  <i class="fa fa-hourglass-half fa-fw" aria-hidden="true"></i>
+                  <span>Timestamp</span>
+                </li>
+                <li>
+                  <i class="fa fa-file-excel-o fa-fw" aria-hidden="true"></i>
+                  <span>Integer</span>
+                </li>
+                <li>
+                  <i class="fa fa-percent fa-fw" aria-hidden="true"></i>
+                  <span>Float</span>
+                </li>
+                <li>
+                  <i class="fa fa-toggle-on fa-fw" aria-hidden="true"></i>
+                  <span>Boolean</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row group-items-drop">
+        <div class="col-md-3 pr-0">
+          <div id="aggregation" class="axis-list aggregation-list">
+            <small class="axis-title">{{ _('Aggregation Type') }}</small>
+            <span class="badge badge-pill">
+              <i class="fa fa-filter fa-fw" aria-hidden="true"></i><span>Count</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-4 pr-0">
+              <div id="x-axis" class="axis-list x-axis-list">
+                <small class="axis-title">{{ _('X-axis') }}</small>
+              </div>
+            </div>
+            <div class="col-md-4 pr-0">
+              <div id="y-axis" class="axis-list y-axis-list">
+                <small class="axis-title">{{ _('Y-axis') }}</small>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="color-attr" class="axis-list color-attr-list">
+                <small class="axis-title">{{ _('Color') }}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-body">
+      <div class="chart-container hidden">
+        <canvas id="chart-canvas"></canvas>
+      </div>
+      <div class="no-chart-container">
+        <div class="chart-unsupported hidden alert alert-warning">
+          <i class="fa fa-warning fa-fw" aria-hidden="true"></i>
+          <span>{{ _('The requested graph type combination is currently not supported. Please try with another pill combination.') }}</span>
+        </div>
+        <figure class="no-chart-illustration">
+          <img src="/base/images/No-chart-illustration.png" class="img-responsive" alt="Illustration image" />
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,19 @@
+<!--
+Copyright (c) 2019 Keitaro AB
+
+Use of this source code is governed by an MIT license
+that can be found in the LICENSE file or at
+https://opensource.org/licenses/MIT.
+-->
+
+{% block visualize_view_show %}
+    {% snippet 'snippets/visualize_view_show.html',
+                fields=fields,
+                resource_id=resource.id,
+                resource_view=resource_view,
+                bar_chart_icon=bar_chart_icon,
+                line_chart_icon=line_chart_icon,
+                point_chart_icon=point_chart_icon
+    %}
+{% endblock %}
+
