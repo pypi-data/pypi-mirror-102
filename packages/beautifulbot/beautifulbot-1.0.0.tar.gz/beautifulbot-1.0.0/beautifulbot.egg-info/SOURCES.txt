@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Soppi/__init__.py
+beautifulbot.egg-info/PKG-INFO
+beautifulbot.egg-info/SOURCES.txt
+beautifulbot.egg-info/dependency_links.txt
+beautifulbot.egg-info/requires.txt
+beautifulbot.egg-info/top_level.txt
