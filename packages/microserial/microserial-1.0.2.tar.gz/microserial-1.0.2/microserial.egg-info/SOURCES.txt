@@ -1,0 +1,7 @@
+README.md
+setup.py
+microserial.egg-info/PKG-INFO
+microserial.egg-info/SOURCES.txt
+microserial.egg-info/dependency_links.txt
+microserial.egg-info/requires.txt
+microserial.egg-info/top_level.txt
