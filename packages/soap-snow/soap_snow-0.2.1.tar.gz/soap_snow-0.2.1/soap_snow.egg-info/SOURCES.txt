@@ -1,0 +1,9 @@
+README.md
+setup.py
+soap_snow/__init__.py
+soap_snow/soap_snow.py
+soap_snow.egg-info/PKG-INFO
+soap_snow.egg-info/SOURCES.txt
+soap_snow.egg-info/dependency_links.txt
+soap_snow.egg-info/requires.txt
+soap_snow.egg-info/top_level.txt
