@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+evalSemanticSeg/__init__.py
+evalSemanticSeg/cityscapes_label_data.py
+evalSemanticSeg/cvat_to_cityscape_labels.py
+evalSemanticSeg/deprectaed_code.py
+evalSemanticSeg/evaluator.py
+evalSemanticSeg/extract_labels.py
+evalSemanticSeg.egg-info/PKG-INFO
+evalSemanticSeg.egg-info/SOURCES.txt
+evalSemanticSeg.egg-info/dependency_links.txt
+evalSemanticSeg.egg-info/not-zip-safe
+evalSemanticSeg.egg-info/requires.txt
+evalSemanticSeg.egg-info/top_level.txt

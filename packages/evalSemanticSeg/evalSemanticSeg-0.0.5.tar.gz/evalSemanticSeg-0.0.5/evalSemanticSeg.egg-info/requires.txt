@@ -1,0 +1,7 @@
+numpy
+pyyaml
+tensorflow>=2.4
+pandas
+opencv-python>=3.4
+scikit-image
+scikit-learn
