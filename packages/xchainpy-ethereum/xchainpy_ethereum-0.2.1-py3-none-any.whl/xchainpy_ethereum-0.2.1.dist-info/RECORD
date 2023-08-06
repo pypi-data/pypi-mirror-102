@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_asset.py,sha256=Bh55yuJheN8rzSTm428cco-Al4bexanl4yH6Ji-Pxx4,1262
+tests/test_mainnet_client.py,sha256=3MhWbSXIJO1MCj_Mmau1V5_GjsRwSFAXT_8mNs6iTic,9327
+tests/test_ropsten_client.py,sha256=kYK4oi_lzsteLaQNfen1rYxaTq-TuTTks9Vzoe4_cZg,9526
+xchainpy_ethereum/__init__.py,sha256=wy0s86d0kySb1KViro8Qa7RDLaMBLnCM4YdKGGT7hNo,94
+xchainpy_ethereum/client.py,sha256=ktEbr28gBMF99XUnSqxjssZt8jRoF_RLsONwC_0Ucwc,13167
+xchainpy_ethereum/crypto.py,sha256=7S7uQN7xfK-3OU2QPbJE08RbaBfcSn8z3M5Z2143amM,544
+xchainpy_ethereum/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xchainpy_ethereum/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xchainpy_ethereum/models/asset.py,sha256=pe6lcILcfJzPlrkSM1Cpfnyx88dYyB0gIcMEc3xI2Cw,784
+xchainpy_ethereum/resources/ERC20,sha256=K4JwwuNqU-WKvk718T9DRP4DoDJovJnpTlNsmuBCssI,5153
+xchainpy_ethereum/resources/ether_api,sha256=uObQ7tCnM1LGJ2lI08gv0jsTF4XHi80Mq93frE945YY,34
+xchainpy_ethereum-0.2.1.dist-info/LICENSE,sha256=zqfI56XfGEL1CnJLSskw8-Db6PvOdurAYLhQ5ap7y6E,1065
+xchainpy_ethereum-0.2.1.dist-info/METADATA,sha256=VyFc8Ht1jtgKcaH0xsqXfv6lgYsXnVk3MIgln9xk0UI,2606
+xchainpy_ethereum-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xchainpy_ethereum-0.2.1.dist-info/top_level.txt,sha256=5zmkY4zUk-v-CsYN1ybZ_-ljPEE66mhIfonN2rrHv_Y,24
+xchainpy_ethereum-0.2.1.dist-info/RECORD,,
