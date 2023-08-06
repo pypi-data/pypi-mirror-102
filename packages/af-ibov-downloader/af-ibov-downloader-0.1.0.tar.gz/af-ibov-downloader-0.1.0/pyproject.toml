@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "af-ibov-downloader"
+version = "0.1.0"
+description = "A CLI tool to download market data from ibovespa"
+authors = ["Leonardo Rossetti <me@lrossetti.com>"]
+license = "MIT"
+readme="README.md"
+homepage="https://af-ibov-downloader.readthedocs.io/en/latest/"
+repository="https://gitlab.com/aerofin/tooling/af-ibov-downloader"
+packages = [
+  { include = "af_ibov_downloader", from = "src" }
+]
+
+[tool.poetry.scripts]
+af-ibov-downloader = 'af_ibov_downloader.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+pytest-sugar = "^0.9.4"
+requests-mock = "^1.8.0"
+Sphinx = "^3.5.4"
+sphinx-rtd-theme = "^0.5.2"
+mypy = "^0.812"
+dephell = "^0.8.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dephell.main]
+from = { format = "poetry", path = "pyproject.toml" }
+to = { format = "setuppy", path = "setup.py" }
