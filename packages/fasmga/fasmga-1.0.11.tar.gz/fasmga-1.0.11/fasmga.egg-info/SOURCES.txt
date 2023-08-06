@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fasmga.egg-info/PKG-INFO
+fasmga.egg-info/SOURCES.txt
+fasmga.egg-info/dependency_links.txt
+fasmga.egg-info/top_level.txt
