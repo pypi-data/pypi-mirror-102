@@ -1,0 +1,7 @@
+README.md
+setup.py
+alignn/__init__.py
+alignn.egg-info/PKG-INFO
+alignn.egg-info/SOURCES.txt
+alignn.egg-info/dependency_links.txt
+alignn.egg-info/top_level.txt
