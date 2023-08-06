@@ -1,0 +1,11 @@
+ngpuinfo/__init__.py,sha256=zLgkxX5-0Qz-_o6yK9rE6-fsRlqd_WirvaVlUTYUzNQ,70
+ngpuinfo/byte_units.py,sha256=Cxf2hdekRuRznMq16vvdJ5ge4IVTVUWeJERxeFxKWpk,2815
+ngpuinfo/ngpu.py,sha256=T4eEQnqHdpzMRrFMDv3Yq-xgMo8lDe9DTYbWVR2FQpM,1267
+ngpuinfo/ngpu_detect.py,sha256=N8u_BsBCheLGB1-1xxM0C1QtEQ1JbHad7tjT0kyoZ-U,1440
+ngpuinfo/ngpuinfo.py,sha256=rbF3Xq3jSDsC0TFE1LJcNm2_7-G55rv3nnVDQTNYvvc,606
+ngpuinfo/xml_parser.py,sha256=qh-FxVqzzOgIz3XZ7w8JtY23dKPBJizgGBfEDPgOHcE,464
+ngpuinfo-0.1.0.dist-info/LICENSE,sha256=_kLv4f2SN-ml_wV9eQiiwTvT9SSvNax2o7JGe3wklmo,1068
+ngpuinfo-0.1.0.dist-info/METADATA,sha256=xJfrEYsPKkbBgyeT4mSOH3Ymid1SvHwQHXjBtCS6Y30,1222
+ngpuinfo-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ngpuinfo-0.1.0.dist-info/top_level.txt,sha256=GXeK18o3xPI-xn4vgiSv9HIsL3oipBAZTu0VEvhdnkY,9
+ngpuinfo-0.1.0.dist-info/RECORD,,

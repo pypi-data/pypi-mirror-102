@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ngpuinfo
+Version: 0.1.0
+Summary: A simple package used for getting gpu information.
+Home-page: https://github.com/malanore-z//ngpuinfo
+Author: malanore
+Author-email: malanore.z@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/malanore-z//ngpuinfo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# NGPUInfo
+
+## Install
+`pip install ngpuinfo`
+
+## Description
+This package uses `nvidia-smi` to get gpu information, so it only support nvidia gpus, and the `nvidia-smi` must be in 
+system path.
+
+## Get start
+```python
+from ngpuinfo import NGPUInfo
+
+print(NGPUInfo.NUMBERS)
+print(NGPUInfo.CUDA_VERSION)
+gpus = NGPUInfo.list_gpus()
+for g in gpus:
+    print()
+    print(g.id)
+    print(g.name)
+    print(g.mem_info())
+```
+
+## Usage
+```python
+gpu = NGPUInfo.list_gpus()[0]
+
+gpu.mem_total() # total mem of gpu, realtime refresh, the unit is Byte
+gpu.mem_used()  # used  mem of gpu, realtime refresh, the unit is Byte
+gpu.mem_free()  # free  mem of gpu, realtime refresh, the unit is Byte
+```
+
