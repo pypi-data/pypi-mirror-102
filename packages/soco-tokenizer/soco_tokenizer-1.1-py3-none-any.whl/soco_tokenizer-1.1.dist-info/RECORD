@@ -1,0 +1,13 @@
+soco_tokenizer/__init__.py,sha256=tVXsXvDp9LWMzOToa5lZBrsNaN8ZqYuwpVH_CeTCgkI,342
+soco_tokenizer/bert_tokenizer.py,sha256=UKM27hHAZ_HxnwQMsPzTm6JjLzQBpQ8Y82F85NBBYlI,4206
+soco_tokenizer/cloud_bucket.py,sha256=AHHeAWAF7Yy3ku52Re-P4uw7G8ZugGaWiNEu7OLWkC8,3140
+soco_tokenizer/config.py,sha256=uQPuojDyq5KrrzySEt0N6saf6Fhz8rq1OWMU6n3gqsg,433
+soco_tokenizer/logging_handlerr.py,sha256=0Yhyv1o7q0k8bCDQHPBtJR1wsuU0KkzBzG-EcZ6pm3U,402
+soco_tokenizer/model_loaders.py,sha256=3v0vRlNK0TJRw3iliS5wWCZmLQotIjofLAiRP59EYQM,234
+soco_tokenizer/tokenizer.py,sha256=4TV9dh2aeHkK6Vsrw70z9kH2dl-DX-WNT6ylxFjWjZM,1795
+soco_tokenizer/util.py,sha256=F4kTWQPZ18bYkJ5HS3v4UUSSQrWnIOI49DLesoCbuLs,5854
+soco_tokenizer-1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+soco_tokenizer-1.1.dist-info/METADATA,sha256=6Bno1yIP5r2eIvLjdMQkfjHEKNJ1XD_xZbH1QQ11dPI,1006
+soco_tokenizer-1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+soco_tokenizer-1.1.dist-info/top_level.txt,sha256=OaLyuYtcdRq2eB-sd7Wu37CSwYVpxarw3-Aj_5T7RbY,15
+soco_tokenizer-1.1.dist-info/RECORD,,
