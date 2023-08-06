@@ -1,0 +1,8 @@
+README.md
+setup.py
+opject_client/__init__.py
+opject_client/client.py
+opject_client.egg-info/PKG-INFO
+opject_client.egg-info/SOURCES.txt
+opject_client.egg-info/dependency_links.txt
+opject_client.egg-info/top_level.txt
