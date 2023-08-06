@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/allium-echelle
+src/allium/__init__.py
+src/allium/sphere.py
+src/allium.egg-info/PKG-INFO
+src/allium.egg-info/SOURCES.txt
+src/allium.egg-info/dependency_links.txt
+src/allium.egg-info/requires.txt
+src/allium.egg-info/top_level.txt
