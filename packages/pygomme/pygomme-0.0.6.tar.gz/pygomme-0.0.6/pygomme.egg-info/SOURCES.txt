@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pygomme/__init__.py
+pygomme/functions.py
+pygomme/gomme.py
+pygomme.egg-info/PKG-INFO
+pygomme.egg-info/SOURCES.txt
+pygomme.egg-info/dependency_links.txt
+pygomme.egg-info/requires.txt
+pygomme.egg-info/top_level.txt
+pygomme.egg-info/zip-safe
