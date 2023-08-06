@@ -1,0 +1,75 @@
+[bob.bio.algorithm]
+bic = bob.bio.base.config.algorithm.bic:algorithm
+distance-cosine = bob.bio.base.config.algorithm.distance_cosine:algorithm
+distance-euclidean = bob.bio.base.config.algorithm.distance_euclidean:algorithm
+distance-hamming = bob.bio.base.config.algorithm.distance_hamming:algorithm
+dummy = bob.bio.base.test.dummy.algorithm:algorithm
+dummy_metadata = bob.bio.base.test.dummy.algorithm:algorithm_metadata
+lda = bob.bio.base.config.algorithm.lda:algorithm
+pca = bob.bio.base.config.algorithm.pca:algorithm
+pca+lda = bob.bio.base.config.algorithm.pca_lda:algorithm
+pca+plda = bob.bio.base.config.algorithm.pca_plda:algorithm
+plda = bob.bio.base.config.algorithm.plda:algorithm
+
+[bob.bio.annotator]
+dummy = bob.bio.base.test.dummy.annotator:annotator
+
+[bob.bio.cli]
+annotate = bob.bio.base.script.annotate:annotate
+annotate-samples = bob.bio.base.script.annotate:annotate_samples
+baseline = bob.bio.base.script.baseline:baseline
+cmc = bob.bio.base.script.commands:cmc
+compare-samples = bob.bio.base.script.compare_samples:compare_samples
+det = bob.bio.base.script.commands:det
+dir = bob.bio.base.script.commands:dir
+epc = bob.bio.base.script.commands:epc
+evaluate = bob.bio.base.script.commands:evaluate
+gen = bob.bio.base.script.gen:gen
+hist = bob.bio.base.script.commands:hist
+metrics = bob.bio.base.script.commands:metrics
+multi-metrics = bob.bio.base.script.commands:multi_metrics
+pipelines = bob.bio.base.script.pipelines:pipelines
+roc = bob.bio.base.script.commands:roc
+sort = bob.bio.base.script.sort:sort
+
+[bob.bio.config]
+dummy = bob.bio.base.test.dummy.config
+dummy2 = bob.bio.base.test.dummy.config2
+dummy_samples = bob.bio.base.test.dummy.samples_list
+
+[bob.bio.database]
+dummy = bob.bio.base.test.dummy.database:database
+
+[bob.bio.extractor]
+dummy = bob.bio.base.test.dummy.extractor:extractor
+dummy_metadata = bob.bio.base.test.dummy.extractor:extractor_metadata
+linearize = bob.bio.base.config.extractor.linearize:extractor
+
+[bob.bio.pipelines.cli]
+vanilla-biometrics = bob.bio.base.script.vanilla_biometrics:vanilla_biometrics
+vanilla-biometrics-ztnorm = bob.bio.base.script.vanilla_biometrics_ztnorm:vanilla_biometrics_ztnorm
+
+[bob.bio.preprocessor]
+dummy = bob.bio.base.test.dummy.preprocessor:preprocessor
+dummy_metadata = bob.bio.base.test.dummy.preprocessor:preprocessor_metadata
+filename = bob.bio.base.config.preprocessor.filename:preprocessor
+
+[bob.cli]
+bio = bob.bio.base.script.bio:bio
+vulnerability = bob.bio.base.script.vulnerability:vulnerability
+
+[bob.db]
+bio_filelist = bob.bio.base.database.filelist.driver:Interface
+
+[bob.vuln.cli]
+det = bob.bio.base.script.vuln_commands:det
+epc = bob.bio.base.script.vuln_commands:epc
+epsc = bob.bio.base.script.vuln_commands:epsc
+fmr_iapmr = bob.bio.base.script.vuln_commands:fmr_iapmr
+gen = bob.bio.base.script.vuln_commands:gen
+hist = bob.bio.base.script.vuln_commands:hist
+roc = bob.bio.base.script.vuln_commands:roc
+
+[console_scripts]
+resources.py = bob.bio.base.script.resources:resources
+
