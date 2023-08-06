@@ -1,0 +1,7 @@
+README.md
+setup.py
+digi.egg-info/PKG-INFO
+digi.egg-info/SOURCES.txt
+digi.egg-info/dependency_links.txt
+digi.egg-info/requires.txt
+digi.egg-info/top_level.txt
