@@ -1,0 +1,9 @@
+sdllib/__init__.py,sha256=R-hHDT2HG5Hd1ScAjlxfdGmKo3oI1BBTuNmvDaGl3fY,23
+sdllib/playground/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdllib/playground/hello_world.py,sha256=YsOLszIv2DMQB0EUAQXfnoPI0mu3AeEnI7bdbRc-kIo,425
+sdllib-0.0.0.dist-info/LICENSE,sha256=cZSv3QzV-1MmbjWlu1XPcOycqeLv4ljH2RsjXmmU8NA,963
+sdllib-0.0.0.dist-info/METADATA,sha256=cVIHltf2uyVieP_vUzwOKR2yKDAsBEww5NI31ZYa-4Y,1320
+sdllib-0.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+sdllib-0.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+sdllib-0.0.0.dist-info/top_level.txt,sha256=Xii2MsTwxBWKiGTrQQJF6ZJwt2QnFQE5TN3epQy9qO4,7
+sdllib-0.0.0.dist-info/RECORD,,
