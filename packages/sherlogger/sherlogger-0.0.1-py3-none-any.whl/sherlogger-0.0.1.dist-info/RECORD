@@ -1,0 +1,17 @@
+sherlogger/__init__.py,sha256=mVgXU3NR3NSt_eMxJQmcCg60pP4uaa1x_tRcUL0Uojo,790
+sherlogger/config.py,sha256=08wuU0RboDME7CAEPzfgOHoPf1Y8NEH35R5vqNmzg2w,1274
+sherlogger/filters.py,sha256=vgy2o4jFgEDdgghY9KVjtl8DADZTPG3MOI3Tq0LN090,30
+sherlogger/handlers.py,sha256=STlsqO6_4KdNyOW0sURb4CqqcMqDjtLKQmvvjTSnG_c,3358
+sherlogger/logger.py,sha256=Odl78PZ5TQzeA0V9zPjikP_hNU7NltHowJmrwyLSTw0,2609
+sherlogger/models.py,sha256=m3jERKPOUk8E2Mw1MUuKFi3eDV0DvPPmyqopT8LpmJg,589
+sherlogger/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sherlogger/plugins/config.py,sha256=Xxj-xGwb4Wm4QhHQmQCm8YuHpDC2noez_slZGpP-p40,538
+sherlogger/plugins/telegram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sherlogger/plugins/telegram/executor.py,sha256=PEvgeagz7XStJcFU2nNsYTbxQORSlHM2Tn5NUD62lK8,257
+sherlogger/plugins/telegram/handlers.py,sha256=GMpwDdy0IINTO1ynjup5LLAQ6brmv_p1CssJXvx7SWk,3460
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sherlogger-0.0.1.dist-info/LICENSE,sha256=0yuIjkls137rfTpgb0TEs5YctX7c6mSAM2G4N5ilvgg,1061
+sherlogger-0.0.1.dist-info/METADATA,sha256=9Y3NM9GFfdMA2yTXgypgRECkvMqh_sIqrh2NaPWodao,1275
+sherlogger-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sherlogger-0.0.1.dist-info/top_level.txt,sha256=LtnYMCCpAbVZObPT7dl8InSei8glmLFhLVJpt210_rk,17
+sherlogger-0.0.1.dist-info/RECORD,,

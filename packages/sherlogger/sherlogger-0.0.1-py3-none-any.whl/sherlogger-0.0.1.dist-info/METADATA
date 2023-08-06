@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: sherlogger
+Version: 0.0.1
+Summary: Simple logger which can work with network!
+Home-page: https://github.com/Kel0/sherlog
+Author: Kel0
+Author-email: rozovdima123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.7.4.post0)
+
+# sherlog
+
+# Usage
+
+### Default logger
+By default, logger will record everything in the directory
+where you calling it
+```python
+from sherlog import logger
+
+logger.info("THIS IS LOG MESSAGE")
+```
+To change logs directory call `.set_stream()` method
+```python
+from sherlog import logger
+from sherlog import FileSystemHandler
+
+
+logger.set_stream(  # <path_to_dir>, <Handler>
+    "~/home/ubuntu/...", FileSystemHandler
+)
+logger.info("THIS IS LOG MESSAGE")
+```
+
+### Telegram logger
+
+#### Setup
+* **.ini file**
+
+    Create plugins.ini file. Format of file and required
+    data is located in plugins.ini.example
+
+Logger sends your message to telegram in asynchronous manner.
+
+`tlogger` will run in separated thread.
+```python
+from sherlog import tlogger
+
+tlogger.info("This is log message")
+```
+
+
