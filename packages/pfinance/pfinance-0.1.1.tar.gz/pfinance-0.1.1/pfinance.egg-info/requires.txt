@@ -1,0 +1,11 @@
+
+[dev]
+nox
+wheel
+twine
+pytest
+flake8
+
+[test]
+nox
+pytest
