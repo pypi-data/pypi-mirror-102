@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rm_my_package/__init__.py
+rm_my_package/my_module.py
+rm_my_package.egg-info/PKG-INFO
+rm_my_package.egg-info/SOURCES.txt
+rm_my_package.egg-info/dependency_links.txt
+rm_my_package.egg-info/top_level.txt
+rm_my_package.egg-info/zip-safe
+rm_my_package/data/sample.txt

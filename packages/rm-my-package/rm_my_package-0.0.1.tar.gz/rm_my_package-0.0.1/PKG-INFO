@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: rm_my_package
+Version: 0.0.1
+Summary: Demo
+Home-page: UNKNOWN
+Author: Ramya M
+Author-email: ramya.mrao13@gmail.com
+License: BSD 3-Clause License
+Project-URL: Source, https://github.com/RamyaM12/publish_package_fun.git
+Description: ## publish_package_fun
+        Sample for python packaging
+Keywords: rm,fun
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
