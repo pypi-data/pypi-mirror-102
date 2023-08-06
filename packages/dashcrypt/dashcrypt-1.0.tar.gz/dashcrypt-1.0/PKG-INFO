@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: dashcrypt
+Version: 1.0
+Summary: Simple Encrypt basic hash
+Home-page: https://github.com/billalxcode/dashcrypt
+Author: Billal Fauzan
+Author-email: billal.xcode@domain.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: encrypt,encode,encoder,crypto,dashcrypt,hash
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
