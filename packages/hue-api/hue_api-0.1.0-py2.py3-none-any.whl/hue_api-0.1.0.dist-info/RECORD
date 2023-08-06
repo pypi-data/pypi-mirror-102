@@ -1,0 +1,9 @@
+hue/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+hue/api.py,sha256=vymcjrcboB1jN2JncNmADuOM5wc5HcRjqP85B290xck,1628
+hue/cli.py,sha256=7WZIQnCL-MvXAcGE5vtw1lQmOMAoaNQZ3rjDJOVAJBc,342
+hue_api-0.1.0.dist-info/LICENSE,sha256=3dYrFJZrI5EMdSQoZTxG5ivsXMtJ7GxAaTkAdhhB51E,1072
+hue_api-0.1.0.dist-info/METADATA,sha256=thGgEqjOCmmwuV-jYCFJu8Jypmk7rbZwwvKM5veI1d0,1203
+hue_api-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+hue_api-0.1.0.dist-info/entry_points.txt,sha256=Kr7EOYJpUZa8gcG-YPIdo5TrmgWtiTggNQLtWF1BNa0,38
+hue_api-0.1.0.dist-info/top_level.txt,sha256=3A57afv1dXSOT4aFDgut1aLymh79FqWK_CoDDT7uzyc,4
+hue_api-0.1.0.dist-info/RECORD,,
