@@ -1,0 +1,10 @@
+cotter/__init__.py,sha256=86gvCBr_xxdZjGo74KKHN-IlYMWTTucnss4PK5MKyE0,4564
+cotter/constants.py,sha256=MA8YWz9WJeMy0WQq4hXHffu70oJMSqT39ip51iD3wJc,138
+cotter/errors.py,sha256=5ojdExWApjCUVKX5PN2cwTHWF2J1RayDnZhX_XNto24,106
+cotter/tokenhandler.py,sha256=91AQZJ9wGGTqQPj4Zi6SDKmdMI5LzUb4kIz4Z-fKMlo,1440
+cotter/validate.py,sha256=JaBpByt-R0ps_n66ozk3-gKkZwT4-_77gx3flcAKTS4,960
+cotter-0.0.7.dist-info/LICENSE,sha256=1T83eoXpIQuE0gZAGxs2z1DC1dtBchjrUKawvqtRHv8,1480
+cotter-0.0.7.dist-info/METADATA,sha256=wbU-S2aIwcgtr_Y6OCvCiHYFgKk2cY7LJlOxWzRFt1k,3645
+cotter-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cotter-0.0.7.dist-info/top_level.txt,sha256=mC9hFcEizIcoBctxSUELJiIPlVqWu8ZuSMgqh4Jdan8,7
+cotter-0.0.7.dist-info/RECORD,,
