@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+etronome/__init__.py
+etronome/__main__.py
+etronome/controller.py
+etronome/model.py
+etronome/observable.py
+etronome/sound.py
+etronome/view.py
+etronome.egg-info/PKG-INFO
+etronome.egg-info/SOURCES.txt
+etronome.egg-info/dependency_links.txt
+etronome.egg-info/top_level.txt
+etronome/assets/__init__.py
+etronome/assets/click.wav
