@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: html2png
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://github.com/metagriffin/html2png
+Author: metagriffin
+Author-email: mg.pypi@metagriffin.net
+License: GPLv3+
+Description: ========
+        html2png
+        ========
+        
+        .. IMPORTANT::
+        
+          This package is still in the planning/pre-alpha phase.
+        
+        
+        Overview
+        ========
+        
+        A Python library and command-line utility to rasterize an
+        HTML page into a PNG file.
+        
+        
+        TL;DR
+        =====
+        
+        Installation::
+        
+          pip install html2png
+        
+        
+        Command-line usage::
+        
+          html2png {URL} > output.png
+        
+        
+        Python usage::
+        
+          import html2png
+        
+          png = html2png.render('<html><body><p>Hello, world!</p></body></html>')
+          png = html2png.render_url('http://example.com/')
+        
+Keywords: html rendering rasterizing qt5 web engine
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
