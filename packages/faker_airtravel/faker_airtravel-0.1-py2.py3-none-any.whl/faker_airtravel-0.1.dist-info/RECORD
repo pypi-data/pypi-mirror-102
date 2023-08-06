@@ -1,0 +1,10 @@
+faker_airtravel/__init__.py,sha256=SgFuRiDMA6zR-KhpLamDAYJ6y4X-oD3htKbDWIPrKWI,61
+faker_airtravel/airtravel/__init__.py,sha256=BnKmR1ZBf5Bs0A_Z-MP0mSIewMytIxDp-xQV3O8H7Uo,39
+faker_airtravel/airtravel/airlines_dict.py,sha256=DbCDKrU11k4dfrjLtR3eIZN4UREArqjGkVEiHkL6z9w,1248
+faker_airtravel/airtravel/airport_dict.py,sha256=gJ3QGldbvZybLQHVVjfVz9ho6INRO-KETo3QOA9jWvA,65758
+faker_airtravel/airtravel/airports.py,sha256=7bjvUKa7YgxnteIFhRPZ2DTQcAQiETraOXQ4LwbRi60,1771
+faker_airtravel/airtravel/tests/test_airports.py,sha256=EmWKy2MSjSA4_T3D5TC0pb74LItsW0xyIdsp9V3f4vA,960
+faker_airtravel-0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+faker_airtravel-0.1.dist-info/WHEEL,sha256=iTBNkFIR26Wnx2cg5455J1IIBEskRg4YJC9DJwgu-js,99
+faker_airtravel-0.1.dist-info/METADATA,sha256=W5v6t9eyo4m9SzSjx36gNwP5LXP9ESfPELuGPf7GO0I,2318
+faker_airtravel-0.1.dist-info/RECORD,,
