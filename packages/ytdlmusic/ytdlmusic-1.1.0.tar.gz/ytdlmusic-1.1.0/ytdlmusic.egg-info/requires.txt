@@ -1,0 +1,3 @@
+setuptools
+youtube-search-python
+youtube_dl
