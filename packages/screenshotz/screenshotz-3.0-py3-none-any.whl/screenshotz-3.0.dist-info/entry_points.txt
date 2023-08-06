@@ -1,0 +1,3 @@
+[console_scripts]
+screenshotz=screenshotz:command.do_command
+

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: screenshotz
+Version: 3.0
+Summary: Basic screenshot scripting
+License: Unlicense
+Author: Robert Lechte
+Author-email: robert.lechte@dpc.vic.gov.au
+Requires-Python: >=3.8,<4
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow
+Requires-Dist: pyyaml
+Requires-Dist: selenium
+Description-Content-Type: text/markdown
+
+# `screenshotz`: Easy screenshot scripting
+
