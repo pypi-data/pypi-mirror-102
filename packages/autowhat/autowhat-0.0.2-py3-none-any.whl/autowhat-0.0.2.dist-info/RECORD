@@ -1,0 +1,10 @@
+autowhat/__init__.py,sha256=HFKgn9G7u8n5o_6B2UJvFvbmsYtlEW23PLLZUbocVl4,292
+autowhat/group_creator.py,sha256=QTW--68mMHdTn_VaH181aHEpTAYhKLYVZcIQPBOsI1k,2275
+autowhat/helper.py,sha256=fkHPal5lxZ7vtO8ANSli69E4jIMg7NWd8QH0up2PPBk,1800
+autowhat/initializer.py,sha256=dUkUDgSJKMnAxKp_7AijntZMvaCGJLA1h6vI2TuxiZQ,1359
+autowhat/sender.py,sha256=lD3ayNIrUdbfCop-Y2NE1q6HvOf-x4Eo6j16LSX-WYQ,2813
+autowhat/spammer.py,sha256=c0wNShrVpzmSw0p6CBwH07Y6njJvyozBm1RZJEQVV0Q,334
+autowhat-0.0.2.dist-info/METADATA,sha256=twZ4ArgHldacRTlz85bTUjhvW1FCLTQ5unqj0nE8Pks,686
+autowhat-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autowhat-0.0.2.dist-info/top_level.txt,sha256=kOQ9UypzSEI24-JQJ9LnckyxEGcPSZGBrcYhbPIiQ-Y,9
+autowhat-0.0.2.dist-info/RECORD,,
