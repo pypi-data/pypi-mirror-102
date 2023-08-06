@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: amxtelnet
+Version: 0.0.7
+Summary: xlsx to amx dict list
+Home-page: https://github.com/pypa/amxtelnet
+Author: Logan Vaughn
+Author-email: logantv@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/amxtelnet/issues
+Description: # amxtelnet
+        amx telnet functions
+        
+        Separating the polling/.txt creation from the parsing to make it easier to
+        decide if you want to rescan masters before reading the information
+        
+        minimum requirements when instantiating:
+        AMXTelnet(user_name, password)
+        ParseAMXResponse()
+        
+        AMXTelnet.output_path and ParseAMXResponse.input_path will normally refer to the same location.
+        AMXTelnet creates the files, and ParseAMXResponse reads them. If you use the default locations
+        in each class, they'll work together using /telnet responses/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
