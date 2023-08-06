@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+estructuraDatos/__init__.py
+estructuraDatos.egg-info/PKG-INFO
+estructuraDatos.egg-info/SOURCES.txt
+estructuraDatos.egg-info/dependency_links.txt
+estructuraDatos.egg-info/top_level.txt

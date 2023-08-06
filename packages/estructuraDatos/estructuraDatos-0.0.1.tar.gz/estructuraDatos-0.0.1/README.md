@@ -1,0 +1,1 @@
+### Paquete para crear estructuras de datos requeridas para la solución de problemas de búsqueda no-informada e informada.
