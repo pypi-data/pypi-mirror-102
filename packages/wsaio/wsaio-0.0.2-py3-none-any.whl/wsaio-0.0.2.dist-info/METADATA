@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wsaio
+Version: 0.0.2
+Summary: An event-driven WebSocket library for Python.
+Home-page: https://github.com/asleep-cult/wsaio
+Author: Zavier Mayo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# wsaio
+An event-driven WebSocket library for Python built on top of asyncio's protocols.
+
+```py
+import asyncio
+import itertools
+
+import wsaio
+
+URL = 'wss://echo.websocket.org'
+
+
+class HelloClient(wsaio.WebSocketClient):
+    @wsaio.taskify
+    async def ws_connected(self):
+        for i in itertools.count():
+            print(f'[HelloClient] Sending data - COUNT: {i}')
+            await self.send_str('Hello World')
+            await asyncio.sleep(5)
+
+    def ws_text_received(self, data):
+        print(f'[HelloClient] Received frame - DATA: {data}')
+
+    def closing_connection(self, exc):
+        print(f'[HelloClient] Closed while {self.strstate()}', str(exc))
+
+
+client = HelloClient()
+client.loop.create_task(client.connect(URL))
+client.loop.run_forever()
+```
+
+
