@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: navitools
+Version: 0.0.2
+Summary: Some bread-and-butter algorithms for motion planning
+Home-page: UNKNOWN
+Author: William Bell
+Author-email: wjbell97@gmail.com
+License: UNKNOWN
+Keywords: path planning,motion planning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+

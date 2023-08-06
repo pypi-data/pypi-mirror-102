@@ -1,0 +1,9 @@
+_navitools.cpython-39-x86_64-linux-gnu.so,sha256=Hsb4qml7aCtQsOL69zgREQMfzrBex70mQd2ocn1QbN4,365240
+navitools-0.0.2.dist-info/RECORD,,
+navitools-0.0.2.dist-info/WHEEL,sha256=C-sg6l2ppbqlkU_0fUt0o5fTSvsM-h9TfVKAh4ryMfI,111
+navitools-0.0.2.dist-info/METADATA,sha256=qKDxk_KlGYIcCLtpWJS8ooTsM1M6E6F4WdmAb_SHMUY,426
+navitools-0.0.2.dist-info/top_level.txt,sha256=5qAGMIJtfEVSdlkKMa9zJvrwOswlwuzQaCs7RCiYgcU,21
+navitools-0.0.2.dist-info/LICENSE,sha256=_bCPeugBviTvSYLbnaLQVvWVBT7LeYeS7K8R2QdJa5I,1068
+navitools/__init__.py,sha256=qqDj9-7T-U0DkA-PiYqa4c8pjqlvD0EawgV9oxg0Uyo,24
+navitools/testing/common.py,sha256=qXp84q3ae0GR5cdtD5H4SPDkzNs88amnEGfTYwRAVRM,1517
+navitools/testing/__init__.py,sha256=66MV5YCbnpF4ac_SvTVJ000RxM1AIsclX7OatiA-Wak,22
