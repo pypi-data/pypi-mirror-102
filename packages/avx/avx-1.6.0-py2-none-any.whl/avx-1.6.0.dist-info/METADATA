@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: avx
+Version: 1.6.0
+Summary: Library for controlling A/V devices
+Home-page: https://github.com/jamesremuscat/avx
+Author: James Muscat
+Author-email: jamesremuscat@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: enum34
+Requires-Dist: Pyro4 (!=4.45,>=4.20)
+Requires-Dist: pyserial
+Requires-Dist: pyusb
+Requires-Dist: semantic-version
+
+AVX is a library for controlling A/V devices such as video switchers. ...
+
+
