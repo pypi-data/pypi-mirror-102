@@ -1,0 +1,11 @@
+roll_the_dice/__init__.py,sha256=owZDnZcObeQLJLZrCr7jDztsSY-D5GficXVcFTYAgm0,124
+roll_the_dice/choice.py,sha256=uzX80Y3YQvtVxYk4LAzCeYYGposYXaD4LqeBYmvL4D8,70
+roll_the_dice/dice.py,sha256=JESQ1TqNuWEwNQiwkHz2ERFW09wJeeQslw6roMxCB2k,203
+roll_the_dice/eight_ball.py,sha256=2ClVomRPeyTiHybt-WbTAPV0CoYmWMpp2i7QIFbZmfU,605
+roll_the_dice/roll.py,sha256=j9fqJGzvre8_N-79H2SFFTcIOQ8HgtuzayvMRllkynM,1130
+plover_roll_the_dice-0.1.0.dist-info/METADATA,sha256=hAqiYDwPJeNbA3MiFnMHA0mLbAlaOzx_2BWI0GZQQVs,2133
+plover_roll_the_dice-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plover_roll_the_dice-0.1.0.dist-info/entry_points.txt,sha256=z5n3KTkUhCUkRswKuW1s9Hfmj6aFqLNOvGgyweAt_k8,46
+plover_roll_the_dice-0.1.0.dist-info/top_level.txt,sha256=3QxUVk-0AS_IzoPZyrBgVf6UyIcWbSBZzf2ztrE-ZCY,14
+plover_roll_the_dice-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_roll_the_dice-0.1.0.dist-info/RECORD,,
