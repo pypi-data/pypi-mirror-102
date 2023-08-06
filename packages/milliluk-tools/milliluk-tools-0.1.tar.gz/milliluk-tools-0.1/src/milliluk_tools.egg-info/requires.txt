@@ -1,0 +1,9 @@
+pypng
+
+[test]
+black
+pycodestyle
+pylint
+pytest
+pytest-cov
+tox

@@ -1,0 +1,4 @@
+[console_scripts]
+cgp220 = milliluk.cgp220.cgp220:main
+max2png = milliluk.max2png.max2png:main
+

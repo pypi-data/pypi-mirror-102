@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: milliluk-tools
+Version: 0.1
+Summary: TRS-80 Color Computer Tools
+Home-page: https://github.com/milliluk/milliluk-tools
+Author: Erik Gavriluk
+License: CC BY-NC-ND 4.0
+Description: # Milliluk Tools
+        
+        Assorted tools for TRS-80 Color Computer and 6809/6309 development.
+        
+        **cgp220.py** - render captured Tandy CGP-220 (Canon PJ-1080A) serial output as .png
+        
+        **max2png.py** - convert CoCo Max images (.MAX) to .png
+        
+        
+        ### Dependencies
+        
+        Python 3 supported. Requires pypng (pip install pypng).
+        
+        
+        ### License
+        
+        Released under the [Artistic License 2.0](https://opensource.org/licenses/Artistic-2.0).
+        
+        
+Keywords: coco image conversion trs-80 tandy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+Provides-Extra: test
