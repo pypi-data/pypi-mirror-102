@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ptCryptoClub
+Version: 1.0.0
+Summary: Python SDK for ptcrypto.club
+Home-page: UNKNOWN
+Author: Helder Cepeda
+Author-email: <helder_cepeda@hotmail.com>
+License: UNKNOWN
+Keywords: python,crypto,community,cryptocurrencies,bitcoin,ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Project under development. In the meanwhile visit https://www.ptcrypto.club, https://app.ptcrypto.club or https://iam.ptcrypto.club and become a member of our community.
+
+
