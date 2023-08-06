@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: pysmart-ai
+Version: 0.0.5
+Summary: A smarter way of automating machine learning and deep learning 🔥
+Home-page: UNKNOWN
+Author: Abdul Azim
+Author-email: abdulazim0402@gmail.com
+License: MIT
+Description: A smarter way of automating machine learning and deep learning ðŸ”¥
+        
+        
+        Change Log
+        ==========
+        
+        0.0.3 (20-04-2021)
+        ------------------
+        
+        - First Release
+        
+Keywords: AutoML
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
