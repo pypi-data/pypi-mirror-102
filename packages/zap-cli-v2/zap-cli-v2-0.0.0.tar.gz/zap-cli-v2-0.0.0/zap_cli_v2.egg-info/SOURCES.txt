@@ -1,0 +1,6 @@
+README.md
+zap_cli_v2.egg-info/PKG-INFO
+zap_cli_v2.egg-info/SOURCES.txt
+zap_cli_v2.egg-info/dependency_links.txt
+zap_cli_v2.egg-info/top_level.txt
+zap_cli_v2.egg-info/zip-safe
