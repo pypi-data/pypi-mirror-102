@@ -1,0 +1,7 @@
+README.md
+setup.py
+graphmanagerlibrary.egg-info/PKG-INFO
+graphmanagerlibrary.egg-info/SOURCES.txt
+graphmanagerlibrary.egg-info/dependency_links.txt
+graphmanagerlibrary.egg-info/requires.txt
+graphmanagerlibrary.egg-info/top_level.txt
