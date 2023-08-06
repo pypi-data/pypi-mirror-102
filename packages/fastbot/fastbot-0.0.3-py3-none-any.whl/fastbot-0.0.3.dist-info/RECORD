@@ -1,0 +1,12 @@
+fastbot/__init__.py,sha256=zQkkG10lFEW8H0jWrhAZ2cXJn4RMpoWqngajILhEap8,280
+fastbot/_version.py,sha256=cqMRlSvtXNenfrMB-M-Tt6_yTB4wzKdaO5USAZtNm0o,142
+fastbot/core.py,sha256=UoD8yoMUCBAVuQ7h0OvwKmHqVU-ch4QU96FvvnDxdF4,5335
+fastbot/json.py,sha256=vx7UroqLmlBbzVxepcEdsNTsm5CssPx_fqHglcFNcMw,1829
+fastbot/main.py,sha256=kh-YyFdf5_eWdaZ6CX-KLZVMfW-6wBYBASaqIWBc8k0,1643
+fastbot/memcached.py,sha256=Y-Ulie9_U7J9bcoRn5keZu4a0qSLzpYedyrrlBV9C9w,652
+fastbot/redis.py,sha256=q4XOapWTnt2Ehg9scbVGuxrTucSUvN5l1ZH8SJDzn6Y,757
+fastbot/responses.py,sha256=F7aXBvUdUr0QST05mGk_u0TsCSFkcRk7N_aoAuj0iL8,1899
+fastbot-0.0.3.dist-info/METADATA,sha256=hyZupScK109GOTuANKKQ1ldFK_RABFRf1ylsW2Q9tzo,4293
+fastbot-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastbot-0.0.3.dist-info/top_level.txt,sha256=VEMkKdP6MZ29NXFFgrBo7DPQwb0ubhrUTMw6DUILlPQ,8
+fastbot-0.0.3.dist-info/RECORD,,
