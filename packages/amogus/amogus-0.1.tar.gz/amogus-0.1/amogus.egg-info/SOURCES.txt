@@ -1,0 +1,7 @@
+README.md
+setup.py
+amogus/__init__.py
+amogus.egg-info/PKG-INFO
+amogus.egg-info/SOURCES.txt
+amogus.egg-info/dependency_links.txt
+amogus.egg-info/top_level.txt
