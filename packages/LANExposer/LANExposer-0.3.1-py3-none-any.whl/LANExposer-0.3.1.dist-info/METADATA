@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: LANExposer
+Version: 0.3.1
+Summary: Make LAN requests remotely.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: flask
+Requires-Dist: pyngrok
+
+# LAN Expose
+
+
