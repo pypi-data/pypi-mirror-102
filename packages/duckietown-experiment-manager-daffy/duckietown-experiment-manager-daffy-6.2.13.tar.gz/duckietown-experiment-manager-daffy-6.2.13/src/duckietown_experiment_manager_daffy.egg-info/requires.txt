@@ -1,0 +1,14 @@
+PyYAML
+aido-analyze-daffy
+aido-protocols-daffy
+aiohttp
+duckietown-challenges-daffy
+duckietown-world-daffy
+multidict
+numpy
+procgraph-z6
+pytz
+stopit
+zuper-ipce-z6
+zuper-nodes-z6
+zuper-typing-z6
