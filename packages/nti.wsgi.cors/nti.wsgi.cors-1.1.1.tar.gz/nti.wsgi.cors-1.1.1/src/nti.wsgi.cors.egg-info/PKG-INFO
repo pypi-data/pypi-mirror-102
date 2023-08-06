@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: nti.wsgi.cors
+Version: 1.1.1
+Summary: Support for CORS in a WSGI environment
+Home-page: https://github.com/NextThought/nti.wsgi.cors
+Author: Jason Madden
+Author-email: jason@nextthought.com
+License: Apache
+Description: ============
+        nti.wgi.cors
+        ============
+        
+        .. image:: https://github.com/NextThought/nti.wsgi.cors/workflows/tests/badge.svg
+            :target: https://github.com/NextThought/nti.wsgi.cors/actions?query=workflow%3Atests
+        
+        .. image:: https://coveralls.io/repos/github/NextThought/nti.wsgi.cors/badge.svg?branch=master
+             :target: https://coveralls.io/github/NextThought/nti.wsgi.cors?branch=master
+        
+        A WSGI middleware for handling CORS.
+        
+        
+        =========
+         Changes
+        =========
+        
+        
+        1.1.1 (2021-04-20)
+        ==================
+        
+        - Greenlet dependency is only required on CPython. See `Issue 2
+          <https://github.com/NextThought/nti.wsgi.cors/issues/2>`_
+        
+        1.1.0 (2021-04-20)
+        ==================
+        
+        - Add support for python 3.7, 3.8 and 3.9.
+        
+        
+        1.0.0 (2017-04-20)
+        ==================
+        
+        - First PyPI release.
+        - Add support for Python 3.
+        
+Keywords: wsgi cors
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: test
+Provides-Extra: docs
