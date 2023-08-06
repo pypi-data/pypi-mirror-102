@@ -1,0 +1,6 @@
+sphinx
+furo
+sphinx-copybutton>=0.3.1
+sphinx-substitution-extensions>=2020.9.30.0
+sphinx-notfound-page>=0.5
+sphinxcontrib-towncrier
