@@ -1,0 +1,8 @@
+README.md
+setup.py
+homedepot_product_scraper/__init__.py
+homedepot_product_scraper.egg-info/PKG-INFO
+homedepot_product_scraper.egg-info/SOURCES.txt
+homedepot_product_scraper.egg-info/dependency_links.txt
+homedepot_product_scraper.egg-info/requires.txt
+homedepot_product_scraper.egg-info/top_level.txt
