@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: foris_plugins_distutils
+Version: 0.31.1
+Summary: Distutils patches to add commands for foris plugin handling
+Home-page: https://gitlab.nic.cz/turris/foris/foris-plugins-distutils/
+Author: CZ.NIC, z. s. p. o.
+Author-email: packaging@turris.cz
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: foris_plugins_distutils

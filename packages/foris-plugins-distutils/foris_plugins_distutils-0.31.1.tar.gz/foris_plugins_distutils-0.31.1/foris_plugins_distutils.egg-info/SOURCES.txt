@@ -1,0 +1,8 @@
+setup.py
+foris_plugins_distutils/__init__.py
+foris_plugins_distutils.egg-info/PKG-INFO
+foris_plugins_distutils.egg-info/SOURCES.txt
+foris_plugins_distutils.egg-info/dependency_links.txt
+foris_plugins_distutils.egg-info/entry_points.txt
+foris_plugins_distutils.egg-info/requires.txt
+foris_plugins_distutils.egg-info/top_level.txt
