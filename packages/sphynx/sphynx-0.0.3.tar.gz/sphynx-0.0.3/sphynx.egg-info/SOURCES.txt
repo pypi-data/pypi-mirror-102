@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+sphynx/__init__.py
+sphynx/lib.py
+sphynx.egg-info/PKG-INFO
+sphynx.egg-info/SOURCES.txt
+sphynx.egg-info/dependency_links.txt
+sphynx.egg-info/requires.txt
+sphynx.egg-info/top_level.txt
