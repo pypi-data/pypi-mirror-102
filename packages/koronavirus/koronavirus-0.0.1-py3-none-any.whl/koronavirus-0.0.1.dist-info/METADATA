@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: koronavirus
+Version: 0.0.1
+Summary: Koronavirüs (Covid-19) verilerine erişmenizi sağlayan bir Python modülü.
+Home-page: https://github.com/Dorukyum/koronavirus
+Author: Dorukyum
+Author-email: dorukyum@gmail.com
+License: MIT
+Keywords: API,Türkçe,Covid,Korona,Corona
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+UNKNOWN
+
+
