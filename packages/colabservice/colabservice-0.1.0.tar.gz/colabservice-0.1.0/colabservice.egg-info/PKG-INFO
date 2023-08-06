@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: colabservice
+Version: 0.1.0
+Summary: Make Google Colab Notebooks available as a Servbice
+Home-page: https://github.com/voodoohop/colabasaservice
+Author: Pollination in Blatant Space (thomash)
+Author-email: t.haferlach@gmail.com
+License: MIT
+Description: ## Colab as a Service
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

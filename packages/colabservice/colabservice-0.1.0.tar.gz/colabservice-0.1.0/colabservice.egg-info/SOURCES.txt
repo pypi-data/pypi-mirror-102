@@ -1,0 +1,8 @@
+README.md
+setup.py
+colabservice/colabservice.py
+colabservice.egg-info/PKG-INFO
+colabservice.egg-info/SOURCES.txt
+colabservice.egg-info/dependency_links.txt
+colabservice.egg-info/requires.txt
+colabservice.egg-info/top_level.txt
