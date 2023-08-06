@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyshs
+Version: 0.1.1
+Summary: Module PySHS pour faciliter le traitement statistique en SHS avec Python
+Home-page: http://eschultz.fr
+Author: Émilien Schultz
+Author-email: emilien.schultz@gmail.com
