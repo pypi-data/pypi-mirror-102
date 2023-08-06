@@ -1,0 +1,7 @@
+include *.rst
+include CHANGELOG, pytest.ini, requirements.txt
+graft src
+graft docs
+graft tests
+prune src/*.egg-info
+global-exclude *.py[cod] __pycache__ *.so
