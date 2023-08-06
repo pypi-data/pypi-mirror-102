@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+chrome_cookiejar/__init__.py
+chrome_cookiejar/decrypt.py
+chrome_cookiejar/main.py
+chrome_cookiejar/path.py
+chrome_cookiejar/unix_crypt.py
+chrome_cookiejar/win32crypt.py
+chrome_cookiejar.egg-info/PKG-INFO
+chrome_cookiejar.egg-info/SOURCES.txt
+chrome_cookiejar.egg-info/dependency_links.txt
+chrome_cookiejar.egg-info/requires.txt
+chrome_cookiejar.egg-info/top_level.txt
+chrome_cookiejar.egg-info/zip-safe
