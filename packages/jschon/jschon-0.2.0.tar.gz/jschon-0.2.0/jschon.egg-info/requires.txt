@@ -1,0 +1,10 @@
+rfc3986
+
+[dev]
+pytest
+coverage
+hypothesis
+pytest-benchmark
+
+[test]
+tox
