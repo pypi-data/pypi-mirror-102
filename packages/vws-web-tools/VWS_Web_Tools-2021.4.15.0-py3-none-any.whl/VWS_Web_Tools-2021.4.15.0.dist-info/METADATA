@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: VWS-Web-Tools
+Version: 2021.4.15.0
+Summary: Tools for interacting with the Vuforia Web Services (VWS) website.
+Home-page: https://github.com/VWS-Python/vws-web-tools
+Author: Adam Dangoor
+Author-email: adamdangoor@gmail.com
+License: MIT License
+Keywords: vuforia vws
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/x-rst
+Requires-Dist: selenium
+Requires-Dist: click
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: PyGithub (==1.54.1) ; extra == 'dev'
+Requires-Dist: Sphinx-Substitution-Extensions (==2020.9.30.0) ; extra == 'dev'
+Requires-Dist: autoflake (==1.4) ; extra == 'dev'
+Requires-Dist: black (==20.8b1) ; extra == 'dev'
+Requires-Dist: check-manifest (==0.46) ; extra == 'dev'
+Requires-Dist: doc8 (==0.8.1) ; extra == 'dev'
+Requires-Dist: flake8-commas (==2.0.0) ; extra == 'dev'
+Requires-Dist: flake8-quotes (==3.2.0) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.0) ; extra == 'dev'
+Requires-Dist: freezegun (==1.1.0) ; extra == 'dev'
+Requires-Dist: furo (==2021.4.11b34) ; extra == 'dev'
+Requires-Dist: isort (==5.8.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.812) ; extra == 'dev'
+Requires-Dist: pip-check-reqs (==2.2.0) ; extra == 'dev'
+Requires-Dist: pydocstyle (==6.0.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.7.4) ; extra == 'dev'
+Requires-Dist: pyroma (==3.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.11.1) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.3) ; extra == 'dev'
+Requires-Dist: sphinx (==3.5.4) ; extra == 'dev'
+Requires-Dist: sphinxcontrib.spelling (==7.1.0) ; extra == 'dev'
+Requires-Dist: twine (==3.4.1) ; extra == 'dev'
+Requires-Dist: vulture (==2.3) ; extra == 'dev'
+Requires-Dist: sphinx-click ; extra == 'dev'
+
+|Build Status| |codecov| |Documentation Status|
+
+VWS-Web-Tools
+=============
+
+Tools for interacting with the VWS (Vuforia Web Services) website.
+
+.. code::
+
+   export VWS_EMAIL_ADDRESS=[YOUR-EMAIL]
+   export VWS_PASSWORD=[YOUR-PASSWORD]
+
+   vws-web-tools \
+       create-vws-license \
+       --license-name my-licence-0001
+
+   vws-web-tools \
+       create-vws-database \
+       --license-name my-licence-0001  \
+       --database-name my-database-0001
+
+   vws-web-tools show-database-details \
+       --database-name my-database-0001
+
+.. |Build Status| image:: https://github.com/VWS-Python/vws-web-tools/workflows/CI/badge.svg
+   :target: https://github.com/VWS-Python/vws-web-tools/actions
+.. |codecov| image:: https://codecov.io/gh/VWS-Python/vws-web-tools/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/VWS-Python/vws-web-tools
+.. |Documentation Status| image:: https://readthedocs.org/projects/vws-web-tools/badge/?version=latest
+   :target: https://vws-web-tools.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+
