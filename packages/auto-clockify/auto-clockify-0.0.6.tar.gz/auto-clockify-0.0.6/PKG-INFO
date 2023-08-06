@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: auto-clockify
+Version: 0.0.6
+Summary: Automation code snipplets to start and stop Clockify via API calls.
+Home-page: https://github.com/adamjakab/AutoClockify
+Author: Adam Jakab
+Author-email: adam@jakab.pro
+License: MIT
+Description: AutoClockify
+        ============
+        
+        This is a simple python command line utility with which you can automate calling the Clockify API to start and stop the timer.
+        
+        Usage
+        -----
+        
+        Start the timer:
+        > auto_clockify --config=/path/to/config.json start
+        
+        Stop the timer:
+        > auto_clockify --config=/path/to/config.json stop
+        
+        
+        Configuration
+        --------------
+        The minimum configuration information you must supply in the JSON formatted configuration file is:
+        
+            {
+              "base_url": "https://api.clockify.me/api/v1",
+              "api_key": "_your_api_key",
+              "user_id": "_your_user_id",
+              "workspace_id": "_your_worspace_id"
+            }
+        
+        
+Platform: ALL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests
