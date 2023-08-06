@@ -1,0 +1,2 @@
+class DisallowedPrefixOnMethodError(Exception):
+    pass
