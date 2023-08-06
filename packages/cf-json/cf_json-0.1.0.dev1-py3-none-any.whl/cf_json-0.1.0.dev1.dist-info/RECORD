@@ -1,0 +1,11 @@
+LICENSE,sha256=dqy22fjC6iHNLy7-FNLHwPSqI7njF13wwg-hgatccdk,1065
+cfjson/__init__.py,sha256=bUcCXpC2SeVOfT65n9C5eozaJ9ghyYbNVJvFeYTLlFc,7612
+cfjson/coder.py,sha256=A1tDszuOPE-72YO4bWOXBqDCQkKlX5YknjyixcF7Nok,3134
+cfjson/serde/__init__.py,sha256=PHhORwBJtuiVt-ntZrUl62J34MX3Dl61RlCQiw9YZEE,149
+cfjson/serde/datetime_serde.py,sha256=-I3wk3YoPqqS3dS1w30F08rIEZADjzYKWO5JWLx2mJk,1171
+cfjson/serde/decimal_serde.py,sha256=nogHaEF8a7LLIYqHVgDObjyjQu2pxqvfJ97USs2Nr70,694
+cfjson/serde/pathlib_serde.py,sha256=GixWJZ42tbAxwrl6_oju3GGAMJu3xxvKk4WSCyH6d8o,986
+cf_json-0.1.0.dev1.dist-info/LICENSE,sha256=dqy22fjC6iHNLy7-FNLHwPSqI7njF13wwg-hgatccdk,1065
+cf_json-0.1.0.dev1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cf_json-0.1.0.dev1.dist-info/METADATA,sha256=EOT9ulpvuKAXnGvaWz8pR4xq0YLYiMZvH9gK3bbZnrM,2647
+cf_json-0.1.0.dev1.dist-info/RECORD,,
