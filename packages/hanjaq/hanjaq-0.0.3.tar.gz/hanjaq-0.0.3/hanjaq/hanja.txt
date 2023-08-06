@@ -1,0 +1,1807 @@
+# This file contains information about different Hanja characters.
+# - lines starting with # (comments) and empty lines are ignored
+# - each line holds 3 different fields, separated by TABs:
+#   1. Hanja character(s), separated by '/'
+#   2. Hangul syllable(s) representing hanja character(s), separated by '/'
+#   3. meaning/keywords of Hanja character
+
+加	가	add; apply
+可	가	able, may, can; right, proper
+佳	가	beautiful; fine, good
+歌	가	song; sing
+架	가	frame, stand, rack
+街	가	street
+家	가	house; family; specialist, professional; class, school
+假	가	false, unreal; pretend
+暇	가	leisure, relaxation
+價	가	price; trade; merchant
+各	각	each, every; all
+刻	각	engrave
+却	각	reject, decline, withdraw
+角	각	horn; corner, angle
+閣	각	pavilion; council chamber; vestibule; studio
+覺	각	perceive; aware, conscious
+脚	각	base, leg, foot
+干	간	a shield; oppose, interfere
+刊	간	publish; engrave, cut
+肝	간	liver
+看	간	see, observe; examine, consider
+間/閒	간	interval, space, between
+姦	간	adultery; rape
+幹	간	tree trunk; trunk of a body
+簡	간	letter; slip of bamboo for taking notes; documents; abridge; simple
+懇	간	earnest; supplicate, beseech
+渴	갈	thirsty, thirst
+甘	감	sweet; pleasant, voluntary
+減	감	decrease, subtract, lessen
+感	감	feel; feeling, emotion
+敢	감	dare, presume, venture
+監	감	oversee, manage; inspect
+鑑	감	mirror; metal; examine, criticize, appreciate
+甲	갑	1st of the 10 Heavenly Stems; first; armor
+江	강	river
+强	강	strong; violent
+康	강	peace, ease; health, vigor
+剛	강	hard, unyielding
+降	강/항	descend, send down | surrender, fall
+講	강	lecture, discuss, speak, expound, preach
+綱	강	large rope of a fishing net; tie; laws, principles
+鋼	강	steel; strong, hard; diamond
+介	개	individual, alone; unit; be between; introduce
+改	개	renew, revise, change
+個	개	individual, unit, one
+皆	개	all, every; entirely
+開	개	open; explain; begin
+蓋	개	to cover; cover, lid; hide
+槪	개	generally, all in all, for the most part
+慨	개	saddened, regretful; public-spirited; noble-minded, generous
+客	객	guest, customer
+巨	거	huge; chief; numerous
+去	거	go away; gone, past; abandon; throw away
+拒	거	resist, oppose
+居	거	dwell, remain, occupy, be in
+車	거/차	carriage, chariot; vehicle
+距	거	distance between; go to, reach
+擧	거	raise, lift, hold up; entire
+據	거	depend on; take in the hands; occupy, take possession
+建	건	establish, erect, build, found
+件	건	an affair; article, thing, object
+乾	건	heaven, one of the 8 trigrams | dry
+健	건	healthy, strong, vigorous; invigorate
+乞	걸	beg
+傑	걸	superior; hero, heroic
+儉	검	frugal; economical; temperate
+劍	검	double-edged sword
+檢	검	inspect, examine, check; restrict, restrain; arrange
+格	격	rule; limit; frame; form; ruled spaces; category
+激	격	violent; rouse; intimidate
+隔	격	separate
+擊	격	strike; attack; rout
+犬	견	dog
+見	견	see, observe, perceive | appear, get seen
+肩	견	shoulder
+堅	견	firm, hard, strong
+遣	견	send; chase away
+絹	견	thin silk
+牽	견	drag
+決	결	decide
+結	결	tie up, a knot; bear fruit, result
+缺	결	deficiency; defective; vacancy
+潔	결	clean, pure
+兼	겸	jointly, concurrently, together; unite in one
+謙	겸	humble, modest
+更	경/갱	anew, again, newly | change, alter; time
+京	경	a capital; metropolis
+景	경	bright, luminous
+頃	경	a short time; approximate time
+竟	경	at last, finally
+庚	경	7th of the 10 Heavenly Stems; evening star
+敬	경	respect, reverence
+徑	경	shortcut, byway; straight
+境	경	boundary; region; circumstances
+卿	경	noble, high officer: term of respect
+硬	경	solid, hard; obstinate
+傾	경	incline, lean; tip over, collapse
+競	경	quarrel, wrangle; vie; compete; contest
+警	경	warn, cautious
+輕	경	light in weight; frivolous, disrespectful
+鏡	경	mirror, speculum
+耕	경	a plow
+驚	경	startle, frighten
+經	경	classic books; Buddhist sutras; pass through; manage
+慶	경	happiness, luck, good fortune; congratulate
+系	계	connection; lineage; related
+季	계	last of a series; young and tender; season, seasonal
+癸	계	last of the 10 Heavenly Stems
+計	계	calculate; plan, device
+係	계	belong to; consequences; person in charge; section
+界	계	world; region; limit, boundary
+戒	계	warn, caution; precepts
+桂	계	cinnamon, cassia
+溪	계	stream
+啓	계	open, begin; explain
+械	계	machine, implement
+契	계/글	agreement, bond; mutual savings society
+鷄	계	chicken
+階	계	stairs, steps; rank, grade
+繼	계	connect; continue; follow; adopt
+繫	계	tie
+顧	고	look after, care for; regard; turn the head around to look
+古	고	ancient, old
+告	고	tell, inform, announce
+姑	고	husband’s mother; husband’s sister; father’s sister
+苦	고	suffering; bitter
+高	고	high, tall; noble, proud
+鼓	고	drum
+孤	고	lonely, alone; orphan
+稿	고	manuscript; grain stalks; straw
+枯	고	dried, rotten
+庫	고	storehouse, treasury
+故	고	reason, cause; die, the former
+固	고	firm, strong
+考	고	examine, consider
+谷	곡	valley, ravine
+曲	곡	crooked, bent, false, wrong; tune
+哭	곡	weep, cry, mourn for
+穀	곡	grain, corn
+困	곤	difficulty, distress; weary, tired
+坤	곤	the earth; last of the 8 trigrams
+骨	골	bone, bones
+工	공	labor; workman
+公	공	impartial, fair; public
+共	공	together, collectively, all-sharing; cooperate; communism
+孔	공	hole, opening; Confucius
+功	공	merit, achievement
+攻	공	attack
+空	공	sky, air; empty; hollow; zero
+貢	공	offer as tribute
+供	공	supply, contribute
+恭	공	reverence, respect
+恐	공	fearful
+果	과	fruit; results
+科	과	class; order, series; department; science
+課	과	a lesson; a section, a department, an office
+過	과	pass, cross over
+寡	과	few, little; lessen; alone
+誇	과	boast, brag; praise
+郭	곽	citadel; the surname: Kwak
+官	관	government official
+貫	관	penetrate, go through, thorough; Korean unit of weight: 8.27 pounds
+觀	관	see, behold; aspect, view
+館	관	building, house, hall
+冠	관	cap, crown
+管	관	tube, flute; govern
+寬	관	broad, spacious; generous; magnanimous
+慣	관	accustomed, experienced
+關	관	frontier pass, frontier gate, customhouse; shut, close; bolt
+光	광	light, brightness
+狂	광	mad
+廣	광 	broad, wide, extensive
+鑛	광	ore; mining; mine
+掛	괘	hang, hang up
+怪	괴	weird, strange, uncanny
+塊	괴	lump, piece, clod
+愧	괴	bashful; ashamed
+壞	괴	destroy
+交	교	exchange, communicate, intercourse, mix, join
+巧	교	skill, cleverness; opportune
+校	교	school; check, examine, revise
+較	교	compare; test; check
+郊	교	waste land; open country
+橋	교	bridge
+敎	교	teach, teaching; religion
+矯	교	straighten, bend straight, rectify; raise the head; forceful; feign
+九	구	nine
+口	구	mouth, opening
+丘	구	hill, hillock
+久	구	a long time, finally
+句	구/귀	phrase, sentence
+求	구	demand, implore, beg, seek, search; buy
+區	구	district, area; ward (of a city)
+具	구	prepare; tool, implement
+究	구	examine, research
+俱	구	all, altogether
+懼	구	fear; carefulness
+構	구	construct, compose; structure
+狗	구	dog, term of contempt
+球	구	ball, sphere, globe
+苟	구	indeed; if, only
+救	구	save, rescue, aid
+拘	구	grasp; adhere
+驅	구	expel, drive away
+舊	구	old, ancient, not new
+局	국	office, bureau; position, circumstances; chess situation
+菊	국	chrysanthemum
+國	국	nation, state, kingdom
+君	군	ruler; gentleman; you
+群	군	flock, herd; multitude
+軍	군	military, army
+郡	군	a county
+屈	굴	bend it down; wrong, injustice
+宮	궁	palace; temple
+弓	궁	a bow
+窮	궁	poor; exhausted
+卷	권	book, volume, scroll
+拳	권	fist; clench, clasp
+券	권	contract, bond, deed, chit, bank note
+勸	권	encourage; exhort; persuade
+權	권	authority, power
+厥	궐	it, its; his
+軌	궤	road
+貴	귀	valued, esteemed, honorable, “your”; costly, high-class
+歸	귀	return
+龜	귀/구/균	tortoise, turtle | pattern, model | chapped
+鬼	귀	spirit, spirits, ghost, disembodied spirits
+叫	규	call; animal cry
+糾	규	twist
+規	규	regulations; scale
+均	균	equal, fairly
+菌	균	germ, bacterium; mushroom, fungus, mildew
+克	극	subdue
+極	극	utmost; extremely; pole, utmost point, end
+劇	극	severe, intense; drama
+斤	근	an ax; a kun, a catty (600 grams, 1.32 pounds)
+根	근	root, beginning, cause
+僅	근	barely, hardly enough
+謹	근	careful, cautious; respectful
+近	근	near, near to, recent; approach
+勤	근	diligence; duty
+今	금	now, the present
+金	금/김	metal; gold; money | surname: Kim
+禽	금	winged animals, birds
+禁	금	prohibit, forbid
+錦	금	thin silk brocade
+琴	금	lute, guitar, harp
+及	급	extend, reach to; and, also
+急	급	urgent, hasty
+級	급	degree, step, class
+給	급	give, provide, grant
+肯	긍	willing, consent
+己	기	6th of the 10 Heavenly Stems; self; private
+其	기	its; his; that
+企	기	stand on tiptoe and look for; anxious
+奇	기	strange, rare, wonderful
+期	기	pledge; term, period; date, time; limit
+欺	기	deceive, cheat
+旗	기	flag, banner
+騎	기	ride a horse, ride; stride
+寄	기	send, mail; entrust; lodge at
+幾	기	some, few; almost, about; how much, how many
+機	기	loom; mechanism, machine; airplane; opportunity; secret
+旣	기	since, already
+祈	기	pray
+棄	기	abandon; reject
+氣	기	steam, breath, gas
+技	기	talent, skill, ingenuity
+器	기	vessel, dish; implement; organ
+畿	기	royal domain; capital area
+豈	기/개	how, how can it possibly be | delighted; triumphant
+飢/饑	기	hunger, famine; dearth
+忌	기	taboo; loathe; shun; abstain
+記	기	record, a record, a mark; remember
+起	기	rise; start
+紀	기	century; 12 years (anciently); regulate; discipline
+基	기	foundation, base
+緊	긴	important; urgent; prompt; tight, taut (taught), strained
+吉	길	lucky, happy
+那	나	that, there; what, where
+難	난	trouble, difficulty
+暖	난	warm; genial
+男	남	man, male
+南	남	south
+納	납	receive
+娘	낭	girl, woman; wife
+奈	내	but, how; endure
+耐	내	patient; bear, endure; enduring
+內	내/납	inside, within; wife, woman
+乃	내	also, and; but; then
+女	녀/여	woman, girl
+年	년/연	year; age; harvest
+念	념/염	think of, recall; chant, repeat from memory
+寧	녕/영	peace, peaceful; repose; better, rather
+奴	노	slave, servant; term of depreciation
+怒	노	anger, rage, passion
+努	노	exert, strive
+農	농	agriculture; farm; farmer
+惱	뇌	vexed, grieved, irritated; anger
+腦	뇌	brain
+能	능	able, may, can; ability, talent, power
+泥	니/이	mud, mire; plaster; paste
+茶	다/차	tea plant, tea
+多	다	much, many, mostly
+旦	단	morning; female impersonator
+丹	단/란/난	red, cinnabar; pill
+但	단	only, but, yet, still
+單	단	single; simple
+短	단	short
+段	단	section, division, piece, paragraph
+斷	단	cut; decision, judgment; resolution, resolve
+團	단	sphere; mass; surround; party
+壇	단	altar
+檀	단	sandalwood
+端	단	extreme, end; extremely; beginning; upright, correct
+達	달	penetrate, apprehend; intelligent; thorough
+淡	담	clear, light in color; tasteless
+談	담	chat, converse
+擔	담	carry
+答	답	answer, reply; recompense
+畓	답	paddy, wet field
+踏	답	tread, walk
+堂	당	hall; temple; grave
+唐	당	Tang Dynasty, China, Chinese
+黨	당	clique, gang; party
+糖	당	candy, sugar
+當	당	suitable; correct; ought
+大	대	big, great
+代	대	substitute; generation
+待	대	wait for; entertain, treat
+對	대	face, oppose; opposite
+帶	대	belt, girdle; tape; bear, carry
+臺	대	tower, terrace, stage, platform, elevation
+貸	대	lend; borrow
+隊	대	file of soldiers, company of soldiers; army
+德	덕	virtue, goodness; power
+刀	도	knife, sword; razor
+到	도	arrive at, reach
+道	도	road, way, path; truth, principle; province
+島	도	island
+度	도/탁	rule, law, limit, degree | calculate, estimate
+桃	도	peach; profligacy
+徒	도	crowd; followers
+逃	도	escape
+挑	도	pick out; raise; carry with a pole over the shoulder; provoke
+渡	도	cross over; ferry; hand over, transmit
+途	도	road
+稻	도	paddy, rice growing in the field
+圖	도	map, picture, diagram
+跳	도	jump | cross
+陶	도	kiln; pottery
+盜	도	rob, steal; robber, pirate
+都	도	metropolis; all; main
+導	도	lead, guide
+倒	도	fall over, knock down
+塗	도	mud
+毒	독	poison; evil, hurtful
+讀	독/두	read; study
+督	독	oversee; enforce
+篤	독	true, sincere
+獨	독	alone; only; Germany
+敦	돈	thick, growing thickly; generous; honest, sincere; to esteem
+豚	돈	pig
+突	돌	abrupt, abruptly; rush out; suddenly protrude; offend; chimney
+同	동	together, identical, share in
+冬	동	winter
+東	동	east
+童	동	child; virgin, pure
+動	동	move; shake; excite
+洞	동/통	sub-ward; street, block; village; cave; grotto; see through
+凍	동	freeze; icy
+銅	동	copper; brass; bronze
+豆	두	beans; peas
+頭	두	head; first, top
+斗	두	a dry measure (18 liters, 3.97 gallons)
+屯	둔/준	camp
+鈍	둔	dull-witted; obtuse; blunt
+得	득	obtain, gain, attain, acquire
+登	등	rise; mount; advance
+等	등	group; class; wait; “etc.”
+燈	등	lantern, lamp; light bulb
+騰	등	rise
+羅	라/나	thin silk; gauze; netting; arrange, spread out
+絡	락/낙	connect; continuous; cotton fiber; unreeled silk cord; spin silk
+落	락/낙	fall, drop; lose; scatter; die; village
+諾	락/낙	permit; respond; promise
+卵	란/난	egg
+亂	란/난	disorderly; reckless; rebellion; confusion
+欄	란/난	railing, balustrade; column in a newspaper
+蘭	란/난	orchid; epidendrum; fragrant, elegant, refined; Holland
+覽	람/남	look at, inspect; perceive
+濫	람/남	overflow; excess
+浪	랑/낭	wave; profligate, wasteful
+郞	랑/낭	young man, young gentleman
+廊	랑/낭	verandah, porch; corridor
+來	래/내	come, coming
+冷	랭/냉	cold; indifferent; solitary, quiet
+掠	략/약	rob, plunder
+略/略	략/약	abbreviated; summary; outline, sketch; plan; slightly, little
+兩	량/양	two, a pair, both; a tael
+良	량/양	good, excellent; peaceful; virtuous
+凉	량/양	cool, cold
+諒	량/양	consider; excuse; faithful; believe
+量	량/양	measure; limit; amount
+梁	량/양	bridge; beam; ridge
+糧	량/양	provisions, grain, food, rations
+旅	려/여	guest; travel
+麗	려/여	elegant, beautiful
+慮	려/여	think; plan; anxiety; anxious
+勵	려	urge, encourage, incite
+力	력/역	strength, power
+曆	력/역	calculate; calendar
+歷	력/역	pass through; in order; calendar; calculate
+連	련/연	connect, join
+練	련/연	practice, drill; select
+憐	련/연	have compassion for, pity; sympathize
+戀	련	dote on, be fond of, love
+蓮	련/연	lotus; waterlily
+聯	련/연	connect; joint; unite; associated
+鍊	련/연	smelt, refine; discipline
+列	렬/열	arrange in order; enumerate, classify; each one; file, rank; series
+劣	렬/열	vile, degraded, bad; inferior
+裂	렬/열	split, crack; rip open, tear, rend
+烈	렬/열	burning, violent, impetuous; bright; meritorious, eminent; majestic, imposing
+廉	렴/염	pure, uncorrupted; modest; investigate; reasonable in price
+獵	렵/엽	hunting
+令	령/영	command, order; causes; good; term of respect
+領	령/영	lead, guide; receive
+嶺	령/영	high mountain pass; mountain range
+零	령/영	zero; fragments; fractional; rainfall, dewfall
+靈	령/영	spirit; spiritual, divine; supernatural; efficacious; ingenious, smart
+禮	례/예	propriety, good manners; politeness; ceremony; worship
+例	례	law, regulation; custom, precedent, usage, example
+隷	례/예	slave
+老	로/노	old; venerable; term of respect; well-cooked; experienced
+路	로/노	road, path
+勞	로/노	toil; weary; cause trouble; give trouble to; console
+爐	로/노	brazier, stove, fireplace
+露	로/노	dew; expose, disclose
+鹿	록/녹	deer, stag
+錄	록/녹	to record, make an entry; choose
+綠	록/녹	green
+祿	록/녹	official stipend, salary; happiness, prosperity
+論	론/논	discuss; argue; speak of; arrange; reason; essay, article
+弄	롱	do, make, act; play with, handle
+雷	뢰/뇌	thunder
+賴	뢰	trust, rely on; repudiate; shameless
+了	료/요	complete, finish; intelligent
+僚	료/요	companion
+料	료/요	calculate, estimate, consider; arrange; materials, ingredients
+龍	룡/용	dragon
+屢	루/누	frequently, repeatedly, constantly
+淚	루/누	tears; weep, cry
+漏	루/누	leak; drip; disclose; smuggle; funnel
+樓	루/누	tower; upper story; pavilion
+累	루/누	tie, bind; accumulate; implicate, involve; trouble; tired, weary
+柳	류/유	willow tree; pleasure, dissipation
+留	류/유	detain; entertain; keep; restrain; transmit
+類	류/유	class, species, kind
+流	류/유	flow; current; descend, unstable; transport
+陸	륙/육	continent; dry land; continuous
+六	륙/육	six
+倫	륜/윤	constant, ordinary; right principles; degrees
+輪	륜/윤	wheel; revolve, revolution
+栗	률/율	chestnut tree; firm, durable; full (as when ripe); cold, chilly
+律	률/율	law; rhythm
+隆	륭/융	eminent, surpassing; prosperous; exalt
+陵	릉/능	mound; tumulus; tomb
+里	리/이	village; street; a li, about one-third mile
+李	리	plum; surname: Yi
+吏	리	officer, deputy; government servant
+利	리/이	profit, gain, advantage; interest on money; sharp, cutting; witty
+梨	리	pearl
+理	리/이	manage, regulate; reason, principle; right (as an abstract principle)
+離	리/이	leave; retire; separate; distant from, apart from
+裏	리/이	within, inside; lining
+履	리/이	walk, walk on; shoe; actions; conduct
+隣	린/인	neighbor; near to; connected
+林	림/임	grove, forest; grave; collection of books
+臨	림/임	descend, come to; near to, on the point of; imitate
+立	립/입	establish, set up; stand up; immediately
+麻	마	hemp
+馬	마	horse
+磨	마	grind, rub, sharpen
+莫	막/모	don’t; not; large, huge
+幕	막	screen, curtain; private secretary
+漠	막	vast, boundless; sandy desert; indifferent
+萬	만	ten thousand
+慢	만	rude, arrogant, haughty; slow, gradually
+漫	만	overflow, spread, be diffused; far and wide
+滿	만	full; complete; satisfied
+晩	만	late; evening
+末	말	end, finally; powder, dust
+亡	망/무	die, perish; be lost; absent
+茫	망	vast, vague, boundless
+罔	망	not, without
+妄	망	false, absurd, foolish; wild, disorderly
+忘	망	forget, neglect
+望	망	hope, expect, look towards; full moon
+忙	망	busy, hurried, in haste
+每	매	each, every
+梅	매	plum, prune
+埋	매	bury; lie in wait
+妹	매	younger sister
+媒	매	match-maker, go-between; decoy
+買	매	buy, purchase; suborn
+賣	매	sell; show off
+脈	맥	vein, artery; pulse; mountain range
+麥	맥	barley, wheat
+盲	맹	blind; deluded
+孟	맹	great, senior, eldest, first, chief; Mencius
+猛	맹	fierce, cruel, savage, violent; courageous
+盟	맹	swear, covenant, contract; oath; league
+眠	면	sleep; close the eyes
+綿	면	cotton, the cotton plant
+面	면	face, surface, front
+免	면	avoid, escape; remit, excuse
+勉	면	exert oneself; urge, constrain
+滅	멸	destroy; exterminate
+明	명	bright; understand; chastity; explain
+名	명	name; fame; counter for persons
+銘	명	engrave, carve
+冥	명	dark, obscure, deep; Hades
+命	명	life; command
+鳴	명	cry of a bird or animal
+暮	모	evening, sunset; end of a period of time
+模	모	pattern, mould; style; example
+毛	모	hair, fur, down, feathers
+母	모	mother; female
+侮	모	despise
+冒	모	risk
+募	모	summon, round up, raise, solicit
+慕	모	yearn, long for, desire; love, affection
+某	모	so-and-so, such-and-such
+貌	모	form; face; manner, appearance
+謀	모	scheme, plot; devise, contrive
+睦	목	harmony, peace, concord, friendship
+木	목	tree, wood, wooden
+目	목	eye; regard, look on; chief; item
+牧	목	tend sheep; watch cattle; shepherd; pastor; rear, raise
+沒	몰	sink; drown; die, dead; no, not
+蒙	몽	cover, conceal; stupid; receive from a superior; meet with; Mongolia
+夢	몽	dream
+卯	묘	4th of the 12 Earth’s Branches; hare, rabbit
+妙	묘	wonderful, mysterious; young, subtle
+墓	묘	grave, tomb
+廟	묘	shrine, temple
+苗	묘	sprouts; growing corn
+舞	무	dance; posture; brandish; fence
+霧	무	fog, mist, vapor
+無	무	nothing, nil; not having
+務	무	make efforts, devote attention to; duty, business, affairs
+武	무	military; warlike, fierce; firm; violent
+戊	무	5th of the 10 Heavenly Stems
+茂	무	exuberant; flourishing; healthy
+貿	무	trade, barter
+默	묵	silent; dark; secret
+墨	묵	ink; black, dark
+文	문	characters, letters, writing, literature; culture; civil officials
+門	문	gate, door; family; school, sect
+聞	문	hear
+問	문	ask, question
+勿	물	do not
+物	물	things; matter; articles, goods
+眉	미	eyebrow
+微	미	small, fine; microscopic; subtle; lowly, humble
+味	미	taste, flavor, scent
+美	미	beautiful, fine, admirable; America, American
+未	미	not, not yet, not being
+迷	미	bewildered; fascinated; deluded; lost
+米	미	hulled rice; grain
+尾	미	tail; follow; end
+敏	민	hasten, prompt, active; clever
+民	민	people, mankind
+憫	민	pity, sympathize; grieve
+蜜	밀	honey; sweet
+密	밀	secret; intimate, dense
+迫	박	persecute, oppress; draw near, imminent
+拍	박	strike with the hand, pat, clap
+泊	박	be at leisure, rest, spend the night
+朴	박	sincere, plain, simple; surname: Pak
+博	박	wide, extensive, ample; wide learning, erudition; museum; gamble
+薄	박	thin, slight, pale, poor; stingy; careless; reach to
+反	반	against, anti-; contrary, but, instead of; rebel; retreat
+半	반	half
+般	반	sort, manner, class; all kinds, all sorts
+返	반	revert to, return to
+飯	반	cooked rice; food; provisions
+盤	반	tray, plate, dish
+伴	반	companion
+班	반	class; squad; group; variegated
+叛	반	rebel, revolt
+發	발	become; put forth, send forth, issue; arise, develop; depart; manifest
+髮	발	hair; the human head
+拔	발	root up, extract, pull out, pluck
+方	방	direction; square; region; plan; recipe; just now
+倣	방	imitate; like, according to
+傍	방	the side; nearby; depend on
+妨	방	hinder, oppose, interfere with
+芳	방	fragrant; beautiful; pleasant; virtuous; excellent
+邦	방	state, country, nation
+防	방	embank; prevent, guard against, ward off
+房	방	room; house, building, shop; concubine; wife
+放	방	place in, place on; release, loosen, liberate; let go; drive away; indulge
+訪	방	search out, visit; inquire about, ask after
+輩	배	generation, age-group
+配	배	match, mate, pair, fit; find a match; worthy, suitable; suffer punishment
+拜	배	bow, salute, greet, obeisance; pay respects to; visit
+杯	배	cup, tumbler, glass
+倍	배	double, multiple, times, fold
+培	배	bank up with earth; nourish, strengthen
+排	배	push, push out, clear out; open up; row, line; dispose; place in order
+背	배	back; behind; disavow, turn the back on
+百	백	one hundred
+白	백	white
+伯	백	senior, elder; esteemed; uncle, father’s elder brother
+繁	번	abundant, luxuriant; prolific; exuberant
+番	번	turn (as in “my turn”), duty, shift; change; repeat
+煩	번	troublesome, vexing; vexed
+飜	번	upset, overturn; come back; reopen
+伐	벌	attack; quell rebellion, chastise rebels
+罰	벌	punish, punishment, fine
+凡	범	all; common; general; secular, earthly
+犯	범	transgress, violate; offend; invade
+範	범	law, rule; custom; pattern, model
+法	법	law, statute, rule; plan, method; example; doctrines of Buddha
+壁	벽	wall; cliff; partition
+碧	벽	green, blue; jade
+辨	변	distinguish between, discriminate
+邊	변	bank, side, edge, border, margin
+變	변	change, transform; incident; rebellion
+辯	변	argue, dispute; discuss; explain
+別	별	separate; a part; distinguish; other, another
+丙	병	3d of the 10 Heavenly Stems; the third
+病	병	disease; defect
+兵	병	soldier, troops; arms, weapons
+屛	병	screen; protection; reject
+竝	병	together, side by side; and, also, at the same time (Also written 併.)
+報	보	inform, report, declare, announce; reward; retribution; recompense
+步	보	step, pace
+補	보	fill, fill in, fill a vacancy; repair, patch; add to, supplement; help
+保	보	protect, guard; guarantee
+寶	보	treasure; valuable, precious
+普	보	universal, general; all; everywhere
+譜	보	genealogical table; list, chart, register; musical score; treatise
+卜	복	divination; prognosticate; burden
+服	복	clothes; swallow; dose of medicine; serve, submit
+復	복	restore; return; reply; repeat; make good
+福	복	happiness, prosperity, good luck; blessed
+伏	복	prostrate; yield; humble; hide, lie in ambush; suppress; secret
+腹	복	abdomen, stomach
+複	복	double; repeat, reiterate
+覆	복	cover
+本	본	root, source, origin, native; main; that, this, the; me; essential
+奉	봉	receive with both hands; offer; serve; respectfully
+峰/峯	봉	peak, mountain top; hump
+蜂	봉	bee, hornet, wasp
+封	봉	seal, seal up; blockade; enfeoff; bestow honor, confer nobility
+逢	봉	meet with; happen
+鳳	봉	phoenix
+夫	부	husband; man; laborer, artisan; sage, philosopher
+婦	부	wife, lady, woman; daughter-in-law
+父	부	father
+部	부	division, section, class, kind, sort, genus; part, portion; government department; public court
+負	부	suffer defeat, lose, fall; bear, carry on the back; trust to; negative; minus
+否	부	no, not; if not, whether or not; on the contrary; deny
+付	부	transfer, hand over; commit to; pay
+浮	부	float; drift; light, volatile, insubstantial, frivolous
+附	부	stick to, adhere; append, enclose; depend on; accessory; near to
+富	부	wealth; enrich
+賦	부	levy; taxes; diffuse; give, bestow
+扶	부	help; support; prop up
+副	부	the second; assistant, vice, subsidiary; aid
+府	부	prefecture; treasury; palace; mansion; storehouse
+符	부	agree with; tally; a written charm
+簿	부	account book, blank book, memorandum book; register
+腐	부	rotten; corrupt; worthless
+赴	부	go to, go; attend
+北	북/배	north | suffer defeat
+奔	분	be in a hurry; urgent; run away
+分	분	divide; separate; duty; distinguish; measure; part; minute
+墳	분	grave, mound; heap up; soil
+奮	분	rouse; spread the wings; impetuous; determined
+憤	분	very angry; exasperated; zeal
+粉	분	powder; meal; fragrance
+紛	분	confused; disorderly; mixed; numerous
+佛	불	Buddha; France
+不	불/부	no, not; un-, in-, non-
+拂	불	shake off, brush away; expel
+崩	붕	collapse, fall; death of a monarch
+朋	붕	friend, companion; match, pair
+非	비	not be; be without; wrong, bad
+鼻	비	nose
+飛	비	fly
+備	비	prepare; complete; perfection
+卑	비	low, inferior, humble; I, me, my
+悲	비	sad, sorry, grieved; lament
+肥	비	fat, plump; rich, fertile
+比	비	compare
+妃	비	queen; royal concubine; wife; lady
+婢	비	female slave, maidservant
+批	비	criticize, comment on; pass on, act on; endorse a petition; authorized
+碑	비	stone tablet; gravestone
+秘	비	secret, mysterious, abstruse
+費	비	expenditure; expend; waste; extensive
+貧	빈	impoverished, poor
+賓	빈	visitor, guest
+頻	빈	frequent; repeated; incessant; urgent, hurried
+氷	빙	ice; cold; crystallized; frozen
+聘	빙	invite with presents, invite with rewards; engage someone
+私	사	private, personal; illicit
+仕	사	be a government official, fill an office
+死	사	die; death; dead; inanimate; inert
+謝	사	gratitude; decline; fade; hand over; confess faults
+祀	사	sacrifice, offering; sacrifices to the dead; a year
+事	사	affair, matter; undertaking, business; serve
+似	사	resemble; like, as if; continue by inheritance
+師	사	teacher, instructor, master; army division
+邪	사	depraved, vicious, heretical; evil, demoniacal
+社	사	company, society; earth god, altar to the earth god
+射	사/석/야/역	shoot, fire, shoot out; project, aim at
+使	사	employ, use; send; cause; messenger
+思	사	think, contemplate; thought; yearn, long for
+四	사	four
+士	사	scholar; gentleman; officer; soldier
+史	사	history, annals, chronicle
+寺	사	Buddhist temple; hall
+巳	사	6th of the 12 Earth’s Branches; snake
+絲	사	thread, fiber, wire; silk
+舍	사	cottage, shed; lodge, reside at; my younger relative; put away; omit
+司	사	control, manage, preside; officer; subdivision of a district
+寫	사	trace, write, sketch; dispel, drain
+捨	사	reject; forsake; spend; give alms; bestow
+斜	사	slanting, inclined, oblique; not upright, at an angle
+斯	사	this, these; thus; such
+査	사	seek out, search into, survey, investigate
+沙	사	sand, gravel, pebbles; granulated
+蛇	사	snake
+詐	사	deceive; false, artful
+詞	사	word, phrase, idiom; part of speech; expression; tales, stories; kind of poem
+賜	사	bestow, confer upon an inferior
+辭	사	words, speech; sentence; message, instructions; statement; resign
+朔	삭/소	first day of a lunar month; new moon; north
+索	삭/색	search into; think; demand; importune; inquire; index
+削	삭	pare, scrape; scrape away; delete; sharpen to a point; sloping, sheer
+散	산	scatter, disperse; wander; dismiss; miscellaneous; fall to pieces; break up an association
+産	산	give birth, bear offspring; produce; native; estate, possessions; livelihood
+算	산	calculate, reckon; consider as; plan, scheme
+山	산	mountain, hill
+殺	살	kill; exceedingly | decrease; pare down
+參	삼/참	participate; consult; intervene; compare; blend; visit a superior
+三	삼	three
+尙	상	still, yet, and besides; add; esteem; surpass; in charge of
+床/牀	상	bed, couch; framework; table, desk
+想	상	think; expect
+詳	상	particulars, detail; examine with care, judge; carefully
+象	상	appearance; phenomenon; image, representation; omens; elephant; ivory
+霜	상	frost
+常	상	constantly, usually, frequently; regular; common; rule, principle
+像	상	appearance, resemblance, similar; likeness, portrait, statue
+商	상	trade, commerce; merchant; discuss, deliberate
+上	상	above; first, rise
+狀	상/장	form, appearance, shape | document, certificate
+嘗	상	taste; try; already
+相	상	mutual, reciprocal, each other; direction towards; assist; face; appearance, likeness; portrait; prime minister
+傷	상	grieve, distress; injure, wound
+賞	상	reward, prize, award; enjoy, appreciate; praise
+喪	상	lose by death; mourning
+償	상	repay; make restitution, indemnify; fulfill
+桑	상	mulberry tree
+裳	상	skirt
+祥	상	happiness, good luck, good omen; sacrificial service for deceased parents
+塞	새/색	block; stop up, clog; cork; stopper, plug
+色	색	color; beauty; appearance; lust, sex; sort, kind, quality
+生	생	be born; produce; life; student; raw, fresh; arbitrary, forced
+西	서	west
+書	서	to write; writings, books
+暑	서	hot
+序	서	preface; precedence, order
+庶	서	multitude, great number; whole; nearly, about; concubine
+徐	서	slow; grave, dignified
+恕	서	forgive; show mercy, absolve, excuse
+敍	서	narrate; state; converse, chat; interview; meeting
+緖	서	the end of a ball of thread; clue; connect
+署	서	public office, bureau; write, sign; acting, temporary appointment
+誓	서	swear
+逝	서	pass away
+石	석	stone, rock, mineral
+夕	석	evening, dusk
+席	석	seat, mat, place; feast, entertainment; a sail
+惜	석	be sparing of, begrudge; take care of; pity; love
+昔	석	ancient times; formerly; a long time
+析	석	divide, split, break
+釋	석	release, unloose; explain; Sakyamuni, the historic Buddha
+善	선	good, virtuous; expert; whole; perfect
+船	선	boat, ship
+線	선	thread, line, wire, ribbon; clue; fuse; length
+旋	선	revolve, whirl; come back; forthwith; specially for that moment
+仙	선	Taoist immortal, fairy, genie
+先	선	first, front, foremost
+選	선	select, choose; choice
+鮮	선	calm; fresh, new; delicious; rare; fish; Korea
+宣	선	proclaim; display; spread; wide, comprehensive
+禪	선	yield, abdicate; Buddhist; meditation; Zen
+設	설	establish, found; supposing, what if
+說	설/세/열	say, speak | persuade | happy
+舌	설	tongue
+雪	설	snow; whiten; wipe out a grievance
+攝	섭	hold up
+涉	섭	wade, ford a stream; pass through, connected with; involve, concern, implicate; negotiate; interfere
+姓	성	surname; clan; people
+省	성/생	examine, watch | diminish; curtail; save, reduce; frugal; detailed, minute
+誠	성	sincere; true, honest; certainly
+盛	성	abundant, flourishing, plenteous
+性	성	nature; anger; property, quality; sex
+星	성	star
+城	성	a walled city, citadel; walls of a city; defense wall
+聖	성	saint, sage; holy, sacred; divine
+聲	성	sound, voice, tone, music; fame, reputation; to voice, state, make known
+成	성	complete, perfect; succeed; finish, become; whole
+稅	세	taxes, revenue; duty on goods
+細	세	thin, slender; small, fine, minute; careful
+世	세	a generation; a lifetime; an age; world, society
+勢	세	power, influence, authority, strength; circumstances; aspect
+歲	세	year; harvest; age
+洗	세	wash, bathe; purify
+掃	소	sweep, clear away; exterminate
+消	소	melt, thaw; disperse; cancel
+訴	소	accuse; complain; tell, inform, state
+素	소	white; plain, unadorned; commonly, usually
+騷	소	stir up; agitate; annoy; grieved; moved
+疏/疎	소	negligent, careless; state to a superior; statement; distant, separate; sparse; distribute, spread out; dredge
+小	소	small; mean; concubine
+笑	소	laugh, smile; ridicule
+少	소	young; small; scarce; seldom; briefly
+所	소	place; office, bureau; actually; that which; him who; what, whatsoever; whereby
+召	소	call, summon; cite, give notice
+昭	소	brightness of the sun; bright, luminous; show, display
+燒	소	burn; heat; roast, bake; fever
+蔬	소	vegetables, food
+蘇	소	revive; relieve; cheerful; plentiful; Russia
+束	속	bind; control, restrain, keep in order
+續	속	connect, join; add to; sequel, continuation
+屬	속/촉	connected with; subject to; belong to; depending upon; class, kind
+速	속	fast, quick
+俗	속	customs, practices; vulgar, common; worldly; unrefined; lay (not clerical)
+粟	속	millet
+損	손	loss; disadvantage, drawback; injure, destroy, spoil; injury, disability, impairment
+孫	손	grandson, grandchild
+率	솔/율	lead; follow and obey; universally, all, generally
+送	송	send; give to, hand over; send off, see off; accompany, escort
+頌	송	praise, commend; hymn, ode
+松	송	pine tree; fir tree
+訟	송	litigation; dispute; demand justice
+誦	송	recite; intone; hum over; refrain, song
+鎖	쇄	lock, fetters, chains
+刷	쇄	brush; scrub, cleanse; print
+衰	쇠	decrease, decline; deteriorate; small, decayed, weak
+遂	수	complete, reach; proceed to; end up at; forthwith
+獸	수	wild animals, beasts
+秀	수	accomplished, refined, elegant
+誰	수	who; anyone
+守	수	guard, protect; observe, keep; hold on to, maintain
+授	수	give to, confer; transmit
+睡	수	sleep
+受	수	receive; endure, suffer
+水	수	water; fluid, liquid
+垂	수	hang down
+修	수	pare, prune; repair; reform; self-improvement
+壽	수	longevity, long life, old age
+愁	수	concern, anxiety; melancholy; grieving, sad; depressing, gloomy
+收	수	harvest; collect; receive what is due, gather together; bind; bring to an end
+手	수	hand
+數	수/삭	a number; count; frequently; some; fate, destiny
+樹	수	tree; plant
+雖	수	though, although, however
+須	수	necessary; necessarily, by all means; must; moment; wait, expect
+首	수	head; chief, leader; first, beginning; stanza, poem
+囚	수	prisoner; imprison; criminal case
+帥	수	commander, leader
+搜	수	look for
+殊	수	different, peculiar, unique, special
+輸	수	send, transport, introduce; pay tribute; offering; lose; be beaten, exhausted
+隨	수	follow, accord with; accompany, together; forthwith, instantly; subsequently
+需	수	need, require; essential
+宿	숙/수	lodge, stay for the night; halting place; old, in the past
+熟	숙	ripe; cooked; prepared, manufactured; experienced, accustomed to; intimate
+叔	숙	younger brother of one’s father
+淑	숙	clear, pure; virtuous
+孰	숙	who, which, what
+肅	숙	solemn; reverential; respectful; majestic; awesome
+純	순	pure, simple; unmixed
+順	순	smooth, gentle; favorable; fluent; obey; accord with
+巡	순	go on circuit, cruise, patrol
+循	순	comply with, follow; in order
+旬	순	period of ten days; one-third of a month
+殉	순	be buried alive with a corpse; die for
+瞬	순	blink, wink; glance; instant
+脣	순	lips
+述	술	narrate, tell the details, state; transmit
+戌	술	11th of the 12 Earth’s Branches; dog
+術	술	device, artifice; trick; mystery; art, method; profession, occupation
+崇	숭	venerate, honor; worship; reverence; lofty, noble
+襲	습	raid; lining; double; hereditary
+習	습	practice, study; customs, practices
+濕	습	damp, moist, wet
+拾	습	pick up, tidy up | ten (legal form)
+昇	승	ascend; peaceful
+勝	승	be victorious, overcome; superior to; scenic beauty
+乘	승	ride; mount, get on, ascend; avail oneself of; multiply; record
+承	승	receive, inherit; support; hold, contain; contract for; continue; acknowledge; flatter; meet
+僧	승	Buddhist priest
+視	시	look at, inspect
+示	시	manifest, proclaim, exhibit; omen; see
+試	시	examination, test; examine; try, experiment; use; trained, disciplined
+是	시	this, that; right, correct
+市	시	market, fair; trade; execution ground; city
+始	시	begin, start; first
+時	시	time; hour, o’clock; season
+詩	시	poetry, poem, ode
+施	시	bestow, grant; act, do; exhibit; extend to
+侍	시	serve, wait upon
+矢	시	arrow, dart; aim at; oath; marshal; display, set forth
+式	식	form, fashion, rule, pattern, model; formality; formula; employ; reverence
+息	식	breath, vapor; sigh; rest; put a stop to, appease; grow; son, posterity; interest on money; news
+食	식	food; eat, drink
+識	식/지	recognize, know, distinguish
+植	식	to plant; implant, set up; trees, plants
+飾	식	adorn, adornment; ornament
+申	신	9th of the 12 Earth’s Branches; monkey; state to a superior, report, notify; give orders
+神	신	spirit, spirits, god; divine; supernatural; soul; mind; nerves; energy; genius
+新	신	new; fresh; recent
+信	신	believe in, trust; confidence; token; letter; news; envoy
+臣	신	government official, statesman; subject
+身	신	body, person; hull; oneself, I, me; lifetime
+辛	신	bitter, acrid; distressing, toilsome, grievous
+伸	신	stretch out, extend; redress; report to
+愼	신	cautious, act with care
+晨	신	daybreak, dawn
+失	실	lose, neglect, miss, err; omission
+實	실	fruit, nut; solid, substantial, hard; real, true, sincere
+室	실	room, chamber, office; home, house, apartment; wife
+深	심	deep; profound, abstruse; intimate; long; extreme
+甚	심	extreme, extremely
+尋	심	seek, search for, investigate; a fathom
+心	심	heart, moral, nature, mind, affections; intention; core; center
+審	심	investigate, examine; inquiry; judge
+十	십	ten
+雙	쌍	two, double; pair, couple; both
+氏	씨	clan name, surname; clan, family; Mr.; female; woman’s maiden name
+兒	아	son, child
+亞	아	secondary, inferior; ugly; Asia
+我	아	I, me; us, our
+牙	아	tooth; molars; tusk, ivory
+芽	아	sprout, shoot, germ
+雅	아	fine, elegant, polished, refined, polite; constantly; your esteemed
+餓	아	hungry, starved
+惡	악/오	evil, wicked | hate, dislike
+樂	악/락/낙/요	pleasure, pleased, enjoy | music | delight in, like
+岳	악	mountain peak
+安	안	peace; quiet; soothe; arrange
+案	안	table; plan, idea
+眼	안	eye; hole; eyelet; space
+顔	안	face, countenance; complexion; pigmentation; color
+岸	안	shore, bank, beach
+雁	안	wild goose
+謁	알	visit a superior
+巖	암	cliff, rock; grotto
+暗	암	dark; obscure; hidden; secret
+壓	압	press down; oppress; crush; keep in order; urge
+押	압	press
+仰	앙	look up; face upwards; command
+央	앙	center; finish, conclude
+殃	앙	misfortune, calamity, retribution
+愛	애	love; be fond of, like; affection; desire, covet; grudge; beloved daughter
+哀	애	sadness; pity; sympathize with; wail; “alas!”
+涯	애	shore, bank; border, edge, limit
+厄	액	difficulty, distressed
+額	액	forehead; fixed number, quantity
+野	야	field, wilderness; rustic, savage; wild, undomesticated
+也	야	it is; also
+夜	야	night, nighttime; the dark
+耶	야	classical Korean particle for rhetorical question
+藥	약	medicine, drugs
+約	약	promise, covenant; treaty; bind; economical; concise; approximate; estimate
+弱	약	weak, yielding; young; deficient
+若	약/야	if, supposing; as, like
+躍	약	lead
+羊	양	sheep, goat
+陽	양	Yang (of Yin and Yang), the male principle, the sun
+樣	양	kind, manner, style; pattern, sample, example
+揚	양	let fly, scatter; raise, display; brandish, flourish; winnow; publish abroad; praise
+洋	양	ocean, sea; foreign; wide, vast; foreign items
+讓	양	yield, submit, resign; cede, relinquish; polite
+養	양	rear, raise, care for, nourish; support, maintain
+壤	양	soil, earth, clod; place, region; rich soil
+楊	양	willow; poplar; aspen
+漁	어	catch fish; fish
+魚	어	fish
+語	어	language; talk, words, phrases
+御	어	wait on, set before, offer to; drive a chariot; manage; attendant; imperial
+於	어	in, on, at, to, by | sigh, lament
+億	억	a hundred million
+憶	억	reflect upon; recall, remember
+抑	억	press down, repress; restrain, curb; or, or else
+言	언	words, speech; talk, speak, express; mean
+焉	언	how; why; where; in it, at it; in that situation
+嚴	엄	stern, strict, majestic, dignified; private; severely, extremely
+業	업	trade, line of business, profession, occupation
+予	여	I, me; same, similar
+與	여	give, grant; with, by, to; wait for
+如	여	like, as; equal to; supposing
+餘	여	remainder, balance, excess; over, plus; the last
+余	여	I, me
+汝	여	you; your
+輿	여	palanquin; many
+域	역	frontier, boundary; region; country
+役	역	serve, work; military service, conscription; role, duty, function
+驛	역	government post; station
+易	역/이	change, mutation | easy; lenient
+逆	역	oppose, disobey; contrary, refractory; anticipate
+亦	역	and, also, moreover, likewise
+疫	역	epidemic, pestilence
+譯	역	translate; interpret; explain
+緣	연	affinity, connection; destiny; cause, reason; hem, border
+然	연	so, that way; …like, …ly; yes, certainly; still, nevertheless, although
+煙	연	smoke; mist, vapor; tobacco
+硏	연	grind, rub fine; investigate thoroughly, study, research (Originally 研.)
+宴	연	feast, banquet; party; entertain; relaxation
+延	연	postpone, prolong, delay; invite, engage; receive
+燃	연	burn
+沿	연	follow a course, go along; hand down, continue, conserve; along; riverside
+演	연	drill, exercise, practice; wide, widen, extend; perform
+燕	연	a swallow
+軟	연	soft, yielding, pliable; weak
+鉛	연	lead (the metal)
+悅	열	pleased, contented, glad, happy
+熱	열	hot; heat; fever
+閱	열	inspect
+炎	염	flame; bright; brilliant; inflammation, …itis
+染	염	dye; apply color; infect; catch a disease
+鹽	염	salt; brine
+葉	엽	leaf; petal; slip, card; page; hinge; generation, period
+永	영	perpetual, eternal, long
+榮	영	glory, honor; flourishing; beautiful
+影	영	shadow; image; reflection
+英	영	brave; eminent; flower; beauty
+映	영	shine, reflect, glare; cinema
+營	영	camp, encampment; regulate; found; plan; define
+迎	영	meet, welcome, receive
+泳	영	swim, dive
+詠	영	chant, recite; sing, hum
+銳	예	sharp, sharp-pointed, acute; zealous; valiant
+藝	예	skill; art
+譽	예	eulogize, praise; flatter; fame
+豫	예	beforehand, prior; prepare
+誤	오	mistake, error; erroneous; bungle; miss
+吾	오	I, me; resist, impede, defend
+汚	오	impure, filthy, vile; mean; defile
+烏	오	crow; black; “alas!”
+五	오	five
+午	오	7th of the 12 Earth’s Branches; horse
+悟	오	become aware of, apprehend, awake
+傲	오	haughty, proud
+嗚	오	sobbing; “alas!”
+娛	오	rejoice; amuse; pleasure
+屋	옥	house, room
+玉	옥	gem, precious stone, jade; valuable; your
+獄	옥	prison; trial at law
+溫	온	warm; warm up; gentle; revive
+擁	옹	embrace
+翁	옹	old gentleman, old man, “sir”
+臥	와	lie down, rest
+瓦	와	tile, earthenware, pottery; roof
+完	완	complete; finish; whole, unbroken; pay, settle
+緩	완	slow, tardy, leisurely, easily, gradually; delay; neglect; retard
+曰	왈	speak; say, it is said
+往	왕	go towards, depart; gone; formerly, past
+王	왕	king; royal
+外	외	outside; foreign; extraordinary
+畏	외	dread, fear; awe
+搖	요	shake, agitate, toss; wave, sway; scull, row
+謠	요	song; sing; rumor
+要	요	important, necessary; must; summarize; demand; seek for; make an agreement
+腰	요	waist; lower back; middle; loins
+遙	요	distant, remote; long
+浴	욕	bathe, wash
+欲	욕	desire, wish
+慾	욕	greedy, covetous; desire, lust, passion
+辱	욕	disgrace, defile; abuse
+用	용	use, employ; consume; apply; practical
+容	용	appearance, manner; allow, accommodate; endure; forgive; contain; admit; capacity; easy
+勇	용	brave, daring, plucky, heroic
+庸	용	ordinary, commonplace, usual; simple; harmony
+又	우	and, also, again; in addition to, moreover, further
+右	우	right; right side; honor
+牛	우	cow, ox
+于	우	on; to; with; from
+尤	우	more, moreover
+優	우	plenty, abundant, enough; satisfactory; excellent; actor
+友	우	friend
+愚	우	stupid, foolish; simple, rude
+雨	우	rain
+憂	우	worry; grief; sad; melancholy
+羽	우	feathers, plumes, wings
+遇	우	meet; happen, occur; entertain, receive
+宇	우	space, universe, canopy of heaven; cover, shelter
+偶	우	accidental, by chance; mate; even (numbers)
+郵	우	posthouse; post office; postal, mail
+運	운	transport, convey; luck; revolve, turn around; period of time
+雲	운	clouds; numerous; gather
+云	운	speak, say
+韻	운	rhyme; harmony; expression
+雄	웅	male (of birds, etc.); virile, strong; brave; martial
+元	원	first, head, chief, eldest, principal; large, great; dynasty
+原	원	source, origin, beginning; natural; derivation; plateau, high plain; high level
+援	원	rescue, pull up, assist; lead
+院	원	hall, public building; college; courtyard
+員	원	member; associate
+遠	원	far, distant, remote; far-reaching; keep away from
+願	원	desire; desirous, willing; vow
+園	원	garden, orchard; park
+圓	원	round, circular; basic unit of Korean money
+怨	원	hatred; resentment; find fault with; murmur against
+源	원	source; spring
+越	월	pass over, cross, exceed; transgress, encroach; Vietnam
+月	월	moon, month
+謂	위	speak of, say, called, styled
+爲	위	do; make; cause; be; by; to
+位	위	rank; esteemed; seat; position
+偉	위	splendid, admirable
+危	위	dangerous, perilous; lofty
+威	위	severe, stern; majestic; pomp; overawe
+僞	위	false, simulated
+圍	위	surround, besiege, invest; circumference; span
+委	위	put in charge of, commission; give up; petty
+慰	위	console, comfort, soothe, pacify
+緯	위	parallels of latitude; transverse lines; woof of a web; fringe, tassels
+胃	위	stomach
+衛	위	guard, protect; military station, military escort
+違	위	disobey; disregard; oppose; avoid; abandon a purpose; offend against
+有	유	exist, be; have, possess
+由	유	from, because of, according to; cause, instrument, means; source; permit
+乳	유	milk; breast, nipple; suckle
+儒	유	scholar, Confucian scholar, Confucianist; learned
+維	유	tie, hold fast; only, but
+唯	유	only; and, with; care for, consider
+酉	유	10th of the 12 Earth’s Branches; cock, rooster
+誘	유	entice, induce, mislead
+愈	유	surpass, excel, more; heal
+裕	유	abundant; wealthy; generous; in good circumstances
+遺	유	bequeath, hand down; forget, neglect; loose
+油	유	oil, fat, grease; paint, varnish
+幼	유	young, immature, weak, delicate
+柔	유	soft, pliant; gentle, yielding
+遊	유	play, amuse oneself; roam, travel, saunter
+猶	유	yet; even; like, as
+幽	유	dark, gloomy; arcane; subtle; retired, lonely
+悠	유	distant; far-reaching; anxious thought
+惟	유	think solemnly, care for, consider; only; and, with
+育	육	nurture, nourish, raise
+肉	육	flesh, meat; pulp of fruit
+潤	윤	shining, sleek, glossy; moisten; enrich
+閏	윤	extra month inserted to rationalize calendar; intercalary, extra, inserted; “leap year”
+隱	은	hidden, mysterious, secret; conceal; small; painful
+恩	은	grace, favor, kindness, mercy
+銀	은	silver; money; riches, treasure
+乙	을	2d of the 10 Heavenly Stems; the second
+陰	음	the female or negative principle, Yin
+飮	음	drink, swallow
+音	음	sound, tone, pronunciation
+吟	음	hum, intone; moan; sigh; stutter
+淫	음	lewd, lascivious, immoral, obscene; sex; dissolute; debauch
+邑	읍	town, township
+泣	읍	cry, weep
+凝	응	congeal
+應	응	reply; correspond to; ought
+宜	의	right, fitting; ought, should; suitable
+議	의	discuss; consult; criticism; agreement
+意	의	purpose, will; meaning; idea
+衣	의	clothing
+義	의	right conduct; justice; morality, righteousness; duty to one’s neighbor
+依	의	depend on, trust, comply with, follow; obey; according to
+矣	의	simply, only (as a final particle)
+醫	의	medical science, medicine; physician
+儀	의	deportment, manners; ceremony; usage; rule
+疑	의	doubt, distrust, suspect
+二	이	two
+已	이	already; finished
+以	이	through; with; by; from; reason, since
+耳	이	ear; handle; that which is at the side
+而	이	and; but; like; nevertheless
+夷	이	barbarians; eastern barbarians; squat
+移	이	move; shift; transmit; influence, change
+異	이	different; extraordinary; foreign; heterodox (13 strokes in original form, 異.)
+益	익	profit, advantage
+翼	익	wing; flank of an army; assist; shelter
+人	인	man, mankind
+仁	인	humaneness, humanity
+引	인	lead, guide; introduce
+因	인	in consequence of, due to; cause; origin; follow, rely on
+印	인	official seal, mark; print, stamp
+寅	인	3d of the 12 Earth’s Branches; tiger
+忍	인	endure, bear; repress, hold back
+姻	인	marriage; marriage connections; bride
+認	인	recognize; endure, bear; repress, hold back
+一	일	one; unity; the same; the first, first
+日	일	sun, day; daily; Japan
+逸	일	leisure, leisurely; ease, idleness; let go, lose, loose; retire, withdraw
+壬	임	9th of the 10 Heavenly Stems
+任	임	entrust; put in office; official position; allow; bear, burden
+賃	임	rent, lease
+入	입	enter; put in
+子	자	son, child
+自	자	self; from
+字	자	character, letter
+者	자	person, one; thing, he, it
+姉	자	elder sister (Originally 姊.)
+刺	자	stab; thorn; card
+玆	자	this (Originally 玆.)
+恣	자	impudent, impertinent, uppish; licentious; dissipation
+慈	자	compassion; love (14 strokes in original form, 慈.)
+姿	자	manner, bearing; beauty
+紫	자	purple
+資	자	property, wealth; assistance; disposition; qualifications
+作	작	compose, write, make; work; do, act
+昨	작	yesterday, just past
+酌	작	pour liquor; deliberate, consult
+爵	작	degree of nobility
+殘	잔	remnant, residue; injure, destroy
+暫	잠	a short time, a short while
+潛	잠	hide; submerge
+雜	잡	varied, miscellaneous; rough, coarse; mixed, impure; loose, lax, immoral; idle, useless
+丈	장	ten feet; a senior
+長	장	long
+場	장	open space; place; threshing floor
+壯	장	robust, strong
+將	장	a general; future; lead, escort
+張	장	stretch, extend out; display, publish; sheet
+帳	장	curtain, screen; scroll; tent
+掌	장	palm of the hand; manage, control
+章	장	document; chapter; badge; medal
+腸	장	intestines
+莊	장	brave; serious; farm, place
+障	장	obstruct, screen; barricade
+粧	장	adorn; use cosmetics
+裝	장	pretend, dress as; costume; load, pack
+奬	장	encourage, exhort
+藏	장	store, hoard; hide; Tibet
+墻	장	wall, fence
+葬	장	funeral service; bury
+臟	장	viscera, the Five Vital Organs
+才	재	talent
+在	재	exist, be at, be present
+材	재	material, stuff
+災	재	calamity
+再	재	again, repeated
+哉	재	exclamatory classical Korean particle
+財	재	property, wealth
+栽	재	to plant; sow
+宰	재	official
+裁	재	cut out clothes; diminish, reduce, moderate; regulate; decide, settle, judge
+載	재	load, to load; contain; to record
+爭	쟁	dispute, wrangle
+低	저	low
+底	저	bottom, base
+著	저	to manifest; write | put on, wear
+抵	저	resist, oppose; substitute
+貯	저	store up; hoard
+的	적	target; object; adjectival particle
+赤	적	red; naked
+寂	적	silent, still
+跡	적	traces, footsteps; follow up
+摘	적	pick, pluck; extract; deprive of
+敵	적	enemy; to oppose
+賊	적	thief; to plunder
+適	적	to suit; pleasant, agreeable
+滴	적	to drip; a drop
+積	적	store up, amass
+績	적	weave, spin thread; an affair; to complete; result, effect; merit
+籍	적	register, record, list
+田	전	field
+全	전	entire, whole, complete, perfect
+前	전	front; before
+典	전	law; documents; control; mortgage
+專	전	alone, only, sole
+展	전	open, unroll, spread out
+電	전	lightning; electricity
+傳	전	transmit, hand down; preach, propagate
+轉	전	turn, transfer, transmit
+戰	전	war, battle; tremble
+錢	전	money, coppers, coins
+殿	전	palace
+切	절/체	slice, cut, mince; earnest, urge
+折	절	snap, break off; reduce, diminish; humble oneself, bow down; barter, sell; fold down
+節	절	bamboo joint; section, chapter, verse; token; time, season; festival; moderation, restraint
+絶	절	cut off, end; absolutely; the top, the best
+竊	절	steal
+占	점	prognosticate, foretell; seize, usurp
+店	점	shop, inn, tavern
+點	점	point, spot, dot; a bit, a little; check off
+漸	점	gradually; flow; soak
+接	접	meet, welcome; join, connect, contact; take, accept
+蝶	접	butterfly
+丁	정	4th of the 10 Heavenly Stems; person; T-shape
+井	정	a well
+正	정	upright; true; right, correct, straight; just at; adjust; principal, chief; January; whole
+貞	정	upright, correct; pure, chaste, virtuous; lucky
+廷	정	the court, the government
+訂	정	arrange, settle; edit
+政	정	govern, rule; government; politics
+定	정	fix, settle, decide
+征	정	subdue; attack; levy taxes, raise troops; go, pass time
+亭	정	pavilion, kiosk, shed
+情	정	feelings, emotions; circumstances, facts
+停	정	delay, stop, desist
+頂	정	top, head; extreme
+庭	정	hall, court, courtyard
+程	정	road; journey; career; grade; standard, pattern; amount
+精	정	spirit; fine, delicate; essence, essential, unadulterated, refined; skill; extreme, extremely; secretions
+淨	정	clean, pure
+靜	정	quiet, peaceful
+整	정	set in order, put right, repair, adjust; whole, in total
+帝	제	emperor, ruler; god
+祭	제	sacrifice
+齊	제	name of ancient Chinese state; even, regular, uniform
+弟	제	younger brother
+濟	제	aid, relieve; cross a stream; to complete
+製	제	make, construct
+題	제	title, heading; subject; theme; proposition
+第	제	order, series, grade, degree, …th; a house; an examination degree
+制	제	laws; regulate, govern; determine, decide, fix; prepare
+諸	제	all, every
+除	제	deduct; remove, do away with; subject
+際	제	associate; time; occasion; border, limit
+堤	제	dike, embankment
+提	제	pick up, lift up, pull up; mention; suggest; propose
+早	조	early
+兆	조	a trillion; omen, sign
+弔	조	condolence; mourn; hang, droop; demand, ask for
+鳥	조	bird
+助	조	help, assist, aid
+祖	조	grandfather; ancestor; prototype; beginning
+租	조	tax; rent
+組	조	silk cord; tissue; group, section, department
+操	조	grasp; manage; restrain; exercise, drill
+條	조	branch, twig; section, clause, item; orderly, regular; a long thing
+潮	조	the tide
+照	조	reflect; look after; a permit; according to, referring to
+朝	조	morning; the court; visit a superior; a dynasty
+調	조	harmonize; investigate
+造	조	build, make, create
+燥	조	parched, scorched
+足	족	foot; enough, complete, full
+族	족	clan, tribe, family; class
+存	존	exist; keep, preserve
+尊	존	honor, exalt, venerate
+拙	졸	clumsy, unskillful, stupid; one’s own
+卒	졸	soldier; underling; to die, finish; finally, completely; suddenly, urgently
+終	종	conclude, end; the end; finally, at last
+宗	종	class, sect; ancestral; clan; distinguished
+縱	종	lengthwise, perpendicular, vertical; to relax, let go; to loose; indulgent
+從	종	follow, obey, comply; from; accessory; relatives
+種	종	seed, sow, plant; kind, sort
+鐘	종	bell; clock (Also written 鍾.)
+左	좌	left; inferior
+座	좌	a seat; throne; base, stand; constellation
+坐	좌	sit; seat; assign
+佐	좌	assist, aid; subordinate official
+罪	죄	sin; crime; transgression; misdeed, offense
+住	주	dwell, stop
+舟	주	boat
+走	주	run, walk, go, travel
+酒	주	liquor; wine
+鑄	주	cast
+主	주	lord, master, ruler; chief, principal
+珠	주	pearl
+宙	주	universe; eternity
+晝	주	daytime
+朱	주	red, vermilion
+注	주	pour water; concentrate
+周	주	encircle; all around; complete, entire; relieve; assist
+奏	주	inform
+州	주	region, state, province
+柱	주	pillar, post; support
+株	주	tree trunk; stock
+洲	주	islet, island; continent
+竹	죽	bamboo
+準	준	rule; regularize, adjust; exact, true; weight, measure; grant, allow; quasi…, semi…
+俊	준	superior, eminent, heroic, refined, handsome
+遵	준	follow, obey; honor
+衆	중	crowd, multitude; all, the whole of
+重	중	heavy; important; severe
+中	중	middle, within; China; hit, attain
+仲	중	second in order, second-born; personal relations
+卽	즉	immediately; now; then; even if; go, approach
+症	증	ailment, malady, disease
+增	증	add to, increase, augment
+憎	증	hate, detest
+蒸	증	steam
+證	증	evidence, proof
+贈	증	give, bestow, confer
+曾	증	already; duplicate; add to, additional
+遲	지	slow; tardy, late
+知	지	know
+指	지	finger; toe; to point
+紙	지	paper
+止	지	stop; desist; rest
+志	지	purpose, will, determination
+至	지	reach, arrive at; extreme
+之	지	go; arrive; of; it, him, her
+地	지	earth, soil; place; cloth
+只	지	merely, only, but
+支	지	prop, support; pay, expend; branch
+枝	지	branch
+持	지	hold, grasp; restrain; support
+池	지	pond
+誌	지	to record; annals, official gazette
+智	지	wisdom, knowledge
+職	직	office, post, position; govern, manage, direct, oversee
+織	직	weave
+直	직	straight, direct; honest
+辰	진/신	5th of the 12 Earth’s Branches; star; dragon
+震	진	shake
+陳	진	spread out, arrange; old, seasoned; make a statement or plea
+眞	진	true, real; likeness
+珍	진	precious, rare; delicious
+鎭	진	press down; guard; ward off evil influences; brigade; market town
+盡	진	all, entirely; exhaust; utmost
+進	진	go forward, advance
+振	진	shake; move; flap
+陣	진	file of soldiers; army; battle array; battle
+質	질	nature, disposition; substance, matter
+疾	질	disease, illness; urgency, haste
+姪	질	nephew, niece
+秩	질	order, orderly; rank
+集	집	assemble, gather; compile, edit
+執	집	grasp, seize, hold; manage, direct
+徵	징	summon; conscript; levy, collect; seek, solicit; prove, verify
+懲	징	punishment, warning
+且	차	moreover, further, also
+次	차	next; sequence, series; occasion; place
+此	차	this
+借	차	borrow; lend
+差	차	difference, discrepancy; send
+着	착/저	contact; arrive; detach; put on, wear; put, place
+錯	착/조	wrong, mistaken
+捉	착	seize, grasp
+讚	찬	praise; admire
+贊	찬	help, assist; praise
+察	찰	investigate
+慙	참	shame
+慘	참	sorrowful, pitiful
+唱	창	sing; call out
+創	창	begin, create, make; wound, stab
+昌	창	prosperous; glorious
+窓	창	window; door
+倉	창	granary; flustered
+暢	창	pleasant; joyful; luxuriant, flourishing
+蒼	창	green, blue
+採	채	pick, pluck, gather, choose
+菜	채	vegetables
+債	채	debt
+彩	채	variegated colors; decorated, ornamented
+策	책	plan, scheme
+責	책	responsibility; punish, rebuke
+冊	책	book, register
+妻	처	wife
+處	처	a place; stay; decide; punish; manage, attend to
+尺	척	a Chinese foot, a ch'ok (30.3 centimeters, 11.9 inches)
+斥	척	dismiss, reject, drive away; scold
+戚	척	relatives; mourning
+拓	척	open up | take up, pick up; collect
+川	천	stream
+千	천	one thousand
+天	천	heaven, nature; Nature; God, divine; weather
+泉	천	spring, fountain; wealth
+賤	천	mean; cheap; despise
+淺	천	shallow; light
+薦	천	recommend, introduce; offer; worship; fodder
+踐	천	trample; tramp
+遷	천	move, shift
+鐵	철	iron; firm
+徹	철	penetrate; intelligible; remove; recall; degrade
+哲	철	wise, knowing
+尖	첨	pointed, sharp
+添	첨	add, increase
+妾	첩	concubine
+靑	청	blue, green; young (Originally 靑.)
+淸	청	clear, pure
+請	청	request; invite
+晴	청	clear sky, fair weather
+聽	청	listen, hear; understand; acknowledge, comply with
+廳	청	hall, court; sub-prefecture
+滯	체	block up
+體	체	body; substance; style; real
+替	체	substitute
+逮	체	seize
+遞	체	alternate
+肖	초	like, likeness, imitate
+初	초	first, the beginning
+草	초	grass, weeds, herbs
+招	초	call; beckon; proclaim; welcome, receive; cause; confess
+抄	초	seize; copy out; voucher; wholesale
+秒	초	second
+超	초	jump over; stride; excel
+礎	초	stone used as a base of a pillar
+促	촉	urge
+燭	촉	candle
+觸	촉	touch; stimulate; offend; butt, gore
+寸	촌	inch; degree of kinship
+村	촌	village
+總	총	manage, supervise; all, overall; summarize
+聰	총	clever, quick to understand
+銃	총	gun
+最	최	most; extremely; collect, assemble
+催	최	pressure, urge
+秋	추	autumn
+抽	추	pull out, take out; levy
+推	추	push; expel; shirk; extend; deduce, promote; yield
+追	추	follow, pursue; seek out; look back on; press, dun
+醜	추	vile; ugly
+築	축	build up, stack up; beat down earth
+祝	축/주	pray, invoke; bless
+丑	축/추	2d of the 12 Earth’s Branches; ox
+畜	축	cultivate, rear; domestic animals; store up
+縮	축	shrink, draw in, draw back, recoil
+蓄	축	store up
+逐	축	expel; pursue; in order, in succession, one by one
+春	춘	spring (season); youth; sex
+出	출	exit, come out, go out; issue; beget, produce; be born, appear
+蟲	충	insects; bugs; vermin
+充	충	fill up; satisfy; act as
+忠	충	loyal, devoted
+衝	충	collide, rush against; insult; thoroughfare
+吹	취	blow, puff
+取	취	take
+臭	취	stink, smell
+醉	취	become intoxicated
+就	취	go for a purpose, come for a purpose
+趣	취	pleasure, delight; taste; bias, tendency; meaning, intent, purpose
+測	측	measure; fathom; estimate
+側	측	side; askew; biased; perverted
+層	층	level, story, layer; degree; item, clause
+治	치	govern; regulate; punish; cure, heal
+致	치	reach, extend to (9 strokes in original form, 致.)
+恥	치	ashamed; shame
+値	치	price, value; meet; happen; take in hand
+置	치	put aside, put away; place, establish; dismiss, disregard
+齒	치	teeth; age; seniority
+則	칙/즉	rule; law; pattern; standard | consequently, accordingly
+親	친	parents; intimate, close; related
+七	칠	seven
+漆	칠	lacquer
+侵	침	usurp; encroach upon; raid; invade
+針	침	a needle
+寢	침	sleep, rest; bedchamber
+枕	침	a pillow
+沈	침/심	sink; perish; heavy
+浸	침	soak, immerse; flood
+稱	칭	declare, designate, call; price; weigh, estimate; suitable; raise
+快	쾌	quick, fast; sharp, keen; cheerful, happy
+他	타	other
+妥	타	secure, safe; satisfactory; ready
+打	타	hit, beat
+墮	타	fall, sink
+濁	탁	muddy
+卓	탁	high
+托	탁	entrust; request
+濯	탁	wash
+炭	탄	charcoal
+彈	탄	bullet; bounce, spring; pluck a stringed instrument
+歎	탄	sigh
+誕	탄	born
+脫	탈	undress, strip; remove; cast off
+奪	탈	take away, snatch, wrest away
+探	탐	inquire into, detect
+貪	탐	covet, show greed
+塔	탑	pagoda, tower
+湯	탕	boil, scald; hot water; soup
+太	태	great, grand; excessive, extreme
+泰	태	exalted; extreme; Thailand
+怠	태	lazy; remiss; disrespectful
+態	태	attitude; behavior
+殆	태	dangerous; almost
+澤	택	pond; marsh; damp; enrich, fertilize; glossy
+擇	택	select, choose
+宅	택	private dwelling, house, home | spouse; wife of
+土	토	earth; local
+吐	토	vomit, spit
+討	토	beg, seek; punish
+痛	통	painful, sore
+通	통	go through; communicate; intercourse; all, whole
+統	통	govern, rule; unite; all; clue, end of the thread; start
+退	퇴	withdraw; abate
+透	투	penetrate; transparent; understand; thoroughly
+鬪	투	fight, quarrel
+投	투	throw, cast, hand over; fit in; submit; go toward
+特	특	special
+罷	파	stop, finish
+破	파	break; destroy
+波	파	waves (on water)
+把	파	catch
+播	파	sow; disseminate
+派	파	branch, branch off; send
+頗	파	partial; rather
+板	판	board, plank
+判	판	judge, discriminate; divide
+版	판	printing block
+販	판	sell, deal in
+八	팔	eight
+敗	패	suffer defeat, lose; spoil
+貝	패	shells; treasure
+便	편/변	convenient | excretion, feces, urine
+片	편	piece, strip, bit
+篇	편	book
+偏	편	incline
+編	편	weave; arrange; compile
+遍	편	everywhere; whole; time, occasion
+平	평	level; ordinary; peaceful; weigh
+評	평	criticize, comment
+廢	폐	dispose of, dispense with; destroy; abrogate; waste
+弊	폐	corruption, abuse; worn out; distressed
+閉	폐	close, shut, obstruct
+幣	폐	money; silk; gifts; wealth
+肺	폐	lungs
+蔽	폐	conceal; shade, darken
+布	포	linen; notify; display
+捕	포	seize
+抱	포	embrace, take in the arms
+包	포	wrap
+浦	포	riverbank; inlet, bay
+胞	포	uterus, womb
+飽	포	be full from eating
+暴	포/폭	cruel, violent | expose, be exposed; dry in the sun
+爆	폭	explode
+幅	폭	width; strip of cloth
+標	표	mark; signal; notice, sign, signboard
+表	표	surface, external; display; chart; gauge
+漂	표	float, drift
+票	표	ticket; slip of paper; banknote
+品	품	things, goods; quality; kind, class; conduct, deportment
+風	풍	wind; custom; style; scenery; influence
+豊	풍	fruitful year; good crop
+疲	피	weary, tired
+被	피	wear; bear, suffer; coverlet
+避	피	shun; avoid; flee
+彼	피	that, those; he, them; the other one, the other ones
+皮	피	skin; fur; leather; bark
+必	필	necessarily, for sure
+筆	필	writing brush; pen; pencil
+匹	필	a roll; one of a pair; a horse; a cow
+畢	필	complete, finish, exhaust; all, together
+何	하	what, how
+下	하	below, down, low, under
+夏	하	summer
+河	하	river
+賀	하	congratulate
+荷	하	load; lotus
+學	학	learning
+鶴	학	a crane (bird)
+漢	한	Han Dynasty of China
+限	한	bounds, limits, a limit
+汗	한	perspiration, sweat
+閑	한	leisure
+恨	한	grudge
+寒	한	cold
+韓	한	Korea
+旱	한	drought
+割	할	cut up; divide
+含	함	hold in the mouth
+咸	함	all, together
+陷	함	sink; fall
+合	합	join
+項	항	back of the neck; item
+恒	항	constant, always
+巷	항	alley, street; hole
+抗	항	oppose, resist
+港	항	bay
+航	항	navigate
+亥	해	12th of the 12 Earth’s Branches; boar; pig
+海	해	sea
+害	해	hurt, harm, injury; loss, damage
+解	해	explain; deliver; loosen, release
+奚	해	how
+該	해	that, the said
+核	핵	kernel; investigate
+行	행	walk; do; action, behavior
+幸	행	fortunate, lucky
+向	향	face towards
+響	향	noise; echo
+香	향	fragrance; incense
+享	향	enjoy; receive
+鄕	향	village; country
+虛	허	empty; vain
+許	허	permit; place
+獻	헌	humbly give; present, offer
+憲	헌	law; constitution
+軒	헌	balcony; high
+驗	험	examine, test
+險	험	rugged, dangerous; narrow pass
+革	혁	leather; remove; revolt
+現	현	appear; now
+懸	현	hang, suspend
+賢	현	worthy; wise
+玄	현	dark; subtle; abstruse
+絃	현	musical string
+縣	현	district, subprefecture
+顯	현	appear, manifest; illustrious
+血	혈	blood
+穴	혈	cave, hole
+嫌	혐	dislike
+脅	협	rib, ribs; threat
+協	협	harmonize; agree; unite
+形	형	shape, form
+刑	형	punishment
+衡	형	scale beam
+兄	형	elder brother; seniors
+亨	형	pervade; successful
+螢	형	glowworm
+惠	혜	favor, grace, kindness; graciousness
+兮	혜	an exclamatory particle in classical Korean
+慧	혜	wisdom; cleverness; wit
+好	호	good, nice; like, love
+乎	호	exclamation; interrogative final particle
+互	호	mutual
+戶	호	door; family
+呼	호	cry out, call; exhale
+虎	호	tiger
+號	호	name, designation, mark
+護	호	guard
+湖	호	a lake
+毫	호	the finest hair, the smallest bit
+浩	호	vast; great, grand
+胡	호	barbarian; foreign; Manchurian; Manchu; Chinese
+豪	호	brave, chivalrous
+或	혹	perhaps; some
+惑	혹	delude, bewitch; doubt
+魂	혼	soul, spirit; wits
+婚	혼	marriage
+混	혼	confused; turbid
+昏	혼	dark; confused; stupid
+忽	홀	suddenly; despise, snub, be inconsiderate
+弘	홍	broad, extensive, large
+洪	홍	vast; flood
+鴻	홍	wild goose
+紅	홍	red
+禾	화	growing grain, growing rice
+華	화	splendid; flowery; China
+花	화	flowers; vice; assorted
+話	화	words, talk
+禍	화	calamity
+火	화	fire
+化	화	transform, change
+和	화	harmony, peace
+畵	화	picture | draw, mark (Compare 劃, 획 1343.)
+貨	화	goods; cargo, freight
+確	확	definite, sure
+擴	확	expand
+穫	확	reap, harvest
+丸	환	a pill; a bullet
+患	환	anxiety; suffering; trouble
+歡	환	joyful
+換	환	exchange
+環	환	ring
+還	환	return
+活	활	life, live; lively
+況	황	all the more, all the less
+皇	황	emperor
+黃	황	yellow
+荒	황	wild, barren, deserted
+回	회	return; Mohammedan; time, occasion
+悔	회	repent, regret; reject
+會	회	assemble, meet; society
+懷	회	clasp to the bosom
+劃	획	draw, mark (Also written 畵, 화, 1135.)
+獲	획	take, seize
+橫	횡	horizontal, crosswise, sidewise; perverse; unreasonable; unexpected
+孝	효	filial piety
+效	효	be like, imitate; efficacious; endeavor
+曉	효	dawn; understand
+後	후	after, behind, later
+厚	후	thick; generous
+侯	후	feudal lord
+候	후	climate; wait, expect
+訓	훈	instruct; admonish
+毁	훼	ruin; slander
+揮	휘	shake; wield; sprinkle; wipe away
+輝	휘	bright
+休	휴	rest; cease; desist; inactive; blessings, good luck
+携	휴	lead; carry; take along
+凶	흉	cruel; evil; unfortunate; ugly
+胸	흉	breast, chest
+黑	흑	black; evil
+吸	흡	suck in, inhale
+興	흥	arise; prosperous; enjoyment, fun
+喜	희	happiness, joy
+希	희	hope for; Greece
+稀	희	sparse, rare; thin
+戱	희	joke; play
