@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scipy
+pandas
+netCDF4
+cartopy
+sklearn
