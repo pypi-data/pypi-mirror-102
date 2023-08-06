@@ -1,0 +1,9 @@
+pyfoam>=0.6.7
+pandas>=0.23.0
+
+[dev]
+pytest>=6.2.3
+sphinx_rtd_theme
+
+[plot]
+seaborn>=0.8
