@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mmct
+Version: 1.0
+Summary: Multinomial Monte Carlo testing
+Home-page: https://github.com/cwand/mmct
+Author: Chris Walther Andersen
+Author-email: cvvand@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cwand/mmct/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# mmct
+Provides functionality for performing multinomial tests using monte carlo simulation
+
+
