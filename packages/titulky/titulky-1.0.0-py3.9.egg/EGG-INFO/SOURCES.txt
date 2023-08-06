@@ -1,0 +1,8 @@
+README.md
+setup.py
+titulky.py
+titulky.egg-info/PKG-INFO
+titulky.egg-info/SOURCES.txt
+titulky.egg-info/dependency_links.txt
+titulky.egg-info/entry_points.txt
+titulky.egg-info/top_level.txt
