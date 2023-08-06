@@ -1,0 +1,2 @@
+Click>=7.0
+free-proxy>=1.0.2
