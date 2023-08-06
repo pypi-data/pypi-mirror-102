@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: stata-setup
+Version: 0.1.2
+Summary: A module for configuring and initializing Stata within Python
+Home-page: https://www.stata.com/python/pystata
+Author: StataCorp LLC
+Author-email: tech-support@stata.com
+License: Apache Software License 2.0
+Description: 
+        stata_setup 
+        ===========
+        
+        The **stata_setup** module is used to configure and initialize Stata within 
+        Python. After the initialization, you can use the 
+        `pystata <https://www.stata.com/python/pystata>`__ Python package, which is 
+        shipped with Stata 17, to interact Stata with Python. 
+        
+        After the module is installed, you can type
+        
+          >>> import stata_setup
+          >>> stata_setup.config('your_stata_installation_directory', 'your_stata_edition')
+        
+        in your Python environment to initialize Stata. For example, if you have Stata 
+        installed in **C:\\Program Files\\Stata17\\** and you use the **Stata/MP** edition,  
+        then Stata can be initialized as follows:
+        
+          >>> import stata_setup
+          >>> stata_setup.config('C:/Program Files/Stata17/', 'mp')
+        
+        See `Configuration <https://www.stata.com/python/pystata/install.html#method-1-installing-via-pip>`__ 
+        for more information on how to configure and initialize Stata from within 
+        Python. 
+        
+        **stata_setup** runs with Python 2.7+ and 3.4+. 
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
