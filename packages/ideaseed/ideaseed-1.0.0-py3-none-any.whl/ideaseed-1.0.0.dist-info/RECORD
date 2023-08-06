@@ -1,0 +1,16 @@
+ideaseed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ideaseed/authentication.py,sha256=Y_LTqDcTmr734HA7lFYQbc9gMfE9kHl6Kj7oSxkhXww,2205
+ideaseed/cli.py,sha256=xA9tlKrqfSbTjjaY3XzYHpQzf-s9IfeZo5HDPRgtvLs,10240
+ideaseed/config_wizard.py,sha256=ryTFjhHDhHhWvtjD3VrHujmsn3mM1e7N9wnTuxPtE6g,6754
+ideaseed/constants.py,sha256=uDon06qOgECkYSISgsLtzbya5-fRmGUYVC7Q46Lo5tM,773
+ideaseed/github_cards.py,sha256=x2NC1weKLfKE4gRpV0fizT6uT4Oo_05QvEVzU3WOUyY,16387
+ideaseed/gkeep.py,sha256=G9oDUNLCaMt5CfBioPTeSKVogakUr6Ci_SmhuKGr4MM,6257
+ideaseed/interactive_mode.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ideaseed/ui.py,sha256=cTxmyLXREyzd6XyC2Rpnw4W8HVPxCAsIF2hyOEL5Lmc,5546
+ideaseed/update_checker.py,sha256=7UsjgUuIgvvnD6N3P5A8k_zTKCriKkQGtQG_vfe8680,6262
+ideaseed/utils.py,sha256=ktIbX5uyvii8etG-USHuUd5AZkd1ZMn3_VNW7YDrkgg,5672
+ideaseed-1.0.0.dist-info/entry_points.txt,sha256=lcw5dpXBOfBHo0M5eMzyxUr6qPdhgxuIs-3P9IZwHa4,45
+ideaseed-1.0.0.dist-info/LICENSE,sha256=lWMhWSde8Cf7ZtmOYVR29F0dQp0BjMmC22McoNMDhl8,1070
+ideaseed-1.0.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+ideaseed-1.0.0.dist-info/METADATA,sha256=f2l5BreTpNYZgBLIuyYhk2aPw86nY7hkzGPjzm1523Y,16570
+ideaseed-1.0.0.dist-info/RECORD,,
