@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: restconf-sdk
+Version: 0.0.1
+Summary: A wrapper for Cisco's RESTCONF
+Home-page: https://github.com/Paul-weqe/restconf_sdk
+Author: Paul Wekesa
+Author-email: paul1tw1@gmail.com
+License: unlicense
+Platform: UNKNOWN
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
