@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+unclenews/__init__.py
+unclenews/runningtext.py
+unclenews.egg-info/PKG-INFO
+unclenews.egg-info/SOURCES.txt
+unclenews.egg-info/dependency_links.txt
+unclenews.egg-info/top_level.txt
