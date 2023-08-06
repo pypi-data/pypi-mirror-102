@@ -1,0 +1,12 @@
+awslayer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awslayer/deploy.py,sha256=27WBCP0s2r3fWFz2rNhW_iurkjHIGZiTlN_NnHDejG0,1301
+awslayer/helpers.py,sha256=dUrwXus9ZhfB_tCPrvf5TUpJr0pNkzzoGR6Qc4Q9PuY,4738
+awslayer/init.py,sha256=0nni8jg7N9TdW7Wyly-SBnZyLproUHis2GG82Rz3y6w,472
+awslayer/run.py,sha256=w7zzAMaWMx55r7eDCglgDzcQLFAadxojkEZ9k0oLTPU,1477
+awslayer_manager-1.0.11.dist-info/AUTHORS,sha256=4n0wsG4Pc3h66wqgEQEnDPskPH8gar153fmkjEdtdNA,42
+awslayer_manager-1.0.11.dist-info/LICENSE,sha256=tXJJGrFWmPEJkszhUMcYF72TNPJb0gvLba18hHxKV9E,1077
+awslayer_manager-1.0.11.dist-info/METADATA,sha256=I8ZzcY95rEl98HdHoyhQyW7R4V2LOAnGGmQB2zO8AIk,2366
+awslayer_manager-1.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awslayer_manager-1.0.11.dist-info/entry_points.txt,sha256=zf99n-5eeYoQfQzOkFy__RE3c_CfuOgGWAMIZHW0s4M,48
+awslayer_manager-1.0.11.dist-info/top_level.txt,sha256=IjW45EBSykNbzAKD3dHFGwDecBfE505czaYWMdicCec,9
+awslayer_manager-1.0.11.dist-info/RECORD,,
