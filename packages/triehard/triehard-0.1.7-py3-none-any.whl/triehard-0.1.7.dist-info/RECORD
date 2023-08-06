@@ -1,0 +1,8 @@
+triehard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triehard/cli.py,sha256=xkzJgvyOWmIOe1YFTwzfTdPwDdWzBL1I899MhxUp4CM,792
+triehard/lib/commands.py,sha256=Bzmrn2ooPXE26zFrrmRnr8Z4wM7QWfoJphsWArA_TRw,2856
+triehard/triehard.py,sha256=DcQWO6WCVBH5sc5MKiO4MkOnQhX9Lg4z75vfbmUbK70,23
+triehard-0.1.7.dist-info/entry_points.txt,sha256=JtfYc4K2or3hH7o7LmezOqlG0Sfrc_gbwbXJWvniNVQ,33
+triehard-0.1.7.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+triehard-0.1.7.dist-info/METADATA,sha256=F_A6V2VRObp4wEJoV9fFd8iH2v-jArJQXxWZXxA1kXo,506
+triehard-0.1.7.dist-info/RECORD,,
