@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cdtea
+Version: 0.0.2
+Summary: CDTea
+Home-page: https://github.com/JWKennington/cdtea
+Author: James Kennington
+Author-email: jameswkennington@gmail.com
+License: MIT
+Description: CDTea
+        
+        
+        The `cdtea` package contains utilities for studying causal dynamical triangulations 
+        
+        in Python
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: ==3.7, ==3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+README.md
+setup.py
+cdtea/__init__.py
+cdtea/simplicial.py
+cdtea.egg-info/PKG-INFO
+cdtea.egg-info/SOURCES.txt
+cdtea.egg-info/dependency_links.txt
+cdtea.egg-info/not-zip-safe
+cdtea.egg-info/requires.txt
+cdtea.egg-info/top_level.txt
+cdtea/tests/__init__.py
+cdtea/tests/test_simplicial.py
