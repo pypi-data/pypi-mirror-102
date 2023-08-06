@@ -1,0 +1,8 @@
+README.md
+setup.py
+ssm_analyze.egg-info/PKG-INFO
+ssm_analyze.egg-info/SOURCES.txt
+ssm_analyze.egg-info/dependency_links.txt
+ssm_analyze.egg-info/entry_points.txt
+ssm_analyze.egg-info/requires.txt
+ssm_analyze.egg-info/top_level.txt
