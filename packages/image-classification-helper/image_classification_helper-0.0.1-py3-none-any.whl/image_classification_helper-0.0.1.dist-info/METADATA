@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: image-classification-helper
+Version: 0.0.1
+Summary: Image Classification Helper for class demo
+Home-page: https://github.com/wshuyi/image_classification_helper/tree/master/
+Author: Shuyi Wang
+Author-email: nkwshuyi@gmail.com
+License: Apache Software License 2.0
+Keywords: image
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Provides-Extra: dev
+
+# Project name here
+> Summary description here.
+
+
+This file will become your README and also the index of your documentation.
+
+## Install
+
+`pip install your_project_name`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```
+1+1
+```
+
+
+
+
+    2
+
+
+
+
