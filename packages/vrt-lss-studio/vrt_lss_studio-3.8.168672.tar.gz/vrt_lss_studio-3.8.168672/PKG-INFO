@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: vrt_lss_studio
+Version: 3.8.168672
+Summary: Veeroute.LSS Studio
+Home-page: https://docs.veeroute.com/#/lss/studio
+Author: Veeroute Support Team
+Author-email: support@veeroute.com
+License: UNKNOWN
+Description:     LSS Studio Tool API  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Veeroute.LSS Studio
+Platform: UNKNOWN
+Requires-Python: >=3.6
