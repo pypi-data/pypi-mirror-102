@@ -1,0 +1,11 @@
+README.md
+setup.py
+rescaleforvis/__init__.py
+rescaleforvis/helpers.py
+rescaleforvis/rescale.py
+rescaleforvis.egg-info/PKG-INFO
+rescaleforvis.egg-info/SOURCES.txt
+rescaleforvis.egg-info/dependency_links.txt
+rescaleforvis.egg-info/not-zip-safe
+rescaleforvis.egg-info/requires.txt
+rescaleforvis.egg-info/top_level.txt
