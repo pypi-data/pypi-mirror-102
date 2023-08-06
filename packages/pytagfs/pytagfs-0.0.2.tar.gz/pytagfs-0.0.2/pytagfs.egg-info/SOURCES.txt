@@ -1,0 +1,8 @@
+README.md
+pytagfs
+setup.py
+pytagfs.egg-info/PKG-INFO
+pytagfs.egg-info/SOURCES.txt
+pytagfs.egg-info/dependency_links.txt
+pytagfs.egg-info/requires.txt
+pytagfs.egg-info/top_level.txt
