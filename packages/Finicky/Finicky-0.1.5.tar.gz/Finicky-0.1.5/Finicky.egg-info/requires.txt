@@ -1,0 +1,6 @@
+pytest==4.4.1
+pytest-watch==4.2.0
+pytest-cov==2.8.1
+mock==3.0.5
+twine==1.15.0
+pathlib2==2.3.5
