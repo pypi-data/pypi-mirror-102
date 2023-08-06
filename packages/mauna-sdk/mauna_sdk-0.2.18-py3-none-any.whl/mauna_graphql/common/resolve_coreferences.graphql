@@ -1,0 +1,13 @@
+query resolveCoreferences($input: String!) {
+  result: callResolveCoreference(input: $input) {
+    resolved_text: result
+    coreferences {
+      mention
+      reference {
+        score
+        text
+      }
+    }
+    has_coreference
+  }
+}

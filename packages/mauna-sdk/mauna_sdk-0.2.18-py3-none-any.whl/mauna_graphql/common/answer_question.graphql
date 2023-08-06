@@ -1,0 +1,8 @@
+query answerQuestion($input: String!, $context: String!) {
+  result: callQA(input: $input, context: $context, allow_impossible: true) {
+    answers: result {
+      answer
+      score
+    }
+  }
+}

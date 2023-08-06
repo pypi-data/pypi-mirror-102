@@ -1,0 +1,6 @@
+query getSentiment($input: String!) {
+  result: callSentimentAnalysis(input: $input) {
+    label
+    score
+  }
+}
