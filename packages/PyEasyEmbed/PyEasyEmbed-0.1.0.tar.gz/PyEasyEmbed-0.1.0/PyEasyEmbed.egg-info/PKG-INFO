@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyEasyEmbed
+Version: 0.1.0
+Summary: Library to make command calls from other application of Python more easy
+Home-page: https://github.com/swip3798/PyEasyEmbed
+Author: Christian Schweigel
+Author-email: 
+License: UNKNOWN
+Description: # PyEasyEmbed
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
