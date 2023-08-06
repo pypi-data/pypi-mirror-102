@@ -1,0 +1,13 @@
+brewv/__init__.py,sha256=5kTOZwXVcIsiBj8lkz_0rCC3ImV50oNZlpdkBHcbTQo,381
+brewv/__main__.py,sha256=ubt6XyZvcHwdjCQ90B_U4MeP-3YJduz5GWUC9yOgkrg,27
+brewv/bottle.py,sha256=vtSQ0Epx-AWxtU6WP1PIqKiRwui8JuNjk6F5nJrGRJY,4308
+brewv/cli.py,sha256=kbv74RuuZBqjcj-o3bQ9El4DpKcuoRNvaydKm13Kvlo,1014
+brewv/constants.py,sha256=0Ll9aDyz1yoaxQFo4cMknSYx_KReyUGP4a5LTf9x46g,289
+brewv/core.py,sha256=2adPP4bIyE_onCgTAzlQAIxHsT5bmowjvC2awGrCT5I,5250
+brewv/util.py,sha256=dOPRFX9jaxMaP-ItNF4pBALt0VHlegN5-Q8YeCwDNYM,2344
+brew_versions-0.3.1.dist-info/LICENSE,sha256=PzYgiyYMAnbvR5sbOlU77-jxWjg-Gk33ueHEtzpOyj4,1061
+brew_versions-0.3.1.dist-info/METADATA,sha256=VK9HwezprwTd1MKkN0_Xva_yvXa6JEaQ5JrZIzZOyhQ,3731
+brew_versions-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brew_versions-0.3.1.dist-info/entry_points.txt,sha256=23QHsxPOo1Bi68_i3MRHelWfM8WqyImiOzl-xM68hP0,38
+brew_versions-0.3.1.dist-info/top_level.txt,sha256=Z5P8cp1XXa4zFl-Y7KD7pi8Kk6PZ2qHfglE-5s34r8I,6
+brew_versions-0.3.1.dist-info/RECORD,,
