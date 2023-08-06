@@ -1,0 +1,13 @@
+reticker/__init__.py,sha256=WDO4TPYYnBvPE_j_966yPXG77U3MAtb878eBvLyyR9o,201
+reticker/reticker.py,sha256=rJoGigRIHkibw7xkorVHIqxEZ0GFwN4I0SJcaVcmyNc,3808
+reticker/config/__init__.py,sha256=nijLYOId-4yWdc9v-8kHouP4sMDggdR9P3FUeo2pDpY,378
+reticker/config/blacklist/general.txt,sha256=CO1iibJmzF6SghUKdkiIIjp2HAtKIrlX9Bwor_j5DZc,138
+reticker/config/blacklist/profanity.txt,sha256=G8l4nWLc1i2tFjEy6RAT6_j9XsfCmNJp84-3Y4bSAxA,81
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_config.py,sha256=VWbEodvbawTuJcJ7kjCQUhxDSKcEtXT3BZc7IXMZ8iM,506
+tests/test_extractor.py,sha256=-ITHSi-7fVREnO3FfuBrdOL5JGhodml6jj47pFNdQp8,6761
+reticker-3.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+reticker-3.0.0.dist-info/METADATA,sha256=Yzvia-OJ6dy3h_2sHuXILOxGpQVaiXiwQlJn66jPljc,4079
+reticker-3.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+reticker-3.0.0.dist-info/top_level.txt,sha256=GTR_VvHdee6puZD1YruuIEWm1e6w6ZJReIp0nBau1kI,15
+reticker-3.0.0.dist-info/RECORD,,
