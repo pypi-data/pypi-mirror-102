@@ -1,0 +1,9 @@
+README.md
+setup.py
+nsestockdata.egg-info/PKG-INFO
+nsestockdata.egg-info/SOURCES.txt
+nsestockdata.egg-info/dependency_links.txt
+nsestockdata.egg-info/top_level.txt
+stockdatascrape/__init__.py
+stockdatascrape/financialdata.py
+stockdatascrape/pricedata.py
