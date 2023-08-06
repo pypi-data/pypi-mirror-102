@@ -1,0 +1,13 @@
+RequestsStampede/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RequestsStampede/config.py,sha256=8wGZrc9ObPP6tyRP-i3D5gB_iuyQm4qBAPA1EpEtaSo,9644
+RequestsStampede/exceptions.py,sha256=sNSc00C_C4znKgMLu3SHa3idAuC7cxOjHulJTge5fbM,1026
+RequestsStampede/horde.py,sha256=WOJa5n7GOgK2FZwcCrz0PeESlt8elejmElFdFr50xp0,10850
+RequestsStampede/models.py,sha256=B4PUqFYQUVnG_jG8YkodPSvx-M97W4-8FgCWfq4QIV8,8196
+RequestsStampede/policy/__init__.py,sha256=qmz9gG8zZtBjeREEPvXpFYVY8lYUpioGFuBbuexyP6s,13
+RequestsStampede/policy/backoff.py,sha256=TE8hCIXW0KXJSG4vg9MXM3QmVAgiKWa3h5W8imwwVuI,7512
+RequestsStampede/policy/retry.py,sha256=Alr7D2BzRF9tpB7XKHBJIOTOmDEULKQGS09kgr0f0yM,2722
+RequestsStampede-0.9.1.dist-info/LICENSE,sha256=82yUfcprDKDZVc5fHPd9D7hMo1ttGesdXbpdOzbIW_s,1054
+RequestsStampede-0.9.1.dist-info/METADATA,sha256=7AJSPWBYQ_BCfmMYqEAaD1BvdYMzLwSWURco5OU4S58,8662
+RequestsStampede-0.9.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+RequestsStampede-0.9.1.dist-info/top_level.txt,sha256=B6pQfb9_Fp3nfY9XXo8VnxQzpZWr7gfUOO0LQFn4Yek,17
+RequestsStampede-0.9.1.dist-info/RECORD,,
