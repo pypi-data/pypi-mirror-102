@@ -1,0 +1,10 @@
+wheel
+setuptools
+twine
+importlib-metadata==1.6.0
+eventlet
+coverage==4.5.4
+codecov
+sphinx
+sphinx_rtd_theme
+sphinx-sitemap
