@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ark-sdk
+Version: 1.0.3
+Summary: ark sdk
+Home-page: https://github.com/vlean/ark-sdk
+Author: vlean
+Author-email: vlean@qq.com
+Maintainer: vlean
+License: UNKNOWN
+Keywords: ark,nacos
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Requires-Dist: nacos-sdk-python (>=0.1.6)
+Requires-Dist: pycryptodome (>=3.0.0)
+
+
+## 配置中心功能简化
+
+
