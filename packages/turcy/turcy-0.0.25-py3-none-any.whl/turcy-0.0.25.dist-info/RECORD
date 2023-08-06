@@ -1,0 +1,13 @@
+turcy/__init__.py,sha256=zVmG-DdRdh739cKJVrLVIZnpQGB2xNREvi3bBcQ4Bgc,21
+turcy/pattern.py,sha256=-TmKElNA4fZ-UQP4a0F-rZ-X6Gz617ClLE7f0eoghyY,1855
+turcy/pattern_builder.py,sha256=EwbSyUKt9j0eIXAupdWE5cijEFJk9_h2HKIRbPlJJxQ,4392
+turcy/patterns.jsonl,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turcy/tree_dep_pattern.py,sha256=hCLAS6y1AZqOeC5Enc0MfP3CEi6yf235yTyVgAbU7U0,16304
+turcy/turcy.py,sha256=w4GDLurraiDBitx60CB7PtY6CHDFcnfiL9sZjOSDgUI,521
+turcy/utils.py,sha256=yUhehyyB1UxxMOxQRWFxkcnWXL7jsveGgetu4OlfGb0,3280
+turcy-0.0.25.data/data/patterns.jsonl,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turcy-0.0.25.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+turcy-0.0.25.dist-info/METADATA,sha256=-DoSxcLmkcjVTBoJtQJsH6q_dVzsIjRs_aZRP-vmNAo,11448
+turcy-0.0.25.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+turcy-0.0.25.dist-info/top_level.txt,sha256=_Y__5n7ZLzXb5AFKC68O7bjy3B2cLn1vxDzgQbY81cE,6
+turcy-0.0.25.dist-info/RECORD,,
