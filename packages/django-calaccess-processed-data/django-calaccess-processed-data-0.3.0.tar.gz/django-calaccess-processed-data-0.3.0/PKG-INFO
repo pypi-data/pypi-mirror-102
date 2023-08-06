@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: django-calaccess-processed-data
+Version: 0.3.0
+Summary: A Django app to transform and refine campaign finance data from the California Secretary of State’s CAL-ACCESS database
+Home-page: http://django-calaccess.californiacivicdata.org
+Author: California Civic Data Coalition
+Author-email: b@palewi.re
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: MIT License
