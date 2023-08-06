@@ -1,0 +1,11 @@
+tke_aquastat/__init__.py,sha256=vSdhEKUkD-qrlplFqpHTi4zOMCZ2-Qv5TNupxEFsTQ0,173
+tke_aquastat/aquastat.csv.gzip,sha256=JNfahtcuOR0cKkK-7B936dA1A24fmELV1WcNM6U15Is,802026
+tke_aquastat/plotfunctions.py,sha256=fCwZripqbE6xI9loJhRQ4u8m0unomEB-sjZy-bqv5AA,3755
+tke_aquastat/slicefunctions.py,sha256=ca9p5QmHKMPU9j4OTyPnoAH-pQhJOlZCRtesq0aDaSM,1996
+tke_aquastat/time_series_functions.py,sha256=5CYrmnsBzMZnfDtUcBOJxYWiBLc50lCI_hxLHFluL8A,1147
+tke_aquastat/utils.py,sha256=BtOU2AJCmcL4gkYF_eIM1CbvnSczQ52vc9y-YrrCNhU,468
+tiffanyke_aquastat-1.0.7.dist-info/LICENSE.txt,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+tiffanyke_aquastat-1.0.7.dist-info/METADATA,sha256=V3YNgdN5rGrhnyZs8PITFo8camcPGTMX3BuNj86iT9E,1697
+tiffanyke_aquastat-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tiffanyke_aquastat-1.0.7.dist-info/top_level.txt,sha256=ZwW2OycBO-cmBxZtft94SCBgAfky6i79U4pFnMvxFcQ,13
+tiffanyke_aquastat-1.0.7.dist-info/RECORD,,

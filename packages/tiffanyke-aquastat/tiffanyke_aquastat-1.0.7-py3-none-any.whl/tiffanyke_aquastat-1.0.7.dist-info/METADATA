@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tiffanyke-aquastat
+Version: 1.0.7
+Summary: Python package for MSIA 423 Assignment 1
+Home-page: https://github.com/tiffanyke888/2021-msia423-Ke-Tiffany-assignment1
+Author: Tiffany Ke
+Author-email: tiffanyke2021@u.northwestern.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# Analytics Value Chain Assignment 1
+
+Author: Tiffany Ke (tkt1750)
+
+This project is for Northwestern MSiA 423 Analytics Value Chain Assignment 1. 
+
+The requirments for this assignment are as below:
+
+- Create a Python package from the functions in develop-aquastat-functions.ipynb  download. Be sure to add all of the files required for a pip installable Python package and structure the package according to the guidelines from the Python package module.
+- Adhere to module writing guidelines from the Writing Python modules lecture.
+- Add unit tests in the appropriate location within the package for each testable function. The unit tests for time_slice() have already been developed for you in develop-time-slice-tests.ipynb  download. Bonus points if your unhappy path tests for the other functions cover different use cases than the examples.
+- Configure a Python logger through Python’s logging package and add logging that includes at least two of the four levels: DEBUG, INFO, WARNING, ERROR
+- Add one-line docstrings to variable_slice() and country_slice()
+- Add full docstrings to time_series(), plot_heatmap(), and plot_histogram()
+
+
