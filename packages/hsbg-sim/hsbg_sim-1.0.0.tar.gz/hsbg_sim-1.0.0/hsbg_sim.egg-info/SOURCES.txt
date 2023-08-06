@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hsbg_sim.egg-info/PKG-INFO
+hsbg_sim.egg-info/SOURCES.txt
+hsbg_sim.egg-info/dependency_links.txt
+hsbg_sim.egg-info/top_level.txt
+src/battle.cpp
+src/enum_data.cpp
+src/hero_powers.cpp
+src/hsbgsimmodule.cpp
+src/minion_events.cpp
+src/random.cpp
