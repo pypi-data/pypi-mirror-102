@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PyPrivate.egg-info/PKG-INFO
+src/PyPrivate.egg-info/SOURCES.txt
+src/PyPrivate.egg-info/dependency_links.txt
+src/PyPrivate.egg-info/top_level.txt
+src/privatefields/__init__.py
