@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: drf-condition-serializers
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/Zomba4okk/DRFConditionSerializers
+Author: Anton Zagrebancev
+Author-email: anton.zagrebancev@gmail.com
+License: MIT
+Download-URL: https://github.com/Zomba4okk/DRFConditionSerializers/archive/refs/tags/v_011.tar.gz
+Description: # drf-condition-serializers
+        
+        ## Installation
+        `pip install drf-condition-serializers`
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5

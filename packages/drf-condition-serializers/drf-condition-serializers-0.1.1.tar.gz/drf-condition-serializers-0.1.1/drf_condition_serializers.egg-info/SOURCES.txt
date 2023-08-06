@@ -1,0 +1,10 @@
+README.md
+setup.py
+drf_condition_serializers/__init__.py
+drf_condition_serializers/serializers.py
+drf_condition_serializers/views.py
+drf_condition_serializers.egg-info/PKG-INFO
+drf_condition_serializers.egg-info/SOURCES.txt
+drf_condition_serializers.egg-info/dependency_links.txt
+drf_condition_serializers.egg-info/not-zip-safe
+drf_condition_serializers.egg-info/top_level.txt
