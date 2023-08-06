@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: keyring-minimal
+Version: 0.1
+Summary: A minimal libsecret keyring in python that works with keepassxc.
+Home-page: https://github.com/hrehfeld/python-keyring-minimal
+Author: Hauke Rehfeld
+Author-email: pypi.org@haukerehfeld.de
+License: AGPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries

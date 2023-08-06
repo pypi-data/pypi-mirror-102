@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+keyring_minimal/__init__.py
+keyring_minimal/__main__.py
+keyring_minimal.egg-info/PKG-INFO
+keyring_minimal.egg-info/SOURCES.txt
+keyring_minimal.egg-info/dependency_links.txt
+keyring_minimal.egg-info/entry_points.txt
+keyring_minimal.egg-info/top_level.txt
