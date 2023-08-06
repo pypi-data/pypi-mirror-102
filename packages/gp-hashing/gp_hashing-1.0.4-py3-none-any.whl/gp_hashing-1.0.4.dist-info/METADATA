@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gp-hashing
+Version: 1.0.4
+Summary: Generate Hashed Strings Easily.
+Home-page: UNKNOWN
+Author: Sayak Mukhopadhyay & Shouvik Bajpayee
+Author-email: <bajpayeeshouvik@gmail.com>
+License: UNKNOWN
+Keywords: python,hashing,gp-hashing,generate hash,easy hashing
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# gp-hashing
+
+First Stable Release
+
+Developed by Sayak Mukhopadhyay && Shouvik Bajpayee from Team GangPayee (c) 2021
+
+## Example of How To Use (First Stable Version)
+
+Import the package
+
+```python
+from gp_hashing.generateHash import generateHash
+
+```
+
+Generating Hashed String
+
+```python
+from gp_hashing.generateHash import generateHash
+
+normal_string = "a simple string"
+hashed_string = generateHash(normal_string)
+
+print(hashed_string)
+
+```
+
+Output
+
+```python
+g36kn49xi36kr64mt76ys63l 36ke54cl45tp54cm37li36ks63l 36ka16q
+```
+
+
