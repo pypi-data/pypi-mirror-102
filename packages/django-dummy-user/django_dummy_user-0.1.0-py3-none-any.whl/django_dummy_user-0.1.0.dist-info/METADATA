@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: django-dummy-user
+Version: 0.1.0
+Summary: generate random user in django
+Home-page: UNKNOWN
+Author: keselyoleren
+Author-email: keselyoleren@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+Requires-Dist: data-dummy
+
+Django dummy user
+============
+
+Django generate data dummy user 
+
+
+How to use
+----------
+
+To install django-dummy-user you can use pip::
+
+    pip install django-dummy-user==0.1
+
+
+Configuration
+~~~~~~~~~~~~~
+
+In django application `settings.py`::
+
+    INSTALLED_APPS = (
+
+        # ...
+        'dummy-user',
+    )
+
+
+
+Running the package
+-----------------
+
+Generate user 
+
+    $ python manage.py create_user <int:total>
+
+Delete all user
+
+    $ python manage.py delete_all_users
+
+
+Source: https://github.com/keselyoleren/django-dummy-user/
+
+
+
