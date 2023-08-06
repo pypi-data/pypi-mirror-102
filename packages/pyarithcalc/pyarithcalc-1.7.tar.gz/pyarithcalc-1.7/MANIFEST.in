@@ -1,0 +1,2 @@
+graft pyarithcalc/static
+graft pyarithcalc/templates
