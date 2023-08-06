@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: LEGODEV
+Version: 0.0.2
+Summary: Libraries to assist competitors with common tasks or sequence of tasks
+Home-page: UNKNOWN
+Author: Muhammed Hamzah, Thabeeshan Sarathasegaram, Vinu Venkatesh Muthukumar, Jiafei Lin
+Author-email: wropythonmodule@gmail.com
+License: MIT
+Description: LEGO dev library
+        
+        This library will assist competitors to do certain tasks quickly and efficiently.
+        Tasks such as basic movements, color detection, choosing paths can be easily done using this library
+        
+        
+        
+        Change log 
+        ==========
+        
+        Release 0.0.1 (04/16/2021)
+Keywords: legodev
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

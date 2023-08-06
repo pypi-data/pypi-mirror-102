@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+LEGODEV.egg-info/PKG-INFO
+LEGODEV.egg-info/SOURCES.txt
+LEGODEV.egg-info/dependency_links.txt
+LEGODEV.egg-info/requires.txt
+LEGODEV.egg-info/top_level.txt
+legodevlib/__init__.py
