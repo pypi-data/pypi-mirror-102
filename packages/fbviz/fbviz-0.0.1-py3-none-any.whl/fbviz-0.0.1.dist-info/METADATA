@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fbviz
+Version: 0.0.1
+Summary: Football visualizer
+Home-page: https://github.com/abhijith-git/fbviz
+Author: Abhijith Chandradas
+Author-email: <abhijith.chandradas@gmail.com>
+License: MIT
+Keywords: python,options,finance,opstrat,data visualization,stock market
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# FBVIZ
+
+Python library for football visualization.
+
