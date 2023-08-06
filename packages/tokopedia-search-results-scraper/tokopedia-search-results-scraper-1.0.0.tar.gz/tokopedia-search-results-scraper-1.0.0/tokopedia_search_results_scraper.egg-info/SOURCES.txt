@@ -1,0 +1,8 @@
+README.md
+setup.py
+tokopedia_search_results_scraper/__init__.py
+tokopedia_search_results_scraper.egg-info/PKG-INFO
+tokopedia_search_results_scraper.egg-info/SOURCES.txt
+tokopedia_search_results_scraper.egg-info/dependency_links.txt
+tokopedia_search_results_scraper.egg-info/requires.txt
+tokopedia_search_results_scraper.egg-info/top_level.txt
