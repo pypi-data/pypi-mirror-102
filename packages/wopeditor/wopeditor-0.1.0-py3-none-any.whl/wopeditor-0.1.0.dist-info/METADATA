@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: wopeditor
+Version: 0.1.0
+Summary: Words of Power Editor of TexnoMagic
+Home-page: https://github.com/texnoforge/wopeditor/
+Author: texnoforge
+Author-email: voice@texnoforge.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/texnoforge/wopeditor/issues
+Project-URL: Docs, https://texnoforge.github.io/wopeditor/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: kivy
+Requires-Dist: scikit-learn
+Requires-Dist: trio
+
+# [wopeditor docs online][docs]
+
+## [wopeditor docs on GitLab](https://github.com/texnoforge/wopeditor/tree/master/docs)
+
+## wopeditor docs offline
+
+See docs/README.md and other files in docs/ directory.
+
+You can also render docs into HTML using mkdocs:
+
+    pip install mkdocs
+    mkdocs build
+    browser site/index.html
+
+#### read the [docs] and have a nice magic ᕕ( ᐛ )ᕗ
+
+![Words of Power Editor screenshot](docs/img/words_of_power_teaser.png)
+
+
+[docs]: http://texnoforge.github.io/wopeditor
+
+
