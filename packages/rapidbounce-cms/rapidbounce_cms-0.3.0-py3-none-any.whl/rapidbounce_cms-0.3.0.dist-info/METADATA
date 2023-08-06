@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rapidbounce-cms
+Version: 0.3.0
+Summary: 
+Author: Rapidbounce
+Author-email: customer.support@rapidbounce.co
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2,<4.0)
+Requires-Dist: django-ckeditor (==6.0.0)
+Requires-Dist: django-crispy-forms (==1.11.2)
+Requires-Dist: django-filer (==2.0.2)
+Requires-Dist: django-htmlmin (==0.11.0)
+Requires-Dist: django-imagekit (==4.0.2)
+Requires-Dist: django-modeltranslation (==0.16.2)
+Requires-Dist: django-mptt (==0.12.0)
+Requires-Dist: django-mptt-admin (==2.1.0)
+Requires-Dist: django-recaptcha (==2.0.6)
+Requires-Dist: django-reversion (==3.0.9)
+Requires-Dist: django-storages[google] (==1.9.1)
+Requires-Dist: django_compressor (==2.4)
+Requires-Dist: pillow (==8.2.0)
