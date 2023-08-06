@@ -1,0 +1,11 @@
+setup.py
+disctext/__init__.py
+disctext/models.py
+disctext/session.py
+disctext/video.py
+disctext.egg-info/PKG-INFO
+disctext.egg-info/SOURCES.txt
+disctext.egg-info/dependency_links.txt
+disctext.egg-info/entry_points.txt
+disctext.egg-info/requires.txt
+disctext.egg-info/top_level.txt
