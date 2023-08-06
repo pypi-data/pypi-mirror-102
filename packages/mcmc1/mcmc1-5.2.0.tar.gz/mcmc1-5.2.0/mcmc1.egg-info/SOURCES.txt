@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+mcmc1/__init__.py
+mcmc1/main1.py
+mcmc1.egg-info/PKG-INFO
+mcmc1.egg-info/SOURCES.txt
+mcmc1.egg-info/dependency_links.txt
+mcmc1.egg-info/top_level.txt
