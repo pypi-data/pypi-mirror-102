@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-mail-office"
+version = "0.9.7"
+description = ""
+packages = [
+    { include = "mail_office" },
+]
+authors = ["mikki <mikki@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2"
+pyfiglet = "^0.8.post1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
