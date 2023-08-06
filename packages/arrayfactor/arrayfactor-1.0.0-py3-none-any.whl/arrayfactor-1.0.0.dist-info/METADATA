@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: arrayfactor
+Version: 1.0.0
+Summary: Array Factor Pattern
+Home-page: UNKNOWN
+Author: Merve Tascioglu
+Author-email: <merve.tascioglu@barkhauseninstitut.org>
+License: UNKNOWN
+Keywords: python,antenna array,array factor
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+'A package that allows to observe the array factor pattern with respect to required inputs: 
+ Array Layout
+ Inter-element spacing,
+ frequency
+ steering_angle,
+ number of element
+ increase_rate
+plane.
+
