@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lognormcl
+Version: 2021.4.16
+Summary: angular power spectra of lognormal random fields
+Home-page: https://github.com/ntessore/lognormcl
+Maintainer: Nicolas Tessore
+Maintainer-email: n.tessore@ucl.ac.uk
+License: MIT
+Project-URL: Documentation, https://cltools.readthedocs.io/lognormcl/
+Description: 
+        lognormcl
+        =========
+        
+        **angular power spectra of lognormal random fields**
+        
+        This is a minimal Python package for working with the angular power spectra of
+        lognormal spherical random fields.  It can currently convert between the power
+        spectra of lognormal random fields and their constituent normal random fields.
+        
+        The package can be installed using pip:
+        
+            pip install lognormcl
+        
+        Then import the `ln2n` and `n2ln` functions from the package:
+        
+            from lognormcl import ln2n, n2ln
+        
+        For more information, please see the [documentation].
+        
+        Current functionality covers the absolutely minimal use case.  Please open an
+        issue on GitHub if you would like to see anything added.
+        
+        [documentation]: https://cltools.readthedocs.io/lognormcl/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
