@@ -1,0 +1,17 @@
+NFSyndication/__init__.py,sha256=C5lHutkhxIqKEXeC_oXlCRXFUDSDqAwxxY0U8qMWkIk,1090
+NFSyndication/__main__.py,sha256=wMPkH-5VyGUTVK5tuwtbmU1UO77tvaMmx198iM8Hpng,1840
+NFSyndication/config.py,sha256=vmZUursYkn2d8j3ZswbMc5slmQtIjYRLqNizDuwN3sc,4221
+NFSyndication/extras.py,sha256=MCPMYgPYQARBdYPZjPAjy4ZGXgYx5pNPHyTRIuq8EMU,8313
+NFSyndication/nfs_main.py,sha256=EE2Qe93H0_yDzEF7eVLbhBKrgfc0w9NNwiXU-YAF8ug,3121
+NFSyndication/styles.py,sha256=LUxAg46cVYUFWjg7XPnKqswQ8OkHc4Q_I2Oq4uN2UJ4,5630
+NFSyndication/utils.py,sha256=97R24hdwjias_dum5sd20N_w3dQARzwy6i783YCkLbI,1845
+NFSyndication/templates/static/style.css,sha256=tKUud84LTa6Dv0mGGCwQTRWIvc7ThM7DYjfxkeHgw7c,642
+tests/__init__.py,sha256=57734g7ImsKpAsY-BlIQnNZqlLfrgQQ8mMMXayuMf-A,1067
+tests/conftest.py,sha256=KDcQfL5CPj3m3KyeHECXq_IqhZYQs8rEyKmO31vTHos,1031
+tests/test_main.py,sha256=bI3tFr3FDbg7xk9Nhz81l4EVmgqzF8dyCXwYhOMH260,101
+NFSyndication-0.2.23.dist-info/LICENSE,sha256=movjSZgAs7sIeagkQp1iEI-f2Nl8aGfofC84prbqwNE,1326
+NFSyndication-0.2.23.dist-info/METADATA,sha256=29Pnn7ARMsfn4pYui3z66Xe_k778MyAybVmcbXW-rIY,3483
+NFSyndication-0.2.23.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+NFSyndication-0.2.23.dist-info/entry_points.txt,sha256=wwwq2uAhH8gc0WNQYho6NcOhFOVxSC2_qAihNpg8VpM,66
+NFSyndication-0.2.23.dist-info/top_level.txt,sha256=3mclVbXvxT6ZWkltka4fYGL5UH1sVh1EEMKJdJSV-mc,20
+NFSyndication-0.2.23.dist-info/RECORD,,
