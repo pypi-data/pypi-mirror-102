@@ -1,0 +1,3 @@
+[console_scripts]
+ppw_0419_01=ppw_0419_01.cli:main
+
