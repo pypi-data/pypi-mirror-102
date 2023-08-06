@@ -1,0 +1,11 @@
+regoct/Structures.py,sha256=bPT4jygxXRsNIAo90NV-mr4062jdotz9rm6fTqgWYQk,9970
+regoct/Util.py,sha256=29OQzByLvb-sxFESW-DSY52a-vq_Q3UlZdD51HSIzcI,3026
+regoct/Visualiser.py,sha256=bVqGu6KoJ_IE1r58jObCnyvbppMiDjs_JX1ATuhSc9w,11472
+regoct/__init__.py,sha256=Y50yRT4FK84giSTC9UUfigjmly61fvjXOAcWKKdnuSI,145
+regoct/octreeIO/__init__.py,sha256=blUK-HHmmNYi3-o6DLGIIP1hMXIJoT0gPk7knY1ZGCM,55
+regoct/octreeIO/reader.py,sha256=j6WNUCYCo6lPc8tB97ZM_fFv4Fwx0OkYJQu9AMfy40c,6370
+regoct/octreeIO/saveing.py,sha256=ljkBzxqT1p3xROJem0q2Z37gjWMmROd2VqiIjag2LPI,6058
+regOct-0.1.0.dev2.dist-info/METADATA,sha256=yqEOwhVAMpP4BDnyvas3NwL6fZ1ufG3BqsmMkj-ndEA,2160
+regOct-0.1.0.dev2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+regOct-0.1.0.dev2.dist-info/top_level.txt,sha256=TImSaW3fzp_4_HL_Qy36wC_UABSM10oPtdGIrAOCai8,7
+regOct-0.1.0.dev2.dist-info/RECORD,,
