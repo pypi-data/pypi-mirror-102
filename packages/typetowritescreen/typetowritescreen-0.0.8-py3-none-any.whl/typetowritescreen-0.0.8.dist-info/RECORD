@@ -1,0 +1,15 @@
+typetowritescreen/__init__.py,sha256=ilXmJ-aG8WKSJ8-YpTu8mRKEeBcWb6IJfnb-fP8pJZg,621
+typetowritescreen/contentnavigationdrawer.py,sha256=B_Nle0AAa30XZ-Oqk2MJ_32Yk3t8-gmwJdXlpPQaLTw,261
+typetowritescreen/navigationlayout.py,sha256=Tv7wKHQ9uzN3UbnkReC6S9s62FFHfSCgw9WOZrCP108,91
+typetowritescreen/nulis.py,sha256=8uKmbCEBgyNJnbSYblweI0AafXdVGlbb9Ma6xc7SZKc,5895
+typetowritescreen/screen1.kv,sha256=3MnWMIPCOYU4IThBGUV3JBx1PXv6F9Lqx5-ja-fznXk,3370
+typetowritescreen/screen1.py,sha256=Q9XmhvM4ZgAOohj8gE7hnIDpaWpzl6dsLo-1dWq-GEY,181
+typetowritescreen/screen2.kv,sha256=6PwYxilq-0Z134dEmsBs1L09WYfk_M4xkxM94ozLTrc,460
+typetowritescreen/screen2.py,sha256=okOhjBjYyTBhvgfq6OCg7ndrLMZ7pjUtvDdQNcnI-AE,334
+typetowritescreen/typetowritescreen.kv,sha256=P1lLT_gUeBp6E4_eV5iIm44i6J5al23TK6_YL_rnSk0,453
+typetowritescreen/typetowritescreen.py,sha256=hbpArhJfd7MPfMUuDFOBdhaZrdLxogGw71ciTsyVauY,5141
+typetowritescreen-0.0.8.dist-info/LICENSE,sha256=_JPB94Q27YDSmKfeqH-R27vLFyRIN9eO4HPPLGOotAA,1071
+typetowritescreen-0.0.8.dist-info/METADATA,sha256=ZDngjxt4QuCcOSnYN0DzMuabv1qr2ShkXHm_uZaRkgg,1221
+typetowritescreen-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+typetowritescreen-0.0.8.dist-info/top_level.txt,sha256=0VoGAwWNT2y_ewvug7zHPenA31dt8MgeDS_UB8FhMek,18
+typetowritescreen-0.0.8.dist-info/RECORD,,
