@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Discord-Tools
+Version: 1.7
+Summary: Simulates Discord User using Selenium(Web-Scraping) Chromium-webdriver
+Home-page: https://github.com/TanmayArya-1p/DiscordTools
+Author: TanmayArya1-p
+Author-email: <tanmayarya2018@gmail.com>
+License: UNKNOWN
+Keywords: python,selenium,web-scraping,discord
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: selenium
+Requires-Dist: beautifulsoup4
+Requires-Dist: pyttsx3
+Requires-Dist: speechrecognition
+
+UNKNOWN
+
+
