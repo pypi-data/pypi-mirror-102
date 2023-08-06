@@ -1,0 +1,5 @@
+[console_scripts]
+iat = IutyScripts.entry.iat:main
+ifs = IutyScripts.entry.ifs:main
+ipb = IutyScripts.entry.ipb:main
+
