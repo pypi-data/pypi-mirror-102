@@ -1,0 +1,16 @@
+hanjaq/__init__.py,sha256=cCI5nn6vhOcL2WN_PTNy_uNLt-KCra_OyqsKJdOpRjY,290
+hanjaq/dictionary.py,sha256=D48wnZ_9Y7lCluHh5pxrbUBrw3rC1QwakcOaN3rVKso,2287
+hanjaq/exception.py,sha256=Y-DpAaL8vqErHnClN8Yzs06D3G7axI5yet2ER86FZCw,621
+hanjaq/hanja.py,sha256=-IMl9L9HCKiGEV86vl9AgilfiSe5wFRoFmOL6ubtHsI,1531
+hanjaq/hanja.txt,sha256=eZmbdkw_tiOKSQAB0Bkfime_r845rGv-F1t0pRgUGvU,68847
+tests/functional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/functional/test_get_hanja_information.py,sha256=uomdWK2QuWHHzMxCESWicfcU0AQV7Dm6RN-i_VfvAsU,718
+tests/functional/test_is_hanja.py,sha256=5Tq7LFH3DGwpSUE1gC9wm-90o4a0NSWWMenkb56Y9GM,458
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_dictionary.py,sha256=AdjlZhNDTwQ8esrDCqGENqfQaPI6kjVXT1DoKuUov4U,2438
+tests/unit/test_hanja.py,sha256=8ySGZFeyb8UoyaYnhz_bQXv6NNWpMODuYyr3kkYX2X0,2037
+hanjaq-0.0.3.dist-info/LICENSE,sha256=PXz9w83EjchqU5xHo5i8Ut05o28yRqbIas-9SMICGV8,1072
+hanjaq-0.0.3.dist-info/METADATA,sha256=SoiDPtgV135QdKZZgWKxzZovbrH65pObz3PGqNgPmpc,2792
+hanjaq-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hanjaq-0.0.3.dist-info/top_level.txt,sha256=GFm9dLl74H0tQCPSeZCWCRHo8uJHBInlrfi6RssLasQ,13
+hanjaq-0.0.3.dist-info/RECORD,,
