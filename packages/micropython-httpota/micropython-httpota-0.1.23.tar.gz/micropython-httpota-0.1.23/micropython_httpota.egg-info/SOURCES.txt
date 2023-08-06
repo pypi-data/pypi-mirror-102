@@ -1,0 +1,7 @@
+HttpOTA.py
+README.md
+setup.py
+micropython_httpota.egg-info/PKG-INFO
+micropython_httpota.egg-info/SOURCES.txt
+micropython_httpota.egg-info/dependency_links.txt
+micropython_httpota.egg-info/top_level.txt
