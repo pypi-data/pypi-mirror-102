@@ -1,0 +1,8 @@
+README.md
+setup.py
+cpmsy/__init__.py
+cpmsy/sy.py
+cpmsy.egg-info/PKG-INFO
+cpmsy.egg-info/SOURCES.txt
+cpmsy.egg-info/dependency_links.txt
+cpmsy.egg-info/top_level.txt
