@@ -1,0 +1,8 @@
+numpy>=1.0
+pillow>=8.0
+scikit-image
+Wand
+opencv-python
+
+[dev]
+coverage>=5.5
