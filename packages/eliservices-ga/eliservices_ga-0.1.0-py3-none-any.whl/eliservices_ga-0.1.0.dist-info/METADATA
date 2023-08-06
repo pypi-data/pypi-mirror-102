@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: eliservices-ga
+Version: 0.1.0
+Summary: Library containing functions for working with the ogn-network.
+Home-page: https://GA.readthedocs.io/
+Author: Elias Kremer
+Author-email: eliservices.server@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+Ground Assistant
+Library with different functions that can be used to work with the ogn-network.
+!! This is library is not meant for anyone outside of this project, since its not fully documented and tested yet. !!
+
+Installation
+pip install eliservices-ga 
+
+

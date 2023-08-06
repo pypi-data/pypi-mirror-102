@@ -1,0 +1,12 @@
+GA/__init__.py,sha256=O-z1E4HYjMWWVWlhiMmgMFM15Tgq7ny_8gFGUBHOS68,168
+GA/filter.py,sha256=Gnj1nEMaaDn89SDSjT6OlG7HnfqRhpDfW5afoEr6O8s,2864
+GA/floatmath.py,sha256=_dylSUcEuXZ713SWN1o-BII_4Cu-4u5LLW3L5k53o8I,690
+GA/geometry.py,sha256=afmd7VZQD7Yfi3LBHkiDBD7u3qHBzzIpys1CG32nUiY,2737
+GA/handlexml.py,sha256=ovoL2Ftog1YeJjMXum-nHa_GcMwejmO4303uEkRR_4c,3542
+GA/ognrequest.py,sha256=afhD1OtoGgLuQ4K7ZQGHz75FTf_gARJpg4VFmRpBY-E,2562
+GA/output.py,sha256=CDxRrWv0WOKzI9foQaMpGwar82U0Gw2LyPFcUWGK2Qs,5879
+GA/settings.py,sha256=pWtPENqbpWmfJ2XusNSNBUF6odjCOtbQLLguvhPQSFA,1017
+eliservices_ga-0.1.0.dist-info/METADATA,sha256=F17iT0QX_5Rcf3u21DeEmwm_tVwiaCXATAiZHorLLVA,776
+eliservices_ga-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eliservices_ga-0.1.0.dist-info/top_level.txt,sha256=ymvKu_4zaB4HRVVnXWS9Hwj7NqfP5d3tq7oLjcKPN5Y,3
+eliservices_ga-0.1.0.dist-info/RECORD,,
