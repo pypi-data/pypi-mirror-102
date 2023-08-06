@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+learndash/api_resources/__init__.py
+learndash/api_resources/course.py
+learndash/api_resources/abstract/__init__.py
+learndash/api_resources/abstract/api_resource.py
+learndash/api_resources/abstract/listable_api_resource.py
+learndash/api_resources/abstract/retrievable_api_resource.py
+learndash/learndash.egg-info/PKG-INFO
+learndash/learndash.egg-info/SOURCES.txt
+learndash/learndash.egg-info/dependency_links.txt
+learndash/learndash.egg-info/top_level.txt
