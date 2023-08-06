@@ -1,0 +1,11 @@
+README.md
+setup.py
+shared_memory/__init__.py
+shared_memory/_winshmem.py
+shared_memory/managers.py
+shared_memory/resource_tracker.py
+shared_memory/shared_memory.py
+shared_memory38.egg-info/PKG-INFO
+shared_memory38.egg-info/SOURCES.txt
+shared_memory38.egg-info/dependency_links.txt
+shared_memory38.egg-info/top_level.txt

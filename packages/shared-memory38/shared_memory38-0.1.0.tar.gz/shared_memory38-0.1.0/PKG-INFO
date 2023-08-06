@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: shared_memory38
+Version: 0.1.0
+Summary: Backport of multiprocessing.shared_memory in Python 3.8
+Home-page: https://github.com/mars-project/shared_memory38
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
