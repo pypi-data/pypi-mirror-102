@@ -1,0 +1,10 @@
+_klimits.cpython-39-x86_64-linux-gnu.so,sha256=Feg3GrcsdRxe5D5uWg05LyKoafKag82BLpWMW5TolRU,873616
+klimits/test_trajectory_generation.py,sha256=yCYxBv4EIfecI_7aS-rS0wSM7m4ft9iCeCD-jFlCdpU,11514
+klimits/joint_limit_equations.py,sha256=bo5zQAphlk_jrz5KJtxkkWrTdtpD7ugZN_JZ_oUdXkA,18198
+klimits/limit_calculation.py,sha256=nFhDt7-y4r-xmfyzj6_Jl0KVOxA1LqxUmGYDns84JFA,25554
+klimits/trajectory_plotter.py,sha256=i0rvo3479QdXkKFJpnDNyDLZ7NPaOL3saX28C3DTjk0,12483
+klimits/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+klimits-1.0.2.dist-info/RECORD,,
+klimits-1.0.2.dist-info/WHEEL,sha256=C-sg6l2ppbqlkU_0fUt0o5fTSvsM-h9TfVKAh4ryMfI,111
+klimits-1.0.2.dist-info/METADATA,sha256=wV6hqX6UJ_KQU4hsBIRseOW88wo2cprMt6APj7zyEOc,2385
+klimits-1.0.2.dist-info/top_level.txt,sha256=zcNnwYtfC2fb1V09GLe74lkKrFNVVsrnEIMt_6lwkM0,17
