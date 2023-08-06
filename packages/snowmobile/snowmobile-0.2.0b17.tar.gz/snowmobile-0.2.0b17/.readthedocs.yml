@@ -1,0 +1,26 @@
+
+version: 2
+
+sphinx:
+  builder: html
+  configuration: docs/conf.py
+  fail_on_warning: false
+
+build:
+  image: stable
+
+formats:
+  - pdf
+
+#conda:
+#  environment: tested_requirements/environment.yml
+
+python:
+   version: 3.7
+#   use_system_site_packages: true
+   install:
+     - requirements: docs/requirements.txt
+#     - method: pip
+#       path: .
+#       extra_requirements:
+#         - snowmobile
