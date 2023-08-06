@@ -1,0 +1,10 @@
+quran/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quran/ajza.py,sha256=3wFa4rLmX4u3ReS5ce24qGiZr-ZirGkHoP6BUxpOyt4,584
+quran/chapters.py,sha256=RgIEaAcOiu0wwm39j912aC03CxoHPsWCx3MEEl6Ikq0,866
+quran/translation.py,sha256=Ggy1HdlG9kGsKm2pcs3Q9wMe7dJMVNOLBVk4i8khOS0,1029
+quran/verses.py,sha256=LpX9Oebx13aEXhJC0pL_uTD-oOzfW48mrybO2d91_2o,3914
+quran.py-0.1.dist-info/LICENSE,sha256=32WcMcRNcBKPT1bWQ-rTTCLeZrl48lvoFfXZmJbVSJY,1083
+quran.py-0.1.dist-info/METADATA,sha256=PYcEriIK6ivvn4qnJNmnCrJrk6zIb3N5pN9vozeqRAE,1830
+quran.py-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quran.py-0.1.dist-info/top_level.txt,sha256=oeCxgShQoy8f60_dNOrV517tgfgunEV6UjfGmboI9VU,6
+quran.py-0.1.dist-info/RECORD,,
