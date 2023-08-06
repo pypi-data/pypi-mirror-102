@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+covid_seird/__init__.py
+covid_seird/country_covid_seird.py
+covid_seird/exceptions.py
+covid_seird.egg-info/PKG-INFO
+covid_seird.egg-info/SOURCES.txt
+covid_seird.egg-info/dependency_links.txt
+covid_seird.egg-info/requires.txt
+covid_seird.egg-info/top_level.txt
