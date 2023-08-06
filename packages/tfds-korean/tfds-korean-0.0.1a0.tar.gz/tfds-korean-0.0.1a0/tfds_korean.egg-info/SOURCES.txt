@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tfds_korean/__init__.py
+tfds_korean.egg-info/PKG-INFO
+tfds_korean.egg-info/SOURCES.txt
+tfds_korean.egg-info/dependency_links.txt
+tfds_korean.egg-info/requires.txt
+tfds_korean.egg-info/top_level.txt
+tfds_korean/nsmc/__init__.py
+tfds_korean/nsmc/checksums.tsv
+tfds_korean/nsmc/nsmc.py
+tfds_korean/nsmc/nsmc_test.py
