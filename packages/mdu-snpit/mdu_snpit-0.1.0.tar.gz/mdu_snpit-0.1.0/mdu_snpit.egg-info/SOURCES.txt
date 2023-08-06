@@ -1,0 +1,13 @@
+README.md
+setup.py
+mdu_snpit/__init__.py
+mdu_snpit/main.py
+mdu_snpit.egg-info/PKG-INFO
+mdu_snpit.egg-info/SOURCES.txt
+mdu_snpit.egg-info/dependency_links.txt
+mdu_snpit.egg-info/entry_points.txt
+mdu_snpit.egg-info/requires.txt
+mdu_snpit.egg-info/top_level.txt
+mdu_snpit/db/snpit.count.json
+mdu_snpit/db/snpit.db.json
+mdu_snpit/db/snpit.id.json

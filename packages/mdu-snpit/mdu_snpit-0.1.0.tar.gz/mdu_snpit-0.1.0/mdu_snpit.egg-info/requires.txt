@@ -1,0 +1,10 @@
+pysam
+importlib_resources
+
+[dev]
+pre-commit
+pipenv
+
+[test]
+pytest
+pytest-cov

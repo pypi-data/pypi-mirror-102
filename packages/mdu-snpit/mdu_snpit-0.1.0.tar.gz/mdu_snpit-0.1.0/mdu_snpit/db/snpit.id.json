@@ -1,0 +1,158 @@
+{
+    "Indo_Oceanic": [
+        "Indo_Oceanic",
+        "M. tuberculosis",
+        "Lineage 1",
+        ""
+    ],
+    "beijing": [
+        "beijing",
+        "M. tuberculosis",
+        "Lineage 2",
+        ""
+    ],
+    "East_African_Indian": [
+        "East_African_Indian",
+        "M. tuberculosis",
+        "Lineage 3",
+        ""
+    ],
+    "lineage4": [
+        "lineage4",
+        "M. tuberculosis",
+        "Lineage 4",
+        ""
+    ],
+    "haarlem": [
+        "haarlem",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Haarlem"
+    ],
+    "LAM": [
+        "LAM",
+        "M. tuberculosis",
+        "Lineage 4",
+        "LAM"
+    ],
+    "cameroon": [
+        "cameroon",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Cameroon"
+    ],
+    "ghana": [
+        "ghana",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Ghana"
+    ],
+    "stype": [
+        "stype",
+        "M. tuberculosis",
+        "Lineage 4",
+        "S-type"
+    ],
+    "tur": [
+        "tur",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Tur"
+    ],
+    "uganda": [
+        "uganda",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Uganda"
+    ],
+    "ural": [
+        "ural",
+        "M. tuberculosis",
+        "Lineage 4",
+        "Ural"
+    ],
+    "xtype": [
+        "xtype",
+        "M. tuberculosis",
+        "Lineage 4",
+        "X-type"
+    ],
+    "westafrican1": [
+        "westafrican1",
+        "M. tuberculosis",
+        "Lineage 5",
+        ""
+    ],
+    "westafrican2": [
+        "westafrican2",
+        "M. tuberculosis",
+        "Lineage 6",
+        ""
+    ],
+    "ethiopian": [
+        "ethiopian",
+        "M. tuberculosis",
+        "Lineage 7",
+        ""
+    ],
+    "bcg": [
+        "bcg",
+        "M. bovis BCG",
+        "",
+        ""
+    ],
+    "bovis": [
+        "bovis",
+        "M. bovis bovis",
+        "",
+        ""
+    ],
+    "orygis": [
+        "orygis",
+        "M. orygis",
+        "",
+        ""
+    ],
+    "microti": [
+        "microti",
+        "M. microti",
+        "",
+        ""
+    ],
+    "canetti": [
+        "canetti",
+        "M. canetti",
+        "",
+        ""
+    ],
+    "pinipedii": [
+        "pinipedii",
+        "M. pinipedii",
+        "",
+        ""
+    ],
+    "caprae": [
+        "caprae",
+        "M. bovis caprae",
+        "",
+        ""
+    ],
+    "Dassie": [
+        "Dassie",
+        "Dassie bacillus (ex Procavia capensis)",
+        "",
+        ""
+    ],
+    "suricattae": [
+        "suricattae",
+        "M. suricattae",
+        "",
+        ""
+    ],
+    "mungi": [
+        "mungi",
+        "M. mungi",
+        "",
+        ""
+    ]
+}
