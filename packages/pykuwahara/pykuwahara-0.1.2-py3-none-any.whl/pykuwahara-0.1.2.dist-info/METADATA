@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pykuwahara
+Version: 0.1.2
+Summary: Kuwahara filter in python
+Home-page: https://github.com/yoch/pykuwahara
+Author: J. Melka
+Author-email: yoch.melka@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+
+UNKNOWN
+
+
