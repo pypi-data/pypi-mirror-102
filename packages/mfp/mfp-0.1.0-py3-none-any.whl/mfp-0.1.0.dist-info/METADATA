@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mfp
+Version: 0.1.0
+Summary: my first package
+Home-page: UNKNOWN
+Author: Ben van Vliet
+Author-email: benvliet@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
