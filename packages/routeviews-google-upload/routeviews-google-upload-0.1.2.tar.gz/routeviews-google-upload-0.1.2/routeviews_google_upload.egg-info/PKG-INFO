@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: routeviews-google-upload
+Version: 0.1.2
+Summary: CLI tool for uploading RouteViews files to Google Cloud Storage (and other Google Cloud services).
+Home-page: https://github.com/morrowc/rv
+Author: University of Oregon
+Author-email: rleonar7@uoregon.edu
+License: apache-2.0
+Description: UNKNOWN
+Keywords: RouteViews,Google,Cloud,Storage,Backup,Archive
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
