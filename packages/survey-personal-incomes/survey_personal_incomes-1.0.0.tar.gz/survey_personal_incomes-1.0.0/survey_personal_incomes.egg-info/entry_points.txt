@@ -1,0 +1,3 @@
+[console_scripts]
+spi-data = survey_personal_incomes.main:main
+

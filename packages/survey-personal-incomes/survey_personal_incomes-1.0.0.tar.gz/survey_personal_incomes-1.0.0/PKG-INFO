@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: survey_personal_incomes
+Version: 1.0.0
+Summary: A Python package to manage Survey of Personal Incomes microdata.
+Home-page: http://github.com/nikhilwoodruff/survey_personal_incomes
+Author: Nikhil Woodruff
+Author-email: nikhil.woodruff@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
