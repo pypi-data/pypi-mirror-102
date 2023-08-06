@@ -1,0 +1,4 @@
+
+include tg/resources/*
+recursive-include tg *.yml *.json *.py *.rst
+include properties.json
