@@ -1,0 +1,12 @@
+README.md
+setup.py
+movies/__init__.py
+movies/cli.py
+movies/helpers.py
+movies/test_cli.py
+piochumovies.egg-info/PKG-INFO
+piochumovies.egg-info/SOURCES.txt
+piochumovies.egg-info/dependency_links.txt
+piochumovies.egg-info/entry_points.txt
+piochumovies.egg-info/requires.txt
+piochumovies.egg-info/top_level.txt
