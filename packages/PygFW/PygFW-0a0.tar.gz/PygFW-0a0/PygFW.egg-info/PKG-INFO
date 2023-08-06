@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PygFW
+Version: 0a0
+Summary: Create a simple yet effective server with and connect to it with a simple client!
+Home-page: https://github.com/shauncameron/PygFW
+Author: Shaun Cameron
+Author-email: shauncameron13034@gmail.com
+License: MIT
+Description: # PygFW
+        PygFW short for Pygame Framwork is a framework I made whist working on Knights and Fables, a pygame project, for school. I wanted to make it into a library so that other people could use it
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
