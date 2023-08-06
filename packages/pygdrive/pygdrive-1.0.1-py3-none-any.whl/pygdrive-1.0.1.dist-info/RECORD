@@ -1,0 +1,9 @@
+pygdrive/__init__.py,sha256=6pSls04OPA6x9XBcllV5v8E9cp8Nx-BzpiLA9wdjeC0,26
+pygdrive/gdrive.py,sha256=U2zhPoOcTmfhgg1oCvYjD9dxn7ggR3GYJV-NUxzMo1k,6085
+pygdrive/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygdrive/tests/test_drive.py,sha256=Wsc1EILNze7ixVr4N4e_hVp4Qdyd4KWqQuGI6ibsn7g,3212
+pygdrive-1.0.1.dist-info/LICENSE.txt,sha256=6q4N8WqfP3g1_VCqXS-4h5k6q1WLUUckPXsfMPibSvg,1074
+pygdrive-1.0.1.dist-info/METADATA,sha256=6xYYB43onG6HWPlWF-m_S2j1NcrXYyzrSRyFOv0AzX8,2651
+pygdrive-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygdrive-1.0.1.dist-info/top_level.txt,sha256=294qBI6sOB1hLXq_mzqN7GBK-N0563CUOisqhWLMUcI,9
+pygdrive-1.0.1.dist-info/RECORD,,
