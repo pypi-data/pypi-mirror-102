@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ohbot/__init__.py
+ohbot/ohbot.py
+ohbot.egg-info/PKG-INFO
+ohbot.egg-info/SOURCES.txt
+ohbot.egg-info/dependency_links.txt
+ohbot.egg-info/requires.txt
+ohbot.egg-info/top_level.txt
