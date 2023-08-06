@@ -1,0 +1,3 @@
+[console_scripts]
+deriva-workbench = deriva.workbench.__main__:main
+
