@@ -1,0 +1,12 @@
+README.md
+setup.py
+cxcli/__init__.py
+cxcli/__main__.py
+cxcli/clidriver.py
+cxcli/syncspecs.py
+cxcli.egg-info/PKG-INFO
+cxcli.egg-info/SOURCES.txt
+cxcli.egg-info/dependency_links.txt
+cxcli.egg-info/entry_points.txt
+cxcli.egg-info/requires.txt
+cxcli.egg-info/top_level.txt
