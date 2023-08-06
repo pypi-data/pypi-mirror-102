@@ -1,0 +1,29 @@
+[bob.pad.cli]
+statistics = bob.pad.face.script.statistics:statistics
+
+[bob.pad.config]
+casiafasd = bob.pad.face.config.casiafasd
+casiasurf = bob.pad.face.config.casiasurf
+casiasurf-color = bob.pad.face.config.casiasurf_color
+lbp = bob.pad.face.config.lbp_64
+maskattack = bob.pad.face.config.maskattack
+oulunpu = bob.pad.face.config.oulunpu
+qm = bob.pad.face.config.qm_64
+replay-attack = bob.pad.face.config.replay_attack
+replay-mobile = bob.pad.face.config.replay_mobile
+svm-frames = bob.pad.face.config.svm_frames
+swan = bob.pad.face.config.swan
+
+[bob.pad.database]
+casiafasd = bob.pad.face.config.casiafasd:database
+casiasurf = bob.pad.face.config.casiasurf:database
+casiasurf-color = bob.pad.face.config.casiasurf_color:database
+maskattack = bob.pad.face.config.maskattack:database
+oulunpu = bob.pad.face.config.oulunpu:database
+replay-attack = bob.pad.face.config.replay_attack:database
+replay-mobile = bob.pad.face.config.replay_mobile:database
+swan = bob.pad.face.config.swan:database
+
+[console_scripts]
+
+
