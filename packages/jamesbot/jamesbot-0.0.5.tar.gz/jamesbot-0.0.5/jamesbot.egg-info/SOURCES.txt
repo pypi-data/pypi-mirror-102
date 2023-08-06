@@ -1,0 +1,10 @@
+README.md
+setup.py
+jamesbot/__init__.py
+jamesbot/data_loader.py
+jamesbot/stock.py
+jamesbot.egg-info/PKG-INFO
+jamesbot.egg-info/SOURCES.txt
+jamesbot.egg-info/dependency_links.txt
+jamesbot.egg-info/requires.txt
+jamesbot.egg-info/top_level.txt
