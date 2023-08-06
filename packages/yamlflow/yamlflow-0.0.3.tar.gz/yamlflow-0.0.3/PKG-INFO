@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: yamlflow
+Version: 0.0.3
+Summary: Yet Another ML flow
+Home-page: https://github.com/sevakharutyunyan/aida
+Author: Sevak Harutyunyan
+Author-email: sevak.g.harutyunyan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.0.0,<8.0.0)
+Requires-Dist: docker (>=5.0.0,<6.0.0)
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Project-URL: Repository, https://github.com/sevakharutyunyan/aida
+Description-Content-Type: text/markdown
+
+# yamlflow
+Yet Another ML flow
+
+## STATUS NOT READY
+
+```
+examle-project
+    ...
+    ...
+    .yamlflow
+        flow.yaml
+        predictor.py
+        requirements.txt
+```
+
+### User guide
+```bash
+pip install yamlflow
+yamlflow apply -f flow.yaml
+```
+
+### Developer guide
+```
+poetry env use <path/to/python3.8.6/executable>
+poetry shell
+poetry install
+```
