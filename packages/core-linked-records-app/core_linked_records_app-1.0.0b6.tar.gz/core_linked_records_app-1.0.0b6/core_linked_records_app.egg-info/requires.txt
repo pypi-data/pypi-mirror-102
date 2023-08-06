@@ -1,0 +1,9 @@
+Django==2.2.20
+django-mongoengine==0.4.1
+djangorestframework==3.12.2
+djangorestframework-xml==2.0.0
+requests==2.25.1
+core-explore-common-app==1.15.*
+core-main-app==1.15.*
+signals-utils==1.9.*
+xml-utils==1.13.*
