@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: resamplelib
+Version: 0.0.1
+Summary: Resampling methods
+Home-page: https://github.com/ocabanas/resamplelib
+Author: Oriol Cabanas
+Author-email: oriol.cabanas@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: binning jackknife
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
