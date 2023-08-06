@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: testit-pytest
+Version: 0.2.0
+Summary: Pytest plugin for TestIT
+Home-page: https://pypi.org/project/testit-pytest/
+Author: Pavel Butuzov
+Author-email: pavel.butuzov@testit.software
+License: proprietary
+Description: UNKNOWN
+Platform: UNKNOWN
