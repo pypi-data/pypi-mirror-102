@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "ignorePaths": [
+    ".gitignore",
+    "*.coverage",
+    "**/__pycache__/**",
+    "**/*.egg-info/**",
+    "**/build/**",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/venv/**",
+    "package-lock.json",
+    "**/sqlite3",
+    "./.cspell.txt"
+  ],
+  "dictionaries": [
+    "misc",
+    "node",
+    "python",
+    "softwareTerms",
+    "typescript",
+    "local"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "local",
+      "path": ".cspell.txt"
+    }
+  ]
+}
