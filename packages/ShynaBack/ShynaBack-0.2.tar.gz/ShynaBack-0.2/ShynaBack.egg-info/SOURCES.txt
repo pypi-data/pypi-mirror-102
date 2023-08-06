@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+ShynaBack.egg-info/PKG-INFO
+ShynaBack.egg-info/SOURCES.txt
+ShynaBack.egg-info/dependency_links.txt
+ShynaBack.egg-info/requires.txt
+ShynaBack.egg-info/top_level.txt
+ShynaBackEnd/ShynaCheckOnline.py
+ShynaBackEnd/ShynaDB.py
+ShynaBackEnd/ShynaSpeak.py
+ShynaBackEnd/ShynaTime.py
+ShynaBackEnd/Shyna_CPUInfo.py
+ShynaBackEnd/Shyna_DiskInfo.py
+ShynaBackEnd/Shyna_Memory_Info.py
+ShynaBackEnd/__init__.py

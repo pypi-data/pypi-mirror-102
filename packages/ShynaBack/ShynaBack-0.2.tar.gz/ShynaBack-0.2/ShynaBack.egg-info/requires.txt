@@ -1,0 +1,6 @@
+google-speech
+jinja2
+mysql-connector-python
+nltk
+PyAudio
+sox
