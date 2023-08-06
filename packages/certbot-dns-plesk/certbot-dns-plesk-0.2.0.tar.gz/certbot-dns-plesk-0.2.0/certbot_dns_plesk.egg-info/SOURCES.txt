@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+certbot_dns_plesk/__init__.py
+certbot_dns_plesk/dns_plesk.py
+certbot_dns_plesk/dns_plesk_test.py
+certbot_dns_plesk.egg-info/PKG-INFO
+certbot_dns_plesk.egg-info/SOURCES.txt
+certbot_dns_plesk.egg-info/dependency_links.txt
+certbot_dns_plesk.egg-info/entry_points.txt
+certbot_dns_plesk.egg-info/requires.txt
+certbot_dns_plesk.egg-info/top_level.txt
