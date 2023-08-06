@@ -1,0 +1,9 @@
+README.md
+setup.py
+idf_updater/__init__.py
+idf_updater/idf_updater.py
+idf_updater.egg-info/PKG-INFO
+idf_updater.egg-info/SOURCES.txt
+idf_updater.egg-info/dependency_links.txt
+idf_updater.egg-info/requires.txt
+idf_updater.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: idf_updater
+Version: 1.0.0
+Summary: A library for updating IDF files to newer versions
+Home-page: https://gitlab.com/energyincities/idf_updater
+Author: Ralph Evins
+Author-email: revins@uvic.ca
+License: UNKNOWN
+Description: This package is used to update singular IDF's, lists of IDF's, or directories of IDF's to newer versions. Built
+        for Linux and MacOS as windows has the IDFVersionUpdater.exe functionality from EnergyPlus.
+        
+        Will find local EnergyPlus conversion files. Currently supports version updating from 8.0 --> newest EnergyPlus Version
+        
+        'update_idf' can be passed a folder containing idf files, a path to a singular idf, or
+        a list of paths to idf files.
+        
+        Install requires EnergyPlus installed in default location on computer.
+        
+        Documentation can be found here: https://idf-updater.readthedocs.io/en/latest/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

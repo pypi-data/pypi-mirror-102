@@ -1,0 +1,10 @@
+black
+ipykernel
+openpyxl
+setuptools
+pyKriging
+pytest
+pytest-cov
+pytest-regtest
+toolz
+besos
