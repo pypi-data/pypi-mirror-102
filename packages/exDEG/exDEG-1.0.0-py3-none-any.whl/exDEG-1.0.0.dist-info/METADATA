@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: exDEG
+Version: 1.0.0
+Summary: A python library for screening classified dignosed Gene
+Home-page: https://github.com/Starlitnightly/exDEG
+Author: ZehuaZeng
+Author-email: Starlitnightly@163.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: Pyomic
+
+UNKNOWN
+
+
