@@ -1,0 +1,10 @@
+httpx==0.17.1
+h2==4.0.0
+marshmallow-dataclass==8.4.1
+
+[testing]
+pytest==6.2.3
+pytest-mock==3.5.1
+pytest-cov==2.11.1
+codecov==2.1.11
+respx==0.16.3
