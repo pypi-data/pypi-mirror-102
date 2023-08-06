@@ -1,0 +1,15 @@
+dicpp/stitch.py,sha256=C391K6avwurSir-Kk5-XYB66MshBSzOAq2U7d2CzPPI,6907
+dicpp/fit_data.py,sha256=_y9UpISOfCWg49-UDxVVM1LU0L-4cnIqQaXF7Z2YciY,36045
+dicpp/fit_data_core.cpython-36m-x86_64-linux-gnu.so,sha256=WZmJdN3ho033jqpRsd8WFU0AS_0ty2Sbb3S5PxUciz4,514424
+dicpp/interpolate.py,sha256=yA1V2zD-7nicjIkhRkdPR7hfckqiuy9Qn_XmuYwqD7k,6111
+dicpp/logger.py,sha256=-GHGPY7AvW952q9H-_HeZbDOoVQL78vOLtmN0vGG6f8,270
+dicpp/__init__.py,sha256=QTWoNjZl8TOSK5eERwxC6YPzkdAdLrQ5B0Uy1hCYzXI,408
+dicpp/version.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+dicpp.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
+dicpp-0.1.4.data/data/README.md,sha256=WNTCmoooHOfojSWEgizBtYEYm3JghFM_07tuWG2y31Y,547
+dicpp-0.1.4.data/data/LICENSE,sha256=Av5yN5cgZW7N_jvB2bURCREtydgb3QnpPGCFWQkqfo4,1308
+dicpp-0.1.4.dist-info/RECORD,,
+dicpp-0.1.4.dist-info/WHEEL,sha256=0k8JcxMWZX7TJIi6JFgSy7UEc0KxSHdqNxJk5plm2FY,112
+dicpp-0.1.4.dist-info/METADATA,sha256=Jqntw5LKAq513kl4y_eMc0EgJ37fTepASzOWIaaXyFs,1507
+dicpp-0.1.4.dist-info/top_level.txt,sha256=N6WobFXyIem06fpjJwWZamuf6ysqrINlbGhmeQrhHTw,6
+dicpp-0.1.4.dist-info/LICENSE,sha256=Av5yN5cgZW7N_jvB2bURCREtydgb3QnpPGCFWQkqfo4,1308
