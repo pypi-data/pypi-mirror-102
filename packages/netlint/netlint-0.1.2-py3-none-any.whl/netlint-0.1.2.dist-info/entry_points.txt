@@ -1,0 +1,3 @@
+[console_scripts]
+netlint=netlint.cli.main:cli
+
