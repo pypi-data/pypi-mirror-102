@@ -1,0 +1,7 @@
+opentelemetry-api==1.1.0
+opentelemetry-sdk==1.1.0
+
+[otlp]
+opentelemetry-exporter-otlp==1.1.0
+
+[test]
