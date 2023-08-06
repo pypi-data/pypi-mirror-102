@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: symmatrix
+Version: 0.0.0
+Summary: symmatrix
+Home-page: http://github.com/symmatrix/symmatrix/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+License: UNKNOWN
+Description: symmatrix: A Symbolic Toolbox for Matrix Calculation
+        =======================
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
