@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: multi-half-bridge
+Version: 3.0.0rc0
+Summary: Python Library for Infineon's multi half-bridge IC drivers
+Home-page: https://pypi.org/project/multi-half-bridge/
+Author: Infineon Technologies
+License: MIT
+Project-URL: Source, https://github.com/Infineon/multi-half-bridge
+Project-URL: Wiki, https://github.com/Infineon/multi-half-bridge/wiki
+Project-URL: IC Prodcuts Page, https://www.infineon.com/cms/de/product/power/motor-control-ics/brushed-dc-motor-driver-ics/multi-half-bridge-ics/
+Description: Python library for Infineons multi half-bridge IC drivers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
