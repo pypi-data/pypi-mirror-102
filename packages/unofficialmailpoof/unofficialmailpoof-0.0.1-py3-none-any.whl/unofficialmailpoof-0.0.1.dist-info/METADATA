@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: unofficialmailpoof
+Version: 0.0.1
+Summary: unofficial mailpoof module
+Home-page: https://github.com/Retch/unofficial-mailpoof-python
+Author: Retch
+Author-email: retch@mailpoof.com
+License: GPL-3
+Keywords: mailpoof
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: selenium (>=3.141.0)
+Requires-Dist: urllib3 (>=1.26.4)
+
+# unofficial-mailpoof-python
+
+## Windows
+Install Chrome and Chromedriver
+
+## Debian/Ubuntu
+sudo apt install chromium-browser chromium-chromedriver
+
