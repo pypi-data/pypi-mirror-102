@@ -1,0 +1,11 @@
+setuptools
+z3c.autoinclude
+Plone
+demjson
+ordereddict
+plone.app.upgrade
+collective.js.chosen>=1.2
+z3c.formwidget.query
+
+[test]
+plone.app.testing
