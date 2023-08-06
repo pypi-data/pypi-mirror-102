@@ -1,0 +1,3 @@
+[console_scripts]
+eternal = eternal.main:main
+

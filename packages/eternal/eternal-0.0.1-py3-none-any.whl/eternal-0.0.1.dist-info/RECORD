@@ -1,0 +1,12 @@
+eternal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eternal/airc.py,sha256=DO_tokBttiK_W12u9rgsp47cAsuzNqtYsnakucyFo8U,3615
+eternal/libirc.py,sha256=DJdXLW0D-MXJjW3Ij5_b0FvHUT554ULG1Ge-jqMBpVI,19854
+eternal/main.py,sha256=igCYzPiHsvw4q103rG1SU7tJ7b0TTiRSdqyrQpcKB1I,1043
+eternal/ui.py,sha256=_ccENWAD3orcTh3ylBbV48VF4yMLUa7qYaA0TON-YHM,18699
+eternal/version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+eternal-0.0.1.dist-info/LICENSE,sha256=qsyqy9qC7hVYdXPkU4QhvzXL-K5fh5J_A5TYWT8SEz0,1061
+eternal-0.0.1.dist-info/METADATA,sha256=RsxBE4Lrbs9dl-NWyA43FIy5HoBO48iIdDmtoZ1ZHRI,1057
+eternal-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eternal-0.0.1.dist-info/entry_points.txt,sha256=kxoIJr-etJkR6LRWEdAAYHm61fpIaW6_PBD4lr0rozo,47
+eternal-0.0.1.dist-info/top_level.txt,sha256=M5r5p_ynymkcObPm-iSTFLbyceBRo5BWJXXCKrq9MtQ,8
+eternal-0.0.1.dist-info/RECORD,,

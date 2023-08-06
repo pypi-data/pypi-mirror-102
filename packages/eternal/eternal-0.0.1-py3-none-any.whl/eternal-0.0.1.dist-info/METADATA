@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: eternal
+Version: 0.0.1
+Summary: A terminal UI IRC client
+Home-page: https://github.com/NicolasLM/eternal
+Author: Nicolas Le Manchet
+Author-email: nicolas@lemanchet.fr
+License: MIT
+Project-URL: Source Code, https://github.com/NicolasLM/eternal
+Project-URL: Bug Tracker, https://github.com/NicolasLM/eternal/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: urwid
+Requires-Dist: urwid-readline
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+# Eternal IRC Client
+
+A terminal UI IRC client.
+
+## Installation
+
+```
+pip install eternal
+```
+
+## Usage
+
+```
+eternal
+```
+
+
