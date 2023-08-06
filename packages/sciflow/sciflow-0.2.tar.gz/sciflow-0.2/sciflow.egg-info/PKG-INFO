@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sciflow
+Version: 0.2
+Summary: An interface for management and storage of SciData JSON-LD files in a graph database
+Home-page: https://github.com/ChalkLab/sciflow
+Author: Dylan Johnson, Caleb Weber, Stuart Chalk
+Author-email: n01448636@unf.edu, cweb1182@gmail.com, schalk@unf.edu
+License: UNKNOWN
+Description: ## SciFlow: A SciData workflow system
+        This project is to develop a web-based processing system, built in Django, to 
+        manage the ingestion of [SciData](http://stuchalk.github.io/scidata/) 
+        framework formatted [JSON-LD](https://json-ld.org/) documents into a graph 
+        database. The system allows one or more files to be validated, normalized,
+        logged and ingest into the graph database.  The system acts as a 
+        cataloging tool to see what is in the graph DB.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
