@@ -1,0 +1,10 @@
+[bob.cli]
+keras = bob.learn.tensorflow.scripts.keras:keras
+tf = bob.learn.tensorflow.scripts.tf:tf
+
+[bob.learn.tensorflow.cli]
+datasets-to-tfrecords = bob.learn.tensorflow.scripts.datasets_to_tfrecords:datasets_to_tfrecords
+
+[bob.learn.tensorflow.keras_cli]
+fit = bob.learn.tensorflow.scripts.fit:fit
+

@@ -1,0 +1,6 @@
+setuptools
+bob.extension
+numpy
+scipy
+click >= 7
+click-plugins
