@@ -1,0 +1,5 @@
+[console_scripts]
+pip-download = pipdownload.cli:pipdownload
+pip2-download = pipdownload.cli:pipdownload
+pip2.7-download = pipdownload.cli:pipdownload
+
