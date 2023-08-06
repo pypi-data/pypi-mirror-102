@@ -1,0 +1,1 @@
+wget "http://api.icndb.com/jokes/random" -qO- | jshon -e value -e joke -u | recode html | cowsay -f tux | lolcat

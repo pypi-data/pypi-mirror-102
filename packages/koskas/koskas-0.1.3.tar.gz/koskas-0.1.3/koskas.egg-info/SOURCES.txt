@@ -1,0 +1,9 @@
+README.md
+joke
+setup.py
+koskas/__init__.py
+koskas.egg-info/PKG-INFO
+koskas.egg-info/SOURCES.txt
+koskas.egg-info/dependency_links.txt
+koskas.egg-info/requires.txt
+koskas.egg-info/top_level.txt
