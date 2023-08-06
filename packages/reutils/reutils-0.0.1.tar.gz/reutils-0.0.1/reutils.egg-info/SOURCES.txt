@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+coreutils/__init__.py
+coreutils/cache.py
+coreutils/logging.py
+reutils.egg-info/PKG-INFO
+reutils.egg-info/SOURCES.txt
+reutils.egg-info/dependency_links.txt
+reutils.egg-info/top_level.txt
