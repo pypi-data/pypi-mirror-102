@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: source_python
+Version: 0.0.1
+Summary: Source.Python is an open-source project that uses boost::python to allow scripters to interact with Valve's Source-engine.
+Home-page: https://github.com/Source-Python-Dev-Team/Source.Python
+Author: Source-Python-Dev-Team
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
