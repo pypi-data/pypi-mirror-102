@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+VTUinterface/__init__.py
+VTUinterface/_version.py
+VTUinterface/vtuIO.py
+VTUinterface/VTUinterface.egg-info/PKG-INFO
+VTUinterface/VTUinterface.egg-info/SOURCES.txt
+VTUinterface/VTUinterface.egg-info/dependency_links.txt
+VTUinterface/VTUinterface.egg-info/requires.txt
+VTUinterface/VTUinterface.egg-info/top_level.txt
