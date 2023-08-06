@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/rmsfact.egg-info/PKG-INFO
+src/rmsfact.egg-info/SOURCES.txt
+src/rmsfact.egg-info/dependency_links.txt
+src/rmsfact.egg-info/top_level.txt
+src/rmsfact/data/rmsfact.dat
+src/rmsfact/data/rmsfact.txt
