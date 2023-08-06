@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+webmocket/__init__.py
+webmocket/server.py
+webmocket.egg-info/PKG-INFO
+webmocket.egg-info/SOURCES.txt
+webmocket.egg-info/dependency_links.txt
+webmocket.egg-info/requires.txt
+webmocket.egg-info/top_level.txt
