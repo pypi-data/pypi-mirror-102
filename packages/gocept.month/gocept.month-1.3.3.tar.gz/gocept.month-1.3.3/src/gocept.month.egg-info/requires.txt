@@ -1,0 +1,14 @@
+setuptools
+zope.component
+zope.i18nmessageid
+zope.interface
+zope.schema
+
+[form]
+z3c.form
+zope.formlib>=4.0
+
+[test]
+zope.app.pagetemplate
+zope.testing
+zope.site
