@@ -1,0 +1,14 @@
+README.md
+setup.py
+discord.web.egg-info/PKG-INFO
+discord.web.egg-info/SOURCES.txt
+discord.web.egg-info/dependency_links.txt
+discord.web.egg-info/requires.txt
+discord.web.egg-info/top_level.txt
+discord_web/__init__.py
+discord_web/abc.py
+discord_web/checks.py
+discord_web/errors.py
+discord_web/oauth2.py
+discord_web/utils/__init__.py
+discord_web/utils/web.py
