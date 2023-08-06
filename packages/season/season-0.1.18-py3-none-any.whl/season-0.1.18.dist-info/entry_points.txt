@@ -1,0 +1,3 @@
+[console_scripts]
+sf = season.cmdtools:main [season]
+

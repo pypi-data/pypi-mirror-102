@@ -1,0 +1,17 @@
+season/__init__.py,sha256=xLiRVjueDCE8IwHDrDYmqnpfcZeQUxnq8P6WmOmJvcQ,3545
+season/cmdtools.py,sha256=N07e2aSi0nfXoEl4fxbCl-HkUg-U71fyJpGyOLD3cZU,9351
+season/config.py,sha256=284OUP41p5UvNyJiYHFnqorGkmnq0t1NNyC5I2H6qrg,1109
+season/core.py,sha256=gbzcmdHPbKIflhGVFNeIvhXHEqquyEbM9uZy3-0R-RU,805
+season/framework.py,sha256=9tEyjA5v0AhggoGThd9rgqrYY6Yd725ab_1LnYAbe0Q,2047
+season/lib.py,sha256=TCJNSzhkvsLAwM-AUDmIGDMYGNHRoSVMeM3DtyDepbY,2159
+season/request.py,sha256=mqMGC90RwXsirmIRtzUqNM2iScnjqA-Ai5S59kIegZg,1931
+season/response.py,sha256=MCpxKm10S_ldyWDvxeeQ5PfbH9YyyD0Ur304k1MVfZo,3463
+season/segment.py,sha256=cBBE-7beQgwRujWnyufzJ31EklknXvOGphIqUX0Es6g,1079
+season/skeleton.py,sha256=b6jqnmChXnl9O4dXb_LX2GMe4rOC6HhoazL_q3MbSlU,8594
+season/version.py,sha256=S3TmVbqDk7WYEgmIDj0UhUixN9JNeFhRrdHVWikqRgw,203
+season-0.1.18.dist-info/LICENSE,sha256=XjhpeuLLxtkJuySSTAH6liBI37hqUNITtZM08eroNBU,1074
+season-0.1.18.dist-info/METADATA,sha256=rhDmhl71bBX2KQoG_RL0Qbk7-g0DlV_Ts3qmrNR8shI,1258
+season-0.1.18.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+season-0.1.18.dist-info/entry_points.txt,sha256=duB5v8wkUsuVGEPuep5MZvnNsReKoUft2SJmzCjOOik,54
+season-0.1.18.dist-info/top_level.txt,sha256=S_Lzsobv-8d-tfkqFxvJb07tgnzb3wLgciVACDkjtDk,7
+season-0.1.18.dist-info/RECORD,,
