@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: allenlib
+Version: 1.0.0.20210417
+Summary: allenlib
+Home-page: UNKNOWN
+Author: 刘雨桐
+Author-email: UNKNOWN
+Maintainer: 刘雨桐
+Maintainer-email: UNKNOWN
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+__init__:make_gui():make a window dialog
+debug
+cannot open '1.exe'
+
