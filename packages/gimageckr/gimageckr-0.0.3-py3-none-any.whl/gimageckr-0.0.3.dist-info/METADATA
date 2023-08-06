@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gimageckr
+Version: 0.0.3
+Summary: 구글 이미지 크롤러 라이브러리 (Google image crawler)
+Home-page: https://github.com/MinsooM/python_gimageckr
+Author: MinsooM
+Author-email: MinsooM2@gmail.com
+License: GPLv3
+Download-URL: https://github.com/MinsooM/python_gimageckr
+Requires-Dist: selenium
+
+# GImageCKR
+
+
