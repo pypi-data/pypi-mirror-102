@@ -1,0 +1,11 @@
+simple_imaging/__init__.py,sha256=-zcCuDk12Tv3_T7m3qAWIdkkO5010DhmljliBd_6xQs,91
+simple_imaging/errors.py,sha256=hzz5TTZoj7BHTmi3DdrTs9gPkZ8S-eEros47OXmcRts,275
+simple_imaging/image.py,sha256=Di5D2nMOVbMRzv0n5n-wU8IuGQ2_-mwlhSeuig0Jc0g,21260
+simple_imaging/matrix.py,sha256=Rfp3bOJMj50ZIGlt6Sn6dEwQrZco_umqCewPbBcdDd4,1794
+simple_imaging/types.py,sha256=OT3etWQaGKb_DzbVRhENjQZoic1aCMc67YwQFu5WYnI,3333
+simple_imaging/utils.py,sha256=3Mhfa2NN4NOhTQqqIa2F1GRxof2l1sm-M1hHdHOijYk,5835
+simple_imaging-0.1.1.dist-info/LICENSE,sha256=wJO7vG-zXfUhJTZAyjfzA6BfOy9KMHn6R7GY71O3WPM,1068
+simple_imaging-0.1.1.dist-info/METADATA,sha256=X0PbKHhMgHVih7T3I5adbsbscbRBvVOTu06xq9RAHQw,2102
+simple_imaging-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+simple_imaging-0.1.1.dist-info/top_level.txt,sha256=FTpIClfLzRVMqo8auLGiL9lLRwtzGjgvvo_duYpzwnU,15
+simple_imaging-0.1.1.dist-info/RECORD,,
