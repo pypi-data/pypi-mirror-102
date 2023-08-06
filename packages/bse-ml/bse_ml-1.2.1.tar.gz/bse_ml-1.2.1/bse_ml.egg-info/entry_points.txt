@@ -1,0 +1,3 @@
+[console_scripts]
+bse_ml = bse_ml:bse_ml
+
