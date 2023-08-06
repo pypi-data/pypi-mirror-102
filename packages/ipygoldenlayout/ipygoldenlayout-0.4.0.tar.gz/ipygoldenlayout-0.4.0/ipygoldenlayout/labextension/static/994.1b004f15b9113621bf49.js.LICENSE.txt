@@ -1,0 +1,367 @@
+/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=style&index=0&lang=css& */
+
+/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=style&index=0&lang=css& */
+
+/*! -!../../node_modules/ts-loader??ref--0!../../node_modules/vue-loader/lib??vue-loader-options!../../node_modules/source-map-loader!./gl-container-route.vue?vue&type=script&lang=ts& */
+
+/*! -!../../node_modules/ts-loader??ref--0!../../node_modules/vue-loader/lib??vue-loader-options!../../node_modules/source-map-loader!./gl-route.vue?vue&type=script&lang=ts& */
+
+/*! -!../../node_modules/ts-loader??ref--0!../../node_modules/vue-loader/lib??vue-loader-options!../../node_modules/source-map-loader!./gl-router.vue?vue&type=script&lang=ts& */
+
+/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./gl-container-route.vue?vue&type=template&id=14074b06& */
+
+/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./gl-route.vue?vue&type=template&id=768cfac9& */
+
+/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./gl-router.vue?vue&type=template&id=5eafe7f9& */
+
+/*! -!../node_modules/style-loader/dist/cjs.js!../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=style&index=0&lang=css& */
+
+/*! -!../node_modules/style-loader/dist/cjs.js!../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=style&index=0&lang=css& */
+
+/*! -!../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./gl-component.vue?vue&type=script&lang=ts& */
+
+/*! -!../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./gl-group.vue?vue&type=script&lang=ts& */
+
+/*! -!../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./golden.vue?vue&type=script&lang=ts& */
+
+/*! -!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=template&id=324e7223& */
+
+/*! -!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./gl-group.vue?vue&type=template&id=4a7e71a5& */
+
+/*! -!../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=template&id=30c4e8d2& */
+
+/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! ../colors */
+
+/*! ../gl-component.vue */
+
+/*! ../gl-dstack */
+
+/*! ../golden */
+
+/*! ../golden.vue */
+
+/*! ../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! ../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! ../roles */
+
+/*! ../utils */
+
+/*! ./child */
+
+/*! ./container */
+
+/*! ./gl-component-route */
+
+/*! ./gl-component.vue */
+
+/*! ./gl-component.vue?vue&type=script&lang=ts& */
+
+/*! ./gl-component.vue?vue&type=style&index=0&lang=css& */
+
+/*! ./gl-component.vue?vue&type=template&id=324e7223& */
+
+/*! ./gl-container-route.vue */
+
+/*! ./gl-container-route.vue?vue&type=script&lang=ts& */
+
+/*! ./gl-container-route.vue?vue&type=template&id=14074b06& */
+
+/*! ./gl-dstack */
+
+/*! ./gl-group.vue */
+
+/*! ./gl-group.vue?vue&type=script&lang=ts& */
+
+/*! ./gl-group.vue?vue&type=template&id=4a7e71a5& */
+
+/*! ./gl-groups */
+
+/*! ./gl-route-base */
+
+/*! ./gl-route.vue */
+
+/*! ./gl-route.vue?vue&type=script&lang=ts& */
+
+/*! ./gl-route.vue?vue&type=template&id=768cfac9& */
+
+/*! ./gl-router.vue?vue&type=script&lang=ts& */
+
+/*! ./gl-router.vue?vue&type=template&id=5eafe7f9& */
+
+/*! ./golden.vue */
+
+/*! ./golden.vue?vue&type=script&lang=ts& */
+
+/*! ./golden.vue?vue&type=style&index=0&lang=css& */
+
+/*! ./golden.vue?vue&type=template&id=30c4e8d2& */
+
+/*! ./index */
+
+/*! ./item */
+
+/*! ./link */
+
+/*! ./roles */
+
+/*! ./router/gl-route.vue */
+
+/*! ./router/gl-router.vue */
+
+/*! ./utils */
+
+/*! exports provided: default */
+
+/*! exports provided: render, staticRenderFns */
+
+/*! golden-layout */
+
+/*! golden-layout/src/css/goldenlayout-base.css */
+
+/*! jquery */
+
+/*! no static exports found */
+
+/*! vue */
+
+/*! vue-property-decorator */
+
+/*! vue-resize-directive */
+
+/*!******************!*\
+  !*** ./index.ts ***!
+  \******************/
+
+/*!******************!*\
+  !*** ./utils.ts ***!
+  \******************/
+
+/*!*******************!*\
+  !*** ./colors.ts ***!
+  \*******************/
+
+/*!********************!*\
+  !*** ./golden.vue ***!
+  \********************/
+
+/*!**********************!*\
+  !*** ./gl-dstack.ts ***!
+  \**********************/
+
+/*!**********************!*\
+  !*** ./gl-group.vue ***!
+  \**********************/
+
+/*!**********************!*\
+  !*** ./gl-groups.ts ***!
+  \**********************/
+
+/*!**********************!*\
+  !*** external "vue" ***!
+  \**********************/
+
+/*!***********************!*\
+  !*** ./roles/item.ts ***!
+  \***********************/
+
+/*!***********************!*\
+  !*** ./roles/link.ts ***!
+  \***********************/
+
+/*!************************!*\
+  !*** ./roles/child.ts ***!
+  \************************/
+
+/*!************************!*\
+  !*** ./roles/index.ts ***!
+  \************************/
+
+/*!*************************!*\
+  !*** ./router/utils.ts ***!
+  \*************************/
+
+/*!*************************!*\
+  !*** external "jquery" ***!
+  \*************************/
+
+/*!**************************!*\
+  !*** ./gl-component.vue ***!
+  \**************************/
+
+/*!****************************!*\
+  !*** ./roles/container.ts ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./router/gl-route.vue ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./router/gl-router.vue ***!
+  \******************************/
+
+/*!********************************!*\
+  !*** external "golden-layout" ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./router/gl-route-base.ts ***!
+  \*********************************/
+
+/*!**************************************!*\
+  !*** ./router/gl-component-route.ts ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./router/gl-container-route.vue ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** external "vue-resize-directive" ***!
+  \***************************************/
+
+/*!*****************************************!*\
+  !*** external "vue-property-decorator" ***!
+  \*****************************************/
+
+/*!*********************************************!*\
+  !*** ./golden.vue?vue&type=script&lang=ts& ***!
+  \*********************************************/
+
+/*!***********************************************!*\
+  !*** ./gl-group.vue?vue&type=script&lang=ts& ***!
+  \***********************************************/
+
+/*!***************************************************!*\
+  !*** ./gl-component.vue?vue&type=script&lang=ts& ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./golden.vue?vue&type=template&id=30c4e8d2& ***!
+  \***************************************************/
+
+/*!*****************************************************!*\
+  !*** ./gl-group.vue?vue&type=template&id=4a7e71a5& ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./golden.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ../node_modules/css-loader/dist/runtime/api.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./router/gl-route.vue?vue&type=script&lang=ts& ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./router/gl-router.vue?vue&type=script&lang=ts& ***!
+  \*******************************************************/
+
+/*!*********************************************************!*\
+  !*** ./gl-component.vue?vue&type=template&id=324e7223& ***!
+  \*********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./gl-component.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./router/gl-route.vue?vue&type=template&id=768cfac9& ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./router/gl-router.vue?vue&type=template&id=5eafe7f9& ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** external "golden-layout/src/css/goldenlayout-base.css" ***!
+  \**************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./router/gl-container-route.vue?vue&type=script&lang=ts& ***!
+  \****************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./router/gl-container-route.vue?vue&type=template&id=14074b06& ***!
+  \**********************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \*****************************************************************************/
+
+/*!********************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./golden.vue?vue&type=script&lang=ts& ***!
+  \********************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./gl-group.vue?vue&type=script&lang=ts& ***!
+  \**********************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./gl-component.vue?vue&type=script&lang=ts& ***!
+  \**************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./router/gl-route.vue?vue&type=script&lang=ts& ***!
+  \*****************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./router/gl-router.vue?vue&type=script&lang=ts& ***!
+  \******************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=template&id=30c4e8d2& ***!
+  \***********************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./gl-group.vue?vue&type=template&id=4a7e71a5& ***!
+  \*************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/ts-loader??ref--0!../node_modules/vue-loader/lib??vue-loader-options!../node_modules/source-map-loader!./router/gl-container-route.vue?vue&type=script&lang=ts& ***!
+  \***************************************************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=template&id=324e7223& ***!
+  \*****************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./router/gl-route.vue?vue&type=template&id=768cfac9& ***!
+  \********************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./router/gl-router.vue?vue&type=template&id=5eafe7f9& ***!
+  \*********************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/vue-loader/lib??vue-loader-options!./router/gl-container-route.vue?vue&type=template&id=14074b06& ***!
+  \******************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/style-loader/dist/cjs.js!../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./golden.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/style-loader/dist/cjs.js!../node_modules/css-loader/dist/cjs.js!../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../node_modules/vue-loader/lib??vue-loader-options!./gl-component.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
