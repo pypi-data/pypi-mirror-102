@@ -1,0 +1,2 @@
+selenium
+webdriver-extended>=1.1
