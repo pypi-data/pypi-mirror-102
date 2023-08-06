@@ -1,0 +1,61 @@
+from pathlib import Path
+from typing import Any, List, Literal, Union
+
+from minecraft_mod_manager.core.entities.mod_loaders import ModLoaders
+
+from .core.entities.mod import ModArg
+from .core.entities.version_info import Stabilities
+
+_app_name = __package__.replace("_", "-")
+
+
+class Config:
+    def __init__(self):
+        self.app_name: str = _app_name
+        self.verbose: bool = False
+        self.debug: bool = False
+        self.pretend: bool = False
+        self.dir: Path = Path(".")
+        self.action: Literal["install", "update", "configure", "list"]
+        self.arg_mods: List[ModArg] = []
+        self.filter = Filter()
+
+    def add_arg_settings(self, args: Any):
+        """Set additional configuration from script arguments
+
+        args:
+            args (list): All the parsed arguments
+        """
+        self.action = args.action
+        self.pretend = args.pretend
+        self.verbose = args.verbose
+        self.debug = args.debug
+        self.arg_mods = args.mods
+
+        if args.debug:
+            self.verbose = True
+
+        if args.dir:
+            self.dir = args.dir
+
+        if args.minecraft_version:
+            self.filter.version = args.minecraft_version
+
+        if args.alpha:
+            self.filter.stability = Stabilities.alpha
+        elif args.beta:
+            self.filter.stability = Stabilities.beta
+
+        if args.mod_loader:
+            self.filter.loader = ModLoaders.from_name(args.mod_loader)
+
+
+class Filter:
+    def __init__(self) -> None:
+        self.stability: Stabilities = Stabilities.stable
+        self.version: Union[str, None] = None
+        self.loader: ModLoaders = ModLoaders.unknown
+
+
+global config
+config = Config()
