@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: codename-generator
+Version: 1.1.2
+Summary: Codename generator. A Python implementation of https://github.com/MarkSMurphy/codename-generator
+Home-page: https://github.com/wheresalice/codename-generator
+Author: Alice Kaerast
+Author-email: alice@kaerast.info
+License: MIT
+Keywords: python project codename generator code name
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# codename_generator
+
+A Python version of the NPM package  [codename-generator](https://www.npmjs.com/package/codename-generator) and inspired by [codename](https://github.com/and3rson/codename)
+
+Some ugly words have been removed (gross, underwear), we may remove more in the future.
+
+## Installation
+
+`pip install codename_generator`
+
+## Usage
+
+```shell
+codename_generator
+```
+
+Or in code:
+
+```python
+from codename_generator import generator
+generator()
+```
+
+
