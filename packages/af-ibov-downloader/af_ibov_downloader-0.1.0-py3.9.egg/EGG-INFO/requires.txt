@@ -1,0 +1,10 @@
+requests==2.*,>=2.25.1
+
+[dev]
+dephell==0.*,>=0.8.3
+mypy==0.*,>=0.812.0
+pytest==6.*,>=6.2.3
+pytest-sugar==0.*,>=0.9.4
+requests-mock==1.*,>=1.8.0
+sphinx==3.*,>=3.5.4
+sphinx-rtd-theme==0.*,>=0.5.2
