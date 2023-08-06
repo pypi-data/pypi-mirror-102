@@ -1,0 +1,71 @@
+# sdrecommender
+
+This project is a 'pip' package that can be installed and operated on any device. This 'pip' package was made for the Software Development Lab project assigned in April 2021 Submitted by
+
+- Keshav R Rao (18070122032)
+
+- Nishanth Bhat (18070122041)
+
+- Pranav Pathare (18070122044)
+
+- Rayees Bhat (18070122048)
+
+This package contains tools to make a simple recommender system using 3 methods by giving a list of inputs to the module. The module has provisions for making predictions to a user using 3 different methods:
+
+- Content Based Filtering
+
+- Collaborative Filtering:
+
+  - Item-Item Filtering
+
+  - User-Item Filtering
+
+## General Structure/ Abstract Class:
+
+The abstract class contains 2 main functions:
+
+- getsimilaritems()
+- getuserrecommendation()
+
+#### getsimilaritems():
+
+This function is used to get the top k similar items which are similar to the item passed to the function. Depending on the class that calls the function, the similarity is calculated using that method. (e.g. If the Item-Item class calls this function then similarity is calculated based on the rules of the Item-Item Filtering method)
+
+#### getuserrecommendation():
+
+This function takes the user's ID and no. of recommendations as the parameter, then returns the top recommendations for the user. This function first filters the users favorite movies and then finds movies similar to those using the function above.
+
+## Content Based Filtering:
+
+This method of recommending objects to a certain user depends solely on the contents of the item itself. This 'content' could be any parameter that describes 2 similar items to be similar. Using this parameter we can calculate the similarity between any 2 items purely based on their contents.
+
+## Collaborative Filtering:
+
+This method of recommender systems only considers the ratings given by the user and does not check for the contents of the item themselves. Similarity between items is calculated purely based on the ratings given by the same users to both items. This contains 2 approaches:
+
+- Item-Item Filtering
+- User-Item Filtering
+
+### Item-Item Filtering:
+
+Item-item collaborative filtering, or item-based, or item-to-item, is a form of collaborative filtering for recommender systems based on the similarity between items calculated using people's ratings of those items. Item-item collaborative filtering was invented and used by Amazon.com
+
+### User-Item Filtering:
+
+The underlying assumption of the collaborative filtering approach is that if a person A has the same opinion as a person B on an issue, A is more likely to have B's opinion on a different issue than that of a randomly chosen person.
+
+# Contents
+
+- `sdrecommender` Is the main directory where all the contents of the module are stored
+- `sdrecommender/content_based_model` Contains the module for content based system, this module calculates similarity using the content based filtering approach
+- `sdrecommender/collaborative_model` Contains all the modules which use the collaborative filtering approach
+- `sdrecommender/collaborative_model/itemitemfilter.py` Contains the methods which utilize item-item filtering approach described above.
+- `sdrecommender/collaborative_model/useritemfilter.py` Contains the methods which utilize user-item filtering approach described above.
+
+```mermaid
+graph LR
+SDRecommender--> Contentbased_Filter
+SDRecommender-->Collaborative_filter
+Collaborative_filter--> Item-Item_filter
+Collaborative_filter--> User-Item_filter
+```

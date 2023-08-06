@@ -1,0 +1,14 @@
+README.md
+setup.py
+sdrecommender/__init__.py
+sdrecommender/_abcrecommender.py
+sdrecommender.egg-info/PKG-INFO
+sdrecommender.egg-info/SOURCES.txt
+sdrecommender.egg-info/dependency_links.txt
+sdrecommender.egg-info/requires.txt
+sdrecommender.egg-info/top_level.txt
+sdrecommender/collaborative_model/__init__.py
+sdrecommender/collaborative_model/_itemitemfilter.py
+sdrecommender/collaborative_model/_useritemfilter.py
+sdrecommender/content_based_model/__init__.py
+sdrecommender/content_based_model/_contentbasedfilter.py
