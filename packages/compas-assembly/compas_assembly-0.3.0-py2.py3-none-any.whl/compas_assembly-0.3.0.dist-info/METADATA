@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: compas-assembly
+Version: 0.3.0
+Summary: Assembly data structures for the COMPAS framework.
+Home-page: https://github.com/BlockResearchGroup/compas_assembly
+Author: Tom Van Mele
+Author-email: van.mele@arch.ethz.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: COMPAS (>=1.0)
+Requires-Dist: shapely
+
+# COMPAS Assembly
+
+Assembly data structure for the COMPAS framework.
+
+## Getting Started
+
+https://blockresearchgroup.github.io/compas_asssembly/gettingstarted.html
+
+## First Steps
+
+Try one of the examples included in the `examples` folder.
+
+## Issues
+
+## Contact
+
+## License
+
+
