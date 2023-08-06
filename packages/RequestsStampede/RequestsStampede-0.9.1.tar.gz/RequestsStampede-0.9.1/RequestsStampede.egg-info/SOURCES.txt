@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+RequestsStampede/__init__.py
+RequestsStampede/config.py
+RequestsStampede/exceptions.py
+RequestsStampede/horde.py
+RequestsStampede/models.py
+RequestsStampede.egg-info/PKG-INFO
+RequestsStampede.egg-info/SOURCES.txt
+RequestsStampede.egg-info/dependency_links.txt
+RequestsStampede.egg-info/requires.txt
+RequestsStampede.egg-info/top_level.txt
+RequestsStampede/policy/__init__.py
+RequestsStampede/policy/backoff.py
+RequestsStampede/policy/retry.py
