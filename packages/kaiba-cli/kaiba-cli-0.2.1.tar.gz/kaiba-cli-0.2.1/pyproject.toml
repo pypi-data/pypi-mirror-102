@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kaiba-cli"
+version = "0.2.1"
+description = "Kaiba Json Transformer CLI"
+authors = ["Thomas Borgen <thomas@borgenit.no>"]
+
+[tool.poetry.scripts]
+kaiba = 'kaiba_cli.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+returns = "^0.14.0"
+typing_extensions = "^3.7.4"
+simplejson = "^3.17.2"
+kaiba = "^0.2.1"
+
+[tool.poetry.dev-dependencies]
+# Tests
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
+# Code quality
+wemake-python-styleguide = "^0.14.1"
+mypy = "^0.782"
+safety = "^1.9.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

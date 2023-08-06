@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kaiba-cli
+Version: 0.2.1
+Summary: Kaiba Json Transformer CLI
+Author: Thomas Borgen
+Author-email: thomas@borgenit.no
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: kaiba (>=0.2.1,<0.3.0)
+Requires-Dist: returns (>=0.14.0,<0.15.0)
+Requires-Dist: simplejson (>=3.17.2,<4.0.0)
+Requires-Dist: typing_extensions (>=3.7.4,<4.0.0)
