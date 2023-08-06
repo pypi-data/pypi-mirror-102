@@ -1,0 +1,3 @@
+[console_scripts]
+wopeditor = wopeditor.wopeditor:run_app
+
