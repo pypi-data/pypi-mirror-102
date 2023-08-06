@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: rss-to-graphql
+Version: 0.0.1
+Summary: A microservice proxy to convert an rss feed to a GraphQL API endpoint
+Home-page: UNKNOWN
+Author: Kuda Savanhu
+Maintainer: Kuda Savanhu
+License: UNKNOWN
+Description: ## RSS TO GRAPHQL
+        
+        A microservice proxy to convert an RSS feed to a GraphQL API endpoint
+        
+        ## Install
+        
+        `shell $ pip install rss-to-graphql `
+        
+        Requires Python3.6 or later.
+        
+        ## Usage
+        
+        ### CLI for starting the server
+        
+        ```shell
+            Usage: python -m  rss_to_graphql [OPTIONS]
+        
+            optional arguments:
+                -h, --help            Output usage information
+                --feed_url FEED_URL   RSS feed url
+                --port PORT           Server Port
+                --subscriptions_enabled SUBSCRIPTIONS_ENABLED Enable subscriptions, requres a redis cache
+                --subscription_ttl SUBSCRIPTION_TTL Subscriptions refresh time to live, in seconds
+                --redis_url REDIS_URL Redis url string, e.g. redis://[:password]@localhost:6379/0
+        ```
+        
+        ## Subscriptions
+        
+        Supports subscriptions for new itme in the feed. Items are refreshed based on the time-to-live provided by the feed or a user defined refresh period, defaults to 1 minute if neither is provided
+        
+        ## Sample queries
+        
+        Retrieve channel info
+        
+        ```graphql
+        {
+            channel {
+                title
+                link
+                atomLink {
+                    href
+                    rel
+                }
+                language
+                copyright
+                description
+            }
+        }
+        ```
+        
+        Retrieve feed items
+        
+        ```graphql
+        {
+            items {
+                title
+                description
+                link
+                pubDate
+            }
+        }
+        ```
+Keywords: python,rss to graphql,requests,rss,graphql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

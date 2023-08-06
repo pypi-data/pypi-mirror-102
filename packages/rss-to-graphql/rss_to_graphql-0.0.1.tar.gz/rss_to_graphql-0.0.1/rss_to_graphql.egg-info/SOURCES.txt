@@ -1,0 +1,11 @@
+README.md
+setup.py
+rss_to_graphql/__init__.py
+rss_to_graphql/__main__.py
+rss_to_graphql/schema.py
+rss_to_graphql/template.py
+rss_to_graphql.egg-info/PKG-INFO
+rss_to_graphql.egg-info/SOURCES.txt
+rss_to_graphql.egg-info/dependency_links.txt
+rss_to_graphql.egg-info/requires.txt
+rss_to_graphql.egg-info/top_level.txt
