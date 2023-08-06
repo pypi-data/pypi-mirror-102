@@ -1,0 +1,3 @@
+planetary_computer
+scripts
+tests
