@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-hplc
+Version: 0.1.1
+Summary: An unoffical Python wrapper for the SSI-Teledyne Next Generation class HPLC pumps.
+Home-page: https://github.com/teauxfu/py-hplc
+License: MIT
+Author: Alex W
+Author-email: alex@southsun.tech
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyserial (>=3.5,<4.0)
