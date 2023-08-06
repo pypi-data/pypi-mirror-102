@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: index-of-refraction
+Version: 1.0
+Summary: A package to generate the index of refraction from Vector Network Analyzer data or densities.
+Home-page: http://github.com/phys201/index_of_refraction
+Author: spacemir
+Author-email: miranda.eiben@cfa.harvard.edu
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
