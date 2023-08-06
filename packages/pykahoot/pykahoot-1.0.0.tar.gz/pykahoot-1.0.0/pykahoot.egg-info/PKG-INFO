@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: pykahoot
+Version: 1.0.0
+Summary: A working kahoot python API, to replace the terminated KahootPY
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: A python wrapper for kahoot made with selenium.
+        
+        
+        
+Platform: UNKNOWN

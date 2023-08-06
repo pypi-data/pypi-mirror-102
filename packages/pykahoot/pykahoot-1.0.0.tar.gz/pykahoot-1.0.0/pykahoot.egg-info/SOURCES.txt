@@ -1,0 +1,6 @@
+README.txt
+setup.py
+pykahoot.egg-info/PKG-INFO
+pykahoot.egg-info/SOURCES.txt
+pykahoot.egg-info/dependency_links.txt
+pykahoot.egg-info/top_level.txt
