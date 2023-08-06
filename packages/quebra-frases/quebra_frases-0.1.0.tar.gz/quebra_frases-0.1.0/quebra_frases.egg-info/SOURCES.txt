@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+quebra_frases/__init__.py
+quebra_frases.egg-info/PKG-INFO
+quebra_frases.egg-info/SOURCES.txt
+quebra_frases.egg-info/dependency_links.txt
+quebra_frases.egg-info/top_level.txt
