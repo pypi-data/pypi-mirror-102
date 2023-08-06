@@ -1,0 +1,3 @@
+[console_scripts]
+pgvessel = pgvessel.main:entrypoint
+
