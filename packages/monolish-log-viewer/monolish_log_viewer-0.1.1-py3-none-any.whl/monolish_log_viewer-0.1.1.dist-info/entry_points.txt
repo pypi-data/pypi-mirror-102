@@ -1,0 +1,3 @@
+[console_scripts]
+monolish_log_viewer=monolish_log_viewer.__main__:main
+
