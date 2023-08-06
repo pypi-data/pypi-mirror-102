@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mylearn
+Version: 0.0.1
+Summary: mylearn: my Machine Learning toolkit
+Home-page: https://github.com/MichaelKarpe/mylearn
+Author: Michaël Karpe
+Author-email: michael.karpe@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: numpy (==1.20.2)
+Requires-Dist: pandas (==1.2.3)
+Requires-Dist: scikit-learn (==0.24.1)
+Requires-Dist: seaborn (==0.11.1)
+
+mylearn: my Machine Learning toolkit
+
+
