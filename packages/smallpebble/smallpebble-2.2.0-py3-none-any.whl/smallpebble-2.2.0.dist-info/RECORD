@@ -1,0 +1,14 @@
+smallpebble/__init__.py,sha256=pREVBOew-do4OhewleCwgTWoWZG-4kYhLei0lqrrA8w,143
+smallpebble/array_library.py,sha256=6MDVBR4_QJrrF4bDYSwDgKPOUyygePD-5wBYNv7vCrs,762
+smallpebble/smallpebble-try.py,sha256=xdFIPLhBKrN3hjEeFvnMR5kYf9ODyrzgsl0EX2m5BeM,24349
+smallpebble/smallpebble.py,sha256=bX2JHIC1imFl2kPpMtFGOgeiSuvQWa0kx9p56oSVpBM,25387
+smallpebble/version.py,sha256=PZ7ArXpwaSNnLa4NV-MAvm1uIWozC-gnibW0ZL1dFjg,18
+smallpebble/misc/__init__.py,sha256=uPbSY2g7OlDjbWUKVcnxcgauIPnWclUMEQlEuHFKIAY,44
+smallpebble/misc/data.py,sha256=Tx1yKmphjCImAuc64MFk4uLZgaUh0MDAZS2kNoZKMxU,5130
+smallpebble/tests/__init__.py,sha256=hI7Vd_N7np9wxcYdWpHeulFoQzwN7Qx26I7DZsdJdQs,1224
+smallpebble/tests/test_smallpebble.py,sha256=0-dGSxQY5WP6uHB-K7312eTvcjXyKhtSRfsBnHSPdic,14384
+smallpebble-2.2.0.dist-info/LICENSE,sha256=rid9VLR5DYSzK9JpeQg9wqAYnifUfP4fqUh4laYotdA,11416
+smallpebble-2.2.0.dist-info/METADATA,sha256=m0F1zEEt6A8VgzECzfG6wyrH19gRi6mN9LNrXOwZ59g,14185
+smallpebble-2.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+smallpebble-2.2.0.dist-info/top_level.txt,sha256=jOCqCwLnatvHdSMnnkc0Uq46y8Y8UiTBlyykDwUIte0,12
+smallpebble-2.2.0.dist-info/RECORD,,
