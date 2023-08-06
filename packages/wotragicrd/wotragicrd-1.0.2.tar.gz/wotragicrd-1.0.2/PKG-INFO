@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: wotragicrd
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Description
+        ===========
+        
+        document = Document() - create file
+        header(text) - create head
+        paragrapher(text) - create paragraph
+        saver(name) - save file
+        
+        https://github.com/jene4kabezdar/wotragicrd
+Platform: UNKNOWN
