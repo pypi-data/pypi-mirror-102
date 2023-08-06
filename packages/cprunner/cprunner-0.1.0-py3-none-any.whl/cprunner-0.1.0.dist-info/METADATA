@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cprunner
+Version: 0.1.0
+Summary: A helper script to run competitive programs and diff output
+Home-page: https://github.com/RedDocMD/cprunner
+Author: Deep Majumder
+Author-email: deep.majumder2019@gmail.com
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/RedDocMD/cprunner/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor
+
+# CP Runner
+
+![PyPI](https://img.shields.io/pypi/v/cprunner)
+
+A helper "script" to quickly run your competitive programs and diff it against the expected output.
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+cpr = cprunner.cprunner:executor
+
