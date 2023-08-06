@@ -1,0 +1,7 @@
+setup.py
+wengmack_project/__init__.py
+wengmack_project/data.py
+wengmack_project.egg-info/PKG-INFO
+wengmack_project.egg-info/SOURCES.txt
+wengmack_project.egg-info/dependency_links.txt
+wengmack_project.egg-info/top_level.txt
