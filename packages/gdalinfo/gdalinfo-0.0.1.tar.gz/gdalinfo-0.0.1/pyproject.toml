@@ -1,0 +1,21 @@
+[tool]
+
+[tool.enscons]
+name="gdalinfo"
+version="0.0.1"
+packages=['gdalinfo']
+install_requires=['cffi']
+description="PyPy-compatible wrapper for GDALINFO() to read GIS metadata"
+license="MIT"
+classifiers=[
+  "Programming Language :: Python :: 3",
+]
+keywords=["gdal", "pypy", "cffi"]
+author="Daniel Holth"
+author_email="dholth@gmail.com"
+url="https://github.com/dholth/gdalinfo/"
+src_root = "src"
+
+[build-system]
+requires = ["pytoml>=0.1", "enscons"]
+build-backend = "enscons.api"
