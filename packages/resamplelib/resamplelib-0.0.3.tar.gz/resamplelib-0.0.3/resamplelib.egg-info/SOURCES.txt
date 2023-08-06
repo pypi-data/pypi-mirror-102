@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+resamplelib/__init__.py
+resamplelib/binning.py
+resamplelib/jackknife.py
+resamplelib.egg-info/PKG-INFO
+resamplelib.egg-info/SOURCES.txt
+resamplelib.egg-info/dependency_links.txt
+resamplelib.egg-info/requires.txt
+resamplelib.egg-info/top_level.txt
