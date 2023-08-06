@@ -1,0 +1,9 @@
+iliad/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+iliad/cli.py,sha256=dYSgnMuBW_OLHQoTC1VXhXJtRsoYO__9qp-0u5Vy6cA,321
+iliad/find.py,sha256=_Zr9L-oPEgfL-zcFvGReMtXHF74gvWJjsuKFVb7LUhQ,2500
+iliad/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iliad-0.4.0.dist-info/entry_points.txt,sha256=ncaQH4XAQT73Fli_Tt4Q4eaTanH7ZYjeGn519mIrjc8,39
+iliad-0.4.0.dist-info/LICENSE,sha256=W7J9bN3_plV47kf_gz1YwcZjvJIJjl_z9J4lyPBFvvs,1068
+iliad-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+iliad-0.4.0.dist-info/METADATA,sha256=Dk6bi7PL3WqYoyxwObSTETPVl3T1y2qIaodWjsU3reA,781
+iliad-0.4.0.dist-info/RECORD,,
