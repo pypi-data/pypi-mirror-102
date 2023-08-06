@@ -1,0 +1,6 @@
+[daipe.decorator_mapping]
+input_decorators=databricksbundle.notebook.lineage.mapping:get_mapping
+
+[pyfony.bundle]
+create=databricksbundle.DatabricksBundle:DatabricksBundle.autodetect
+
