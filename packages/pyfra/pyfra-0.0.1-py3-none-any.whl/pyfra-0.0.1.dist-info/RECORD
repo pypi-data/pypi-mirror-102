@@ -1,0 +1,13 @@
+pyfra/__init__.py,sha256=5FjVgTc7isVOrrso9qDknE9eDWJXQVCgaafDHkoj6Mg,68
+pyfra/functional/__init__.py,sha256=YYhpaHLPyfSig160PnOCcft_EkubrdLpp5eQ9o2Enrw,506
+pyfra/functional/iterators.py,sha256=8iTlIsAWL1mpQy2tY8GfPZoloOJPHSonG7QhaFdLVSY,1116
+pyfra/remote/__init__.py,sha256=U0pdcVe4WVXG7KWlekK_m5zFDrQk-9iJOyVd8Mbr1ww,3066
+pyfra/remote/wrapper.py,sha256=jLY2OcGA6HeEj3l84O10a3Nyw9ZURXqizHHF5FTwduQ,420
+pyfra/utils/__init__.py,sha256=Ic9oCzU19-ff8hHRPRCKS6VvVHAk4R18RvR--NC2XQ4,41
+pyfra/utils/files.py,sha256=dcQXRKZTJto4gsRpCiPFi6gBWUqJi0OD9b1apY3aLgQ,1726
+pyfra/utils/shell.py,sha256=rQcCNVEHmd0IELtvXhhglfpK54we_SPSo7o5py1iz_E,2360
+pyfra-0.0.1.dist-info/LICENSE,sha256=FvbayMMQex2mF1Zf9YR4UxHEfY1zofJ5c4WRZCcAWgo,1064
+pyfra-0.0.1.dist-info/METADATA,sha256=pWsdhKIbrMqKnDh2Uj4EBcNMKhkVKCsanbtB0mJGlcc,464
+pyfra-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyfra-0.0.1.dist-info/top_level.txt,sha256=95SWQSdR3hEllPloS9dE7B_ht3Bgzar2ZLfgzVtvR6w,6
+pyfra-0.0.1.dist-info/RECORD,,
