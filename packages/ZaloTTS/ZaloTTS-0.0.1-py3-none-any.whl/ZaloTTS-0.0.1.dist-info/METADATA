@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ZaloTTS
+Version: 0.0.1
+Summary: Zalo Text To Speech
+Home-page: https://github.com/iconclub/zalo-tts
+Author: Hieu Nguyen
+Author-email: hieunguyen1053@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: PyAudio (==0.2.11)
+Requires-Dist: python-dotenv (==0.17.0)
+
+UNKNOWN
+
+
