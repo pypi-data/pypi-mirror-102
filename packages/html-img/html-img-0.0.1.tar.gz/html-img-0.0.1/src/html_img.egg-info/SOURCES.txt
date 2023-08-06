@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/html_img/__init__.py
+src/html_img/render.py
+src/html_img.egg-info/PKG-INFO
+src/html_img.egg-info/SOURCES.txt
+src/html_img.egg-info/dependency_links.txt
+src/html_img.egg-info/top_level.txt
