@@ -1,0 +1,7 @@
+0.1.0: First version on GitHUB
+
+0.2.0: First version on PyPI
+    Full implementation of a Set and a Mapping using either an AVL or
+    a Red-Black binary Tree.
+    Coverage > 90%
+    Uses pyproject.toml

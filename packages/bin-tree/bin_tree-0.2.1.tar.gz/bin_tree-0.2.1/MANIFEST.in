@@ -1,0 +1,8 @@
+include LICENSE.txt
+include README.md
+exclude *~
+include CHANGES.txt
+prune docs
+prune bin_tree.egg-info
+global-exclude .*
+exclude appveyor.yml
