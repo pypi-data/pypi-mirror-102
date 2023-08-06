@@ -1,0 +1,11 @@
+CHANGELOG.rst,sha256=uB-IBddPh_wmb9CKW76YBjmpKmuSNZ3IQPI5GP2UXs8,947
+LICENCE,sha256=ibhnAeX_ee7ucHWL5ozcYLb8OPtO3zZYaM3Z06eXhhA,11348
+django_any_js/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_any_js/apps.py,sha256=fDppQazSm7kVsDHwgJybUrqYsr05l6HqbGXXUUk12Cc,99
+django_any_js/templates/django_any_js/css.html,sha256=uWFnLKQFG6hVPrga8vvUAndIAxeABqT8j6EP0PW43Mo,63
+django_any_js/templates/django_any_js/js.html,sha256=rKUrBtlxJgFl6JUFvRzvwxoHJUOGzaFhtg877uTmGOQ,60
+django_any_js/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_any_js/templatetags/any_js.py,sha256=vLskQkJ5dQcnNeTEjnsXmdafFUMs_nV07dXSpjQwNV0,575
+django_any_js-1.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+django_any_js-1.1.dist-info/METADATA,sha256=Y1NnsV7nxz7ojqquiGOuqbUlpYV7XN_smfcfgkXP9MI,1843
+django_any_js-1.1.dist-info/RECORD,,
