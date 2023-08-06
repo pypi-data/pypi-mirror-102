@@ -1,0 +1,12 @@
+README.md
+setup.py
+vermon/__about__.py
+vermon/__init__.py
+vermon/core.py
+vermon/exceptions.py
+vermon.egg-info/PKG-INFO
+vermon.egg-info/SOURCES.txt
+vermon.egg-info/dependency_links.txt
+vermon.egg-info/not-zip-safe
+vermon.egg-info/requires.txt
+vermon.egg-info/top_level.txt
