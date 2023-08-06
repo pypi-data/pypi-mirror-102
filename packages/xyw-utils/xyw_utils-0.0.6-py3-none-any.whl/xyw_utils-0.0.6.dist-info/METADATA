@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xyw-utils
+Version: 0.0.6
+Summary: 个人工具合集
+Home-page: UNKNOWN
+Author: 二炜
+Author-email: 1174543101@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pygal
+Requires-Dist: cairosvg
+Requires-Dist: cssselect2
+Requires-Dist: pikepdf
+Requires-Dist: img2pdf
+Requires-Dist: openpyxl
+Requires-Dist: xlwt
+Requires-Dist: xlsxwriter
+
+一些常用的工具函数，主要为客车整车试验数据处理相关内容。
+
+
