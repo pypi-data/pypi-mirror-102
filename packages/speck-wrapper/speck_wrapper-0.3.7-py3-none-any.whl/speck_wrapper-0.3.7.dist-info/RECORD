@@ -1,0 +1,13 @@
+speck/__init__.py,sha256=9hq2UtgIamTQYFFmQilKiRLU1zXUNp3e515KPcps2-g,288
+speck/cache.py,sha256=AlE1ojkc1WyNfEoO0EyV0ovvMnoJlSJ9mYIIFZUFPaM,5764
+speck/client.py,sha256=dVs2LoXAkt3y9HC1hKq8w1xH_a_1lDid5hMM14I6SWs,12045
+speck/errors.py,sha256=WqxEPRC4owLfOCERWJEVQ0eXd5LDZrVnKbvAAKqIfsc,1814
+speck/etc/cities_p.json,sha256=YFJl-yWDyKUvf-P2_bDkVh7dwJRb7ndFH68cm4hW9E0,11713960
+speck/types/__init__.py,sha256=hTaQ454GYGPUUK99exfQ6mkD-5WLLhcLaHSCp9Slx14,100
+speck/types/data_point.py,sha256=Gi8vcxrpEGMzs-TuZoXVVBR7RXnKONwf80OH98n93qo,8358
+speck/types/raw.py,sha256=gU-4tVGfYr0_7Dfk11LSf0W72HBunZ-6P47YM6XtGss,1359
+speck_wrapper-0.3.7.dist-info/LICENSE,sha256=eZ-FGQy__np8gMzVPNt0CUplPeKF5iqJs-q1x6DkkVI,1084
+speck_wrapper-0.3.7.dist-info/METADATA,sha256=LolxFIbVLgMeEhblbaEB1CAJ9HaugDG3_a9uhm40GHA,2530
+speck_wrapper-0.3.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+speck_wrapper-0.3.7.dist-info/top_level.txt,sha256=exYQhrELkrkqXZfpm0jycQPn8B4PbwZNFPZSMvuVKv4,6
+speck_wrapper-0.3.7.dist-info/RECORD,,
