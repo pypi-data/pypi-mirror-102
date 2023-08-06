@@ -1,0 +1,4 @@
+tqdm
+argparse
+requests
+arxiv==0.5.3
