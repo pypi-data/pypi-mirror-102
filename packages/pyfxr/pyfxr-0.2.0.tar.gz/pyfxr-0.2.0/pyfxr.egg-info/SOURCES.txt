@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+_pyfxr.c
+_pyfxr.pyx
+pyfxr.py
+pyfxr_gui.py
+pyproject.toml
+setup.cfg
+setup.py
+pyfxr.egg-info/PKG-INFO
+pyfxr.egg-info/SOURCES.txt
+pyfxr.egg-info/dependency_links.txt
+pyfxr.egg-info/entry_points.txt
+pyfxr.egg-info/not-zip-safe
+pyfxr.egg-info/requires.txt
+pyfxr.egg-info/top_level.txt
